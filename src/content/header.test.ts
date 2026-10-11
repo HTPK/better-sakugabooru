@@ -48,7 +48,7 @@ describe.each(CASES)('renderHeader on $name', ({ html, url, served }) => {
     expect(bar.contains(menu)).toBe(true)
     const logo = bar.querySelector<HTMLAnchorElement>('a.bsb-logo')!
     expect(logo.getAttribute('href')).toBe('/post')
-    expect(logo.textContent).toBe('Sakugabooru')
+    expect(logo.textContent).toBe('sakugabooru')
     expect(doc.getElementById('site-title')).not.toBeNull()
     expect(doc.getElementById('bsb-header')).not.toBeNull()
   })
@@ -153,6 +153,16 @@ describe('renderHeader on a Japanese page', () => {
     renderHeader(doc, DEFAULTS)
     expect(doc.querySelector('#main-menu > ul > li.post > a')!.textContent).toBe('投稿')
     expect(doc.querySelector('nav.bsb-lang a.bsb-current')!.textContent).toBe('JP')
+  })
+
+  it('list page: the header search box is hidden by CSS (the band has the search), not removed', () => {
+    const doc = load(CASES[1].html, CASES[1].url)
+    renderHeader(doc, DEFAULTS)
+    expect(doc.querySelector('.bsb-bar .bsb-search-form input[name="tags"]')).not.toBeNull()
+    const css = (doc.getElementById('bsb-header')!.textContent ?? '').replace(/\s+/g, ' ')
+    expect(css).toMatch(/html\.bsb-list \.bsb-bar \.bsb-search-form \{ display: none;/)
+    // The earlier overflow bug: the reparented menu must not stretch to the site's width: 100%.
+    expect(css).toMatch(/\.bsb-bar #main-menu \{[^}]*width: auto;/)
   })
 
   it('does nothing without #header', () => {

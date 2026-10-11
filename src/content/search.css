@@ -28,14 +28,36 @@
   color: var(--bsb-text);
   font-family: var(--bsb-font-jp);
 }
+/* Tag-type colour: 3 px left rule + the Japanese name (same tokens as cards and sidebar). */
 .bsb-sg[data-type="artist"] {
-  border-left-color: var(--bsb-text);
+  border-left-color: var(--bsb-artist);
 }
 .bsb-sg[data-type="copyright"] {
-  border-left-color: var(--bsb-lead);
+  border-left-color: var(--bsb-copyright);
 }
 .bsb-sg[data-type="general"] {
-  border-left-color: var(--bsb-muted);
+  border-left-color: var(--bsb-general);
+}
+.bsb-sg[data-type="character"] {
+  border-left-color: var(--bsb-character);
+}
+.bsb-sg[data-type="meta"] {
+  border-left-color: var(--bsb-meta);
+}
+.bsb-sg[data-type="artist"] .bsb-sg-ja {
+  color: var(--bsb-artist);
+}
+.bsb-sg[data-type="copyright"] .bsb-sg-ja {
+  color: var(--bsb-copyright);
+}
+.bsb-sg[data-type="general"] .bsb-sg-ja {
+  color: var(--bsb-general);
+}
+.bsb-sg[data-type="character"] .bsb-sg-ja {
+  color: var(--bsb-character);
+}
+.bsb-sg[data-type="meta"] .bsb-sg-ja {
+  color: var(--bsb-meta);
 }
 .bsb-sg:hover,
 .bsb-sg[aria-selected="true"] {

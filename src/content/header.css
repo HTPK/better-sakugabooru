@@ -26,9 +26,16 @@ html[data-bsb-theme] .bsb-bar a.bsb-logo {
   flex: 0 0 auto;
   font-family: var(--bsb-font-en);
   font-weight: 700;
-  font-size: 18px;
+  font-size: 22px;
+  line-height: 1;
   color: var(--bsb-text);
   white-space: nowrap;
+}
+
+/* ---- List page (html.bsb-list): search lives in the title band; body has no gutter, the bar adds 48 px ---- */
+html.bsb-list .bsb-bar .bsb-search-form { display: none; }
+html.bsb-list[data-bsb-theme] .bsb-bar {
+  padding: 0 48px;
 }
 
 /* ---- Site menu, reparented ---- */
@@ -230,11 +237,30 @@ html[data-bsb-theme] .bsb-bar .bsb-account li > ul.submenu {
   padding: 0;
 }
 
+/* Mock sizes (nav 15 px / gap 22 px, groups 32 px apart) only where they fit on one row. */
+@media (min-width: 1440px) {
+  html[data-bsb-theme] .bsb-bar {
+    gap: 12px 32px;
+  }
+  html[data-bsb-theme] .bsb-bar #main-menu > ul {
+    gap: 22px;
+  }
+  html[data-bsb-theme] .bsb-bar #main-menu > ul > li,
+  html[data-bsb-theme] .bsb-bar .bsb-account > li {
+    font-size: 15px;
+  }
+  .bsb-bar-end {
+    gap: 20px;
+  }
+}
+
 /* One row needs about 1200 px of content width; below 1280 px the right-hand group takes a second row. */
 @media (max-width: 1279px) {
-  html[data-bsb-theme] .bsb-bar {
+  html[data-bsb-theme] .bsb-bar,
+  html.bsb-list[data-bsb-theme] .bsb-bar {
     flex-wrap: wrap;
-    padding: 12px 0;
+    padding-top: 12px;
+    padding-bottom: 12px;
   }
   .bsb-bar-end {
     flex: 1 1 100%;
@@ -255,5 +281,9 @@ html[data-bsb-theme] .bsb-bar .bsb-account li > ul.submenu {
   }
   #subnavbar.bsb-subnav {
     padding: 0 16px;
+  }
+  html.bsb-list[data-bsb-theme] .bsb-bar {
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }

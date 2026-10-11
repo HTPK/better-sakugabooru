@@ -325,7 +325,13 @@ function sideItem(ctx: Ctx, type: PanelSpec['type'], row: SideRow, chip: boolean
     doc,
     'a',
     { class: cls, href: row.href, title: row.tag, 'data-tag': row.tag },
-    h(doc, 'span', { class: 'bsb-side-name' }, ja ?? row.tag, raw && h(doc, 'span', { class: 'bsb-untranslated' }, UNTRANSLATED)),
+    h(
+      doc,
+      'span',
+      { class: 'bsb-side-name' },
+      raw ? h(doc, 'span', { class: 'bsb-side-text' }, row.tag) : (ja ?? row.tag),
+      raw && h(doc, 'span', { class: 'bsb-untranslated' }, UNTRANSLATED),
+    ),
     chip ? ' ' : null,
     h(doc, 'span', { class: 'bsb-side-count bsb-en' }, String(row.count)),
   )

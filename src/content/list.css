@@ -88,6 +88,20 @@ html[data-bsb-theme] a.bsb-side-row {
   min-width: 0;
   overflow-wrap: anywhere;
 }
+/* Raw tags have no spaces to break at: one line, ellipsis, the 未訳 mark always visible. */
+.bsb-side-row.bsb-side-raw .bsb-side-name {
+  display: flex;
+  align-items: baseline;
+}
+.bsb-side-text {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.bsb-side-raw .bsb-untranslated {
+  flex: 0 0 auto;
+}
 html[data-bsb-theme] .bsb-side-count {
   flex: 0 0 auto;
   font-family: var(--bsb-font-en);

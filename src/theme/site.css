@@ -165,25 +165,50 @@ html[data-bsb-theme].action-post-index .sidebar > div:has(input[name="tags"]) {
   display: none;
 }
 
-/* ---- Paginator ---- */
+/* ---- Paginator (mock: 前へ 1 2 3 … N 次へ, left-aligned, gap 18 px) ---- */
+html[data-bsb-theme] div#paginator {
+  padding: 4px 0 0;
+  text-align: left;
+  font-weight: 400;
+}
 html[data-bsb-theme] #paginator .pagination {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 18px;
   font-family: var(--bsb-font-en);
   font-size: 15px;
+  line-height: 1.6;
 }
 html[data-bsb-theme] #paginator .pagination a,
-html[data-bsb-theme] #paginator .pagination span {
+html[data-bsb-theme] #paginator .pagination span,
+html[data-bsb-theme] #paginator .pagination em {
+  margin: 0;
+  padding: 0;
   background: transparent;
   border: 0;
   border-radius: 0;
   color: var(--bsb-text);
+  font-weight: 400;
+}
+html[data-bsb-theme] #paginator .pagination a:hover {
+  background: transparent;
+  color: var(--bsb-red-text);
 }
 html[data-bsb-theme] #paginator .pagination .current,
 html[data-bsb-theme] #paginator .pagination em.current {
   font-style: normal;
   font-weight: 700;
+  padding-bottom: 2px;
   border-bottom: 2px solid var(--bsb-red);
 }
-html[data-bsb-theme] #paginator .pagination .disabled {
+html[data-bsb-theme] #paginator .pagination .previous_page,
+html[data-bsb-theme] #paginator .pagination .next_page {
+  font-family: var(--bsb-font-jp);
+  font-size: 14px;
+}
+html[data-bsb-theme] #paginator .pagination .disabled,
+html[data-bsb-theme] #paginator .pagination .gap {
   color: var(--bsb-faint);
 }
 

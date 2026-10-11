@@ -153,7 +153,7 @@ export function renderHeader(doc: Document, _settings: Settings): void {
   header.classList.add('bsb-header')
   doc.getElementById('title')?.classList.add('bsb-hide')
 
-  const bar = h(doc, 'div', { class: 'bsb-bar' }, h(doc, 'a', { class: 'bsb-logo', href: '/post' }, 'Sakugabooru'))
+  const bar = h(doc, 'div', { class: 'bsb-bar' }, h(doc, 'a', { class: 'bsb-logo', href: '/post' }, 'sakugabooru'))
   const end = h(doc, 'div', { class: 'bsb-bar-end' })
   // Pull the form and upload link before the menu moves, so lookups stay inside #header.
   const form = searchForm(header)
