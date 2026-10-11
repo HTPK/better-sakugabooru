@@ -2,15 +2,84 @@
 <html lang="ja">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=380" />
     <title>Better Sakugabooru</title>
-    <style>
-      body { width: 380px; margin: 0; padding: 16px; font-family: "Noto Sans JP", "Yu Gothic UI", Meiryo, sans-serif; }
-      h1 { font-size: 16px; margin: 0; }
-    </style>
   </head>
   <body>
-    <h1 id="title">Better Sakugabooru</h1>
-    <script type="module" src="./main.ts"></script>
+    <div class="pp">
+      <header class="pp-head">
+        <span class="pp-brand">sakugabooru</span>
+        <span class="pp-sub">日本語化拡張の設定</span>
+        <span class="pp-version" id="pp-version"></span>
+      </header>
+
+      <main class="pp-body">
+        <section class="pp-section pp-gap8">
+          <div class="pp-h">テーマ</div>
+          <div class="pp-theme" role="group" aria-label="テーマ" data-seg="theme">
+            <button type="button" data-value="light" aria-pressed="false">ライト</button>
+            <button type="button" data-value="dark" aria-pressed="false">ダーク</button>
+            <button type="button" data-value="system" aria-pressed="false">OS に合わせる</button>
+          </div>
+        </section>
+
+        <section class="pp-section pp-gap2">
+          <div class="pp-h pp-h-features">機能</div>
+          <label class="pp-feature"><input type="checkbox" data-key="translateTags" /><span class="pp-feature-text"><span>タグを日本語で表示</span><span class="pp-hint">辞書にある作画者・作品・技法を日本語に</span></span></label>
+          <label class="pp-feature"><input type="checkbox" data-key="showRomaji" /><span class="pp-feature-text"><span>原文 (ローマ字) も小さく表示</span><span class="pp-hint">コピーや英語での検索に使う</span></span></label>
+          <label class="pp-feature"><input type="checkbox" data-key="searchSuggest" /><span class="pp-feature-text"><span>検索ボックスの日本語補完</span><span class="pp-hint">漢字・かなで打つと英語タグを提案</span></span></label>
+          <label class="pp-feature"><input type="checkbox" data-key="hoverPlay" /><span class="pp-feature-text"><span>一覧でホバー再生</span><span class="pp-hint">サムネに乗せると無音で再生</span></span></label>
+          <label class="pp-feature"><input type="checkbox" data-key="frontToPosts" /><span class="pp-feature-text"><span>トップページを新着一覧に</span><span class="pp-hint">sakugabooru.com を開くと投稿一覧へ</span></span></label>
+          <label class="pp-feature"><input type="checkbox" data-key="forceJaLocale" /><span class="pp-feature-text"><span>メニューを日本語に</span><span class="pp-hint">サイト本体の日本語表示を常に使う</span></span></label>
+          <label class="pp-feature"><input type="checkbox" data-key="webFonts" /><span class="pp-feature-text"><span>Web フォント (Noto Sans JP) を読み込む</span><span class="pp-hint">オフにすると端末のフォントで表示</span></span></label>
+        </section>
+
+        <section class="pp-section pp-gap8">
+          <div class="pp-h">一覧の表示</div>
+          <div class="pp-grid">
+            <span class="pp-label">1 ページの件数</span>
+            <span class="pp-seg pp-en" role="group" aria-label="1 ページの件数" data-seg="perPage">
+              <button type="button" data-value="24" aria-pressed="false">24</button>
+              <button type="button" data-value="40" aria-pressed="false">40</button>
+              <button type="button" data-value="60" aria-pressed="false">60</button>
+              <button type="button" data-value="100" aria-pressed="false">100</button>
+            </span>
+            <span class="pp-label">サムネの大きさ</span>
+            <span class="pp-seg" role="group" aria-label="サムネの大きさ" data-seg="thumbSize">
+              <button type="button" data-value="small" aria-pressed="false">小 <span class="pp-en pp-cols">8列</span></button>
+              <button type="button" data-value="medium" aria-pressed="false">中 <span class="pp-en pp-cols">6列</span></button>
+              <button type="button" data-value="large" aria-pressed="false">大 <span class="pp-en pp-cols">4列</span></button>
+            </span>
+          </div>
+          <div class="pp-card">
+            <span class="pp-card-h">サムネの下に表示</span>
+            <label class="pp-row"><input type="checkbox" data-key="showCopyright" /><span class="pp-grow">作品名</span></label>
+            <label class="pp-row"><input type="checkbox" data-key="showArtist" /><span class="pp-grow">作画者</span></label>
+            <label class="pp-row"><input type="checkbox" data-key="showScoreDate" /><span class="pp-grow">点数と投稿日</span></label>
+            <label class="pp-row"><input type="checkbox" data-key="showTech" /><span class="pp-grow">技法タグ</span>
+              <span class="pp-stepper pp-en">
+                <button type="button" id="pp-tech-dec" aria-label="減らす">-</button>
+                <span class="pp-step-value" id="pp-tech-value"></span>
+                <button type="button" id="pp-tech-inc" aria-label="増やす">+</button>
+              </span><span class="pp-hint">件まで</span>
+            </label>
+          </div>
+        </section>
+      </main>
+
+      <footer class="pp-foot">
+        <span class="pp-dict">
+          <span>辞書 <span class="pp-en" id="pp-dict-count"></span> 語　更新 <span class="pp-en" id="pp-dict-date"></span></span>
+          <span class="pp-faint">毎日自動で更新されます</span>
+          <span class="pp-error" id="pp-dict-error" hidden></span>
+        </span>
+        <button type="button" class="pp-refresh" id="pp-refresh">今すぐ更新</button>
+        <a class="pp-link" href="https://github.com/HTPK/sakugabooru-ja-dict/issues/new?template=translation.yml" target="_blank" rel="noopener">訳を提案</a>
+      </footer>
+    </div>
+    <script type="module">
+      import { initPopup } from './main.ts'
+      void initPopup(document)
+    </script>
   </body>
 </html>

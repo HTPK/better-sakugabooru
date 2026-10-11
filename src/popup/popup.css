@@ -1,0 +1,259 @@
+/* Settings popup (mock: SettingsE / SettingsEDark). Colours come from tokens.css only. */
+html,
+body {
+  margin: 0;
+  background: var(--bsb-bg);
+  color: var(--bsb-text);
+}
+body {
+  width: 380px;
+  font-family: var(--bsb-font-jp);
+  font-size: 13px;
+  line-height: 1.6;
+}
+[hidden] {
+  display: none !important;
+}
+.pp-en {
+  font-family: var(--bsb-font-en);
+}
+.pp {
+  width: 380px;
+  /* Chrome caps popups at 600 px tall; the middle scrolls, header and footer stay put. */
+  height: 600px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  background: var(--bsb-bg);
+  color: var(--bsb-text);
+}
+.pp button {
+  border: 0;
+  border-radius: 0;
+  font: inherit;
+  cursor: pointer;
+}
+.pp button:disabled {
+  color: var(--bsb-faint);
+  cursor: default;
+}
+
+/* Header */
+.pp-head {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  padding: 16px 20px 12px;
+  border-bottom: 1px solid var(--bsb-subtle);
+}
+.pp-brand {
+  font-family: var(--bsb-font-en);
+  font-size: 18px;
+  font-weight: 700;
+}
+.pp-sub {
+  font-size: 13px;
+  color: var(--bsb-sub);
+}
+.pp-version {
+  margin-left: auto;
+  font-family: var(--bsb-font-en);
+  font-size: 12px;
+  color: var(--bsb-faint);
+}
+
+/* Body */
+.pp-body {
+  flex: 1;
+  overflow: auto;
+  padding: 14px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.pp-section {
+  display: flex;
+  flex-direction: column;
+}
+.pp-gap8 {
+  gap: 8px;
+}
+.pp-gap2 {
+  gap: 2px;
+}
+.pp-h {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+.pp-h-features {
+  margin-bottom: 6px;
+}
+
+/* Segmented buttons */
+.pp-theme {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 2px;
+}
+.pp-theme button {
+  height: 36px;
+}
+.pp-seg {
+  display: inline-flex;
+  gap: 2px;
+}
+.pp-seg button {
+  height: 32px;
+  padding: 0 12px;
+  font-size: 13px;
+}
+.pp-theme button,
+.pp-seg button {
+  background: var(--bsb-subtle);
+  color: var(--bsb-text);
+}
+.pp-theme button[aria-pressed="true"],
+.pp-seg button[aria-pressed="true"] {
+  background: var(--bsb-inverse-bg);
+  color: var(--bsb-inverse-text);
+}
+.pp-seg .pp-cols {
+  color: var(--bsb-muted);
+}
+.pp-seg button[aria-pressed="true"] .pp-cols {
+  color: inherit;
+}
+
+/* Feature checkboxes */
+.pp-feature {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  min-height: 40px;
+  cursor: pointer;
+}
+.pp-feature input {
+  width: 18px;
+  height: 18px;
+  margin: 3px 0 0;
+  flex: 0 0 18px;
+}
+.pp input[type="checkbox"] {
+  accent-color: var(--bsb-red-text);
+}
+.pp-feature-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5;
+}
+.pp-hint {
+  font-size: 12px;
+  color: var(--bsb-muted);
+}
+
+/* List display */
+.pp-grid {
+  display: grid;
+  grid-template-columns: 96px minmax(0, 1fr);
+  gap: 10px 12px;
+  align-items: center;
+}
+.pp-label {
+  color: var(--bsb-sub);
+}
+.pp-card {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4px;
+  background: var(--bsb-card);
+  padding: 6px 12px;
+}
+.pp-card-h {
+  font-size: 12px;
+  color: var(--bsb-muted);
+  padding: 4px 0;
+}
+.pp-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 34px;
+  cursor: pointer;
+}
+.pp-row input {
+  width: 16px;
+  height: 16px;
+  margin: 0;
+}
+.pp-grow {
+  flex: 1;
+}
+.pp-stepper {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+}
+.pp-stepper button {
+  width: 28px;
+  height: 26px;
+  padding: 0;
+  background: var(--bsb-bg);
+  color: var(--bsb-text);
+}
+html[data-bsb-theme="dark"] .pp-stepper button {
+  background: var(--bsb-subtle);
+}
+.pp-stepper button:disabled {
+  color: var(--bsb-faint);
+}
+.pp-step-value {
+  min-width: 26px;
+  text-align: center;
+  font-size: 13px;
+}
+
+/* Footer */
+.pp-foot {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 20px;
+  border-top: 1px solid var(--bsb-subtle);
+  font-size: 12px;
+  color: var(--bsb-sub);
+}
+.pp-dict {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5;
+  min-width: 0;
+}
+.pp-faint {
+  color: var(--bsb-faint);
+}
+.pp-error {
+  color: var(--bsb-red-text);
+  overflow-wrap: anywhere;
+}
+.pp-refresh {
+  margin-left: auto;
+  flex: 0 0 auto;
+  height: 32px;
+  padding: 0 12px;
+  font-size: 13px;
+  background: var(--bsb-subtle);
+  color: var(--bsb-text);
+}
+.pp-foot .pp-refresh:disabled {
+  color: var(--bsb-muted);
+}
+.pp-link {
+  flex: 0 0 auto;
+  font-size: 13px;
+  color: var(--bsb-red-text);
+  text-decoration: underline;
+}
+.pp-link:hover {
+  color: var(--bsb-text);
+}
