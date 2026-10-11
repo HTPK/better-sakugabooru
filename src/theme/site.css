@@ -1,0 +1,249 @@
+/* Better Sakugabooru: flat restyle (variant E). Colors come only from tokens.css. */
+
+/* ---- Base ---- */
+html[data-bsb-theme] body {
+  background: var(--bsb-bg);
+  color: var(--bsb-text);
+  font-family: var(--bsb-font-jp);
+  font-size: 14px;
+  line-height: 1.6;
+}
+html[data-bsb-theme] a,
+html[data-bsb-theme] a:link,
+html[data-bsb-theme] a:visited {
+  color: var(--bsb-text);
+  text-decoration: none;
+}
+html[data-bsb-theme] a:hover,
+html[data-bsb-theme] a:focus-visible {
+  color: var(--bsb-red-text);
+}
+html[data-bsb-theme] .bsb-prose a {
+  text-decoration: underline;
+}
+
+/* ---- Shape helpers (the only rounded shapes) ---- */
+.bsb-pill {
+  border-radius: 50px;
+}
+.bsb-round {
+  border-radius: 50%;
+}
+.bsb-hide {
+  display: none !important;
+}
+
+/* ---- Header ---- */
+html[data-bsb-theme] #header {
+  background: var(--bsb-bg);
+  height: 72px;
+  display: flex;
+  align-items: center;
+  border: 0;
+  box-shadow: none;
+}
+html[data-bsb-theme] #main-menu {
+  background: transparent;
+  border: 0;
+}
+html[data-bsb-theme] #main-menu > ul {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+html[data-bsb-theme] #main-menu > ul > li {
+  position: relative;
+  font-size: 15px;
+  background: transparent;
+  border: 0;
+}
+html[data-bsb-theme] #main-menu > ul > li > a {
+  color: var(--bsb-text);
+}
+html[data-bsb-theme] #main-menu li ul {
+  background: var(--bsb-bg);
+  border: 1px solid var(--bsb-border);
+  border-radius: 0;
+  box-shadow: none;
+}
+html[data-bsb-theme] #main-menu li ul a {
+  color: var(--bsb-text);
+}
+
+/* ---- Page title band ---- */
+.bsb-band {
+  background: var(--bsb-band);
+  padding: 26px 48px 24px;
+}
+.bsb-band h1 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.4;
+  margin: 0;
+  color: var(--bsb-text);
+}
+.bsb-band .bsb-lead {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--bsb-lead);
+}
+.bsb-band .bsb-en-title {
+  font-family: var(--bsb-font-en);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+/* ---- Tag sidebar ---- */
+html[data-bsb-theme] #tag-sidebar {
+  background: var(--bsb-card);
+  padding: 14px 16px;
+  border: 0;
+}
+html[data-bsb-theme] #tag-sidebar h5,
+html[data-bsb-theme] #tag-sidebar h6 {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--bsb-text);
+}
+html[data-bsb-theme] #tag-sidebar li {
+  font-size: 14px;
+  line-height: 1.8;
+}
+html[data-bsb-theme] #tag-sidebar .tag-type-artist a,
+html[data-bsb-theme] #tag-sidebar .tag-type-copyright a,
+html[data-bsb-theme] #tag-sidebar .tag-type-general a {
+  color: var(--bsb-text);
+}
+html[data-bsb-theme] #tag-sidebar .tag-type-artist a:hover,
+html[data-bsb-theme] #tag-sidebar .tag-type-copyright a:hover,
+html[data-bsb-theme] #tag-sidebar .tag-type-general a:hover {
+  color: var(--bsb-red-text);
+}
+html[data-bsb-theme] #tag-sidebar li .post-count {
+  color: var(--bsb-faint);
+  font-family: var(--bsb-font-en);
+}
+
+/* ---- Paginator ---- */
+html[data-bsb-theme] #paginator .pagination {
+  font-family: var(--bsb-font-en);
+  font-size: 15px;
+}
+html[data-bsb-theme] #paginator .pagination a,
+html[data-bsb-theme] #paginator .pagination span {
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  color: var(--bsb-text);
+}
+html[data-bsb-theme] #paginator .pagination .current,
+html[data-bsb-theme] #paginator .pagination em.current {
+  font-style: normal;
+  font-weight: 700;
+  border-bottom: 2px solid var(--bsb-red);
+}
+html[data-bsb-theme] #paginator .pagination .disabled {
+  color: var(--bsb-faint);
+}
+
+/* ---- Forms ---- */
+html[data-bsb-theme] input[type="text"],
+html[data-bsb-theme] input[type="search"],
+html[data-bsb-theme] input[type="password"],
+html[data-bsb-theme] textarea,
+html[data-bsb-theme] select {
+  background: var(--bsb-input);
+  color: var(--bsb-text);
+  border: 1px solid var(--bsb-border);
+  border-radius: 0;
+  box-shadow: none;
+  font: inherit;
+}
+html[data-bsb-theme] input[type="submit"],
+html[data-bsb-theme] button.bsb-primary {
+  background: var(--bsb-red);
+  color: var(--bsb-on-red);
+  border: 0;
+  border-radius: 50px;
+  box-shadow: none;
+  font: inherit;
+  font-weight: 700;
+  padding: 0 20px;
+  min-height: 32px;
+  cursor: pointer;
+}
+html[data-bsb-theme] .bsb-secondary {
+  background: var(--bsb-subtle);
+  color: var(--bsb-text);
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  font: inherit;
+  height: 32px;
+  padding: 0 14px;
+  cursor: pointer;
+}
+
+/* ---- video.js player ---- */
+html[data-bsb-theme] .video-js .vjs-control-bar {
+  background: var(--bsb-bg);
+  border-top: 1px solid var(--bsb-subtle);
+  color: var(--bsb-text);
+}
+html[data-bsb-theme] .video-js .vjs-big-play-button {
+  background: var(--bsb-red);
+  color: var(--bsb-on-red);
+  border: 0;
+  border-radius: 50%;
+  box-shadow: none;
+}
+html[data-bsb-theme] .video-js .vjs-play-control {
+  background: var(--bsb-red);
+  color: var(--bsb-on-red);
+  border-radius: 50%;
+}
+html[data-bsb-theme] .video-js .vjs-play-progress {
+  background: var(--bsb-text);
+}
+html[data-bsb-theme] .video-js .vjs-load-progress {
+  background: var(--bsb-subtle);
+}
+
+/* ---- Stats (show page) ---- */
+.bsb-stats {
+  display: grid;
+  grid-template-columns: 88px minmax(0, 1fr);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.bsb-stats .bsb-stats-label {
+  color: var(--bsb-muted);
+}
+
+/* ---- Comments ---- */
+html[data-bsb-theme] #comments .comment {
+  background: transparent;
+  border: 0;
+  border-top: 1px solid var(--bsb-subtle);
+  border-radius: 0;
+  box-shadow: none;
+}
+
+/* ---- Inline marks ---- */
+.bsb-untranslated {
+  color: var(--bsb-red-text);
+  font-size: 11px;
+  margin-left: 4px;
+}
+.bsb-romaji {
+  font-family: var(--bsb-font-en);
+  font-size: 12px;
+  color: var(--bsb-muted);
+}
+.bsb-en {
+  font-family: var(--bsb-font-en);
+}
