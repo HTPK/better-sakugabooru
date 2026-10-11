@@ -2,12 +2,18 @@ import { lookup, type Dict, type TagType } from '../dict'
 import type { Settings } from '../settings'
 import { isBlacklisted, parsePosts, readBlacklist, type Post } from './pagedata'
 import { h } from './render'
+import { renderListBand, type BandActions } from './listband'
 import listCss from './list.css?inline'
 
 const UNTRANSLATED = '未訳'
 const ARTIST_UNKNOWN = 'artist_unknown'
 const ARTIST_UNKNOWN_JA = '作画者不明'
 const SITE_DEFAULT_PER_PAGE = 40
+const ARTIST_SEP = '　'
+const PROPOSE_BASE = 'https://github.com/HTPK/sakugabooru-ja-dict/issues/new?template=translation.yml&title='
+const PROPOSE_LIMIT = 20
+/** Present on nearly every post; never worth a 技法 chip or a translation request. */
+const NOISE = new Set(['animated'])
 const COLS: Record<Settings['thumbSize'], string> = { small: '8', medium: '6', large: '4' }
 const SIDEBAR_TYPES: readonly TagType[] = ['artist', 'copyright', 'general', 'character', 'meta', 'circle', 'faults']
 
@@ -74,7 +80,7 @@ function workRow(ctx: Ctx, post: Post): HTMLElement | null {
   const cp = pickCopyright(post, ctx.types)
   if (!cp) return null
   const ja = jaFor(ctx.dict, cp, 'copyright', ctx.settings.translateTags)
-  const row = h(ctx.doc, 'div', { class: 'bsb-row bsb-work', title: ja ?? cp })
+  const row = h(ctx.doc, 'div', { class: 'bsb-row bsb-work bsb-t-copyright', title: ja ?? cp })
   if (ja) row.textContent = ja
   else if (ctx.settings.translateTags) row.append(...untranslated(ctx.doc, cp))
   else row.textContent = cp
@@ -86,18 +92,14 @@ function artistRow(ctx: Ctx, post: Post): HTMLElement | null {
   const tags = tagsOf(post, ctx.types, 'artist')
   if (!tags.length) return null
   const row = h(doc, 'div', { class: 'bsb-row bsb-artists' })
+  // Mock: names only (raw tag as tooltip), separated by a full-width space.
   tags.forEach((tag, i) => {
-    if (i > 0) row.append(' ')
+    if (i > 0) row.append(ARTIST_SEP)
     const ja = jaFor(dict, tag, 'artist', settings.translateTags)
     const href = `/post?tags=${encodeURIComponent(tag)}`
-    if (ja) {
-      row.append(h(doc, 'a', { href }, ja))
-      if (settings.showRomaji) row.append(h(doc, 'span', { class: 'bsb-romaji' }, spaced(tag)))
-    } else if (settings.translateTags) {
-      row.append(h(doc, 'a', { href }, ...untranslated(doc, tag)))
-    } else {
-      row.append(h(doc, 'a', { href }, tag))
-    }
+    if (ja) row.append(h(doc, 'a', { href, class: 'bsb-t-artist', title: tag }, ja))
+    else if (settings.translateTags) row.append(h(doc, 'a', { href, title: tag }, ...untranslated(doc, tag)))
+    else row.append(h(doc, 'a', { href, class: 'bsb-t-artist' }, tag))
   })
   return row
 }
@@ -121,7 +123,7 @@ function techRow(ctx: Ctx, post: Post): HTMLElement | null {
   if (!tags.length) return null
   const row = h(doc, 'div', { class: 'bsb-row bsb-tech' })
   for (const tag of tags.slice(0, limit)) {
-    row.append(h(doc, 'span', { class: 'bsb-chip', title: tag }, jaFor(dict, tag, 'general', settings.translateTags) ?? tag))
+    row.append(h(doc, 'span', { class: 'bsb-chip bsb-t-general', title: tag }, jaFor(dict, tag, 'general', settings.translateTags) ?? tag))
   }
   const rest = tags.length - limit
   if (rest > 0) row.append(h(doc, 'span', { class: 'bsb-chip bsb-more' }, `+${rest}`))
@@ -272,18 +274,184 @@ function forwardThumbClick(doc: Document, e: MouseEvent): void {
   orig.click()
 }
 
-export function renderList(doc: Document, dict: Dict, settings: Settings): { cards: number } {
+/* ---- Our sidebar (list page): 作画者 / 作品 / 技法 panels built from the site's tag list ---- */
+
+interface SideRow {
+  tag: string
+  count: number
+  href: string
+}
+interface PanelSpec {
+  type: 'artist' | 'copyright' | 'general'
+  title: string
+  max: number
+  more: (n: number) => string
+}
+const PANELS: readonly PanelSpec[] = [
+  { type: 'artist', title: '作画者', max: 12, more: (n) => `ほか ${n} 名` },
+  { type: 'copyright', title: '作品', max: Infinity, more: (n) => `ほか ${n} 件` },
+  { type: 'general', title: '技法', max: 20, more: (n) => `ほか ${n} 件` },
+]
+
+function siteRows(doc: Document, type: TagType): SideRow[] {
+  const out: SideRow[] = []
+  for (const li of Array.from(doc.querySelectorAll('#tag-sidebar li'))) {
+    if (sidebarType(li) !== type) continue
+    const found = sidebarTag(li)
+    const count = Number((li.querySelector('.post-count')?.textContent ?? '').trim())
+    if (!found || !Number.isFinite(count)) continue
+    out.push({ tag: found.tag, count, href: found.link.getAttribute('href') ?? '' })
+  }
+  return out
+}
+
+/** Fallback when the site lists no tags of a type: how many posts on this page carry each tag. */
+function pageRows(posts: Post[], types: Record<string, TagType>, type: TagType): SideRow[] {
+  const counts = new Map<string, number>()
+  for (const p of posts) {
+    for (const t of p.tags) if (types[t] === type && !NOISE.has(t)) counts.set(t, (counts.get(t) ?? 0) + 1)
+  }
+  return Array.from(counts, ([tag, count]) => ({ tag, count, href: `/post?tags=${encodeURIComponent(tag)}` })).sort(
+    (a, b) => b.count - a.count || (a.tag < b.tag ? -1 : a.tag > b.tag ? 1 : 0),
+  )
+}
+
+function sideItem(ctx: Ctx, type: PanelSpec['type'], row: SideRow, chip: boolean): HTMLAnchorElement {
+  const { doc, dict, settings } = ctx
+  const ja = jaFor(dict, row.tag, type, settings.translateTags)
+  const raw = !ja && settings.translateTags
+  const cls = [chip ? 'bsb-side-chip' : 'bsb-side-row', raw ? 'bsb-side-raw' : `bsb-t-${type}`].join(' ')
+  return h(
+    doc,
+    'a',
+    { class: cls, href: row.href, title: row.tag, 'data-tag': row.tag },
+    h(doc, 'span', { class: 'bsb-side-name' }, ja ?? row.tag, raw && h(doc, 'span', { class: 'bsb-untranslated' }, UNTRANSLATED)),
+    chip ? ' ' : null,
+    h(doc, 'span', { class: 'bsb-side-count bsb-en' }, String(row.count)),
+  )
+}
+
+function proposeHref(missing: string[]): string {
+  return (
+    PROPOSE_BASE +
+    encodeURIComponent('翻訳提案: ' + missing.join(', ')) +
+    '&labels=translation&tags=' +
+    encodeURIComponent(missing.join('\n'))
+  )
+}
+
+function buildSide(ctx: Ctx, posts: Post[]): HTMLElement {
+  const { doc, dict, settings } = ctx
+  const aside = h(doc, 'aside', { class: 'bsb-side', 'aria-label': 'タグ' })
+  const missing = new Set<string>()
+  const noteMissing = (tag: string, type: TagType) => {
+    if (settings.translateTags && !NOISE.has(tag) && !jaFor(dict, tag, type, true)) missing.add(tag)
+  }
+  for (const spec of PANELS) {
+    const fromSite = siteRows(doc, spec.type)
+    const rows = fromSite.length ? fromSite : pageRows(posts, ctx.types, spec.type)
+    if (!rows.length) continue
+    for (const r of rows) noteMissing(r.tag, spec.type)
+    const chip = spec.type === 'general'
+    const shown = rows.slice(0, spec.max).map((r) => sideItem(ctx, spec.type, r, chip))
+    const rest = rows.length - shown.length
+    const list = h(doc, 'div', { class: chip ? 'bsb-side-chips' : 'bsb-side-rows' }, ...shown)
+    if (rest > 0) list.append(h(doc, 'span', { class: 'bsb-side-more' }, spec.more(rest)))
+    aside.append(
+      h(
+        doc,
+        'section',
+        {
+          class: `bsb-side-panel bsb-t-${spec.type}`,
+          'data-type': spec.type,
+          'data-source': fromSite.length ? 'sidebar' : 'page',
+        },
+        h(doc, 'div', { class: 'bsb-side-h' }, spec.title),
+        list,
+      ),
+    )
+  }
+  // Every caption on this page also counts: a card can show a tag the site's list left out.
+  for (const p of posts) {
+    for (const t of p.tags) {
+      const type = ctx.types[t]
+      if (type === 'artist' || type === 'copyright' || type === 'general') noteMissing(t, type)
+    }
+  }
+  if (missing.size) {
+    const asked = Array.from(missing).slice(0, PROPOSE_LIMIT)
+    aside.append(
+      h(
+        doc,
+        'p',
+        { class: 'bsb-side-note' },
+        `赤い「${UNTRANSLATED}」は辞書にまだ無い語です。`,
+        h(doc, 'a', { class: 'bsb-propose', href: proposeHref(asked), target: '_blank', rel: 'noopener' }, '訳を提案する'),
+      ),
+    )
+  }
+  return aside
+}
+
+/**
+ * Hides the site's sidebar (search box, Hidden Posts, tag list: kept in the DOM for site scripts)
+ * and puts our panels in its place, left of the grid.
+ */
+function renderSide(ctx: Ctx, posts: Post[], list: Element): void {
+  const { doc } = ctx
+  if (doc.querySelector('aside.bsb-side')) return
+  const tagList = doc.getElementById('tag-sidebar')
+  tagList?.parentElement?.classList.add('bsb-hide')
+  doc.getElementById('blacklisted-sidebar')?.classList.add('bsb-hide')
+  const siteSide = (tagList ?? list).closest('#post-list')?.querySelector(':scope > .sidebar')
+  siteSide?.classList.add('bsb-hide')
+  const content = list.closest('.content') ?? list
+  content.parentElement?.insertBefore(buildSide(ctx, posts), content)
+}
+
+const PAGER_LABELS: ReadonlyArray<[string, RegExp, string]> = [
+  ['.previous_page', /previous|前へ/i, '前へ'],
+  ['.next_page', /next|次へ/i, '次へ'],
+]
+
+/** "← Previous" / "← 前へ" → 前へ, "Next →" / "次へ →" → 次へ (text nodes only; links keep their hrefs). */
+function translatePaginator(doc: Document): void {
+  for (const [sel, re, label] of PAGER_LABELS) {
+    for (const el of Array.from(doc.querySelectorAll(`#paginator ${sel}`))) {
+      const walker = doc.createTreeWalker(el, 4)
+      const nodes: Node[] = []
+      for (let n = walker.nextNode(); n; n = walker.nextNode()) nodes.push(n)
+      for (const n of nodes) {
+        const t = n.textContent ?? ''
+        if (re.test(t)) n.textContent = label
+        else if (/^[\s←→«»‹›]*$/.test(t)) n.textContent = ''
+      }
+    }
+  }
+}
+
+export function renderList(
+  doc: Document,
+  dict: Dict,
+  settings: Settings,
+  actions: BandActions = {},
+): { cards: number } {
   const list = doc.getElementById('post-list-posts')
   if (!list || list.hasAttribute('data-bsb-done')) return { cards: 0 }
   const { posts, tagTypes } = parsePosts(doc)
-  if (!posts.length) return { cards: 0 }
 
+  doc.documentElement.classList.add('bsb-list')
   injectListStyle(doc)
   const ctx: Ctx = { doc, dict, settings, types: tagTypes }
+  renderListBand(doc, dict, settings, actions, tagTypes)
+  translatePaginator(doc)
   const blacklist = readBlacklist(doc)
   const visible = posts.filter(
     (p) => !isBlacklisted(p, blacklist) && !doc.getElementById(`p${p.id}`)?.classList.contains('blacklisted'),
   )
+  renderSide(ctx, visible, list)
+  if (!posts.length) return { cards: 0 }
+
   const grid = h(doc, 'ul', { class: 'bsb-grid', 'data-cols': COLS[settings.thumbSize] })
   for (const post of visible) grid.append(card(ctx, post))
   grid.addEventListener('click', (e) => forwardThumbClick(doc, e))

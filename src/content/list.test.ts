@@ -1,9 +1,10 @@
-import { describe, it, expect } from 'vitest'
+import { describe, it, expect, vi } from 'vitest'
 import { readFileSync } from 'node:fs'
 import { resolve } from 'node:path'
 import { JSDOM } from 'jsdom'
 import { renderList, injectListStyle } from './list'
 import { DEFAULTS, type Settings } from '../settings'
+import { parsePosts } from './pagedata'
 import type { Dict } from '../dict'
 
 const FIXTURE = resolve(__dirname, '../../test/fixtures/post-list-2026-10-12.html')
@@ -14,7 +15,7 @@ const dict: Dict = {
   v: 1,
   updated: 'test',
   artists: { kabukyuu: { ja: 'スタブ作画者' }, shuuichiro_manabe: { ja: 'スタブ真鍋' } },
-  copyrights: { dragon_ball_super: { ja: 'スタブ作品' } },
+  copyrights: { dragon_ball_super: { ja: 'スタブ作品' }, my_hero_academia: { ja: 'スタブ作品B' } },
   general: { effects: { ja: 'スタブ効果' }, artist_unknown: { ja: '作画者不明' } },
 }
 
@@ -65,14 +66,24 @@ describe('renderList', () => {
     expect(artists.querySelector('.bsb-untranslated')!.textContent).toBe('未訳')
   })
 
-  it('links artists and appends romaji when showRomaji is on', () => {
+  it('links artists like the mock: name only, raw tag as tooltip, full-width space between', () => {
     const { doc } = run()
     const a = cards(doc)[0].querySelector<HTMLAnchorElement>('.bsb-artists a')!
     expect(a.getAttribute('href')).toBe('/post?tags=shuuichiro_manabe')
-    expect(a.textContent).toContain('スタブ真鍋')
-    expect(a.parentElement!.querySelector('.bsb-romaji')!.textContent).toBe('shuuichiro manabe')
-    const off = run({ showRomaji: false }).doc
-    expect(cards(off)[0].querySelector('.bsb-artists .bsb-romaji')).toBeNull()
+    expect(a.textContent).toBe('スタブ真鍋')
+    expect(a.title).toBe('shuuichiro_manabe')
+    expect(cards(doc)[0].querySelector('.bsb-artists .bsb-romaji')).toBeNull()
+    const multi = cards(doc).find((c) => c.querySelectorAll('.bsb-artists a').length > 1)
+    if (multi) expect(multi.querySelector('.bsb-artists')!.textContent).toContain('　')
+  })
+
+  it('tags caption rows with their tag-type colour classes', () => {
+    const { doc } = run()
+    const c = cards(doc)[0]
+    expect(c.querySelector('.bsb-work')!.classList.contains('bsb-t-copyright')).toBe(true)
+    expect(c.querySelector('.bsb-artists a')!.classList.contains('bsb-t-artist')).toBe(true)
+    const chip = c.querySelector('.bsb-tech .bsb-chip:not(.bsb-more)')!
+    expect(chip.classList.contains('bsb-t-general')).toBe(true)
   })
 
   it('shows score and zero-padded local date', () => {
@@ -242,5 +253,173 @@ describe('renderList', () => {
     injectListStyle(doc)
     expect(doc.querySelectorAll('#bsb-list')).toHaveLength(1)
     expect(doc.getElementById('bsb-list')!.textContent).toContain('.bsb-grid')
+  })
+
+  it('passes band actions through to the per-page buttons', async () => {
+    const doc = load()
+    const saveSettings = vi.fn(async () => {})
+    const navigate = vi.fn()
+    renderList(doc, dict, DEFAULTS, { saveSettings, navigate })
+    doc.querySelector<HTMLButtonElement>('.bsb-perpage button')!.click()
+    await vi.waitFor(() => expect(navigate).toHaveBeenCalled())
+    expect(saveSettings).toHaveBeenCalledWith({ perPage: 24 })
+  })
+})
+
+/** Rows of the site's `#tag-sidebar` read straight from the untouched fixture. */
+function fixtureRows(html: string, type: string) {
+  const doc = new JSDOM(html).window.document
+  return Array.from(doc.querySelectorAll(`#tag-sidebar li.tag-type-${type}`)).map((li) => {
+    const a = Array.from(li.querySelectorAll('a')).find((x) => (x.getAttribute('href') ?? '').includes('tags='))!
+    return {
+      tag: new URLSearchParams(a.getAttribute('href')!.split('?')[1]).get('tags')!,
+      count: li.querySelector('.post-count')!.textContent!.trim(),
+    }
+  })
+}
+
+for (const file of ['post-list-2026-10-12.html', 'post-list-ja-2026-10-12.html']) {
+  describe(`list page layout (${file})`, () => {
+    const src = readFileSync(resolve(__dirname, '../../test/fixtures', file), 'utf8')
+    const go = (patch: Partial<Settings> = {}) => {
+      const doc = new JSDOM(src, { url: 'https://www.sakugabooru.com/post' }).window.document
+      renderList(doc, dict, { ...DEFAULTS, ...patch })
+      return doc
+    }
+    const panel = (doc: Document, type: string) => doc.querySelector<HTMLElement>(`.bsb-side-panel[data-type="${type}"]`)!
+    const rows = (p: HTMLElement) =>
+      Array.from(p.querySelectorAll<HTMLAnchorElement>('a.bsb-side-row')).map((a) => ({
+        tag: a.dataset.tag!,
+        count: a.querySelector('.bsb-side-count')!.textContent!,
+      }))
+
+    it('marks html.bsb-list and adds the title band', () => {
+      const doc = go()
+      expect(doc.documentElement.classList.contains('bsb-list')).toBe(true)
+      expect(doc.querySelectorAll('.bsb-listband')).toHaveLength(1)
+    })
+
+    it('hides (keeps) the site sidebar, tag list and Hidden Posts block', () => {
+      const doc = go()
+      for (const id of ['tag-sidebar', 'blacklisted-sidebar', 'tags']) {
+        const el = doc.getElementById(id)!
+        expect(el).not.toBeNull()
+        expect(el.closest('.bsb-hide')).not.toBeNull()
+      }
+    })
+
+    it('builds 作画者 / 作品 / 技法 panels left of the grid', () => {
+      const doc = go()
+      const aside = doc.querySelector('aside.bsb-side')!
+      expect(aside.nextElementSibling!.classList.contains('content')).toBe(true)
+      const heads = Array.from(aside.querySelectorAll('.bsb-side-panel')).map((p) => [
+        p.getAttribute('data-type'),
+        p.querySelector('.bsb-side-h')!.textContent,
+      ])
+      expect(heads).toEqual([
+        ['artist', '作画者'],
+        ['copyright', '作品'],
+        ['general', '技法'],
+      ])
+    })
+
+    it('artist and copyright rows carry the fixture tags and post counts, in order', () => {
+      const doc = go()
+      expect(rows(panel(doc, 'artist'))).toEqual(fixtureRows(src, 'artist').slice(0, 12))
+      expect(rows(panel(doc, 'copyright'))).toEqual(fixtureRows(src, 'copyright'))
+      const kab = panel(doc, 'artist').querySelector<HTMLElement>('a[data-tag="kabukyuu"]')!
+      expect(kab.querySelector('.bsb-side-name')!.textContent).toBe('スタブ作画者')
+      expect(kab.getAttribute('href')).toBe('/post?tags=kabukyuu')
+      expect(kab.classList.contains('bsb-t-artist')).toBe(true)
+      const dbs = panel(doc, 'copyright').querySelector('a[data-tag="my_hero_academia"]')!
+      expect(dbs.classList.contains('bsb-t-copyright')).toBe(true)
+      expect(panel(doc, 'artist').querySelector('.bsb-side-h')).not.toBeNull()
+      expect(panel(doc, 'artist').classList.contains('bsb-t-artist')).toBe(true)
+    })
+
+    it('untranslated rows show the raw tag with 未訳 and feed the proposal link', () => {
+      const doc = go()
+      const raw = panel(doc, 'artist').querySelector<HTMLElement>('a.bsb-side-raw')!
+      expect(raw).not.toBeNull()
+      expect(raw.querySelector('.bsb-untranslated')!.textContent).toBe('未訳')
+      expect(raw.classList.contains('bsb-t-artist')).toBe(false)
+      const note = doc.querySelector('.bsb-side-note')!
+      expect(note.textContent).toContain('赤い「未訳」は辞書にまだ無い語です。')
+      const link = note.querySelector<HTMLAnchorElement>('a')!
+      expect(link.textContent).toBe('訳を提案する')
+      const u = new URL(link.href)
+      expect(u.origin + u.pathname).toBe('https://github.com/HTPK/sakugabooru-ja-dict/issues/new')
+      expect(u.searchParams.get('template')).toBe('translation.yml')
+      expect(u.searchParams.get('labels')).toBe('translation')
+      const asked = u.searchParams.get('tags')!.split('\n')
+      expect(asked).toContain(raw.dataset.tag)
+      expect(asked.length).toBeLessThanOrEqual(20)
+      expect(asked).not.toContain('kabukyuu')
+    })
+
+    it('技法 falls back to this page’s posts when the site lists no general tags, with real counts', () => {
+      const doc = go()
+      expect(fixtureRows(src, 'general')).toHaveLength(0)
+      const p = panel(doc, 'general')
+      expect(p.dataset.source).toBe('page')
+      const chips = Array.from(p.querySelectorAll<HTMLAnchorElement>('a.bsb-side-chip'))
+      expect(chips.length).toBeGreaterThan(0)
+      const { posts } = parsePosts(new JSDOM(src).window.document)
+      for (const c of chips) {
+        const n = posts.filter((x) => x.tags.includes(c.dataset.tag!)).length
+        expect(c.querySelector('.bsb-side-count')!.textContent).toBe(String(n))
+        expect(c.classList.contains('bsb-t-general') || c.classList.contains('bsb-side-raw')).toBe(true)
+      }
+      const counts = chips.map((c) => Number(c.querySelector('.bsb-side-count')!.textContent))
+      expect(counts).toEqual([...counts].sort((a, b) => b - a))
+      expect(chips.some((c) => c.dataset.tag === 'animated')).toBe(false)
+      const fx = chips.find((c) => c.dataset.tag === 'effects')
+      if (fx) expect(fx.querySelector('.bsb-side-name')!.textContent).toBe('スタブ効果')
+    })
+
+    it('translates the paginator arrows to 前へ / 次へ', () => {
+      const doc = go()
+      expect(doc.querySelector('#paginator .previous_page')!.textContent).toBe('前へ')
+      expect(doc.querySelector('#paginator .next_page')!.textContent).toBe('次へ')
+    })
+
+    it('is idempotent', () => {
+      const doc = go()
+      renderList(doc, dict, DEFAULTS)
+      expect(doc.querySelectorAll('aside.bsb-side')).toHaveLength(1)
+      expect(doc.querySelectorAll('.bsb-listband')).toHaveLength(1)
+    })
+  })
+}
+
+describe('sidebar panels from synthetic sidebars', () => {
+  const li = (type: string, tag: string, n: number) =>
+    `<li class="tag-type-${type}"><a href="/wiki/show?title=${tag}">?</a> <a href="/post?tags=${tag}">${tag}</a> <span class="post-count">${n}</span></li>`
+  const page = (items: string) =>
+    `<div id="content"><div id="post-list"><div class="sidebar"><div><h5>Tags</h5><ul id="tag-sidebar">${items}</ul></div></div>` +
+    `<div class="content"><div><ul id="post-list-posts"></ul></div><div id="paginator"></div></div></div></div>` +
+    `<script>Post.register({"id":1,"tags":"a_tag","score":1,"created_at":1,"preview_url":"p","file_url":"f","width":1,"height":1})</script>`
+
+  it('shows at most 12 artists then ほか N 名', () => {
+    const items = Array.from({ length: 15 }, (_, i) => li('artist', `artist_${i}`, 20 - i)).join('')
+    const doc = new JSDOM(page(items), { url: 'https://www.sakugabooru.com/post' }).window.document
+    renderList(doc, dict, DEFAULTS)
+    const p = doc.querySelector('.bsb-side-panel[data-type="artist"]')!
+    expect(p.querySelectorAll('a.bsb-side-row')).toHaveLength(12)
+    expect(p.querySelector('.bsb-side-more')!.textContent).toBe('ほか 3 名')
+  })
+
+  it('uses the site’s general rows for 技法 chips when present', () => {
+    const doc = new JSDOM(page(li('general', 'effects', 7) + li('general', 'smears', 3)), {
+      url: 'https://www.sakugabooru.com/post',
+    }).window.document
+    renderList(doc, dict, DEFAULTS)
+    const p = doc.querySelector<HTMLElement>('.bsb-side-panel[data-type="general"]')!
+    expect(p.dataset.source).toBe('sidebar')
+    const chips = Array.from(p.querySelectorAll<HTMLElement>('a.bsb-side-chip'))
+    expect(chips.map((c) => [c.dataset.tag, c.querySelector('.bsb-side-count')!.textContent])).toEqual([
+      ['effects', '7'],
+      ['smears', '3'],
+    ])
   })
 })

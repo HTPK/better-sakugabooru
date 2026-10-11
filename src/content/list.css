@@ -1,14 +1,143 @@
-/* Better Sakugabooru: list page grid (variant E, Dense). Colors come only from tokens.css. */
+/* Better Sakugabooru: list page (variant E, Dense). Colors come only from tokens.css.
+ * Layout follows the mock: band on top, then `aside 224px | grid flex 1 1 800px` with gap 28px.
+ */
 .bsb-hide {
   display: none !important;
 }
 
+/* ---- Page layout (html.bsb-list is set by renderList) ---- */
+html.bsb-list[data-bsb-theme] body {
+  padding: 0;
+}
+html.bsb-list[data-bsb-theme] #post-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 28px;
+  padding: 24px 48px 40px;
+}
+html.bsb-list[data-bsb-theme] #post-list > .content {
+  float: none;
+  flex: 1 1 800px;
+  min-width: 0;
+  width: auto;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* ---- Tag-type text colours (cards, sidebar; suggestions use the same tokens in search.css) ---- */
+/* `a…[href]` outranks site.css's `html[data-bsb-theme] a:link` (0,2,2) regardless of sheet order. */
+html[data-bsb-theme] .bsb-t-artist,
+html[data-bsb-theme] a.bsb-t-artist[href] {
+  color: var(--bsb-artist);
+}
+html[data-bsb-theme] .bsb-t-copyright,
+html[data-bsb-theme] a.bsb-t-copyright[href] {
+  color: var(--bsb-copyright);
+}
+html[data-bsb-theme] .bsb-t-general,
+html[data-bsb-theme] a.bsb-t-general[href] {
+  color: var(--bsb-general);
+}
+html[data-bsb-theme] .bsb-t-meta,
+html[data-bsb-theme] a.bsb-t-meta[href] {
+  color: var(--bsb-meta);
+}
+html[data-bsb-theme] a.bsb-side-raw[href] {
+  color: var(--bsb-muted);
+}
+html[data-bsb-theme] a[href]:is(.bsb-t-artist, .bsb-t-copyright, .bsb-t-general, .bsb-t-meta, .bsb-side-raw):hover {
+  color: var(--bsb-red-text);
+}
+
+/* ---- Sidebar panels ---- */
+.bsb-side {
+  flex: 0 0 224px;
+  width: 224px;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  font-size: 14px;
+  line-height: 1.8;
+}
+html[data-bsb-theme] .bsb-side-panel {
+  margin: 0;
+  padding: 14px 16px;
+  background: var(--bsb-card);
+}
+html[data-bsb-theme] .bsb-side-h {
+  margin: 0 0 6px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+.bsb-side-rows {
+  display: flex;
+  flex-direction: column;
+}
+html[data-bsb-theme] a.bsb-side-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  min-width: 0;
+}
+.bsb-side-name {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+html[data-bsb-theme] .bsb-side-count {
+  flex: 0 0 auto;
+  font-family: var(--bsb-font-en);
+  color: var(--bsb-faint);
+}
+html[data-bsb-theme] .bsb-side-more {
+  color: var(--bsb-muted);
+}
+.bsb-side-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  line-height: 1.5;
+}
+html[data-bsb-theme] a.bsb-side-chip {
+  padding: 3px 8px;
+  background: var(--bsb-bg);
+  font-size: 13px;
+}
+/* Dark mock: technique chips sit slightly above the panel (card mixed 6% toward text). */
+html[data-bsb-theme="dark"] a.bsb-side-chip {
+  background: color-mix(in srgb, var(--bsb-card) 94%, var(--bsb-text));
+}
+.bsb-side-chips .bsb-side-more {
+  align-self: center;
+  font-size: 13px;
+}
+html[data-bsb-theme] .bsb-side .bsb-untranslated {
+  margin-left: 4px;
+  color: var(--bsb-red-text);
+  font-size: 11px;
+}
+html[data-bsb-theme] .bsb-side-note {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.7;
+  color: var(--bsb-sub);
+}
+html[data-bsb-theme] .bsb-side-note a[href] {
+  color: var(--bsb-red-text);
+  text-decoration: underline;
+}
+
+/* ---- Grid ---- */
 .bsb-grid {
   display: grid;
   grid-template-columns: repeat(6, minmax(0, 1fr));
-  gap: 20px 14px;
+  gap: 18px 16px;
   padding: 0;
-  margin: 0 0 32px;
+  margin: 0;
   list-style: none;
 }
 .bsb-grid[data-cols="8"] {
@@ -18,18 +147,25 @@
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
-.bsb-card {
-  display: block;
+html[data-bsb-theme] .bsb-card {
+  display: flex;
+  flex-direction: column;
   min-width: 0;
   margin: 0;
   padding: 0;
   border-radius: 0;
+  color: var(--bsb-text);
+}
+.bsb-card:hover,
+.bsb-card:focus-within {
+  outline: 2px solid var(--bsb-red);
+  outline-offset: 2px;
 }
 
 .bsb-thumb {
   position: relative;
   display: block;
-  aspect-ratio: var(--bsb-ar, 16/9);
+  aspect-ratio: 16 / 9;
   background: var(--bsb-subtle);
   overflow: hidden;
   border-radius: 0;
@@ -51,35 +187,43 @@
 }
 
 /* ---- Captions ---- */
-.bsb-cap {
-  padding: 8px 0 0;
+html[data-bsb-theme] .bsb-cap {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  padding: 6px 0 0;
   font-size: 13px;
-  line-height: 1.5;
+  line-height: 1.4;
 }
 .bsb-row {
   min-width: 0;
 }
-.bsb-work {
+html[data-bsb-theme] .bsb-work {
+  font-size: 13px;
   font-weight: 700;
-  color: var(--bsb-text);
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
-.bsb-artists {
+.bsb-work .bsb-raw {
+  font-weight: 400;
+}
+html[data-bsb-theme] .bsb-artists {
+  font-size: 13px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
-.bsb-artists a,
-html[data-bsb-theme] .bsb-artists a {
+html[data-bsb-theme] .bsb-artists a[href] {
   color: var(--bsb-text);
 }
-.bsb-artists a:hover,
-html[data-bsb-theme] .bsb-artists a:hover {
+html[data-bsb-theme] .bsb-artists a.bsb-t-artist[href] {
+  color: var(--bsb-artist);
+}
+html[data-bsb-theme] .bsb-artists a[href]:hover {
   color: var(--bsb-red-text);
 }
-.bsb-meta {
+html[data-bsb-theme] .bsb-meta {
   display: flex;
   justify-content: space-between;
   gap: 8px;
@@ -93,23 +237,22 @@ html[data-bsb-theme] .bsb-artists a:hover {
   display: flex;
   flex-wrap: wrap;
   gap: 4px;
-  margin-top: 4px;
+  padding-top: 3px;
 }
-.bsb-chip {
+html[data-bsb-theme] .bsb-chip {
   background: var(--bsb-subtle);
-  color: var(--bsb-text);
   font-size: 11px;
-  line-height: 1;
-  padding: 4px 6px;
+  line-height: 1.6;
+  padding: 1px 6px;
 }
-.bsb-more {
+html[data-bsb-theme] .bsb-chip.bsb-more {
   background: none;
   color: var(--bsb-faint);
   font-family: var(--bsb-font-en);
-  padding: 4px;
+  padding: 1px 4px;
 }
 
-/* ---- Translation marks (captions and sidebar) ---- */
+/* ---- Translation marks (captions) ---- */
 .bsb-raw {
   color: var(--bsb-muted);
   font-family: var(--bsb-font-en);
@@ -127,6 +270,15 @@ html[data-bsb-theme] .bsb-artists a:hover {
   margin-left: 6px;
 }
 
+@media (max-width: 1100px) {
+  html.bsb-list[data-bsb-theme] #post-list {
+    padding: 20px 16px 32px;
+  }
+  .bsb-side {
+    flex: 1 1 100%;
+    width: auto;
+  }
+}
 @media (max-width: 900px) {
   .bsb-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr)) !important;

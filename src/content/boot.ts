@@ -1,6 +1,11 @@
 import { DEFAULTS, type Settings } from '../settings'
 import type { Dict } from '../dict'
 
+export interface ListActions {
+  saveSettings: (patch: Partial<Settings>) => Promise<void>
+  navigate: (url: string) => void
+}
+
 /** Everything the content script touches, injected so the sequence is testable without chrome.*. */
 export interface BootDeps {
   doc: Document
@@ -13,7 +18,8 @@ export interface BootDeps {
   applyTheme: (settings: Settings, doc: Document) => void
   markReady: (doc: Document) => void
   renderHeader: (doc: Document, settings: Settings) => void
-  renderList: (doc: Document, dict: Dict, settings: Settings) => unknown
+  /** `actions` wires the band's per-page switch (save, then navigate). */
+  renderList: (doc: Document, dict: Dict, settings: Settings, actions: ListActions) => unknown
   attachHoverPlay: (root: ParentNode, settings: Settings, win: Window) => unknown
   renderShow: (doc: Document, dict: Dict, settings: Settings) => boolean
   attachSearch: (doc: Document, dict: Dict, settings: Settings) => unknown
@@ -108,7 +114,9 @@ export async function boot(d: BootDeps): Promise<void> {
     }
     step('renderHeader', () => d.renderHeader(doc, settings))
     if (doc.getElementById('post-list-posts')) {
-      step('renderList', () => d.renderList(doc, dict, settings))
+      const navigate = d.navigate ?? ((url: string) => win.location.assign(url))
+      // Band and search box exist before attachSearch below, so its input gets the autocomplete.
+      step('renderList', () => d.renderList(doc, dict, settings, { saveSettings: d.saveSettings, navigate }))
       step('attachHoverPlay', () => d.attachHoverPlay(doc, settings, win))
     }
     if (doc.getElementById('post-view')) step('renderShow', () => d.renderShow(doc, dict, settings))

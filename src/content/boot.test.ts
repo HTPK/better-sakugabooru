@@ -68,14 +68,30 @@ describe('boot', () => {
     await boot(d)
     expect(d.applyTheme).toHaveBeenCalledWith(DEFAULTS, doc)
     expect(d.renderHeader).toHaveBeenCalledWith(doc, DEFAULTS)
-    expect(d.renderList).toHaveBeenCalledWith(doc, DICT, DEFAULTS)
+    expect(d.renderList).toHaveBeenCalledWith(doc, DICT, DEFAULTS, {
+      saveSettings: d.saveSettings,
+      navigate: expect.any(Function),
+    })
     expect(d.attachHoverPlay).toHaveBeenCalledWith(doc, DEFAULTS, win)
     expect(d.renderShow).not.toHaveBeenCalled()
     expect(d.attachSearch).toHaveBeenCalledWith(doc, DICT, DEFAULTS)
     // Search goes after the header so the moved input is positioned correctly.
     const order = (f: unknown) => vi.mocked(f as () => void).mock.invocationCallOrder[0]
     expect(order(d.attachSearch)).toBeGreaterThan(order(d.renderHeader))
+    // ...and after the list, whose band adds the search input autocomplete must attach to.
+    expect(order(d.attachSearch)).toBeGreaterThan(order(d.renderList))
     expect(doc.documentElement.classList.contains('bsb-ready')).toBe(true)
+  })
+
+  it('hands the list band the injected navigate and saveSettings', async () => {
+    const { doc, win } = load(LIST)
+    const navigate = vi.fn()
+    const renderList = vi.fn((_d: Document, _x: Dict, _s: Settings, a: { navigate: (u: string) => void }) => {
+      a.navigate('/post?limit=60')
+    })
+    const { d } = deps(doc, win, { navigate, renderList })
+    await boot(d)
+    expect(navigate).toHaveBeenCalledWith('/post?limit=60')
   })
 
   it('renders the show page without list or hover', async () => {
