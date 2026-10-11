@@ -75,6 +75,17 @@ describe('getDict / validateDict', () => {
     expect(validateDict(null)).toBe(false)
     expect(validateDict({ v: 1, updated: 'x', artists: {}, copyrights: {} })).toBe(false)
   })
+  it('validates entry shape', () => {
+    const base = { v: 1, updated: 'x', artists: {}, copyrights: {}, general: {} }
+    expect(validateDict({ ...base, artists: { a: {} } })).toBe(false)
+    expect(validateDict({ ...base, general: { x: 5 } })).toBe(false)
+    expect(validateDict({ ...base, copyrights: { c: { ja: '' } } })).toBe(false)
+    expect(validateDict({ ...base, artists: { a: { ja: 'あ', kana: 1 } } })).toBe(false)
+    expect(validateDict({ ...base, artists: { a: { ja: 'あ', src: 2 } } })).toBe(false)
+    expect(validateDict({ ...base, counts: { a: 'many' } })).toBe(false)
+    expect(validateDict({ ...base, counts: [] })).toBe(false)
+    expect(validateDict({ ...base, artists: { a: { ja: 'あ', kana: 'あ', src: 'wiki' } }, counts: { a: 3 } })).toBe(true)
+  })
   it('falls back to snapshot when storage is empty or invalid', async () => {
     expect((await getDict()).updated).toBe('2026-10-12')
     await chrome.storage.local.set({ dict: { v: 9 } })

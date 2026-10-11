@@ -5,6 +5,7 @@ export type TagType = 'artist' | 'copyright' | 'general' | 'character' | 'meta' 
 export interface Entry {
   ja: string
   kana?: string
+  src?: string
 }
 export interface Dict {
   v: 1
@@ -87,8 +88,22 @@ export function suggest(index: ReverseIndex, query: string, limit = 8): Suggesti
 export function validateDict(x: unknown): x is Dict {
   if (!x || typeof x !== 'object') return false
   const d = x as Record<string, unknown>
-  const isObj = (v: unknown) => !!v && typeof v === 'object' && !Array.isArray(v)
-  return d.v === 1 && typeof d.updated === 'string' && isObj(d.artists) && isObj(d.copyrights) && isObj(d.general)
+  const isObj = (v: unknown): v is Record<string, unknown> => !!v && typeof v === 'object' && !Array.isArray(v)
+  const optStr = (v: unknown) => v === undefined || typeof v === 'string'
+  const isEntry = (e: unknown) =>
+    isObj(e) && typeof e.ja === 'string' && e.ja.length > 0 && optStr(e.kana) && optStr(e.src)
+  const isMap = (m: unknown) => isObj(m) && Object.values(m).every(isEntry)
+  const countsOk =
+    d.counts === undefined ||
+    (isObj(d.counts) && Object.values(d.counts).every((n) => typeof n === 'number' && Number.isFinite(n)))
+  return (
+    d.v === 1 &&
+    typeof d.updated === 'string' &&
+    isMap(d.artists) &&
+    isMap(d.copyrights) &&
+    isMap(d.general) &&
+    countsOk
+  )
 }
 
 export async function getDict(): Promise<Dict> {
