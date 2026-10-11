@@ -142,7 +142,9 @@ test('extension smoke on live site', async () => {
     expect(h1.length).toBeGreaterThan(0)
     await expect(page.locator('.video-js').first()).toBeVisible()
     await expect(page.locator(`#post-score-${POST_ID}`)).toHaveCount(1)
-    await expect(page.locator('.bsb-stats')).toHaveCount(1)
+    await expect(page.locator('.bsb-show-facts')).toHaveCount(1)
+    await expect(page.locator('.bsb-player')).toHaveCount(1)
+    await expect(page.locator('.bsb-score-row')).toHaveCount(1)
     await shot(page, 'show-light.png')
 
     // 5. Popup -> dark theme.
