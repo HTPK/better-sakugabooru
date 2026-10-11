@@ -1,0 +1,10 @@
+/* Hide the original UI until the content script is ready; reveal after 1.5s as a safety fallback. */
+html:not(.bsb-ready) body {
+  visibility: hidden;
+  animation: bsb-reveal 0s 1.5s forwards;
+}
+@keyframes bsb-reveal {
+  to {
+    visibility: visible;
+  }
+}
