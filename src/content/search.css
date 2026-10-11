@@ -1,0 +1,73 @@
+/* Better Sakugabooru: Japanese search suggestions. Colors come only from tokens.css. */
+.bsb-suggest {
+  position: absolute;
+  z-index: 10000;
+  min-width: 280px;
+  max-width: 420px;
+  background: var(--bsb-bg);
+  border: 1px solid var(--bsb-border);
+  border-radius: 0;
+  font-family: var(--bsb-font-jp);
+  font-size: 13px;
+  line-height: 1.4;
+  color: var(--bsb-text);
+}
+.bsb-suggest[hidden] {
+  display: none;
+}
+
+.bsb-sg {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 2px 12px;
+  padding: 6px 10px;
+  border-left: 3px solid transparent;
+  border-radius: 0;
+  cursor: pointer;
+}
+.bsb-sg[data-type="artist"] {
+  border-left-color: var(--bsb-text);
+}
+.bsb-sg[data-type="copyright"] {
+  border-left-color: var(--bsb-lead);
+}
+.bsb-sg[data-type="general"] {
+  border-left-color: var(--bsb-muted);
+}
+.bsb-sg:hover,
+.bsb-sg[aria-selected="true"] {
+  background: var(--bsb-band);
+}
+
+.bsb-sg-ja {
+  grid-column: 1;
+  grid-row: 1;
+  font-weight: 700;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.bsb-sg-count {
+  grid-column: 2;
+  grid-row: 1;
+  text-align: right;
+  font-family: var(--bsb-font-en);
+  color: var(--bsb-faint);
+}
+.bsb-sg-romaji,
+.bsb-sg-kana {
+  grid-row: 2;
+  font-size: 11px;
+  color: var(--bsb-muted);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.bsb-sg-romaji {
+  grid-column: 1;
+  font-family: var(--bsb-font-en);
+}
+.bsb-sg-kana {
+  grid-column: 2;
+  text-align: right;
+}
