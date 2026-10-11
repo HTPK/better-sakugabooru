@@ -1,0 +1,3950 @@
+{
+  "artists": {
+    "aaron_blaise": {
+      "ja": "アーロン・ブライズ",
+      "kana": "あーろん・ぶれいず"
+    },
+    "aaron_springer": {
+      "ja": "アーロン・スプリンガー"
+    },
+    "abe_levitow": {
+      "ja": "エイヴ・レヴァイトー"
+    },
+    "abel_gongora": {
+      "ja": "アベル・ゴンゴラ"
+    },
+    "ai_kikuchi": {
+      "ja": "菊池愛"
+    },
+    "akemi_hayashi": {
+      "ja": "林明美",
+      "kana": "はやし あけみ"
+    },
+    "akemi_ota": {
+      "ja": "大田朱美",
+      "kana": "おおた あけみ"
+    },
+    "akihiko_yamashita": {
+      "ja": "山下明彦",
+      "kana": "やました あきひこ"
+    },
+    "akihiro_kanayama": {
+      "ja": "金山明博",
+      "kana": "かなやま あきひろ"
+    },
+    "akio_sugino": {
+      "ja": "杉野昭夫",
+      "kana": "すぎの あきお"
+    },
+    "akio_takami": {
+      "ja": "高見明男",
+      "kana": "たかみ あきお"
+    },
+    "akio_watanabe": {
+      "ja": "渡辺明夫",
+      "kana": "わたなべ あきお"
+    },
+    "akira_amemiya": {
+      "ja": "雨宮哲",
+      "kana": "あめみや あきら"
+    },
+    "akira_daikuhara": {
+      "ja": "大工原章"
+    },
+    "akira_honma": {
+      "ja": "本間晃"
+    },
+    "akira_inagami": {
+      "ja": "稲上晃",
+      "kana": "いながみ あきら"
+    },
+    "akira_maeda": {
+      "ja": "前田昭",
+      "kana": "まえだ あきら"
+    },
+    "akira_matsushima": {
+      "ja": "松島晃",
+      "kana": "まつしま あきら"
+    },
+    "akitoshi_yokoyama": {
+      "ja": "横山彰利",
+      "kana": "よこやま あきとし"
+    },
+    "akiyuki_shinbo": {
+      "ja": "新房昭之",
+      "kana": "しんぼう あきゆき"
+    },
+    "al_coe": {
+      "ja": "アル・コー"
+    },
+    "aleksandr_petrov": {
+      "ja": "アレクサンドル・ペトロフ",
+      "kana": "あれくさんどる・ぺどろふ"
+    },
+    "amby_paliwoda": {
+      "ja": "アンビー・パリウォダ",
+      "kana": "あんぶろーずぃ・ぱりうぉだ"
+    },
+    "andreas_deja": {
+      "ja": "アンドレアス・デジャ"
+    },
+    "andy_gaskill": {
+      "ja": "アンディ・ガスキル"
+    },
+    "anthony_derosa": {
+      "ja": "アンソニー・デローザ"
+    },
+    "art_babbitt": {
+      "ja": "アート・バビット"
+    },
+    "art_davis": {
+      "ja": "アーサー・デイビス"
+    },
+    "art_palmer": {
+      "ja": "アート・パーマー"
+    },
+    "art_stevens": {
+      "ja": "アート・スティーブンス",
+      "kana": "あーと・すてぃーゔんす"
+    },
+    "artist_unknown": {
+      "ja": "作画者不明"
+    },
+    "asako_nishida": {
+      "ja": "西田亜沙子",
+      "kana": "にしだ あさこ"
+    },
+    "atsuko_fukushima": {
+      "ja": "福島敦子",
+      "kana": "ふくしま あつこ"
+    },
+    "atsuko_ishida": {
+      "ja": "石田敦子",
+      "kana": "いしだ あつこ"
+    },
+    "atsuko_nakajima": {
+      "ja": "中嶋敦子",
+      "kana": "なかじま あつこ"
+    },
+    "atsuko_tanaka": {
+      "ja": "田中敦子",
+      "kana": "たなか あつこ"
+    },
+    "atsuko_watanabe": {
+      "ja": "渡辺敦子",
+      "kana": "わたなべ あつこ"
+    },
+    "atsuo_tobe": {
+      "ja": "戸部敦夫",
+      "kana": "とべ あつお"
+    },
+    "atsushi_ikariya": {
+      "ja": "碇谷敦",
+      "kana": "いかりや あつし"
+    },
+    "atsushi_nishigori": {
+      "ja": "錦織敦史",
+      "kana": "にしごり あつし"
+    },
+    "atsushi_ogasawara": {
+      "ja": "小笠原篤",
+      "kana": "おがさわら あつし"
+    },
+    "atsushi_shigeta": {
+      "ja": "重田敦司"
+    },
+    "atsushi_takeuchi": {
+      "ja": "竹内敦志",
+      "kana": "たけうち あつし"
+    },
+    "atsushi_tamura": {
+      "ja": "田村篤"
+    },
+    "atsushi_wakabayashi": {
+      "ja": "若林厚史",
+      "kana": "わかばやし あつし"
+    },
+    "aya_takano": {
+      "ja": "髙野綾",
+      "kana": "たかの あや"
+    },
+    "ayataka_tanemura": {
+      "ja": "種村綾隆"
+    },
+    "ayumi_kurashima": {
+      "ja": "倉島亜由美",
+      "kana": "くらしま あゆみ"
+    },
+    "ayumi_shiraishi": {
+      "ja": "白石亜由美"
+    },
+    "ben_sharpsteen": {
+      "ja": "ベン・シャープスティーン"
+    },
+    "ben_washam": {
+      "ja": "ベン・ウォシャム"
+    },
+    "bernard_garbutt": {
+      "ja": "ベルナール・ガルバット"
+    },
+    "berny_wolf": {
+      "ja": "バーナード・ウルフ"
+    },
+    "bill_justice": {
+      "ja": "ビル・ジャスティス"
+    },
+    "bill_kroyer": {
+      "ja": "ビル・クロイアー"
+    },
+    "bill_littlejohn": {
+      "ja": "ビル・リトルジョン"
+    },
+    "bill_melendez": {
+      "ja": "ビル・メレンデス"
+    },
+    "bill_nolan": {
+      "ja": "ビル・ノーラン"
+    },
+    "bill_plympton": {
+      "ja": "ビル・プリンプトン"
+    },
+    "bill_roberts": {
+      "ja": "ビル・ロバーツ"
+    },
+    "bill_tytla": {
+      "ja": "ビル・ティトラ"
+    },
+    "blaine_gibson": {
+      "ja": "ブレイン・ギブソン"
+    },
+    "blue_box_(animator)": {
+      "ja": "アオのハコ"
+    },
+    "bob_clampett": {
+      "ja": "ボブ・クランペット"
+    },
+    "bob_jaques": {
+      "ja": "ボブ・ジャック"
+    },
+    "bob_mccrea": {
+      "ja": "ボブ・マックレア"
+    },
+    "brad_bird": {
+      "ja": "ブラッド・バード"
+    },
+    "brad_case": {
+      "ja": "ブラッド・ケース"
+    },
+    "cal_dalton": {
+      "ja": "カル・ダートン"
+    },
+    "campbell_grant": {
+      "ja": "キャンベル・グラント"
+    },
+    "caroline_leaf": {
+      "ja": "キャロライン・リーフ"
+    },
+    "charles_nichols": {
+      "ja": "チャールズ・オーガスト・ニコルズ",
+      "kana": "ちゃーるず・にこるず"
+    },
+    "chie_uratani": {
+      "ja": "浦谷千恵",
+      "kana": "うらたに ちえ"
+    },
+    "chikashi_kubota": {
+      "ja": "久保田誓",
+      "kana": "くぼた ちかし"
+    },
+    "chiyuki_tanaka": {
+      "ja": "田中ちゆき",
+      "kana": "たなか ちゆき"
+    },
+    "chris_buck": {
+      "ja": "クリス・バック"
+    },
+    "chris_sauve": {
+      "ja": "クリス・ソーヴェ"
+    },
+    "chuck_jones": {
+      "ja": "チャック・ジョーンズ"
+    },
+    "cliff_nordberg": {
+      "ja": "クリフ・ノードバーグ"
+    },
+    "clyde_geronimi": {
+      "ja": "クライド・ジョロニミ",
+      "kana": "くらいど・じぇろにみ"
+    },
+    "cy_young": {
+      "ja": "サイ・ヤング"
+    },
+    "daikichirou_kusube": {
+      "ja": "楠部大吉郎",
+      "kana": "くすべ だいきちろう"
+    },
+    "daisuke_sakou": {
+      "ja": "酒向大輔"
+    },
+    "dale_baer": {
+      "ja": "デール・ベアー"
+    },
+    "dan_macmanus": {
+      "ja": "ダン・マクマナス"
+    },
+    "dana_terrace": {
+      "ja": "ダナ・テラス"
+    },
+    "daniel_mcmanus": {
+      "ja": "ダン・マクマナス"
+    },
+    "dave_spafford": {
+      "ja": "デイヴ・スパフォード",
+      "kana": "でいゔぃっど・すぱふぉーど"
+    },
+    "david_feiss": {
+      "ja": "デヴィッド・ファイス"
+    },
+    "david_silverman": {
+      "ja": "デヴィッド・シルヴァーマン"
+    },
+    "dick_huemer": {
+      "ja": "ディック・ヒューマー"
+    },
+    "dick_lucas": {
+      "ja": "ディック・N・ルーカス",
+      "kana": "でぃっく・るーかす"
+    },
+    "dick_lundy": {
+      "ja": "ディック・ランディー",
+      "kana": "でぃっく・らんでぃ"
+    },
+    "don_bluth": {
+      "ja": "ドン・ブルース"
+    },
+    "don_lusk": {
+      "ja": "ドン・ラスク"
+    },
+    "don_patterson": {
+      "ja": "ドン・パターソン"
+    },
+    "ed_barge": {
+      "ja": "エド・バージ"
+    },
+    "ed_love": {
+      "ja": "エド・ラブ"
+    },
+    "eiji_komatsu": {
+      "ja": "小松英司",
+      "kana": "こまつ えいじ"
+    },
+    "eiji_nakada": {
+      "ja": "中田栄治"
+    },
+    "eiji_suganuma": {
+      "ja": "菅沼栄治",
+      "kana": "すがぬま えいじ"
+    },
+    "eiji_yamamori": {
+      "ja": "山森英司",
+      "kana": "やまもり えいじ"
+    },
+    "emery_hawkins": {
+      "ja": "エメリー・ホーキンズ"
+    },
+    "eric_cleworth": {
+      "ja": "エリック・クレウォース"
+    },
+    "eric_goldberg": {
+      "ja": "エリック・ゴールドバーグ"
+    },
+    "eric_larson": {
+      "ja": "エリック・ラーソン"
+    },
+    "eun_young_choi": {
+      "ja": "チェ・ウニョン",
+      "kana": "うにょん"
+    },
+    "frank_thomas": {
+      "ja": "フランク・トーマス"
+    },
+    "franziska_van_wulfen": {
+      "ja": "Franziska van Wulfen"
+    },
+    "fred_kopietz": {
+      "ja": "フレッド・コピエッツ"
+    },
+    "fred_moore": {
+      "ja": "フレッド・ムーア"
+    },
+    "frederic_back": {
+      "ja": "フレデリック・バック"
+    },
+    "friz_freleng": {
+      "ja": "フリッツ・フレラング",
+      "kana": "ふりっつ・ふれれんぐ"
+    },
+    "fumio_iida": {
+      "ja": "SUEZEN"
+    },
+    "futoshi_fujikawa": {
+      "ja": "藤川太",
+      "kana": "ふじかわ ふとし"
+    },
+    "futoshi_nishiya": {
+      "ja": "西屋太志",
+      "kana": "にしや ふとし"
+    },
+    "fyodor_khitruk": {
+      "ja": "フョードル・ヒートルーク"
+    },
+    "gen'ichirou_abe": {
+      "ja": "阿部厳一朗"
+    },
+    "gen_satou": {
+      "ja": "佐藤元",
+      "kana": "さとう げん"
+    },
+    "genndy_tartakovsky": {
+      "ja": "ゲンディ・タルタコフスキー"
+    },
+    "george_gordon": {
+      "ja": "ジョージ・ゴードン"
+    },
+    "george_nicholas": {
+      "ja": "ジョージ・ニコラス"
+    },
+    "george_rowley": {
+      "ja": "ジョージ・ロウレイ"
+    },
+    "gerry_chiniquy": {
+      "ja": "ジェリー・チニキー"
+    },
+    "gil_turner": {
+      "ja": "ジル・ターナー"
+    },
+    "gin_san": {
+      "ja": "銀さん"
+    },
+    "gisaburou_sugii": {
+      "ja": "杉井ギサブロー"
+    },
+    "glen_keane": {
+      "ja": "グレン・キーン"
+    },
+    "goro_miyazaki": {
+      "ja": "宮崎吾朗",
+      "kana": "みやざき ごろう"
+    },
+    "gosho_aoyama": {
+      "ja": "青山剛昌",
+      "kana": "あおやま ごうしょう"
+    },
+    "grim_natwick": {
+      "ja": "グリム・ナトウィック"
+    },
+    "hajime_kamegaki": {
+      "ja": "亀垣一",
+      "kana": "かめがき はじめ"
+    },
+    "hal_king": {
+      "ja": "ハル・キング"
+    },
+    "haruhiko_mikimoto": {
+      "ja": "美樹本晴彦",
+      "kana": "みきもと はるひこ"
+    },
+    "haruko_iizuka": {
+      "ja": "飯塚晴子",
+      "kana": "いいづか はるこ"
+    },
+    "haruo_sotozaki": {
+      "ja": "外崎春雄",
+      "kana": "そとざき はるお"
+    },
+    "harvey_toombs": {
+      "ja": "ハーヴィー・トゥームス"
+    },
+    "hayao_miyazaki": {
+      "ja": "宮崎駿",
+      "kana": "みやざき はやお"
+    },
+    "henry_thurlow": {
+      "ja": "ヘンリー・サロウ"
+    },
+    "hicks_lokey": {
+      "ja": "ヒックス・ローキー"
+    },
+    "hideaki_anno": {
+      "ja": "庵野秀明"
+    },
+    "hideaki_maniwa": {
+      "ja": "真庭秀明"
+    },
+    "hidehiro_asama": {
+      "ja": "浅間英裕"
+    },
+    "hidekazu_ohara": {
+      "ja": "小原秀一",
+      "kana": "おはら ひでかず"
+    },
+    "hideki_inoue": {
+      "ja": "井上英紀"
+    },
+    "hideki_tachibana": {
+      "ja": "橘秀樹"
+    },
+    "hideki_takahashi": {
+      "ja": "高橋英樹",
+      "kana": "たかはし ひでき"
+    },
+    "hideki_tamura": {
+      "ja": "田村英樹",
+      "kana": "たむら ひでき"
+    },
+    "hidenori_matsubara": {
+      "ja": "松原秀典",
+      "kana": "まつばら ひでのり"
+    },
+    "hideo_kawachi": {
+      "ja": "河内日出夫",
+      "kana": "かわち ひでお"
+    },
+    "hideto_komori": {
+      "ja": "小森秀人",
+      "kana": "こもり ひでと"
+    },
+    "hidetoshi_oomori": {
+      "ja": "大森英敏",
+      "kana": "おおもり ひでとし"
+    },
+    "hidetsugu_hirayama": {
+      "ja": "平山英嗣",
+      "kana": "ひらやま ひでつぐ"
+    },
+    "hideyuki_funakoshi": {
+      "ja": "船越英之",
+      "kana": "ふなこし ひでゆき"
+    },
+    "hideyuki_morioka": {
+      "ja": "守岡英行",
+      "kana": "もりおか ひでゆき"
+    },
+    "hideyuki_motohashi": {
+      "ja": "本橋秀之",
+      "kana": "もとはし ひでゆき"
+    },
+    "hiraku_kaneko": {
+      "ja": "金子ひらく",
+      "kana": "かねこ ひらく"
+    },
+    "hiroaki_gouda": {
+      "ja": "合田浩章",
+      "kana": "ごうだ ひろあき"
+    },
+    "hiroaki_karasu": {
+      "ja": "烏宏明"
+    },
+    "hiroaki_satou": {
+      "ja": "佐藤博暉",
+      "kana": "さとう ひろあき"
+    },
+    "hirofumi_suzuki": {
+      "ja": "鈴木博文",
+      "kana": "すずき ひろふみ"
+    },
+    "hirokazu_hisayuki": {
+      "ja": "久行宏和",
+      "kana": "ひさゆき ひろかず"
+    },
+    "hiroki_harada": {
+      "ja": "原田大基"
+    },
+    "hiroki_kanno": {
+      "ja": "菅野宏紀",
+      "kana": "かんの ひろき"
+    },
+    "hiroki_yamamura": {
+      "ja": "山村洋貴",
+      "kana": "やまむら ひろき"
+    },
+    "hiroko_kazui": {
+      "ja": "数井浩子"
+    },
+    "hiroko_utsumi": {
+      "ja": "内海紘子"
+    },
+    "hiromasa_ogura": {
+      "ja": "小倉宏昌",
+      "kana": "おぐら ひろまさ"
+    },
+    "hiromasa_yonebayashi": {
+      "ja": "米林宏昌",
+      "kana": "よねばやし ひろまさ"
+    },
+    "hiromatsu_shuu": {
+      "ja": "シュウ浩嵩"
+    },
+    "hiromi_kato": {
+      "ja": "加藤裕美",
+      "kana": "かとう ひろみ"
+    },
+    "hiromi_matsushita": {
+      "ja": "松下浩美"
+    },
+    "hiromi_niioka": {
+      "ja": "新岡浩美",
+      "kana": "にいおか ひろみ"
+    },
+    "hiroshi_hamasaki": {
+      "ja": "浜崎博嗣",
+      "kana": "はまさき ひろし"
+    },
+    "hiroshi_harada": {
+      "ja": "原田浩",
+      "kana": "はらだ ひろし"
+    },
+    "hiroshi_kojina": {
+      "ja": "神志那弘志",
+      "kana": "こうじな ひろし"
+    },
+    "hiroshi_nagahama": {
+      "ja": "長濱博史",
+      "kana": "ながはま ひろし"
+    },
+    "hiroshi_ousaka": {
+      "ja": "逢坂浩司",
+      "kana": "おうさか ひろし"
+    },
+    "hiroshi_saito": {
+      "ja": "斎藤博",
+      "kana": "さいとう ひろし"
+    },
+    "hiroshi_takeuchi": {
+      "ja": "竹内浩志",
+      "kana": "たけうち ひろし"
+    },
+    "hiroshi_watanabe": {
+      "ja": "わたなべひろし"
+    },
+    "hirotaka_kato": {
+      "ja": "加藤寛崇",
+      "kana": "かとう ひろたか"
+    },
+    "hirotaka_marufuji": {
+      "ja": "丸藤広貴",
+      "kana": "まるふじ ひろたか"
+    },
+    "hiroto_tanaka": {
+      "ja": "田中比呂人",
+      "kana": "たなか ひろと"
+    },
+    "hirotoshi_sano": {
+      "ja": "佐野浩敏",
+      "kana": "さの ひろとし"
+    },
+    "hirotoshi_takaya": {
+      "ja": "高谷浩利",
+      "kana": "たかや ひろとし"
+    },
+    "hiroyuki_aoyama": {
+      "ja": "青山浩行",
+      "kana": "あおやま ひろゆき"
+    },
+    "hiroyuki_horiuchi": {
+      "ja": "堀内博之",
+      "kana": "ほりうち ひろゆき"
+    },
+    "hiroyuki_imaishi": {
+      "ja": "今石洋之",
+      "kana": "いまいし ひろゆき"
+    },
+    "hiroyuki_kitakubo": {
+      "ja": "北久保弘之",
+      "kana": "きたくぼ ひろゆき"
+    },
+    "hiroyuki_kitazume": {
+      "ja": "北爪宏幸",
+      "kana": "きたづめ ひろゆき"
+    },
+    "hiroyuki_morita": {
+      "ja": "森田宏幸",
+      "kana": "もりた ひろゆき"
+    },
+    "hiroyuki_nishimura": {
+      "ja": "西村博之",
+      "kana": "にしむら ひろゆき"
+    },
+    "hiroyuki_ochi": {
+      "ja": "越智博之",
+      "kana": "おち ひろゆき"
+    },
+    "hiroyuki_okiura": {
+      "ja": "沖浦啓之",
+      "kana": "おきうら ひろゆき"
+    },
+    "hiroyuki_taiga": {
+      "ja": "大河広行"
+    },
+    "hiroyuki_takahashi": {
+      "ja": "高橋博行",
+      "kana": "たかはし ひろゆき"
+    },
+    "hiroyuki_yamashita": {
+      "ja": "山下宏幸",
+      "kana": "やました ひろゆき"
+    },
+    "hisao_yokobori": {
+      "ja": "横堀久雄"
+    },
+    "hisashi_abe": {
+      "ja": "阿部恒",
+      "kana": "あべ ひさし"
+    },
+    "hisashi_eguchi": {
+      "ja": "江口寿志",
+      "kana": "えぐち ひさし"
+    },
+    "hisashi_ezura": {
+      "ja": "江面久",
+      "kana": "えづら ひさし"
+    },
+    "hisashi_hirai": {
+      "ja": "平井久司",
+      "kana": "ひらい ひさし"
+    },
+    "hisashi_kagawa": {
+      "ja": "香川久",
+      "kana": "かがわ ひさし"
+    },
+    "hisashi_mori": {
+      "ja": "森久司",
+      "kana": "もり ひさし"
+    },
+    "hisashi_sakaguchi": {
+      "ja": "坂口尚",
+      "kana": "さかぐち ひさし"
+    },
+    "hisayuki_tabata": {
+      "ja": "田畑壽之"
+    },
+    "hitomi_hasegawa": {
+      "ja": "長谷川ひとみ"
+    },
+    "hitomi_tsuruta": {
+      "ja": "鶴田仁美"
+    },
+    "honami_yano": {
+      "ja": "矢野ほなみ"
+    },
+    "hugh_fraser": {
+      "ja": "ヒュー・フレイザー"
+    },
+    "ichiro_itano": {
+      "ja": "板野一郎",
+      "kana": "いたの いちろう"
+    },
+    "ikkou_kobayashi": {
+      "ja": "小林一幸",
+      "kana": "こばやし いっこう"
+    },
+    "ikuko_itoh": {
+      "ja": "伊藤郁子",
+      "kana": "いとう いくこ"
+    },
+    "ikuo_geso": {
+      "ja": "げそいくお"
+    },
+    "irv_spence": {
+      "ja": "アーヴィン・スペンス"
+    },
+    "isamu_imakake": {
+      "ja": "今掛勇",
+      "kana": "いまかけ いさむ"
+    },
+    "isao_sugimoto": {
+      "ja": "杉本功",
+      "kana": "すぎもと いさお"
+    },
+    "itsuki_imazaki": {
+      "ja": "いまざきいつき"
+    },
+    "jack_bradbury": {
+      "ja": "ジャック・ブラッドベリー"
+    },
+    "jack_hannah": {
+      "ja": "ジャック・ハナー",
+      "kana": "じゃっく・はんな"
+    },
+    "jack_king": {
+      "ja": "ジャック・キング"
+    },
+    "jack_kinney": {
+      "ja": "ジャック・キニー"
+    },
+    "jack_zander": {
+      "ja": "ジャック・ザンダー"
+    },
+    "james_baxter": {
+      "ja": "ジェームズ・バクスター"
+    },
+    "jerry_hathcock": {
+      "ja": "ジェリー・ハッチコック"
+    },
+    "jim_algar": {
+      "ja": "ジェームズ・アルガー"
+    },
+    "jin_kim": {
+      "ja": "ジン・キム"
+    },
+    "joanna_quinn": {
+      "ja": "ジョアンナ・クイン"
+    },
+    "joaquim_dos_santos": {
+      "ja": "ホアキン・ドス・サントス"
+    },
+    "john_kricfalusi": {
+      "ja": "ジョン・クリクファルシ",
+      "kana": "じょん・くりくふぁるせー"
+    },
+    "john_lounsbery": {
+      "ja": "ジョン・ラウンズベリー"
+    },
+    "john_musker": {
+      "ja": "ジョン・マスカー"
+    },
+    "john_pomeroy": {
+      "ja": "ジョン・ポメロイ"
+    },
+    "josh_meador": {
+      "ja": "ジョシュア・メダー",
+      "kana": "じょしゅあ・みーだー"
+    },
+    "jun_nakai": {
+      "ja": "中井準"
+    },
+    "jun_shishido": {
+      "ja": "宍戸淳",
+      "kana": "ししど じゅん"
+    },
+    "jun_yamazaki": {
+      "ja": "山崎淳"
+    },
+    "junichi_sato": {
+      "ja": "佐藤順一",
+      "kana": "さとう じゅんいち"
+    },
+    "junichiro_taniguchi": {
+      "ja": "谷口淳一郎",
+      "kana": "たにぐち じゅんいちろう"
+    },
+    "kaichiro_terada": {
+      "ja": "寺田嘉一郎",
+      "kana": "てらだ かいちろう"
+    },
+    "kairi_unabara": {
+      "ja": "うなばら海里"
+    },
+    "kana_ishida": {
+      "ja": "石田可奈",
+      "kana": "いしだ かな"
+    },
+    "kana_miyai": {
+      "ja": "宮井加奈",
+      "kana": "みやい かな"
+    },
+    "kanako_maru": {
+      "ja": "丸加奈子",
+      "kana": "まる かなこ"
+    },
+    "kanami_sekiguchi": {
+      "ja": "関口可奈味",
+      "kana": "せきぐち かなみ"
+    },
+    "kanna_hirayama": {
+      "ja": "平山寛菜"
+    },
+    "kanta_suzuki": {
+      "ja": "鈴木勘太"
+    },
+    "katsuhiko_nishijima": {
+      "ja": "西島克彦",
+      "kana": "にしじま かつひこ"
+    },
+    "katsuhiro_otomo": {
+      "ja": "大友克洋",
+      "kana": "おおとも かつひろ"
+    },
+    "katsuichi_nakayama": {
+      "ja": "中山勝一",
+      "kana": "なかやま かついち"
+    },
+    "katsumi_tamegai": {
+      "ja": "爲我井克美",
+      "kana": "ためがい かつみ"
+    },
+    "katsuya_kondo": {
+      "ja": "近藤勝也",
+      "kana": "こんどう かつや"
+    },
+    "katsuya_shigehara": {
+      "ja": "重原克也"
+    },
+    "katsuya_terada": {
+      "ja": "寺田克也",
+      "kana": "てらだ かつや"
+    },
+    "katsuyoshi_nakatsuru": {
+      "ja": "中鶴勝祥",
+      "kana": "なかつる かつよし"
+    },
+    "katsuzo_hirata": {
+      "ja": "平田雄三",
+      "kana": "ひらた かつぞう"
+    },
+    "kazuaki_mouri": {
+      "ja": "毛利和昭",
+      "kana": "もうり かずあき"
+    },
+    "kazuchika_kise": {
+      "ja": "黄瀬和哉",
+      "kana": "きせ かずちか"
+    },
+    "kazuhide_tomonaga": {
+      "ja": "友永和秀",
+      "kana": "ともなが かずひで"
+    },
+    "kazuhiro_fukuchi": {
+      "ja": "福地和浩"
+    },
+    "kazuhiro_furuhashi": {
+      "ja": "古橋一浩",
+      "kana": "ふるはし かずひろ"
+    },
+    "kazuhiro_miwa": {
+      "ja": "三輪和宏",
+      "kana": "みわ かずひろ"
+    },
+    "kazuhiro_ochi": {
+      "ja": "越智一裕",
+      "kana": "おち かずひろ"
+    },
+    "kazuhiro_ota": {
+      "ja": "大田和寛",
+      "kana": "おおた かずひろ"
+    },
+    "kazuhisa_nakamura": {
+      "ja": "中村和久",
+      "kana": "なかむら かずひさ"
+    },
+    "kazuko_nakamura": {
+      "ja": "中村和子",
+      "kana": "なかむら かずこ"
+    },
+    "kazuko_tadano": {
+      "ja": "只野和子",
+      "kana": "ただの かずこ"
+    },
+    "kazumi_ikeda": {
+      "ja": "池田和美",
+      "kana": "いけだ かずみ"
+    },
+    "kazumi_satou": {
+      "ja": "佐藤和巳",
+      "kana": "さとう かずみ"
+    },
+    "kazunori_iwakura": {
+      "ja": "岩倉和憲",
+      "kana": "いわくら かずのり"
+    },
+    "kazunori_ozawa": {
+      "ja": "小澤和則"
+    },
+    "kazunori_takahashi": {
+      "ja": "高橋和徳",
+      "kana": "たかはし かずのり"
+    },
+    "kazuo_komatsubara": {
+      "ja": "小松原一男",
+      "kana": "こまつばら かずお"
+    },
+    "kazuo_yamazaki": {
+      "ja": "やまざきかずお",
+      "kana": "やまざき かずお"
+    },
+    "kazushige_yusa": {
+      "ja": "遊佐かずしげ"
+    },
+    "kazutaka_ozaki": {
+      "ja": "尾崎和孝",
+      "kana": "おざき かずたか"
+    },
+    "kazutaka_sugiyama": {
+      "ja": "杉山和隆"
+    },
+    "kazuto_nakazawa": {
+      "ja": "中澤一登",
+      "kana": "なかざわ かずと"
+    },
+    "kazuya_kuroda": {
+      "ja": "黒田和也",
+      "kana": "くろだ かずや"
+    },
+    "kazuya_miura": {
+      "ja": "三浦和也"
+    },
+    "kazuya_shiotsuki": {
+      "ja": "潮月一也"
+    },
+    "kazuya_tsurumaki": {
+      "ja": "鶴巻和哉",
+      "kana": "つるまき かずや"
+    },
+    "kazuyoshi_yaginuma": {
+      "ja": "柳沼和良"
+    },
+    "kei_suezawa": {
+      "ja": "末澤慧"
+    },
+    "keigo_sasaki": {
+      "ja": "佐々木啓悟",
+      "kana": "ささき けいご"
+    },
+    "keiichi_ishida": {
+      "ja": "石田慶一",
+      "kana": "いしだ けいいち"
+    },
+    "keiichiro_kimura": {
+      "ja": "木村圭市郎",
+      "kana": "きむら けいいちろう"
+    },
+    "keiichiro_saito": {
+      "ja": "斎藤圭一郎"
+    },
+    "keiji_gotoh": {
+      "ja": "後藤圭二",
+      "kana": "ごとう けいじ"
+    },
+    "keiko_kurosawa": {
+      "ja": "黒澤桂子"
+    },
+    "keisuke_morishita": {
+      "ja": "森下圭介",
+      "kana": "もりした けいすけ"
+    },
+    "keisuke_watabe": {
+      "ja": "渡部圭祐",
+      "kana": "わたべ けいすけ"
+    },
+    "ken'ichi_hara": {
+      "ja": "原憲一",
+      "kana": "はら けんいち"
+    },
+    "ken_harris": {
+      "ja": "ケン・ハリス"
+    },
+    "ken_o'brien": {
+      "ja": "ケン・オブライエン"
+    },
+    "ken_otsuka": {
+      "ja": "大塚健",
+      "kana": "おおつか けん"
+    },
+    "ken_peterson": {
+      "ja": "ケン・ピーターソン"
+    },
+    "ken_takahashi": {
+      "ja": "高橋賢",
+      "kana": "たかはし けん"
+    },
+    "ken_takahashi_(2)": {
+      "ja": "高橋賢",
+      "kana": "たかはし けん"
+    },
+    "ken_ueno": {
+      "ja": "上野ケン",
+      "kana": "うえの けん"
+    },
+    "kenichi_konishi": {
+      "ja": "小西賢一",
+      "kana": "こにし けんいち"
+    },
+    "kenichi_kutsuna": {
+      "ja": "沓名健一",
+      "kana": "くつな けんいち"
+    },
+    "kenichi_tsuchiya": {
+      "ja": "土屋堅一",
+      "kana": "つちや けんいち"
+    },
+    "kenichi_yoshida": {
+      "ja": "吉田健一",
+      "kana": "よしだ けんいち"
+    },
+    "kevin_lima": {
+      "ja": "ケヴィン・リマ"
+    },
+    "kikuko_sadakata": {
+      "ja": "貞方希久子",
+      "kana": "さだかた きくこ"
+    },
+    "kimihiro_nishio": {
+      "ja": "西尾公伯",
+      "kana": "にしお きみひろ"
+    },
+    "kitaro_kousaka": {
+      "ja": "高坂希太郎",
+      "kana": "こうさか きたろう"
+    },
+    "kohei_ashiya": {
+      "ja": "芦谷耕平"
+    },
+    "koichi_maruyama": {
+      "ja": "丸山宏一",
+      "kana": "まるやま こういち"
+    },
+    "koichi_murata": {
+      "ja": "村田耕一",
+      "kana": "むらた こういち"
+    },
+    "koichi_usami": {
+      "ja": "宇佐美皓一",
+      "kana": "うさみ こういち"
+    },
+    "koji_morimoto": {
+      "ja": "森本晃司",
+      "kana": "もりもと こうじ"
+    },
+    "koji_nanke": {
+      "ja": "南家こうじ",
+      "kana": "なんけ こうじ"
+    },
+    "koji_yamamura": {
+      "ja": "山村浩二",
+      "kana": "やまむら こうじ"
+    },
+    "kou_yoshinari": {
+      "ja": "吉成鋼",
+      "kana": "よしなり こう"
+    },
+    "kouichi_arai": {
+      "ja": "新井浩一",
+      "kana": "あらい こういち"
+    },
+    "kouichi_sugitani": {
+      "ja": "杉谷光一",
+      "kana": "すぎたに こういち"
+    },
+    "kouichi_taguchi": {
+      "ja": "田口広一",
+      "kana": "たぐち こういち"
+    },
+    "kouichi_tsunoda": {
+      "ja": "角田紘一",
+      "kana": "つのだ こういち"
+    },
+    "kumiko_takahashi": {
+      "ja": "高橋久美子",
+      "kana": "たかはし くみこ"
+    },
+    "kunihiko_hamada": {
+      "ja": "濱田邦彦",
+      "kana": "はまだ くにひこ"
+    },
+    "kunihiko_ikuhara": {
+      "ja": "幾原邦彦",
+      "kana": "いくはら くにひこ"
+    },
+    "kunio_kato": {
+      "ja": "加藤久仁生",
+      "kana": "かとう くにお"
+    },
+    "kwang_il_han": {
+      "ja": "クァン・イルハン"
+    },
+    "kyoji_asano": {
+      "ja": "浅野恭司",
+      "kana": "あさの きょうじ"
+    },
+    "kyoko_ito": {
+      "ja": "伊藤京子",
+      "kana": "いとう きょうこ"
+    },
+    "kyuuta_sakai": {
+      "ja": "坂井久太",
+      "kana": "さかい きゅうた"
+    },
+    "laverne_harding": {
+      "ja": "ラバーン・ハーディング"
+    },
+    "les_clark": {
+      "ja": "レス・クラーク"
+    },
+    "louie_schmitt": {
+      "ja": "ルイ・シュミット"
+    },
+    "mahiro_maeda": {
+      "ja": "前田真宏",
+      "kana": "まえだ まひろ"
+    },
+    "mai_yoneyama": {
+      "ja": "米山舞",
+      "kana": "よねやま まい"
+    },
+    "maiko_kobayashi": {
+      "ja": "小林麻衣子"
+    },
+    "maki_kawake": {
+      "ja": "河毛雅妃"
+    },
+    "makiko_futaki": {
+      "ja": "二木真希子",
+      "kana": "ふたき まきこ"
+    },
+    "makoto_iino": {
+      "ja": "飯野誠"
+    },
+    "makoto_nagasawa": {
+      "ja": "永沢まこと",
+      "kana": "ながさわ まこと"
+    },
+    "mamoru_hosoda": {
+      "ja": "細田守",
+      "kana": "ほそだ まもる"
+    },
+    "mamoru_yokota": {
+      "ja": "横田守",
+      "kana": "よこた まもる"
+    },
+    "manabu_ono": {
+      "ja": "小野学",
+      "kana": "おの まなぶ"
+    },
+    "manabu_oohashi": {
+      "ja": "大橋学",
+      "kana": "おおはし まなぶ"
+    },
+    "marc_davis": {
+      "ja": "マーク・デイヴィス"
+    },
+    "mari_tominaga": {
+      "ja": "とみながまり"
+    },
+    "marie_ino": {
+      "ja": "井野真理恵",
+      "kana": "いの まりえ"
+    },
+    "mariko_oka": {
+      "ja": "岡真里子",
+      "kana": "おか まりこ"
+    },
+    "mark_henn": {
+      "ja": "マーク・ヘン"
+    },
+    "marvin_woodward": {
+      "ja": "マーヴィン・ウッドワード"
+    },
+    "masaaki_endo": {
+      "ja": "遠藤正明"
+    },
+    "masaaki_iwane": {
+      "ja": "岩根雅明",
+      "kana": "いわね まさあき"
+    },
+    "masaaki_takiyama": {
+      "ja": "滝山真哲"
+    },
+    "masaaki_yuasa": {
+      "ja": "湯浅政明",
+      "kana": "ゆあさ まさあき"
+    },
+    "masahide_yanagisawa": {
+      "ja": "柳沢まさひで",
+      "kana": "やなぎさわ まさひで"
+    },
+    "masahiko_itojima": {
+      "ja": "糸島雅彦"
+    },
+    "masahiko_komino": {
+      "ja": "小美野雅彦",
+      "kana": "こみの まさひこ"
+    },
+    "masahiko_murata": {
+      "ja": "むらた雅彦",
+      "kana": "むらた まさひこ"
+    },
+    "masahiko_nakada": {
+      "ja": "中田正彦",
+      "kana": "なかだ まさひこ"
+    },
+    "masahiko_ohkura": {
+      "ja": "大倉雅彦",
+      "kana": "おおくら まさひこ"
+    },
+    "masahiro_aizawa": {
+      "ja": "相澤昌弘",
+      "kana": "あいざわ まさひろ"
+    },
+    "masahito_sawada": {
+      "ja": "沢田正人",
+      "kana": "さわだ まさひと"
+    },
+    "masahito_yamashita": {
+      "ja": "山下将仁",
+      "kana": "やました まさひと"
+    },
+    "masakatsu_sasaki": {
+      "ja": "佐々木政勝",
+      "kana": "ささき まさかつ"
+    },
+    "masaki_kajishima": {
+      "ja": "梶島正樹",
+      "kana": "かじしま まさき"
+    },
+    "masaki_sato": {
+      "ja": "佐藤正樹",
+      "kana": "さとう まさき"
+    },
+    "masako_matsumoto": {
+      "ja": "松本昌子"
+    },
+    "masako_sato": {
+      "ja": "佐藤雅子"
+    },
+    "masako_shinohara": {
+      "ja": "篠原征子"
+    },
+    "masami_goto": {
+      "ja": "後藤雅巳",
+      "kana": "ごとう まさみ"
+    },
+    "masami_obari": {
+      "ja": "大張正己",
+      "kana": "おおばり まさみ"
+    },
+    "masami_otsuka": {
+      "ja": "大塚正実",
+      "kana": "おおつか まさみ"
+    },
+    "masami_suda": {
+      "ja": "須田正己",
+      "kana": "すだ まさみ"
+    },
+    "masanori_nishii": {
+      "ja": "西井正典",
+      "kana": "にしい まさのり"
+    },
+    "masanori_shino": {
+      "ja": "筱雅律"
+    },
+    "masao_okubo": {
+      "ja": "大久保政雄",
+      "kana": "おおくぼ まさお"
+    },
+    "masaru_kimura": {
+      "ja": "木村豪"
+    },
+    "masaru_oshiro": {
+      "ja": "大城勝",
+      "kana": "おおしろ まさる"
+    },
+    "masashi_ando": {
+      "ja": "安藤雅司",
+      "kana": "あんどう まさし"
+    },
+    "masashi_ishihama": {
+      "ja": "石浜真史",
+      "kana": "いしはま まさし"
+    },
+    "masashi_kudo": {
+      "ja": "工藤昌史",
+      "kana": "くどう まさし"
+    },
+    "masashi_okumura": {
+      "ja": "奥村正志",
+      "kana": "おくむら まさし"
+    },
+    "masato_anno": {
+      "ja": "安野将人"
+    },
+    "masatsugu_arakawa": {
+      "ja": "荒川真嗣",
+      "kana": "あらかわ まさつぐ"
+    },
+    "masaya_fujimori": {
+      "ja": "藤森雅也",
+      "kana": "ふじもり まさや"
+    },
+    "masayoshi_nishida": {
+      "ja": "西田正義"
+    },
+    "masayoshi_tanaka": {
+      "ja": "田中将賀",
+      "kana": "たなか まさよし"
+    },
+    "masayuki_kouda": {
+      "ja": "甲田正行",
+      "kana": "こうだ まさゆき"
+    },
+    "masayuki_kunihiro": {
+      "ja": "國弘昌之"
+    },
+    "masayuki_sato": {
+      "ja": "佐藤雅将",
+      "kana": "さとう まさゆき"
+    },
+    "masayuki_yoshihara": {
+      "ja": "吉原正行"
+    },
+    "max_fleischer": {
+      "ja": "マックス・フライシャー"
+    },
+    "megumi_ishitani": {
+      "ja": "石谷恵"
+    },
+    "megumi_kagawa": {
+      "ja": "賀川愛",
+      "kana": "かがわ めぐみ"
+    },
+    "megumi_kouno": {
+      "ja": "河野恵美"
+    },
+    "meiju_maeda": {
+      "ja": "前田明寿",
+      "kana": "まえだ めいじゅ"
+    },
+    "michael_sporn": {
+      "ja": "マイケル・スポーン"
+    },
+    "michi_himeno": {
+      "ja": "姫野美智",
+      "kana": "ひめの みち"
+    },
+    "michinori_chiba": {
+      "ja": "千葉道徳",
+      "kana": "ちば みちのり"
+    },
+    "michio_fukuda": {
+      "ja": "福田道生",
+      "kana": "ふくだ みちお"
+    },
+    "michio_mihara": {
+      "ja": "三原三千夫",
+      "kana": "みはら みちお"
+    },
+    "michitaka_kikuchi": {
+      "ja": "麻宮騎亜",
+      "kana": "あさみや きあ"
+    },
+    "mieko_hosoi": {
+      "ja": "細居美恵子"
+    },
+    "miho_shimogasa": {
+      "ja": "下笠美穂",
+      "kana": "しもがさ みほ"
+    },
+    "milt_kahl": {
+      "ja": "ミルト・カール"
+    },
+    "minoru_maeda": {
+      "ja": "前田実",
+      "kana": "まえだ みのる"
+    },
+    "mirai_mizue": {
+      "ja": "水江未来",
+      "kana": "みずえ みらい"
+    },
+    "mitsuo_iso": {
+      "ja": "磯光雄",
+      "kana": "いそ みつお"
+    },
+    "mitsuru_aoyama": {
+      "ja": "青山充",
+      "kana": "あおやま みつる"
+    },
+    "mitsuru_ishihara": {
+      "ja": "石原満",
+      "kana": "いしはら みつる"
+    },
+    "mitsuru_obunai": {
+      "ja": "小船井充",
+      "kana": "おぶない みつる"
+    },
+    "miyako_yatsu": {
+      "ja": "谷津美弥子",
+      "kana": "やつ みやこ"
+    },
+    "mizuki_takahashi": {
+      "ja": "髙橋瑞紀",
+      "kana": "たかはし みずき"
+    },
+    "momoko_makiuchi": {
+      "ja": "牧内ももこ"
+    },
+    "morio_asaka": {
+      "ja": "浅香守生",
+      "kana": "あさか もりお"
+    },
+    "moriyasu_taniguchi": {
+      "ja": "谷口守泰",
+      "kana": "たにぐち もりやす"
+    },
+    "motoki_tanaka": {
+      "ja": "天衝",
+      "kana": "てんしょう"
+    },
+    "motonobu_hori": {
+      "ja": "堀元宣"
+    },
+    "motosuke_takahashi": {
+      "ja": "高橋資祐",
+      "kana": "たかはし もとすけ"
+    },
+    "mutsumi_inomata": {
+      "ja": "いのまたむつみ"
+    },
+    "nam-yeol_baek": {
+      "ja": "白南烈"
+    },
+    "naohiro_osugi": {
+      "ja": "大杉尚広"
+    },
+    "naohito_takahashi": {
+      "ja": "高橋ナオヒト",
+      "kana": "たかはし なおひと"
+    },
+    "naoki_miyahara": {
+      "ja": "宮原直樹"
+    },
+    "naoki_tate": {
+      "ja": "舘直樹",
+      "kana": "たて なおき"
+    },
+    "naoko_yamada": {
+      "ja": "山田尚子",
+      "kana": "やまだ なおこ"
+    },
+    "naoto_hosoda": {
+      "ja": "細田直人",
+      "kana": "ほそだ なおと"
+    },
+    "naotoshi_shida": {
+      "ja": "志田直俊",
+      "kana": "しだ なおとし"
+    },
+    "naoyoshi_shiotani": {
+      "ja": "塩谷直義",
+      "kana": "しおたに なおよし"
+    },
+    "naoyuki_asano": {
+      "ja": "浅野直之",
+      "kana": "あさの なおゆき"
+    },
+    "naoyuki_itou": {
+      "ja": "伊藤尚往"
+    },
+    "naoyuki_konno": {
+      "ja": "紺野直幸",
+      "kana": "こんの なおゆき"
+    },
+    "naoyuki_onda": {
+      "ja": "恩田尚之",
+      "kana": "おんだ なおゆき"
+    },
+    "naoyuki_tatsuwa": {
+      "ja": "龍輪直征",
+      "kana": "たつわ なおゆき"
+    },
+    "narumi_kakinouchi": {
+      "ja": "垣野内成美",
+      "kana": "かきのうち なるみ"
+    },
+    "noboru_koizumi": {
+      "ja": "小泉昇",
+      "kana": "こいずみ のぼる"
+    },
+    "noboru_takano": {
+      "ja": "高野登"
+    },
+    "nobuaki_nagano": {
+      "ja": "長野伸明",
+      "kana": "ながの のぶあき"
+    },
+    "nobutake_ito": {
+      "ja": "伊東伸高"
+    },
+    "nobuteru_yuki": {
+      "ja": "結城信輝",
+      "kana": "ゆうき のぶてる"
+    },
+    "nobutoshi_ogura": {
+      "ja": "小倉陳利"
+    },
+    "nobuyoshi_habara": {
+      "ja": "羽原信義",
+      "kana": "はばら のぶよし"
+    },
+    "nobuyoshi_nishimura": {
+      "ja": "西村誠芳"
+    },
+    "nobuyoshi_sasakado": {
+      "ja": "佐々門信芳",
+      "kana": "ささかど のぶよし"
+    },
+    "nobuyuki_takeuchi": {
+      "ja": "武内宣之",
+      "kana": "たけうち のぶゆき"
+    },
+    "noriko_takao": {
+      "ja": "高雄統子",
+      "kana": "たかお のりこ"
+    },
+    "norio_hikone": {
+      "ja": "ひこねのりお",
+      "kana": "ひこね のりお"
+    },
+    "norio_matsumoto": {
+      "ja": "松本憲生",
+      "kana": "まつもと のりお"
+    },
+    "norio_shioyama": {
+      "ja": "塩山紀生",
+      "kana": "しおやま のりお"
+    },
+    "noriyasu_yamauchi": {
+      "ja": "山内則康",
+      "kana": "やまうち のりやす"
+    },
+    "norm_ferguson": {
+      "ja": "ノーム・ファーガソン"
+    },
+    "norm_mccabe": {
+      "ja": "ノーム・マッケイブ",
+      "kana": "のーまん・まっけいぶ"
+    },
+    "nozomi_fujii": {
+      "ja": "藤井望"
+    },
+    "ollie_johnston": {
+      "ja": "オリー・ジョンストン",
+      "kana": "おーりー・じょんすとん"
+    },
+    "osamu_dezaki": {
+      "ja": "出崎統",
+      "kana": "でざき おさむ"
+    },
+    "osamu_nabeshima": {
+      "ja": "鍋島修",
+      "kana": "なべしま おさむ"
+    },
+    "osamu_sakata": {
+      "ja": "坂田理",
+      "kana": "さかた おさむ"
+    },
+    "osamu_tanabe": {
+      "ja": "田辺修",
+      "kana": "たなべ おさむ"
+    },
+    "osamu_tezuka": {
+      "ja": "手塚治虫",
+      "kana": "てづか おさむ"
+    },
+    "pete_burness": {
+      "ja": "ピーター・バーネス"
+    },
+    "peter_chung": {
+      "ja": "ピーター・チョン"
+    },
+    "phil_duncan": {
+      "ja": "フィル・ダンカン"
+    },
+    "phil_monroe": {
+      "ja": "フィル・モンロー"
+    },
+    "pinto_colvig": {
+      "ja": "ピント・コルヴィッグ",
+      "kana": "ぴんと・こるゔぃっく"
+    },
+    "preston_blair": {
+      "ja": "プレストン・ブレア"
+    },
+    "ralph_bakshi": {
+      "ja": "ラルフ・バクシ"
+    },
+    "randy_cartwright": {
+      "ja": "ランディ・カートライト"
+    },
+    "raul_garcia": {
+      "ja": "ラウル・ガルシア"
+    },
+    "ray_patterson": {
+      "ja": "レイ・パターソン"
+    },
+    "rebecca_sugar": {
+      "ja": "レベッカ・シュガー"
+    },
+    "rei_yamazaki": {
+      "ja": "山崎玲愛",
+      "kana": "やまざき れい"
+    },
+    "reiko_nagasawa": {
+      "ja": "長澤礼子"
+    },
+    "reiko_okuyama": {
+      "ja": "奥山玲子",
+      "kana": "おくやま れいこ"
+    },
+    "rie_matsumoto": {
+      "ja": "松本理恵",
+      "kana": "まつもと りえ"
+    },
+    "rihiro_yamane": {
+      "ja": "山根理宏",
+      "kana": "やまね りひろ"
+    },
+    "robert_mckimson": {
+      "ja": "ロバート・マッキンソン"
+    },
+    "rodolphe_guenoden": {
+      "ja": "ロドルフ・ゲノデン"
+    },
+    "rollin_hamilton": {
+      "ja": "ローリン・ハミルトン"
+    },
+    "ron_clements": {
+      "ja": "ロン・クレメンツ"
+    },
+    "ron_kamiya": {
+      "ja": "神谷ろん",
+      "kana": "かみや ろん"
+    },
+    "roy_williams": {
+      "ja": "ロイ・ウィリアムズ"
+    },
+    "ruben_aquino": {
+      "ja": "ルーベン・A・アキノ"
+    },
+    "ryan_larkin": {
+      "ja": "ライアン・ラーキン"
+    },
+    "ryo_tanaka": {
+      "ja": "田中良",
+      "kana": "たなか りょう"
+    },
+    "ryosuke_nakamura": {
+      "ja": "中村亮介",
+      "kana": "なかむら りょうすけ"
+    },
+    "ryouma_ebata": {
+      "ja": "江畑諒真",
+      "kana": "えばた りょうま"
+    },
+    "ryouta_arima": {
+      "ja": "有間涼太"
+    },
+    "ryu_nakayama": {
+      "ja": "中山竜"
+    },
+    "ryuichi_makino": {
+      "ja": "牧野竜一",
+      "kana": "まきの りゅういち"
+    },
+    "sachiko_kamimura": {
+      "ja": "神村幸子",
+      "kana": "かみむら さちこ"
+    },
+    "sadahiko_sakamaki": {
+      "ja": "坂巻貞彦",
+      "kana": "さかまき さだひこ"
+    },
+    "sadao_tsukioka": {
+      "ja": "月岡貞夫",
+      "kana": "つきおか さだお"
+    },
+    "saki_takahashi": {
+      "ja": "高橋沙妃"
+    },
+    "sanae_shimada": {
+      "ja": "嶋田真恵",
+      "kana": "しまだ さなえ"
+    },
+    "sang_jin_kim": {
+      "ja": "ジン・キム"
+    },
+    "satoko_morikawa": {
+      "ja": "森川聡子",
+      "kana": "もりかわ さとこ"
+    },
+    "satomi_maiya": {
+      "ja": "米谷聡美"
+    },
+    "satoru_iriyoshi": {
+      "ja": "入好さとる",
+      "kana": "いりよし さとる"
+    },
+    "satoru_utsunomiya": {
+      "ja": "うつのみや理",
+      "kana": "うつのみや さとる"
+    },
+    "satoshi_hirayama": {
+      "ja": "平山智",
+      "kana": "ひらやま さとし"
+    },
+    "satoshi_ishino": {
+      "ja": "石野聡",
+      "kana": "いしの さとし"
+    },
+    "satoshi_iwataki": {
+      "ja": "岩瀧智",
+      "kana": "いわたき さとし"
+    },
+    "satoshi_kon": {
+      "ja": "今敏",
+      "kana": "こん さとし"
+    },
+    "satoshi_tasaki": {
+      "ja": "田崎聡"
+    },
+    "satoshi_urushihara": {
+      "ja": "うるし原智志",
+      "kana": "うるしはら さとし"
+    },
+    "satoshi_yamaguchi": {
+      "ja": "山口智",
+      "kana": "やまぐち さとし"
+    },
+    "sawako_yamamoto": {
+      "ja": "山本佐和子",
+      "kana": "やまもと さわこ"
+    },
+    "sayaka_koiso": {
+      "ja": "小磯沙矢香"
+    },
+    "sayo_yamamoto": {
+      "ja": "山本沙代",
+      "kana": "やまもと さよ"
+    },
+    "sayuri_ichiishi": {
+      "ja": "一石小百合",
+      "kana": "いちいし さゆり"
+    },
+    "seiichi_hayashi": {
+      "ja": "林静一",
+      "kana": "はやし せいいち"
+    },
+    "seiichi_nakatani": {
+      "ja": "中谷誠一",
+      "kana": "なかたに せいいち"
+    },
+    "seiji_muta": {
+      "ja": "牟田清司",
+      "kana": "むた せいじ"
+    },
+    "seiya_numata": {
+      "ja": "沼田誠也",
+      "kana": "ぬまた せいや"
+    },
+    "sergio_pablos": {
+      "ja": "セルジオ・パブロス"
+    },
+    "seung_eun_kim": {
+      "ja": "キム・スンウン"
+    },
+    "seymour_kneitel": {
+      "ja": "シーモア・ニーテル",
+      "kana": "しーもあ・ないてる"
+    },
+    "shamus_culhane": {
+      "ja": "シェイマス・カルヘイン"
+    },
+    "shiba_minako": {
+      "ja": "芝美奈子",
+      "kana": "しば みなこ"
+    },
+    "shichiro_kobayashi": {
+      "ja": "小林七郎",
+      "kana": "こばやし しちろう"
+    },
+    "shigeki_kimoto": {
+      "ja": "木本茂樹"
+    },
+    "shigenobu_nagasaki": {
+      "ja": "長崎重信",
+      "kana": "ながさき しげのぶ"
+    },
+    "shigeo_akahori": {
+      "ja": "赤堀重雄"
+    },
+    "shigeru_fujita": {
+      "ja": "藤田しげる",
+      "kana": "ふじた しげる"
+    },
+    "shigetaka_kiyoyama": {
+      "ja": "清山滋崇",
+      "kana": "きよやま しげたか"
+    },
+    "shigeyasu_yamauchi": {
+      "ja": "山内重保",
+      "kana": "やまうち しげやす"
+    },
+    "shiho_takeuchi": {
+      "ja": "竹内志保",
+      "kana": "たけうち しほ"
+    },
+    "shin'ichi_suzuki": {
+      "ja": "鈴木伸一",
+      "kana": "すずき しんいち"
+    },
+    "shin'ichi_suzuki_(1958)": {
+      "ja": "鈴木伸一",
+      "kana": "すずき しんいち"
+    },
+    "shin_itagaki": {
+      "ja": "板垣伸",
+      "kana": "いたがき しん"
+    },
+    "shin_wakabayashi": {
+      "ja": "若林信"
+    },
+    "shingo_adachi": {
+      "ja": "足立慎吾",
+      "kana": "あだち しんご"
+    },
+    "shingo_araki": {
+      "ja": "荒木伸吾",
+      "kana": "あらき しんご"
+    },
+    "shingo_natsume": {
+      "ja": "夏目真悟",
+      "kana": "なつめ しんご"
+    },
+    "shingo_suzuki": {
+      "ja": "鈴木信吾",
+      "kana": "すずき しんご"
+    },
+    "shingo_yamashita": {
+      "ja": "山下清悟"
+    },
+    "shinji_hashimoto": {
+      "ja": "橋本晋治",
+      "kana": "はしもと しんじ"
+    },
+    "shinji_higuchi": {
+      "ja": "樋口真嗣",
+      "kana": "ひぐち しんじ"
+    },
+    "shinji_otsuka": {
+      "ja": "大塚伸治",
+      "kana": "おおつか しんじ"
+    },
+    "shinji_takeuchi": {
+      "ja": "竹内進二",
+      "kana": "たけうち しんじ"
+    },
+    "shinobu_yoshioka": {
+      "ja": "吉岡忍"
+    },
+    "shinpei_aoki": {
+      "ja": "青木慎平"
+    },
+    "shinpei_kobayashi": {
+      "ja": "小林真平"
+    },
+    "shinpei_tomooka": {
+      "ja": "友岡新平",
+      "kana": "ともおか しんぺい"
+    },
+    "shinsaku_sasaki": {
+      "ja": "笹木信作",
+      "kana": "ささき しんさく"
+    },
+    "shintarou_douge": {
+      "ja": "道解慎太郎",
+      "kana": "どうげ しんたろう"
+    },
+    "shinya_hasegawa": {
+      "ja": "長谷川眞也",
+      "kana": "はせがわ しんや"
+    },
+    "shinya_ohira": {
+      "ja": "大平晋也",
+      "kana": "おおひら しんや"
+    },
+    "shinya_takahashi": {
+      "ja": "高橋信也",
+      "kana": "たかはし しんや"
+    },
+    "shinya_takahashi_(1943)": {
+      "ja": "高橋信也",
+      "kana": "たかはし しんや"
+    },
+    "shizue_kaneko": {
+      "ja": "金子志津枝",
+      "kana": "かねこ しづえ"
+    },
+    "shizuka_hayashi": {
+      "ja": "林静香",
+      "kana": "はやし しずか"
+    },
+    "shoichi_masuo": {
+      "ja": "増尾昭一",
+      "kana": "ますお しょういち"
+    },
+    "shojiro_nishimi": {
+      "ja": "西見祥示郎",
+      "kana": "にしみ しょうじろう"
+    },
+    "shota_goshozono": {
+      "ja": "御所園翔太"
+    },
+    "shougo_furuya": {
+      "ja": "古屋勝悟"
+    },
+    "shouko_ikeda": {
+      "ja": "池田晶子",
+      "kana": "いけだ しょうこ"
+    },
+    "shouko_nakamura": {
+      "ja": "中村章子",
+      "kana": "なかむら しょうこ"
+    },
+    "shuichi_iseki": {
+      "ja": "井関修一",
+      "kana": "いせき しゅういち"
+    },
+    "shuji_maruyama": {
+      "ja": "丸山修二",
+      "kana": "まるやま しゅうじ"
+    },
+    "shukou_murase": {
+      "ja": "村瀬修功",
+      "kana": "むらせ しゅうこう"
+    },
+    "shunji_suzuki": {
+      "ja": "鈴木俊二",
+      "kana": "すずき しゅんじ"
+    },
+    "shuu_sugita": {
+      "ja": "杉田柊",
+      "kana": "すぎた しゅう"
+    },
+    "soudai_suwa": {
+      "ja": "諏訪壮大"
+    },
+    "steve_bosustow": {
+      "ja": "ステファン・ボサストウ"
+    },
+    "steven_e._gordon": {
+      "ja": "スティーヴン・E・ゴードン"
+    },
+    "sumie_kinoshita": {
+      "ja": "木野下澄江"
+    },
+    "sunghoo_park": {
+      "ja": "朴性厚",
+      "kana": "ぱく・そんふ"
+    },
+    "susumu_mitsunaka": {
+      "ja": "満仲勧"
+    },
+    "tadahiko_horiguchi": {
+      "ja": "堀口忠彦",
+      "kana": "ほりぐち ただひこ"
+    },
+    "tadashi_hiramatsu": {
+      "ja": "平松禎史",
+      "kana": "ひらまつ ただし"
+    },
+    "tadashi_shida": {
+      "ja": "志田ただし",
+      "kana": "しだ ただし"
+    },
+    "tadayoshi_yamamuro": {
+      "ja": "山室直儀",
+      "kana": "やまむろ ただよし"
+    },
+    "taichi_ishidate": {
+      "ja": "石立太一"
+    },
+    "taisuke_iwasaki": {
+      "ja": "岩崎泰介"
+    },
+    "takaaki_sekizaki": {
+      "ja": "関崎高明",
+      "kana": "せきざき たかあき"
+    },
+    "takaaki_wada": {
+      "ja": "和田高明",
+      "kana": "わだ たかあき"
+    },
+    "takaaki_yamashita": {
+      "ja": "山下高明",
+      "kana": "やました たかあき"
+    },
+    "takahiro_kagami": {
+      "ja": "加々美高浩",
+      "kana": "かがみ たかひろ"
+    },
+    "takahiro_kimura": {
+      "ja": "木村貴宏",
+      "kana": "きむら たかひろ"
+    },
+    "takahiro_kishida": {
+      "ja": "岸田隆宏",
+      "kana": "きしだ たかひろ"
+    },
+    "takahiro_komori": {
+      "ja": "小森高博",
+      "kana": "こもり たかひろ"
+    },
+    "takahiro_yoshimatsu": {
+      "ja": "吉松孝博",
+      "kana": "よしまつ たかひろ"
+    },
+    "takami_akai": {
+      "ja": "赤井孝美",
+      "kana": "あかい たかみ"
+    },
+    "takamitsu_kondo": {
+      "ja": "近藤高光",
+      "kana": "こんどう たかみつ"
+    },
+    "takao_kozai": {
+      "ja": "香西隆男",
+      "kana": "こうざい たかお"
+    },
+    "takashi_hashimoto": {
+      "ja": "橋本敬史",
+      "kana": "はしもと たかし"
+    },
+    "takashi_kawaguchi": {
+      "ja": "川口隆",
+      "kana": "かわぐち たかし"
+    },
+    "takashi_watabe": {
+      "ja": "渡部隆",
+      "kana": "わたべ たかし"
+    },
+    "takashi_watanabe": {
+      "ja": "渡部高志",
+      "kana": "わたなべ たかし"
+    },
+    "takashi_yamamoto": {
+      "ja": "山本天志"
+    },
+    "takatsuna_senba": {
+      "ja": "仙波隆綱",
+      "kana": "せんば たかつな"
+    },
+    "takayo_nishimura": {
+      "ja": "西村貴世",
+      "kana": "にしむら たかよ"
+    },
+    "takehiko_matsumoto": {
+      "ja": "松本剛彦",
+      "kana": "まつもと たけひこ"
+    },
+    "takeo_ide": {
+      "ja": "井手武生"
+    },
+    "takeshi_honda": {
+      "ja": "本田雄",
+      "kana": "ほんだ たけし"
+    },
+    "takeshi_inamura": {
+      "ja": "稲村武志",
+      "kana": "いなむら たけし"
+    },
+    "takeshi_ito": {
+      "ja": "伊藤岳史"
+    },
+    "takeshi_koike": {
+      "ja": "小池健",
+      "kana": "こいけ たけし"
+    },
+    "takeshi_oda": {
+      "ja": "小田武士"
+    },
+    "takeshi_shirato": {
+      "ja": "白土武",
+      "kana": "しらと たけし"
+    },
+    "taku_furukawa": {
+      "ja": "古川タク",
+      "kana": "ふるかわ たく"
+    },
+    "takumi_yokota": {
+      "ja": "横田拓己"
+    },
+    "takuya_saito_(ajia_do)": {
+      "ja": "斎藤卓也"
+    },
+    "takuya_saito_(production_i.g.)": {
+      "ja": "斎藤卓也"
+    },
+    "takuya_saito_(trigger)": {
+      "ja": "斎藤卓也"
+    },
+    "takuya_sato": {
+      "ja": "佐藤卓哉",
+      "kana": "さとう たくや"
+    },
+    "takuya_yamamura": {
+      "ja": "山村卓也"
+    },
+    "tamotsu_ogawa": {
+      "ja": "小川完",
+      "kana": "おがわ たもつ"
+    },
+    "tarafu_otani": {
+      "ja": "大谷たらふ"
+    },
+    "taro_ikegami": {
+      "ja": "池上たろう"
+    },
+    "tatsufumi_ito": {
+      "ja": "伊藤達文",
+      "kana": "いとう たつふみ"
+    },
+    "tatsuo_satou": {
+      "ja": "佐藤竜雄",
+      "kana": "さとう たつお"
+    },
+    "tatsuya_ishihara": {
+      "ja": "石原立也",
+      "kana": "いしはら たつや"
+    },
+    "tatsuya_oishi": {
+      "ja": "尾石達也",
+      "kana": "おいし たつや"
+    },
+    "tatsuya_suzuki": {
+      "ja": "鈴木竜也"
+    },
+    "tatsuya_yoshihara": {
+      "ja": "吉原達矢"
+    },
+    "tatsuyuki_tanaka": {
+      "ja": "田中達之",
+      "kana": "たなか たつゆき"
+    },
+    "tatsuzou_nishita": {
+      "ja": "西田達三",
+      "kana": "にしだ たつぞう"
+    },
+    "ted_kierscey": {
+      "ja": "テッド・カーシー"
+    },
+    "ted_sears": {
+      "ja": "テッド・シアーズ"
+    },
+    "tensai_okamura": {
+      "ja": "岡村天斎",
+      "kana": "おかむら てんさい"
+    },
+    "teruaki_murakami": {
+      "ja": "むらかみてるあき"
+    },
+    "terumi_nishii": {
+      "ja": "西位輝実",
+      "kana": "にしい てるみ"
+    },
+    "tetsuro_araki": {
+      "ja": "荒木哲郎",
+      "kana": "あらき てつろう"
+    },
+    "tetsuya_kawakami": {
+      "ja": "川上哲也",
+      "kana": "かわかみ てつや"
+    },
+    "tetsuya_kumagai": {
+      "ja": "熊谷哲矢"
+    },
+    "tetsuya_matsukawa": {
+      "ja": "松川哲也",
+      "kana": "まつかわ てつや"
+    },
+    "tetsuya_nishio": {
+      "ja": "西尾鉄也",
+      "kana": "にしお てつや"
+    },
+    "tetsuya_takeuchi": {
+      "ja": "竹内哲也",
+      "kana": "たけうち てつや"
+    },
+    "thomas_romain": {
+      "ja": "ロマン・トマ"
+    },
+    "tissa_david": {
+      "ja": "ティッサ・デイビット"
+    },
+    "tokuyuki_matsutake": {
+      "ja": "松竹徳幸",
+      "kana": "まつたけ とくゆき"
+    },
+    "tom_bancroft": {
+      "ja": "トム・バンクロフト"
+    },
+    "tom_palmer": {
+      "ja": "トム・パーマー"
+    },
+    "tom_sito": {
+      "ja": "トム・シトー"
+    },
+    "tomoe_aratani": {
+      "ja": "荒谷朋恵",
+      "kana": "あらたに ともえ"
+    },
+    "tomohiro_furukawa": {
+      "ja": "古川知宏"
+    },
+    "tomohiro_hirata": {
+      "ja": "平田智浩",
+      "kana": "ひらた ともひろ"
+    },
+    "tomohiro_kawahara": {
+      "ja": "川原智弘"
+    },
+    "tomonori_kogawa": {
+      "ja": "湖川友謙",
+      "kana": "こがわ とものり"
+    },
+    "tomonori_sudo": {
+      "ja": "須藤友徳",
+      "kana": "すどう とものり"
+    },
+    "tomoyasu_kurashima": {
+      "ja": "倉嶋丈康",
+      "kana": "くらしま ともやす"
+    },
+    "tomoyo_kamoi": {
+      "ja": "鴨居知世"
+    },
+    "tomoyuki_itamura": {
+      "ja": "板村智幸",
+      "kana": "いたむら ともゆき"
+    },
+    "tomoyuki_shitaya": {
+      "ja": "下谷智之"
+    },
+    "toru_imanishi": {
+      "ja": "今西亨"
+    },
+    "toru_yoshida": {
+      "ja": "吉田徹",
+      "kana": "よしだ とおる"
+    },
+    "toshie_kawamura": {
+      "ja": "川村敏江",
+      "kana": "かわむら としえ"
+    },
+    "toshifumi_akai": {
+      "ja": "赤井俊文",
+      "kana": "あかい としふみ"
+    },
+    "toshiharu_murata": {
+      "ja": "村田俊治"
+    },
+    "toshihiko_masuda": {
+      "ja": "増田敏彦",
+      "kana": "ますだ としひこ"
+    },
+    "toshihiro_kawamoto": {
+      "ja": "川元利浩",
+      "kana": "かわもと としひろ"
+    },
+    "toshihito_hirooka": {
+      "ja": "広岡トシヒト",
+      "kana": "ひろおか としひと"
+    },
+    "toshimasa_suzuki": {
+      "ja": "鈴木利正",
+      "kana": "すずき としまさ"
+    },
+    "toshimitsu_kobayashi": {
+      "ja": "小林利充",
+      "kana": "こばやし としみつ"
+    },
+    "toshinari_yamashita": {
+      "ja": "山下敏成",
+      "kana": "やました としなり"
+    },
+    "toshio_hirata": {
+      "ja": "平田敏夫",
+      "kana": "ひらた としお"
+    },
+    "toshio_kawaguchi": {
+      "ja": "河口俊夫",
+      "kana": "かわぐち としお"
+    },
+    "toshitsugu_saida": {
+      "ja": "才田俊次"
+    },
+    "toshiyuki_honda": {
+      "ja": "本多敏行",
+      "kana": "ほんだ としゆき"
+    },
+    "toshiyuki_inoue": {
+      "ja": "井上俊之",
+      "kana": "いのうえ としゆき"
+    },
+    "toshiyuki_kanno": {
+      "ja": "菅野利之"
+    },
+    "toshiyuki_kubooka": {
+      "ja": "窪岡俊之",
+      "kana": "くぼおか としゆき"
+    },
+    "toshiyuki_sato": {
+      "ja": "佐藤利幸",
+      "kana": "さとう としゆき"
+    },
+    "toshiyuki_shirai": {
+      "ja": "白井俊行",
+      "kana": "しらい としゆき"
+    },
+    "toshiyuki_tsuru": {
+      "ja": "都留稔幸",
+      "kana": "つる としゆき"
+    },
+    "touko_yatabe": {
+      "ja": "谷田部透湖",
+      "kana": "やたべ とうこ"
+    },
+    "toyoo_ashida": {
+      "ja": "芦田豊雄",
+      "kana": "あしだ とよお"
+    },
+    "tsukasa_dokite": {
+      "ja": "土器手司",
+      "kana": "どきて つかさ"
+    },
+    "tsukasa_tannai": {
+      "ja": "丹内司",
+      "kana": "たんない つかさ"
+    },
+    "tsunenori_saito": {
+      "ja": "斎藤恒徳"
+    },
+    "tsuneo_maeda": {
+      "ja": "前田庸生"
+    },
+    "tsuneo_ninomiya": {
+      "ja": "二宮常雄",
+      "kana": "にのみや つねお"
+    },
+    "tsutomu_shibayama": {
+      "ja": "芝山努",
+      "kana": "しばやま つとむ"
+    },
+    "tsutomu_suzuki": {
+      "ja": "鈴木勤",
+      "kana": "すずき つとむ"
+    },
+    "ub_iwerks": {
+      "ja": "アブ・アイワークス"
+    },
+    "virgil_ross": {
+      "ja": "ヴァージル・ロス"
+    },
+    "walt_stanchfield": {
+      "ja": "ウォルト・スタンチフィールド"
+    },
+    "walter_lantz": {
+      "ja": "ウォルター・ランツ",
+      "kana": "うぉるたー・べんじゃみん・らんつ"
+    },
+    "ward_kimball": {
+      "ja": "ウォード・キンボール"
+    },
+    "weilin_zhang": {
+      "ja": "張魏林"
+    },
+    "will_finn": {
+      "ja": "ウィル・フィン"
+    },
+    "willard_bowsky": {
+      "ja": "ウィラード・ボウスキー"
+    },
+    "winsor_mccay": {
+      "ja": "ウィンザー・マッケイ"
+    },
+    "woolie_reitherman": {
+      "ja": "ウォルフガング・ライザーマン",
+      "kana": "うるふがんぐ・らいざーまん"
+    },
+    "yasuhiro_aoki": {
+      "ja": "青木康浩"
+    },
+    "yasuhiro_irie": {
+      "ja": "入江泰浩",
+      "kana": "いりえ やすひろ"
+    },
+    "yasuhiro_nakura": {
+      "ja": "名倉靖博",
+      "kana": "なくら やすひろ"
+    },
+    "yasuhiro_takemoto": {
+      "ja": "武本康弘",
+      "kana": "たけもと やすひろ"
+    },
+    "yasuhiro_yamaguchi": {
+      "ja": "山口泰弘",
+      "kana": "やまぐち やすひろ"
+    },
+    "yasuhisa_kato": {
+      "ja": "加藤やすひさ",
+      "kana": "かとう やすひさ"
+    },
+    "yasuichiro_yamamoto": {
+      "ja": "山本泰一郎",
+      "kana": "やまもと やすいちろう"
+    },
+    "yasuji_mori": {
+      "ja": "森康二",
+      "kana": "もり やすじ"
+    },
+    "yasuji_murata": {
+      "ja": "村田安司",
+      "kana": "むらた やすじ"
+    },
+    "yasuo_otsuka": {
+      "ja": "大塚康生",
+      "kana": "おおつか やすお"
+    },
+    "yasuomi_umetsu": {
+      "ja": "梅津泰臣",
+      "kana": "うめつ やすおみ"
+    },
+    "yasushi_muraki": {
+      "ja": "村木靖",
+      "kana": "むらき やすし"
+    },
+    "yasuyuki_noda": {
+      "ja": "野田康行",
+      "kana": "のだ やすゆき"
+    },
+    "yoh_yoshinari": {
+      "ja": "吉成曜",
+      "kana": "よしなり よう"
+    },
+    "yoichi_kotabe": {
+      "ja": "小田部羊一",
+      "kana": "こたべ よういち"
+    },
+    "yojiro_arai": {
+      "ja": "新井陽次郎",
+      "kana": "あらい ようじろう"
+    },
+    "yoko_kuno": {
+      "ja": "久野遥子",
+      "kana": "くの ようこ"
+    },
+    "yorihisa_uchida": {
+      "ja": "内田順久",
+      "kana": "うちだ よりひさ"
+    },
+    "yoshiaki_ito": {
+      "ja": "伊藤良明",
+      "kana": "いとう よしあき"
+    },
+    "yoshiaki_kawajiri": {
+      "ja": "川尻善昭",
+      "kana": "かわじり よしあき"
+    },
+    "yoshiaki_yanagida": {
+      "ja": "柳田義明",
+      "kana": "やなぎだ よしあき"
+    },
+    "yoshifumi_kondo": {
+      "ja": "近藤喜文",
+      "kana": "こんどう よしふみ"
+    },
+    "yoshiharu_ashino": {
+      "ja": "芦野芳晴",
+      "kana": "あしの よしはる"
+    },
+    "yoshiharu_fukushima": {
+      "ja": "福島喜晴",
+      "kana": "ふくしま よしはる"
+    },
+    "yoshiharu_sato": {
+      "ja": "佐藤好春",
+      "kana": "さとう よしはる"
+    },
+    "yoshihiko_takakura": {
+      "ja": "高倉佳彦",
+      "kana": "たかくら よしひこ"
+    },
+    "yoshihiko_umakoshi": {
+      "ja": "馬越嘉彦",
+      "kana": "うまこし よしひこ"
+    },
+    "yoshihiro_nagamori": {
+      "ja": "長森佳容",
+      "kana": "ながもり よしひろ"
+    },
+    "yoshihiro_osugi": {
+      "ja": "大杉宜弘",
+      "kana": "おおすぎ よしひろ"
+    },
+    "yoshihiro_takeda": {
+      "ja": "竹田欣弘",
+      "kana": "たけだ よしひろ"
+    },
+    "yoshihiro_watanabe": {
+      "ja": "渡邊義弘",
+      "kana": "わたなべ よしひろ"
+    },
+    "yoshihito_hishinuma": {
+      "ja": "菱沼義仁"
+    },
+    "yoshiji_kigami": {
+      "ja": "木上益治",
+      "kana": "さとうとしお"
+    },
+    "yoshikazu_yasuhiko": {
+      "ja": "安彦良和",
+      "kana": "やすひこ よしかず"
+    },
+    "yoshimi_itazu": {
+      "ja": "板津匡覧"
+    },
+    "yoshimichi_kameda": {
+      "ja": "亀田祥倫",
+      "kana": "かめだ よしみち"
+    },
+    "yoshimitsu_ohashi": {
+      "ja": "大橋誉志光",
+      "kana": "おおはし よしみつ"
+    },
+    "yoshinari_saito": {
+      "ja": "斉藤良成",
+      "kana": "さいとう よしなり"
+    },
+    "yoshinori_kanada": {
+      "ja": "金田伊功",
+      "kana": "かなだ よしのり"
+    },
+    "yoshinori_kanemori": {
+      "ja": "兼森義則",
+      "kana": "かねもり よしのり"
+    },
+    "yoshitoshi_shinomiya": {
+      "ja": "四宮義俊",
+      "kana": "しのみや よしとし"
+    },
+    "yoshiyuki_fujiwara": {
+      "ja": "藤原佳幸",
+      "kana": "ふじわら よしゆき"
+    },
+    "yoshiyuki_ito": {
+      "ja": "伊藤嘉之",
+      "kana": "いとう よしゆき"
+    },
+    "yoshiyuki_momose": {
+      "ja": "百瀬義行",
+      "kana": "ももせ よしゆき"
+    },
+    "yoshiyuki_sadamoto": {
+      "ja": "貞本義行",
+      "kana": "さだもと よしゆき"
+    },
+    "yoshiyuki_tokinaga": {
+      "ja": "時永宜幸",
+      "kana": "ときなが よしゆき"
+    },
+    "yoshiyuki_tomino": {
+      "ja": "富野由悠季",
+      "kana": "とみの よしゆき"
+    },
+    "yosuke_anai": {
+      "ja": "穴井洋輔"
+    },
+    "youko_furuya": {
+      "ja": "古家陽子",
+      "kana": "ふるや ようこ"
+    },
+    "youko_kikuchi": {
+      "ja": "菊地洋子",
+      "kana": "きくち ようこ"
+    },
+    "yousuke_kabashima": {
+      "ja": "椛島洋介"
+    },
+    "yuichi_nakazawa": {
+      "ja": "中澤勇一",
+      "kana": "なかざわ ゆういち"
+    },
+    "yuichiro_hayashi": {
+      "ja": "林祐一郎"
+    },
+    "yuichiro_sueyoshi": {
+      "ja": "末吉裕一郎",
+      "kana": "すえよし ゆういちろう"
+    },
+    "yuji_moriyama": {
+      "ja": "森山雄治",
+      "kana": "もりやま ゆうじ"
+    },
+    "yuka_kuroda": {
+      "ja": "黒田結花"
+    },
+    "yuka_shibata": {
+      "ja": "柴田由香",
+      "kana": "しばた ゆか"
+    },
+    "yuka_shibata_(2)": {
+      "ja": "柴田由香",
+      "kana": "しばた ゆか"
+    },
+    "yuki_akiyama": {
+      "ja": "秋山有希"
+    },
+    "yuki_hayashi": {
+      "ja": "林祐己",
+      "kana": "はやし ゆうき"
+    },
+    "yukie_sako": {
+      "ja": "佐光幸恵",
+      "kana": "さこう ゆきえ"
+    },
+    "yukihiro_kitano": {
+      "ja": "北野幸広"
+    },
+    "yukiko_horiguchi": {
+      "ja": "堀口悠紀子",
+      "kana": "ほりぐち ゆきこ"
+    },
+    "yukiko_nakatani": {
+      "ja": "中谷友紀子",
+      "kana": "なかたに ゆきこ"
+    },
+    "yukio_ebisawa": {
+      "ja": "海老沢幸男",
+      "kana": "えびさわ ゆきお"
+    },
+    "yukio_takatsu": {
+      "ja": "高津幸央",
+      "kana": "たかつ ゆきお"
+    },
+    "yukitoshi_houtani": {
+      "ja": "宝谷幸稔",
+      "kana": "ほうたに ゆきとし"
+    },
+    "yukiyoshi_hane": {
+      "ja": "羽根章悦",
+      "kana": "はね ゆきよし"
+    },
+    "yuko_iwasa": {
+      "ja": "岩佐裕子"
+    },
+    "yumi_ikeda": {
+      "ja": "池田由美"
+    },
+    "yurie_kuniyuki": {
+      "ja": "國行由里江"
+    },
+    "yuriko_chiba": {
+      "ja": "千羽由利子",
+      "kana": "ちば ゆりこ"
+    },
+    "yuriko_ishii": {
+      "ja": "石井百合子"
+    },
+    "yusuke_yoshigaki": {
+      "ja": "芳垣祐介",
+      "kana": "よしがき ゆうすけ"
+    },
+    "yutaka_minowa": {
+      "ja": "箕輪豊",
+      "kana": "みのわ ゆたか"
+    },
+    "yutaka_nakamura": {
+      "ja": "中村豊",
+      "kana": "なかむら ゆたか"
+    },
+    "yutaro_kubo": {
+      "ja": "久保雄太郎"
+    },
+    "yuu_yamashita": {
+      "ja": "山下祐"
+    },
+    "yuuhei_murota": {
+      "ja": "室田雄平"
+    },
+    "yuuki_igarashi": {
+      "ja": "五十嵐祐貴"
+    },
+    "yuusuke_matsuo": {
+      "ja": "松尾祐輔",
+      "kana": "まつお ゆうすけ"
+    },
+    "yuya_takahashi": {
+      "ja": "高橋優也"
+    },
+    "yuzo_aoki": {
+      "ja": "青木悠三",
+      "kana": "あおき ゆうぞう"
+    }
+  },
+  "copyrights": {
+    "all_out!!": {
+      "ja": "ALL OUT!!",
+      "kana": "おーるあうと"
+    },
+    "dragon_ball": {
+      "ja": "ドラゴンボール",
+      "kana": "どらごんぼーる"
+    },
+    "dragon_ball_series": {
+      "ja": "ドラゴンボール シリーズ"
+    },
+    "dragon_ball_super": {
+      "ja": "ドラゴンボール超",
+      "kana": "どらごんぼーるすーぱー"
+    },
+    "gundam": {
+      "ja": "ガンダム",
+      "kana": "がんだむ"
+    },
+    "kuroneko_to_majo_no_kyoushitsu": {
+      "ja": "黒猫と魔女の教室",
+      "kana": "くろねことまじょのきょうしつ"
+    },
+    "my_hero_academia": {
+      "ja": "僕のヒーローアカデミア",
+      "kana": "ぼくのひーろーあかでみあ"
+    },
+    "my_hero_academia_series": {
+      "ja": "僕のヒーローアカデミア シリーズ"
+    },
+    "naruto": {
+      "ja": "NARUTO -ナルト-",
+      "kana": "なると"
+    },
+    "one_piece": {
+      "ja": "ONE PIECE",
+      "kana": "わんぴーす"
+    },
+    "one_piece:_the_giant_mechanical_soldier_of_karakuri_castle": {
+      "ja": "ONE PIECE THE MOVIE カラクリ城のメカ巨兵",
+      "kana": "わんぴーす からくりじょうのめかきょへい"
+    },
+    "pokemon": {
+      "ja": "ポケットモンスター",
+      "kana": "ぽけっともんすたー"
+    },
+    "precure": {
+      "ja": "プリキュア",
+      "kana": "ぷりきゅあ"
+    }
+  },
+  "counts": {
+    "3d_background": 5428,
+    "aaron_blaise": 22,
+    "aaron_springer": 12,
+    "abe_levitow": 9,
+    "abel_gongora": 28,
+    "ai_kikuchi": 11,
+    "akemi_hayashi": 63,
+    "akemi_ota": 8,
+    "akihiko_yamashita": 144,
+    "akihiro_kanayama": 24,
+    "akio_sugino": 115,
+    "akio_takami": 16,
+    "akio_watanabe": 52,
+    "akira_amemiya": 240,
+    "akira_daikuhara": 47,
+    "akira_honma": 70,
+    "akira_inagami": 20,
+    "akira_maeda": 5,
+    "akira_matsushima": 91,
+    "akitoshi_yokoyama": 38,
+    "akiyuki_shinbo": 103,
+    "al_coe": 5,
+    "aleksandr_petrov": 37,
+    "all_out!!": 46,
+    "amby_paliwoda": 5,
+    "andreas_deja": 53,
+    "andy_gaskill": 29,
+    "animals": 12939,
+    "animated": 219944,
+    "anthony_derosa": 12,
+    "art_babbitt": 206,
+    "art_davis": 34,
+    "art_palmer": 53,
+    "art_stevens": 24,
+    "artist_unknown": 116439,
+    "asako_nishida": 83,
+    "atsuko_fukushima": 59,
+    "atsuko_ishida": 113,
+    "atsuko_nakajima": 38,
+    "atsuko_tanaka": 162,
+    "atsuko_watanabe": 10,
+    "atsuo_tobe": 55,
+    "atsushi_ikariya": 270,
+    "atsushi_nishigori": 87,
+    "atsushi_ogasawara": 9,
+    "atsushi_shigeta": 206,
+    "atsushi_takeuchi": 32,
+    "atsushi_tamura": 65,
+    "atsushi_wakabayashi": 128,
+    "aya_takano": 8,
+    "ayataka_tanemura": 18,
+    "ayumi_kurashima": 37,
+    "ayumi_shiraishi": 25,
+    "background_animation": 17666,
+    "background_design": 269,
+    "beams": 11160,
+    "ben_sharpsteen": 10,
+    "ben_washam": 73,
+    "bernard_garbutt": 24,
+    "berny_wolf": 67,
+    "bill_justice": 31,
+    "bill_kroyer": 5,
+    "bill_littlejohn": 73,
+    "bill_melendez": 51,
+    "bill_nolan": 134,
+    "bill_plympton": 6,
+    "bill_roberts": 62,
+    "bill_tytla": 163,
+    "black_and_white": 1311,
+    "blaine_gibson": 23,
+    "blue_box_(animator)": 5,
+    "bob_clampett": 7,
+    "bob_jaques": 19,
+    "bob_mccrea": 21,
+    "brad_bird": 11,
+    "brad_case": 8,
+    "cal_dalton": 15,
+    "campbell_grant": 6,
+    "caroline_leaf": 5,
+    "cel": 5,
+    "cgi": 13665,
+    "character_acting": 88141,
+    "character_design": 1295,
+    "charles_nichols": 30,
+    "chie_uratani": 16,
+    "chikashi_kubota": 157,
+    "chiyuki_tanaka": 65,
+    "chris_buck": 5,
+    "chris_sauve": 20,
+    "chuck_jones": 46,
+    "cliff_nordberg": 100,
+    "clyde_geronimi": 41,
+    "color_script": 28,
+    "comparison": 215,
+    "concept_art": 204,
+    "correction": 1409,
+    "creatures": 38271,
+    "crowd": 3395,
+    "crying": 2943,
+    "cy_young": 71,
+    "daikichirou_kusube": 30,
+    "daisuke_sakou": 67,
+    "dale_baer": 56,
+    "dan_macmanus": 72,
+    "dana_terrace": 8,
+    "dancing": 4851,
+    "daniel_mcmanus": 9,
+    "dave_spafford": 25,
+    "david_feiss": 29,
+    "david_silverman": 39,
+    "debris": 28049,
+    "dick_huemer": 58,
+    "dick_lucas": 44,
+    "dick_lundy": 48,
+    "don_bluth": 52,
+    "don_lusk": 97,
+    "don_patterson": 38,
+    "douga": 432,
+    "dragon_ball": 116,
+    "dragon_ball_series": 1437,
+    "dragon_ball_super": 434,
+    "eastern": 5130,
+    "ed_barge": 21,
+    "ed_love": 97,
+    "effects": 129742,
+    "eiji_komatsu": 323,
+    "eiji_nakada": 118,
+    "eiji_suganuma": 72,
+    "eiji_yamamori": 43,
+    "emery_hawkins": 126,
+    "eric_cleworth": 51,
+    "eric_goldberg": 52,
+    "eric_larson": 249,
+    "eun_young_choi": 14,
+    "explosions": 24075,
+    "fabric": 22564,
+    "falling": 4103,
+    "fighting": 55801,
+    "fire": 16694,
+    "flipbook": 58,
+    "flying": 5075,
+    "food": 2659,
+    "frank_thomas": 245,
+    "franziska_van_wulfen": 36,
+    "fred_kopietz": 5,
+    "fred_moore": 217,
+    "frederic_back": 14,
+    "friz_freleng": 13,
+    "fumio_iida": 15,
+    "futoshi_fujikawa": 5,
+    "futoshi_nishiya": 26,
+    "fyodor_khitruk": 7,
+    "gattai": 482,
+    "gen'ichirou_abe": 244,
+    "gen_satou": 20,
+    "genga": 11379,
+    "genga_comparison": 570,
+    "genndy_tartakovsky": 8,
+    "george_gordon": 19,
+    "george_nicholas": 12,
+    "george_rowley": 144,
+    "gerry_chiniquy": 49,
+    "gil_turner": 16,
+    "gin_san": 68,
+    "gisaburou_sugii": 24,
+    "glen_keane": 126,
+    "goro_miyazaki": 7,
+    "gosho_aoyama": 9,
+    "grim_natwick": 279,
+    "gundam": 6466,
+    "hair": 24540,
+    "hajime_kamegaki": 35,
+    "hal_king": 146,
+    "happy_halloween": 12,
+    "haruhiko_mikimoto": 13,
+    "haruko_iizuka": 12,
+    "haruo_sotozaki": 8,
+    "harvey_toombs": 61,
+    "hayao_miyazaki": 357,
+    "henkei": 590,
+    "henry_thurlow": 62,
+    "henshin": 1973,
+    "hicks_lokey": 8,
+    "hideaki_anno": 162,
+    "hideaki_maniwa": 43,
+    "hidehiro_asama": 5,
+    "hidekazu_ohara": 46,
+    "hideki_inoue": 7,
+    "hideki_tachibana": 9,
+    "hideki_takahashi": 147,
+    "hideki_tamura": 111,
+    "hidenori_matsubara": 40,
+    "hideo_kawachi": 75,
+    "hideto_komori": 28,
+    "hidetoshi_oomori": 49,
+    "hidetsugu_hirayama": 8,
+    "hideyuki_funakoshi": 12,
+    "hideyuki_morioka": 36,
+    "hideyuki_motohashi": 12,
+    "hiraku_kaneko": 13,
+    "hiroaki_gouda": 74,
+    "hiroaki_karasu": 55,
+    "hiroaki_satou": 18,
+    "hirofumi_suzuki": 107,
+    "hirokazu_hisayuki": 22,
+    "hiroki_harada": 76,
+    "hiroki_kanno": 16,
+    "hiroki_yamamura": 26,
+    "hiroko_kazui": 5,
+    "hiroko_utsumi": 9,
+    "hiromasa_ogura": 13,
+    "hiromasa_yonebayashi": 58,
+    "hiromatsu_shuu": 104,
+    "hiromi_kato": 7,
+    "hiromi_matsushita": 68,
+    "hiromi_niioka": 32,
+    "hiroshi_hamasaki": 27,
+    "hiroshi_harada": 25,
+    "hiroshi_kojina": 6,
+    "hiroshi_nagahama": 6,
+    "hiroshi_ousaka": 27,
+    "hiroshi_saito": 40,
+    "hiroshi_takeuchi": 8,
+    "hiroshi_watanabe": 74,
+    "hirotaka_kato": 75,
+    "hirotaka_marufuji": 6,
+    "hiroto_tanaka": 15,
+    "hirotoshi_sano": 118,
+    "hirotoshi_takaya": 235,
+    "hiroyuki_aoyama": 166,
+    "hiroyuki_horiuchi": 129,
+    "hiroyuki_imaishi": 397,
+    "hiroyuki_kitakubo": 40,
+    "hiroyuki_kitazume": 24,
+    "hiroyuki_morita": 37,
+    "hiroyuki_nishimura": 51,
+    "hiroyuki_ochi": 13,
+    "hiroyuki_okiura": 255,
+    "hiroyuki_taiga": 6,
+    "hiroyuki_takahashi": 27,
+    "hiroyuki_yamashita": 255,
+    "hisao_yokobori": 78,
+    "hisashi_abe": 7,
+    "hisashi_eguchi": 92,
+    "hisashi_ezura": 30,
+    "hisashi_hirai": 85,
+    "hisashi_kagawa": 66,
+    "hisashi_mori": 310,
+    "hisashi_sakaguchi": 5,
+    "hisayuki_tabata": 24,
+    "hitomi_hasegawa": 10,
+    "hitomi_tsuruta": 32,
+    "honami_yano": 12,
+    "hugh_fraser": 71,
+    "ice": 1748,
+    "ichiro_itano": 143,
+    "ikkou_kobayashi": 10,
+    "ikuko_itoh": 88,
+    "ikuo_geso": 116,
+    "illustration": 740,
+    "impact_frames": 13780,
+    "instruments": 911,
+    "irv_spence": 174,
+    "isamu_imakake": 24,
+    "isao_sugimoto": 19,
+    "itsuki_imazaki": 149,
+    "jack_bradbury": 29,
+    "jack_hannah": 10,
+    "jack_king": 9,
+    "jack_kinney": 15,
+    "jack_zander": 27,
+    "james_baxter": 142,
+    "jerry_hathcock": 28,
+    "jim_algar": 35,
+    "jin_kim": 17,
+    "joanna_quinn": 7,
+    "joaquim_dos_santos": 18,
+    "john_kricfalusi": 23,
+    "john_lounsbery": 187,
+    "john_musker": 5,
+    "john_pomeroy": 73,
+    "josh_meador": 110,
+    "jun_nakai": 33,
+    "jun_shishido": 5,
+    "jun_yamazaki": 5,
+    "junichi_sato": 14,
+    "junichiro_taniguchi": 14,
+    "kaichiro_terada": 122,
+    "kairi_unabara": 6,
+    "kana_ishida": 11,
+    "kana_miyai": 7,
+    "kanada_dragon": 221,
+    "kanada_light_flare": 1320,
+    "kanako_maru": 54,
+    "kanami_sekiguchi": 10,
+    "kanna_hirayama": 65,
+    "kanta_suzuki": 275,
+    "katsuhiko_nishijima": 67,
+    "katsuhiro_otomo": 13,
+    "katsuichi_nakayama": 12,
+    "katsumi_tamegai": 12,
+    "katsuya_kondo": 93,
+    "katsuya_shigehara": 5,
+    "katsuya_terada": 6,
+    "katsuyoshi_nakatsuru": 78,
+    "katsuzo_hirata": 8,
+    "kazuaki_mouri": 102,
+    "kazuchika_kise": 242,
+    "kazuhide_tomonaga": 297,
+    "kazuhiro_fukuchi": 32,
+    "kazuhiro_furuhashi": 25,
+    "kazuhiro_miwa": 444,
+    "kazuhiro_ochi": 68,
+    "kazuhiro_ota": 161,
+    "kazuhisa_nakamura": 14,
+    "kazuko_nakamura": 14,
+    "kazuko_tadano": 8,
+    "kazumi_ikeda": 8,
+    "kazumi_satou": 6,
+    "kazunori_iwakura": 89,
+    "kazunori_ozawa": 561,
+    "kazunori_takahashi": 41,
+    "kazuo_komatsubara": 86,
+    "kazuo_yamazaki": 8,
+    "kazushige_yusa": 7,
+    "kazutaka_ozaki": 57,
+    "kazutaka_sugiyama": 58,
+    "kazuto_nakazawa": 212,
+    "kazuya_kuroda": 5,
+    "kazuya_miura": 8,
+    "kazuya_shiotsuki": 6,
+    "kazuya_tsurumaki": 37,
+    "kazuyoshi_yaginuma": 55,
+    "kei_suezawa": 36,
+    "keigo_sasaki": 5,
+    "keiichi_ishida": 167,
+    "keiichiro_kimura": 105,
+    "keiichiro_saito": 114,
+    "keiji_gotoh": 39,
+    "keiko_kurosawa": 6,
+    "keisuke_morishita": 7,
+    "keisuke_watabe": 303,
+    "ken'ichi_hara": 26,
+    "ken_harris": 88,
+    "ken_o'brien": 13,
+    "ken_otsuka": 299,
+    "ken_peterson": 10,
+    "ken_takahashi": 61,
+    "ken_takahashi_(2)": 46,
+    "ken_ueno": 55,
+    "kenichi_konishi": 70,
+    "kenichi_kutsuna": 130,
+    "kenichi_tsuchiya": 60,
+    "kenichi_yoshida": 107,
+    "kevin_lima": 8,
+    "kikuko_sadakata": 32,
+    "kimihiro_nishio": 12,
+    "kitaro_kousaka": 78,
+    "kohei_ashiya": 8,
+    "koichi_maruyama": 11,
+    "koichi_murata": 27,
+    "koichi_usami": 37,
+    "koji_morimoto": 127,
+    "koji_nanke": 105,
+    "koji_yamamura": 12,
+    "kou_yoshinari": 348,
+    "kouichi_arai": 134,
+    "kouichi_sugitani": 10,
+    "kouichi_taguchi": 8,
+    "kouichi_tsunoda": 9,
+    "kumiko_takahashi": 40,
+    "kunihiko_hamada": 116,
+    "kunihiko_ikuhara": 24,
+    "kunio_kato": 6,
+    "kuroneko_to_majo_no_kyoushitsu": 16,
+    "kwang_il_han": 15,
+    "kyoji_asano": 15,
+    "kyoko_ito": 5,
+    "kyuuta_sakai": 11,
+    "laverne_harding": 22,
+    "layout": 3783,
+    "les_clark": 166,
+    "lightning": 14134,
+    "liquid": 30689,
+    "live_action": 533,
+    "louie_schmitt": 20,
+    "mahiro_maeda": 41,
+    "mai_yoneyama": 65,
+    "maiko_kobayashi": 29,
+    "maki_kawake": 32,
+    "makiko_futaki": 108,
+    "makoto_iino": 8,
+    "makoto_nagasawa": 7,
+    "mamoru_hosoda": 47,
+    "mamoru_yokota": 6,
+    "manabu_ono": 6,
+    "manabu_oohashi": 136,
+    "marc_davis": 97,
+    "mari_tominaga": 8,
+    "marie_ino": 6,
+    "mariko_oka": 16,
+    "mark_henn": 51,
+    "marvin_woodward": 72,
+    "masaaki_endo": 284,
+    "masaaki_iwane": 1750,
+    "masaaki_takiyama": 76,
+    "masaaki_yuasa": 131,
+    "masahide_yanagisawa": 39,
+    "masahiko_itojima": 13,
+    "masahiko_komino": 21,
+    "masahiko_murata": 62,
+    "masahiko_nakada": 12,
+    "masahiko_ohkura": 18,
+    "masahiro_aizawa": 7,
+    "masahito_sawada": 162,
+    "masahito_yamashita": 349,
+    "masakatsu_sasaki": 156,
+    "masaki_kajishima": 12,
+    "masaki_sato": 21,
+    "masako_matsumoto": 50,
+    "masako_sato": 11,
+    "masako_shinohara": 98,
+    "masami_goto": 98,
+    "masami_obari": 313,
+    "masami_otsuka": 131,
+    "masami_suda": 79,
+    "masanori_nishii": 91,
+    "masanori_shino": 20,
+    "masao_okubo": 637,
+    "masaru_kimura": 157,
+    "masaru_oshiro": 23,
+    "masashi_ando": 85,
+    "masashi_ishihama": 155,
+    "masashi_kudo": 45,
+    "masashi_okumura": 27,
+    "masato_anno": 35,
+    "masatsugu_arakawa": 15,
+    "masaya_fujimori": 64,
+    "masayoshi_nishida": 25,
+    "masayoshi_tanaka": 103,
+    "masayuki_kouda": 56,
+    "masayuki_kunihiro": 239,
+    "masayuki_sato": 39,
+    "masayuki_yoshihara": 82,
+    "max_fleischer": 7,
+    "mecha": 17808,
+    "mechanical_design": 115,
+    "megumi_ishitani": 10,
+    "megumi_kagawa": 85,
+    "megumi_kouno": 317,
+    "meiju_maeda": 13,
+    "merry_christmas": 52,
+    "michael_sporn": 7,
+    "michi_himeno": 30,
+    "michinori_chiba": 51,
+    "michio_fukuda": 18,
+    "michio_mihara": 142,
+    "michitaka_kikuchi": 54,
+    "mieko_hosoi": 52,
+    "miho_shimogasa": 12,
+    "milt_kahl": 439,
+    "minoru_maeda": 33,
+    "mirai_mizue": 16,
+    "missiles": 2978,
+    "mitsuo_iso": 272,
+    "mitsuru_aoyama": 21,
+    "mitsuru_ishihara": 97,
+    "mitsuru_obunai": 222,
+    "miyako_yatsu": 14,
+    "mizuki_takahashi": 43,
+    "momoko_makiuchi": 7,
+    "morio_asaka": 6,
+    "moriyasu_taniguchi": 24,
+    "morphing": 4623,
+    "motoki_tanaka": 38,
+    "motonobu_hori": 13,
+    "motosuke_takahashi": 120,
+    "mutsumi_inomata": 21,
+    "my_hero_academia": 1987,
+    "my_hero_academia_series": 2718,
+    "nam-yeol_baek": 9,
+    "naohiro_osugi": 20,
+    "naohito_takahashi": 8,
+    "naoki_miyahara": 26,
+    "naoki_tate": 318,
+    "naoko_yamada": 36,
+    "naoto_hosoda": 142,
+    "naotoshi_shida": 640,
+    "naoyoshi_shiotani": 7,
+    "naoyuki_asano": 39,
+    "naoyuki_itou": 6,
+    "naoyuki_konno": 120,
+    "naoyuki_onda": 25,
+    "naoyuki_tatsuwa": 12,
+    "narumi_kakinouchi": 5,
+    "naruto": 2833,
+    "noboru_koizumi": 157,
+    "noboru_takano": 12,
+    "nobuaki_nagano": 116,
+    "nobutake_ito": 75,
+    "nobuteru_yuki": 31,
+    "nobutoshi_ogura": 74,
+    "nobuyoshi_habara": 55,
+    "nobuyoshi_nishimura": 40,
+    "nobuyoshi_sasakado": 55,
+    "nobuyuki_takeuchi": 59,
+    "noriko_takao": 12,
+    "norio_hikone": 7,
+    "norio_matsumoto": 685,
+    "norio_shioyama": 53,
+    "noriyasu_yamauchi": 24,
+    "norm_ferguson": 136,
+    "norm_mccabe": 23,
+    "nozomi_fujii": 12,
+    "ollie_johnston": 268,
+    "one_piece": 3927,
+    "one_piece:_the_giant_mechanical_soldier_of_karakuri_castle": 13,
+    "osamu_dezaki": 17,
+    "osamu_nabeshima": 117,
+    "osamu_sakata": 41,
+    "osamu_tanabe": 72,
+    "osamu_tezuka": 8,
+    "performance": 6706,
+    "pete_burness": 58,
+    "peter_chung": 23,
+    "phil_duncan": 30,
+    "phil_monroe": 32,
+    "pinto_colvig": 7,
+    "pokemon": 4214,
+    "precure": 3212,
+    "preston_blair": 59,
+    "presumed": 0,
+    "production_materials": 19389,
+    "ralph_bakshi": 5,
+    "randy_cartwright": 19,
+    "raul_garcia": 5,
+    "ray_patterson": 47,
+    "rebecca_sugar": 28,
+    "rei_yamazaki": 10,
+    "reiko_nagasawa": 52,
+    "reiko_okuyama": 42,
+    "rie_matsumoto": 41,
+    "rihiro_yamane": 111,
+    "robert_mckimson": 109,
+    "rodolphe_guenoden": 22,
+    "rollin_hamilton": 7,
+    "ron_clements": 12,
+    "ron_kamiya": 15,
+    "rotation": 6109,
+    "rotoscope": 1006,
+    "rough": 210,
+    "roy_williams": 11,
+    "ruben_aquino": 7,
+    "running": 21726,
+    "ryan_larkin": 17,
+    "ryo_tanaka": 637,
+    "ryosuke_nakamura": 8,
+    "ryouma_ebata": 213,
+    "ryouta_arima": 5,
+    "ryu_nakayama": 97,
+    "ryuichi_makino": 128,
+    "sachiko_kamimura": 18,
+    "sadahiko_sakamaki": 6,
+    "sadao_tsukioka": 58,
+    "saki_takahashi": 17,
+    "sanae_shimada": 18,
+    "sang_jin_kim": 34,
+    "satoko_morikawa": 22,
+    "satomi_maiya": 11,
+    "satoru_iriyoshi": 16,
+    "satoru_utsunomiya": 166,
+    "satoshi_hirayama": 16,
+    "satoshi_ishino": 44,
+    "satoshi_iwataki": 51,
+    "satoshi_kon": 45,
+    "satoshi_tasaki": 5,
+    "satoshi_urushihara": 95,
+    "satoshi_yamaguchi": 67,
+    "sawako_yamamoto": 27,
+    "sayaka_koiso": 31,
+    "sayo_yamamoto": 11,
+    "sayuri_ichiishi": 17,
+    "screencap": 101,
+    "seiichi_hayashi": 11,
+    "seiichi_nakatani": 81,
+    "seiji_muta": 36,
+    "seiya_numata": 151,
+    "sergio_pablos": 32,
+    "settei": 1973,
+    "seung_eun_kim": 25,
+    "seymour_kneitel": 5,
+    "shamus_culhane": 50,
+    "shiage": 63,
+    "shiba_minako": 5,
+    "shichiro_kobayashi": 6,
+    "shigeki_kimoto": 70,
+    "shigenobu_nagasaki": 32,
+    "shigeo_akahori": 12,
+    "shigeru_fujita": 44,
+    "shigetaka_kiyoyama": 5,
+    "shigeyasu_yamauchi": 5,
+    "shiho_takeuchi": 32,
+    "shin'ichi_suzuki": 5,
+    "shin'ichi_suzuki_(1958)": 6,
+    "shin_itagaki": 100,
+    "shin_wakabayashi": 33,
+    "shingo_adachi": 60,
+    "shingo_araki": 129,
+    "shingo_natsume": 56,
+    "shingo_suzuki": 38,
+    "shingo_yamashita": 186,
+    "shinji_hashimoto": 206,
+    "shinji_higuchi": 5,
+    "shinji_otsuka": 181,
+    "shinji_takeuchi": 5,
+    "shinobu_yoshioka": 6,
+    "shinpei_aoki": 6,
+    "shinpei_kobayashi": 16,
+    "shinpei_tomooka": 263,
+    "shinsaku_sasaki": 33,
+    "shintarou_douge": 41,
+    "shinya_hasegawa": 99,
+    "shinya_ohira": 436,
+    "shinya_takahashi": 275,
+    "shinya_takahashi_(1943)": 5,
+    "shizue_kaneko": 6,
+    "shizuka_hayashi": 89,
+    "shoichi_masuo": 188,
+    "shojiro_nishimi": 6,
+    "shota_goshozono": 72,
+    "shougo_furuya": 29,
+    "shouko_ikeda": 12,
+    "shouko_nakamura": 53,
+    "shuichi_iseki": 34,
+    "shuji_maruyama": 20,
+    "shukou_murase": 118,
+    "shunji_suzuki": 39,
+    "shuu_sugita": 295,
+    "smears": 61359,
+    "smoke": 62428,
+    "soudai_suwa": 8,
+    "sparks": 15292,
+    "sports": 5390,
+    "sprite": 140,
+    "steve_bosustow": 6,
+    "steven_e._gordon": 30,
+    "stop_motion": 42,
+    "storyboard": 1897,
+    "sumie_kinoshita": 8,
+    "sunghoo_park": 243,
+    "susumu_mitsunaka": 6,
+    "tadahiko_horiguchi": 8,
+    "tadashi_hiramatsu": 267,
+    "tadashi_shida": 15,
+    "tadayoshi_yamamuro": 116,
+    "tagme": 140,
+    "taichi_ishidate": 213,
+    "taisuke_iwasaki": 7,
+    "takaaki_sekizaki": 66,
+    "takaaki_wada": 232,
+    "takaaki_yamashita": 165,
+    "takahiro_kagami": 129,
+    "takahiro_kimura": 48,
+    "takahiro_kishida": 327,
+    "takahiro_komori": 118,
+    "takahiro_yoshimatsu": 14,
+    "takami_akai": 11,
+    "takamitsu_kondo": 98,
+    "takao_kozai": 7,
+    "takashi_hashimoto": 512,
+    "takashi_kawaguchi": 99,
+    "takashi_watabe": 5,
+    "takashi_watanabe": 7,
+    "takashi_yamamoto": 5,
+    "takatsuna_senba": 7,
+    "takayo_nishimura": 27,
+    "takehiko_matsumoto": 19,
+    "takeo_ide": 38,
+    "takeshi_honda": 396,
+    "takeshi_inamura": 62,
+    "takeshi_ito": 42,
+    "takeshi_koike": 154,
+    "takeshi_oda": 18,
+    "takeshi_shirato": 8,
+    "taku_furukawa": 8,
+    "takumi_yokota": 9,
+    "takuya_saito_(ajia_do)": 45,
+    "takuya_saito_(production_i.g.)": 16,
+    "takuya_saito_(trigger)": 11,
+    "takuya_sato": 5,
+    "takuya_yamamura": 15,
+    "tamotsu_ogawa": 156,
+    "tarafu_otani": 18,
+    "taro_ikegami": 19,
+    "tatsufumi_ito": 40,
+    "tatsuo_satou": 5,
+    "tatsuya_ishihara": 17,
+    "tatsuya_oishi": 122,
+    "tatsuya_suzuki": 41,
+    "tatsuya_yoshihara": 452,
+    "tatsuyuki_tanaka": 66,
+    "tatsuzou_nishita": 156,
+    "ted_kierscey": 6,
+    "ted_sears": 5,
+    "tensai_okamura": 23,
+    "teruaki_murakami": 9,
+    "terumi_nishii": 26,
+    "test": 22,
+    "tetsuro_araki": 5,
+    "tetsuya_kawakami": 12,
+    "tetsuya_kumagai": 12,
+    "tetsuya_matsukawa": 9,
+    "tetsuya_nishio": 369,
+    "tetsuya_takeuchi": 595,
+    "thomas_romain": 153,
+    "thumbs_up": 59,
+    "timesheet": 138,
+    "tissa_david": 37,
+    "title_animation": 433,
+    "tokuyuki_matsutake": 384,
+    "tom_bancroft": 22,
+    "tom_palmer": 7,
+    "tom_sito": 10,
+    "tomoe_aratani": 13,
+    "tomohiro_furukawa": 12,
+    "tomohiro_hirata": 9,
+    "tomohiro_kawahara": 12,
+    "tomonori_kogawa": 54,
+    "tomonori_sudo": 33,
+    "tomoyasu_kurashima": 9,
+    "tomoyo_kamoi": 22,
+    "tomoyuki_itamura": 18,
+    "tomoyuki_shitaya": 10,
+    "toru_imanishi": 7,
+    "toru_yoshida": 176,
+    "toshie_kawamura": 9,
+    "toshifumi_akai": 34,
+    "toshiharu_murata": 20,
+    "toshihiko_masuda": 50,
+    "toshihiro_kawamoto": 51,
+    "toshihito_hirooka": 6,
+    "toshimasa_suzuki": 8,
+    "toshimitsu_kobayashi": 14,
+    "toshinari_yamashita": 37,
+    "toshio_hirata": 9,
+    "toshio_kawaguchi": 100,
+    "toshitsugu_saida": 131,
+    "toshiyuki_honda": 9,
+    "toshiyuki_inoue": 620,
+    "toshiyuki_kanno": 20,
+    "toshiyuki_kubooka": 13,
+    "toshiyuki_sato": 761,
+    "toshiyuki_shirai": 19,
+    "toshiyuki_tsuru": 88,
+    "touko_yatabe": 29,
+    "toyoo_ashida": 21,
+    "tsukasa_dokite": 27,
+    "tsukasa_tannai": 46,
+    "tsunenori_saito": 112,
+    "tsuneo_maeda": 14,
+    "tsuneo_ninomiya": 23,
+    "tsutomu_shibayama": 38,
+    "tsutomu_suzuki": 7,
+    "ub_iwerks": 42,
+    "vehicle": 9157,
+    "virgil_ross": 103,
+    "walk_cycle": 6042,
+    "walt_stanchfield": 18,
+    "walter_lantz": 9,
+    "ward_kimball": 191,
+    "web": 5566,
+    "weilin_zhang": 106,
+    "western": 19454,
+    "will_finn": 18,
+    "willard_bowsky": 16,
+    "wind": 12493,
+    "winsor_mccay": 5,
+    "woolie_reitherman": 167,
+    "yasuhiro_aoki": 107,
+    "yasuhiro_irie": 80,
+    "yasuhiro_nakura": 47,
+    "yasuhiro_takemoto": 17,
+    "yasuhiro_yamaguchi": 14,
+    "yasuhisa_kato": 49,
+    "yasuichiro_yamamoto": 9,
+    "yasuji_mori": 110,
+    "yasuji_murata": 50,
+    "yasuo_otsuka": 158,
+    "yasuomi_umetsu": 229,
+    "yasushi_muraki": 291,
+    "yasuyuki_noda": 7,
+    "yoh_yoshinari": 586,
+    "yoichi_kotabe": 62,
+    "yojiro_arai": 9,
+    "yoko_kuno": 36,
+    "yorihisa_uchida": 30,
+    "yoshiaki_ito": 22,
+    "yoshiaki_kawajiri": 87,
+    "yoshiaki_yanagida": 24,
+    "yoshifumi_kondo": 243,
+    "yoshiharu_ashino": 8,
+    "yoshiharu_fukushima": 17,
+    "yoshiharu_sato": 30,
+    "yoshihiko_takakura": 51,
+    "yoshihiko_umakoshi": 332,
+    "yoshihiro_nagamori": 5,
+    "yoshihiro_osugi": 12,
+    "yoshihiro_takeda": 19,
+    "yoshihiro_watanabe": 6,
+    "yoshihito_hishinuma": 20,
+    "yoshiji_kigami": 273,
+    "yoshikazu_yasuhiko": 336,
+    "yoshimi_itazu": 54,
+    "yoshimichi_kameda": 321,
+    "yoshimitsu_ohashi": 19,
+    "yoshinari_saito": 258,
+    "yoshinori_kanada": 926,
+    "yoshinori_kanemori": 11,
+    "yoshitoshi_shinomiya": 23,
+    "yoshiyuki_fujiwara": 5,
+    "yoshiyuki_ito": 160,
+    "yoshiyuki_momose": 127,
+    "yoshiyuki_sadamoto": 42,
+    "yoshiyuki_tokinaga": 13,
+    "yoshiyuki_tomino": 20,
+    "yosuke_anai": 15,
+    "youko_furuya": 33,
+    "youko_kikuchi": 37,
+    "yousuke_kabashima": 85,
+    "yuichi_nakazawa": 56,
+    "yuichiro_hayashi": 31,
+    "yuichiro_sueyoshi": 101,
+    "yuji_moriyama": 72,
+    "yuka_kuroda": 95,
+    "yuka_shibata": 14,
+    "yuka_shibata_(2)": 6,
+    "yuki_akiyama": 5,
+    "yuki_hayashi": 404,
+    "yukie_sako": 5,
+    "yukihiro_kitano": 22,
+    "yukiko_horiguchi": 51,
+    "yukiko_nakatani": 22,
+    "yukio_ebisawa": 11,
+    "yukio_takatsu": 26,
+    "yukitoshi_houtani": 12,
+    "yukiyoshi_hane": 48,
+    "yuko_iwasa": 16,
+    "yumi_ikeda": 12,
+    "yurie_kuniyuki": 14,
+    "yuriko_chiba": 73,
+    "yuriko_ishii": 31,
+    "yusuke_yoshigaki": 76,
+    "yutaka_minowa": 22,
+    "yutaka_nakamura": 486,
+    "yutaro_kubo": 45,
+    "yuu_yamashita": 43,
+    "yuuhei_murota": 13,
+    "yuuki_igarashi": 85,
+    "yuusuke_matsuo": 252,
+    "yuya_takahashi": 168,
+    "yuzo_aoki": 51
+  },
+  "general": {
+    "3d_background": {
+      "ja": "3D背景"
+    },
+    "animals": {
+      "ja": "動物"
+    },
+    "animated": {
+      "ja": "アニメーション"
+    },
+    "background_animation": {
+      "ja": "背景動画"
+    },
+    "background_design": {
+      "ja": "美術設定"
+    },
+    "beams": {
+      "ja": "ビーム"
+    },
+    "black_and_white": {
+      "ja": "白黒"
+    },
+    "cel": {
+      "ja": "セル画"
+    },
+    "cgi": {
+      "ja": "CG"
+    },
+    "character_acting": {
+      "ja": "芝居"
+    },
+    "character_design": {
+      "ja": "キャラクターデザイン"
+    },
+    "color_script": {
+      "ja": "カラースクリプト"
+    },
+    "comparison": {
+      "ja": "比較"
+    },
+    "concept_art": {
+      "ja": "コンセプトアート"
+    },
+    "correction": {
+      "ja": "作監修正"
+    },
+    "creatures": {
+      "ja": "クリーチャー"
+    },
+    "crowd": {
+      "ja": "群衆"
+    },
+    "crying": {
+      "ja": "泣き"
+    },
+    "dancing": {
+      "ja": "ダンス"
+    },
+    "debris": {
+      "ja": "瓦礫"
+    },
+    "douga": {
+      "ja": "動画"
+    },
+    "eastern": {
+      "ja": "東アジア作品"
+    },
+    "effects": {
+      "ja": "エフェクト"
+    },
+    "explosions": {
+      "ja": "爆発"
+    },
+    "fabric": {
+      "ja": "布"
+    },
+    "falling": {
+      "ja": "落下"
+    },
+    "fighting": {
+      "ja": "格闘"
+    },
+    "fire": {
+      "ja": "炎"
+    },
+    "flipbook": {
+      "ja": "パラパラ漫画"
+    },
+    "flying": {
+      "ja": "飛行"
+    },
+    "food": {
+      "ja": "食べ物"
+    },
+    "gattai": {
+      "ja": "合体"
+    },
+    "genga": {
+      "ja": "原画"
+    },
+    "genga_comparison": {
+      "ja": "原画比較"
+    },
+    "hair": {
+      "ja": "髪"
+    },
+    "happy_halloween": {
+      "ja": "ハロウィン"
+    },
+    "henkei": {
+      "ja": "変形"
+    },
+    "henshin": {
+      "ja": "変身"
+    },
+    "ice": {
+      "ja": "氷"
+    },
+    "illustration": {
+      "ja": "イラスト"
+    },
+    "impact_frames": {
+      "ja": "インパクトフレーム"
+    },
+    "instruments": {
+      "ja": "楽器"
+    },
+    "kanada_dragon": {
+      "ja": "金田ドラゴン"
+    },
+    "kanada_light_flare": {
+      "ja": "金田光"
+    },
+    "layout": {
+      "ja": "レイアウト"
+    },
+    "lightning": {
+      "ja": "電撃"
+    },
+    "liquid": {
+      "ja": "液体"
+    },
+    "live_action": {
+      "ja": "実写"
+    },
+    "mecha": {
+      "ja": "メカ"
+    },
+    "mechanical_design": {
+      "ja": "メカニックデザイン"
+    },
+    "merry_christmas": {
+      "ja": "クリスマス"
+    },
+    "missiles": {
+      "ja": "ミサイル"
+    },
+    "morphing": {
+      "ja": "モーフィング"
+    },
+    "performance": {
+      "ja": "パフォーマンス"
+    },
+    "presumed": {
+      "ja": "推定"
+    },
+    "production_materials": {
+      "ja": "制作資料"
+    },
+    "rotation": {
+      "ja": "回転"
+    },
+    "rotoscope": {
+      "ja": "ロトスコープ"
+    },
+    "rough": {
+      "ja": "ラフ"
+    },
+    "running": {
+      "ja": "走り"
+    },
+    "screencap": {
+      "ja": "スクリーンショット"
+    },
+    "settei": {
+      "ja": "設定"
+    },
+    "shiage": {
+      "ja": "仕上げ"
+    },
+    "smears": {
+      "ja": "スミア"
+    },
+    "smoke": {
+      "ja": "煙"
+    },
+    "sparks": {
+      "ja": "火花"
+    },
+    "sports": {
+      "ja": "スポーツ"
+    },
+    "sprite": {
+      "ja": "スプライト"
+    },
+    "stop_motion": {
+      "ja": "ストップモーション"
+    },
+    "storyboard": {
+      "ja": "絵コンテ"
+    },
+    "tagme": {
+      "ja": "タグ募集"
+    },
+    "test": {
+      "ja": "テスト"
+    },
+    "thumbs_up": {
+      "ja": "サムズアップ"
+    },
+    "timesheet": {
+      "ja": "タイムシート"
+    },
+    "title_animation": {
+      "ja": "タイトルアニメーション"
+    },
+    "vehicle": {
+      "ja": "乗り物"
+    },
+    "walk_cycle": {
+      "ja": "歩き"
+    },
+    "web": {
+      "ja": "Web系"
+    },
+    "western": {
+      "ja": "海外作品"
+    },
+    "wind": {
+      "ja": "風"
+    }
+  },
+  "updated": "2026-10-15",
+  "v": 1
+}
