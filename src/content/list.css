@@ -1,0 +1,130 @@
+/* Better Sakugabooru: list page grid (variant E, Dense). Colors come only from tokens.css. */
+.bsb-hide {
+  display: none !important;
+}
+
+.bsb-grid {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 20px 14px;
+  padding: 0;
+  margin: 0 0 32px;
+  list-style: none;
+}
+.bsb-grid[data-cols="8"] {
+  grid-template-columns: repeat(8, minmax(0, 1fr));
+}
+.bsb-grid[data-cols="4"] {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.bsb-card {
+  display: block;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+}
+
+.bsb-thumb {
+  position: relative;
+  display: block;
+  aspect-ratio: var(--bsb-ar, 16/9);
+  background: var(--bsb-subtle);
+  overflow: hidden;
+  border-radius: 0;
+}
+.bsb-preview {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border: 0;
+}
+.bsb-thumb video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background: var(--bsb-inverse-bg);
+}
+
+/* ---- Captions ---- */
+.bsb-cap {
+  padding: 8px 0 0;
+  font-size: 13px;
+  line-height: 1.5;
+}
+.bsb-row {
+  min-width: 0;
+}
+.bsb-work {
+  font-weight: 700;
+  color: var(--bsb-text);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.bsb-artists {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.bsb-artists a,
+html[data-bsb-theme] .bsb-artists a {
+  color: var(--bsb-sub);
+}
+.bsb-artists a:hover,
+html[data-bsb-theme] .bsb-artists a:hover {
+  color: var(--bsb-red-text);
+}
+.bsb-meta {
+  display: flex;
+  gap: 8px;
+  color: var(--bsb-muted);
+  font-size: 12px;
+}
+.bsb-en {
+  font-family: var(--bsb-font-en);
+}
+.bsb-tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-top: 4px;
+}
+.bsb-chip {
+  background: var(--bsb-subtle);
+  color: var(--bsb-sub);
+  font-size: 11px;
+  line-height: 1;
+  padding: 4px 6px;
+}
+.bsb-more {
+  color: var(--bsb-muted);
+}
+
+/* ---- Translation marks (captions and sidebar) ---- */
+.bsb-raw {
+  color: var(--bsb-muted);
+  font-family: var(--bsb-font-en);
+  font-size: 12px;
+}
+.bsb-untranslated {
+  color: var(--bsb-red-text);
+  font-size: 11px;
+  margin-left: 4px;
+}
+.bsb-romaji {
+  color: var(--bsb-muted);
+  font-family: var(--bsb-font-en);
+  font-size: 11px;
+  margin-left: 6px;
+}
+
+@media (max-width: 900px) {
+  .bsb-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  }
+}

@@ -7,6 +7,6 @@ export default defineConfig({
     passWithNoTests: true,
     include: ['src/**/*.test.ts'],
     // Process theme CSS so `?inline` imports yield real text (Vitest stubs CSS to '' by default).
-    css: { include: [/src[\\/]theme[\\/].+\.css/] },
+    css: { include: [/src[\\/](theme|content)[\\/].+\.css/] },
   },
 })
