@@ -1,0 +1,206 @@
+/* Better Sakugabooru: header bar (variant E). Colors come only from tokens.css. */
+#header.bsb-header {
+  display: block;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  background: var(--bsb-bg);
+  border: 0;
+}
+.bsb-bar {
+  height: 72px;
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  padding: 0 48px;
+  background: var(--bsb-bg);
+  border-bottom: 1px solid var(--bsb-subtle);
+  box-sizing: border-box;
+}
+html[data-bsb-theme] .bsb-bar a.bsb-logo {
+  font-family: var(--bsb-font-en);
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--bsb-text);
+  white-space: nowrap;
+}
+
+/* ---- Site menu, reparented ---- */
+.bsb-bar #main-menu {
+  margin: 0;
+  padding: 0;
+  float: none;
+  background: transparent;
+  border: 0;
+}
+.bsb-bar #main-menu > ul {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.bsb-bar #main-menu > ul > li {
+  position: relative;
+  float: none;
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  white-space: nowrap;
+}
+.bsb-bar #main-menu .submenu-button {
+  display: none;
+}
+.bsb-bar #main-menu li > ul.submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  min-width: 180px;
+  margin: 0;
+  padding: 6px 0;
+  list-style: none;
+  background: var(--bsb-bg);
+  border: 1px solid var(--bsb-border);
+  border-radius: 0;
+}
+.bsb-bar #main-menu li:hover > ul.submenu,
+.bsb-bar #main-menu li:focus-within > ul.submenu {
+  display: block;
+}
+.bsb-bar #main-menu li > ul.submenu > li {
+  float: none;
+  display: block;
+  padding: 0;
+  font-size: 14px;
+}
+.bsb-bar #main-menu li > ul.submenu a {
+  display: block;
+  padding: 4px 14px;
+}
+.bsb-bar #main-menu li > ul.search-box {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  background: var(--bsb-bg);
+  border: 1px solid var(--bsb-border);
+}
+
+/* ---- Right side: search, language, upload ---- */
+.bsb-bar-end {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.bsb-search-form {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+}
+.bsb-search-form br {
+  display: none;
+}
+html[data-bsb-theme] .bsb-search-form input[name="tags"] {
+  height: 36px;
+  width: 320px;
+  border: 1px solid var(--bsb-border);
+  background: var(--bsb-input);
+  color: var(--bsb-text);
+  padding: 0 12px;
+  font-size: 14px;
+  border-radius: 0;
+  box-sizing: border-box;
+}
+html[data-bsb-theme] .bsb-search-form input[type="submit"],
+html[data-bsb-theme] .bsb-search-form .bsb-primary {
+  height: 36px;
+  padding: 0 18px;
+  border-radius: 50px;
+  background: var(--bsb-red);
+  color: var(--bsb-on-red);
+  font-weight: 700;
+}
+html[data-bsb-theme] .bsb-bar a.bsb-upload {
+  height: 36px;
+  padding: 0 18px;
+  border-radius: 50px;
+  background: var(--bsb-red);
+  color: var(--bsb-on-red);
+  font-weight: 700;
+  font-size: 14px;
+  display: inline-flex;
+  align-items: center;
+  white-space: nowrap;
+}
+html[data-bsb-theme] .bsb-bar a.bsb-upload:hover {
+  color: var(--bsb-on-red);
+}
+.bsb-lang {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--bsb-font-en);
+  font-size: 13px;
+  color: var(--bsb-sub);
+  white-space: nowrap;
+}
+html[data-bsb-theme] .bsb-lang a {
+  color: var(--bsb-sub);
+}
+html[data-bsb-theme] .bsb-lang a.bsb-current {
+  color: var(--bsb-text);
+  font-weight: 700;
+}
+
+/* ---- Footer sub-navigation: slim secondary row ---- */
+#subnavbar.bsb-subnav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0 18px;
+  min-height: 36px;
+  margin: 0;
+  padding: 0 48px;
+  list-style: none;
+  border-top: 1px solid var(--bsb-subtle);
+  font-size: 13px;
+}
+#subnavbar.bsb-subnav > li {
+  float: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 900px) {
+  .bsb-bar {
+    height: auto;
+    min-height: 72px;
+    flex-wrap: wrap;
+    gap: 12px 20px;
+    padding: 12px 16px;
+  }
+  .bsb-bar #main-menu > ul {
+    flex-wrap: wrap;
+    gap: 8px 16px;
+  }
+  .bsb-bar-end {
+    margin-left: 0;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  html[data-bsb-theme] .bsb-search-form input[name="tags"] {
+    width: 100%;
+    min-width: 0;
+  }
+  .bsb-search-form {
+    flex: 1 1 240px;
+  }
+  #subnavbar.bsb-subnav {
+    padding: 0 16px;
+  }
+}
