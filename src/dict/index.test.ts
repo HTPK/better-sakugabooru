@@ -59,7 +59,9 @@ describe('suggest', () => {
   it('respects limit, dedupes, and returns fields', () => {
     expect(suggest(idx, 'a', 2)).toHaveLength(2)
     const s = suggest(idx, 'すぎた')[0]
-    expect(s).toEqual({ tag: 'shuu_sugita', type: 'artist', ja: '杉田柊', kana: 'すぎた しゅう', count: 2 })
+    // Count comes from the synced snapshot, so read it rather than hard-coding a number.
+    const count = dict.counts?.shuu_sugita ?? 0
+    expect(s).toEqual({ tag: 'shuu_sugita', type: 'artist', ja: '杉田柊', kana: 'すぎた しゅう', count })
     const tags = suggest(idx, 'k', 50).map((x) => x.tag)
     expect(new Set(tags).size).toBe(tags.length)
   })
