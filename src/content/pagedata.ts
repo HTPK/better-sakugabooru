@@ -92,6 +92,42 @@ function toPost(r: Record<string, unknown>): Post {
   }
 }
 
+/**
+ * The user's blacklist as the site holds it: `<script id="user-blacklisted-tags">` with a JSON
+ * array of strings, each a space-separated conjunction (Moebooru's Post.init_blacklisted reads it).
+ */
+export function readBlacklist(doc: Document): string[][] {
+  const el = doc.getElementById('user-blacklisted-tags')
+  if (!el) return []
+  let raw: unknown
+  try {
+    raw = JSON.parse(el.textContent ?? '')
+  } catch {
+    return []
+  }
+  if (!Array.isArray(raw)) return []
+  return raw
+    .filter((e): e is string => typeof e === 'string')
+    .map((e) => e.split(/\s+/).filter(Boolean))
+    .filter((terms) => terms.length > 0)
+}
+
+/** Moebooru semantics: an entry hides a post when all its terms match (`-tag` negates, `rating:x` uses the first letter). */
+export function isBlacklisted(post: Post, entries: string[][]): boolean {
+  if (!entries.length) return false
+  const have = new Set(post.tags)
+  if (post.rating) have.add(`rating:${post.rating.charAt(0)}`)
+  const has = (term: string) => {
+    const m = /^rating:(.)/.exec(term)
+    return have.has(m ? `rating:${m[1]}` : term)
+  }
+  return entries.some((terms) => {
+    const pos = terms.filter((t) => !t.startsWith('-'))
+    if (!pos.length) return false
+    return pos.every(has) && terms.every((t) => !t.startsWith('-') || !has(t.slice(1)))
+  })
+}
+
 export function parsePosts(doc: Document): { posts: Post[]; tagTypes: Record<string, TagType> } {
   const posts: Post[] = []
   const seen = new Set<number>()

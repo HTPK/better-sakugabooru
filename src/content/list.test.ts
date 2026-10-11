@@ -176,6 +176,66 @@ describe('renderList', () => {
     expect(doc.querySelector('.bsb-grid')).toBeNull()
   })
 
+  it('skips posts matching the site blacklist', () => {
+    const first = /Post\.register\((\{"id":318841[^\n]*?\})\)/.exec(HTML)
+    const tags = (JSON.parse(first![1]) as { tags: string }).tags
+    const html = HTML.replace(
+      /(<script id="user-blacklisted-tags" type="application\/json">)\s*\[\]/,
+      `$1${JSON.stringify([tags])}`,
+    )
+    expect(html).not.toBe(HTML)
+    const doc = new JSDOM(html, { url: 'https://www.sakugabooru.com/post' }).window.document
+    const res = renderList(doc, dict, DEFAULTS)
+    expect(res.cards).toBe(expectedCount() - 1)
+    expect(cards(doc)).toHaveLength(expectedCount() - 1)
+    expect(doc.querySelector('.bsb-card[data-post-id="318841"]')).toBeNull()
+  })
+
+  it('skips posts the site already marked as blacklisted', () => {
+    const doc = load()
+    doc.getElementById('p318841')!.classList.add('blacklisted')
+    renderList(doc, dict, DEFAULTS)
+    expect(cards(doc)).toHaveLength(expectedCount() - 1)
+    expect(doc.querySelector('.bsb-card[data-post-id="318841"]')).toBeNull()
+  })
+
+  it('forwards a plain left click on a card to the original thumb anchor', () => {
+    const { doc } = run()
+    const orig = doc.querySelector<HTMLAnchorElement>('#p318841 a.thumb')!
+    const seen: MouseEvent[] = []
+    orig.addEventListener('click', (e) => {
+      seen.push(e)
+      e.preventDefault()
+    })
+    const thumb = cards(doc)[0].querySelector<HTMLAnchorElement>('a.bsb-thumb')!
+    const ev = new doc.defaultView!.MouseEvent('click', { bubbles: true, cancelable: true, button: 0 })
+    thumb.querySelector('img')!.dispatchEvent(ev)
+    expect(seen).toHaveLength(1)
+    expect(ev.defaultPrevented).toBe(true)
+  })
+
+  it('leaves modified and non-primary clicks alone', () => {
+    const { doc } = run()
+    const orig = doc.querySelector<HTMLAnchorElement>('#p318841 a.thumb')!
+    let forwarded = 0
+    orig.addEventListener('click', (e) => {
+      forwarded++
+      e.preventDefault()
+    })
+    const thumb = cards(doc)[0].querySelector<HTMLAnchorElement>('a.bsb-thumb')!
+    const W = doc.defaultView!
+    // Stop jsdom from attempting navigation; runs after the grid listener (document is outermost).
+    doc.addEventListener('click', (e) => e.preventDefault())
+    const events = [{ ctrlKey: true }, { metaKey: true }, { shiftKey: true }, { altKey: true }, { button: 1 }].map(
+      (init) => new W.MouseEvent('click', { bubbles: true, cancelable: true, ...init }),
+    )
+    const preventedBeforeDoc: boolean[] = []
+    thumb.parentElement!.parentElement!.addEventListener('click', (e) => preventedBeforeDoc.push(e.defaultPrevented))
+    for (const ev of events) thumb.dispatchEvent(ev)
+    expect(forwarded).toBe(0)
+    expect(preventedBeforeDoc).toEqual([false, false, false, false, false])
+  })
+
   it('injects the list style once', () => {
     const doc = load()
     injectListStyle(doc)

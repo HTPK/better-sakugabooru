@@ -2,7 +2,60 @@ import { describe, it, expect } from 'vitest'
 import { readFileSync } from 'node:fs'
 import { resolve } from 'node:path'
 import { JSDOM } from 'jsdom'
-import { extractJsonObjects, parsePosts } from './pagedata'
+import { extractJsonObjects, parsePosts, readBlacklist, isBlacklisted, type Post } from './pagedata'
+
+const blDoc = (json: string) =>
+  new JSDOM(`<script id="user-blacklisted-tags" type="application/json">${json}</script>`).window.document
+
+const post = (tags: string, rating = 's'): Post => ({
+  id: 1,
+  tags: tags.split(' '),
+  score: 0,
+  createdAt: 0,
+  author: '',
+  source: '',
+  previewUrl: '',
+  fileUrl: '',
+  width: 0,
+  height: 0,
+  fileSize: 0,
+  rating,
+  parentId: null,
+  hasChildren: false,
+})
+
+describe('readBlacklist', () => {
+  it('reads #user-blacklisted-tags entries as tag conjunctions', () => {
+    expect(readBlacklist(blDoc('\n  ["a b", "  c  ", "", "rating:e"]\n'))).toEqual([['a', 'b'], ['c'], ['rating:e']])
+  })
+
+  it('is empty for the logged-out fixture, missing element, bad JSON or wrong shape', () => {
+    const fixture = new JSDOM(readFileSync(FIXTURE, 'utf8')).window.document
+    expect(readBlacklist(fixture)).toEqual([])
+    expect(readBlacklist(new JSDOM('').window.document)).toEqual([])
+    expect(readBlacklist(blDoc('[oops'))).toEqual([])
+    expect(readBlacklist(blDoc('{"a":1}'))).toEqual([])
+    expect(readBlacklist(blDoc('[1, "x"]'))).toEqual([['x']])
+  })
+})
+
+describe('isBlacklisted', () => {
+  it('matches when every term of any entry matches', () => {
+    expect(isBlacklisted(post('a b c'), [['a', 'b']])).toBe(true)
+    expect(isBlacklisted(post('a c'), [['a', 'b']])).toBe(false)
+    expect(isBlacklisted(post('a c'), [['x'], ['c']])).toBe(true)
+    expect(isBlacklisted(post('a'), [])).toBe(false)
+  })
+
+  it('supports rating: and negated terms', () => {
+    expect(isBlacklisted(post('a', 'e'), [['rating:e']])).toBe(true)
+    expect(isBlacklisted(post('a', 'explicit'), [['rating:e']])).toBe(true)
+    expect(isBlacklisted(post('a', 's'), [['rating:e']])).toBe(false)
+    expect(isBlacklisted(post('a b'), [['a', '-b']])).toBe(false)
+    expect(isBlacklisted(post('a'), [['a', '-b']])).toBe(true)
+    expect(isBlacklisted(post('a'), [['-b']])).toBe(false)
+  })
+})
 
 const FIXTURE = resolve(__dirname, '../../test/fixtures/post-list-2026-10-12.html')
 

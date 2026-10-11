@@ -1,6 +1,6 @@
 import { lookup, type Dict, type TagType } from '../dict'
 import type { Settings } from '../settings'
-import { parsePosts, type Post } from './pagedata'
+import { isBlacklisted, parsePosts, readBlacklist, type Post } from './pagedata'
 import { h } from './render'
 import listCss from './list.css?inline'
 
@@ -232,6 +232,23 @@ function rewritePaginator(doc: Document, perPage: number): void {
   }
 }
 
+/**
+ * A plain left click on a card is replayed on the original `#pNNN a.thumb`, so the site's
+ * PostModeMenu (vote/favorite/edit modes) handles it; in view mode that link navigates as before.
+ * Modified or non-primary clicks keep the browser default (new tab etc.).
+ */
+function forwardThumbClick(doc: Document, e: MouseEvent): void {
+  if (e.button !== 0 || e.ctrlKey || e.metaKey || e.shiftKey || e.altKey || e.defaultPrevented) return
+  const t = e.target as Element | null
+  const thumb = t && typeof t.closest === 'function' ? t.closest('a.bsb-thumb') : null
+  const id = thumb?.closest<HTMLElement>('.bsb-card')?.dataset.postId
+  if (!id) return
+  const orig = doc.getElementById(`p${id}`)?.querySelector<HTMLAnchorElement>('a.thumb')
+  if (!orig) return
+  e.preventDefault()
+  orig.click()
+}
+
 export function renderList(doc: Document, dict: Dict, settings: Settings): { cards: number } {
   const list = doc.getElementById('post-list-posts')
   if (!list || list.hasAttribute('data-bsb-done')) return { cards: 0 }
@@ -240,8 +257,13 @@ export function renderList(doc: Document, dict: Dict, settings: Settings): { car
 
   injectListStyle(doc)
   const ctx: Ctx = { doc, dict, settings, types: tagTypes }
+  const blacklist = readBlacklist(doc)
+  const visible = posts.filter(
+    (p) => !isBlacklisted(p, blacklist) && !doc.getElementById(`p${p.id}`)?.classList.contains('blacklisted'),
+  )
   const grid = h(doc, 'ul', { class: 'bsb-grid', 'data-cols': COLS[settings.thumbSize] })
-  for (const post of posts) grid.append(card(ctx, post))
+  for (const post of visible) grid.append(card(ctx, post))
+  grid.addEventListener('click', (e) => forwardThumbClick(doc, e))
 
   list.classList.add('bsb-hide')
   list.setAttribute('data-bsb-done', '')
@@ -260,5 +282,5 @@ export function renderList(doc: Document, dict: Dict, settings: Settings): { car
 
   translateSidebar(doc, dict, settings)
   rewritePaginator(doc, settings.perPage)
-  return { cards: posts.length }
+  return { cards: visible.length }
 }
