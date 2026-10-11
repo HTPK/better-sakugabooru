@@ -1,0 +1,123 @@
+/* Better Sakugabooru: show-page player (variant E). Colors come only from tokens.css. */
+
+.bsb-player {
+  display: flex;
+  flex-direction: column;
+}
+.bsb-player-screen {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: var(--bsb-inverse-bg);
+  overflow: hidden;
+}
+/* The mock keeps the letterbox black in both themes; the darkest dark-theme token stands in. */
+html[data-bsb-theme="dark"] .bsb-player-screen {
+  background: var(--bsb-input);
+}
+.bsb-player-screen > .video-js,
+.bsb-player-screen > video,
+.bsb-player-screen .video-js video {
+  position: absolute;
+  inset: 0;
+  width: 100% !important;
+  height: 100% !important;
+  max-width: none;
+  margin: 0;
+  padding: 0 !important;
+  background: transparent;
+  object-fit: contain;
+}
+/* video.js keeps the element; its own chrome gives way to our row. */
+.bsb-show-main .vjs-control-bar,
+.bsb-show-main .vjs-big-play-button {
+  display: none !important;
+}
+
+.bsb-player-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--bsb-subtle);
+  font-size: 13px;
+}
+html[data-bsb-theme] .bsb-player-row button,
+html[data-bsb-theme] .bsb-player-row a.bsb-save {
+  height: 32px;
+  padding: 0 12px;
+  border: 0;
+  border-radius: 0;
+  background: var(--bsb-subtle);
+  color: var(--bsb-text);
+  font: inherit;
+  font-size: 13px;
+  line-height: 1;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin: 0;
+}
+html[data-bsb-theme] .bsb-player-row button:hover,
+html[data-bsb-theme] .bsb-player-row a.bsb-save:hover {
+  color: var(--bsb-red-text);
+}
+html[data-bsb-theme] .bsb-player-row button[aria-pressed="true"] {
+  background: var(--bsb-inverse-bg);
+  color: var(--bsb-inverse-text);
+}
+html[data-bsb-theme] .bsb-player-row button.bsb-play {
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  justify-content: center;
+  border-radius: 50%;
+  background: var(--bsb-red);
+  color: var(--bsb-on-red);
+}
+html[data-bsb-theme] .bsb-player-row button.bsb-play:hover {
+  color: var(--bsb-on-red);
+}
+.bsb-time {
+  font-family: var(--bsb-font-en);
+  font-size: 14px;
+  color: var(--bsb-sub);
+  white-space: nowrap;
+}
+.bsb-time .bsb-time-cur {
+  color: var(--bsb-text);
+  font-weight: 700;
+}
+.bsb-progress {
+  flex: 1 1 200px;
+  height: 4px;
+  background: var(--bsb-subtle);
+  cursor: pointer;
+  position: relative;
+}
+/* Taller invisible hit area for a 4px bar. */
+.bsb-progress::before {
+  content: "";
+  position: absolute;
+  inset: -8px 0;
+}
+.bsb-progress-fill {
+  height: 100%;
+  width: 0;
+  background: var(--bsb-text);
+}
+.bsb-speed {
+  display: inline-flex;
+  gap: 2px;
+  font-family: var(--bsb-font-en);
+}
+html[data-bsb-theme] .bsb-player-row .bsb-speed button,
+html[data-bsb-theme] .bsb-player-row button.bsb-step {
+  padding: 0 10px;
+  font-family: var(--bsb-font-en);
+}
+.bsb-save .bsb-en {
+  color: var(--bsb-sub);
+}
