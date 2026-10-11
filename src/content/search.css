@@ -24,6 +24,9 @@
   border-left: 3px solid transparent;
   border-radius: 0;
   cursor: pointer;
+  /* The site styles bare `div` (color: white; font-family: verdana); re-assert ours. */
+  color: var(--bsb-text);
+  font-family: var(--bsb-font-jp);
 }
 .bsb-sg[data-type="artist"] {
   border-left-color: var(--bsb-text);
