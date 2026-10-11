@@ -193,8 +193,31 @@ function groupSidebar(doc: Document): void {
   }
 }
 
+const SIDEBAR_HEADINGS: Record<string, string> = {
+  Tags: 'タグ',
+  'Hidden Posts': '非表示の投稿',
+  Search: '検索',
+  'Related Posts': '関連する投稿',
+  Statistics: '情報',
+  Options: '操作',
+  History: '履歴',
+}
+
+/** Exact-match heading translation; mutates only the matching text node so inner spans/links survive. */
+function translateHeadings(doc: Document): void {
+  for (const hd of Array.from(doc.querySelectorAll('.sidebar h5, .sidebar h6'))) {
+    const walker = doc.createTreeWalker(hd, 4)
+    for (let n = walker.nextNode(); n; n = walker.nextNode()) {
+      const raw = n.textContent ?? ''
+      const key = raw.trim()
+      if (Object.hasOwn(SIDEBAR_HEADINGS, key)) n.textContent = raw.replace(key, SIDEBAR_HEADINGS[key])
+    }
+  }
+}
+
 /** Groups and translates `#tag-sidebar` tag links in place (shared by list and show pages). */
 export function translateSidebar(doc: Document, dict: Dict, settings: Settings): void {
+  translateHeadings(doc)
   groupSidebar(doc)
   if (!settings.translateTags) return
   for (const li of Array.from(doc.querySelectorAll('#tag-sidebar li'))) {
