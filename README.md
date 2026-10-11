@@ -1,16 +1,63 @@
 # Better Sakugabooru
 
-Sakugabooru を日本語で見やすくする Chrome 拡張 (MV3)。
+[Sakugabooru](https://www.sakugabooru.com/) を日本語で見やすくする Chrome 拡張 (Manifest V3) です。非公式のツールで、Sakugabooru 運営とは無関係です。
 
-## 開発
+- 作画者・作品・技法のタグを日本語で表示 (辞書に無いものは「未訳」マーク付きで原文のまま)
+- 1 ページ 24 / 40 / 60 / 100 件の密な一覧、ホバー再生
+- 日本語・かなで検索補完
+- 詳細ページのタイトル帯と整理されたサイドバー
+- ライト / ダーク、トップページを新着一覧に、設定ポップアップ
+
+## インストール
+
+### A. zip を読み込む (開発者モード)
+
+1. エクスプローラーでこのフォルダの `release` フォルダを開きます。
+2. `better-sakugabooru-1.0.0.zip` を右クリックして「すべて展開」を選び、展開します (できたフォルダの直下に `manifest.json` があればOK)。
+3. Chrome のアドレスバーに `chrome://extensions` と入力して Enter。
+4. 右上の「デベロッパー モード」をオンにします。
+5. 左上の「パッケージ化されていない拡張機能を読み込む」を押し、手順 2 で展開したフォルダを選びます。
+6. 拡張機能の一覧に「Better Sakugabooru」が出れば完了です。https://www.sakugabooru.com/ を開いてください。
+
+展開したフォルダは削除や移動をしないでください (消すと拡張機能が無効になります)。
+
+### B. Chrome ウェブストアから
+
+公開後に追記します: (URL は公開後に記入)
+
+## 使い方
+
+- Chrome のツールバーにある拡張機能のアイコンを押すと設定ポップアップが開きます (見つからないときは、パズルのピースのアイコンから「Better Sakugabooru」をピン留め)。
+- テーマ (ライト / ダーク / OS に合わせる)、各機能の ON/OFF、1 ページの件数、サムネの大きさ、サムネ下に出す項目を変えられます。
+- ページ右上のヘッダーにある JP | EN で、サイト本体の言語を切り替えられます。
+- 辞書に無いタグには「訳を提案する」リンクが出ます。自分でクリックしたときだけ、GitHub の Issue フォームが開き、投稿の URL と未訳タグが入力欄に入ります。内容を確認して送信してください。
+
+## 辞書の仕組み
+
+タグの日本語訳は別リポ [`sakugabooru-ja-dict`](https://github.com/HTPK/sakugabooru-ja-dict) の JSON を jsDelivr 経由で取得しています。拡張機能が毎日自動で更新します。すぐ更新したいときは、設定ポップアップ下部の「今すぐ更新」を押します。取得に失敗したときは、前回のキャッシュ、同梱のスナップショットの順に使います。
+
+## 開発者向け
 
 ```
 pnpm install
-pnpm test        # 単体テスト
-pnpm typecheck   # 型チェック
-pnpm build       # dist/ に拡張を出力
+pnpm dev        # 開発サーバー
+pnpm test       # 単体テスト
+pnpm typecheck  # 型チェック
+pnpm build      # dist/ に拡張を出力
+pnpm release    # 型チェック + テスト + ビルド + release/better-sakugabooru-<version>.zip
+pnpm smoke      # 実サイトでの確認 (Playwright)。スクリーンショットは test/smoke/screenshots/ に出る
 ```
 
-Chrome の `chrome://extensions` で「デベロッパー モード」を ON にし、「パッケージ化されていない拡張機能を読み込む」で `dist` フォルダを選ぶ。
+注意: `pnpm smoke` は本物の sakugabooru.com を読み込みます (1 回あたり 8 ページ以下)。個人運営のサイトなので、連続実行や自動リトライは避けてください。
 
-仕様は `docs/plans/` を参照。
+仕様は `docs/plans/2026-10-12-better-sakugabooru-design.md`、ストア掲載文は `store/listing.md` にあります。
+
+## 既知の制限
+
+- 辞書の網羅率は生成の途中で、順次向上します。未訳のタグが残ります。
+- サムネからの投票 / お気に入りモード (サイトのモードメニュー連携) は実機で未検証です。
+- サイト側の日本語ロケールは一部が英語のまま混在します。
+
+## ライセンス
+
+MIT (`LICENSE` 参照)。同梱の Jost フォントは SIL Open Font License (OFL)。
