@@ -109,7 +109,6 @@ function metaRow(ctx: Ctx, post: Post): HTMLElement {
     'div',
     { class: 'bsb-row bsb-meta bsb-en' },
     h(doc, 'span', { class: 'bsb-score' }, `${post.score} pt`),
-    '  ',
     h(doc, 'span', { class: 'bsb-date' }, shortDate(post.createdAt)),
   )
 }

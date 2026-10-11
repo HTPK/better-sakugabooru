@@ -73,7 +73,7 @@
 }
 .bsb-artists a,
 html[data-bsb-theme] .bsb-artists a {
-  color: var(--bsb-sub);
+  color: var(--bsb-text);
 }
 .bsb-artists a:hover,
 html[data-bsb-theme] .bsb-artists a:hover {
@@ -81,8 +81,9 @@ html[data-bsb-theme] .bsb-artists a:hover {
 }
 .bsb-meta {
   display: flex;
+  justify-content: space-between;
   gap: 8px;
-  color: var(--bsb-muted);
+  color: var(--bsb-sub);
   font-size: 12px;
 }
 .bsb-en {
@@ -96,13 +97,16 @@ html[data-bsb-theme] .bsb-artists a:hover {
 }
 .bsb-chip {
   background: var(--bsb-subtle);
-  color: var(--bsb-sub);
+  color: var(--bsb-text);
   font-size: 11px;
   line-height: 1;
   padding: 4px 6px;
 }
 .bsb-more {
-  color: var(--bsb-muted);
+  background: none;
+  color: var(--bsb-faint);
+  font-family: var(--bsb-font-en);
+  padding: 4px;
 }
 
 /* ---- Translation marks (captions and sidebar) ---- */
