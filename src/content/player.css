@@ -38,10 +38,14 @@ html[data-bsb-theme="dark"] .bsb-player-screen {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  gap: 12px;
+  gap: 12px 10px;
   padding: 12px 0;
   border-bottom: 1px solid var(--bsb-subtle);
   font-size: 13px;
+}
+/* The site offers five speeds plus frame steps (the mock shows three): keep them on one row. */
+.bsb-player-row .bsb-step + .bsb-step {
+  margin-left: -8px;
 }
 html[data-bsb-theme] .bsb-player-row button,
 html[data-bsb-theme] .bsb-player-row a.bsb-save {
@@ -91,7 +95,8 @@ html[data-bsb-theme] .bsb-player-row button.bsb-play:hover {
   font-weight: 700;
 }
 .bsb-progress {
-  flex: 1 1 200px;
+  flex: 1 1 100px;
+  min-width: 100px;
   height: 4px;
   background: var(--bsb-subtle);
   cursor: pointer;
@@ -115,8 +120,11 @@ html[data-bsb-theme] .bsb-player-row button.bsb-play:hover {
 }
 html[data-bsb-theme] .bsb-player-row .bsb-speed button,
 html[data-bsb-theme] .bsb-player-row button.bsb-step {
-  padding: 0 10px;
+  padding: 0 8px;
   font-family: var(--bsb-font-en);
+}
+.bsb-time {
+  font-variant-numeric: tabular-nums;
 }
 .bsb-save .bsb-en {
   color: var(--bsb-sub);

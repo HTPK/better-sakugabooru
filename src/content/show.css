@@ -207,10 +207,12 @@ html[data-bsb-theme] .bsb-comments #comments {
   margin: 0 !important;
   max-width: none !important;
 }
-html[data-bsb-theme] .bsb-comments .comment.bsb-comment {
+html[data-bsb-theme] #comments .comment.bsb-comment {
   display: flex;
   flex-direction: column;
   gap: 4px;
+  float: none;
+  width: auto;
   padding: 14px 0;
   margin: 0;
   background: transparent;
@@ -218,10 +220,10 @@ html[data-bsb-theme] .bsb-comments .comment.bsb-comment {
   border-top: 1px solid var(--bsb-subtle);
   border-radius: 0;
 }
-html[data-bsb-theme] .bsb-comments .comment.bsb-comment:last-child {
+html[data-bsb-theme] #comments .comment.bsb-comment:last-child {
   border-bottom: 1px solid var(--bsb-subtle);
 }
-html[data-bsb-theme] .bsb-comment .author {
+html[data-bsb-theme] #comments .bsb-comment .author {
   display: flex;
   gap: 10px;
   align-items: baseline;
@@ -230,38 +232,43 @@ html[data-bsb-theme] .bsb-comment .author {
   margin: 0;
   padding: 0;
 }
-html[data-bsb-theme] .bsb-comment .author h6 {
+html[data-bsb-theme] #comments .bsb-comment .author h6,
+html[data-bsb-theme] #comments .bsb-comment .author h6 a {
   margin: 0;
   font-size: 14px;
   font-weight: 700;
+  line-height: 1.6;
 }
-html[data-bsb-theme] .bsb-comment .author .date,
-html[data-bsb-theme] .bsb-comment .author .date a {
+html[data-bsb-theme] #comments .bsb-comment .author .date,
+html[data-bsb-theme] #comments .bsb-comment .author .date a {
   font-family: var(--bsb-font-en);
   font-size: 12px;
   color: var(--bsb-faint);
 }
-html[data-bsb-theme] .bsb-comment .content {
+html[data-bsb-theme] #comments .bsb-comment .content {
   float: none;
   width: auto;
   margin: 0;
   padding: 0;
 }
-html[data-bsb-theme] .bsb-comment .body {
+html[data-bsb-theme] #comments .bsb-comment .body {
+  margin: 0;
+  padding: 0;
   line-height: 1.8;
 }
-html[data-bsb-theme] .bsb-comment .post-footer {
+html[data-bsb-theme] #comments .bsb-comment .post-footer {
+  margin: 4px 0 0;
   font-size: 12px;
   color: var(--bsb-faint);
 }
-html[data-bsb-theme] .bsb-comment .post-footer ul {
+html[data-bsb-theme] #comments .bsb-comment .post-footer ul {
   margin: 0;
   padding: 0;
 }
-html[data-bsb-theme] .bsb-comment .post-footer a {
+html[data-bsb-theme] #comments .bsb-comment .post-footer a {
   color: var(--bsb-faint);
 }
-html[data-bsb-theme] .bsb-comment-form {
+html[data-bsb-theme] #comments .bsb-comment-form {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -271,7 +278,7 @@ html[data-bsb-theme] .bsb-comment-form {
 .bsb-comment-label {
   font-weight: 700;
 }
-html[data-bsb-theme] .bsb-comment-form textarea {
+html[data-bsb-theme] #comments .bsb-comment-form textarea {
   width: 100% !important;
   box-sizing: border-box;
   margin: 0 !important;
@@ -281,9 +288,12 @@ html[data-bsb-theme] .bsb-comment-form textarea {
   color: var(--bsb-text);
   font: inherit;
   font-size: 14px;
+  line-height: 1.6;
+  /* The site asks for rows="7"; the mock's box is three lines tall. */
+  height: calc(4.8em + 22px);
   resize: vertical;
 }
-html[data-bsb-theme] .bsb-comment-form input[type="submit"] {
+html[data-bsb-theme] #comments .bsb-comment-form input[type="submit"] {
   height: 40px;
   padding: 0 24px;
   border: 0;
