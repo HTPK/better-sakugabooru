@@ -18,6 +18,8 @@ export interface BootDeps {
   renderShow: (doc: Document, dict: Dict, settings: Settings) => boolean
   attachSearch: (doc: Document, dict: Dict, settings: Settings) => unknown
   warn?: (...args: unknown[]) => void
+  /** Defaults to `win.location.assign`; injectable because jsdom cannot navigate. */
+  navigate?: (url: string) => void
 }
 
 function domReady(doc: Document): Promise<void> {
@@ -25,23 +27,36 @@ function domReady(doc: Document): Promise<void> {
   return new Promise((resolve) => doc.addEventListener('DOMContentLoaded', () => resolve(), { once: true }))
 }
 
-/** Clicking JP/EN records the choice so early.ts stops (or resumes) forcing the Japanese locale. */
+const LANG_LINKS = '.bsb-lang a[href], li.locale a[href*="locale="]'
+
+/**
+ * Clicking JP/EN (ours or the site's own Language menu) records the choice so early.ts stops
+ * (or resumes) forcing the Japanese locale. A plain click waits for the write before navigating,
+ * otherwise the next page's document_start could still read the old setting.
+ */
 function watchLangSwitch(d: BootDeps, warn: (...a: unknown[]) => void): void {
+  const navigate = d.navigate ?? ((url: string) => d.win.location.assign(url))
   d.doc.addEventListener(
     'click',
     (e) => {
       const t = e.target as Element | null
-      const a = t && typeof t.closest === 'function' ? t.closest('.bsb-lang a[href]') : null
+      const a = t && typeof t.closest === 'function' ? t.closest(LANG_LINKS) : null
       if (!a) return
-      let locale: string | null = null
+      let url: URL
       try {
-        locale = new URL(a.getAttribute('href') ?? '', d.doc.baseURI).searchParams.get('locale')
+        url = new URL(a.getAttribute('href') ?? '', d.doc.baseURI)
       } catch {
         return
       }
+      const locale = url.searchParams.get('locale')
       if (locale !== 'ja' && locale !== 'en') return
-      // No preventDefault: navigation proceeds; the storage write is fire-and-forget.
-      d.saveSettings({ forceJaLocale: locale === 'ja' }).catch((err) => warn('[bsb]', 'saveSettings', err))
+      const saved = d
+        .saveSettings({ forceJaLocale: locale === 'ja' })
+        .catch((err) => warn('[bsb]', 'saveSettings', err))
+      const plain = e.button === 0 && !e.ctrlKey && !e.metaKey && !e.shiftKey && !e.altKey
+      if (!plain || e.defaultPrevented) return
+      e.preventDefault()
+      void saved.then(() => navigate(url.href))
     },
     true,
   )

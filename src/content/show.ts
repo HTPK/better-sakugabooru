@@ -181,6 +181,9 @@ function sidebarHeads(doc: Document, tags: SideTag[]): void {
 /** `Label:` / `ラベル::` / `ラベル：` at the start of a text; at least one colon required. */
 const LABEL_RE = /^\s*([^:：]+?)\s*[:：]+\s*/
 const statKey = (raw: string) => raw.replace(/\s+/g, ' ').trim().toLowerCase()
+/** Own-property lookup so labels like "constructor" never hit Object.prototype. */
+const statLabel = (key: string): string | null => (Object.hasOwn(STAT_LABELS, key) ? STAT_LABELS[key] : null)
+const PROPOSE_MAX_TAGS = 20
 
 /** Strips the site label (bare text, or a leading strong/b) from the li and returns ours. */
 function takeLabel(li: Element): string | null {
@@ -188,7 +191,7 @@ function takeLabel(li: Element): string | null {
   if (!first) return null
   if (first.nodeType === 3) {
     const m = LABEL_RE.exec(first.textContent ?? '')
-    const ja = m && STAT_LABELS[statKey(m[1])]
+    const ja = m && statLabel(statKey(m[1]))
     if (!m || !ja) return null
     first.textContent = (first.textContent ?? '').slice(m[0].length)
     return ja
@@ -196,7 +199,7 @@ function takeLabel(li: Element): string | null {
   const el = first as Element
   if ((el.tagName !== 'STRONG' && el.tagName !== 'B') || el.children.length) return null
   // <strong>Label</strong>: value  or  <strong>Label:</strong> value
-  const ja = STAT_LABELS[statKey((el.textContent ?? '').replace(/[:：]+\s*$/, ''))]
+  const ja = statLabel(statKey((el.textContent ?? '').replace(/[:：]+\s*$/, '')))
   if (!ja) return null
   const next = el.nextSibling
   el.remove()
@@ -225,6 +228,7 @@ function propose(doc: Document, dict: Dict, s: Settings, tags: SideTag[]): void 
     .filter((t) => !NOISE.has(t.tag) && !jaFor(dict, t.tag, t.type, true))
     .map((t) => t.tag)
     .filter((t, i, a) => a.indexOf(t) === i)
+    .slice(0, PROPOSE_MAX_TAGS)
   const sidebar = doc.getElementById('tag-sidebar')
   if (!missing.length || !sidebar) return
   // Issue forms ignore body=; fields are prefilled by their yml ids (tags, post).

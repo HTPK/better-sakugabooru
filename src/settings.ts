@@ -70,9 +70,17 @@ export async function loadSettings(): Promise<Settings> {
   }
 }
 
-export async function saveSettings(patch: Partial<Settings>): Promise<void> {
-  const cur = await loadSettings()
-  await chrome.storage.sync.set({ [KEY]: { ...cur, ...patch } })
+/** Read-modify-write is serialised so two quick saves never overwrite each other's patch. */
+let queue: Promise<unknown> = Promise.resolve()
+
+export function saveSettings(patch: Partial<Settings>): Promise<void> {
+  const run = queue.then(async () => {
+    const cur = await loadSettings()
+    await chrome.storage.sync.set({ [KEY]: { ...cur, ...patch } })
+  })
+  // A failed save must not wedge the chain for later ones.
+  queue = run.catch(() => {})
+  return run
 }
 
 export function onSettingsChange(cb: (s: Settings) => void): () => void {

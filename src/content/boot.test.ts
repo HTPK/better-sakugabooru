@@ -135,12 +135,12 @@ describe('boot', () => {
     expect(doc.documentElement.classList.contains('bsb-ready')).toBe(true)
   })
 
-  it.each([
-    ['en', false],
-    ['ja', true],
-  ])('language link locale=%s saves forceJaLocale=%s without blocking navigation', async (locale, force) => {
+  const langDeps = (locale: string, save = vi.fn(async () => {})) => {
     const { doc, win } = load(LIST)
+    const navigate = vi.fn()
     const { d } = deps(doc, win, {
+      saveSettings: save,
+      navigate,
       renderHeader: vi.fn((x: Document) => {
         const nav = x.createElement('nav')
         nav.className = 'bsb-lang'
@@ -148,11 +148,76 @@ describe('boot', () => {
         x.body.prepend(nav)
       }),
     })
+    return { doc, win, d, navigate }
+  }
+  const click = (win: Window, init: MouseEventInit = {}) =>
+    new (win as unknown as typeof globalThis).MouseEvent('click', { bubbles: true, cancelable: true, ...init })
+  const flush = () => new Promise((r) => setTimeout(r, 0))
+
+  it.each([
+    ['en', false],
+    ['ja', true],
+  ])('our language link locale=%s saves forceJaLocale=%s before navigating', async (locale, force) => {
+    let resolveSave = () => {}
+    const save = vi.fn(() => new Promise<void>((r) => (resolveSave = r)))
+    const { doc, win, d, navigate } = langDeps(locale, save)
     await boot(d)
-    const ev = new (win as unknown as typeof globalThis).MouseEvent('click', { bubbles: true, cancelable: true })
+    const ev = click(win)
     doc.querySelector('.bsb-lang a span')!.dispatchEvent(ev)
     expect(d.saveSettings).toHaveBeenCalledWith({ forceJaLocale: force })
-    expect(ev.defaultPrevented).toBe(false)
+    expect(ev.defaultPrevented).toBe(true)
+    await flush()
+    expect(navigate).not.toHaveBeenCalled()
+    resolveSave()
+    await flush()
+    expect(navigate).toHaveBeenCalledWith(`https://www.sakugabooru.com/post?locale=${locale}`)
+  })
+
+  it("handles the site's own li.locale links too", async () => {
+    const { doc, win, d, navigate } = langDeps('en')
+    await boot(d)
+    const a = doc.querySelector<HTMLAnchorElement>('li.locale a[href*="locale=ja"]')!
+    const ev = click(win)
+    a.dispatchEvent(ev)
+    expect(ev.defaultPrevented).toBe(true)
+    expect(d.saveSettings).toHaveBeenCalledWith({ forceJaLocale: true })
+    await flush()
+    expect(navigate).toHaveBeenCalledWith('https://www.sakugabooru.com/post?locale=ja')
+  })
+
+  it('still navigates when saving fails', async () => {
+    const { doc, win, d, navigate } = langDeps('ja', vi.fn(async () => Promise.reject(new Error('x'))))
+    await boot(d)
+    doc.querySelector('.bsb-lang a')!.dispatchEvent(click(win))
+    await flush()
+    expect(navigate).toHaveBeenCalledOnce()
+    expect(d.warn).toHaveBeenCalledWith('[bsb]', 'saveSettings', expect.any(Error))
+  })
+
+  it('modified clicks only save and keep the default (new tab)', async () => {
+    const { doc, win, d, navigate } = langDeps('ja')
+    await boot(d)
+    // Stop jsdom navigation after our capture listener has looked at the event.
+    doc.addEventListener('click', (e) => e.defaultPrevented || e.preventDefault())
+    const a = doc.querySelector('.bsb-lang a')!
+    const seen: boolean[] = []
+    // At-target listeners run after the document capture listener.
+    a.addEventListener('click', (e) => seen.push(e.defaultPrevented))
+    for (const init of [{ ctrlKey: true }, { metaKey: true }, { shiftKey: true }, { button: 1 }]) a.dispatchEvent(click(win, init))
+    await flush()
+    expect(seen).toEqual([false, false, false, false])
+    expect(d.saveSettings).toHaveBeenCalledTimes(4)
+    expect(navigate).not.toHaveBeenCalled()
+  })
+
+  it('ignores links without a ja/en locale', async () => {
+    const { doc, win, d, navigate } = langDeps('fr')
+    await boot(d)
+    doc.addEventListener('click', (e) => e.preventDefault())
+    const ev = click(win)
+    doc.querySelector('.bsb-lang a')!.dispatchEvent(ev)
+    expect(d.saveSettings).not.toHaveBeenCalled()
+    expect(navigate).not.toHaveBeenCalled()
   })
 
   it('re-applies the theme only when theme or webFonts change', async () => {

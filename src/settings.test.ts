@@ -43,6 +43,24 @@ describe('settings', () => {
     expect(s.techLimit).toBe(4)
   })
 
+  it('serialises concurrent saves so no patch is lost', async () => {
+    await Promise.all([saveSettings({ theme: 'light' }), saveSettings({ techLimit: 4 }), saveSettings({ showTech: false })])
+    const s = await loadSettings()
+    expect(s.theme).toBe('light')
+    expect(s.techLimit).toBe(4)
+    expect(s.showTech).toBe(false)
+  })
+
+  it('a failed save does not block later saves', async () => {
+    const sync = chrome.storage.sync as unknown as { set: (i: object) => Promise<void> }
+    const orig = sync.set.bind(sync)
+    sync.set = async () => Promise.reject(new Error('quota'))
+    await expect(saveSettings({ theme: 'dark' })).rejects.toThrow('quota')
+    sync.set = orig
+    await saveSettings({ techLimit: 3 })
+    expect((await loadSettings()).techLimit).toBe(3)
+  })
+
   it('notifies listeners on change and can unsubscribe', async () => {
     const seen: string[] = []
     const off = onSettingsChange((s) => seen.push(s.theme))

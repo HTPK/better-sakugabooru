@@ -60,6 +60,34 @@ describe('renderShow stats labels', () => {
     ])
     expect(doc.getElementById('fav-x')).not.toBeNull()
   })
+
+  it('ignores inherited Object.prototype keys as labels', () => {
+    const doc = load(CASES[0].html)
+    const ul = doc.querySelector('#stats ul')!
+    ul.innerHTML = '<li>constructor: x</li><li><strong>toString</strong>: y</li><li>__proto__: z</li>'
+    renderShow(doc, dict, DEFAULTS)
+    expect(ul.querySelectorAll('.bsb-stats-label')).toHaveLength(0)
+    expect(Array.from(ul.children).map((li) => li.textContent)).toEqual(['constructor: x', 'toString: y', '__proto__: z'])
+  })
+})
+
+describe('renderShow propose link', () => {
+  it('lists at most 20 untranslated tags', () => {
+    const doc = load(CASES[0].html)
+    const ul = doc.getElementById('tag-sidebar')!
+    for (let i = 0; i < 30; i++) {
+      ul.insertAdjacentHTML(
+        'beforeend',
+        `<li class="tag-type-general"><a href="/wiki/show?title=zz${i}">?</a> <a href="/post?tags=zz${i}">zz${i}</a> <span class="post-count">1</span></li>`,
+      )
+    }
+    renderShow(doc, dict, DEFAULTS)
+    const u = new URL(doc.querySelector<HTMLAnchorElement>('a.bsb-propose')!.href)
+    const tags = u.searchParams.get('tags')!.split('\n')
+    expect(tags).toHaveLength(20)
+    expect(tags.slice(0, 2)).toEqual(['fighting', 'wind'])
+    expect(u.searchParams.get('title')!.split(', ')).toHaveLength(20)
+  })
 })
 
 describe.each(CASES)('renderShow ($name locale)', ({ html }) => {
