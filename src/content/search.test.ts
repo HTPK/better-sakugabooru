@@ -151,6 +151,27 @@ describe('attachSearch', () => {
     expect(visible()).toBe(false)
   })
 
+  it('refocus or typing after blur cancels the pending hide', async () => {
+    detach = attachSearch(document, dict, DEFAULTS)
+    type('かなだ')
+    input.dispatchEvent(new Event('blur'))
+    input.dispatchEvent(new Event('focus'))
+    await new Promise((r) => setTimeout(r, 250))
+    expect(visible()).toBe(true)
+    input.dispatchEvent(new Event('blur'))
+    type('かなだ')
+    await new Promise((r) => setTimeout(r, 250))
+    expect(visible()).toBe(true)
+  })
+
+  it('omits the count span when the stored count is not finite', () => {
+    const bad = { ...dict, counts: { yoshinori_kanada: Number.NaN } } as Dict
+    detach = attachSearch(document, bad, DEFAULTS)
+    type('金田伊功')
+    expect(rows()[0].dataset.tag).toBe('yoshinori_kanada')
+    expect(rows()[0].querySelector('.bsb-sg-count')).toBeNull()
+  })
+
   it('detach removes listeners and the box', () => {
     detach = attachSearch(document, dict, DEFAULTS)
     type('かなだ')

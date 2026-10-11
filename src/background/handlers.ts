@@ -28,7 +28,9 @@ export function handleMessage(
   refresh: Refresh = () => refreshDict(),
 ): boolean {
   if (msg && typeof msg === 'object' && (msg as { type?: unknown }).type === 'bsb:refresh-now') {
-    refresh().then(sendResponse, (e) => sendResponse({ ok: false, error: String(e) }))
+    Promise.resolve()
+      .then(() => refresh())
+      .then(sendResponse, (e) => sendResponse({ ok: false, error: String(e) }))
     return true
   }
   return false

@@ -26,7 +26,9 @@ function currentToken(input: HTMLInputElement): { token: string; start: number; 
 }
 
 function hasCount(dict: Dict, tag: string): boolean {
-  return !!dict.counts && Object.prototype.hasOwnProperty.call(dict.counts, tag)
+  if (!dict.counts || !Object.prototype.hasOwnProperty.call(dict.counts, tag)) return false
+  const n = dict.counts[tag]
+  return typeof n === 'number' && Number.isFinite(n)
 }
 
 /**
@@ -111,7 +113,13 @@ export function attachSearch(doc: Document, dict: Dict, settings: Settings): () 
     el.hidden = false
   }
 
+  const cancelBlur = () => {
+    if (blurTimer !== null) clearTimeout(blurTimer)
+    blurTimer = null
+  }
+
   const onInput = (e: Event) => {
+    cancelBlur()
     const input = e.currentTarget as HTMLInputElement
     active = input
     const { token } = currentToken(input)
@@ -162,6 +170,7 @@ export function attachSearch(doc: Document, dict: Dict, settings: Settings): () 
     input.addEventListener('input', onInput, true)
     input.addEventListener('keydown', onKeydown, true)
     input.addEventListener('blur', onBlur)
+    input.addEventListener('focus', cancelBlur)
   }
   win?.addEventListener('resize', hide)
 
@@ -170,9 +179,10 @@ export function attachSearch(doc: Document, dict: Dict, settings: Settings): () 
       input.removeEventListener('input', onInput, true)
       input.removeEventListener('keydown', onKeydown, true)
       input.removeEventListener('blur', onBlur)
+      input.removeEventListener('focus', cancelBlur)
     }
     win?.removeEventListener('resize', hide)
-    if (blurTimer !== null) clearTimeout(blurTimer)
+    cancelBlur()
     box?.removeEventListener('mousedown', onBoxDown)
     box?.remove()
     box = null

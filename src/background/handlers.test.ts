@@ -49,6 +49,16 @@ describe('background handlers', () => {
     expect(seen).toEqual([{ ok: false, error: 'Error: boom' }])
   })
 
+  it('handleMessage responds when refresh throws synchronously', async () => {
+    const seen: unknown[] = []
+    const keep = handleMessage({ type: 'bsb:refresh-now' }, (r) => seen.push(r), () => {
+      throw new Error('sync')
+    })
+    expect(keep).toBe(true)
+    await flush()
+    expect(seen).toEqual([{ ok: false, error: 'Error: sync' }])
+  })
+
   it('handleMessage ignores unknown messages', () => {
     expect(handleMessage({ type: 'x' }, () => {})).toBe(false)
     expect(handleMessage(null, () => {})).toBe(false)
