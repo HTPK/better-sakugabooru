@@ -114,7 +114,8 @@ test('extension smoke on live site', async () => {
     await page.mouse.move(5, 5)
 
     // 3. Japanese search suggest.
-    const search = page.locator('.bsb-search-form input[name="tags"]').first()
+    // On the list page the search box lives in the title band (#bsb-q); the header form is hidden there.
+    const search = page.locator('#bsb-q, .bsb-search-form input[name="tags"]').first()
     await search.click()
     await search.pressSequentially('かなだ', { delay: 50 })
     const suggest = page.locator('.bsb-suggest')
