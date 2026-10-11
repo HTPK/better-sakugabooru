@@ -181,6 +181,36 @@ describe('attachSearch', () => {
     expect(box()).toBeNull()
   })
 
+  it('exposes combobox ARIA wiring', () => {
+    detach = attachSearch(document, dict, DEFAULTS)
+    expect(input.getAttribute('role')).toBe('combobox')
+    expect(input.getAttribute('aria-autocomplete')).toBe('list')
+    expect(input.getAttribute('aria-expanded')).toBe('false')
+    type('かなだ')
+    expect(input.getAttribute('aria-expanded')).toBe('true')
+    const listId = box()!.id
+    expect(listId).toBeTruthy()
+    expect(input.getAttribute('aria-controls')).toBe(listId)
+    expect(rows().map((r) => r.id)).toEqual(rows().map((_, i) => `bsb-sg-${i}`))
+    expect(input.hasAttribute('aria-activedescendant')).toBe(false)
+    key('ArrowDown')
+    expect(input.getAttribute('aria-activedescendant')).toBe('bsb-sg-0')
+    key('ArrowDown')
+    expect(input.getAttribute('aria-activedescendant')).toBe('bsb-sg-1')
+    key('Escape')
+    expect(input.getAttribute('aria-expanded')).toBe('false')
+    expect(input.hasAttribute('aria-activedescendant')).toBe(false)
+  })
+
+  it('removes ARIA attributes on detach', () => {
+    detach = attachSearch(document, dict, DEFAULTS)
+    detach()
+    detach = () => {}
+    for (const a of ['role', 'aria-autocomplete', 'aria-expanded', 'aria-controls', 'aria-activedescendant']) {
+      expect(input.hasAttribute(a)).toBe(false)
+    }
+  })
+
   it('attaches nothing when searchSuggest is off', () => {
     detach = attachSearch(document, dict, { ...DEFAULTS, searchSuggest: false })
     type('かなだ')

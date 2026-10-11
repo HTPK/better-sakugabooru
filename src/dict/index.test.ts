@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest'
 import snapshot from './snapshot.json'
-import { lookup, displayName, buildReverseIndex, suggest, getDict, validateDict, type Dict } from './index'
+import { lookup, displayName, buildReverseIndex, suggest, getDict, validateDict, sanitizeDict, type Dict } from './index'
 import { normalizeJa } from './kana'
 
 const dict = snapshot as Dict
@@ -112,6 +112,56 @@ describe('getDict / validateDict', () => {
     expect(validateDict({ ...base, counts: [] })).toBe(false)
     expect(validateDict({ ...base, artists: { a: { ja: 'あ', kana: 'あ', src: 'wiki' } }, counts: { a: 3 } })).toBe(true)
   })
+  it('sanitizeDict drops bad entries and keeps the rest', () => {
+    const base = { v: 1, updated: 'x', artists: {}, copyrights: {}, general: {} }
+    const out = sanitizeDict({
+      ...base,
+      artists: {
+        ok: { ja: 'あ', kana: 'あ', src: 'wiki' },
+        empty: { ja: '' },
+        num: { ja: 5 },
+        notobj: 'x',
+        long: { ja: 'あ'.repeat(81) },
+        max: { ja: 'あ'.repeat(80) },
+        nl: { ja: 'a\nb' },
+        del: { ja: 'a\u007fb' },
+        lrm: { ja: 'a‎b' },
+        rlo: { ja: 'a‮b' },
+        iso: { ja: 'a⁨b' },
+        badkana: { ja: 'あ', kana: 1 },
+        badsrc: { ja: 'あ', src: {} },
+      },
+      general: { g: { ja: 'ぐ' } },
+      counts: { ok: 3, bad: 'x', inf: Infinity },
+    })
+    expect(out).not.toBeNull()
+    expect(Object.keys(out!.artists).sort()).toEqual(['max', 'ok'])
+    expect(out!.artists.ok).toEqual({ ja: 'あ', kana: 'あ', src: 'wiki' })
+    expect(out!.general).toEqual({ g: { ja: 'ぐ' } })
+    expect(out!.counts).toEqual({ ok: 3 })
+    expect(validateDict(out)).toBe(true)
+  })
+
+  it('sanitizeDict returns null only for a wrong top-level shape', () => {
+    const base = { v: 1, updated: 'x', artists: {}, copyrights: {}, general: {} }
+    expect(sanitizeDict(base)).toEqual(base)
+    expect(sanitizeDict(null)).toBeNull()
+    expect(sanitizeDict([])).toBeNull()
+    expect(sanitizeDict({ ...base, v: 2 })).toBeNull()
+    expect(sanitizeDict({ ...base, updated: 3 })).toBeNull()
+    expect(sanitizeDict({ ...base, general: [] })).toBeNull()
+    expect(sanitizeDict({ ...base, copyrights: undefined })).toBeNull()
+    expect(sanitizeDict({ ...base, counts: [] })).toBeNull()
+  })
+
+  it('sanitizeDict drops __proto__ keys instead of setting a prototype', () => {
+    const raw = JSON.parse('{"v":1,"updated":"x","artists":{"__proto__":{"ja":"x"}},"copyrights":{},"general":{}}')
+    const out = sanitizeDict(raw)!
+    expect(Object.getPrototypeOf(out.artists)).toBe(Object.prototype)
+    expect(Object.hasOwn(out.artists, '__proto__')).toBe(false)
+    expect(Object.keys(out.artists)).toEqual([])
+  })
+
   it('falls back to snapshot when storage is empty or invalid', async () => {
     expect((await getDict()).updated).toBe('2026-10-12')
     await chrome.storage.local.set({ dict: { v: 9 } })

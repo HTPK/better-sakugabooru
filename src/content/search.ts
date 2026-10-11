@@ -6,6 +6,8 @@ import searchCss from './search.css?inline'
 const STYLE_ID = 'bsb-search'
 const LIMIT = 8
 const BLUR_HIDE_MS = 150
+const LISTBOX_ID = 'bsb-suggest-list'
+const OPTION_ID = 'bsb-sg-'
 const isAscii = (s: string) => /^[\x00-\x7f]*$/.test(s)
 
 function injectStyle(doc: Document): void {
@@ -55,6 +57,10 @@ export function attachSearch(doc: Document, dict: Dict, settings: Settings): () 
   const hide = () => {
     items = []
     selected = -1
+    for (const input of inputs) {
+      input.setAttribute('aria-expanded', 'false')
+      input.removeAttribute('aria-activedescendant')
+    }
     if (box) {
       box.hidden = true
       box.replaceChildren()
@@ -64,6 +70,10 @@ export function attachSearch(doc: Document, dict: Dict, settings: Settings): () 
   const select = (i: number) => {
     selected = i
     box?.querySelectorAll('.bsb-sg').forEach((r, j) => r.setAttribute('aria-selected', String(j === i)))
+    if (active) {
+      if (i >= 0) active.setAttribute('aria-activedescendant', `${OPTION_ID}${i}`)
+      else active.removeAttribute('aria-activedescendant')
+    }
   }
 
   const insert = (input: HTMLInputElement, tag: string) => {
@@ -79,7 +89,7 @@ export function attachSearch(doc: Document, dict: Dict, settings: Settings): () 
 
   const ensureBox = (): HTMLDivElement => {
     if (box) return box
-    box = h(doc, 'div', { class: 'bsb-suggest', role: 'listbox' })
+    box = h(doc, 'div', { class: 'bsb-suggest', role: 'listbox', id: LISTBOX_ID })
     box.hidden = true
     box.addEventListener('mousedown', onBoxDown)
     doc.body.appendChild(box)
@@ -97,11 +107,18 @@ export function attachSearch(doc: Document, dict: Dict, settings: Settings): () 
     items = list
     selected = -1
     el.replaceChildren(
-      ...list.map((s) =>
+      ...list.map((s, i) =>
         h(
           doc,
           'div',
-          { class: 'bsb-sg', role: 'option', 'aria-selected': 'false', 'data-tag': s.tag, 'data-type': s.type },
+          {
+            class: 'bsb-sg',
+            id: `${OPTION_ID}${i}`,
+            role: 'option',
+            'aria-selected': 'false',
+            'data-tag': s.tag,
+            'data-type': s.type,
+          },
           h(doc, 'span', { class: 'bsb-sg-ja' }, s.ja),
           hasCount(dict, s.tag) ? h(doc, 'span', { class: 'bsb-sg-count' }, String(s.count)) : null,
           h(doc, 'span', { class: 'bsb-sg-romaji' }, s.tag.replace(/_/g, ' ')),
@@ -111,6 +128,8 @@ export function attachSearch(doc: Document, dict: Dict, settings: Settings): () 
     )
     position(input, el)
     el.hidden = false
+    input.setAttribute('aria-expanded', 'true')
+    input.removeAttribute('aria-activedescendant')
   }
 
   const cancelBlur = () => {
@@ -167,6 +186,10 @@ export function attachSearch(doc: Document, dict: Dict, settings: Settings): () 
   // Capture phase on the input itself: at-target capture listeners run before the site's
   // bubble listeners, so stopImmediatePropagation can keep TagCompletionBox quiet.
   for (const input of inputs) {
+    input.setAttribute('role', 'combobox')
+    input.setAttribute('aria-autocomplete', 'list')
+    input.setAttribute('aria-expanded', 'false')
+    input.setAttribute('aria-controls', LISTBOX_ID)
     input.addEventListener('input', onInput, true)
     input.addEventListener('keydown', onKeydown, true)
     input.addEventListener('blur', onBlur)
@@ -180,6 +203,9 @@ export function attachSearch(doc: Document, dict: Dict, settings: Settings): () 
       input.removeEventListener('keydown', onKeydown, true)
       input.removeEventListener('blur', onBlur)
       input.removeEventListener('focus', cancelBlur)
+      for (const a of ['role', 'aria-autocomplete', 'aria-expanded', 'aria-controls', 'aria-activedescendant']) {
+        input.removeAttribute(a)
+      }
     }
     win?.removeEventListener('resize', hide)
     cancelBlur()

@@ -10,7 +10,11 @@ const THUMB = '.bsb-thumb'
  */
 export function attachHoverPlay(root: ParentNode, settings: Settings, win: Window = window): () => void {
   if (!settings.hoverPlay) return () => {}
-  if (typeof win.matchMedia === 'function' && win.matchMedia('(hover: none)').matches) return () => {}
+  const media = (q: string) => typeof win.matchMedia === 'function' && win.matchMedia(q).matches
+  if (media('(hover: none)') || media('(prefers-reduced-motion: reduce)')) return () => {}
+  // Save-Data: autoplaying whole clips on hover is exactly the traffic the user opted out of.
+  const conn = (win.navigator as (Navigator & { connection?: { saveData?: boolean } }) | undefined)?.connection
+  if (conn?.saveData === true) return () => {}
 
   let timer: ReturnType<typeof setTimeout> | null = null
   let current: { thumb: HTMLElement; video: HTMLVideoElement | null } | null = null

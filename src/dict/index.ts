@@ -123,6 +123,58 @@ export function validateDict(x: unknown): x is Dict {
   )
 }
 
+const JA_MAX = 80
+/** C0 controls, DEL, LRM/RLM, bidi embeddings/overrides and isolates: they could reorder or hide page text. */
+// eslint-disable-next-line no-control-regex
+const UNSAFE_CHARS = /[\u0000-\u001f\u007f‎‏‪-‮⁦-⁩]/
+
+const isPlainObj = (v: unknown): v is Record<string, unknown> => !!v && typeof v === 'object' && !Array.isArray(v)
+
+function cleanEntry(e: unknown): Entry | null {
+  if (!isPlainObj(e)) return null
+  const { ja, kana, src } = e
+  if (typeof ja !== 'string' || !ja || ja.length > JA_MAX || UNSAFE_CHARS.test(ja)) return null
+  if (kana !== undefined && (typeof kana !== 'string' || UNSAFE_CHARS.test(kana))) return null
+  if (src !== undefined && typeof src !== 'string') return null
+  const out: Entry = { ja }
+  if (kana !== undefined) out.kana = kana
+  if (src !== undefined) out.src = src
+  return out
+}
+
+function cleanMap<T>(m: Record<string, unknown>, clean: (v: unknown) => T | null): Record<string, T> {
+  const out: Record<string, T> = {}
+  for (const [k, v] of Object.entries(m)) {
+    // Assigning "__proto__" would set the prototype instead of adding a key.
+    if (k === '__proto__') continue
+    const c = clean(v)
+    if (c !== null) out[k] = c
+  }
+  return out
+}
+
+/**
+ * For freshly fetched dictionaries: drops individual bad entries (empty/over-long `ja`, control or
+ * bidi characters, wrong field types) and keeps the rest. Null only if the top-level shape is wrong.
+ */
+export function sanitizeDict(raw: unknown): Dict | null {
+  if (!isPlainObj(raw) || raw.v !== 1 || typeof raw.updated !== 'string') return null
+  const { artists, copyrights, general, counts } = raw
+  if (!isPlainObj(artists) || !isPlainObj(copyrights) || !isPlainObj(general)) return null
+  if (counts !== undefined && !isPlainObj(counts)) return null
+  const dict: Dict = {
+    v: 1,
+    updated: raw.updated,
+    artists: cleanMap(artists, cleanEntry),
+    copyrights: cleanMap(copyrights, cleanEntry),
+    general: cleanMap(general, cleanEntry),
+  }
+  if (counts !== undefined) {
+    dict.counts = cleanMap(counts, (n) => (typeof n === 'number' && Number.isFinite(n) ? n : null))
+  }
+  return dict
+}
+
 export async function getDict(): Promise<Dict> {
   const r = await chrome.storage.local.get('dict')
   return validateDict(r.dict) ? r.dict : (snapshot as Dict)

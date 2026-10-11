@@ -1,4 +1,4 @@
-import { validateDict } from '../dict'
+import { sanitizeDict } from '../dict'
 
 export const DICT_URL = 'https://cdn.jsdelivr.net/gh/HTPK/sakugabooru-ja-dict@main/dist/dict.json'
 
@@ -12,8 +12,8 @@ export async function refreshDict(fetchFn: FetchFn = (u, i) => fetch(u, i)): Pro
     if (typeof AbortSignal !== 'undefined' && 'timeout' in AbortSignal) init.signal = AbortSignal.timeout(TIMEOUT_MS)
     const res = await fetchFn(DICT_URL, init)
     if (!res.ok) throw new Error(`HTTP ${res.status}`)
-    const dict: unknown = JSON.parse(await res.text())
-    if (!validateDict(dict)) throw new Error('invalid dict shape')
+    const dict = sanitizeDict(JSON.parse(await res.text()))
+    if (!dict) throw new Error('invalid dict shape')
     await chrome.storage.local.set({ dict, dictFetchedAt: Date.now() })
     await chrome.storage.local.remove('dictLastError')
     return { ok: true }

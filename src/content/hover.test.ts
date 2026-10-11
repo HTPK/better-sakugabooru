@@ -113,6 +113,26 @@ describe('attachHoverPlay', () => {
     expect(videos()).toHaveLength(0)
   })
 
+  it.each([
+    ['prefers-reduced-motion', { matchMedia: (q: string) => ({ matches: q === '(prefers-reduced-motion: reduce)' }) }],
+    ['Save-Data', { matchMedia: () => ({ matches: false }), navigator: { connection: { saveData: true } } }],
+  ])('attaches nothing with %s', (_name, win) => {
+    const { root, thumbs } = setup()
+    detachers.push(attachHoverPlay(root, DEFAULTS, win as unknown as Window))
+    enter(thumbs[0])
+    vi.advanceTimersByTime(HOVER_DELAY_MS * 2)
+    expect(videos()).toHaveLength(0)
+  })
+
+  it('still plays when saveData is false', () => {
+    const { root, thumbs } = setup()
+    const win = { matchMedia: () => ({ matches: false }), navigator: { connection: { saveData: false } } }
+    detachers.push(attachHoverPlay(root, DEFAULTS, win as unknown as Window))
+    enter(thumbs[0])
+    vi.advanceTimersByTime(HOVER_DELAY_MS * 2)
+    expect(videos()).toHaveLength(1)
+  })
+
   it('detach removes listeners and any playing video', () => {
     const { thumbs, detach } = attach()
     enter(thumbs[0])

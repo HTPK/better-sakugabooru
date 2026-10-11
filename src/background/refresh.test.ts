@@ -34,6 +34,14 @@ describe('refreshDict', () => {
     expect((await chrome.storage.local.get('dict')).dict).toBeUndefined()
   })
 
+  it('stores the sanitized dict, dropping only bad entries', async () => {
+    const raw = { ...good, artists: { ok: { ja: 'あ' }, evil: { ja: 'a‮b' } }, general: { g: { ja: '' } } }
+    const r = await refreshDict(async () => resp(JSON.stringify(raw)))
+    expect(r.ok).toBe(true)
+    const s = await chrome.storage.local.get('dict')
+    expect(s.dict).toEqual({ ...good, artists: { ok: { ja: 'あ' } }, general: {} })
+  })
+
   it('records an error on 404', async () => {
     const r = await refreshDict(async () => resp('nope', 404))
     expect(r.ok).toBe(false)
