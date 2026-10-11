@@ -151,6 +151,18 @@ describe('renderList', () => {
     expect(kay.querySelector('.bsb-untranslated')!.textContent).toBe('未訳')
   })
 
+  it('groups the sidebar by type (copyright, artist, general, meta) moving the same nodes', () => {
+    const doc = load()
+    const before = Array.from(doc.querySelectorAll('#tag-sidebar li'))
+    renderList(doc, dict, DEFAULTS)
+    const after = Array.from(doc.querySelectorAll('#tag-sidebar li'))
+    expect(new Set(after)).toEqual(new Set(before))
+    const rank: Record<string, number> = { copyright: 0, artist: 1, general: 2, meta: 9 }
+    const ranks = after.map((li) => rank[li.className.replace(/^.*tag-type-(\w+).*$/, '$1')] ?? 5)
+    expect(ranks).toEqual([...ranks].sort((a, b) => a - b))
+    expect(ranks[0]).toBe(0)
+  })
+
   it('sets Japanese title/alt on original thumbs', () => {
     const { doc } = run()
     const img = doc.querySelector<HTMLImageElement>('#post-list-posts img.preview')!

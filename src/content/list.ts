@@ -19,7 +19,7 @@ export function injectListStyle(doc: Document): void {
   ;(doc.head ?? doc.documentElement).appendChild(el)
 }
 
-const spaced = (tag: string) => tag.replace(/_/g, ' ')
+export const spaced = (tag: string) => tag.replace(/_/g, ' ')
 
 /** Japanese name or null. artist_unknown is stored as an override outside the artist map. */
 export function jaFor(dict: Dict, tag: string, type: TagType, translate: boolean): string | null {
@@ -177,8 +177,25 @@ export function sidebarTag(li: Element): { link: HTMLAnchorElement; tag: string 
   return link && tag ? { link, tag } : null
 }
 
-/** Translates `#tag-sidebar` tag links in place (shared by list and show pages). */
+/** Mock order: 作品 / 作画者 / 技法 (other types next) / メタ. */
+const GROUP_ORDER: readonly TagType[] = ['copyright', 'artist', 'general', 'character', 'circle', 'faults', 'meta']
+
+/** Reorders `#tag-sidebar` li nodes by type once (moved, never cloned, so handlers survive). */
+function groupSidebar(doc: Document): void {
+  const ul = doc.getElementById('tag-sidebar')
+  if (!ul || ul.hasAttribute('data-bsb-grouped')) return
+  ul.setAttribute('data-bsb-grouped', '')
+  const typed = Array.from(ul.children)
+    .map((li) => ({ li, type: li.tagName === 'LI' ? sidebarType(li) : null }))
+    .filter((x): x is { li: Element; type: TagType } => x.type !== null)
+  for (const type of GROUP_ORDER) {
+    for (const x of typed) if (x.type === type) ul.appendChild(x.li)
+  }
+}
+
+/** Groups and translates `#tag-sidebar` tag links in place (shared by list and show pages). */
 export function translateSidebar(doc: Document, dict: Dict, settings: Settings): void {
+  groupSidebar(doc)
   if (!settings.translateTags) return
   for (const li of Array.from(doc.querySelectorAll('#tag-sidebar li'))) {
     if (li.hasAttribute('data-bsb-done')) continue

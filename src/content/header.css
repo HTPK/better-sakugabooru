@@ -106,8 +106,8 @@ html[data-bsb-theme] .bsb-bar a.bsb-logo {
   display: none;
 }
 html[data-bsb-theme] .bsb-search-form input[name="tags"] {
-  height: 36px;
-  width: 320px;
+  height: 40px;
+  width: 300px;
   border: 1px solid var(--bsb-border);
   background: var(--bsb-input);
   color: var(--bsb-text);
@@ -118,7 +118,7 @@ html[data-bsb-theme] .bsb-search-form input[name="tags"] {
 }
 html[data-bsb-theme] .bsb-search-form input[type="submit"],
 html[data-bsb-theme] .bsb-search-form .bsb-primary {
-  height: 36px;
+  height: 40px;
   padding: 0 18px;
   border-radius: 50px;
   background: var(--bsb-red);
@@ -126,8 +126,9 @@ html[data-bsb-theme] .bsb-search-form .bsb-primary {
   font-weight: 700;
 }
 html[data-bsb-theme] .bsb-bar a.bsb-upload {
-  height: 36px;
-  padding: 0 18px;
+  height: 40px;
+  padding: 0 24px;
+  box-sizing: border-box;
   border-radius: 50px;
   background: var(--bsb-red);
   color: var(--bsb-on-red);

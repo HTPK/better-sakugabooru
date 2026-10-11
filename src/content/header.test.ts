@@ -7,17 +7,35 @@ import { DEFAULTS } from '../settings'
 
 const fixture = (name: string) => readFileSync(resolve(__dirname, '../../test/fixtures', name), 'utf8')
 const CASES = [
-  { name: 'post-list', html: fixture('post-list-2026-10-12.html'), url: 'https://www.sakugabooru.com/post?tags=effects&page=2' },
   {
-    name: 'post-show',
+    name: 'post-list (en)',
+    html: fixture('post-list-2026-10-12.html'),
+    url: 'https://www.sakugabooru.com/post?tags=effects&page=2',
+    served: 'EN',
+  },
+  {
+    name: 'post-list (ja)',
+    html: fixture('post-list-ja-2026-10-12.html'),
+    url: 'https://www.sakugabooru.com/post?tags=effects&page=2',
+    served: 'JP',
+  },
+  {
+    name: 'post-show (en)',
     html: fixture('post-show-318817-2026-10-12.html'),
     url: 'https://www.sakugabooru.com/post/show/318817?locale=en',
+    served: 'EN',
+  },
+  {
+    name: 'post-show (ja)',
+    html: fixture('post-show-318817-ja-2026-10-12.html'),
+    url: 'https://www.sakugabooru.com/post/show/318817',
+    served: 'JP',
   },
 ]
 
 const load = (html: string, url: string) => new JSDOM(html, { url }).window.document
 
-describe.each(CASES)('renderHeader on $name', ({ html, url }) => {
+describe.each(CASES)('renderHeader on $name', ({ html, url, served }) => {
   it('builds the bar and reparents the site menu (same node)', () => {
     const doc = load(html, url)
     const menu = doc.getElementById('main-menu')
@@ -35,14 +53,15 @@ describe.each(CASES)('renderHeader on $name', ({ html, url }) => {
     expect(doc.getElementById('bsb-header')).not.toBeNull()
   })
 
-  it('translates exact English top-level menu labels only', () => {
+  it('maps top-level menu labels of either site locale to ours', () => {
     const doc = load(html, url)
+    const popular = doc.querySelector('#main-menu a[href="/post/popular_recent"]')!.textContent
     renderHeader(doc, DEFAULTS)
     const top = Array.from(doc.querySelectorAll('#main-menu > ul > li > a:first-child')).map((a) => a.textContent)
     expect(top).toEqual(expect.arrayContaining(['アカウント', '投稿', 'コメント', 'ノート', '作画者', 'タグ', 'プール', 'Wiki', 'フォーラム', 'ヘルプ']))
-    expect(top).not.toContain('Posts')
-    // Submenu entries stay in English.
-    expect(doc.querySelector('#main-menu a[href="/post/popular_recent"]')!.textContent).toBe('Popular')
+    for (const raw of ['Posts', 'My Account', 'Artists', 'マイアカウント', '絵師', '注釈']) expect(top).not.toContain(raw)
+    // Submenu entries are left as the site served them.
+    expect(doc.querySelector('#main-menu a[href="/post/popular_recent"]')!.textContent).toBe(popular)
   })
 
   it('moves the header search form into the bar', () => {
@@ -52,7 +71,9 @@ describe.each(CASES)('renderHeader on $name', ({ html, url }) => {
     expect(form).not.toBeNull()
     expect(form.getAttribute('action')).toBe('/post')
     expect(form.querySelector('input[name="tags"]')).not.toBeNull()
-    expect(form.querySelector<HTMLInputElement>('input[type="submit"]')!.value).toBe('検索')
+    const submit = form.querySelector<HTMLInputElement>('input[type="submit"]')!
+    expect(submit.value).toBe('検索')
+    expect(submit.getAttribute('data-disable-with')).toBe('検索')
   })
 
   it('pulls the upload link out as a red pill', () => {
@@ -78,9 +99,7 @@ describe.each(CASES)('renderHeader on $name', ({ html, url }) => {
       expect(u.pathname).toBe(orig.pathname)
       for (const [k, v] of orig.searchParams) if (k !== 'locale') expect(u.searchParams.get(k)).toBe(v)
     }
-    // The fixtures were served in English.
-    expect(links[1].classList.contains('bsb-current')).toBe(true)
-    expect(links[0].classList.contains('bsb-current')).toBe(false)
+    expect(links.filter((a) => a.classList.contains('bsb-current')).map((a) => a.textContent)).toEqual([served])
   })
 
   it('is idempotent', () => {
@@ -95,11 +114,11 @@ describe.each(CASES)('renderHeader on $name', ({ html, url }) => {
 })
 
 describe('renderHeader on a Japanese page', () => {
-  it('leaves menu labels alone when html lang is ja', () => {
+  it('trusts html lang=ja for the current-language marker', () => {
     const doc = load(CASES[0].html, CASES[0].url)
     doc.documentElement.setAttribute('lang', 'ja')
     renderHeader(doc, DEFAULTS)
-    expect(doc.querySelector('#main-menu > ul > li.post > a')!.textContent).toBe('Posts')
+    expect(doc.querySelector('#main-menu > ul > li.post > a')!.textContent).toBe('投稿')
     expect(doc.querySelector('nav.bsb-lang a.bsb-current')!.textContent).toBe('JP')
   })
 

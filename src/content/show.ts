@@ -1,7 +1,7 @@
 import type { Dict, TagType } from '../dict'
 import type { Settings } from '../settings'
 import { h, type Child } from './render'
-import { jaFor, sidebarTag, sidebarType, translateSidebar, untranslated } from './list'
+import { jaFor, sidebarTag, sidebarType, spaced, translateSidebar, untranslated } from './list'
 import showCss from './show.css?inline'
 
 const PROPOSE_BASE = 'https://github.com/HTPK/sakugabooru-ja-dict/issues/new?template=translation.yml&title='
@@ -16,19 +16,34 @@ const HEADINGS: Partial<Record<TagType, string>> = {
   meta: 'メタ',
 }
 
+/** Site stats labels in either locale (lowercased, colons stripped) mapped to ours. */
 const STAT_LABELS: Record<string, string> = {
-  Source: '出典',
-  Id: 'ID',
-  Posted: '投稿日',
-  Size: 'サイズ',
-  Framerate: 'フレームレート',
-  Rating: 'レーティング',
-  Score: 'スコア',
-  'Favorited by': 'お気に入り',
-  Status: '状態',
-  Parent: '親',
-  Children: '子',
+  source: '出典',
+  ソース: '出典',
+  id: 'ID',
+  posted: '投稿日',
+  投稿: '投稿日',
+  size: 'サイズ',
+  サイズ: 'サイズ',
+  framerate: 'フレームレート',
+  フレームレート: 'フレームレート',
+  rating: 'レーティング',
+  レーティング: 'レーティング',
+  score: 'スコア',
+  スコア: 'スコア',
+  'favorited by': 'お気に入り',
+  お気に入りにした人: 'お気に入り',
+  status: '状態',
+  状態: '状態',
+  parent: '親',
+  親: '親',
+  children: '子',
+  子: '子',
 }
+
+const RELATED_HEADINGS = new Set(['related posts', '関連する投稿'])
+const PREV_TEXTS = new Set(['previous', 'prev', '前', '前の投稿'])
+const NEXT_TEXTS = new Set(['next', '次', '次の投稿'])
 
 interface SideTag {
   tag: string
@@ -91,21 +106,35 @@ function lead(dict: Dict, s: Settings, tags: SideTag[]): string {
   const ordered = [...named.filter((n) => n.ja), ...named.filter((n) => !n.ja)]
   return ordered
     .slice(0, LEAD_LIMIT)
-    .map((n) => n.ja ?? n.t.tag)
+    .map((n) => n.ja ?? spaced(n.t.tag))
     .join(' / ')
 }
 
-/** Previous/Next from the site's "Related Posts" block; nothing is invented when it is absent. */
+const norm = (t: string | null | undefined) => (t ?? '').trim().toLowerCase()
+
+/** Sidebar lists whose direct items link to other posts; the one under a related-posts heading wins. */
+function relatedList(doc: Document): Element | null {
+  const lists = Array.from(doc.querySelectorAll('#post-view .sidebar ul')).filter(
+    (ul) => ul.id !== 'tag-sidebar' && !ul.closest('#stats') && ul.querySelector(':scope > li > a[href^="/post/show/"]'),
+  )
+  const headed = lists.find((ul) => {
+    const head = ul.previousElementSibling
+    return head?.tagName === 'H5' && RELATED_HEADINGS.has(norm(head.textContent))
+  })
+  return headed ?? lists[0] ?? null
+}
+
+/** Previous/Next from the site's related-posts block (either locale); nothing is invented when it is absent. */
 function prevNext(doc: Document): HTMLElement | null {
-  const head = Array.from(doc.querySelectorAll('#post-view h5')).find((e) => e.textContent?.trim() === 'Related Posts')
-  const ul = head?.nextElementSibling
+  const ul = relatedList(doc)
   if (!ul) return null
+  const anchors = Array.from(ul.querySelectorAll(':scope > li > a[href^="/post/show/"]'))
   const links: HTMLElement[] = []
-  for (const [en, ja] of [
-    ['Previous', '前の投稿'],
-    ['Next', '次の投稿'],
-  ]) {
-    const a = Array.from(ul.querySelectorAll('a[href]')).find((x) => x.textContent?.trim() === en)
+  for (const [texts, ja] of [
+    [PREV_TEXTS, '前の投稿'],
+    [NEXT_TEXTS, '次の投稿'],
+  ] as const) {
+    const a = anchors.find((x) => texts.has(norm(x.textContent)))
     if (a) links.push(h(doc, 'a', { class: 'bsb-show-step', href: a.getAttribute('href') ?? undefined }, ja))
   }
   return links.length ? h(doc, 'nav', { class: 'bsb-show-nav', 'aria-label': '前後の投稿' }, ...links) : null
@@ -149,17 +178,40 @@ function sidebarHeads(doc: Document, tags: SideTag[]): void {
   }
 }
 
+/** `Label:` / `ラベル::` / `ラベル：` at the start of a text; at least one colon required. */
+const LABEL_RE = /^\s*([^:：]+?)\s*[:：]+\s*/
+const statKey = (raw: string) => raw.replace(/\s+/g, ' ').trim().toLowerCase()
+
+/** Strips the site label (bare text, or a leading strong/b) from the li and returns ours. */
+function takeLabel(li: Element): string | null {
+  const first = Array.from(li.childNodes).find((n) => n.nodeType !== 3 || n.textContent?.trim())
+  if (!first) return null
+  if (first.nodeType === 3) {
+    const m = LABEL_RE.exec(first.textContent ?? '')
+    const ja = m && STAT_LABELS[statKey(m[1])]
+    if (!m || !ja) return null
+    first.textContent = (first.textContent ?? '').slice(m[0].length)
+    return ja
+  }
+  const el = first as Element
+  if ((el.tagName !== 'STRONG' && el.tagName !== 'B') || el.children.length) return null
+  // <strong>Label</strong>: value  or  <strong>Label:</strong> value
+  const ja = STAT_LABELS[statKey((el.textContent ?? '').replace(/[:：]+\s*$/, ''))]
+  if (!ja) return null
+  const next = el.nextSibling
+  el.remove()
+  if (next && next.nodeType === 3) next.textContent = (next.textContent ?? '').replace(/^\s*[:：]*\s*/, '')
+  return ja
+}
+
 function stats(doc: Document): void {
   const ul = doc.querySelector('#stats ul')
   if (!ul) return
   ul.classList.add('bsb-stats')
   for (const li of Array.from(ul.children)) {
     if (li.tagName !== 'LI') continue
-    const first = Array.from(li.childNodes).find((n) => n.nodeType === 3 && n.textContent?.trim())
-    const m = first && /^\s*([A-Za-z][A-Za-z ]*):\s*/.exec(first.textContent ?? '')
-    const ja = m && STAT_LABELS[m[1]]
-    if (!first || !m || !ja) continue
-    first.textContent = (first.textContent ?? '').slice(m[0].length)
+    const ja = takeLabel(li)
+    if (!ja) continue
     // Reparent (never clone) the value nodes so ids and vote handlers survive.
     const value = h(doc, 'span', { class: 'bsb-stats-value' })
     value.append(...Array.from(li.childNodes))
@@ -175,18 +227,23 @@ function propose(doc: Document, dict: Dict, s: Settings, tags: SideTag[]): void 
     .filter((t, i, a) => a.indexOf(t) === i)
   const sidebar = doc.getElementById('tag-sidebar')
   if (!missing.length || !sidebar) return
+  // Issue forms ignore body=; fields are prefilled by their yml ids (tags, post).
   const href =
     PROPOSE_BASE +
     encodeURIComponent('翻訳提案: ' + missing.join(', ')) +
-    '&labels=translation&body=' +
-    encodeURIComponent(missing.join('\n'))
+    '&labels=translation&tags=' +
+    encodeURIComponent(missing.join('\n')) +
+    '&post=' +
+    encodeURIComponent(doc.location?.href ?? '')
   sidebar.after(h(doc, 'a', { class: 'bsb-propose', href, target: '_blank', rel: 'noopener' }, '訳を提案する'))
 }
 
+/** True on a show page (also when already rendered: idempotent no-op); false otherwise. */
 export function renderShow(doc: Document, dict: Dict, settings: Settings): boolean {
   const view = doc.getElementById('post-view')
   const body = doc.body
-  if (!view || !body || body.hasAttribute('data-bsb-show')) return false
+  if (!view || !body) return false
+  if (body.hasAttribute('data-bsb-show')) return true
   body.setAttribute('data-bsb-show', '')
   injectShowStyle(doc)
 
@@ -199,7 +256,8 @@ export function renderShow(doc: Document, dict: Dict, settings: Settings): boole
   layout(doc, view)
   stats(doc)
   propose(doc, dict, settings, tags)
-  sidebarHeads(doc, tags)
+  // translateSidebar groups the li nodes by type; headings then go before each group.
   translateSidebar(doc, dict, settings)
+  sidebarHeads(doc, sideTags(doc))
   return true
 }
