@@ -1,5 +1,9 @@
-/* Better Sakugabooru: header bar (variant E). Colors come only from tokens.css. */
-#header.bsb-header {
+/* Better Sakugabooru: header bar (variant E). Colors come only from tokens.css.
+ * Selectors carry html[data-bsb-theme] so they outrank the generic #header / #main-menu rules in site.css.
+ * Width budget at 1280 px: logo + 10 menu items (14 px, gap 16) + search + JP|EN + upload + account.
+ * The page body already keeps a side gutter, so the bar has no horizontal padding of its own.
+ */
+html[data-bsb-theme] #header.bsb-header {
   display: block;
   height: auto;
   margin: 0;
@@ -7,52 +11,61 @@
   background: var(--bsb-bg);
   border: 0;
 }
-.bsb-bar {
-  height: 72px;
+html[data-bsb-theme] .bsb-bar {
+  min-height: 72px;
   display: flex;
+  flex-wrap: nowrap;
   align-items: center;
-  gap: 28px;
-  padding: 0 48px;
+  gap: 12px 20px;
+  padding: 0;
   background: var(--bsb-bg);
   border-bottom: 1px solid var(--bsb-subtle);
   box-sizing: border-box;
 }
 html[data-bsb-theme] .bsb-bar a.bsb-logo {
+  flex: 0 0 auto;
   font-family: var(--bsb-font-en);
   font-weight: 700;
-  font-size: 20px;
+  font-size: 18px;
   color: var(--bsb-text);
   white-space: nowrap;
 }
 
 /* ---- Site menu, reparented ---- */
-.bsb-bar #main-menu {
+html[data-bsb-theme] .bsb-bar #main-menu {
+  flex: 0 0 auto;
   margin: 0;
   padding: 0;
   float: none;
   background: transparent;
   border: 0;
 }
-.bsb-bar #main-menu > ul {
+html[data-bsb-theme] .bsb-bar #main-menu > ul {
   display: flex;
+  flex-wrap: nowrap;
   align-items: center;
-  gap: 22px;
+  gap: 16px;
   list-style: none;
   margin: 0;
   padding: 0;
 }
-.bsb-bar #main-menu > ul > li {
+html[data-bsb-theme] .bsb-bar #main-menu > ul > li,
+html[data-bsb-theme] .bsb-bar .bsb-account > li {
   position: relative;
   float: none;
   margin: 0;
   padding: 0;
-  font-size: 15px;
+  font-size: 14px;
   white-space: nowrap;
+  background: transparent;
+  border: 0;
 }
-.bsb-bar #main-menu .submenu-button {
+html[data-bsb-theme] .bsb-bar .submenu-button {
   display: none;
 }
-.bsb-bar #main-menu li > ul.submenu {
+
+/* Dropdowns: site submenus, our その他 panel and the account menu share one look. */
+html[data-bsb-theme] .bsb-bar li > ul.submenu {
   display: none;
   position: absolute;
   top: 100%;
@@ -65,22 +78,31 @@ html[data-bsb-theme] .bsb-bar a.bsb-logo {
   background: var(--bsb-bg);
   border: 1px solid var(--bsb-border);
   border-radius: 0;
+  box-shadow: none;
 }
-.bsb-bar #main-menu li:hover > ul.submenu,
-.bsb-bar #main-menu li:focus-within > ul.submenu {
+html[data-bsb-theme] .bsb-bar li:hover > ul.submenu,
+html[data-bsb-theme] .bsb-bar li:focus-within > ul.submenu {
   display: block;
 }
-.bsb-bar #main-menu li > ul.submenu > li {
+html[data-bsb-theme] .bsb-bar li > ul.submenu > li {
   float: none;
   display: block;
+  margin: 0;
   padding: 0;
   font-size: 14px;
+  white-space: nowrap;
+  background: transparent;
+  border: 0;
 }
-.bsb-bar #main-menu li > ul.submenu a {
+html[data-bsb-theme] .bsb-bar li > ul.submenu a {
   display: block;
   padding: 4px 14px;
+  color: var(--bsb-text);
 }
-.bsb-bar #main-menu li > ul.search-box {
+html[data-bsb-theme] .bsb-bar li > ul.submenu a:hover {
+  color: var(--bsb-red-text);
+}
+html[data-bsb-theme] .bsb-bar #main-menu li > ul.search-box {
   position: absolute;
   top: 100%;
   left: 0;
@@ -88,15 +110,23 @@ html[data-bsb-theme] .bsb-bar a.bsb-logo {
   background: var(--bsb-bg);
   border: 1px solid var(--bsb-border);
 }
+/* Folded items inside その他 keep their own (empty) submenu toggles hidden; no nested flyouts. */
+html[data-bsb-theme] .bsb-bar .bsb-menu-more-panel ul.submenu {
+  display: none;
+}
 
-/* ---- Right side: search, language, upload ---- */
+/* ---- Right side: search, language, upload, account ---- */
 .bsb-bar-end {
+  flex: 0 1 auto;
+  min-width: 0;
   margin-left: auto;
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 12px;
 }
 .bsb-search-form {
+  flex: 0 1 auto;
+  min-width: 0;
   display: flex;
   align-items: center;
   gap: 8px;
@@ -106,8 +136,10 @@ html[data-bsb-theme] .bsb-bar a.bsb-logo {
   display: none;
 }
 html[data-bsb-theme] .bsb-search-form input[name="tags"] {
+  flex: 0 1 240px;
+  width: 240px;
+  min-width: 120px;
   height: 40px;
-  width: 300px;
   border: 1px solid var(--bsb-border);
   background: var(--bsb-input);
   color: var(--bsb-text);
@@ -118,16 +150,19 @@ html[data-bsb-theme] .bsb-search-form input[name="tags"] {
 }
 html[data-bsb-theme] .bsb-search-form input[type="submit"],
 html[data-bsb-theme] .bsb-search-form .bsb-primary {
+  flex: 0 0 auto;
   height: 40px;
-  padding: 0 18px;
+  padding: 0 14px;
   border-radius: 50px;
   background: var(--bsb-red);
   color: var(--bsb-on-red);
   font-weight: 700;
+  white-space: nowrap;
 }
 html[data-bsb-theme] .bsb-bar a.bsb-upload {
+  flex: 0 0 auto;
   height: 40px;
-  padding: 0 24px;
+  padding: 0 18px;
   box-sizing: border-box;
   border-radius: 50px;
   background: var(--bsb-red);
@@ -142,6 +177,7 @@ html[data-bsb-theme] .bsb-bar a.bsb-upload:hover {
   color: var(--bsb-on-red);
 }
 .bsb-lang {
+  flex: 0 0 auto;
   display: flex;
   align-items: center;
   gap: 8px;
@@ -156,6 +192,22 @@ html[data-bsb-theme] .bsb-lang a {
 html[data-bsb-theme] .bsb-lang a.bsb-current {
   color: var(--bsb-text);
   font-weight: 700;
+}
+/* Account: plain text link at the far right; its dropdown opens leftwards so it stays on screen. */
+html[data-bsb-theme] .bsb-bar .bsb-account {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+html[data-bsb-theme] .bsb-bar .bsb-account > li > a:first-child {
+  color: var(--bsb-text);
+}
+html[data-bsb-theme] .bsb-bar .bsb-account li > ul.submenu {
+  left: auto;
+  right: 0;
 }
 
 /* ---- Footer sub-navigation: slim secondary row ---- */
@@ -177,26 +229,25 @@ html[data-bsb-theme] .bsb-lang a.bsb-current {
   padding: 0;
 }
 
-@media (max-width: 900px) {
-  .bsb-bar {
-    height: auto;
-    min-height: 72px;
+/* One row needs about 1200 px of content width; below 1280 px the right-hand group takes a second row. */
+@media (max-width: 1279px) {
+  html[data-bsb-theme] .bsb-bar {
     flex-wrap: wrap;
-    gap: 12px 20px;
-    padding: 12px 16px;
-  }
-  .bsb-bar #main-menu > ul {
-    flex-wrap: wrap;
-    gap: 8px 16px;
+    padding: 12px 0;
   }
   .bsb-bar-end {
+    flex: 1 1 100%;
     margin-left: 0;
     flex-wrap: wrap;
-    width: 100%;
   }
-  html[data-bsb-theme] .bsb-search-form input[name="tags"] {
-    width: 100%;
-    min-width: 0;
+}
+@media (max-width: 900px) {
+  html[data-bsb-theme] .bsb-bar #main-menu {
+    flex: 1 1 100%;
+  }
+  html[data-bsb-theme] .bsb-bar #main-menu > ul {
+    flex-wrap: wrap;
+    gap: 8px 16px;
   }
   .bsb-search-form {
     flex: 1 1 240px;

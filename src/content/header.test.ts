@@ -57,11 +57,44 @@ describe.each(CASES)('renderHeader on $name', ({ html, url, served }) => {
     const doc = load(html, url)
     const popular = doc.querySelector('#main-menu a[href="/post/popular_recent"]')!.textContent
     renderHeader(doc, DEFAULTS)
-    const top = Array.from(doc.querySelectorAll('#main-menu > ul > li > a:first-child')).map((a) => a.textContent)
+    const top = Array.from(
+      doc.querySelectorAll('#main-menu > ul > li > a:first-child, .bsb-account > li > a:first-child'),
+    ).map((a) => a.textContent)
     expect(top).toEqual(expect.arrayContaining(['アカウント', '投稿', 'コメント', 'ノート', '作画者', 'タグ', 'プール', 'Wiki', 'フォーラム', 'ヘルプ']))
     for (const raw of ['Posts', 'My Account', 'Artists', 'マイアカウント', '絵師', '注釈']) expect(top).not.toContain(raw)
     // Submenu entries are left as the site served them.
     expect(doc.querySelector('#main-menu a[href="/post/popular_recent"]')!.textContent).toBe(popular)
+  })
+
+  it('fits the menu: folds extras under その他, hides 言語, keeps every original link', () => {
+    const doc = load(html, url)
+    const links = Array.from(doc.querySelectorAll('#header a'))
+    renderHeader(doc, DEFAULTS)
+    const visible = Array.from(doc.querySelectorAll('#main-menu > ul > li:not(.bsb-hide):not(.has-mail)'))
+    expect(visible.map((li) => li.querySelector(':scope > a')!.textContent)).toEqual([
+      '投稿', 'コメント', 'ノート', '作画者', 'タグ', 'プール', 'Wiki', 'フォーラム', 'ヘルプ', 'その他',
+    ])
+    // The site's language item stays in the DOM but is hidden: our JP|EN replaces it.
+    const locale = doc.querySelector('#main-menu > ul > li.locale')!
+    expect(locale.classList.contains('bsb-hide')).toBe(true)
+    expect(visible.some((li) => /言語|Language/.test(li.textContent ?? ''))).toBe(false)
+    // Blog, Patreon and More are moved (not cloned) into the その他 panel.
+    const more = visible.at(-1)!
+    const panel = more.querySelector(':scope > ul.submenu')!
+    expect(panel.querySelector('a[href="https://patreon.com/Sakugabooru"]')).not.toBeNull()
+    expect(panel.querySelector('a[href="https://blog.sakugabooru.com"]')).not.toBeNull()
+    expect(panel.querySelector('a[href="/static/more"]')).not.toBeNull()
+    expect(doc.querySelectorAll('a[href="https://patreon.com/Sakugabooru"]')).toHaveLength(1)
+    // The account item sits at the right end, after the upload pill, with its dropdown intact.
+    const end = doc.querySelector('.bsb-bar-end')!
+    const account = end.lastElementChild!
+    expect(account.matches('ul.bsb-account')).toBe(true)
+    expect(account.querySelector('li.user > a[href="/user/home"]')!.textContent).toBe('アカウント')
+    expect(account.querySelector('li.user > ul.submenu #login-link')).not.toBeNull()
+    expect(account.previousElementSibling!.matches('a.bsb-upload')).toBe(true)
+    // Nothing the site served was lost or duplicated.
+    for (const a of links) expect(doc.contains(a)).toBe(true)
+    expect(doc.querySelectorAll('#header a').length).toBe(links.length + 4) // logo, JP, EN, その他
   })
 
   it('moves the header search form into the bar', () => {

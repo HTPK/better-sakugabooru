@@ -108,6 +108,39 @@ function uploadLink(header: Element): HTMLAnchorElement | null {
   return a
 }
 
+const MORE_JA = 'その他'
+/** Site menu items folded under our その他 dropdown, by the site's li class. */
+const FOLDED = ['blog', 'patreon', 'static']
+
+/**
+ * Reshapes the site menu to fit one row: folds low-traffic items under その他 (moved, never cloned),
+ * hides the site's language item (our JP|EN replaces it), and returns the account li, detached,
+ * so the caller can put it at the right end of the bar.
+ */
+function reshapeMenu(doc: Document, menu: Element): HTMLLIElement | null {
+  const ul = menu.querySelector(':scope > ul')
+  if (!ul) return null
+  const item = (cls: string) => ul.querySelector<HTMLLIElement>(`:scope > li.${cls}`)
+  item('locale')?.classList.add('bsb-hide')
+  const folded = FOLDED.map(item).filter((li): li is HTMLLIElement => li !== null)
+  if (folded.length) {
+    const panel = h(doc, 'ul', { class: 'submenu bsb-menu-more-panel' })
+    const more = h(
+      doc,
+      'li',
+      { class: 'bsb-menu-more' },
+      h(doc, 'a', { href: '#', class: 'bsb-menu-more-toggle', 'aria-haspopup': 'true' }, MORE_JA),
+      panel,
+    )
+    more.querySelector('a')!.addEventListener('click', (e) => e.preventDefault())
+    for (const li of folded) panel.append(li)
+    ul.insertBefore(more, item('has-mail'))
+  }
+  const account = item('user')
+  account?.remove()
+  return account
+}
+
 export function renderHeader(doc: Document, _settings: Settings): void {
   const header = doc.getElementById('header')
   if (!header || header.hasAttribute('data-bsb-done')) return
@@ -125,16 +158,19 @@ export function renderHeader(doc: Document, _settings: Settings): void {
   // Pull the form and upload link before the menu moves, so lookups stay inside #header.
   const form = searchForm(header)
   const upload = uploadLink(header)
+  let account: HTMLLIElement | null = null
   if (menu) {
     for (const a of topLinks(menu)) {
       const t = a.textContent?.trim() ?? ''
       if (Object.hasOwn(MENU_JA, t)) a.textContent = MENU_JA[t]
     }
+    account = reshapeMenu(doc, menu)
     bar.append(menu)
   }
   if (form) end.append(form)
   end.append(langSwitch(doc, served))
   if (upload) end.append(upload)
+  if (account) end.append(h(doc, 'ul', { class: 'bsb-account' }, account))
   bar.append(end)
   header.prepend(bar)
 

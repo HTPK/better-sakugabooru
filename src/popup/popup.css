@@ -19,8 +19,9 @@ body {
 }
 .pp {
   width: 380px;
-  /* Chrome caps popups at 600 px tall; the middle scrolls, header and footer stay put. */
-  height: 600px;
+  /* Sizes to content; Chrome caps popups at 600 px tall, past that the middle scrolls. */
+  min-height: 420px;
+  max-height: 600px;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;

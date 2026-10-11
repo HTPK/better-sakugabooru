@@ -21,6 +21,33 @@ html[data-bsb-theme] a:focus-visible {
 html[data-bsb-theme] .bsb-prose a {
   text-decoration: underline;
 }
+/*
+ * The site sets `body, div, h1..h6, p, ul, li, dd, dt { color: white; font-family: verdana }`,
+ * which hides text on our light surfaces. Undo it with (0,0,2) specificity: enough to beat the
+ * site's bare type selectors, low enough that any of our single-class rules still win.
+ */
+:where(html[data-bsb-theme]) body :is(div, h1, h2, h3, h4, h5, h6, p, ul, li, dd, dt) {
+  color: inherit;
+  font-family: inherit;
+}
+
+/* ---- Status notice ("This post has child posts" etc.): band block, no black fill ---- */
+html[data-bsb-theme] .status-notice {
+  background: var(--bsb-band);
+  color: var(--bsb-text);
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  padding: 12px 16px;
+}
+html[data-bsb-theme] .status-notice a,
+html[data-bsb-theme] .status-notice a:link,
+html[data-bsb-theme] .status-notice a:visited {
+  color: var(--bsb-red-text);
+}
+html[data-bsb-theme] .status-notice a:hover {
+  text-decoration: underline;
+}
 
 /* ---- Shape helpers (the only rounded shapes) ---- */
 .bsb-pill {
@@ -55,7 +82,7 @@ html[data-bsb-theme] #main-menu > ul {
 }
 html[data-bsb-theme] #main-menu > ul > li {
   position: relative;
-  font-size: 15px;
+  font-size: 14px;
   background: transparent;
   border: 0;
 }
@@ -125,6 +152,17 @@ html[data-bsb-theme] #tag-sidebar .tag-type-general a:hover {
 html[data-bsb-theme] #tag-sidebar li .post-count {
   color: var(--bsb-faint);
   font-family: var(--bsb-font-en);
+}
+/* The site's "?" wiki link before every tag (the tag link itself carries `tags=`). Hidden, not removed. */
+html[data-bsb-theme] #tag-sidebar li > a:first-child:not([href*="tags="]) {
+  display: none;
+}
+html[data-bsb-theme] #tag-sidebar .bsb-romaji {
+  margin-left: 6px;
+}
+/* List page: the header bar already has search, so drop the sidebar's duplicate box. Show page keeps it. */
+html[data-bsb-theme].action-post-index .sidebar > div:has(input[name="tags"]) {
+  display: none;
 }
 
 /* ---- Paginator ---- */
