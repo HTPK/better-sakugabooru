@@ -34,6 +34,7 @@ html[data-bsb-theme] .bsb-bar a.bsb-logo {
 /* ---- Site menu, reparented ---- */
 html[data-bsb-theme] .bsb-bar #main-menu {
   flex: 0 0 auto;
+  width: auto; /* site.css sets div#main-menu { width: 100% } */
   margin: 0;
   padding: 0;
   float: none;
