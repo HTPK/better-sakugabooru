@@ -24,6 +24,24 @@ describe('extractJsonObjects', () => {
   it('skips unbalanced input', () => {
     expect(extractJsonObjects('Post.register({"id":1', 'Post.register')).toEqual([])
   })
+
+  it('stops scanning after the first unbalanced object', () => {
+    expect(extractJsonObjects('P({ "a": P({"b":1})', 'P')).toEqual([])
+  })
+})
+
+describe('parsePosts hardening', () => {
+  const docOf = (js: string) => new JSDOM(`<script>${js}</script>`).window.document
+  it('dedupes posts by id', () => {
+    const { posts } = parsePosts(docOf('Post.register({"id":5,"tags":"a"});Post.register({"id":5,"tags":"a"})'))
+    expect(posts.map((p) => p.id)).toEqual([5])
+  })
+  it('tagTypes has no prototype keys', () => {
+    const { tagTypes } = parsePosts(docOf('Post.register({"id":1,"tags":"a"});Post.register_tags({"a":"artist"})'))
+    expect(tagTypes['constructor']).toBeUndefined()
+    expect(tagTypes['toString']).toBeUndefined()
+    expect(tagTypes['a']).toBe('artist')
+  })
 })
 
 describe('parsePosts', () => {

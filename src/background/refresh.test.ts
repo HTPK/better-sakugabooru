@@ -47,4 +47,28 @@ describe('refreshDict', () => {
     })
     expect(r).toEqual({ ok: false, error: 'offline' })
   })
+
+  it('clears a previous error on success', async () => {
+    await chrome.storage.local.set({ dictLastError: 'old' })
+    const r = await refreshDict(async () => resp(JSON.stringify(good)))
+    expect(r.ok).toBe(true)
+    expect((await chrome.storage.local.get('dictLastError')).dictLastError).toBeUndefined()
+  })
+
+  it('still resolves when the error write itself fails', async () => {
+    chrome.storage.local.set = (async () => {
+      throw new Error('quota')
+    }) as never
+    const r = await refreshDict(async () => resp('nope', 500))
+    expect(r).toEqual({ ok: false, error: 'HTTP 500' })
+  })
+
+  it('passes a timeout signal to fetch', async () => {
+    let init: RequestInit | undefined
+    await refreshDict(async (_u, i) => {
+      init = i
+      return resp(JSON.stringify(good))
+    })
+    expect(init?.signal).toBeInstanceOf(AbortSignal)
+  })
 })

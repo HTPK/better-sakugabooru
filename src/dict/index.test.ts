@@ -68,6 +68,30 @@ describe('suggest', () => {
   })
 })
 
+describe('reverse index hardening', () => {
+  const mk = (over: Partial<Dict>): Dict => ({ v: 1, updated: 'x', artists: {}, copyrights: {}, general: {}, ...over })
+  it('matches multi-word English input against underscored tags', () => {
+    const d = mk({ copyrights: { dragon_ball: { ja: 'ドラゴンボール' } } })
+    const idx = buildReverseIndex(d)
+    expect(suggest(idx, 'dragon ball').map((s) => s.tag)).toEqual(['dragon_ball'])
+    expect(suggest(idx, 'Dragon Ba').map((s) => s.tag)).toEqual(['dragon_ball'])
+    expect(suggest(idx, 'dragon_ball').map((s) => s.tag)).toEqual(['dragon_ball'])
+  })
+  it('does not read counts from the prototype chain', () => {
+    const d = mk({ general: JSON.parse('{"constructor":{"ja":"x"},"__proto__":{"ja":"y"}}'), counts: {} })
+    const out = suggest(buildReverseIndex(d), 'x')
+    expect(out.find((s) => s.tag === 'constructor')?.count).toBe(0)
+    const p = suggest(buildReverseIndex(d), 'y')
+    expect(p.map((s) => s.tag)).toEqual(['__proto__'])
+    expect(p[0].count).toBe(0)
+  })
+  it('memoises the index per dict object', () => {
+    const d = mk({ artists: { a_b: { ja: 'あ' } } })
+    expect(buildReverseIndex(d)).toBe(buildReverseIndex(d))
+    expect(buildReverseIndex(mk({}))).not.toBe(buildReverseIndex(d))
+  })
+})
+
 describe('getDict / validateDict', () => {
   it('validates shape', () => {
     expect(validateDict(dict)).toBe(true)

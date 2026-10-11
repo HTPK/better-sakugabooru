@@ -62,8 +62,12 @@ function sanitize(raw: unknown): Settings {
 }
 
 export async function loadSettings(): Promise<Settings> {
-  const r = await chrome.storage.sync.get(KEY)
-  return sanitize(r[KEY])
+  try {
+    const r = await chrome.storage.sync.get(KEY)
+    return sanitize(r[KEY])
+  } catch {
+    return { ...DEFAULTS }
+  }
 }
 
 export async function saveSettings(patch: Partial<Settings>): Promise<void> {

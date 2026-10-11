@@ -22,6 +22,16 @@ function makeArea(name: string, listeners: Listener[]) {
       }
       for (const l of [...listeners]) l(changes, name)
     },
+    async remove(keys: string | string[]) {
+      const list = typeof keys === 'string' ? [keys] : keys
+      const changes: Record<string, { oldValue?: unknown; newValue?: unknown }> = {}
+      for (const k of list) {
+        if (!(k in store)) continue
+        changes[k] = { oldValue: store[k] }
+        delete store[k]
+      }
+      if (Object.keys(changes).length) for (const l of [...listeners]) l(changes, name)
+    },
   }
 }
 
@@ -49,7 +59,12 @@ function makeChrome() {
       onInstalled: { addListener: (_l: unknown) => {} },
     },
     alarms: {
+      alarms,
       create: (name: string, info: unknown) => void (alarms[name] = info),
+      get: (name: string, cb: (a?: unknown) => void) => {
+        const a = alarms[name]
+        cb(a === undefined ? undefined : { name, ...(a as object) })
+      },
       onAlarm: { addListener: (l: (alarm: unknown) => void) => void alarmListeners.push(l) },
     },
   }

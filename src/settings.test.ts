@@ -6,6 +6,13 @@ describe('settings', () => {
     expect(await loadSettings()).toEqual(DEFAULTS)
   })
 
+  it('returns defaults when storage throws', async () => {
+    chrome.storage.sync.get = (async () => {
+      throw new Error('storage down')
+    }) as never
+    expect(await loadSettings()).toEqual(DEFAULTS)
+  })
+
   it('merges stored values over defaults', async () => {
     await chrome.storage.sync.set({ settings: { theme: 'dark', perPage: 100 } })
     const s = await loadSettings()

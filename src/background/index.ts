@@ -1,20 +1,8 @@
-import { refreshDict } from './refresh'
+import { ensureAlarm, handleAlarm, handleInstalled, handleMessage } from './handlers'
 
-const ALARM = 'bsb-dict-refresh'
+chrome.runtime.onInstalled.addListener(() => handleInstalled())
+chrome.alarms.onAlarm.addListener((alarm) => handleAlarm(alarm))
+chrome.runtime.onMessage.addListener((msg, _sender, sendResponse) => handleMessage(msg, sendResponse))
 
-chrome.runtime.onInstalled.addListener(() => {
-  void refreshDict()
-  chrome.alarms.create(ALARM, { periodInMinutes: 1440 })
-})
-
-chrome.alarms.onAlarm.addListener((alarm) => {
-  if (alarm.name === ALARM) void refreshDict()
-})
-
-chrome.runtime.onMessage.addListener((msg, _sender, sendResponse) => {
-  if (msg && msg.type === 'bsb:refresh-now') {
-    void refreshDict().then(sendResponse)
-    return true
-  }
-  return false
-})
+// Self-heal: re-create the alarm on every service-worker start if it was lost.
+ensureAlarm()

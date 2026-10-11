@@ -50,21 +50,38 @@ export function displayName(l: Lookup): string {
   return l.ja ?? l.tag
 }
 
+function countOf(dict: Dict, tag: string): number {
+  const c = dict.counts
+  if (!c || !Object.prototype.hasOwnProperty.call(c, tag)) return 0
+  const n = c[tag]
+  return typeof n === 'number' && Number.isFinite(n) ? n : 0
+}
+
+const indexCache = new WeakMap<Dict, ReverseIndex>()
+
+/** Built once per dict object (memoised). */
 export function buildReverseIndex(dict: Dict): ReverseIndex {
+  const cached = indexCache.get(dict)
+  if (cached) return cached
   const keys: ReverseIndex['keys'] = []
   const add = (map: Record<string, Entry>, type: TagType) => {
     for (const [tag, e] of Object.entries(map)) {
-      const count = dict.counts?.[tag] ?? 0
-      const base = { tag, type, ja: e.ja, kana: e.kana, count }
+      const base = { tag, type, ja: e.ja, kana: e.kana, count: countOf(dict, tag) }
       keys.push({ ...base, key: normalizeJa(e.ja) })
       if (e.kana) keys.push({ ...base, key: normalizeJa(e.kana) })
-      keys.push({ ...base, key: tag.toLowerCase() })
+      const en = tag.toLowerCase()
+      keys.push({ ...base, key: en })
+      // Spaces are dropped by normalizeJa, so "dragon ball" must also hit "dragonball".
+      const joined = en.replace(/_/g, '')
+      if (joined !== en) keys.push({ ...base, key: joined })
     }
   }
   add(dict.artists, 'artist')
   add(dict.copyrights, 'copyright')
   add(dict.general, 'general')
-  return { keys }
+  const index = { keys }
+  indexCache.set(dict, index)
+  return index
 }
 
 export function suggest(index: ReverseIndex, query: string, limit = 8): Suggestion[] {

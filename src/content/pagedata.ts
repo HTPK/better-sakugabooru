@@ -53,10 +53,10 @@ export function extractJsonObjects(text: string, prefix: string): string[] {
     from = at + needle.length
     if (text[j] !== '{') continue
     const obj = balancedObject(text, j)
-    if (obj) {
-      out.push(obj)
-      from = j + obj.length
-    }
+    // Unbalanced: the rest of the text is inside it, so rescanning would only be quadratic work.
+    if (!obj) break
+    out.push(obj)
+    from = j + obj.length
   }
   return out
 }
@@ -94,13 +94,16 @@ function toPost(r: Record<string, unknown>): Post {
 
 export function parsePosts(doc: Document): { posts: Post[]; tagTypes: Record<string, TagType> } {
   const posts: Post[] = []
-  const tagTypes: Record<string, TagType> = {}
+  const seen = new Set<number>()
+  const tagTypes: Record<string, TagType> = Object.create(null)
   for (const script of Array.from(doc.scripts)) {
     const text = script.textContent ?? ''
     if (!text.includes('Post.register')) continue
     for (const s of extractJsonObjects(text, 'Post.register')) {
       const r = tryParse(s)
-      if (r && typeof r.id === 'number') posts.push(toPost(r))
+      if (!r || typeof r.id !== 'number' || seen.has(r.id)) continue
+      seen.add(r.id)
+      posts.push(toPost(r))
     }
     for (const s of extractJsonObjects(text, 'Post.register_tags')) {
       const r = tryParse(s)
