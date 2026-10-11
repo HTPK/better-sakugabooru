@@ -22,7 +22,7 @@ export function injectListStyle(doc: Document): void {
 const spaced = (tag: string) => tag.replace(/_/g, ' ')
 
 /** Japanese name or null. artist_unknown is stored as an override outside the artist map. */
-function jaFor(dict: Dict, tag: string, type: TagType, translate: boolean): string | null {
+export function jaFor(dict: Dict, tag: string, type: TagType, translate: boolean): string | null {
   if (!translate) return null
   const ja = lookup(dict, tag, type).ja
   if (ja) return ja
@@ -39,7 +39,7 @@ function pickCopyright(post: Post, types: Record<string, TagType>): string | nul
   return cps.find((t) => !t.endsWith('_series')) ?? cps[0] ?? null
 }
 
-function untranslated(doc: Document, tag: string): Node[] {
+export function untranslated(doc: Document, tag: string): Node[] {
   return [h(doc, 'span', { class: 'bsb-raw' }, tag), h(doc, 'span', { class: 'bsb-untranslated' }, UNTRANSLATED)]
 }
 
@@ -151,7 +151,7 @@ function card(ctx: Ctx, post: Post): HTMLLIElement {
   return h(doc, 'li', { class: 'bsb-card', 'data-post-id': String(post.id) }, thumb, cap)
 }
 
-function sidebarType(li: Element): TagType | null {
+export function sidebarType(li: Element): TagType | null {
   for (const c of Array.from(li.classList)) {
     if (!c.startsWith('tag-type-')) continue
     const t = c.slice('tag-type-'.length) as TagType
@@ -160,7 +160,7 @@ function sidebarType(li: Element): TagType | null {
   return null
 }
 
-function tagFromHref(href: string): string | null {
+export function tagFromHref(href: string): string | null {
   const q = href.indexOf('?')
   if (q < 0) return null
   try {
@@ -170,16 +170,23 @@ function tagFromHref(href: string): string | null {
   }
 }
 
-function translateSidebar(ctx: Ctx): void {
-  const { doc, dict, settings } = ctx
+/** The tag link of a `#tag-sidebar li` (the one with `tags=`, not the wiki "?") and its tag. */
+export function sidebarTag(li: Element): { link: HTMLAnchorElement; tag: string } | null {
+  const link = Array.from(li.querySelectorAll('a')).find((a) => (a.getAttribute('href') ?? '').includes('tags='))
+  const tag = link && tagFromHref(link.getAttribute('href') ?? '')
+  return link && tag ? { link, tag } : null
+}
+
+/** Translates `#tag-sidebar` tag links in place (shared by list and show pages). */
+export function translateSidebar(doc: Document, dict: Dict, settings: Settings): void {
   if (!settings.translateTags) return
   for (const li of Array.from(doc.querySelectorAll('#tag-sidebar li'))) {
     if (li.hasAttribute('data-bsb-done')) continue
     const type = sidebarType(li)
     if (!type) continue
-    const link = Array.from(li.querySelectorAll('a')).find((a) => (a.getAttribute('href') ?? '').includes('tags='))
-    const tag = link && tagFromHref(link.getAttribute('href') ?? '')
-    if (!link || !tag) continue
+    const found = sidebarTag(li)
+    if (!found) continue
+    const { link, tag } = found
     const ja = jaFor(dict, tag, type, true)
     if (ja) {
       link.textContent = ja
@@ -234,7 +241,7 @@ export function renderList(doc: Document, dict: Dict, settings: Settings): { car
     img.alt = text
   }
 
-  translateSidebar(ctx)
+  translateSidebar(doc, dict, settings)
   rewritePaginator(doc, settings.perPage)
   return { cards: posts.length }
 }

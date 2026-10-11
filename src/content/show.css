@@ -1,0 +1,141 @@
+/* Better Sakugabooru: show page (variant E). Colors come only from tokens.css. */
+
+/* ---- Title band ---- */
+.bsb-show-band {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 16px 24px;
+}
+.bsb-show-titles {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex: 1 1 520px;
+  min-width: 0;
+}
+.bsb-show-band .bsb-lead {
+  margin: 0;
+  line-height: 1.4;
+}
+.bsb-show-band h1 .bsb-raw {
+  font-size: inherit;
+  color: inherit;
+  font-family: var(--bsb-font-en);
+}
+.bsb-show-band .bsb-en-title {
+  margin-left: auto;
+  color: var(--bsb-text);
+}
+.bsb-show-nav {
+  display: flex;
+  gap: 2px;
+}
+html[data-bsb-theme] .bsb-show-nav a.bsb-show-step {
+  height: 40px;
+  padding: 0 18px;
+  display: inline-flex;
+  align-items: center;
+  background: var(--bsb-subtle);
+  color: var(--bsb-text);
+  font-size: 14px;
+  border-radius: 0;
+}
+html[data-bsb-theme] .bsb-show-nav a.bsb-show-step:hover {
+  color: var(--bsb-red-text);
+}
+
+/* ---- Layout: player column + 300px sidebar ---- */
+#post-view.bsb-show-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 300px;
+  gap: 32px;
+  align-items: start;
+  padding: 24px 48px 40px;
+}
+#post-view.bsb-show-grid > * {
+  grid-column: 1 / -1;
+}
+#post-view.bsb-show-grid > .bsb-show-main {
+  grid-column: 1;
+}
+#post-view.bsb-show-grid > .sidebar {
+  grid-column: 2;
+  float: none;
+  width: auto;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.bsb-show-main {
+  display: block;
+  min-width: 0;
+}
+.bsb-show-main #right-col {
+  float: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.bsb-show-main .video-js {
+  width: 100% !important;
+  height: auto !important;
+  aspect-ratio: var(--bsb-ar, 16/9);
+}
+.bsb-show-main video {
+  max-width: 100%;
+}
+.bsb-show-main #comments {
+  max-width: none !important;
+}
+
+/* ---- Sidebar ---- */
+.bsb-sb-head {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 12px 0 4px;
+  list-style: none;
+}
+.bsb-sb-head:first-child {
+  margin-top: 0;
+}
+.bsb-propose {
+  display: inline-block;
+  margin-top: 12px;
+  color: var(--bsb-red-text);
+  font-size: 12px;
+}
+html[data-bsb-theme] a.bsb-propose {
+  color: var(--bsb-red-text);
+  text-decoration: underline;
+}
+
+/* ---- Stats: one label/value row per li ---- */
+#stats ul.bsb-stats {
+  display: block;
+  padding: 4px 16px;
+  border-top: 1px solid var(--bsb-subtle);
+  border-bottom: 1px solid var(--bsb-subtle);
+  font-size: 13px;
+  line-height: 2;
+}
+#stats ul.bsb-stats > li {
+  display: grid;
+  grid-template-columns: 88px minmax(0, 1fr);
+  gap: 0 12px;
+}
+.bsb-stats-value {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 900px) {
+  #post-view.bsb-show-grid {
+    grid-template-columns: minmax(0, 1fr);
+    padding: 16px;
+  }
+  #post-view.bsb-show-grid > .sidebar {
+    grid-column: 1;
+  }
+}
