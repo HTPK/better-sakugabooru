@@ -1,4 +1,4 @@
-# Better Sakugabooru
+# SakuView for Sakugabooru
 
 [Sakugabooru](https://www.sakugabooru.com/) を日本語で見やすくする Chrome 拡張 (Manifest V3) です。非公式のツールで、Sakugabooru 運営とは無関係です。
 
@@ -13,11 +13,11 @@
 ### A. zip を読み込む (開発者モード)
 
 1. エクスプローラーでこのフォルダの `release` フォルダを開きます。
-2. `better-sakugabooru-1.0.0.zip` を右クリックして「すべて展開」を選び、展開します (できたフォルダの直下に `manifest.json` があればOK)。
+2. `sakuview-1.0.0.zip` を右クリックして「すべて展開」を選び、展開します (できたフォルダの直下に `manifest.json` があればOK)。
 3. Chrome のアドレスバーに `chrome://extensions` と入力して Enter。
 4. 右上の「デベロッパー モード」をオンにします。
 5. 左上の「パッケージ化されていない拡張機能を読み込む」を押し、手順 2 で展開したフォルダを選びます。
-6. 拡張機能の一覧に「Better Sakugabooru」が出れば完了です。https://www.sakugabooru.com/ を開いてください。
+6. 拡張機能の一覧に「SakuView for Sakugabooru」が出れば完了です。https://www.sakugabooru.com/ を開いてください。
 
 展開したフォルダは削除や移動をしないでください (消すと拡張機能が無効になります)。
 
@@ -27,7 +27,7 @@
 
 ## 使い方
 
-- Chrome のツールバーにある拡張機能のアイコンを押すと設定ポップアップが開きます (見つからないときは、パズルのピースのアイコンから「Better Sakugabooru」をピン留め)。
+- Chrome のツールバーにある拡張機能のアイコンを押すと設定ポップアップが開きます (見つからないときは、パズルのピースのアイコンから「SakuView for Sakugabooru」をピン留め)。
 - テーマ (ライト / ダーク / OS に合わせる)、各機能の ON/OFF、1 ページの件数、サムネの大きさ、サムネ下に出す項目を変えられます。
 - ページ右上のヘッダーにある JP | EN で、サイト本体の言語を切り替えられます。
 - 辞書に無いタグには「訳を提案する」リンクが出ます。自分でクリックしたときだけ、GitHub の Issue フォームが開き、投稿の URL と未訳タグが入力欄に入ります。内容を確認して送信してください。
@@ -44,7 +44,7 @@ pnpm dev        # 開発サーバー
 pnpm test       # 単体テスト
 pnpm typecheck  # 型チェック
 pnpm build      # dist/ に拡張を出力
-pnpm release    # 型チェック + テスト + ビルド + release/better-sakugabooru-<version>.zip
+pnpm release    # 型チェック + テスト + ビルド + release/sakuview-<version>.zip
 pnpm smoke      # 実サイトでの確認 (Playwright)。スクリーンショットは test/smoke/screenshots/ に出る
 ```
 

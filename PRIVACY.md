@@ -1,6 +1,6 @@
 # プライバシーポリシー / Privacy Policy
 
-Better Sakugabooru (Chrome 拡張機能)
+SakuView for Sakugabooru (Chrome 拡張機能)
 
 最終更新: 2026-10-13
 

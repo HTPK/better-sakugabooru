@@ -1,4 +1,4 @@
-// Zips dist/ into release/better-sakugabooru-<version>.zip for the Chrome Web Store.
+// Zips dist/ into release/sakuview-<version>.zip for the Chrome Web Store.
 import { createWriteStream, existsSync, mkdirSync, readFileSync, statSync } from 'node:fs'
 import { dirname, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
@@ -8,7 +8,7 @@ const root = resolve(dirname(fileURLToPath(import.meta.url)), '..')
 const dist = resolve(root, 'dist')
 const { version } = JSON.parse(readFileSync(resolve(root, 'package.json'), 'utf8'))
 const outDir = resolve(root, 'release')
-const out = resolve(outDir, `better-sakugabooru-${version}.zip`)
+const out = resolve(outDir, `sakuview-${version}.zip`)
 
 if (!existsSync(resolve(dist, 'manifest.json'))) {
   console.error('zip: dist/manifest.json not found; run pnpm build first')

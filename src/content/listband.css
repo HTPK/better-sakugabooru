@@ -1,4 +1,4 @@
-/* Better Sakugabooru: list page title band (variant E, Dense). Colors come only from tokens.css.
+/* SakuView: list page title band (variant E, Dense). Colors come only from tokens.css.
  * Selectors carry html[data-bsb-theme] where the site's bare `div`/`input`/`button` rules would otherwise win.
  */
 html[data-bsb-theme] .bsb-listband {

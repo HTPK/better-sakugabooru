@@ -4,7 +4,7 @@
 
 ## 名前 (manifest から自動)
 
-Better Sakugabooru
+SakuView for Sakugabooru
 
 ## 短い説明 (manifest から自動)
 

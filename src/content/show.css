@@ -1,4 +1,4 @@
-/* Better Sakugabooru: show page (variant E, ShowE mock). Colors come only from tokens.css. */
+/* SakuView: show page (variant E, ShowE mock). Colors come only from tokens.css. */
 
 /* The site gives body a 42px gutter; the band must be full-bleed like the mock. */
 html[data-bsb-theme] body[data-bsb-show] {

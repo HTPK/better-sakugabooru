@@ -1,4 +1,4 @@
-/* Better Sakugabooru: header bar (variant E). Colors come only from tokens.css.
+/* SakuView: header bar (variant E). Colors come only from tokens.css.
  * Selectors carry html[data-bsb-theme] so they outrank the generic #header / #main-menu rules in site.css.
  * Width budget at 1280 px: logo + 10 menu items (14 px, gap 16) + search + JP|EN + upload + account.
  * The page body already keeps a side gutter, so the bar has no horizontal padding of its own.
