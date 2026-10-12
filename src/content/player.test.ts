@@ -53,7 +53,15 @@ function setup(attrs = `loop data-setup='${SETUP}'`, visual = false) {
   const screen = doc.getElementById('screen')!
   const state = fakeMedia(video)
   const conf = readSetup(video)
-  const row = buildPlayer(doc, { video, screen, rates: conf.rates, fps: conf.fps, fileUrl: 'https://x/a.mp4', fileSize: 13486318 })
+  const row = buildPlayer(doc, {
+    video,
+    screen,
+    rates: conf.rates,
+    fps: conf.fps,
+    fpsKnown: conf.fpsKnown,
+    fileUrl: 'https://x/a.mp4',
+    fileSize: 13486318,
+  })
   doc.body.append(row)
   return { doc, video, screen, state, row, conf }
 }
@@ -145,6 +153,33 @@ describe('buildPlayer', () => {
     await video.play()
     video.currentTime = 4
     expect(row.querySelector('.bsb-time-cur')!.textContent).toBe('0:04.0')
+  })
+
+  it('shows a 1-based frame counter next to the time when fps is known, and steps advance it by one', () => {
+    const { row, video, state } = setup()
+    const fps = 23.976024
+    state.duration = 21.1
+    video.dispatchEvent(new video.ownerDocument.defaultView!.Event('loadedmetadata'))
+    const cur = row.querySelector('.bsb-frame-cur')!
+    const total = row.querySelector('.bsb-frame-total')!
+    expect(cur.textContent).toBe('1')
+    expect(total.textContent).toBe(String(Math.round(21.1 * fps)))
+    video.currentTime = 8.3
+    expect(cur.textContent).toBe(String(Math.floor(8.3 * fps) + 1))
+    const fwd = row.querySelectorAll<HTMLButtonElement>('.bsb-step')[1]
+    const before = Number(cur.textContent)
+    for (let i = 1; i <= 5; i++) {
+      fwd.click()
+      expect(cur.textContent).toBe(String(before + i))
+    }
+    video.currentTime = 21.1
+    expect(cur.textContent).toBe(total.textContent) // never one past the end
+  })
+
+  it('shows no frame counter when fps is only a default', () => {
+    const { row } = setup(`data-setup='{"playbackRates":[1]}'`)
+    expect(row.querySelector('.bsb-frame')).toBeNull()
+    expect(row.querySelector('.bsb-time')).not.toBeNull()
   })
 
   it('seeks when the progress bar is clicked', () => {

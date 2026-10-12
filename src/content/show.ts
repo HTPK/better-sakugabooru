@@ -308,6 +308,7 @@ function player(doc: Document, right: Element, post: ShowPost | null): { block: 
     screen,
     rates: conf.rates,
     fps: conf.fps,
+    fpsKnown: conf.fpsKnown,
     fileUrl: post?.fileUrl ?? undefined,
     fileSize: post?.fileSize ?? undefined,
   })

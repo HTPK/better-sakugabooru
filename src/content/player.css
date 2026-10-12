@@ -94,6 +94,18 @@ html[data-bsb-theme] .bsb-player-row button.bsb-play:hover {
   color: var(--bsb-text);
   font-weight: 700;
 }
+/* Frame counter beside the time: same voice, so "0:08.3 / 0:21.1  199 / 506 f" reads as one readout. */
+.bsb-frame {
+  font-family: var(--bsb-font-en);
+  font-size: 14px;
+  color: var(--bsb-sub);
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+.bsb-frame .bsb-frame-cur {
+  color: var(--bsb-text);
+  font-weight: 700;
+}
 .bsb-progress {
   flex: 1 1 100px;
   min-width: 100px;

@@ -20,11 +20,27 @@ export interface PlayerOptions {
   screen: HTMLElement
   rates: number[]
   fps: number
+  /** Show a frame counter next to the time (only when fps is the page's real value, not a default). */
+  fpsKnown?: boolean
   fileUrl?: string
   fileSize?: number
 }
 
+/** 1-based frame number at `sec` (frame 1 starts at 0 s). A tiny epsilon absorbs t + n/fps rounding. */
+export function frameAt(sec: number, fps: number): number {
+  if (!Number.isFinite(sec) || sec < 0 || !(fps > 0)) return 1
+  return Math.floor(sec * fps + FRAME_EPSILON) + 1
+}
+
+/** Total frames of a clip, or null when the duration is unknown. */
+export function frameCount(duration: number, fps: number): number | null {
+  if (!Number.isFinite(duration) || duration <= 0 || !(fps > 0)) return null
+  return Math.max(1, Math.round(duration * fps))
+}
+
 const pad = (n: number, w: number) => String(n).padStart(w, '0')
+const FRAME_EPSILON = 1e-4
+const FRAME_UNKNOWN = '-'
 
 /** `m:ss.d`; unknown values render as placeholders, never as a made-up number. */
 export function formatTime(sec: number): string {
@@ -95,6 +111,11 @@ export function buildPlayer(doc: Document, o: PlayerOptions): HTMLElement {
   const cur = h(doc, 'b', { class: 'bsb-time-cur' }, formatTime(0))
   const total = h(doc, 'span', { class: 'bsb-time-total' }, formatTime(NaN))
   const time = h(doc, 'span', { class: 'bsb-time' }, cur, ' / ', total)
+  const frameCur = h(doc, 'b', { class: 'bsb-frame-cur' }, '1')
+  const frameTotal = h(doc, 'span', { class: 'bsb-frame-total' }, FRAME_UNKNOWN)
+  const frame = o.fpsKnown
+    ? h(doc, 'span', { class: 'bsb-frame', title: `コマ番号 (${formatFps(o.fps)} fps)` }, frameCur, ' / ', frameTotal, ' f')
+    : null
   const fill = h(doc, 'div', { class: 'bsb-progress-fill' })
   const bar = h(doc, 'div', { class: 'bsb-progress', role: 'slider', 'aria-label': '再生位置', 'aria-valuemin': '0', tabindex: '0' }, fill)
   const speeds = o.rates.map((r) => button(doc, '', `${r}x`, { 'data-rate': String(r) }))
@@ -123,6 +144,11 @@ export function buildPlayer(doc: Document, o: PlayerOptions): HTMLElement {
     const d = v.duration
     cur.textContent = formatTime(v.currentTime)
     total.textContent = formatTime(d)
+    if (frame) {
+      const n = frameCount(d, o.fps)
+      frameCur.textContent = String(n === null ? frameAt(v.currentTime, o.fps) : Math.min(n, frameAt(v.currentTime, o.fps)))
+      frameTotal.textContent = n === null ? FRAME_UNKNOWN : String(n)
+    }
     const pct = Number.isFinite(d) && d > 0 ? Math.min(100, (v.currentTime / d) * 100) : 0
     fill.style.width = `${pct}%`
     bar.setAttribute('aria-valuenow', String(Math.round(pct)))
@@ -183,17 +209,17 @@ export function buildPlayer(doc: Document, o: PlayerOptions): HTMLElement {
   // `timeupdate` fires only about four times a second, which makes a tenths readout and the bar
   // advance in uneven jumps. While playing, refresh on every animation frame instead.
   const win = doc.defaultView
-  let frame = 0
+  let rafId = 0
   const tick = () => {
     syncTime()
-    frame = win?.requestAnimationFrame ? win.requestAnimationFrame(tick) : 0
+    rafId = win?.requestAnimationFrame ? win.requestAnimationFrame(tick) : 0
   }
   const startTicking = () => {
-    if (!frame && win && typeof win.requestAnimationFrame === 'function') frame = win.requestAnimationFrame(tick)
+    if (!rafId && win && typeof win.requestAnimationFrame === 'function') rafId = win.requestAnimationFrame(tick)
   }
   const stopTicking = () => {
-    if (frame && win) win.cancelAnimationFrame(frame)
-    frame = 0
+    if (rafId && win) win.cancelAnimationFrame(rafId)
+    rafId = 0
     syncTime()
   }
 
@@ -205,7 +231,7 @@ export function buildPlayer(doc: Document, o: PlayerOptions): HTMLElement {
   v.addEventListener('ratechange', syncRate)
   v.addEventListener('volumechange', syncMute)
 
-  const row = h(doc, 'div', { class: 'bsb-player-row' }, play, time, bar, speed, back, fwd, loop, mute, save, full)
+  const row = h(doc, 'div', { class: 'bsb-player-row' }, play, time, frame, bar, speed, back, fwd, loop, mute, save, full)
   row.addEventListener('keydown', (e) => {
     if (e.key !== ' ' || e.ctrlKey || e.metaKey || e.altKey) return
     e.preventDefault()
