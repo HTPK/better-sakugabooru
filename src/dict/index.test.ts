@@ -43,11 +43,11 @@ describe('suggest', () => {
     expect(suggest(idx, 'カナダ').map((s) => s.tag)).toContain('yoshinori_kanada')
   })
   it('sorts prefix group by count desc', () => {
-    expect(suggest(idx, '金田').map((s) => s.tag)).toEqual([
-      'kanada_light_flare',
-      'yoshinori_kanada',
-      'kanada_dragon',
-    ])
+    // The bundled snapshot grows over time; pin the leaders and check the ordering rule for the rest.
+    const hits = suggest(idx, '金田')
+    expect(hits.slice(0, 3).map((s) => s.tag)).toEqual(['kanada_light_flare', 'yoshinori_kanada', 'kanada_dragon'])
+    const counts = hits.map((s) => s.count)
+    expect(counts).toEqual([...counts].sort((a, b) => b - a))
   })
   it('matches romaji tag prefix first, then substring', () => {
     expect(suggest(idx, 'kanada').map((s) => s.tag)).toEqual([
