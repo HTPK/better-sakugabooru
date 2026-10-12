@@ -266,6 +266,16 @@ describe('renderList', () => {
   })
 })
 
+/** What a page-derived panel must show: per-tag post counts on this page, desc, ties by first appearance, artist_unknown last. */
+function pageExpected(html: string, type: 'artist' | 'copyright') {
+  const { posts, tagTypes } = parsePosts(new JSDOM(html).window.document)
+  const counts = new Map<string, number>()
+  for (const p of posts) for (const t of p.tags) if (tagTypes[t] === type) counts.set(t, (counts.get(t) ?? 0) + 1)
+  const rows = Array.from(counts, ([tag, count]) => ({ tag, count: String(count) }))
+  const main = rows.filter((r) => r.tag !== 'artist_unknown').sort((a, b) => Number(b.count) - Number(a.count))
+  return main.concat(rows.filter((r) => r.tag === 'artist_unknown'))
+}
+
 /** Rows of the site's `#tag-sidebar` read straight from the untouched fixture. */
 function fixtureRows(html: string, type: string) {
   const doc = new JSDOM(html).window.document
@@ -323,14 +333,36 @@ for (const file of ['post-list-2026-10-12.html', 'post-list-ja-2026-10-12.html']
       ])
     })
 
-    it('artist and copyright rows carry the fixture tags and post counts, in order', () => {
+    it('artist and copyright rows are counted over the posts on this page, most frequent first', () => {
       const doc = go()
-      expect(rows(panel(doc, 'artist'))).toEqual(fixtureRows(src, 'artist').slice(0, 12))
-      expect(rows(panel(doc, 'copyright'))).toEqual(fixtureRows(src, 'copyright'))
-      const kab = panel(doc, 'artist').querySelector<HTMLElement>('a[data-tag="kabukyuu"]')!
-      expect(kab.querySelector('.bsb-side-name')!.textContent).toBe('スタブ作画者')
-      expect(kab.getAttribute('href')).toBe('/post?tags=kabukyuu')
-      expect(kab.classList.contains('bsb-t-artist')).toBe(true)
+      // The site's own list is its top-25 popular tags, not this page: it must NOT be the source.
+      expect(fixtureRows(src, 'artist').some((r) => Number(r.count) > 40)).toBe(true)
+      for (const type of ['artist', 'copyright'] as const) {
+        const p = panel(doc, type)
+        expect(p.dataset.source).toBe('page')
+        const got = rows(p)
+        expect(got).toEqual(pageExpected(src, type))
+        expect(got.length).toBeGreaterThan(3)
+      }
+      // Every artist shown on a card is in the panel (folded rows included).
+      const { tagTypes } = parsePosts(new JSDOM(src).window.document)
+      const onCards = new Set(
+        Array.from(doc.querySelectorAll<HTMLElement>('.bsb-card[data-tags]'))
+          .flatMap((c) => c.dataset.tags!.split(' '))
+          .filter((t) => tagTypes[t] === 'artist'),
+      )
+      const inPanel = new Set(rows(panel(doc, 'artist')).map((r) => r.tag))
+      for (const t of onCards) expect(inPanel.has(t), t).toBe(true)
+      // artist_unknown is a placeholder: present, but last.
+      const artistTags = rows(panel(doc, 'artist')).map((r) => r.tag)
+      if (artistTags.includes('artist_unknown')) expect(artistTags.at(-1)).toBe('artist_unknown')
+      // kabukyuu sits only in the site's popular list, not on this page's cards: it must be gone.
+      expect(panel(doc, 'artist').querySelector('a[data-tag="kabukyuu"]')).toBeNull()
+      const man = panel(doc, 'artist').querySelector<HTMLElement>('a[data-tag="shuuichiro_manabe"]')!
+      expect(man).not.toBeNull()
+      expect(man.querySelector('.bsb-side-name')!.textContent).toBe('スタブ真鍋')
+      expect(man.getAttribute('href')).toBe('/post?tags=shuuichiro_manabe')
+      expect(man.classList.contains('bsb-t-artist')).toBe(true)
       const dbs = panel(doc, 'copyright').querySelector('a[data-tag="my_hero_academia"]')!
       expect(dbs.classList.contains('bsb-t-copyright')).toBe(true)
       expect(panel(doc, 'artist').querySelector('.bsb-side-h')).not.toBeNull()
@@ -357,9 +389,39 @@ for (const file of ['post-list-2026-10-12.html', 'post-list-ja-2026-10-12.html']
       expect(asked).not.toContain('kabukyuu')
     })
 
-    it('技法 falls back to this page’s posts when the site lists no general tags, with real counts', () => {
+    it('folds artists beyond 12 behind ほか N 名, and the button reveals them', () => {
       const doc = go()
-      expect(fixtureRows(src, 'general')).toHaveLength(0)
+      const p = panel(doc, 'artist')
+      const all = Array.from(p.querySelectorAll<HTMLElement>('a.bsb-side-row'))
+      const more = p.querySelector<HTMLButtonElement>('button.bsb-side-more')
+      if (all.length <= 12) {
+        expect(more).toBeNull()
+        return
+      }
+      expect(all.filter((a) => !a.hidden)).toHaveLength(12)
+      expect(more!.textContent).toBe(`ほか ${all.length - 12} 名`)
+      more!.click()
+      expect(all.filter((a) => a.hidden)).toHaveLength(0)
+      expect(more!.textContent).toBe('閉じる')
+      more!.click()
+      expect(all.filter((a) => !a.hidden)).toHaveLength(12)
+    })
+
+    it('hovering a panel name highlights the cards carrying that tag', () => {
+      const doc = go()
+      const row = panel(doc, 'copyright').querySelector<HTMLElement>('a.bsb-side-row')!
+      const tag = row.dataset.tag!
+      row.dispatchEvent(new doc.defaultView!.MouseEvent('mouseover', { bubbles: true }))
+      const lit = Array.from(doc.querySelectorAll<HTMLElement>('.bsb-card.bsb-hl'))
+      const { posts } = parsePosts(new JSDOM(src).window.document)
+      expect(lit.length).toBe(posts.filter((x) => x.tags.includes(tag)).length)
+      for (const c of lit) expect(c.dataset.tags!.split(' ')).toContain(tag)
+      row.dispatchEvent(new doc.defaultView!.MouseEvent('mouseout', { bubbles: true }))
+      expect(doc.querySelectorAll('.bsb-card.bsb-hl')).toHaveLength(0)
+    })
+
+    it('技法 chips are counted over this page’s posts, with real counts', () => {
+      const doc = go()
       const p = panel(doc, 'general')
       expect(p.dataset.source).toBe('page')
       const chips = Array.from(p.querySelectorAll<HTMLAnchorElement>('a.bsb-side-chip'))
@@ -400,16 +462,19 @@ describe('sidebar panels from synthetic sidebars', () => {
     `<div class="content"><div><ul id="post-list-posts"></ul></div><div id="paginator"></div></div></div></div>` +
     `<script>Post.register({"id":1,"tags":"a_tag","score":1,"created_at":1,"preview_url":"p","file_url":"f","width":1,"height":1})</script>`
 
-  it('shows at most 12 artists then ほか N 名', () => {
+  it('falls back to the site’s artist rows when the page JSON has none, folding past 12', () => {
     const items = Array.from({ length: 15 }, (_, i) => li('artist', `artist_${i}`, 20 - i)).join('')
     const doc = new JSDOM(page(items), { url: 'https://www.sakugabooru.com/post' }).window.document
     renderList(doc, dict, DEFAULTS)
-    const p = doc.querySelector('.bsb-side-panel[data-type="artist"]')!
-    expect(p.querySelectorAll('a.bsb-side-row')).toHaveLength(12)
+    const p = doc.querySelector<HTMLElement>('.bsb-side-panel[data-type="artist"]')!
+    expect(p.dataset.source).toBe('sidebar')
+    const all = Array.from(p.querySelectorAll<HTMLElement>('a.bsb-side-row'))
+    expect(all).toHaveLength(15)
+    expect(all.filter((a) => !a.hidden)).toHaveLength(12)
     expect(p.querySelector('.bsb-side-more')!.textContent).toBe('ほか 3 名')
   })
 
-  it('uses the site’s general rows for 技法 chips when present', () => {
+  it('falls back to the site’s general rows for 技法 chips when the page JSON has none', () => {
     const doc = new JSDOM(page(li('general', 'effects', 7) + li('general', 'smears', 3)), {
       url: 'https://www.sakugabooru.com/post',
     }).window.document

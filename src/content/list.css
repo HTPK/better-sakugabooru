@@ -108,7 +108,21 @@ html[data-bsb-theme] .bsb-side-count {
   color: var(--bsb-faint);
 }
 html[data-bsb-theme] .bsb-side-more {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  font: inherit;
+  text-align: left;
   color: var(--bsb-muted);
+  cursor: pointer;
+}
+html[data-bsb-theme] .bsb-side-more:hover {
+  color: var(--bsb-red-text);
+}
+/* Folded rows/chips: our display rules would otherwise beat the UA's [hidden]. */
+.bsb-side [hidden] {
+  display: none !important;
 }
 .bsb-side-chips {
   display: flex;
@@ -171,7 +185,8 @@ html[data-bsb-theme] .bsb-card {
   color: var(--bsb-text);
 }
 .bsb-card:hover,
-.bsb-card:focus-within {
+.bsb-card:focus-within,
+.bsb-card.bsb-hl {
   outline: 2px solid var(--bsb-red);
   outline-offset: 2px;
 }

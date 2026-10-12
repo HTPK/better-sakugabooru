@@ -14,6 +14,8 @@ const PROPOSE_BASE = 'https://github.com/HTPK/sakugabooru-ja-dict/issues/new?tem
 const PROPOSE_LIMIT = 20
 /** Present on nearly every post; never worth a 技法 chip or a translation request. */
 const NOISE = new Set(['animated'])
+/** Placeholder tags that sort to the end of a side panel. */
+const LAST = new Set(['artist_unknown'])
 const COLS: Record<Settings['thumbSize'], string> = { small: '8', medium: '6', large: '4' }
 const SIDEBAR_TYPES: readonly TagType[] = ['artist', 'copyright', 'general', 'character', 'meta', 'circle', 'faults']
 
@@ -150,7 +152,7 @@ function card(ctx: Ctx, post: Post): HTMLLIElement {
     settings.showScoreDate && metaRow(ctx, post),
     settings.showTech && techRow(ctx, post),
   )
-  return h(doc, 'li', { class: 'bsb-card', 'data-post-id': String(post.id) }, thumb, cap)
+  return h(doc, 'li', { class: 'bsb-card', 'data-post-id': String(post.id), 'data-tags': post.tags.join(' ') }, thumb, cap)
 }
 
 export function sidebarType(li: Element): TagType | null {
@@ -287,6 +289,24 @@ interface PanelSpec {
   max: number
   more: (n: number) => string
 }
+const FOLD_LABEL = '閉じる'
+const HL = 'bsb-hl'
+
+function tagOfTarget(target: EventTarget | null): string | null {
+  // Duck-typed rather than `instanceof Element`: nodes may come from another window (tests, iframes).
+  const el = target as Partial<Element> | null
+  if (!el || typeof el.closest !== 'function') return null
+  return el.closest<HTMLElement>('a[data-tag]')?.dataset.tag ?? null
+}
+
+/** Marks the grid cards carrying `tag` (null clears). Cards list their tags in `data-tags`. */
+export function highlightCards(doc: Document, tag: string | null): void {
+  for (const card of Array.from(doc.querySelectorAll<HTMLElement>('.bsb-card[data-tags]'))) {
+    const on = tag !== null && (card.dataset.tags ?? '').split(' ').includes(tag)
+    card.classList.toggle(HL, on)
+  }
+}
+
 const PANELS: readonly PanelSpec[] = [
   { type: 'artist', title: '作画者', max: 12, more: (n) => `ほか ${n} 名` },
   { type: 'copyright', title: '作品', max: Infinity, more: (n) => `ほか ${n} 件` },
@@ -305,15 +325,21 @@ function siteRows(doc: Document, type: TagType): SideRow[] {
   return out
 }
 
-/** Fallback when the site lists no tags of a type: how many posts on this page carry each tag. */
+/**
+ * How many of the posts shown on this page carry each tag of `type`, most frequent first, ties in
+ * order of first appearance. `artist_unknown` goes last: it is a placeholder, not a person.
+ */
 function pageRows(posts: Post[], types: Record<string, TagType>, type: TagType): SideRow[] {
   const counts = new Map<string, number>()
   for (const p of posts) {
     for (const t of p.tags) if (types[t] === type && !NOISE.has(t)) counts.set(t, (counts.get(t) ?? 0) + 1)
   }
-  return Array.from(counts, ([tag, count]) => ({ tag, count, href: `/post?tags=${encodeURIComponent(tag)}` })).sort(
-    (a, b) => b.count - a.count || (a.tag < b.tag ? -1 : a.tag > b.tag ? 1 : 0),
-  )
+  const rows = Array.from(counts, ([tag, count]) => ({ tag, count, href: `/post?tags=${encodeURIComponent(tag)}` }))
+  const last = rows.filter((r) => LAST.has(r.tag))
+  return rows
+    .filter((r) => !LAST.has(r.tag))
+    .sort((a, b) => b.count - a.count)
+    .concat(last)
 }
 
 function sideItem(ctx: Ctx, type: PanelSpec['type'], row: SideRow, chip: boolean): HTMLAnchorElement {
@@ -354,15 +380,27 @@ function buildSide(ctx: Ctx, posts: Post[]): HTMLElement {
     if (settings.translateTags && !NOISE.has(tag) && !jaFor(dict, tag, type, true)) missing.add(tag)
   }
   for (const spec of PANELS) {
-    const fromSite = siteRows(doc, spec.type)
-    const rows = fromSite.length ? fromSite : pageRows(posts, ctx.types, spec.type)
+    // The panels describe the posts on screen. The site's own list (its top-25 popular tags,
+    // unrelated to this page) is only a fallback when the page JSON gave us nothing.
+    const fromPage = pageRows(posts, ctx.types, spec.type)
+    const rows = fromPage.length ? fromPage : siteRows(doc, spec.type)
     if (!rows.length) continue
     for (const r of rows) noteMissing(r.tag, spec.type)
     const chip = spec.type === 'general'
-    const shown = rows.slice(0, spec.max).map((r) => sideItem(ctx, spec.type, r, chip))
-    const rest = rows.length - shown.length
-    const list = h(doc, 'div', { class: chip ? 'bsb-side-chips' : 'bsb-side-rows' }, ...shown)
-    if (rest > 0) list.append(h(doc, 'span', { class: 'bsb-side-more' }, spec.more(rest)))
+    const items = rows.map((r) => sideItem(ctx, spec.type, r, chip))
+    const folded = items.slice(spec.max)
+    for (const el of folded) el.hidden = true
+    const list = h(doc, 'div', { class: chip ? 'bsb-side-chips' : 'bsb-side-rows' }, ...items)
+    if (folded.length) {
+      const more = h(doc, 'button', { type: 'button', class: 'bsb-side-more', 'aria-expanded': 'false' }, spec.more(folded.length))
+      more.addEventListener('click', () => {
+        const open = more.getAttribute('aria-expanded') !== 'true'
+        for (const el of folded) el.hidden = !open
+        more.setAttribute('aria-expanded', String(open))
+        more.textContent = open ? FOLD_LABEL : spec.more(folded.length)
+      })
+      list.append(more)
+    }
     aside.append(
       h(
         doc,
@@ -370,13 +408,16 @@ function buildSide(ctx: Ctx, posts: Post[]): HTMLElement {
         {
           class: `bsb-side-panel bsb-t-${spec.type}`,
           'data-type': spec.type,
-          'data-source': fromSite.length ? 'sidebar' : 'page',
+          'data-source': fromPage.length ? 'page' : 'sidebar',
         },
         h(doc, 'div', { class: 'bsb-side-h' }, spec.title),
         list,
       ),
     )
   }
+  // Hovering a name lights up the cards that carry that tag (the site did the same on its sidebar).
+  aside.addEventListener('mouseover', (e) => highlightCards(doc, tagOfTarget(e.target)))
+  aside.addEventListener('mouseout', () => highlightCards(doc, null))
   // Every caption on this page also counts: a card can show a tag the site's list left out.
   for (const p of posts) {
     for (const t of p.tags) {
