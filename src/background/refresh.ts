@@ -1,6 +1,6 @@
 import { sanitizeDict } from '../dict'
 
-export const DICT_URL = 'https://cdn.jsdelivr.net/gh/HTPK/sakugabooru-ja-dict@main/dist/dict.json'
+export const DICT_URL = 'https://cdn.jsdelivr.net/gh/HTPK/better-sakugabooru@main/dict/dist/dict.json'
 
 const TIMEOUT_MS = 30_000
 

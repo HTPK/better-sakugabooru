@@ -165,7 +165,7 @@ describe('popup', () => {
   it('suggestion link opens the dict repo issue form in a new tab', () => {
     const a = $<HTMLAnchorElement>('.pp-link')
     expect(a.textContent).toBe('訳を提案')
-    expect(a.getAttribute('href')).toBe('https://github.com/HTPK/sakugabooru-ja-dict/issues/new?template=translation.yml')
+    expect(a.getAttribute('href')).toBe('https://github.com/HTPK/better-sakugabooru/issues/new?template=translation.yml')
     expect(a.target).toBe('_blank')
     expect(a.rel).toBe('noopener')
   })

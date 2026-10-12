@@ -1,0 +1,161 @@
+{
+  "all_out!!": {
+    "count": 0,
+    "ja": "ALL OUT!!",
+    "kana": "おーるあうと",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "artist_unknown": {
+    "count": 0,
+    "ja": "作画者不明",
+    "needs_review": false,
+    "src": "manual",
+    "type": "artist"
+  },
+  "atsushi_ikariya": {
+    "count": 0,
+    "ja": "碇谷敦",
+    "kana": "いかりや あつし",
+    "needs_review": false,
+    "src": "manual",
+    "type": "artist"
+  },
+  "dragon_ball": {
+    "count": 0,
+    "ja": "ドラゴンボール",
+    "kana": "どらごんぼーる",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "dragon_ball_super": {
+    "count": 0,
+    "ja": "ドラゴンボール超",
+    "kana": "どらごんぼーるすーぱー",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "eiji_komatsu": {
+    "count": 0,
+    "ja": "小松英司",
+    "kana": "こまつ えいじ",
+    "needs_review": false,
+    "src": "manual",
+    "type": "artist"
+  },
+  "gundam": {
+    "count": 0,
+    "ja": "ガンダム",
+    "kana": "がんだむ",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "katsuyoshi_nakatsuru": {
+    "count": 0,
+    "ja": "中鶴勝祥",
+    "kana": "なかつる かつよし",
+    "needs_review": false,
+    "src": "manual",
+    "type": "artist"
+  },
+  "kazuhiro_miwa": {
+    "count": 0,
+    "ja": "三輪和宏",
+    "kana": "みわ かずひろ",
+    "needs_review": false,
+    "src": "manual",
+    "type": "artist"
+  },
+  "kuroneko_to_majo_no_kyoushitsu": {
+    "count": 0,
+    "ja": "黒猫と魔女の教室",
+    "kana": "くろねことまじょのきょうしつ",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "my_hero_academia": {
+    "count": 0,
+    "ja": "僕のヒーローアカデミア",
+    "kana": "ぼくのひーろーあかでみあ",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "naruto": {
+    "count": 0,
+    "ja": "NARUTO -ナルト-",
+    "kana": "なると",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "nobuaki_nagano": {
+    "count": 0,
+    "ja": "長野伸明",
+    "kana": "ながの のぶあき",
+    "needs_review": false,
+    "src": "manual",
+    "type": "artist"
+  },
+  "one_piece": {
+    "count": 0,
+    "ja": "ONE PIECE",
+    "kana": "わんぴーす",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "one_piece:_the_giant_mechanical_soldier_of_karakuri_castle": {
+    "count": 0,
+    "ja": "ONE PIECE THE MOVIE カラクリ城のメカ巨兵",
+    "kana": "わんぴーす からくりじょうのめかきょへい",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "pokemon": {
+    "count": 0,
+    "ja": "ポケットモンスター",
+    "kana": "ぽけっともんすたー",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "precure": {
+    "count": 0,
+    "ja": "プリキュア",
+    "kana": "ぷりきゅあ",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "shuu_sugita": {
+    "count": 0,
+    "ja": "杉田柊",
+    "kana": "すぎた しゅう",
+    "needs_review": false,
+    "src": "manual",
+    "type": "artist"
+  },
+  "yoshihiko_umakoshi": {
+    "count": 0,
+    "ja": "馬越嘉彦",
+    "kana": "うまこし よしひこ",
+    "needs_review": false,
+    "src": "manual",
+    "type": "artist"
+  },
+  "yoshinori_kanada": {
+    "count": 926,
+    "ja": "金田伊功",
+    "kana": "かなだ よしのり",
+    "needs_review": false,
+    "src": "manual:https://www.wikidata.org/wiki/Q919281",
+    "type": "artist"
+  }
+}

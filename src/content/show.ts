@@ -8,7 +8,7 @@ import { buildPlayer, formatBytes, formatFps, readSetup } from './player'
 import showCss from './show.css?inline'
 import playerCss from './player.css?inline'
 
-const PROPOSE_BASE = 'https://github.com/HTPK/sakugabooru-ja-dict/issues/new?template=translation.yml&title='
+const PROPOSE_BASE = 'https://github.com/HTPK/better-sakugabooru/issues/new?template=translation.yml&title='
 const PROPOSE_MAX_TAGS = 20
 const LEAD_LIMIT = 3
 /** Present on nearly every post; never worth a lead slot or a translation request. */

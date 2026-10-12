@@ -1,0 +1,482 @@
+{
+  "3d_background": {
+    "count": 5428,
+    "ja": "3D背景",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "animals": {
+    "count": 12939,
+    "ja": "動物",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "animated": {
+    "count": 219944,
+    "ja": "アニメーション",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "background_animation": {
+    "count": 17666,
+    "ja": "背景動画",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "background_design": {
+    "count": 269,
+    "ja": "美術設定",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "beams": {
+    "count": 11160,
+    "ja": "ビーム",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "black_and_white": {
+    "count": 1311,
+    "ja": "白黒",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "cel": {
+    "count": 5,
+    "ja": "セル画",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "cgi": {
+    "count": 13665,
+    "ja": "CG",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "character_acting": {
+    "count": 88141,
+    "ja": "芝居",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "character_design": {
+    "count": 1295,
+    "ja": "キャラクターデザイン",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "color_script": {
+    "count": 28,
+    "ja": "カラースクリプト",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "comparison": {
+    "count": 215,
+    "ja": "比較",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "concept_art": {
+    "count": 204,
+    "ja": "コンセプトアート",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "correction": {
+    "count": 1409,
+    "ja": "作監修正",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "creatures": {
+    "count": 38271,
+    "ja": "クリーチャー",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "crowd": {
+    "count": 3395,
+    "ja": "群衆",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "crying": {
+    "count": 2943,
+    "ja": "泣き",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "dancing": {
+    "count": 4851,
+    "ja": "ダンス",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "debris": {
+    "count": 28049,
+    "ja": "瓦礫",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "douga": {
+    "count": 432,
+    "ja": "動画",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "eastern": {
+    "count": 5130,
+    "ja": "東アジア作品",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "effects": {
+    "count": 129742,
+    "ja": "エフェクト",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "explosions": {
+    "count": 24075,
+    "ja": "爆発",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "fabric": {
+    "count": 22564,
+    "ja": "布",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "falling": {
+    "count": 4103,
+    "ja": "落下",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "fighting": {
+    "count": 55801,
+    "ja": "格闘",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "fire": {
+    "count": 16694,
+    "ja": "炎",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "flipbook": {
+    "count": 58,
+    "ja": "パラパラ漫画",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "flying": {
+    "count": 5075,
+    "ja": "飛行",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "food": {
+    "count": 2659,
+    "ja": "食べ物",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "gattai": {
+    "count": 482,
+    "ja": "合体",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "genga": {
+    "count": 11379,
+    "ja": "原画",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "genga_comparison": {
+    "count": 570,
+    "ja": "原画比較",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "hair": {
+    "count": 24540,
+    "ja": "髪",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "happy_halloween": {
+    "count": 12,
+    "ja": "ハロウィン",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "henkei": {
+    "count": 590,
+    "ja": "変形",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "henshin": {
+    "count": 1973,
+    "ja": "変身",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "ice": {
+    "count": 1748,
+    "ja": "氷",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "illustration": {
+    "count": 740,
+    "ja": "イラスト",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "impact_frames": {
+    "count": 13780,
+    "ja": "インパクトフレーム",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "instruments": {
+    "count": 911,
+    "ja": "楽器",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "kanada_dragon": {
+    "count": 221,
+    "ja": "金田ドラゴン",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "kanada_light_flare": {
+    "count": 1320,
+    "ja": "金田光",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "layout": {
+    "count": 3783,
+    "ja": "レイアウト",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "lightning": {
+    "count": 14134,
+    "ja": "電撃",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "liquid": {
+    "count": 30689,
+    "ja": "液体",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "live_action": {
+    "count": 533,
+    "ja": "実写",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "mecha": {
+    "count": 17808,
+    "ja": "メカ",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "mechanical_design": {
+    "count": 115,
+    "ja": "メカニックデザイン",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "merry_christmas": {
+    "count": 52,
+    "ja": "クリスマス",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "missiles": {
+    "count": 2978,
+    "ja": "ミサイル",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "morphing": {
+    "count": 4623,
+    "ja": "モーフィング",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "performance": {
+    "count": 6706,
+    "ja": "パフォーマンス",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "presumed": {
+    "count": 0,
+    "ja": "推定",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "production_materials": {
+    "count": 19389,
+    "ja": "制作資料",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "rotation": {
+    "count": 6109,
+    "ja": "回転",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "rotoscope": {
+    "count": 1006,
+    "ja": "ロトスコープ",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "rough": {
+    "count": 210,
+    "ja": "ラフ",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "running": {
+    "count": 21726,
+    "ja": "走り",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "screencap": {
+    "count": 101,
+    "ja": "スクリーンショット",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "settei": {
+    "count": 1973,
+    "ja": "設定",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "shiage": {
+    "count": 63,
+    "ja": "仕上げ",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "smears": {
+    "count": 61359,
+    "ja": "スミア",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "smoke": {
+    "count": 62428,
+    "ja": "煙",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "sparks": {
+    "count": 15292,
+    "ja": "火花",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "sports": {
+    "count": 5390,
+    "ja": "スポーツ",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "sprite": {
+    "count": 140,
+    "ja": "スプライト",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "stop_motion": {
+    "count": 42,
+    "ja": "ストップモーション",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "storyboard": {
+    "count": 1897,
+    "ja": "絵コンテ",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "tagme": {
+    "count": 140,
+    "ja": "タグ募集",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "test": {
+    "count": 22,
+    "ja": "テスト",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "thumbs_up": {
+    "count": 59,
+    "ja": "サムズアップ",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "timesheet": {
+    "count": 138,
+    "ja": "タイムシート",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "title_animation": {
+    "count": 433,
+    "ja": "タイトルアニメーション",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "vehicle": {
+    "count": 9157,
+    "ja": "乗り物",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "walk_cycle": {
+    "count": 6042,
+    "ja": "歩き",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "web": {
+    "count": 5566,
+    "ja": "Web系",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "western": {
+    "count": 19454,
+    "ja": "海外作品",
+    "needs_review": false,
+    "src": "manual"
+  },
+  "wind": {
+    "count": 12493,
+    "ja": "風",
+    "needs_review": false,
+    "src": "manual"
+  }
+}

@@ -1,0 +1,46 @@
+name: 翻訳の提案
+description: 未訳のタグに日本語訳を提案する / 既存の訳の誤りを報告する
+title: "翻訳提案: "
+labels: ["translation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Sakugabooru のタグ (英語) に対する日本語訳を提案してください。
+        作画者名は Wikidata や公式クレジット、作品名は公式サイトや an external database など、出典があると採用が早くなります。
+  - type: textarea
+    id: tags
+    attributes:
+      label: タグ (英語)
+      description: 1 行に 1 つ。拡張機能の「訳を提案する」リンクから来た場合は自動で入っています。
+      placeholder: |
+        yoshinori_kanada
+        one_piece
+    validations:
+      required: true
+  - type: textarea
+    id: ja
+    attributes:
+      label: 提案する日本語訳
+      description: タグと同じ順で 1 行に 1 つ。作画者は「漢字 (かな)」の形だと助かります。例: 金田伊功 (かなだ よしのり)
+      placeholder: |
+        金田伊功 (かなだ よしのり)
+        ONE PIECE
+    validations:
+      required: true
+  - type: input
+    id: src
+    attributes:
+      label: 出典 (URL)
+      description: Wikidata / 公式サイト / an external database など。無ければ空欄で構いません。
+      placeholder: https://www.wikidata.org/wiki/Q919281
+  - type: input
+    id: post
+    attributes:
+      label: 見つけた投稿の URL
+      placeholder: https://www.sakugabooru.com/post/show/318817
+  - type: textarea
+    id: notes
+    attributes:
+      label: 補足
+      description: 同名の別人がいる、表記ゆれがある、などあれば。

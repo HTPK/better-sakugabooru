@@ -307,7 +307,7 @@ describe.each(CASES)('renderShow ($name locale)', ({ html }) => {
     expect(a.target).toBe('_blank')
     expect(a.rel).toBe('noopener')
     const href = a.getAttribute('href')!
-    expect(href).toMatch(/^https:\/\/github\.com\/HTPK\/sakugabooru-ja-dict\/issues\/new\?template=translation\.yml&title=/)
+    expect(href).toMatch(/^https:\/\/github\.com\/HTPK\/better-sakugabooru\/issues\/new\?template=translation\.yml&title=/)
     const u = new URL(href)
     expect(u.searchParams.get('title')).toBe('翻訳提案: fighting, wind')
     expect(u.searchParams.get('labels')).toBe('translation')

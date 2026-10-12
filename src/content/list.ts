@@ -10,7 +10,7 @@ const ARTIST_UNKNOWN = 'artist_unknown'
 const ARTIST_UNKNOWN_JA = '作画者不明'
 const SITE_DEFAULT_PER_PAGE = 40
 const ARTIST_SEP = '　'
-const PROPOSE_BASE = 'https://github.com/HTPK/sakugabooru-ja-dict/issues/new?template=translation.yml&title='
+const PROPOSE_BASE = 'https://github.com/HTPK/better-sakugabooru/issues/new?template=translation.yml&title='
 const PROPOSE_LIMIT = 20
 /** Present on nearly every post; never worth a 技法 chip or a translation request. */
 const NOISE = new Set(['animated'])

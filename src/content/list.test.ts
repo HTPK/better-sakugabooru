@@ -380,7 +380,7 @@ for (const file of ['post-list-2026-10-12.html', 'post-list-ja-2026-10-12.html']
       const link = note.querySelector<HTMLAnchorElement>('a')!
       expect(link.textContent).toBe('訳を提案する')
       const u = new URL(link.href)
-      expect(u.origin + u.pathname).toBe('https://github.com/HTPK/sakugabooru-ja-dict/issues/new')
+      expect(u.origin + u.pathname).toBe('https://github.com/HTPK/better-sakugabooru/issues/new')
       expect(u.searchParams.get('template')).toBe('translation.yml')
       expect(u.searchParams.get('labels')).toBe('translation')
       const asked = u.searchParams.get('tags')!.split('\n')

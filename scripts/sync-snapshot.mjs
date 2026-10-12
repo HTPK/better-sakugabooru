@@ -1,11 +1,11 @@
-// Copies ../sakugabooru-ja-dict/dist/dict.json to src/dict/snapshot.json after validating its shape.
+// Copies dict/dist/dict.json to src/dict/snapshot.json after validating its shape.
 // Usage: pnpm sync-snapshot [path/to/dict.json]
 import { copyFileSync, existsSync, readFileSync } from 'node:fs'
 import { dirname, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..')
-const src = resolve(root, process.argv[2] ?? '../sakugabooru-ja-dict/dist/dict.json')
+const src = resolve(root, process.argv[2] ?? 'dict/dist/dict.json')
 const dest = resolve(root, 'src/dict/snapshot.json')
 const MAPS = ['artists', 'copyrights', 'general']
 
