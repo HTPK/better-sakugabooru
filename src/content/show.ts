@@ -8,6 +8,7 @@ import { buildPlayer, formatBytes, formatFps, readSetup } from './player'
 import showCss from './show.css?inline'
 import playerCss from './player.css?inline'
 
+const WIKI_BASE = 'https://w.atwiki.jp/sakuga/?page='
 const PROPOSE_BASE = 'https://github.com/HTPK/better-sakugabooru/issues/new?template=translation.yml&title='
 const PROPOSE_MAX_TAGS = 20
 const LEAD_LIMIT = 3
@@ -361,7 +362,20 @@ function tagEntry(doc: Document, dict: Dict, s: Settings, t: Tag, chip: boolean)
   if (chip) return h(doc, 'a', { class: 'bsb-chip', href, 'data-type': t.type }, name, romaji && ' ', romaji)
   const kana = ja && t.type === 'artist' ? lookup(dict, t.tag, 'artist').kana : undefined
   const left = h(doc, 'span', { class: 'bsb-tag-main' }, name, romaji && ' ', romaji, kana && ' ', kana && h(doc, 'span', { class: 'bsb-tag-kana' }, kana))
-  return h(doc, 'a', { class: 'bsb-tag', href, 'data-type': t.type }, left, t.count && h(doc, 'span', { class: 'bsb-tag-count bsb-en' }, t.count))
+  const row = h(doc, 'a', { class: 'bsb-tag', href, 'data-type': t.type }, left, t.count && h(doc, 'span', { class: 'bsb-tag-count bsb-en' }, t.count))
+  if (t.type !== 'artist' || !ja) return row
+  // 作画@wiki pages are titled by the Japanese name; a missing page shows atwiki's own "not found + search" screen.
+  const wiki = h(
+    doc,
+    'a',
+    { class: 'bsb-wiki', href: wikiUrl(ja), target: '_blank', rel: 'noopener noreferrer', title: `作画@wiki で「${ja}」を開く` },
+    '作画wiki',
+  )
+  return h(doc, 'div', { class: 'bsb-tag-row' }, row, wiki)
+}
+
+export function wikiUrl(name: string): string {
+  return `${WIKI_BASE}${encodeURIComponent(name)}`
 }
 
 function tagPanel(doc: Document, dict: Dict, s: Settings, tags: Tag[]): HTMLElement | null {

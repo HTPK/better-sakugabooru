@@ -214,16 +214,17 @@ export function renderListBand(
       h(doc, 'span', { class: 'bsb-en-title', lang: 'en' }, 'POSTS'),
       h(doc, 'h1', null, '投稿一覧'),
       h(doc, 'span', { class: 'bsb-lead' }, lead),
-    ),
-    h(
-      doc,
-      'div',
-      { class: 'bsb-listband-tools' },
+      // Search sits at the right end of the title row, close to the header nav and the cursor's usual path.
       searchForm(
         doc,
         names.map((n) => chip(doc, n.tag, n.ja, settings.showRomaji)),
         keep,
       ),
+    ),
+    h(
+      doc,
+      'div',
+      { class: 'bsb-listband-tools' },
       h(
         doc,
         'div',

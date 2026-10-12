@@ -40,6 +40,13 @@ for (const file of FIXTURES) {
       expect(b.querySelector('h1')!.textContent).toBe('投稿一覧')
     })
 
+    it('puts the search form in the title row (right end), sort and per page below', () => {
+      const b = band(run('https://www.sakugabooru.com/post'))
+      expect(b.querySelector('.bsb-listband-title > form.bsb-qform')).not.toBeNull()
+      expect(b.querySelector('.bsb-listband-tools .bsb-qform')).toBeNull()
+      expect(b.querySelector('.bsb-listband-tools .bsb-listopts')).not.toBeNull()
+    })
+
     it('lead without tags uses the served page size (URL limit, else the site default 40)', () => {
       expect(band(run('https://www.sakugabooru.com/post')).querySelector('.bsb-lead')!.textContent).toBe(
         '新着を 1 ページに 40 件',

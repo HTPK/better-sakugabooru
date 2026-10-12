@@ -125,7 +125,8 @@ function techRow(ctx: Ctx, post: Post): HTMLElement | null {
   if (!tags.length) return null
   const row = h(doc, 'div', { class: 'bsb-row bsb-tech' })
   for (const tag of tags.slice(0, limit)) {
-    row.append(h(doc, 'span', { class: 'bsb-chip bsb-t-general', title: tag }, jaFor(dict, tag, 'general', settings.translateTags) ?? tag))
+    const href = `/post?tags=${encodeURIComponent(tag)}`
+    row.append(h(doc, 'a', { class: 'bsb-chip bsb-t-general', href, title: tag }, jaFor(dict, tag, 'general', settings.translateTags) ?? tag))
   }
   const rest = tags.length - limit
   if (rest > 0) row.append(h(doc, 'span', { class: 'bsb-chip bsb-more' }, `+${rest}`))

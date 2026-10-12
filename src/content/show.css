@@ -353,6 +353,29 @@ html[data-bsb-theme] .bsb-tag-panel a.bsb-tag {
   align-items: baseline;
   color: var(--bsb-tag-color, var(--bsb-text));
 }
+.bsb-tag-row {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+html[data-bsb-theme] .bsb-tag-panel .bsb-tag-row > a.bsb-tag {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+html[data-bsb-theme] .bsb-tag-panel a.bsb-wiki {
+  flex: none;
+  padding: 1px 7px;
+  border: 1px solid var(--bsb-border);
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--bsb-sub);
+  text-decoration: none;
+}
+html[data-bsb-theme] .bsb-tag-panel a.bsb-wiki:hover,
+html[data-bsb-theme] .bsb-tag-panel a.bsb-wiki:focus-visible {
+  border-color: var(--bsb-red);
+  color: var(--bsb-red-text);
+}
 .bsb-tag-main {
   min-width: 0;
   overflow-wrap: anywhere;
@@ -361,6 +384,7 @@ html[data-bsb-theme] .bsb-tag-panel a.bsb-tag {
 .bsb-tag-kana {
   font-size: 12px;
   color: var(--bsb-muted);
+  white-space: nowrap;
 }
 .bsb-tag-count {
   color: var(--bsb-faint);

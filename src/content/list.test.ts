@@ -86,6 +86,16 @@ describe('renderList', () => {
     expect(chip.classList.contains('bsb-t-general')).toBe(true)
   })
 
+  it('technique chips are links to that tag search', () => {
+    const { doc } = run()
+    const chips = Array.from(doc.querySelectorAll<HTMLElement>('.bsb-tech .bsb-chip:not(.bsb-more)'))
+    expect(chips.length).toBeGreaterThan(0)
+    for (const c of chips) {
+      expect(c.tagName).toBe('A')
+      expect(c.getAttribute('href')).toBe(`/post?tags=${encodeURIComponent(c.getAttribute('title')!)}`)
+    }
+  })
+
   it('shows score and zero-padded local date', () => {
     const { doc } = run()
     const meta = cards(doc)[0].querySelector('.bsb-meta')!

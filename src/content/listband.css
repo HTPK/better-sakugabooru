@@ -52,6 +52,11 @@ html[data-bsb-theme] .bsb-listband .bsb-lead {
   margin: 0;
   max-width: 100%;
 }
+/* Search on the right of the title row; it wraps under the title when the row is too narrow. */
+html[data-bsb-theme] .bsb-listband-title .bsb-qform {
+  margin-left: auto;
+  align-self: center;
+}
 .bsb-sr {
   position: absolute;
   left: -9999px;
@@ -190,5 +195,9 @@ html[data-bsb-theme] .bsb-seg > button.bsb-on {
   .bsb-listopts {
     margin-left: 0;
     flex-wrap: wrap;
+  }
+  html[data-bsb-theme] .bsb-listband-title .bsb-qform {
+    margin-left: 0;
+    width: 100%;
   }
 }

@@ -277,6 +277,25 @@ describe.each(CASES)('renderShow ($name locale)', ({ html }) => {
     expect(fighting.querySelector('.bsb-untranslated')!.textContent).toBe('未訳')
   })
 
+  it('aside: translated artists get a 作画wiki link that opens the page by Japanese name in a new tab', () => {
+    const { doc } = run()
+    const row = doc.querySelector('.bsb-tag-group[data-type="artist"] .bsb-tag-row')!
+    expect(row.querySelector('a.bsb-tag')!.getAttribute('href')).toBe('/post?tags=shuu_sugita')
+    const wiki = row.querySelector<HTMLAnchorElement>('a.bsb-wiki')!
+    expect(wiki.textContent).toBe('作画wiki')
+    expect(wiki.getAttribute('href')).toBe(`https://w.atwiki.jp/sakuga/?page=${encodeURIComponent('スタブ作画者')}`)
+    expect(wiki.getAttribute('target')).toBe('_blank')
+    expect(wiki.getAttribute('rel')).toContain('noopener')
+    // Only artists: works and techniques have no wiki button.
+    expect(doc.querySelectorAll('.bsb-tag-panel a.bsb-wiki')).toHaveLength(1)
+  })
+
+  it('aside: no 作画wiki link for an artist without a Japanese name', () => {
+    const { doc } = run({}, { ...dict, artists: {} })
+    expect(doc.querySelector('.bsb-tag-group[data-type="artist"] a.bsb-tag')).not.toBeNull()
+    expect(doc.querySelector('a.bsb-wiki')).toBeNull()
+  })
+
   it('aside: stats grid from the post JSON', () => {
     const { doc } = run()
     const facts = doc.querySelector('aside .bsb-show-facts')!
