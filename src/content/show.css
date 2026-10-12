@@ -5,73 +5,81 @@ html[data-bsb-theme] body[data-bsb-show] {
   padding: 0;
 }
 
-/* ---- Title band ---- */
-.bsb-show-band {
+/* ---- Title block (top of the right column) ---- */
+.bsb-show-head {
   display: flex;
-  flex-wrap: wrap;
-  align-items: flex-end;
-  gap: 24px;
-  padding: 26px 48px 24px;
+  flex-direction: column;
+  gap: 14px;
+  padding-bottom: 4px;
 }
 .bsb-show-titles {
   display: flex;
   flex-direction: column;
   gap: 4px;
-  flex: 1 1 520px;
   min-width: 0;
 }
-.bsb-show-band .bsb-crumb {
+.bsb-show-head .bsb-crumb {
   font-family: var(--bsb-font-en);
   font-size: 13px;
   color: var(--bsb-sub);
 }
-html[data-bsb-theme] .bsb-show-band .bsb-crumb a {
+html[data-bsb-theme] .bsb-show-head .bsb-crumb a {
   color: var(--bsb-sub);
 }
-html[data-bsb-theme] .bsb-show-band .bsb-crumb a:hover {
+html[data-bsb-theme] .bsb-show-head .bsb-crumb a:hover {
   color: var(--bsb-red-text);
 }
-.bsb-show-band h1 {
-  font-size: 28px;
+.bsb-show-head h1 {
+  font-size: 22px;
   font-weight: 700;
   line-height: 1.4;
   margin: 0;
+  /* Break at the full-width space between work and artist, not inside a name. */
+  word-break: keep-all;
+  overflow-wrap: anywhere;
 }
-.bsb-show-band h1 .bsb-raw {
+.bsb-show-head h1 .bsb-raw {
   font-size: inherit;
   color: inherit;
   font-family: var(--bsb-font-en);
 }
-.bsb-show-band .bsb-lead {
+.bsb-show-head .bsb-lead {
   margin: 0;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 700;
-  line-height: 1.4;
+  line-height: 1.5;
   color: var(--bsb-lead);
 }
 .bsb-show-nav {
   display: flex;
+  flex-wrap: wrap;
   gap: 2px;
 }
 html[data-bsb-theme] .bsb-show-nav a.bsb-show-step {
-  height: 40px;
-  padding: 0 18px;
+  height: 36px;
+  padding: 0 14px;
   display: inline-flex;
   align-items: center;
   background: var(--bsb-subtle);
   color: var(--bsb-text);
-  font-size: 14px;
+  font-size: 13px;
   border-radius: 0;
 }
 html[data-bsb-theme] .bsb-show-nav a.bsb-show-step:hover {
   color: var(--bsb-red-text);
 }
 html[data-bsb-theme] .bsb-show-nav a.bsb-show-back {
-  margin-left: 12px;
+  margin-left: 8px;
 }
 
-/* ---- Layout: main + aside ---- */
+/* ---- Layout: main + aside ----
+ * The player must fit the first screen: header (72) + body top padding (24) + control row (61)
+ * + a little air = --bsb-show-chrome. The main column is as wide as a video that tall, at most
+ * the full width; the right column takes what is left. --bsb-ar-num is set by renderShow.
+ */
 #post-view.bsb-show-view {
+  --bsb-show-chrome: 184px;
+  --bsb-show-side-min: 300px;
   display: block;
   padding: 0;
   margin: 0;
@@ -84,21 +92,26 @@ html[data-bsb-theme] .bsb-show-nav a.bsb-show-back {
   align-items: flex-start;
 }
 .bsb-show-main {
-  flex: 999 1 560px;
+  flex: 0 1 auto;
+  /* Never wider than what leaves room for the right column (its min width + the 32px gap). */
+  width: min(calc(100% - var(--bsb-show-side-min) - 32px), calc((100vh - var(--bsb-show-chrome)) * var(--bsb-ar-num, 1.7778)));
   min-width: 0;
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 .bsb-show-side {
-  flex: 1 1 300px;
-  max-width: 340px;
-  min-width: 0;
+  flex: 1 1 var(--bsb-show-side-min);
+  min-width: var(--bsb-show-side-min);
+  max-width: 520px;
   display: flex;
   flex-direction: column;
   gap: 14px;
   font-size: 14px;
   line-height: 1.8;
+}
+html[data-bsb-theme] .bsb-show-main > .status-notice {
+  margin: 0;
 }
 .bsb-show-main #right-col {
   float: none;
@@ -112,9 +125,6 @@ html[data-bsb-theme] .bsb-show-nav a.bsb-show-back {
 }
 .bsb-show-main #right-col > div:empty {
   display: none;
-}
-.bsb-show-view > .status-notice {
-  margin: 24px 48px 0;
 }
 
 /* ---- Score row ---- */
@@ -413,16 +423,23 @@ html[data-bsb-theme] .bsb-show-note a.bsb-propose {
   text-decoration: underline;
 }
 
+/* Below 1280 px the header wraps to two rows; below 900 px the columns stack and the video takes the width. */
+@media (max-width: 1279px) {
+  #post-view.bsb-show-view {
+    --bsb-show-chrome: 240px;
+  }
+}
 @media (max-width: 900px) {
-  .bsb-show-band,
   .bsb-show-body {
     padding-left: 16px;
     padding-right: 16px;
   }
-  .bsb-show-view > .status-notice {
-    margin: 16px 16px 0;
+  .bsb-show-main {
+    width: 100%;
+    flex-basis: 100%;
   }
   .bsb-show-side {
     max-width: none;
+    min-width: 0;
   }
 }

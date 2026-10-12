@@ -34,7 +34,8 @@ html[data-bsb-theme] .bsb-bar a.bsb-logo {
 
 /* ---- List page (html.bsb-list): search lives in the title band; body has no gutter, the bar adds 48 px ---- */
 html.bsb-list .bsb-bar .bsb-search-form { display: none; }
-html.bsb-list[data-bsb-theme] .bsb-bar {
+html.bsb-list[data-bsb-theme] .bsb-bar,
+html[data-bsb-theme] body[data-bsb-show] .bsb-bar {
   padding: 0 48px;
 }
 
@@ -237,6 +238,13 @@ html[data-bsb-theme] .bsb-bar .bsb-account li > ul.submenu {
   padding: 0;
 }
 
+/* Detail page between 1280 and 1439 px: the header search is visible, so a narrower gutter keeps one row. */
+@media (min-width: 1280px) and (max-width: 1439px) {
+  html[data-bsb-theme] body[data-bsb-show] .bsb-bar {
+    padding: 0 24px;
+  }
+}
+
 /* Mock sizes (nav 15 px / gap 22 px, groups 32 px apart) only where they fit on one row. */
 @media (min-width: 1440px) {
   html[data-bsb-theme] .bsb-bar {
@@ -257,7 +265,8 @@ html[data-bsb-theme] .bsb-bar .bsb-account li > ul.submenu {
 /* One row needs about 1200 px of content width; below 1280 px the right-hand group takes a second row. */
 @media (max-width: 1279px) {
   html[data-bsb-theme] .bsb-bar,
-  html.bsb-list[data-bsb-theme] .bsb-bar {
+  html.bsb-list[data-bsb-theme] .bsb-bar,
+  html[data-bsb-theme] body[data-bsb-show] .bsb-bar {
     flex-wrap: wrap;
     padding-top: 12px;
     padding-bottom: 12px;
@@ -282,7 +291,8 @@ html[data-bsb-theme] .bsb-bar .bsb-account li > ul.submenu {
   #subnavbar.bsb-subnav {
     padding: 0 16px;
   }
-  html.bsb-list[data-bsb-theme] .bsb-bar {
+  html.bsb-list[data-bsb-theme] .bsb-bar,
+  html[data-bsb-theme] body[data-bsb-show] .bsb-bar {
     padding-left: 16px;
     padding-right: 16px;
   }

@@ -53,7 +53,7 @@ describe('renderShow on a non-show page', () => {
   it('returns false and leaves the page alone', () => {
     const doc = load(LIST)
     expect(renderShow(doc, dict, DEFAULTS)).toBe(false)
-    expect(doc.querySelector('.bsb-show-band')).toBeNull()
+    expect(doc.querySelector('.bsb-show-head')).toBeNull()
     expect(doc.body.hasAttribute('data-bsb-show')).toBe(false)
   })
 })
@@ -85,10 +85,12 @@ describe.each(CASES)('renderShow ($name locale)', ({ html }) => {
     return { doc, res }
   }
 
-  it('builds the band: breadcrumb, h1 and lead with the source', () => {
+  it('puts the title block first in the right column: breadcrumb, h1 and lead with the source', () => {
     const { doc, res } = run()
     expect(res).toBe(true)
-    const band = doc.querySelector('#content > section.bsb-band.bsb-show-band')!
+    // No full-width band above the video any more: the player must sit on the first screen.
+    expect(doc.querySelector('.bsb-band, .bsb-show-band')).toBeNull()
+    const band = doc.querySelector('aside.bsb-show-side > section.bsb-show-head:first-child')!
     expect(band).not.toBeNull()
     const crumb = band.querySelector('.bsb-crumb')!
     expect(crumb.textContent).toBe('POSTS　/　#318817')
@@ -99,26 +101,26 @@ describe.each(CASES)('renderShow ($name locale)', ({ html }) => {
 
   it('marks untranslated title parts with 未訳', () => {
     const { doc } = run({}, { ...dict, artists: {} })
-    const h1 = doc.querySelector('.bsb-show-band h1')!
+    const h1 = doc.querySelector('.bsb-show-head h1')!
     expect(h1.textContent).toContain('shuu_sugita')
     expect(h1.querySelector('.bsb-untranslated')!.textContent).toBe('未訳')
   })
 
   it('lead shows untranslated tags spaced, never animated', () => {
     const { doc } = run({}, { ...dict, general: {} })
-    const lead = doc.querySelector('.bsb-show-band .bsb-lead')!.textContent!
+    const lead = doc.querySelector('.bsb-show-head .bsb-lead')!.textContent!
     expect(lead).toBe(`${post.source.trim()}　black and white・effects・fighting`)
   })
 
   it('band buttons: prev/next from related posts, then back to the list', () => {
     const { doc } = run()
-    const links = Array.from(doc.querySelectorAll<HTMLAnchorElement>('.bsb-show-band .bsb-show-nav a'))
+    const links = Array.from(doc.querySelectorAll<HTMLAnchorElement>('.bsb-show-head .bsb-show-nav a'))
     expect(links.map((a) => [a.textContent, a.getAttribute('href')])).toEqual([
       ['前の投稿', '/post/show/318816'],
       ['次の投稿', '/post/show/318818'],
       ['一覧へ戻る', '/post'],
     ])
-    expect(doc.querySelector('.bsb-show-band .bsb-en-title')).toBeNull()
+    expect(doc.querySelector('.bsb-show-head .bsb-en-title')).toBeNull()
   })
 
   it('omits prev/next when the related block is absent', () => {
@@ -126,6 +128,16 @@ describe.each(CASES)('renderShow ($name locale)', ({ html }) => {
     for (const a of Array.from(doc.querySelectorAll('#post-view .sidebar a[href^="/post/show/"]'))) a.remove()
     renderShow(doc, dict, DEFAULTS)
     expect(Array.from(doc.querySelectorAll('.bsb-show-nav a')).map((a) => a.textContent)).toEqual(['一覧へ戻る'])
+  })
+
+  it('exposes the video aspect ratio for the viewport-fit width and moves notices under the controls', () => {
+    const { doc } = run()
+    const view = doc.getElementById('post-view')!
+    expect(Number(view.style.getPropertyValue('--bsb-ar-num'))).toBeCloseTo(post.width / post.height, 3)
+    for (const n of Array.from(doc.querySelectorAll('.status-notice'))) {
+      expect(n.parentElement!.classList.contains('bsb-show-main')).toBe(true)
+      expect(n.previousElementSibling!.classList.contains('bsb-player')).toBe(true)
+    }
   })
 
   it('lays out main + aside and reparents the site nodes', () => {
@@ -318,7 +330,7 @@ describe.each(CASES)('renderShow ($name locale)', ({ html }) => {
     const body = doc.body.innerHTML
     expect(renderShow(doc, dict, DEFAULTS)).toBe(true)
     expect(doc.body.innerHTML).toBe(body)
-    expect(doc.querySelectorAll('.bsb-show-band')).toHaveLength(1)
+    expect(doc.querySelectorAll('.bsb-show-head')).toHaveLength(1)
     expect(doc.querySelectorAll('style#bsb-show')).toHaveLength(1)
   })
 })

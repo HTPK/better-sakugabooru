@@ -203,13 +203,17 @@ function bandNav(doc: Document): HTMLElement {
   return h(doc, 'nav', { class: 'bsb-show-nav', 'aria-label': '前後の投稿' }, ...links)
 }
 
-function band(doc: Document, dict: Dict, s: Settings, tags: Tag[], id: string | null, post: ShowPost | null): HTMLElement {
+/**
+ * Title block at the top of the right column (breadcrumb, h1, lead, prev/next/back). It used to be a
+ * full-width band above the video, which pushed the player below the fold.
+ */
+function head(doc: Document, dict: Dict, s: Settings, tags: Tag[], id: string | null, post: ShowPost | null): HTMLElement {
   const leadText = lead(dict, s, tags, post?.source ?? '')
   const crumb = h(doc, 'span', { class: 'bsb-crumb' }, h(doc, 'a', { href: '/post' }, 'POSTS'), id && `　/　#${id}`)
   return h(
     doc,
     'section',
-    { class: 'bsb-band bsb-show-band' },
+    { class: 'bsb-show-head' },
     h(doc, 'div', { class: 'bsb-show-titles' }, crumb, title(doc, dict, s, tags), leadText && h(doc, 'p', { class: 'bsb-lead' }, leadText)),
     bandNav(doc),
   )
@@ -291,7 +295,11 @@ function scoreRow(doc: Document, post: ShowPost | null, video: HTMLVideoElement 
   return row
 }
 
-function player(doc: Document, right: Element, post: ShowPost | null): { block: HTMLElement; video: HTMLVideoElement | null; fps: number | null } | null {
+function player(
+  doc: Document,
+  right: Element,
+  post: ShowPost | null,
+): { block: HTMLElement; video: HTMLVideoElement | null; fps: number | null; ratio: number | null } | null {
   const video = right.querySelector('video')
   if (!video) return null
   // Before video.js runs the <video> itself carries .video-js; afterwards its wrapper div does.
@@ -312,7 +320,12 @@ function player(doc: Document, right: Element, post: ShowPost | null): { block: 
     fileUrl: post?.fileUrl ?? undefined,
     fileSize: post?.fileSize ?? undefined,
   })
-  return { block: h(doc, 'div', { class: 'bsb-player' }, screen, row), video, fps: conf.fpsKnown ? conf.fps : null }
+  return {
+    block: h(doc, 'div', { class: 'bsb-player' }, screen, row),
+    video,
+    fps: conf.fpsKnown ? conf.fps : null,
+    ratio: w > 0 && ht > 0 ? w / ht : null,
+  }
 }
 
 function comments(doc: Document): void {
@@ -469,11 +482,6 @@ export function renderShow(doc: Document, dict: Dict, settings: Settings): boole
   const tags = collectTags(doc, post)
   const id = postId(doc, post)
 
-  const content = doc.getElementById('content')
-  const b = band(doc, dict, settings, tags, id, post)
-  if (content && view.parentElement === content) content.prepend(b)
-  else view.before(b)
-
   view.classList.add('bsb-show-view')
   const main = h(doc, 'main', { class: 'bsb-show-main' })
   const side = h(doc, 'aside', { class: 'bsb-show-side' })
@@ -482,6 +490,10 @@ export function renderShow(doc: Document, dict: Dict, settings: Settings): boole
   const right = doc.getElementById('right-col')
   const p = right ? player(doc, right, post) : null
   if (p) main.append(p.block)
+  // The video's aspect ratio lets CSS cap its width so the whole player fits the viewport height.
+  if (p?.ratio) view.style.setProperty('--bsb-ar-num', String(Math.round(p.ratio * 10000) / 10000))
+  // Site notices (parent/child, pending, …) move under the controls instead of above the video.
+  for (const n of Array.from(view.querySelectorAll(':scope > .status-notice'))) main.append(n)
   main.append(scoreRow(doc, post, p?.video ?? null, p?.fps ?? null))
   if (right) {
     main.append(right)
@@ -492,7 +504,12 @@ export function renderShow(doc: Document, dict: Dict, settings: Settings): boole
   comments(doc)
 
   side.append(
-    ...([tagPanel(doc, dict, settings, tags), facts(doc, post, id), proposeNote(doc, dict, settings, tags)].filter(Boolean) as HTMLElement[]),
+    ...([
+      head(doc, dict, settings, tags, id, post),
+      tagPanel(doc, dict, settings, tags),
+      facts(doc, post, id),
+      proposeNote(doc, dict, settings, tags),
+    ].filter(Boolean) as HTMLElement[]),
   )
   // The site sidebar (search, tags, stats, options) stays in the DOM for its scripts; ours replaces it.
   for (const sb of Array.from(view.querySelectorAll(':scope > .sidebar'))) sb.classList.add('bsb-hide')

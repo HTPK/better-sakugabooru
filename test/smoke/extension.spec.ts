@@ -137,7 +137,7 @@ test('extension smoke on live site', async () => {
     const showUrl = `${SITE}/post/show/${POST_ID}`
     await page.goto(showUrl)
     await page.locator('html.bsb-ready').waitFor({ state: 'attached', timeout: 30_000 })
-    const h1 = (await page.locator('.bsb-show-band h1').innerText()).trim()
+    const h1 = (await page.locator('.bsb-show-head h1').innerText()).trim()
     console.log(`step4 h1=${JSON.stringify(h1)}`)
     expect(h1.length).toBeGreaterThan(0)
     await expect(page.locator('.video-js').first()).toBeVisible()
