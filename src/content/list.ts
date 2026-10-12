@@ -83,9 +83,11 @@ function workRow(ctx: Ctx, post: Post): HTMLElement | null {
   if (!cp) return null
   const ja = jaFor(ctx.dict, cp, 'copyright', ctx.settings.translateTags)
   const row = h(ctx.doc, 'div', { class: 'bsb-row bsb-work bsb-t-copyright', title: ja ?? cp })
-  if (ja) row.textContent = ja
-  else if (ctx.settings.translateTags) row.append(...untranslated(ctx.doc, cp))
-  else row.textContent = cp
+  const link = h(ctx.doc, 'a', { class: 'bsb-t-copyright', href: `/post?tags=${encodeURIComponent(cp)}` })
+  if (ja) link.textContent = ja
+  else if (ctx.settings.translateTags) link.append(...untranslated(ctx.doc, cp))
+  else link.textContent = cp
+  row.append(link)
   return row
 }
 

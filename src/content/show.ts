@@ -220,6 +220,73 @@ function head(doc: Document, dict: Dict, s: Settings, tags: Tag[], id: string | 
   )
 }
 
+const POOL_NOTICE = /^pool\d+$/
+
+/**
+ * The site's pool notices ("This post is #31 in the X pool. « Previous | Next »") sit above the video.
+ * They become compact rows in the right column; the originals stay in the DOM (hidden) for site scripts.
+ */
+function pools(doc: Document, view: HTMLElement): HTMLElement | null {
+  const notices = Array.from(view.querySelectorAll<HTMLElement>(':scope > .status-notice')).filter((n) => POOL_NOTICE.test(n.id))
+  const rows: HTMLElement[] = []
+  for (const n of notices) {
+    const poolId = n.id.slice('pool'.length)
+    const name = n.querySelector<HTMLAnchorElement>(`a[href="/pool/show/${poolId}"]`)
+    if (!name) continue
+    const steps = Array.from(n.querySelectorAll<HTMLAnchorElement>('a[href^="/post/show/"]'))
+    const prev = steps.find((a) => /«|prev|前/i.test(a.textContent ?? ''))
+    const next = steps.find((a) => a !== prev && /»|next|次/i.test(a.textContent ?? ''))
+    const seq = norm(n.querySelector(`#pool-seq-${poolId}`)?.textContent)
+    const step = (a: HTMLAnchorElement | undefined, label: string) =>
+      a ? h(doc, 'a', { class: 'bsb-pool-step', href: a.getAttribute('href') ?? undefined }, label) : h(doc, 'span', { class: 'bsb-pool-step bsb-off' }, label)
+    rows.push(
+      h(
+        doc,
+        'div',
+        { class: 'bsb-pool' },
+        h(doc, 'a', { class: 'bsb-pool-name', href: `/pool/show/${poolId}` }, (name.textContent ?? '').trim()),
+        seq && h(doc, 'span', { class: 'bsb-pool-seq bsb-en' }, seq),
+        h(doc, 'span', { class: 'bsb-pool-steps' }, step(prev, '前'), step(next, '次')),
+      ),
+    )
+    n.classList.add('bsb-hide')
+  }
+  return rows.length ? h(doc, 'section', { class: 'bsb-show-pools', 'aria-label': 'プール' }, h(doc, 'div', { class: 'bsb-pool-head' }, 'プール'), ...rows) : null
+}
+
+const FIT_AIR = 16
+
+/**
+ * CSS sizes the video from the viewport height minus --bsb-show-chrome. The fixed default assumes a
+ * one-line control row; narrow (e.g. 4:3) videos wrap it, so measure the real space above the video
+ * and below it (controls) and feed that back. Two passes: the row height depends on the width.
+ */
+function fitPlayer(doc: Document, view: HTMLElement, block: HTMLElement, screen: HTMLElement): void {
+  const win = doc.defaultView
+  if (!win) return
+  const fit = () => {
+    for (let i = 0; i < 2; i++) {
+      const s = screen.getBoundingClientRect()
+      const b = block.getBoundingClientRect()
+      if (!win.innerHeight || !s.height) return
+      const chrome = s.top + win.scrollY + (b.bottom - s.bottom) + FIT_AIR
+      view.style.setProperty('--bsb-show-chrome', `${Math.ceil(chrome)}px`)
+    }
+  }
+  let queued = false
+  const schedule = () => {
+    if (queued) return
+    queued = true
+    win.requestAnimationFrame?.(() => {
+      queued = false
+      fit()
+    })
+  }
+  fit()
+  win.addEventListener('resize', schedule)
+  void doc.fonts?.ready.then(fit)
+}
+
 /** A site link from the sidebar options, matched by one of the given predicates. */
 function optionLink(doc: Document, pick: (a: HTMLAnchorElement) => boolean): HTMLAnchorElement | null {
   return Array.from(doc.querySelectorAll<HTMLAnchorElement>('#post-view .sidebar a')).find(pick) ?? null
@@ -300,7 +367,7 @@ function player(
   doc: Document,
   right: Element,
   post: ShowPost | null,
-): { block: HTMLElement; video: HTMLVideoElement | null; fps: number | null; ratio: number | null } | null {
+): { block: HTMLElement; screen: HTMLElement; video: HTMLVideoElement | null; fps: number | null; ratio: number | null } | null {
   const video = right.querySelector('video')
   if (!video) return null
   // Before video.js runs the <video> itself carries .video-js; afterwards its wrapper div does.
@@ -323,6 +390,7 @@ function player(
   })
   return {
     block: h(doc, 'div', { class: 'bsb-player' }, screen, row),
+    screen,
     video,
     fps: conf.fpsKnown ? conf.fps : null,
     ratio: w > 0 && ht > 0 ? w / ht : null,
@@ -506,8 +574,9 @@ export function renderShow(doc: Document, dict: Dict, settings: Settings): boole
   if (p) main.append(p.block)
   // The video's aspect ratio lets CSS cap its width so the whole player fits the viewport height.
   if (p?.ratio) view.style.setProperty('--bsb-ar-num', String(Math.round(p.ratio * 10000) / 10000))
-  // Site notices (parent/child, pending, …) move under the controls instead of above the video.
-  for (const n of Array.from(view.querySelectorAll(':scope > .status-notice'))) main.append(n)
+  const poolBlock = pools(doc, view)
+  // Other site notices (parent/child, pending, …) move under the controls instead of above the video.
+  for (const n of Array.from(view.querySelectorAll(':scope > .status-notice'))) if (!POOL_NOTICE.test(n.id)) main.append(n)
   main.append(scoreRow(doc, post, p?.video ?? null, p?.fps ?? null))
   if (right) {
     main.append(right)
@@ -520,6 +589,7 @@ export function renderShow(doc: Document, dict: Dict, settings: Settings): boole
   side.append(
     ...([
       head(doc, dict, settings, tags, id, post),
+      poolBlock,
       tagPanel(doc, dict, settings, tags),
       facts(doc, post, id),
       proposeNote(doc, dict, settings, tags),
@@ -527,5 +597,6 @@ export function renderShow(doc: Document, dict: Dict, settings: Settings): boole
   )
   // The site sidebar (search, tags, stats, options) stays in the DOM for its scripts; ours replaces it.
   for (const sb of Array.from(view.querySelectorAll(':scope > .sidebar'))) sb.classList.add('bsb-hide')
+  if (p) fitPlayer(doc, view, p.block, p.screen)
   return true
 }

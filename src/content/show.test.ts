@@ -353,3 +353,53 @@ describe.each(CASES)('renderShow ($name locale)', ({ html }) => {
     expect(doc.querySelectorAll('style#bsb-show')).toHaveLength(1)
   })
 })
+
+describe('renderShow pool notices (post in two pools)', () => {
+  const html = fixture('post-show-pool-25197-2026-10-13.html')
+  const render = () => {
+    const doc = new JSDOM(html, { url: 'https://www.sakugabooru.com/post/show/25197' }).window.document
+    // Expectations come from the site's own notices, read before rendering.
+    const expected = Array.from(doc.querySelectorAll<HTMLElement>('#post-view > .status-notice[id^="pool"]')).map((n) => {
+      const id = n.id.slice(4)
+      const steps = Array.from(n.querySelectorAll('a[href^="/post/show/"]'))
+      return {
+        id,
+        name: n.querySelector(`a[href="/pool/show/${id}"]`)!.textContent!.trim(),
+        seq: n.querySelector(`#pool-seq-${id}`)!.textContent!.trim(),
+        prev: steps.find((a) => a.textContent!.includes('«'))?.getAttribute('href') ?? null,
+        next: steps.find((a) => a.textContent!.includes('»'))?.getAttribute('href') ?? null,
+      }
+    })
+    renderShow(doc, dict, DEFAULTS)
+    return { doc, expected }
+  }
+
+  it('lists each pool in the right column with its position and 前/次 links', () => {
+    const { doc, expected } = render()
+    expect(expected.length).toBe(2)
+    const rows = Array.from(doc.querySelectorAll('aside.bsb-show-side .bsb-show-pools .bsb-pool'))
+    expect(rows.map((r) => ({
+      id: r.querySelector('a.bsb-pool-name')!.getAttribute('href')!.split('/').pop(),
+      name: r.querySelector('a.bsb-pool-name')!.textContent,
+      seq: r.querySelector('.bsb-pool-seq')!.textContent,
+      prev: r.querySelectorAll('.bsb-pool-step')[0].getAttribute('href'),
+      next: r.querySelectorAll('.bsb-pool-step')[1].getAttribute('href'),
+    }))).toEqual(expected)
+    // A missing direction is a disabled label, not a link.
+    const first = rows.find((r) => r.querySelector('.bsb-pool-step.bsb-off'))!
+    expect(first.querySelector('.bsb-pool-step.bsb-off')!.tagName).toBe('SPAN')
+  })
+
+  it('hides the site pool notices but keeps them (with ids) in the DOM, never above the video', () => {
+    const { doc, expected } = render()
+    for (const e of expected) {
+      const n = doc.getElementById(`pool${e.id}`)!
+      expect(n).not.toBeNull()
+      expect(n.classList.contains('bsb-hide')).toBe(true)
+      expect(n.closest('.bsb-show-main')).toBeNull()
+    }
+    // The side column order: title block, pools, tags.
+    const side = Array.from(doc.querySelector('aside.bsb-show-side')!.children).map((c) => c.className)
+    expect(side.slice(0, 3)).toEqual(['bsb-show-head', 'bsb-show-pools', 'bsb-tag-panel'])
+  })
+})

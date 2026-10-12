@@ -72,10 +72,66 @@ html[data-bsb-theme] .bsb-show-nav a.bsb-show-back {
   margin-left: 8px;
 }
 
+/* ---- Aside: pools (from the site's pool notices) ---- */
+.bsb-show-pools {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--bsb-border);
+}
+.bsb-pool-head {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--bsb-sub);
+}
+.bsb-pool {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+html[data-bsb-theme] .bsb-pool a.bsb-pool-name {
+  flex: 1 1 auto;
+  min-width: 0;
+  color: var(--bsb-text);
+  overflow-wrap: anywhere;
+}
+html[data-bsb-theme] .bsb-pool a.bsb-pool-name:hover {
+  color: var(--bsb-red-text);
+}
+.bsb-pool-seq {
+  flex: none;
+  color: var(--bsb-muted);
+  font-size: 13px;
+}
+.bsb-pool-steps {
+  flex: none;
+  display: inline-flex;
+  gap: 2px;
+}
+html[data-bsb-theme] .bsb-pool .bsb-pool-step {
+  display: inline-flex;
+  align-items: center;
+  height: 28px;
+  padding: 0 10px;
+  background: var(--bsb-subtle);
+  color: var(--bsb-text);
+  font-size: 13px;
+}
+html[data-bsb-theme] .bsb-pool a.bsb-pool-step:hover {
+  color: var(--bsb-red-text);
+}
+html[data-bsb-theme] .bsb-pool .bsb-pool-step.bsb-off {
+  color: var(--bsb-faint);
+}
+
 /* ---- Layout: main + aside ----
  * The player must fit the first screen: header (72) + body top padding (24) + control row (61)
  * + a little air = --bsb-show-chrome. The main column is as wide as a video that tall, at most
- * the full width; the right column takes what is left. --bsb-ar-num is set by renderShow.
+ * the full width; the right column takes what is left. --bsb-ar-num is set by renderShow, which also
+ * re-measures --bsb-show-chrome when the control row wraps (fitPlayer).
  */
 #post-view.bsb-show-view {
   --bsb-show-chrome: 184px;

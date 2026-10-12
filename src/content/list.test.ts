@@ -58,6 +58,15 @@ describe('renderList', () => {
     expect(cards(doc)[0].querySelector('.bsb-work')!.textContent).toBe('スタブ作品')
   })
 
+  it('the work name links to that copyright tag search', () => {
+    const { doc } = run()
+    for (const row of Array.from(doc.querySelectorAll('.bsb-card .bsb-work'))) {
+      const a = row.querySelector('a.bsb-t-copyright')!
+      expect(a.getAttribute('href')).toMatch(/^\/post\?tags=[^&]+$/)
+      expect(a.textContent).toBe(row.textContent)
+    }
+  })
+
   it('marks untranslated tags with 未訳 and shows the raw tag', () => {
     const { doc } = run()
     // second post's artist shun_sawai is not in the stub dict
