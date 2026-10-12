@@ -44,8 +44,11 @@ function fakeMedia(video: HTMLVideoElement, init: Partial<Fake> = {}): Fake {
 
 const SETUP = `{"autoplay": true, "playbackRates": [0.2, 0.4, 1], "plugins": {"framebyframe": {"fps": 23.976024, "steps": []}}}`
 
-function setup(attrs = `loop data-setup='${SETUP}'`) {
-  const doc = new JSDOM(`<!doctype html><body><div id="screen"><video class="video-js" ${attrs}></video></div></body>`).window.document
+function setup(attrs = `loop data-setup='${SETUP}'`, visual = false) {
+  // pretendToBeVisual gives the window a real requestAnimationFrame (about 60 Hz).
+  const doc = new JSDOM(`<!doctype html><body><div id="screen"><video class="video-js" ${attrs}></video></div></body>`, {
+    pretendToBeVisual: visual,
+  }).window.document
   const video = doc.querySelector('video')!
   const screen = doc.getElementById('screen')!
   const state = fakeMedia(video)
@@ -116,6 +119,32 @@ describe('buildPlayer', () => {
     expect(row.querySelector('.bsb-time-total')!.textContent).toBe('0:21.1')
     const fill = row.querySelector<HTMLElement>('.bsb-progress-fill')!
     expect(parseFloat(fill.style.width)).toBeCloseTo((8.3 / 21.1) * 100, 1)
+  })
+
+  it('while playing, refreshes the readout every animation frame, not only on timeupdate', async () => {
+    const { row, video, state } = setup(undefined, true)
+    state.duration = 10
+    await video.play()
+    // Advance the clock silently (no timeupdate event): the frame loop must still pick it up.
+    state.currentTime = 3
+    const cur = row.querySelector('.bsb-time-cur')!
+    await vi.waitFor(() => expect(cur.textContent).toBe('0:03.0'))
+    const fill = row.querySelector<HTMLElement>('.bsb-progress-fill')!
+    await vi.waitFor(() => expect(parseFloat(fill.style.width)).toBeCloseTo(30, 1))
+    // Paused: the loop stops, so a silent change is no longer reflected.
+    video.pause()
+    state.currentTime = 5
+    await new Promise((r) => setTimeout(r, 60))
+    expect(cur.textContent).toBe('0:03.0')
+  })
+
+  it('works without requestAnimationFrame (falls back to timeupdate)', async () => {
+    const { row, video, state } = setup()
+    expect(typeof video.ownerDocument.defaultView!.requestAnimationFrame).toBe('undefined')
+    state.duration = 10
+    await video.play()
+    video.currentTime = 4
+    expect(row.querySelector('.bsb-time-cur')!.textContent).toBe('0:04.0')
   })
 
   it('seeks when the progress bar is clicked', () => {

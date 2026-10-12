@@ -180,8 +180,28 @@ export function buildPlayer(doc: Document, o: PlayerOptions): HTMLElement {
     if (p && typeof p.catch === 'function') p.catch(() => undefined)
   })
 
+  // `timeupdate` fires only about four times a second, which makes a tenths readout and the bar
+  // advance in uneven jumps. While playing, refresh on every animation frame instead.
+  const win = doc.defaultView
+  let frame = 0
+  const tick = () => {
+    syncTime()
+    frame = win?.requestAnimationFrame ? win.requestAnimationFrame(tick) : 0
+  }
+  const startTicking = () => {
+    if (!frame && win && typeof win.requestAnimationFrame === 'function') frame = win.requestAnimationFrame(tick)
+  }
+  const stopTicking = () => {
+    if (frame && win) win.cancelAnimationFrame(frame)
+    frame = 0
+    syncTime()
+  }
+
   for (const ev of ['play', 'pause', 'playing', 'ended']) v.addEventListener(ev, syncPlay)
+  for (const ev of ['play', 'playing']) v.addEventListener(ev, startTicking)
+  for (const ev of ['pause', 'ended', 'emptied']) v.addEventListener(ev, stopTicking)
   for (const ev of ['timeupdate', 'loadedmetadata', 'durationchange', 'seeked']) v.addEventListener(ev, syncTime)
+  if (!v.paused) startTicking()
   v.addEventListener('ratechange', syncRate)
   v.addEventListener('volumechange', syncMute)
 
