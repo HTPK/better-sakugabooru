@@ -32,7 +32,7 @@ body:
     id: src
     attributes:
       label: 出典 (URL)
-      description: Wikidata / 公式サイトなど (an external database などデータの転載を禁じているサービスは不可)。無ければ空欄で構いません。
+      description: Wikidata / 公式サイトなど (データの転載を禁じているサービスは不可)。無ければ空欄で構いません。
       placeholder: https://www.wikidata.org/wiki/Q919281
   - type: input
     id: post

@@ -39,4 +39,4 @@ py -3 -m pytest -q
 
 ## License
 
-MIT (see the repository root). Generated data comes from Wikidata (CC0) only. Do not add data copied from an external database or other services whose terms forbid bulk collection or redistribution.
+MIT (see the repository root). Generated data comes from Wikidata (CC0) only. Do not add data copied from services whose terms forbid bulk collection or redistribution.
