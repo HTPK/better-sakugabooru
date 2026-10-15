@@ -130,6 +130,8 @@ describe('getDict / validateDict', () => {
         iso: { ja: 'a⁨b' },
         badkana: { ja: 'あ', kana: 1 },
         badsrc: { ja: 'あ', src: {} },
+        longkana: { ja: 'あ', kana: 'あ'.repeat(161) },
+        longsrc: { ja: 'あ', src: 'x'.repeat(301) },
       },
       general: { g: { ja: 'ぐ' } },
       counts: { ok: 3, bad: 'x', inf: Infinity },

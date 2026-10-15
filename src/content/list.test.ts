@@ -393,9 +393,10 @@ for (const file of ['post-list-2026-10-12.html', 'post-list-ja-2026-10-12.html']
       const raw = panel(doc, 'artist').querySelector<HTMLElement>('a.bsb-side-raw')!
       expect(raw).not.toBeNull()
       expect(raw.querySelector('.bsb-untranslated')!.textContent).toBe('未訳')
+      expect(raw.querySelector<HTMLElement>('.bsb-untranslated')!.dataset.tag).toBe(raw.dataset.tag)
       expect(raw.classList.contains('bsb-t-artist')).toBe(false)
       const note = doc.querySelector('.bsb-side-note')!
-      expect(note.textContent).toContain('赤い「未訳」は辞書にまだ無い語です。')
+      expect(note.textContent).toContain('赤い「未訳」は辞書にまだ無い語です (押すとその語の訳を提案できます)。')
       const link = note.querySelector<HTMLAnchorElement>('a')!
       expect(link.textContent).toBe('訳を提案する')
       const u = new URL(link.href)

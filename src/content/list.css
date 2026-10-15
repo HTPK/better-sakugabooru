@@ -292,6 +292,13 @@ html[data-bsb-theme] .bsb-chip.bsb-more {
   font-size: 11px;
   margin-left: 4px;
 }
+/* Clicking opens the GitHub proposal form for that tag (propose.ts). */
+.bsb-untranslated[data-tag] {
+  cursor: pointer;
+}
+.bsb-untranslated[data-tag]:hover {
+  text-decoration: underline;
+}
 .bsb-romaji {
   color: var(--bsb-muted);
   font-family: var(--bsb-font-en);

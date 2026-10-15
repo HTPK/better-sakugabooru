@@ -4,13 +4,12 @@ import { isBlacklisted, parsePosts, readBlacklist, type Post } from './pagedata'
 import { h } from './render'
 import { renderListBand, type BandActions } from './listband'
 import listCss from './list.css?inline'
+import { proposeUrl, untranslatedMark, UNTRANSLATED } from './propose'
 
-const UNTRANSLATED = '未訳'
 const ARTIST_UNKNOWN = 'artist_unknown'
 const ARTIST_UNKNOWN_JA = '作画者不明'
 const SITE_DEFAULT_PER_PAGE = 40
 const ARTIST_SEP = '　'
-const PROPOSE_BASE = 'https://github.com/HTPK/better-sakugabooru/issues/new?template=translation.yml&title='
 const PROPOSE_LIMIT = 20
 /** Present on nearly every post; never worth a 技法 chip or a translation request. */
 const NOISE = new Set(['animated'])
@@ -48,7 +47,7 @@ function pickCopyright(post: Post, types: Record<string, TagType>): string | nul
 }
 
 export function untranslated(doc: Document, tag: string): Node[] {
-  return [h(doc, 'span', { class: 'bsb-raw' }, tag), h(doc, 'span', { class: 'bsb-untranslated' }, UNTRANSLATED)]
+  return [h(doc, 'span', { class: 'bsb-raw' }, tag), untranslatedMark(doc, tag)]
 }
 
 function pad2(n: number): string {
@@ -239,7 +238,7 @@ export function translateSidebar(doc: Document, dict: Dict, settings: Settings):
       link.textContent = ja
       if (settings.showRomaji) link.after(h(doc, 'span', { class: 'bsb-romaji' }, spaced(tag)))
     } else {
-      link.after(h(doc, 'span', { class: 'bsb-untranslated' }, UNTRANSLATED))
+      link.after(untranslatedMark(doc, tag))
     }
     li.setAttribute('data-bsb-done', '')
   }
@@ -359,19 +358,10 @@ function sideItem(ctx: Ctx, type: PanelSpec['type'], row: SideRow, chip: boolean
       'span',
       { class: 'bsb-side-name' },
       raw ? h(doc, 'span', { class: 'bsb-side-text' }, row.tag) : (ja ?? row.tag),
-      raw && h(doc, 'span', { class: 'bsb-untranslated' }, UNTRANSLATED),
+      raw && untranslatedMark(doc, row.tag),
     ),
     chip ? ' ' : null,
     h(doc, 'span', { class: 'bsb-side-count bsb-en' }, String(row.count)),
-  )
-}
-
-function proposeHref(missing: string[]): string {
-  return (
-    PROPOSE_BASE +
-    encodeURIComponent('翻訳提案: ' + missing.join(', ')) +
-    '&labels=translation&tags=' +
-    encodeURIComponent(missing.join('\n'))
   )
 }
 
@@ -435,8 +425,8 @@ function buildSide(ctx: Ctx, posts: Post[]): HTMLElement {
         doc,
         'p',
         { class: 'bsb-side-note' },
-        `赤い「${UNTRANSLATED}」は辞書にまだ無い語です。`,
-        h(doc, 'a', { class: 'bsb-propose', href: proposeHref(asked), target: '_blank', rel: 'noopener' }, '訳を提案する'),
+        `赤い「${UNTRANSLATED}」は辞書にまだ無い語です (押すとその語の訳を提案できます)。`,
+        h(doc, 'a', { class: 'bsb-propose', href: proposeUrl(asked), target: '_blank', rel: 'noopener' }, '訳を提案する'),
       ),
     )
   }

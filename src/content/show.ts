@@ -7,9 +7,9 @@ import { extractJsonObjects } from './pagedata'
 import { buildPlayer, formatBytes, formatFps, readSetup } from './player'
 import showCss from './show.css?inline'
 import playerCss from './player.css?inline'
+import { proposeUrl, untranslatedMark } from './propose'
 
 const WIKI_BASE = 'https://w.atwiki.jp/sakuga/?page='
-const PROPOSE_BASE = 'https://github.com/HTPK/better-sakugabooru/issues/new?template=translation.yml&title='
 const PROPOSE_MAX_TAGS = 20
 const LEAD_LIMIT = 3
 /** Present on nearly every post; never worth a lead slot or a translation request. */
@@ -425,7 +425,7 @@ function tagEntry(doc: Document, dict: Dict, s: Settings, t: Tag, chip: boolean)
   const href = `/post?tags=${encodeURIComponent(t.tag)}`
   if (chip && NOISE.has(t.tag)) return h(doc, 'a', { class: 'bsb-chip bsb-chip-noise bsb-en', href, 'data-type': t.type }, t.tag)
   const ja = jaFor(dict, t.tag, t.type, s.translateTags)
-  const name = h(doc, 'span', { class: 'bsb-tag-name' }, ...(ja ? [ja] : s.translateTags ? [t.tag, h(doc, 'span', { class: 'bsb-untranslated' }, '未訳')] : [t.tag]))
+  const name = h(doc, 'span', { class: 'bsb-tag-name' }, ...(ja ? [ja] : s.translateTags ? [t.tag, untranslatedMark(doc, t.tag)] : [t.tag]))
   const romaji = ja && s.showRomaji ? h(doc, 'span', { class: 'bsb-tag-romaji bsb-en' }, t.tag) : null
   if (chip) return h(doc, 'a', { class: 'bsb-chip', href, 'data-type': t.type }, name, romaji && ' ', romaji)
   const kana = ja && t.type === 'artist' ? lookup(dict, t.tag, 'artist').kana : undefined
@@ -533,14 +533,7 @@ function proposeNote(doc: Document, dict: Dict, s: Settings, tags: Tag[]): HTMLE
     .filter((t, i, a) => a.indexOf(t) === i)
     .slice(0, PROPOSE_MAX_TAGS)
   if (!missing.length) return null
-  // Issue forms ignore body=; fields are prefilled by their yml ids (tags, post).
-  const href =
-    PROPOSE_BASE +
-    encodeURIComponent('翻訳提案: ' + missing.join(', ')) +
-    '&labels=translation&tags=' +
-    encodeURIComponent(missing.join('\n')) +
-    '&post=' +
-    encodeURIComponent(doc.location?.href ?? '')
+  const href = proposeUrl(missing, doc.location?.href)
   return h(
     doc,
     'p',

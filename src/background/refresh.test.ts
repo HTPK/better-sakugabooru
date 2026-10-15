@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { refreshDict, DICT_URL } from './refresh'
+import { refreshDict, DICT_URL, MAX_BYTES } from './refresh'
 
 const good = { v: 1, updated: '2026-11-01', artists: {}, copyrights: {}, general: {} }
 const resp = (body: string, status = 200) => new Response(body, { status })
@@ -40,6 +40,12 @@ describe('refreshDict', () => {
     expect(r.ok).toBe(true)
     const s = await chrome.storage.local.get('dict')
     expect(s.dict).toEqual({ ...good, artists: { ok: { ja: 'あ' } }, general: {} })
+  })
+
+  it('rejects an oversized response without parsing it', async () => {
+    const r = await refreshDict(async () => resp(' '.repeat(MAX_BYTES + 1)))
+    expect(r.ok).toBe(false)
+    expect(r.error).toContain('too large')
   })
 
   it('records an error on 404', async () => {

@@ -124,6 +124,8 @@ export function validateDict(x: unknown): x is Dict {
 }
 
 const JA_MAX = 80
+const KANA_MAX = 160
+const SRC_MAX = 300
 /** C0 controls, DEL, LRM/RLM, bidi embeddings/overrides and isolates: they could reorder or hide page text. */
 // eslint-disable-next-line no-control-regex
 const UNSAFE_CHARS = /[\u0000-\u001f\u007f‎‏‪-‮⁦-⁩]/
@@ -134,8 +136,8 @@ function cleanEntry(e: unknown): Entry | null {
   if (!isPlainObj(e)) return null
   const { ja, kana, src } = e
   if (typeof ja !== 'string' || !ja || ja.length > JA_MAX || UNSAFE_CHARS.test(ja)) return null
-  if (kana !== undefined && (typeof kana !== 'string' || UNSAFE_CHARS.test(kana))) return null
-  if (src !== undefined && typeof src !== 'string') return null
+  if (kana !== undefined && (typeof kana !== 'string' || kana.length > KANA_MAX || UNSAFE_CHARS.test(kana))) return null
+  if (src !== undefined && (typeof src !== 'string' || src.length > SRC_MAX)) return null
   const out: Entry = { ja }
   if (kana !== undefined) out.kana = kana
   if (src !== undefined) out.src = src

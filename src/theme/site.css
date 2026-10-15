@@ -302,6 +302,13 @@ html[data-bsb-theme] #comments .comment {
   font-size: 11px;
   margin-left: 4px;
 }
+/* Clicking opens the GitHub proposal form for that tag (propose.ts). */
+.bsb-untranslated[data-tag] {
+  cursor: pointer;
+}
+.bsb-untranslated[data-tag]:hover {
+  text-decoration: underline;
+}
 .bsb-romaji {
   font-family: var(--bsb-font-en);
   font-size: 12px;

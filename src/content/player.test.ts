@@ -176,6 +176,15 @@ describe('buildPlayer', () => {
     expect(cur.textContent).toBe(total.textContent) // never one past the end
   })
 
+  it('reserves the total frame count width for the current frame so the seek bar does not shift', () => {
+    const { row, video, state } = setup()
+    state.duration = 21.1
+    video.dispatchEvent(new video.ownerDocument.defaultView!.Event('loadedmetadata'))
+    const cur = row.querySelector<HTMLElement>('.bsb-frame-cur')!
+    expect(cur.textContent).toBe('1')
+    expect(cur.style.minWidth).toBe(`${row.querySelector('.bsb-frame-total')!.textContent!.length}ch`)
+  })
+
   it('shows no frame counter when fps is only a default', () => {
     const { row } = setup(`data-setup='{"playbackRates":[1]}'`)
     expect(row.querySelector('.bsb-frame')).toBeNull()
@@ -258,6 +267,14 @@ describe('buildPlayer', () => {
     const video = doc.querySelector('video')!
     fakeMedia(video)
     const row = buildPlayer(doc, { video, screen: doc.getElementById('s')!, rates: [1], fps: 24 })
+    expect(row.querySelector('a.bsb-save')).toBeNull()
+  })
+
+  it('omits the save link when the file url is not http(s)', () => {
+    const doc = new JSDOM(`<div id="s"><video></video></div>`).window.document
+    const video = doc.querySelector('video')!
+    fakeMedia(video)
+    const row = buildPlayer(doc, { video, screen: doc.getElementById('s')!, rates: [1], fps: 24, fileUrl: 'javascript:alert(1)' })
     expect(row.querySelector('a.bsb-save')).toBeNull()
   })
 })

@@ -124,7 +124,8 @@ export function buildPlayer(doc: Document, o: PlayerOptions): HTMLElement {
   const fwd = button(doc, 'bsb-step', '1f ›', { 'aria-label': '1 フレーム進む' })
   const loop = button(doc, 'bsb-loop', 'ループ')
   const mute = button(doc, 'bsb-mute', 'ミュート')
-  const save = o.fileUrl
+  // file_url comes from the page; only an http(s) URL becomes a link.
+  const save = o.fileUrl && /^https?:\/\//i.test(o.fileUrl)
     ? h(
         doc,
         'a',
@@ -148,6 +149,8 @@ export function buildPlayer(doc: Document, o: PlayerOptions): HTMLElement {
       const n = frameCount(d, o.fps)
       frameCur.textContent = String(n === null ? frameAt(v.currentTime, o.fps) : Math.min(n, frameAt(v.currentTime, o.fps)))
       frameTotal.textContent = n === null ? FRAME_UNKNOWN : String(n)
+      // Digits are tabular (Jost tnum = 1ch each); reserving the total's width keeps 1 → 199 from shifting the bar.
+      frameCur.style.minWidth = `${frameTotal.textContent.length}ch`
     }
     const pct = Number.isFinite(d) && d > 0 ? Math.min(100, (v.currentTime / d) * 100) : 0
     fill.style.width = `${pct}%`

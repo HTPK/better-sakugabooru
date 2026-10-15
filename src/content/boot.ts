@@ -1,5 +1,6 @@
 import { DEFAULTS, type Settings } from '../settings'
 import type { Dict } from '../dict'
+import { attachProposeClick } from './propose'
 
 export interface ListActions {
   saveSettings: (patch: Partial<Settings>) => Promise<void>
@@ -113,6 +114,7 @@ export async function boot(d: BootDeps): Promise<void> {
       }
     }
     step('renderHeader', () => d.renderHeader(doc, settings))
+    step('attachProposeClick', () => attachProposeClick(doc, (url) => win.open(url, '_blank', 'noopener')))
     if (doc.getElementById('post-list-posts')) {
       const navigate = d.navigate ?? ((url: string) => win.location.assign(url))
       // Band and search box exist before attachSearch below, so its input gets the autocomplete.

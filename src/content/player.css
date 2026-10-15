@@ -103,6 +103,8 @@ html[data-bsb-theme] .bsb-player-row button.bsb-play:hover {
   font-variant-numeric: tabular-nums;
 }
 .bsb-frame .bsb-frame-cur {
+  display: inline-block;
+  text-align: right;
   color: var(--bsb-text);
   font-weight: 700;
 }
