@@ -3,7 +3,7 @@ import { defineManifest } from '@crxjs/vite-plugin'
 export default defineManifest({
   manifest_version: 3,
   name: 'SakuView for Sakugabooru',
-  version: '1.0.1',
+  version: '1.0.2',
   description: 'Sakugabooru を日本語で。タグの日本語表示・日本語検索・見やすい一覧。',
   icons: { 16: 'icons/16.png', 48: 'icons/48.png', 128: 'icons/128.png' },
   permissions: ['storage', 'alarms'],

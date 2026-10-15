@@ -28,11 +28,6 @@ DIRECTOR_OCCUPATIONS = {
     "Q1686939",  # anime director (verify on Wikidata; harmless if unused)
 }  # Q3282637 (film producer) is deliberately NOT a candidate.
 NO_MATCH = {"ja": None, "needs_review": True, "src": "wikidata:none"}
-NO_MATCH_FINAL = {"ja": None, "needs_review": True, "src": "none"}
-STAFF_URL = "https://graphql.an external database.co"
-STAFF_QUERY = ("query ($q:String){ Page(perPage:10){ staff(search:$q){ id "
-               "name{ full native alternative } primaryOccupations } } }")
-CJK_RE = re.compile(r"[぀-ヿ㐀-鿿豈-﫿]")
 SUFFIX_RE = re.compile(r"\s*[(（][^()（）]*[)）]\s*$")
 
 
@@ -41,24 +36,6 @@ def strip_label_suffix(s):
     return SUFFIX_RE.sub("", s).strip()
 
 
-def staff_lookup(names, post):
-    """an external database staff fallback; returns entry dict or None."""
-    forms = _name_forms(names)
-    if not forms:
-        return None
-    hits = []
-    for q in names[:1]:
-        resp = post({"query": STAFF_QUERY, "variables": {"q": q}})
-        staff = (((resp or {}).get("data") or {}).get("Page") or {}).get("staff") or []
-        for st in staff:
-            nm = st.get("name") or {}
-            native = (nm.get("native") or "").strip()
-            if native and CJK_RE.search(native) and _norm_name(nm.get("full")) in forms:
-                hits.append((st["id"], native))
-    if not hits:
-        return None
-    return {"ja": hits[0][1], "src": f"an external database-staff:{hits[0][0]}",
-            "needs_review": len(hits) > 1}
 KANA_RE =re.compile(r"^[぀-ゟ゠-ヿ　 ]+$")
 
 
@@ -204,7 +181,7 @@ def lookup(query, fetch_json, names=None):
 
 
 def run(tags, data, fetch_json, limit=None, force=False, on_progress=None, inplace=False,
-        only=None, post=None):
+        only=None):
     if not inplace:
         data = dict(data)
     done = 0
@@ -229,15 +206,6 @@ def run(tags, data, fetch_json, limit=None, force=False, on_progress=None, inpla
         except Exception as e:  # one bad tag must not abort the whole run
             print(f"warning: {name}: {type(e).__name__}: {e}", file=sys.stderr)
             continue
-        if (not res or not res.get("ja")) and post is not None:
-            try:
-                res = staff_lookup(queries, post)
-            except Exception as e:
-                print(f"warning: {name}: staff {type(e).__name__}: {e}", file=sys.stderr)
-                continue
-            if res is None:
-                data[name] = dict(NO_MATCH_FINAL)
-                continue
         if res:
             res["count"] = t["count"]
             data[name] = res
@@ -254,12 +222,8 @@ def main():
     ap.add_argument("--sleep", type=float, default=1.0)
     ap.add_argument("--only", help="comma-separated tags; implies --force")
     ap.add_argument("--force", action="store_true")
-    ap.add_argument("--no-staff", action="store_true",
-                    help="skip the an external database staff fallback (Wikidata only)")
     ap.add_argument("--retry-misses", action="store_true",
                     help="re-process only tags recorded with ja=null (implies --force)")
-    ap.add_argument("--staff-sleep", type=float, default=2.1,
-                    help="seconds between an external database calls (an external database allows ~30/min)")
     a = ap.parse_args()
     path = ROOT / "data" / "artists.json"
     tags = load_tags(ROOT, "artist")
@@ -269,14 +233,6 @@ def main():
     def fetch(url):
         return cached(ROOT / "cache" / "wikidata", url, lambda: http_json(url), sleep=a.sleep)
 
-    def post(payload):
-        body = json.dumps(payload, sort_keys=True)
-
-        def go():  # http_json waits Retry-After on HTTP 429 and retries
-            return http_json(STAFF_URL, data=body.encode("utf-8"),
-                             headers={"Content-Type": "application/json"})
-        return cached(ROOT / "cache" / "an external database_staff", body, go, sleep=a.staff_sleep)
-
     data = load_json(path)
     before = len(data)
     try:  # inplace: `data` holds every finished tag even if run() is interrupted
@@ -285,7 +241,7 @@ def main():
             only = {k for k, v in data.items() if v.get("ja") is None}
             print(f"retrying {len(only)} misses")
         run(tags, data, fetch, limit=a.limit, force=a.force or only is not None, inplace=True,
-            only=only, post=None if a.no_staff else post,
+            only=only,
             on_progress=lambda d: save_json(path, d))
     finally:  # also on KeyboardInterrupt
         save_json(path, data)

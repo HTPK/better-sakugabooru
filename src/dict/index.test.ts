@@ -165,7 +165,7 @@ describe('getDict / validateDict', () => {
   })
 
   it('falls back to snapshot when storage is empty or invalid', async () => {
-    expect((await getDict()).updated).toBe('2026-10-12')
+    expect((await getDict()).updated).toBe(snapshot.updated)
     await chrome.storage.local.set({ dict: { v: 9 } })
     expect((await getDict()).artists).toHaveProperty('yoshinori_kanada')
   })

@@ -4,7 +4,7 @@ Japanese names for Sakugabooru tags (artists, works, general terms), used by the
 
 ## Layout
 
-- `data/artists.json`, `data/copyrights.json`, `data/general.json`: generated entries (Wikidata / an external database).
+- `data/artists.json`: generated entries (Wikidata). `data/copyrights.json`: work titles (currently empty; add them in `overrides.json`). `data/general.json`: hand-written terms.
 - `data/overrides.json`: hand-maintained corrections. Always wins over generated data.
 - `dist/dict.json`: the built dictionary. `REVIEW.md` lists uncertain candidates, `COVERAGE.md` shows how much is translated.
 
@@ -20,7 +20,7 @@ Japanese names for Sakugabooru tags (artists, works, general terms), used by the
 }
 ```
 
-`kana` is optional. `src` is `wikidata:Q...`, `an external database:ID`, `manual`, or `manual:<url>`. In `overrides.json` you may add `"type": "artists" | "copyrights" | "general"` for tags not yet in a data file (default `general`).
+`kana` is optional. `src` is `wikidata:Q...`, `manual`, or `manual:<url>`. In `overrides.json` you may add `"type": "artists" | "copyrights" | "general"` for tags not yet in a data file (default `general`).
 
 ## Fixing a name (GitHub web editor)
 
@@ -32,11 +32,10 @@ Open `data/overrides.json`, press the pencil icon, add a line such as
 ```
 py -3 scripts/fetch_tags.py                 # cache/tags.json
 py -3 scripts/gen_artists.py --limit 50     # Wikidata -> data/artists.json
-py -3 scripts/gen_copyrights.py --limit 50  # an external database  -> data/copyrights.json
 py -3 scripts/build.py                      # dist/dict.json, REVIEW.md, COVERAGE.md
 py -3 -m pytest -q
 ```
 
 ## License
 
-MIT (see the repository root). Data derived from Wikidata (CC0) and an external database titles.
+MIT (see the repository root). Generated data comes from Wikidata (CC0) only. Do not add data copied from an external database or other services whose terms forbid bulk collection or redistribution.

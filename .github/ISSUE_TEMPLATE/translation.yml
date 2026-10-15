@@ -7,7 +7,7 @@ body:
     attributes:
       value: |
         Sakugabooru のタグ (英語) に対する日本語訳を提案してください。
-        作画者名は Wikidata や公式クレジット、作品名は公式サイトや an external database など、出典があると採用が早くなります。
+        作画者名は Wikidata や公式クレジット、作品名は公式サイトなど、出典があると採用が早くなります。
   - type: textarea
     id: tags
     attributes:
@@ -32,7 +32,7 @@ body:
     id: src
     attributes:
       label: 出典 (URL)
-      description: Wikidata / 公式サイト / an external database など。無ければ空欄で構いません。
+      description: Wikidata / 公式サイトなど (an external database などデータの転載を禁じているサービスは不可)。無ければ空欄で構いません。
       placeholder: https://www.wikidata.org/wiki/Q919281
   - type: input
     id: post
