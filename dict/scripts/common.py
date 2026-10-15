@@ -9,7 +9,7 @@ import urllib.request
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-USER_AGENT = "sakugabooru-ja-dict/0.1 (https://github.com/HTPK/sakugabooru-ja-dict/issues)"
+USER_AGENT = "sakuview-dict/1.0 (https://github.com/HTPK/better-sakugabooru/issues)"
 # Transient failures retried with exponential backoff (socket.timeout is TimeoutError).
 TRANSIENT = (urllib.error.URLError, TimeoutError, socket.timeout,
              ConnectionResetError, json.JSONDecodeError)

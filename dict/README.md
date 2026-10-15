@@ -4,7 +4,7 @@ Japanese names for Sakugabooru tags (artists, works, general terms), used by the
 
 ## Layout
 
-- `data/artists.json`: generated entries (Wikidata). `data/copyrights.json`: work titles (currently empty; add them in `overrides.json`). `data/general.json`: hand-written terms.
+- `data/artists.json`: generated entries (Wikidata). `data/copyrights.json`: generated work titles (Wikidata; uncertain matches are kept with `needs_review: true` and not published). `data/general.json`: hand-written terms.
 - `data/overrides.json`: hand-maintained corrections. Always wins over generated data.
 - `dist/dict.json`: the built dictionary. `REVIEW.md` lists uncertain candidates, `COVERAGE.md` shows how much is translated.
 
@@ -31,6 +31,7 @@ Open `data/overrides.json`, press the pencil icon, add a line such as
 
 ```
 py -3 scripts/fetch_tags.py                 # cache/tags.json
+py -3 scripts/gen_copyrights.py --limit 50  # Wikidata -> data/copyrights.json
 py -3 scripts/gen_artists.py --limit 50     # Wikidata -> data/artists.json
 py -3 scripts/build.py                      # dist/dict.json, REVIEW.md, COVERAGE.md
 py -3 -m pytest -q

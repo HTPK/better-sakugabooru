@@ -45,7 +45,7 @@ def test_http_json_retries_on_reset_and_bad_json(monkeypatch):
 
 def test_user_agent_has_no_email():
     assert "@" not in common.USER_AGENT
-    assert common.USER_AGENT.startswith("sakugabooru-ja-dict/0.1 ")
+    assert common.USER_AGENT.startswith("sakuview-dict/1.0 ")
 
 
 def test_cached_does_not_store_error_response(tmp_path):
