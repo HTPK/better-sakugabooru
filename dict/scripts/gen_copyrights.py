@@ -232,6 +232,88 @@ def decide(entities, order=None, names=None, year=None, other=False, series=Fals
     return {"ja": ja, "src": f"wikidata:{best}", "needs_review": review}
 
 
+SERIES_PROPS = ("P179", "P8345")  # part of the series / media franchise
+SRC_RE = re.compile(r"^wikidata:(Q\d+)$")
+
+
+def series_from_cooccur(tag, cooccur, data, fetch_json, fetch_entities=None):
+    """Translate a `_series` tag from the works that share its posts.
+
+    `cooccur` is {work_tag: posts} (fetch_cooccur.py). Each work already settled
+    on a Wikidata item votes for the items it is "part of" (P179/P8345), one
+    vote per work. Auto-accept only when the winner's English name is the tag's
+    own (`gundam_build_series` must not become the whole Gundam franchise just
+    because every Build work points there); otherwise needs_review with the
+    winner as the suggestion. Works without any series link fall back to a
+    review-only suggestion built from their shared Japanese title prefix.
+    None when nothing can be derived.
+    """
+    works = []
+    for wt, n in sorted(cooccur.items(), key=lambda kv: -kv[1]):
+        e = data.get(wt) or {}
+        m = SRC_RE.match(e.get("src") or "")
+        if m and e.get("ja") and not e.get("needs_review"):
+            works.append((wt, n, m.group(1)))
+    if not works:
+        return None
+    get = fetch_entities or (lambda ids: _entities(fetch_json, ids))
+    ents = get([q for _, _, q in works])
+    votes, voters = {}, {}
+    for wt, n, q in works:
+        for s in set().union(*(_claim_ids(ents.get(q, {}), p) for p in SERIES_PROPS)):
+            votes[s] = votes.get(s, 0) + 1
+            voters.setdefault(s, []).append(wt)
+    if not votes:
+        return _series_from_titles(works, data)
+    sents = get(sorted(votes))
+    base = tag[: -len(SERIES_SUFFIX)].replace("_", " ")
+    keys = _keys([base, f"{base} series", f"{base} franchise"])
+    ranked = []
+    for s, v in votes.items():
+        e = sents.get(s, {})
+        if _ja(e) is None:
+            continue
+        ranked.append((0 if _name_ok(_en_names(e), keys) else 1, -v, s))
+    if not ranked:
+        return _series_from_titles(works, data)
+    ranked.sort()
+    unnamed, _, best = ranked[0]
+    return {"ja": _series_ja(_ja(sents[best])), "src": f"wikidata:{best}",
+            "needs_review": bool(unnamed), "via": voters[best]}
+
+
+def _series_ja(ja):
+    return ja if "シリーズ" in ja else f"{ja} シリーズ"
+
+
+def _series_from_titles(works, data):
+    """Review-only suggestion: the Japanese title prefix the works share
+    (`幽☆遊☆白書`, `幽☆遊☆白書 冥界死闘篇` -> `幽☆遊☆白書 シリーズ`)."""
+    titles = [(data[wt]["ja"], q, wt) for wt, _, q in works]
+    prefix = titles[0][0]
+    for t, _, _ in titles[1:]:
+        n = 0
+        while n < min(len(prefix), len(t)) and prefix[n] == t[n]:
+            n += 1
+        prefix = prefix[:n]
+    prefix = prefix.strip(" 　:：-−〜~/／・")
+    if len(prefix) < 2:
+        return None
+    ja, q, wt = min(titles, key=lambda x: (not x[0].startswith(prefix), len(x[0])))
+    return {"ja": _series_ja(prefix), "src": f"wikidata:{q}", "needs_review": True,
+            "via": [wt]}
+
+
+def _entities(fetch_json, ids):
+    ents = {}
+    for i in range(0, len(ids), 50):
+        ents.update(_api(fetch_json, {"action": "wbgetentities", "ids": "|".join(ids[i:i + 50]),
+                                      "props": "labels|aliases|claims|descriptions",
+                                      "languages": "en|ja|mul", "format": "json"}
+                         ).get("entities", {}))
+    return ents
+
+
 def _api(fetch_json, params):
     """Wikidata API call; an {"error": ...} body (maxlag/readonly) raises so the
     tag is retried on the next run instead of being recorded as "no match"."""
@@ -251,17 +333,14 @@ def lookup(query, fetch_json, names=None, year=None, other=False, series=False):
                        + list(h.get("aliases") or []), keys)]
     if not ids:
         return None
-    ents = {}
-    for i in range(0, len(ids), 50):
-        ents.update(_api(fetch_json, {"action": "wbgetentities", "ids": "|".join(ids[i:i + 50]),
-                                      "props": "labels|aliases|claims|descriptions",
-                                      "languages": "en|ja|mul", "format": "json"}
-                         ).get("entities", {}))
+    ents = _entities(fetch_json, ids)
     return decide(ents, order=ids, names=names or [query], year=year, other=other, series=series)
 
 
 def run(tags, data, fetch_json, limit=None, force=False, on_progress=None, inplace=False,
-        only=None):
+        only=None, cooccur=None):
+    """cooccur: {series_tag: {work_tag: posts}}; a series tag with co-occurrence data
+    is derived from its works first and looked up by name only when that fails."""
     if not inplace:
         data = dict(data)
     all_names = {t["name"] for t in tags}
@@ -273,14 +352,15 @@ def run(tags, data, fetch_json, limit=None, force=False, on_progress=None, inpla
         if t["count"] < MIN_COUNT or (name in data and not force):
             continue
         plan = tag_plan(name, all_names)
-        if not plan:
+        co = (cooccur or {}).get(name) if name.endswith(SERIES_SUFFIX) else None
+        if not plan and not co:
             continue
         if limit is not None and done >= limit:
             break
         done += 1
         try:
-            res = None
-            for q in plan["queries"]:
+            res = series_from_cooccur(name, co, data, fetch_json) if co else None
+            for q in plan["queries"] if plan and not res else []:
                 res = lookup(q, fetch_json, names=plan["names"], year=plan["year"],
                              other=plan["other"], series=plan["series"])
                 if res:
@@ -306,6 +386,8 @@ def main():
     ap.add_argument("--force", action="store_true")
     ap.add_argument("--retry-misses", action="store_true",
                     help="re-process only tags recorded with ja=null (implies --force)")
+    ap.add_argument("--series", action="store_true",
+                    help="re-process only `_series` tags not yet adopted, using cache/cooccur.json")
     a = ap.parse_args()
     path = ROOT / "data" / "copyrights.json"
     tags = load_tags(ROOT, "copyright")
@@ -322,8 +404,15 @@ def main():
         if a.retry_misses:
             only = {k for k, v in data.items() if v.get("ja") is None}
             print(f"retrying {len(only)} misses")
+        cooccur = load_json(ROOT / "cache" / "cooccur.json")
+        if a.series:
+            only = {t["name"] for t in tags if t["name"].endswith(SERIES_SUFFIX)
+                    and t["count"] >= MIN_COUNT
+                    and (t["name"] not in data or data[t["name"]].get("needs_review"))}
+            print(f"series: {len(only)} tags, co-occurrence data for "
+                  f"{len(only & set(cooccur))}")
         run(tags, data, fetch, limit=a.limit, force=a.force or only is not None, inplace=True,
-            only=only,
+            only=only, cooccur=cooccur,
             on_progress=lambda d: save_json(path, d))
     finally:  # also on KeyboardInterrupt
         save_json(path, data)

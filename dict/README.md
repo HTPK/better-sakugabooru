@@ -32,6 +32,8 @@ Open `data/overrides.json`, press the pencil icon, add a line such as
 ```
 py -3 scripts/fetch_tags.py                 # cache/tags.json
 py -3 scripts/gen_copyrights.py --limit 50  # Wikidata -> data/copyrights.json
+py -3 scripts/fetch_cooccur.py              # works sharing posts with untranslated *_series tags -> cache/cooccur.json
+py -3 scripts/gen_copyrights.py --series    # derive *_series titles from those works' franchise (P179/P8345)
 py -3 scripts/gen_artists.py --limit 50     # Wikidata -> data/artists.json
 py -3 scripts/build.py                      # dist/dict.json, REVIEW.md, COVERAGE.md
 py -3 -m pytest -q

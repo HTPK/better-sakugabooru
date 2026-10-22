@@ -33,9 +33,12 @@
   },
   ".hack_series": {
     "count": 57,
-    "ja": ".hack",
-    "needs_review": true,
-    "src": "wikidata:Q159851"
+    "ja": ".hack シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q159851",
+    "via": [
+      ".hack//legend_of_the_twilight"
+    ]
   },
   "009-1": {
     "count": 37,
@@ -460,9 +463,12 @@
   },
   "ace_wo_nerae!_series": {
     "count": 202,
-    "ja": "エースをねらえ!",
+    "ja": "エースをねらえ! シリーズ",
     "needs_review": true,
-    "src": "wikidata:Q115659521"
+    "src": "wikidata:Q115659521",
+    "via": [
+      "ace_wo_nerae"
+    ]
   },
   "acro_trip": {
     "count": 17,
@@ -661,6 +667,17 @@
     "needs_review": true,
     "src": "wikidata:none"
   },
+  "aikatsu!_series": {
+    "count": 218,
+    "ja": "アイカツ! シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q729857",
+    "via": [
+      "aikatsu_stars!",
+      "aikatsu_on_parade!",
+      "aikatsu!_the_movie"
+    ]
+  },
   "aikatsu!_the_movie": {
     "count": 8,
     "ja": "劇場版 アイカツ！",
@@ -702,6 +719,11 @@
     "ja": "エアマスター",
     "needs_review": false,
     "src": "wikidata:Q124903151"
+  },
+  "air_series": {
+    "ja": null,
+    "needs_review": true,
+    "src": "wikidata:none"
   },
   "aisai": {
     "ja": null,
@@ -907,6 +929,11 @@
     "needs_review": true,
     "src": "wikidata:Q215518"
   },
+  "aladdin_series": {
+    "ja": null,
+    "needs_review": true,
+    "src": "wikidata:none"
+  },
   "alchemy_stars_(game)": {
     "count": 15,
     "ja": "白夜極光",
@@ -1016,6 +1043,15 @@
     "ja": "甘神さんちの縁結び",
     "needs_review": false,
     "src": "wikidata:Q117815001"
+  },
+  "amagami_series": {
+    "count": 15,
+    "ja": "アマガミSS シリーズ",
+    "needs_review": true,
+    "src": "wikidata:Q3613535",
+    "via": [
+      "amagami_ss"
+    ]
   },
   "amagami_ss": {
     "count": 14,
@@ -1278,6 +1314,11 @@
     "needs_review": true,
     "src": "wikidata:Q514043"
   },
+  "anne_of_green_gables_series": {
+    "ja": null,
+    "needs_review": true,
+    "src": "wikidata:none"
+  },
   "anne_shirley": {
     "count": 22,
     "ja": "アン・シャーリー",
@@ -1342,6 +1383,11 @@
     "src": "wikidata:none"
   },
   "ao_no_exorcist_genkoku_no_labyrinth": {
+    "ja": null,
+    "needs_review": true,
+    "src": "wikidata:none"
+  },
+  "ao_no_exorcist_series": {
     "ja": null,
     "needs_review": true,
     "src": "wikidata:none"
@@ -1563,6 +1609,15 @@
     "needs_review": false,
     "src": "wikidata:Q174410"
   },
+  "aria_series": {
+    "count": 119,
+    "ja": "ARIA The シリーズ",
+    "needs_review": true,
+    "src": "wikidata:Q90570315",
+    "via": [
+      "aria_the_natural"
+    ]
+  },
   "aria_the_animation": {
     "count": 5,
     "ja": "ARIA The ANIMATION",
@@ -1635,9 +1690,13 @@
     "src": "wikidata:none"
   },
   "arknights_tv_series": {
-    "ja": null,
+    "count": 135,
+    "ja": "アークナイツ シリーズ",
     "needs_review": true,
-    "src": "wikidata:none"
+    "src": "wikidata:Q114565580",
+    "via": [
+      "arknights"
+    ]
   },
   "armed_blue:_gunvolt": {
     "ja": null,
@@ -1820,6 +1879,11 @@
     "ja": "暗殺教室",
     "needs_review": true,
     "src": "wikidata:Q50376961"
+  },
+  "assassination_classroom_series": {
+    "ja": null,
+    "needs_review": true,
+    "src": "wikidata:none"
   },
   "assassins_pride": {
     "count": 13,
@@ -2089,6 +2153,11 @@
     "needs_review": true,
     "src": "wikidata:none"
   },
+  "b:_the_beginning_series": {
+    "ja": null,
+    "needs_review": true,
+    "src": "wikidata:none"
+  },
   "b:_the_beginning_succession": {
     "ja": null,
     "needs_review": true,
@@ -2277,9 +2346,13 @@
     "src": "wikidata:none"
   },
   "bakugan_series": {
-    "ja": null,
+    "count": 55,
+    "ja": "爆丸バトル シリーズ",
     "needs_review": true,
-    "src": "wikidata:none"
+    "src": "wikidata:Q25471211",
+    "via": [
+      "bakugan_battle_planet"
+    ]
   },
   "bakujuu_gasshin_ziguru_hazeru": {
     "ja": null,
@@ -2305,6 +2378,11 @@
     "src": "wikidata:Q1284240"
   },
   "bakusou_kyoudai_lets_and_go": {
+    "ja": null,
+    "needs_review": true,
+    "src": "wikidata:none"
+  },
+  "bakusou_kyoudai_lets_and_go_series": {
     "ja": null,
     "needs_review": true,
     "src": "wikidata:none"
@@ -2467,9 +2545,12 @@
   },
   "basara_series": {
     "count": 258,
-    "ja": "BASARA",
+    "ja": "戦国BASARA シリーズ",
     "needs_review": true,
-    "src": "wikidata:Q809789"
+    "src": "wikidata:Q17048665",
+    "via": [
+      "sengoku_basara"
+    ]
   },
   "baseball_bugs": {
     "count": 11,
@@ -2507,6 +2588,16 @@
     "src": "wikidata:none"
   },
   "bastard!!:ankoku_no_hakaishin_season_2": {
+    "ja": null,
+    "needs_review": true,
+    "src": "wikidata:none"
+  },
+  "bastard!!:ankoku_no_hakaishin_series": {
+    "ja": null,
+    "needs_review": true,
+    "src": "wikidata:none"
+  },
+  "bastard_series": {
     "ja": null,
     "needs_review": true,
     "src": "wikidata:none"
@@ -2753,6 +2844,11 @@
     "ja": "ビーストウォーズネオ 超生命体トランスフォーマー",
     "needs_review": false,
     "src": "wikidata:Q943798"
+  },
+  "beastars_series": {
+    "ja": null,
+    "needs_review": true,
+    "src": "wikidata:none"
   },
   "beatless": {
     "count": 84,
@@ -3012,9 +3108,13 @@
     "src": "wikidata:none"
   },
   "binan_koukou_chikyuu_bouei_bu_series": {
-    "ja": null,
+    "count": 145,
+    "ja": "美男高校地球防衛部LOVE! シリーズ",
     "needs_review": true,
-    "src": "wikidata:none"
+    "src": "wikidata:Q18459444",
+    "via": [
+      "binan_koukou_chikyuu_bouei_bu_haikara"
+    ]
   },
   "binbogami_ga!": {
     "count": 23,
@@ -3500,9 +3600,13 @@
     "src": "wikidata:Q4927686"
   },
   "blood_series": {
-    "ja": null,
+    "count": 242,
+    "ja": "BLOOD シリーズ",
     "needs_review": true,
-    "src": "wikidata:none"
+    "src": "wikidata:Q615245",
+    "via": [
+      "blood+"
+    ]
   },
   "blossom": {
     "count": 8,
@@ -3551,6 +3655,11 @@
     "src": "wikidata:Q2408681"
   },
   "blue_dragon:_tenkai_no_shichi_ryuu": {
+    "ja": null,
+    "needs_review": true,
+    "src": "wikidata:none"
+  },
+  "blue_dragon_series": {
     "ja": null,
     "needs_review": true,
     "src": "wikidata:none"
@@ -3664,9 +3773,12 @@
   },
   "bofuri_series": {
     "count": 71,
-    "ja": "痛いのは嫌なので防御力に極振りしたいと思います。",
+    "ja": "痛いのは嫌なので防御力に極振りしたいと思います。 シリーズ",
     "needs_review": true,
-    "src": "wikidata:Q91320001"
+    "src": "wikidata:Q91320001",
+    "via": [
+      "itai_no_wa_iya_nano_de_bougyoryoku_ni_kyokufuri_shitai_to_omoimasu"
+    ]
   },
   "boken-tai_mori_no_yuusha": {
     "ja": null,
@@ -3760,9 +3872,13 @@
     "src": "wikidata:none"
   },
   "boogiepop_series": {
-    "ja": null,
+    "count": 86,
+    "ja": "ブギーポップは笑わない シリーズ",
     "needs_review": true,
-    "src": "wikidata:none"
+    "src": "wikidata:Q123517656",
+    "via": [
+      "boogiepop_wa_warawanai"
+    ]
   },
   "boogiepop_wa_warawanai": {
     "count": 97,
@@ -3890,9 +4006,17 @@
   },
   "brave_series": {
     "count": 568,
-    "ja": "メリダとおそろしの森",
-    "needs_review": true,
-    "src": "wikidata:Q126796"
+    "ja": "勇者シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q910783",
+    "via": [
+      "brave_police_j-decker",
+      "the_brave_express_might_gaine",
+      "the_king_of_braves_gaogaigar",
+      "ougon_yuusha_goldran",
+      "the_brave_fighter_of_legend_da-garn",
+      "brave_command_dagwon"
+    ]
   },
   "brave_story": {
     "count": 41,
@@ -4555,6 +4679,15 @@
     "needs_review": true,
     "src": "wikidata:none"
   },
+  "castlevania_series": {
+    "count": 567,
+    "ja": "悪魔城ドラキュラ シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q139388161",
+    "via": [
+      "castlevania:_nocturne"
+    ]
+  },
   "cat_feud": {
     "ja": null,
     "needs_review": true,
@@ -5093,6 +5226,11 @@
     "needs_review": true,
     "src": "wikidata:none"
   },
+  "city_hunter_series": {
+    "ja": null,
+    "needs_review": true,
+    "src": "wikidata:none"
+  },
   "city_the_animation": {
     "count": 217,
     "ja": "CITY THE ANIMATION",
@@ -5117,6 +5255,11 @@
     "src": "wikidata:Q1037699"
   },
   "clannad_after_story": {
+    "ja": null,
+    "needs_review": true,
+    "src": "wikidata:none"
+  },
+  "clannad_series": {
     "ja": null,
     "needs_review": true,
     "src": "wikidata:none"
@@ -5164,9 +5307,12 @@
   },
   "clevatess_series": {
     "count": 130,
-    "ja": "クレバテス-魔獣の王と赤子と屍の勇者-",
+    "ja": "クレバテス-魔獣の王と赤子と屍の勇者 シリーズ",
     "needs_review": true,
-    "src": "wikidata:Q126959847"
+    "src": "wikidata:Q126959847",
+    "via": [
+      "clevatess:_majuu_no_ou_to_akago_to_shikabane_no_yuusha"
+    ]
   },
   "clinic": {
     "ja": null,
@@ -5771,6 +5917,11 @@
     "needs_review": true,
     "src": "wikidata:none"
   },
+  "cutey_honey_series": {
+    "ja": null,
+    "needs_review": true,
+    "src": "wikidata:none"
+  },
   "cutey_honey_universe": {
     "ja": null,
     "needs_review": true,
@@ -5904,6 +6055,11 @@
     "needs_review": true,
     "src": "wikidata:none"
   },
+  "da_wang_rao_ming_series": {
+    "ja": null,
+    "needs_review": true,
+    "src": "wikidata:none"
+  },
   "daffy_doodles": {
     "ja": null,
     "needs_review": true,
@@ -6015,9 +6171,13 @@
     "src": "wikidata:none"
   },
   "dancougar_series": {
-    "ja": null,
+    "count": 80,
+    "ja": "獣装機攻ダンクーガノヴァ シリーズ",
     "needs_review": true,
-    "src": "wikidata:none"
+    "src": "wikidata:Q3273878",
+    "via": [
+      "juusou_kikou_dancougar_nova"
+    ]
   },
   "dandadan": {
     "count": 421,
@@ -6573,6 +6733,11 @@
     "needs_review": true,
     "src": "wikidata:none"
   },
+  "devil_may_cry_series": {
+    "ja": null,
+    "needs_review": true,
+    "src": "wikidata:none"
+  },
   "devil_survivor_2": {
     "count": 26,
     "ja": "デビルサバイバー2",
@@ -6833,9 +6998,12 @@
   },
   "disgaea_series": {
     "count": 17,
-    "ja": "魔界戦記ディスガイア",
-    "needs_review": true,
-    "src": "wikidata:Q2618801"
+    "ja": "魔界戦記ディスガイアシリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q5102631",
+    "via": [
+      "disgaea_2"
+    ]
   },
   "disk_wars_avengers": {
     "ja": null,
@@ -6995,9 +7163,12 @@
   },
   "dokyuusei_series": {
     "count": 7,
-    "ja": "同級生",
+    "ja": "同級生2 シリーズ",
     "needs_review": true,
-    "src": "wikidata:Q118978806"
+    "src": "wikidata:Q5321259",
+    "via": [
+      "dokyuusei_2"
+    ]
   },
   "domics": {
     "ja": null,
@@ -7666,6 +7837,15 @@
     "needs_review": true,
     "src": "wikidata:Q912997"
   },
+  "duel_masters_(2017)_series": {
+    "count": 121,
+    "ja": "デュエル・マスターズ シリーズ",
+    "needs_review": true,
+    "src": "wikidata:Q912997",
+    "via": [
+      "duel_masters"
+    ]
+  },
   "duel_masters_king": {
     "ja": null,
     "needs_review": true,
@@ -7681,6 +7861,15 @@
     "needs_review": true,
     "src": "wikidata:none"
   },
+  "duel_masters_king_series": {
+    "count": 44,
+    "ja": "デュエル・マスターズ シリーズ",
+    "needs_review": true,
+    "src": "wikidata:Q912997",
+    "via": [
+      "duel_masters"
+    ]
+  },
   "duel_masters_lost:_boukyaku_no_taiyou": {
     "count": 26,
     "ja": "Duel Masters LOST ～忘却の太陽～",
@@ -7694,9 +7883,12 @@
   },
   "duel_masters_lost_series": {
     "count": 47,
-    "ja": "Duel Masters LOST",
-    "needs_review": true,
-    "src": "wikidata:Q137322938"
+    "ja": "Duel Masters LOST シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q137322938",
+    "via": [
+      "duel_masters_lost:_boukyaku_no_taiyou"
+    ]
   },
   "duel_masters_play's": {
     "ja": null,
@@ -7728,6 +7920,15 @@
     "ja": null,
     "needs_review": true,
     "src": "wikidata:none"
+  },
+  "duel_masters_win_series": {
+    "count": 8,
+    "ja": "デュエル・マスターズ シリーズ",
+    "needs_review": true,
+    "src": "wikidata:Q912997",
+    "via": [
+      "duel_masters"
+    ]
   },
   "duel_pod": {
     "ja": null,
@@ -7789,6 +7990,11 @@
     "src": "wikidata:none"
   },
   "dungeon_ni_deai_o_motomeru_no_wa_machigatte_iru_darouka_orion_no_ya": {
+    "ja": null,
+    "needs_review": true,
+    "src": "wikidata:none"
+  },
+  "dungeon_ni_deai_o_motomeru_no_wa_machigatte_iru_darouka_series": {
     "ja": null,
     "needs_review": true,
     "src": "wikidata:none"
@@ -8083,6 +8289,11 @@
     "needs_review": true,
     "src": "wikidata:none"
   },
+  "emma:_a_victorian_romance_series": {
+    "ja": null,
+    "needs_review": true,
+    "src": "wikidata:none"
+  },
   "encanto": {
     "count": 5,
     "ja": "ミラベルと魔法だらけの家",
@@ -8244,9 +8455,13 @@
   },
   "eureka_seven_series": {
     "count": 638,
-    "ja": "交響詩篇エウレカセブン",
+    "ja": "エウレカセブン シリーズ",
     "needs_review": true,
-    "src": "wikidata:Q962161"
+    "src": "wikidata:Q11289673",
+    "via": [
+      "eureka_seven_(2005)",
+      "eureka_seven_ao"
+    ]
   },
   "evangelion:3.0_(-46h)": {
     "ja": null,
@@ -8368,6 +8583,15 @@
     "needs_review": false,
     "src": "wikidata:Q28859714"
   },
+  "fairy_tail_series": {
+    "count": 293,
+    "ja": "フェアリーテイル シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q104527543",
+    "via": [
+      "fairy_tail:_dragon_cry"
+    ]
+  },
   "fairy_tail_the_movie_houou_no_miko": {
     "ja": null,
     "needs_review": true,
@@ -8405,6 +8629,16 @@
     "ja": "ファンタジア2000",
     "needs_review": false,
     "src": "wikidata:Q30937"
+  },
+  "fantasia_series": {
+    "count": 199,
+    "ja": "ウォルト・ディズニー・アニメーション・スタジオの映画 シリーズ",
+    "needs_review": true,
+    "src": "wikidata:Q56070713",
+    "via": [
+      "fantasia_2000",
+      "make_mine_music"
+    ]
   },
   "fantasista_doll": {
     "count": 10,
@@ -8788,6 +9022,11 @@
     "ja": "ファイアーエムブレム",
     "needs_review": true,
     "src": "wikidata:Q134005203"
+  },
+  "fire_emblem_series": {
+    "ja": null,
+    "needs_review": true,
+    "src": "wikidata:none"
   },
   "fire_force": {
     "count": 267,
@@ -9554,9 +9793,12 @@
   },
   "galaxy_express_999_series": {
     "count": 162,
-    "ja": "銀河鉄道999",
+    "ja": "銀河鉄道999 (1979) シリーズ",
     "needs_review": true,
-    "src": "wikidata:Q3094550"
+    "src": "wikidata:Q3094536",
+    "via": [
+      "galaxy_express_999_(1979)"
+    ]
   },
   "galaxy_fraulein_yuna": {
     "count": 68,
@@ -9757,6 +9999,11 @@
     "src": "wikidata:Q13828292"
   },
   "gatchaman_crowds_insight": {
+    "ja": null,
+    "needs_review": true,
+    "src": "wikidata:none"
+  },
+  "gatchaman_series": {
     "ja": null,
     "needs_review": true,
     "src": "wikidata:none"
@@ -10142,6 +10389,15 @@
     "needs_review": true,
     "src": "wikidata:none"
   },
+  "ghost_in_the_shell_series": {
+    "count": 740,
+    "ja": "攻殻機動隊 シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q92580",
+    "via": [
+      "the_ghost_in_the_shell"
+    ]
+  },
   "ghost_in_the_shell_solid_state_society": {
     "ja": null,
     "needs_review": true,
@@ -10512,9 +10768,12 @@
   },
   "gochiusa_series": {
     "count": 59,
-    "ja": "ご注文はうさぎですか?",
+    "ja": "ご注文はうさぎですか? シリーズ",
     "needs_review": true,
-    "src": "wikidata:Q100471038"
+    "src": "wikidata:Q100471038",
+    "via": [
+      "gochuumon_wa_usagi_desu_ka?"
+    ]
   },
   "gochuumon_wa_usagi_desu_ka?": {
     "count": 33,
@@ -10994,9 +11253,13 @@
     "src": "wikidata:Q15910031"
   },
   "grisaia_series": {
-    "ja": null,
+    "count": 102,
+    "ja": "グリザイア シリーズ",
     "needs_review": true,
-    "src": "wikidata:none"
+    "src": "wikidata:Q107797059",
+    "via": [
+      "grisaia_no_kajitsu"
+    ]
   },
   "groove_adventure_rave": {
     "count": 5,
@@ -11005,6 +11268,11 @@
     "src": "wikidata:Q64212353"
   },
   "grow_up_show_himawari_no_circus-dan": {
+    "ja": null,
+    "needs_review": true,
+    "src": "wikidata:none"
+  },
+  "growlanser_series": {
     "ja": null,
     "needs_review": true,
     "src": "wikidata:none"
@@ -11155,9 +11423,16 @@
     "src": "wikidata:none"
   },
   "gundam_build_series": {
-    "ja": null,
+    "count": 1130,
+    "ja": "ガンダムシリーズ",
     "needs_review": true,
-    "src": "wikidata:none"
+    "src": "wikidata:Q732120",
+    "via": [
+      "gundam_build_fighters",
+      "gundam_build_divers",
+      "gundam_build_divers_re:rise",
+      "gundam_build_fighters_try"
+    ]
   },
   "gundam_g_no_reconguista": {
     "ja": null,
@@ -11681,9 +11956,13 @@
     "src": "wikidata:Q17192357"
   },
   "haruhi_suzumiya_series": {
-    "ja": null,
+    "count": 123,
+    "ja": "涼宮ハルヒの シリーズ",
     "needs_review": true,
-    "src": "wikidata:none"
+    "src": "wikidata:Q10913555",
+    "via": [
+      "the_melancholy_of_haruhi_suzumiya"
+    ]
   },
   "harukana_receive": {
     "count": 28,
@@ -12077,9 +12356,12 @@
   },
   "hi_no_tori_series": {
     "count": 92,
-    "ja": "火の鳥",
+    "ja": "火の鳥 シリーズ",
     "needs_review": true,
-    "src": "wikidata:Q122166656"
+    "src": "wikidata:Q2463310",
+    "via": [
+      "phoenix_2772"
+    ]
   },
   "hibi_wa_sugiredo_meshi_umashi": {
     "count": 12,
@@ -12233,6 +12515,11 @@
     "src": "wikidata:none"
   },
   "highschool_dxd_new": {
+    "ja": null,
+    "needs_review": true,
+    "src": "wikidata:none"
+  },
+  "highschool_dxd_series": {
     "ja": null,
     "needs_review": true,
     "src": "wikidata:none"
@@ -12425,6 +12712,11 @@
     "needs_review": true,
     "src": "wikidata:none"
   },
+  "hitori_no_shita_the_outcast_series": {
+    "ja": null,
+    "needs_review": true,
+    "src": "wikidata:none"
+  },
   "hitoribocchi_no_marumaru_seikatsu": {
     "count": 17,
     "ja": "ひとりぼっちの○○生活",
@@ -12570,6 +12862,11 @@
     "src": "wikidata:Q104815263"
   },
   "horimiya_piece": {
+    "ja": null,
+    "needs_review": true,
+    "src": "wikidata:none"
+  },
+  "horimiya_series": {
     "ja": null,
     "needs_review": true,
     "src": "wikidata:none"
@@ -13101,9 +13398,13 @@
     "src": "wikidata:none"
   },
   "ika_musume_series": {
-    "ja": null,
+    "count": 76,
+    "ja": "侵略!イカ娘 シリーズ",
     "needs_review": true,
-    "src": "wikidata:none"
+    "src": "wikidata:Q109417391",
+    "via": [
+      "shinryaku!_ika_musume"
+    ]
   },
   "ikebukuro_pr_animation": {
     "ja": null,
@@ -13256,6 +13557,15 @@
     "needs_review": false,
     "src": "wikidata:Q56350050"
   },
+  "inazuma_eleven_series": {
+    "count": 462,
+    "ja": "イナズマイレブンシリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q3149799",
+    "via": [
+      "inazuma_eleven_ares_no_tenbin"
+    ]
+  },
   "inazuma_eleven_victory_road": {
     "ja": null,
     "needs_review": true,
@@ -13274,9 +13584,13 @@
     "src": "wikidata:Q106554273"
   },
   "injuu_seisen_series": {
-    "ja": null,
+    "count": 23,
+    "ja": "淫獣聖戦シリーズ",
     "needs_review": true,
-    "src": "wikidata:none"
+    "src": "wikidata:Q5224997",
+    "via": [
+      "twin_angels"
+    ]
   },
   "innocent_venus": {
     "count": 27,
@@ -13511,6 +13825,11 @@
     "needs_review": true,
     "src": "wikidata:none"
   },
+  "isekai_nonbiri_nouka_series": {
+    "ja": null,
+    "needs_review": true,
+    "src": "wikidata:none"
+  },
   "isekai_ojisan": {
     "count": 25,
     "ja": "異世界おじさん",
@@ -13737,7 +14056,21 @@
     "needs_review": false,
     "src": "wikidata:Q127682683"
   },
+  "jigoku_sensei_nube_series": {
+    "count": 63,
+    "ja": "地獄先生ぬ〜べ〜 ( シリーズ",
+    "needs_review": true,
+    "src": "wikidata:Q127682683",
+    "via": [
+      "jigoku_sensei_nube_(2025)"
+    ]
+  },
   "jigoku_shoujo_mitsuganae": {
+    "ja": null,
+    "needs_review": true,
+    "src": "wikidata:none"
+  },
+  "jigoku_shoujo_series": {
     "ja": null,
     "needs_review": true,
     "src": "wikidata:none"
@@ -14090,9 +14423,12 @@
   },
   "k-on_series": {
     "count": 414,
-    "ja": "けいおん!",
-    "needs_review": true,
-    "src": "wikidata:Q15863567"
+    "ja": "けいおん! シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q482482",
+    "via": [
+      "k-on!"
+    ]
   },
   "k_(2012)": {
     "ja": null,
@@ -14159,6 +14495,11 @@
     "needs_review": true,
     "src": "wikidata:none"
   },
+  "kage_no_jitsuryokusha_ni_naritakute!_series": {
+    "ja": null,
+    "needs_review": true,
+    "src": "wikidata:none"
+  },
   "kage_shadow": {
     "ja": null,
     "needs_review": true,
@@ -14197,6 +14538,11 @@
     "src": "wikidata:none"
   },
   "kaguya-sama:_love_is_war_season_3": {
+    "ja": null,
+    "needs_review": true,
+    "src": "wikidata:none"
+  },
+  "kaguya-sama:_love_is_war_series": {
     "ja": null,
     "needs_review": true,
     "src": "wikidata:none"
@@ -14645,9 +14991,12 @@
   },
   "kase-san_series": {
     "count": 16,
-    "ja": "加瀬さんシリーズ",
+    "ja": "あさがおと加瀬さん。 シリーズ",
     "needs_review": true,
-    "src": "wikidata:Q28693132"
+    "src": "wikidata:Q112713782",
+    "via": [
+      "asagao_to_kase-san"
+    ]
   },
   "kasei_yakyoku": {
     "count": 7,
@@ -14889,6 +15238,15 @@
     "needs_review": true,
     "src": "wikidata:none"
   },
+  "keroro_gunsou_series": {
+    "count": 246,
+    "ja": "ケロロ軍曹☆ シリーズ",
+    "needs_review": true,
+    "src": "wikidata:Q137554653",
+    "via": [
+      "keroro_gunsou☆"
+    ]
+  },
   "keroro_gunsou☆": {
     "count": 6,
     "ja": "ケロロ軍曹☆",
@@ -15080,6 +15438,11 @@
     "needs_review": true,
     "src": "wikidata:none"
   },
+  "kimi_ga_nozomu_eien_series": {
+    "ja": null,
+    "needs_review": true,
+    "src": "wikidata:none"
+  },
   "kimi_ga_shinu_made_koi_wo_shitai": {
     "count": 56,
     "ja": "きみが死ぬまで恋をしたい",
@@ -15242,6 +15605,11 @@
     "needs_review": true,
     "src": "wikidata:none"
   },
+  "kingdom_series": {
+    "ja": null,
+    "needs_review": true,
+    "src": "wikidata:none"
+  },
   "kiniro_mosaic": {
     "count": 53,
     "ja": "きんいろモザイク",
@@ -15350,9 +15718,13 @@
     "src": "wikidata:Q47488854"
   },
   "kirby_series": {
-    "ja": null,
+    "count": 39,
+    "ja": "星のカービィ シリーズ",
     "needs_review": true,
-    "src": "wikidata:none"
+    "src": "wikidata:Q1205191",
+    "via": [
+      "hoshi_no_kirby"
+    ]
   },
   "kireigoto": {
     "ja": null,
@@ -15427,6 +15799,15 @@
     "ja": "カイト リベレイター",
     "needs_review": false,
     "src": "wikidata:Q7684399"
+  },
+  "kite_series": {
+    "count": 65,
+    "ja": "カイト リベレイター シリーズ",
+    "needs_review": true,
+    "src": "wikidata:Q7684399",
+    "via": [
+      "kite_liberator"
+    ]
   },
   "kitsutsuki_tanteidokoro": {
     "ja": null,
@@ -15714,9 +16095,12 @@
   },
   "konosuba_series": {
     "count": 226,
-    "ja": "この素晴らしい世界に祝福を！",
+    "ja": "この素晴らしい世界に祝福を！ シリーズ",
     "needs_review": true,
-    "src": "wikidata:Q112173539"
+    "src": "wikidata:Q112173539",
+    "via": [
+      "kono_subarashii_sekai_ni_shukufuku_wo!"
+    ]
   },
   "koori_no_jouheki": {
     "count": 14,
@@ -15905,6 +16289,11 @@
     "needs_review": true,
     "src": "wikidata:Q98821830"
   },
+  "kuma_kuma_kuma_bear_series": {
+    "ja": null,
+    "needs_review": true,
+    "src": "wikidata:none"
+  },
   "kuma_no_ko_jacky": {
     "ja": null,
     "needs_review": true,
@@ -15947,6 +16336,11 @@
     "ja": "カンフー・パンダ",
     "needs_review": true,
     "src": "wikidata:Q129193"
+  },
+  "kung_fu_panda_series": {
+    "ja": null,
+    "needs_review": true,
+    "src": "wikidata:none"
   },
   "kunoichi_tsubaki_no_mune_no_uchi": {
     "count": 26,
@@ -16239,6 +16633,11 @@
     "needs_review": true,
     "src": "wikidata:none"
   },
+  "kyuuketsuki_sugu_shinu_series": {
+    "ja": null,
+    "needs_review": true,
+    "src": "wikidata:none"
+  },
   "la_bestia": {
     "ja": null,
     "needs_review": true,
@@ -16320,6 +16719,15 @@
     "ja": "ラングリッサーII",
     "needs_review": false,
     "src": "wikidata:Q665393"
+  },
+  "langrisser_series": {
+    "count": 10,
+    "ja": "ラングリッサーシリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q1196632",
+    "via": [
+      "langrisser_ii"
+    ]
   },
   "lapis_re:lights": {
     "count": 28,
@@ -16616,6 +17024,11 @@
     "ja": "リロ・アンド・スティッチ",
     "needs_review": true,
     "src": "wikidata:Q36092"
+  },
+  "lilo_and_stitch_series": {
+    "ja": null,
+    "needs_review": true,
+    "src": "wikidata:none"
   },
   "lilou": {
     "ja": null,
@@ -16926,6 +17339,15 @@
     "ja": null,
     "needs_review": true,
     "src": "wikidata:none"
+  },
+  "love_live!_series": {
+    "count": 547,
+    "ja": "ラブライブ!シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q43069510",
+    "via": [
+      "love_live!_superstar!!"
+    ]
   },
   "love_live!_sunshine!!": {
     "count": 46,
@@ -17398,9 +17820,13 @@
     "src": "wikidata:none"
   },
   "magi_series": {
-    "ja": null,
+    "count": 389,
+    "ja": "マギ シリーズ",
     "needs_review": true,
-    "src": "wikidata:none"
+    "src": "wikidata:Q74713872",
+    "via": [
+      "magi_the_labyrinth_of_magic"
+    ]
   },
   "magi_sinbad_no_bouken": {
     "ja": null,
@@ -18550,6 +18976,11 @@
     "needs_review": true,
     "src": "wikidata:none"
   },
+  "maze_series": {
+    "ja": null,
+    "needs_review": true,
+    "src": "wikidata:none"
+  },
   "mazinger_series": {
     "count": 338,
     "ja": "マジンガーシリーズ",
@@ -18653,6 +19084,11 @@
     "ja": "メダロット",
     "needs_review": true,
     "src": "wikidata:Q11343725"
+  },
+  "medarot_series": {
+    "ja": null,
+    "needs_review": true,
+    "src": "wikidata:none"
   },
   "mega_man_(1994)": {
     "count": 11,
@@ -19251,6 +19687,11 @@
     "needs_review": true,
     "src": "wikidata:none"
   },
+  "mix:_meisei_story_series": {
+    "ja": null,
+    "needs_review": true,
+    "src": "wikidata:none"
+  },
   "mkhuzi_the_spirit_racer": {
     "ja": null,
     "needs_review": true,
@@ -19786,9 +20227,13 @@
   },
   "monogatari_series": {
     "count": 562,
-    "ja": "〈物語〉シリーズ",
+    "ja": "傷物語 シリーズ",
     "needs_review": true,
-    "src": "wikidata:Q123022697"
+    "src": "wikidata:Q55453524",
+    "via": [
+      "kizumonogatari_part_1:_tekketsu",
+      "kizumonogatari_part_3:_reiketsu"
+    ]
   },
   "monogatari_wo_kimi_e": {
     "ja": null,
@@ -20175,9 +20620,12 @@
   },
   "mushoku_tensei_series": {
     "count": 404,
-    "ja": "無職転生 〜異世界行ったら本気だす〜",
-    "needs_review": true,
-    "src": "wikidata:Q104246919"
+    "ja": "無職転生 〜異世界行ったら本気だす〜 シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q104246919",
+    "via": [
+      "mushoku_tensei:_isekai_ittara_honki_dasu"
+    ]
   },
   "mushrambo": {
     "count": 8,
@@ -20841,6 +21289,11 @@
     "needs_review": true,
     "src": "wikidata:Q662"
   },
+  "neon_genesis_evangelion_series": {
+    "ja": null,
+    "needs_review": true,
+    "src": "wikidata:none"
+  },
   "neon_odyssey": {
     "ja": null,
     "needs_review": true,
@@ -21303,6 +21756,11 @@
     "src": "wikidata:Q7047749"
   },
   "non-human_academy_(video_game)": {
+    "ja": null,
+    "needs_review": true,
+    "src": "wikidata:none"
+  },
+  "non_non_biyori_series": {
     "ja": null,
     "needs_review": true,
     "src": "wikidata:none"
@@ -22098,6 +22556,11 @@
     "needs_review": true,
     "src": "wikidata:none"
   },
+  "oshiri_tantei_series": {
+    "ja": null,
+    "needs_review": true,
+    "src": "wikidata:none"
+  },
   "osmosis_jones": {
     "count": 10,
     "ja": "バクテリア・ウォーズ",
@@ -22314,6 +22777,11 @@
     "src": "wikidata:none"
   },
   "overlord_sei_oukoku-hen": {
+    "ja": null,
+    "needs_review": true,
+    "src": "wikidata:none"
+  },
+  "overlord_series": {
     "ja": null,
     "needs_review": true,
     "src": "wikidata:none"
@@ -22703,9 +23171,20 @@
   },
   "persona_series": {
     "count": 329,
-    "ja": "仮面/ペルソナ",
-    "needs_review": true,
-    "src": "wikidata:Q695255"
+    "ja": "ペルソナ シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q116778533",
+    "via": [
+      "persona_3",
+      "persona_5",
+      "persona_4",
+      "persona_3_the_movie:_#3_falling_down",
+      "persona_3_the_movie:_#4_winter_of_rebirth",
+      "persona_4:_the_animation",
+      "persona_3_the_movie:_#2_midsummer_knight's_dream",
+      "persona_3_the_movie:_#1_spring_of_birth",
+      "persona_5:_the_animation"
+    ]
   },
   "pest_coaster": {
     "ja": null,
@@ -22751,6 +23230,11 @@
     "ja": "Phantom 〜Requiem for the Phantom〜",
     "needs_review": false,
     "src": "wikidata:Q24897834"
+  },
+  "phantom_blade_series": {
+    "ja": null,
+    "needs_review": true,
+    "src": "wikidata:none"
   },
   "phantom_breaker_omnia": {
     "ja": null,
@@ -23756,9 +24240,13 @@
     "src": "wikidata:Q2096026"
   },
   "professor_layton_series": {
-    "ja": null,
-    "needs_review": true,
-    "src": "wikidata:none"
+    "count": 82,
+    "ja": "レイトン教授シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q1210316",
+    "via": [
+      "professor_layton_and_the_curious_village"
+    ]
   },
   "professor_layton_vs_phoenix_wright_ace_attorney": {
     "ja": null,
@@ -24260,6 +24748,11 @@
     "needs_review": true,
     "src": "wikidata:none"
   },
+  "re:_zero_kara_hajimeru_isekai_seikatsu_series": {
+    "ja": null,
+    "needs_review": true,
+    "src": "wikidata:none"
+  },
   "re:_zero_kara_hajimeru_isekai_seikatsu_the_frozen_bond": {
     "ja": null,
     "needs_review": true,
@@ -24628,6 +25121,11 @@
     "needs_review": false,
     "src": "wikidata:Q1143368"
   },
+  "ro-kyu-bu!_series": {
+    "ja": null,
+    "needs_review": true,
+    "src": "wikidata:none"
+  },
   "road_blaster_(video_game)": {
     "count": 12,
     "ja": "ロードブラスター",
@@ -24767,6 +25265,15 @@
     "needs_review": true,
     "src": "wikidata:none"
   },
+  "rockman_series": {
+    "count": 295,
+    "ja": "ロックマンシリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q2667596",
+    "via": [
+      "rockman_8"
+    ]
+  },
   "rockman_x3": {
     "ja": null,
     "needs_review": true,
@@ -24780,14 +25287,26 @@
   },
   "rockman_x_series": {
     "count": 33,
-    "ja": "ロックマンX",
-    "needs_review": true,
-    "src": "wikidata:Q1196400"
+    "ja": "ロックマンXシリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q2747942",
+    "via": [
+      "rockman_x4"
+    ]
   },
   "rockman_zx": {
     "ja": null,
     "needs_review": true,
     "src": "wikidata:none"
+  },
+  "rockman_zx_series": {
+    "count": 11,
+    "ja": "ロックマン シリーズ",
+    "needs_review": true,
+    "src": "wikidata:Q7565689",
+    "via": [
+      "rockman_series"
+    ]
   },
   "rocko's_modern_life": {
     "count": 7,
@@ -24965,6 +25484,11 @@
     "src": "wikidata:none"
   },
   "rurouni_kenshin_meiji_kenkaku_romantan_saisen": {
+    "ja": null,
+    "needs_review": true,
+    "src": "wikidata:none"
+  },
+  "rurouni_kenshin_series": {
     "ja": null,
     "needs_review": true,
     "src": "wikidata:none"
@@ -25247,6 +25771,11 @@
     "needs_review": false,
     "src": "wikidata:Q3469323"
   },
+  "saiyuuki_series": {
+    "ja": null,
+    "needs_review": true,
+    "src": "wikidata:none"
+  },
   "sakamichi_no_apollon": {
     "count": 37,
     "ja": "坂道のアポロン",
@@ -25346,9 +25875,12 @@
   },
   "sakura_taisen_series": {
     "count": 192,
-    "ja": "サクラ大戦漫画版",
+    "ja": "サクラ大戦物語 〜ミステリアス巴里 シリーズ",
     "needs_review": true,
-    "src": "wikidata:Q933292"
+    "src": "wikidata:Q11304553",
+    "via": [
+      "sakura_taisen_monogatari:_mysterious_paris"
+    ]
   },
   "sakura_taisen_tv": {
     "ja": null,
@@ -25710,9 +26242,12 @@
   },
   "scooby_doo_series": {
     "count": 57,
-    "ja": "スクービー・ドゥー",
-    "needs_review": true,
-    "src": "wikidata:Q205683"
+    "ja": "スクービー・ドゥー シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q205683",
+    "via": [
+      "scooby_doo_and_the_witch's_ghost"
+    ]
   },
   "scott_pilgrim_takes_off": {
     "count": 167,
@@ -25934,6 +26469,15 @@
     "ja": null,
     "needs_review": true,
     "src": "wikidata:none"
+  },
+  "seishun_buta_yarou_wa_bunny_girl_senpai_no_yume_wo_minai_series": {
+    "count": 132,
+    "ja": "青春ブタ野郎はおでかけシスターの夢を見ない シリーズ",
+    "needs_review": true,
+    "src": "wikidata:Q116608682",
+    "via": [
+      "seishun_buta_yarou_wa_odekake_sister_no_yume_wo_minai"
+    ]
   },
   "seishun_buta_yarou_wa_odekake_sister_no_yume_wo_minai": {
     "count": 6,
@@ -26288,6 +26832,11 @@
     "needs_review": true,
     "src": "wikidata:none"
   },
+  "shadowverse_series": {
+    "ja": null,
+    "needs_review": true,
+    "src": "wikidata:none"
+  },
   "shakugan_no_shana": {
     "count": 104,
     "ja": "灼眼のシャナ",
@@ -26333,6 +26882,15 @@
     "ja": "シャーマンキングFLOWERS",
     "needs_review": false,
     "src": "wikidata:Q136679897"
+  },
+  "shaman_king_series": {
+    "count": 106,
+    "ja": "シャーマンキング シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q106346619",
+    "via": [
+      "shaman_king_(2021)"
+    ]
   },
   "shamanic_princess": {
     "ja": null,
@@ -26531,6 +27089,11 @@
     "src": "wikidata:Q16549370"
   },
   "shin_megami_tensei:_devil_children_light_and_dark": {
+    "ja": null,
+    "needs_review": true,
+    "src": "wikidata:none"
+  },
+  "shin_megami_tensei:_devil_children_series": {
     "ja": null,
     "needs_review": true,
     "src": "wikidata:none"
@@ -27225,6 +27788,15 @@
     "ja": "SLAM DUNK",
     "needs_review": true,
     "src": "wikidata:Q100910749"
+  },
+  "slam_dunk_series": {
+    "count": 45,
+    "ja": "THE FIRST SLAM DUNK シリーズ",
+    "needs_review": true,
+    "src": "wikidata:Q112897629",
+    "via": [
+      "the_first_slam_dunk"
+    ]
   },
   "slayers": {
     "count": 30,
@@ -28427,9 +28999,12 @@
   },
   "suikoden_series": {
     "count": 14,
-    "ja": "幻想水滸伝",
-    "needs_review": true,
-    "src": "wikidata:Q132916278"
+    "ja": "幻想水滸伝シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q209612",
+    "via": [
+      "genso_suikoden"
+    ]
   },
   "suisei_no_gargantia": {
     "count": 62,
@@ -28537,9 +29112,12 @@
   },
   "summon_night_series": {
     "count": 34,
-    "ja": "サモンナイト",
-    "needs_review": true,
-    "src": "wikidata:Q11305232"
+    "ja": "サモンナイトシリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q859249",
+    "via": [
+      "summon_night_4"
+    ]
   },
   "summon_nights_3": {
     "ja": null,
@@ -28779,6 +29357,11 @@
     "src": "wikidata:none"
   },
   "sword_art_online_alicization_blading": {
+    "ja": null,
+    "needs_review": true,
+    "src": "wikidata:none"
+  },
+  "sword_art_online_alicization_series": {
     "ja": null,
     "needs_review": true,
     "src": "wikidata:none"
@@ -29024,9 +29607,19 @@
     "src": "wikidata:Q568951"
   },
   "tales_of_series": {
-    "ja": null,
-    "needs_review": true,
-    "src": "wikidata:none"
+    "count": 658,
+    "ja": "テイルズ オブ シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q1193867",
+    "via": [
+      "tales_of_vesperia",
+      "tales_of_zestiria",
+      "tales_of_xillia",
+      "tales_of_symphonia",
+      "tales_of_berseria",
+      "tales_of_luminaria",
+      "tales_of_xillia_2"
+    ]
   },
   "tales_of_symphonia": {
     "count": 89,
@@ -29158,9 +29751,13 @@
     "src": "wikidata:Q211183"
   },
   "tamako_series": {
-    "ja": null,
+    "count": 122,
+    "ja": "たまこ シリーズ",
     "needs_review": true,
-    "src": "wikidata:none"
+    "src": "wikidata:Q211183",
+    "via": [
+      "tamako_market"
+    ]
   },
   "tamayura": {
     "count": 30,
@@ -29230,6 +29827,11 @@
     "src": "wikidata:none"
   },
   "tantei_opera_milky_holmes_psycho_no_aisatsu": {
+    "ja": null,
+    "needs_review": true,
+    "src": "wikidata:none"
+  },
+  "tantei_opera_milky_holmes_series": {
     "ja": null,
     "needs_review": true,
     "src": "wikidata:none"
@@ -29578,6 +30180,15 @@
     "ja": "天才バカボン",
     "needs_review": true,
     "src": "wikidata:Q11442627"
+  },
+  "tensai_bakabon_series": {
+    "count": 53,
+    "ja": "元祖天才バカボン シリーズ",
+    "needs_review": true,
+    "src": "wikidata:Q24886566",
+    "via": [
+      "ganso_tensai_bakabon"
+    ]
   },
   "tensei_kenja_no_isekai_life": {
     "ja": null,
@@ -30271,6 +30882,16 @@
     "needs_review": true,
     "src": "wikidata:none"
   },
+  "the_idolm@ster_series": {
+    "count": 363,
+    "ja": "アイドルマスターシリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q126894555",
+    "via": [
+      "the_idolmaster_series",
+      "the_idolmaster_shiny_festa"
+    ]
+  },
   "the_idolmaster": {
     "count": 248,
     "ja": "THE IDOLM@STER",
@@ -30310,6 +30931,16 @@
     "ja": "アイドルマスター ミリオンライブ!",
     "needs_review": false,
     "src": "wikidata:Q116926868"
+  },
+  "the_idolmaster_series": {
+    "count": 1031,
+    "ja": "アイドルマスターシリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q20739875",
+    "via": [
+      "the_idolmaster_gakuen",
+      "the_idolmaster_shiny_festa"
+    ]
   },
   "the_idolmaster_shiny_festa": {
     "count": 33,
@@ -30701,6 +31332,15 @@
     "ja": null,
     "needs_review": true,
     "src": "wikidata:none"
+  },
+  "the_ninth_jedi_series": {
+    "count": 120,
+    "ja": "スター・ウォーズ シリーズ",
+    "needs_review": true,
+    "src": "wikidata:Q462",
+    "via": [
+      "star_wars_visions"
+    ]
   },
   "the_old_grey_hare": {
     "count": 8,
@@ -31182,9 +31822,12 @@
   },
   "the_witcher_series": {
     "count": 64,
-    "ja": "ウィッチャー",
+    "ja": "ウィッチャー 深海のセイレーン シリーズ",
     "needs_review": true,
-    "src": "wikidata:Q47500433"
+    "src": "wikidata:Q123478480",
+    "via": [
+      "the_witcher:_sirens_of_the_deep"
+    ]
   },
   "the_wolf": {
     "count": 5,
@@ -31250,6 +31893,11 @@
     "src": "wikidata:none"
   },
   "tian_guan_ci_fu_season_2": {
+    "ja": null,
+    "needs_review": true,
+    "src": "wikidata:none"
+  },
+  "tian_guan_ci_fu_series": {
     "ja": null,
     "needs_review": true,
     "src": "wikidata:none"
@@ -31460,9 +32108,13 @@
     "src": "wikidata:none"
   },
   "to_aru_series": {
-    "ja": null,
+    "count": 670,
+    "ja": "とある科学の超電磁砲 シリーズ",
     "needs_review": true,
-    "src": "wikidata:none"
+    "src": "wikidata:Q66105329",
+    "via": [
+      "to_aru_kagaku_no_railgun"
+    ]
   },
   "to_be_hero": {
     "count": 84,
@@ -31514,6 +32166,15 @@
     "ja": null,
     "needs_review": true,
     "src": "wikidata:none"
+  },
+  "to_heart_series": {
+    "count": 90,
+    "ja": "ToHeart2 シリーズ",
+    "needs_review": true,
+    "src": "wikidata:Q123415975",
+    "via": [
+      "to_heart_2"
+    ]
   },
   "to_heart_specials": {
     "ja": null,
@@ -31725,6 +32386,11 @@
     "needs_review": true,
     "src": "wikidata:none"
   },
+  "tokyo_ghoul_series": {
+    "ja": null,
+    "needs_review": true,
+    "src": "wikidata:none"
+  },
   "tokyo_ghoul_√a": {
     "ja": null,
     "needs_review": true,
@@ -31870,9 +32536,12 @@
   },
   "tomb_raider_series": {
     "count": 55,
-    "ja": "トゥームレイダー",
+    "ja": "トゥームレイダー: レジェンド・オブ・ララ・クロフト シリーズ",
     "needs_review": true,
-    "src": "wikidata:Q28489891"
+    "src": "wikidata:Q122898486",
+    "via": [
+      "tomb_raider:_the_legend_of_lara_croft"
+    ]
   },
   "tomo-chan_wa_onnanoko!": {
     "count": 14,
@@ -32179,9 +32848,12 @@
   },
   "transformers_series": {
     "count": 215,
-    "ja": "トランスフォーマー",
+    "ja": "オーバーウォッチ シリーズ",
     "needs_review": true,
-    "src": "wikidata:Q1323565"
+    "src": "wikidata:Q73398918",
+    "via": [
+      "overwatch_2"
+    ]
   },
   "transformers_the_movie": {
     "count": 111,
@@ -32743,9 +33415,12 @@
   },
   "uma_musume_series": {
     "count": 439,
-    "ja": "ウマ娘 プリティーダービー",
-    "needs_review": true,
-    "src": "wikidata:Q104333785"
+    "ja": "ウマ娘 プリティーダービー シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q29034274",
+    "via": [
+      "uma_musume_pretty_derby"
+    ]
   },
   "umeboshi_denka:_uchuu_no_hate_kara_panparopan!": {
     "ja": null,
@@ -32954,9 +33629,12 @@
   },
   "urusei_yatsura_series": {
     "count": 677,
-    "ja": "うる星やつら",
+    "ja": "うる星やつら シリーズ",
     "needs_review": true,
-    "src": "wikidata:Q3216881"
+    "src": "wikidata:Q3826597",
+    "via": [
+      "urusei_yatsura:_only_you"
+    ]
   },
   "urvan": {
     "ja": null,
@@ -33057,9 +33735,12 @@
   },
   "valkyria_chronicles_series": {
     "count": 29,
-    "ja": "戦場のヴァルキュリア",
+    "ja": "戦場のヴァルキュリア シリーズ",
     "needs_review": true,
-    "src": "wikidata:Q57183913"
+    "src": "wikidata:Q57183913",
+    "via": [
+      "senjou_no_valkyria"
+    ]
   },
   "valkyrie_drive": {
     "count": 23,
@@ -33085,9 +33766,13 @@
     "src": "wikidata:Q2791605"
   },
   "vampire_hunter:_the_animated_series": {
-    "ja": null,
+    "count": 84,
+    "ja": "ヴァンパイア シリーズ",
     "needs_review": true,
-    "src": "wikidata:none"
+    "src": "wikidata:Q134580483",
+    "via": [
+      "darkstalkers"
+    ]
   },
   "vampire_hunter_d_(1985)": {
     "count": 9,
@@ -33223,6 +33908,11 @@
     "src": "wikidata:Q64063188"
   },
   "vinland_saga_season_2": {
+    "ja": null,
+    "needs_review": true,
+    "src": "wikidata:none"
+  },
+  "vinland_saga_series": {
     "ja": null,
     "needs_review": true,
     "src": "wikidata:none"
@@ -33440,6 +34130,11 @@
     "needs_review": true,
     "src": "wikidata:none"
   },
+  "wake_up_girls!_series": {
+    "ja": null,
+    "needs_review": true,
+    "src": "wikidata:none"
+  },
   "wake_up_girls!_shichinin_no_idol": {
     "ja": null,
     "needs_review": true,
@@ -33452,6 +34147,11 @@
     "src": "wikidata:Q2760256"
   },
   "wakfu_oropo_bataille_pour_l'éliacube": {
+    "ja": null,
+    "needs_review": true,
+    "src": "wikidata:none"
+  },
+  "wakfu_series": {
     "ja": null,
     "needs_review": true,
     "src": "wikidata:none"
@@ -33729,9 +34429,12 @@
   },
   "wild_arms_series": {
     "count": 33,
-    "ja": "ワイルドアームズ",
-    "needs_review": true,
-    "src": "wikidata:Q2164524"
+    "ja": "ワイルドアームズシリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q4978563",
+    "via": [
+      "wild_arms_3"
+    ]
   },
   "wild_arms_twilight_venom": {
     "ja": null,
@@ -33990,6 +34693,15 @@
     "needs_review": false,
     "src": "wikidata:Q106641636"
   },
+  "working!!_series": {
+    "count": 168,
+    "ja": "WORKING!! シリーズ",
+    "needs_review": true,
+    "src": "wikidata:Q106641636",
+    "via": [
+      "working'!!"
+    ]
+  },
   "working'!!": {
     "count": 60,
     "ja": "WORKING!!",
@@ -34051,9 +34763,16 @@
     "src": "wikidata:none"
   },
   "world_witches_series": {
-    "ja": null,
+    "count": 137,
+    "ja": "ストライクウィッチーズ シリーズ",
     "needs_review": true,
-    "src": "wikidata:none"
+    "src": "wikidata:Q1202631",
+    "via": [
+      "strike_witches:_road_to_berlin",
+      "strike_witches",
+      "strike_witches_2",
+      "luminous_witches"
+    ]
   },
   "wotaku_ni_koi_wa_muzukashii": {
     "count": 6,
@@ -34131,9 +34850,12 @@
   },
   "x_series": {
     "count": 78,
-    "ja": "X",
+    "ja": "東京BABYLON シリーズ",
     "needs_review": true,
-    "src": "wikidata:Q3570501"
+    "src": "wikidata:Q1142102",
+    "via": [
+      "tokyo_babylon"
+    ]
   },
   "x_the_movie": {
     "ja": null,
@@ -34239,9 +34961,12 @@
   },
   "yaiba_series": {
     "count": 668,
-    "ja": "YAIBA",
+    "ja": "真・侍伝YAIBA シリーズ",
     "needs_review": true,
-    "src": "wikidata:Q626947"
+    "src": "wikidata:Q130239943",
+    "via": [
+      "shin_samurai-den_yaiba"
+    ]
   },
   "yakin_byoutou_san": {
     "ja": null,
@@ -34333,9 +35058,12 @@
   },
   "yamato_series": {
     "count": 404,
-    "ja": "男たちの大和/YAMATO",
+    "ja": "宇宙戦艦ヤマト シリーズ",
     "needs_review": true,
-    "src": "wikidata:Q698309"
+    "src": "wikidata:Q2068751",
+    "via": [
+      "uchuu_senkan_yamato_2199"
+    ]
   },
   "yamato_takeru": {
     "count": 45,
@@ -34700,7 +35428,17 @@
     "needs_review": true,
     "src": "wikidata:none"
   },
+  "youkai_watch_series": {
+    "ja": null,
+    "needs_review": true,
+    "src": "wikidata:none"
+  },
   "youkoso_jitsuryoku_shijou_shugi_no_kyoushitsu_e_4th_season": {
+    "ja": null,
+    "needs_review": true,
+    "src": "wikidata:none"
+  },
+  "youkoso_jitsuryoku_shijou_shugi_no_kyoushitsu_e_series": {
     "ja": null,
     "needs_review": true,
     "src": "wikidata:none"
@@ -34782,9 +35520,13 @@
     "src": "wikidata:none"
   },
   "ys_series": {
-    "ja": null,
-    "needs_review": true,
-    "src": "wikidata:none"
+    "count": 39,
+    "ja": "イース シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q8059691",
+    "via": [
+      "ys_i"
+    ]
   },
   "ys_viii_lacrimosa_of_dana_(video_game)": {
     "ja": null,
@@ -34893,6 +35635,11 @@
     "ja": "幽☆遊☆白書",
     "needs_review": true,
     "src": "wikidata:Q286950"
+  },
+  "yu_yu_hakusho_series": {
+    "ja": null,
+    "needs_review": true,
+    "src": "wikidata:none"
   },
   "yu_yu_hakusho_the_golden_seal": {
     "ja": null,

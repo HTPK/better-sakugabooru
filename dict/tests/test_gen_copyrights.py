@@ -184,3 +184,96 @@ def test_run_sets_count_and_survives_errors(capsys):
     assert res["gintama"] == {"ja": "銀魂", "src": "wikidata:Q1", "needs_review": False,
                               "count": 50}
     assert "TimeoutError" in capsys.readouterr().err
+
+
+def _series_ent(ja, en):
+    return ent(ja, en=en, p31=(FRANCHISE,))
+
+
+def _work(ja, en, series_ids):
+    e = ent(ja, en=en)
+    e["claims"]["P179"] = [{"mainsnak": {"datavalue": {"value": {"id": s}}}} for s in series_ids]
+    return e
+
+
+def _fetch_entities(ents):
+    return lambda ids: {q: ents[q] for q in ids if q in ents}
+
+
+def test_series_from_cooccur_named_winner_auto_accept():
+    data = {"genso_suikoden": {"ja": "幻想水滸伝", "src": "wikidata:Q1", "needs_review": False},
+            "suikoden_3": {"ja": "幻想水滸伝III", "src": "wikidata:Q2", "needs_review": False},
+            "unsettled": {"ja": "x", "src": "wikidata:Q3", "needs_review": True}}
+    ents = {"Q1": _work("幻想水滸伝", "Suikoden", ["Q9"]), "Q2": _work("幻想水滸伝III", "Suikoden III", ["Q9"]),
+            "Q3": _work("x", "x", ["Q8"]), "Q9": _series_ent("幻想水滸伝シリーズ", "Suikoden")}
+    r = g.series_from_cooccur("suikoden_series", {"genso_suikoden": 5, "suikoden_3": 2, "unsettled": 9},
+                              data, None, fetch_entities=_fetch_entities(ents))
+    assert r == {"ja": "幻想水滸伝シリーズ", "src": "wikidata:Q9", "needs_review": False,
+                 "via": ["genso_suikoden", "suikoden_3"]}
+
+
+def test_series_from_cooccur_parent_franchise_needs_review():
+    # every Gundam Build work is part of the Gundam franchise, but the tag is not
+    data = {"a": {"ja": "A", "src": "wikidata:Q1", "needs_review": False},
+            "b": {"ja": "B", "src": "wikidata:Q2", "needs_review": False}}
+    ents = {"Q1": _work("A", "A", ["Q8"]), "Q2": _work("B", "B", ["Q8"]),
+            "Q8": _series_ent("ガンダムシリーズ", "Gundam")}
+    r = g.series_from_cooccur("gundam_build_series", {"a": 1, "b": 1}, data, None,
+                              fetch_entities=_fetch_entities(ents))
+    assert r["src"] == "wikidata:Q8" and r["needs_review"] is True
+
+
+def test_series_from_cooccur_single_work_needs_review_and_adds_suffix():
+    data = {"eva": {"ja": "新世紀エヴァンゲリオン", "src": "wikidata:Q1", "needs_review": False}}
+    ents = {"Q1": _work("新世紀エヴァンゲリオン", "Neon Genesis Evangelion", ["Q9"]),
+            "Q9": _series_ent("エヴァンゲリオン", "Evangelion")}
+    r = g.series_from_cooccur("x_series", {"eva": 3}, data, None, fetch_entities=_fetch_entities(ents))
+    assert r["ja"] == "エヴァンゲリオン シリーズ" and r["needs_review"] is True
+
+
+def test_series_from_cooccur_title_prefix_fallback():
+    data = {"yyh": {"ja": "幽☆遊☆白書", "src": "wikidata:Q1", "needs_review": False},
+            "yyh_movie": {"ja": "幽☆遊☆白書 冥界死闘篇 炎の絆", "src": "wikidata:Q2", "needs_review": False}}
+    ents = {"Q1": _work("幽☆遊☆白書", "Yu Yu Hakusho", []), "Q2": _work("幽☆遊☆白書 冥界死闘篇 炎の絆", "Yu Yu Hakusho the Movie", [])}
+    r = g.series_from_cooccur("yu_yu_hakusho_series", {"yyh_movie": 9, "yyh": 5}, data, None,
+                              fetch_entities=_fetch_entities(ents))
+    assert r == {"ja": "幽☆遊☆白書 シリーズ", "src": "wikidata:Q1", "needs_review": True, "via": ["yyh"]}
+    data2 = {"a": {"ja": "ブレイブ", "src": "wikidata:Q1", "needs_review": False},
+             "b": {"ja": "ゾロ", "src": "wikidata:Q2", "needs_review": False}}
+    assert g.series_from_cooccur("x_series", {"a": 1, "b": 1}, data2, None,
+                                 fetch_entities=_fetch_entities({"Q1": _work("ブレイブ", "a", []), "Q2": _work("ゾロ", "b", [])})) is None
+
+
+def test_series_from_cooccur_name_match_beats_votes():
+    data = {"a": {"ja": "A", "src": "wikidata:Q1", "needs_review": False},
+            "b": {"ja": "B", "src": "wikidata:Q2", "needs_review": False},
+            "c": {"ja": "C", "src": "wikidata:Q3", "needs_review": False}}
+    ents = {"Q1": _work("A", "A", ["Q8", "Q9"]), "Q2": _work("B", "B", ["Q8", "Q9"]),
+            "Q3": _work("C", "C", ["Q8"]),
+            "Q8": _series_ent("ガンダムシリーズ", "Gundam"),
+            "Q9": _series_ent("ガンダムビルドシリーズ", "Gundam Build series")}
+    r = g.series_from_cooccur("gundam_build_series", {"a": 1, "b": 1, "c": 1}, data, None,
+                              fetch_entities=_fetch_entities(ents))
+    assert r["src"] == "wikidata:Q9" and r["needs_review"] is False
+
+
+def test_series_from_cooccur_nothing_to_derive():
+    data = {"a": {"ja": "A", "src": "manual"}, "b": {"ja": "B", "src": "wikidata:Q2", "needs_review": False}}
+    ents = {"Q2": _work("B", "B", [])}
+    assert g.series_from_cooccur("x_series", {"a": 3}, data, None, fetch_entities=_fetch_entities(ents)) is None
+    assert g.series_from_cooccur("x_series", {"b": 3}, data, None, fetch_entities=_fetch_entities(ents)) is None  # 1-char title
+    assert g.series_from_cooccur("x_series", {}, data, None) is None
+
+
+def test_run_uses_cooccur_before_name_lookup():
+    def fake(url):
+        if "wbsearchentities" in url:
+            raise AssertionError("name lookup must not run when cooccur settles the tag")
+        return {"entities": {"Q1": _work("A", "A", ["Q9"]), "Q2": _work("B", "B", ["Q9"]),
+                             "Q9": _series_ent("Xシリーズ", "X")}}
+
+    tags = [{"name": "x_series", "count": 40}, {"name": "a", "count": 9}, {"name": "b", "count": 9}]
+    data = {"a": {"ja": "A", "src": "wikidata:Q1", "needs_review": False},
+            "b": {"ja": "B", "src": "wikidata:Q2", "needs_review": False}}
+    res = g.run(tags, data, fake, cooccur={"x_series": {"a": 4, "b": 2}})
+    assert res["x_series"]["src"] == "wikidata:Q9" and res["x_series"]["count"] == 40

@@ -6,57 +6,58 @@ needs_review entries (excluded from dist). Fix via data/overrides.json.
 |---|---|---|---|
 | looney_tunes | バッグス・バニー・ショー | wikidata:Q3986139 | 1309 |
 | lupin_iii | ルパン三世 | wikidata:Q876182 | 1132 |
+| gundam_build_series | ガンダムシリーズ | wikidata:Q732120 | 1130 |
 | digimon | デジモン | wikidata:Q140799529 | 943 |
 | avatar_series | アバター | wikidata:Q73966879 | 932 |
 | ranma_1/2 | らんま1/2 | wikidata:Q3419007 | 731 |
-| urusei_yatsura_series | うる星やつら | wikidata:Q3216881 | 677 |
-| yaiba_series | YAIBA | wikidata:Q626947 | 668 |
-| eureka_seven_series | 交響詩篇エウレカセブン | wikidata:Q962161 | 638 |
+| urusei_yatsura_series | うる星やつら シリーズ | wikidata:Q3826597 | 677 |
+| to_aru_series | とある科学の超電磁砲 シリーズ | wikidata:Q66105329 | 670 |
+| yaiba_series | 真・侍伝YAIBA シリーズ | wikidata:Q130239943 | 668 |
+| eureka_seven_series | エウレカセブン シリーズ | wikidata:Q11289673 | 638 |
 | mickey_mouse | ミッキーマウス! | wikidata:Q13568247 | 635 |
 | dragon_ball_z | ドラゴンボールZ | wikidata:Q477916 | 574 |
-| brave_series | メリダとおそろしの森 | wikidata:Q126796 | 568 |
-| monogatari_series | 〈物語〉シリーズ | wikidata:Q123022697 | 562 |
+| monogatari_series | 傷物語 シリーズ | wikidata:Q55453524 | 562 |
 | sonic_the_hedgehog | ソニック・ザ・ヘッジホッグ | wikidata:Q1164748 | 561 |
 | pokemon_(2023) | ポケットモンスター (2023) | wikidata:Q239937 | 550 |
-| uma_musume_series | ウマ娘 プリティーダービー | wikidata:Q104333785 | 439 |
 | urusei_yatsura_(tv) | うる星やつら | wikidata:Q3216881 | 430 |
 | pinocchio | ピノキオ | wikidata:Q4341553 | 426 |
 | pokemon_(2019) | ポケットモンスター (2019) | wikidata:Q239937 | 423 |
-| k-on_series | けいおん! | wikidata:Q15863567 | 414 |
 | yu_yu_hakusho | 幽☆遊☆白書 | wikidata:Q286950 | 412 |
-| mushoku_tensei_series | 無職転生 〜異世界行ったら本気だす〜 | wikidata:Q104246919 | 404 |
-| yamato_series | 男たちの大和/YAMATO | wikidata:Q698309 | 404 |
+| yamato_series | 宇宙戦艦ヤマト シリーズ | wikidata:Q2068751 | 404 |
 | castlevania | 悪魔城ドラキュラ -キャッスルヴァニア- | wikidata:Q30610085 | 400 |
 | mobile_police_patlabor | 機動警察パトレイバー (OVAシリーズ) | wikidata:Q66010776 | 399 |
 | star_wars | スター・ウォーズ | wikidata:Q462 | 397 |
+| magi_series | マギ シリーズ | wikidata:Q74713872 | 389 |
 | batman | ザ・バットマン | wikidata:Q635933 | 377 |
 | fairy_tail | FAIRY TAIL | wikidata:Q16510277 | 359 |
 | teenage_mutant_ninja_turtles | ティーンエイジ・ミュータント・ニンジャ・タートルズ | wikidata:Q158869 | 353 |
 | mazinger_series | マジンガーシリーズ | wikidata:Q1088136 | 338 |
-| persona_series | 仮面/ペルソナ | wikidata:Q695255 | 329 |
 | neon_genesis_evangelion | 新世紀エヴァンゲリオン | wikidata:Q662 | 320 |
 | avatar:_the_last_airbender | アバター 伝説の少年アン | wikidata:Q11572 | 315 |
 | my_hero_academia:_vigilantes | ヴィジランテ -僕のヒーローアカデミア ILLEGALS- | wikidata:Q131534559 | 285 |
 | cyborg_009_(2001) | サイボーグ009 (2001) | wikidata:Q105336024 | 280 |
 | mobile_suit_gundam | 機動戦士ガンダム | wikidata:Q1134906 | 267 |
-| basara_series | BASARA | wikidata:Q809789 | 258 |
+| basara_series | 戦国BASARA シリーズ | wikidata:Q17048665 | 258 |
 | the_idolmaster | THE IDOLM@STER | wikidata:Q2480998 | 248 |
+| keroro_gunsou_series | ケロロ軍曹☆ シリーズ | wikidata:Q137554653 | 246 |
 | oshi_no_ko | 【推しの子】 | wikidata:Q112305523 | 246 |
 | kiyotaka_oshiyama | 押山清高 | wikidata:Q38276825 | 245 |
 | dog_days | DOG DAYS | wikidata:Q482865 | 245 |
+| blood_series | BLOOD シリーズ | wikidata:Q615245 | 242 |
 | street_fighter | ストリートファイター USA | wikidata:Q952613 | 229 |
-| konosuba_series | この素晴らしい世界に祝福を！ | wikidata:Q112173539 | 226 |
+| konosuba_series | この素晴らしい世界に祝福を！ シリーズ | wikidata:Q112173539 | 226 |
 | inuyasha_(tv) | 犬夜叉 | wikidata:Q21587460 | 225 |
 | mobile_suit_gundam_seed | 機動戦士ガンダムSEED | wikidata:Q696206 | 217 |
-| transformers_series | トランスフォーマー | wikidata:Q1323565 | 215 |
-| ace_wo_nerae!_series | エースをねらえ! | wikidata:Q115659521 | 202 |
+| transformers_series | オーバーウォッチ シリーズ | wikidata:Q73398918 | 215 |
+| ace_wo_nerae!_series | エースをねらえ! シリーズ | wikidata:Q115659521 | 202 |
 | inazuma_eleven | イナズマイレブン | wikidata:Q102283726 | 200 |
 | tatsuo_yamada | 山田達雄 | wikidata:Q11470690 | 199 |
+| fantasia_series | ウォルト・ディズニー・アニメーション・スタジオの映画 シリーズ | wikidata:Q56070713 | 199 |
 | sonny_boy | Sonny Boy | wikidata:Q106837406 | 197 |
 | winnie_the_pooh | くまのプーさん 完全保存版 | wikidata:Q498434 | 194 |
 | animaniacs | アニマニアックス | wikidata:Q547744 | 193 |
 | mobile_suit_zeta_gundam_(tv) | 機動戦士Ζガンダム | wikidata:Q698745 | 192 |
-| sakura_taisen_series | サクラ大戦漫画版 | wikidata:Q933292 | 192 |
+| sakura_taisen_series | サクラ大戦物語 〜ミステリアス巴里 シリーズ | wikidata:Q11304553 | 192 |
 | occultic;nine | Occultic;Nine -オカルティック・ナイン- | wikidata:Q124514496 | 190 |
 | tetsuwan_atom_(2003) | 鉄腕アトム (2003) | wikidata:Q2868550 | 182 |
 | medarot | メダロット | wikidata:Q11343725 | 178 |
@@ -67,12 +68,13 @@ needs_review entries (excluded from dist). Fix via data/overrides.json.
 | takashi_nakamura | なかむらたかし | wikidata:Q7677360 | 168 |
 | fantasia | ファンタジア | wikidata:Q943192 | 168 |
 | popeye_the_sailor | 船乗りのポパイ | wikidata:Q3596105 | 168 |
+| working!!_series | WORKING!! シリーズ | wikidata:Q106641636 | 168 |
 | garo_series | 牙狼-GARO- | wikidata:Q2609117 | 166 |
 | fate/stay_night_unlimited_blade_works_(2014) | Fate/stay night UNLIMITED BLADE WORKS (2014) | wikidata:Q3740068 | 165 |
 | isao_hayashi | 林功 | wikidata:Q18530496 | 164 |
 | redline | REDLINE | wikidata:Q1207954 | 164 |
 | lazarus | ハーラン・コーベン／ラザルス | wikidata:Q124632195 | 163 |
-| galaxy_express_999_series | 銀河鉄道999 | wikidata:Q3094550 | 162 |
+| galaxy_express_999_series | 銀河鉄道999 (1979) シリーズ | wikidata:Q3094536 | 162 |
 | akira | AKIRA | wikidata:Q1905968 | 161 |
 | do_it_yourself | Do It Yourself!! -どぅー・いっと・ゆあせるふ- | wikidata:Q106189045 | 158 |
 | to_be_hero_x_(ona) | TO BE HERO X | wikidata:Q133866311 | 156 |
@@ -81,19 +83,28 @@ needs_review entries (excluded from dist). Fix via data/overrides.json.
 | digimon_adventure | デジモンアドベンチャー | wikidata:Q689114 | 148 |
 | clannad | 劇場版CLANNAD -クラナド- | wikidata:Q1037699 | 146 |
 | wakfu | ワクフ | wikidata:Q2760256 | 146 |
+| binan_koukou_chikyuu_bouei_bu_series | 美男高校地球防衛部LOVE! シリーズ | wikidata:Q18459444 | 145 |
 | the_idolm@ster | THE IDOLM@STER | wikidata:Q2480998 | 143 |
 | bakemonogatari | 〈物語〉シリーズ | wikidata:Q123022697 | 142 |
 | dumbo | ダンボ | wikidata:Q40895 | 141 |
 | mobile_fighter_g_gundam | 機動武闘伝Gガンダム | wikidata:Q716172 | 141 |
 | k_project | K | wikidata:Q972852 | 137 |
+| world_witches_series | ストライクウィッチーズ シリーズ | wikidata:Q1202631 | 137 |
+| arknights_tv_series | アークナイツ シリーズ | wikidata:Q114565580 | 135 |
+| seishun_buta_yarou_wa_bunny_girl_senpai_no_yume_wo_minai_series | 青春ブタ野郎はおでかけシスターの夢を見ない シリーズ | wikidata:Q116608682 | 132 |
 | spider-man | スパイダーマン | wikidata:Q569934 | 132 |
 | animaniacs_(2020) | アニマニアックス (2020) | wikidata:Q97327699 | 130 |
-| clevatess_series | クレバテス-魔獣の王と赤子と屍の勇者- | wikidata:Q126959847 | 130 |
+| clevatess_series | クレバテス-魔獣の王と赤子と屍の勇者 シリーズ | wikidata:Q126959847 | 130 |
 | yatterman_series | ヤッターマン | wikidata:Q1092074 | 129 |
 | masahiro_ando | 安藤真裕 | wikidata:Q9128134 | 128 |
 | batman:_the_animated_series | バットマン | wikidata:Q673517 | 125 |
+| haruhi_suzumiya_series | 涼宮ハルヒの シリーズ | wikidata:Q10913555 | 123 |
 | magic_knight_rayearth | 魔法騎士レイアース | wikidata:Q126958206 | 123 |
+| tamako_series | たまこ シリーズ | wikidata:Q211183 | 122 |
+| duel_masters_(2017)_series | デュエル・マスターズ シリーズ | wikidata:Q912997 | 121 |
+| the_ninth_jedi_series | スター・ウォーズ シリーズ | wikidata:Q462 | 120 |
 | angelic_layer | 機動天使エンジェリックレイヤー | wikidata:Q107095871 | 119 |
+| aria_series | ARIA The シリーズ | wikidata:Q90570315 | 119 |
 | bambi | バンビ | wikidata:Q43051 | 119 |
 | ao_no_exorcist | 青の祓魔師 | wikidata:Q11661072 | 118 |
 | space_adventure_cobra | スペースコブラ | wikidata:Q2981166 | 118 |
@@ -108,6 +119,7 @@ needs_review entries (excluded from dist). Fix via data/overrides.json.
 | the_jungle_book | ジャングル・ブック | wikidata:Q199839 | 107 |
 | air | AIR エアー | wikidata:Q20646860 | 106 |
 | keroro_gunsou | ケロロ軍曹 | wikidata:Q6151019 | 104 |
+| grisaia_series | グリザイア シリーズ | wikidata:Q107797059 | 102 |
 | motorcity | モーターシティ | wikidata:Q24060 | 102 |
 | rewrite | Rewrite | wikidata:Q28017575 | 102 |
 | berserk | 剣風伝奇ベルセルク | wikidata:Q18559016 | 101 |
@@ -127,32 +139,37 @@ needs_review entries (excluded from dist). Fix via data/overrides.json.
 | azur_lane_(tv) | アズールレーン | wikidata:Q42404311 | 94 |
 | kyousougiga_(ona) | 京騒戯画 | wikidata:Q11175349 | 93 |
 | god_eater | GOD EATER | wikidata:Q21705946 | 92 |
-| hi_no_tori_series | 火の鳥 | wikidata:Q122166656 | 92 |
+| hi_no_tori_series | 火の鳥 シリーズ | wikidata:Q2463310 | 92 |
 | cuphead_(video_game) | カップヘッド | wikidata:Q18149495 | 91 |
+| to_heart_series | ToHeart2 シリーズ | wikidata:Q123415975 | 90 |
 | shadow_skill_(tv) | SHADOW SKILL | wikidata:Q3141397 | 89 |
 | 101_dalmatians | 101匹わんちゃん | wikidata:Q165512 | 88 |
 | outlaw_star | 星方武侠アウトロースター | wikidata:Q2470001 | 88 |
 | youkai_watch | 妖怪ウォッチ | wikidata:Q19478097 | 88 |
 | perfect_blue | パーフェクトブルー | wikidata:Q1205051 | 87 |
 | futoshi_higashide | 東出 太 | wikidata:Q90406243 | 86 |
+| boogiepop_series | ブギーポップは笑わない シリーズ | wikidata:Q123517656 | 86 |
 | dororo | どろろ | wikidata:Q56451122 | 86 |
 | nerawareta_gakuen | ねらわれた学園 | wikidata:Q17214811 | 86 |
 | woody_woodpecker | 気狂いキツツキ | wikidata:Q8033717 | 86 |
 | kyousougiga_(tv) | 京騒戯画 | wikidata:Q11175349 | 85 |
 | moomin_series | 楽しいムーミン一家 | wikidata:Q2914480 | 85 |
+| vampire_hunter:_the_animated_series | ヴァンパイア シリーズ | wikidata:Q134580483 | 84 |
 | memories | MEMORIES | wikidata:Q564403 | 83 |
 | cinderella | シンデレラ | wikidata:Q191753 | 82 |
 | final_fantasy | ファイナルファンタジーシリーズ | wikidata:Q12391356 | 81 |
 | shunsuke_okubo | シュンスケ・オオクボ | wikidata:Q18545789 | 80 |
-| x_series | X | wikidata:Q3570501 | 78 |
+| dancougar_series | 獣装機攻ダンクーガノヴァ シリーズ | wikidata:Q3273878 | 80 |
+| x_series | 東京BABYLON シリーズ | wikidata:Q1142102 | 78 |
 | koe_no_katachi | 映画 聲の形 | wikidata:Q23925035 | 77 |
+| ika_musume_series | 侵略!イカ娘 シリーズ | wikidata:Q109417391 | 76 |
 | x-men_(2011_anime) | X-MEN | wikidata:Q1340065 | 76 |
 | thundercats | サンダーキャッツ | wikidata:Q699655 | 75 |
 | hiroshi_shimizu | 清水宏 | wikidata:Q537232 | 73 |
 | aikatsu! | アイカツ! | wikidata:Q113674971 | 73 |
 | monster_(2004) | MONSTER (2004) | wikidata:Q100944081 | 72 |
 | psycho_pass_(movie) | PSYCHO-PASS サイコパス | wikidata:Q1315951 | 72 |
-| bofuri_series | 痛いのは嫌なので防御力に極振りしたいと思います。 | wikidata:Q91320001 | 71 |
+| bofuri_series | 痛いのは嫌なので防御力に極振りしたいと思います。 シリーズ | wikidata:Q91320001 | 71 |
 | japan_sinks_(2020) | 日本沈没 (2020) | wikidata:Q1079055 | 70 |
 | animaniacs_(1993) | アニマニアックス (1993) | wikidata:Q547744 | 68 |
 | anne_of_green_gables | 赤毛のアン | wikidata:Q514043 | 68 |
@@ -162,12 +179,14 @@ needs_review entries (excluded from dist). Fix via data/overrides.json.
 | the_hunchback_of_notre_dame | ノートルダムの鐘 | wikidata:Q213787 | 66 |
 | blood:_the_last_vampire | BLOOD THE LAST VAMPIRE | wikidata:Q885189 | 65 |
 | jujutsu_kaisen_0 | 劇場版 呪術廻戦 0 | wikidata:Q109914608 | 65 |
+| kite_series | カイト リベレイター シリーズ | wikidata:Q7684399 | 65 |
 | masters_of_the_universe_series | マスターズ・オブ・ユニバース | wikidata:Q519710 | 65 |
 | valorant | VALORANT | wikidata:Q86919275 | 65 |
 | chibi_maruko-chan | まるまるちびまる子ちゃん | wikidata:Q11122495 | 64 |
 | rewrite_(tv) | Rewrite | wikidata:Q28017575 | 64 |
-| the_witcher_series | ウィッチャー | wikidata:Q47500433 | 64 |
+| the_witcher_series | ウィッチャー 深海のセイレーン シリーズ | wikidata:Q123478480 | 64 |
 | bubble | バブル | wikidata:Q109965531 | 63 |
+| jigoku_sensei_nube_series | 地獄先生ぬ〜べ〜 ( シリーズ | wikidata:Q127682683 | 63 |
 | superman | スーパーマン | wikidata:Q1549361 | 63 |
 | jarinko_chie | Jarinko Chie | wikidata:Q107388993 | 62 |
 | working!! | WORKING!! | wikidata:Q106641636 | 62 |
@@ -178,7 +197,7 @@ needs_review entries (excluded from dist). Fix via data/overrides.json.
 | dokkoida | 住めば都のコスモス荘すっとこ大戦ドッコイダー | wikidata:Q134464071 | 60 |
 | black_cat | BLACK CAT | wikidata:Q120357178 | 59 |
 | fairy_tail:_100_years_quest | FAIRY TAIL 100年クエスト | wikidata:Q124817637 | 59 |
-| gochiusa_series | ご注文はうさぎですか? | wikidata:Q100471038 | 59 |
+| gochiusa_series | ご注文はうさぎですか? シリーズ | wikidata:Q100471038 | 59 |
 | kageki_shoujo | かげきしょうじょ!! | wikidata:Q105223508 | 59 |
 | shaman_king | シャーマンキング | wikidata:Q100868587 | 59 |
 | tantei_opera_milky_holmes | 探偵オペラ ミルキィホームズ | wikidata:Q134955581 | 59 |
@@ -188,18 +207,18 @@ needs_review entries (excluded from dist). Fix via data/overrides.json.
 | tetsujin_28-go_(1980) | 鉄人28号 (1980) | wikidata:Q4050886 | 58 |
 | xxxholic | XXXHOLiC | wikidata:Q116695507 | 58 |
 | atsuya_uki | 宇木敦哉 | wikidata:Q11449435 | 57 |
-| .hack_series | .hack | wikidata:Q159851 | 57 |
-| scooby_doo_series | スクービー・ドゥー | wikidata:Q205683 | 57 |
 | devilman_(1972) | デビルマン (1972) | wikidata:Q1206836 | 56 |
 | le_chevalier_d'eon | シュヴァリエ 〜Le Chevalier D'Eon〜 | wikidata:Q320678 | 56 |
 | richard_williams | リチャード・ウィリアムス | wikidata:Q1999598 | 55 |
+| bakugan_series | 爆丸バトル シリーズ | wikidata:Q25471211 | 55 |
 | duel_masters_(2017) | デュエル・マスターズ (2017) | wikidata:Q912997 | 55 |
 | escaflowne_(movie) | 天空のエスカフローネ | wikidata:Q92560 | 55 |
 | his_and_her_circumstances | 彼氏彼女の事情 | wikidata:Q99659358 | 55 |
-| tomb_raider_series | トゥームレイダー | wikidata:Q28489891 | 55 |
+| tomb_raider_series | トゥームレイダー: レジェンド・オブ・ララ・クロフト シリーズ | wikidata:Q122898486 | 55 |
 | amphibia | ふしぎの国 アンフィビア | wikidata:Q55603855 | 54 |
 | wolfwalkers | ウルフウォーカー | wikidata:Q68681463 | 54 |
 | dirty_pair:_project_eden | ダーティペア: Project Eden | wikidata:Q3013259 | 53 |
+| tensai_bakabon_series | 元祖天才バカボン シリーズ | wikidata:Q24886566 | 53 |
 | blade_(2011_anime) | ブレイド | wikidata:Q10896756 | 52 |
 | crying_freeman | クライング・フリーマン | wikidata:Q657981 | 52 |
 | rayearth_(ova) | 魔法騎士レイアース | wikidata:Q127717083 | 50 |
@@ -210,14 +229,15 @@ needs_review entries (excluded from dist). Fix via data/overrides.json.
 | black_bullet | ブラック・ブレット | wikidata:Q15051479 | 48 |
 | golden_boy | GOLDEN BOY | wikidata:Q135684110 | 48 |
 | mobile_suit_gundam:_char's_counterattack | 機動戦士ガンダム 逆襲のシャア | wikidata:Q1363770 | 48 |
-| duel_masters_lost_series | Duel Masters LOST | wikidata:Q137322938 | 47 |
 | love_live! | ラブライブ!シリーズ | wikidata:Q43069510 | 47 |
 | you're_under_arrest_(tv) | 逮捕しちゃうぞ | wikidata:Q3211899 | 47 |
 | dandelion | タンポポ | wikidata:Q12596197 | 46 |
 | dirty_pair_(tv) | ダーティペア | wikidata:Q20874770 | 46 |
 | love_live!_sunshine!! | ラブライブ！サンシャイン!! | wikidata:Q116769230 | 46 |
 | summer_pockets_(tv) | Summer Pockets | wikidata:Q126934355 | 46 |
+| slam_dunk_series | THE FIRST SLAM DUNK シリーズ | wikidata:Q112897629 | 45 |
 | arcane | アーケイン | wikidata:Q85518571 | 44 |
+| duel_masters_king_series | デュエル・マスターズ シリーズ | wikidata:Q912997 | 44 |
 | my_neighbors_the_yamadas | ホーホケキョ となりの山田くん | wikidata:Q1418326 | 44 |
 | bob_carlson | イワオ・タカモト | wikidata:Q445100 | 43 |
 | blue_dragon | BLUE DRAGON | wikidata:Q2408681 | 43 |
@@ -234,6 +254,7 @@ needs_review entries (excluded from dist). Fix via data/overrides.json.
 | spriggan_(2022) | スプリガン (2022) | wikidata:Q100231000 | 40 |
 | azumanga_daioh | あずまんが大王 THE ANIMATION | wikidata:Q104381607 | 39 |
 | joker_game | ジョーカー・ゲーム | wikidata:Q66309332 | 39 |
+| kirby_series | 星のカービィ シリーズ | wikidata:Q1205191 | 39 |
 | to_love_ru_darkness | To LOVEる -とらぶる- ダークネス | wikidata:Q61976583 | 39 |
 | aa!_megami-sama!_series | ああっ女神さまっ | wikidata:Q467681 | 38 |
 | hen_semi_(ova) | 変ゼミ | wikidata:Q141514719 | 38 |
@@ -262,17 +283,14 @@ needs_review entries (excluded from dist). Fix via data/overrides.json.
 | yuri_seijin_naoko-san_(2012) | 百合星人ナオコサン (2012) | wikidata:Q8061598 | 35 |
 | hirotsugu_kawasaki | 川崎博嗣 | wikidata:Q30924702 | 34 |
 | mobile_suit_gundam_wing_(tv) | 新機動戦記ガンダムW | wikidata:Q711148 | 34 |
-| summon_night_series | サモンナイト | wikidata:Q11305232 | 34 |
 | fuminori_kizaki | 木﨑文智 | wikidata:Q3090837 | 33 |
 | gary_goldman | ゲイリー・ゴールドマン | wikidata:Q667959 | 33 |
 | masahiro_ando_(1958) | 安藤真裕 | wikidata:Q9128134 | 33 |
 | arco | アルコ | wikidata:Q55423248 | 33 |
 | dr_slump | Dr.スランプ アラレちゃん | wikidata:Q3038453 | 33 |
 | hakuoki | 薄桜鬼 | wikidata:Q115775247 | 33 |
-| rockman_x_series | ロックマンX | wikidata:Q1196400 | 33 |
 | saiyuuki | 西遊記 | wikidata:Q6900702 | 33 |
 | the_powerpuff_girls | パワーパフガールズ | wikidata:Q1236206 | 33 |
-| wild_arms_series | ワイルドアームズ | wikidata:Q2164524 | 33 |
 | atsushi_mori | 森敦司 | wikidata:Q11539720 | 32 |
 | ben_10 | ベン:10 | wikidata:Q27061887 | 32 |
 | kite | A KITE | wikidata:Q1743872 | 32 |
@@ -293,7 +311,7 @@ needs_review entries (excluded from dist). Fix via data/overrides.json.
 | kyung_mi_lee | イ・ギョンミ | wikidata:Q18815676 | 29 |
 | sleeping_beauty | 眠れる森の美女 | wikidata:Q215617 | 29 |
 | star_ocean_series | スターオーシャン | wikidata:Q3043052 | 29 |
-| valkyria_chronicles_series | 戦場のヴァルキュリア | wikidata:Q57183913 | 29 |
+| valkyria_chronicles_series | 戦場のヴァルキュリア シリーズ | wikidata:Q57183913 | 29 |
 | yang_xiao | 肖央 | wikidata:Q97352332 | 28 |
 | ehrgeiz | ネクスト戦記EHRGEIZ | wikidata:Q5018393 | 28 |
 | lapis_re:lights | ラピスリライツ | wikidata:Q98908262 | 28 |
@@ -331,6 +349,7 @@ needs_review entries (excluded from dist). Fix via data/overrides.json.
 | gift | ギフト | wikidata:Q246711 | 23 |
 | guyver | ガイバー | wikidata:Q766745 | 23 |
 | indivisible | インディヴィジブル 闇を祓う魂たち | wikidata:Q21450518 | 23 |
+| injuu_seisen_series | 淫獣聖戦シリーズ | wikidata:Q5224997 | 23 |
 | inspector_gadget | ガジェット警部 | wikidata:Q664840 | 23 |
 | mashin_hero_wataru | 魔神英雄伝ワタル | wikidata:Q17222326 | 23 |
 | parasite_dolls | A.D.POLICE | wikidata:Q289871 | 23 |
@@ -382,7 +401,6 @@ needs_review entries (excluded from dist). Fix via data/overrides.json.
 | revenger | REVENGER | wikidata:Q114888419 | 18 |
 | shadowverse_(video_game) | シャドウバース | wikidata:Q89277583 | 18 |
 | caligula | Caligula -カリギュラ- | wikidata:Q48964751 | 17 |
-| disgaea_series | 魔界戦記ディスガイア | wikidata:Q2618801 | 17 |
 | hades_(video_game)_series | HADES | wikidata:Q59756366 | 17 |
 | idoly_pride | IDOLY PRIDE | wikidata:Q98793223 | 17 |
 | inazuma_eleven_(movie) | イナズマイレブン | wikidata:Q102283726 | 17 |
@@ -394,7 +412,7 @@ needs_review entries (excluded from dist). Fix via data/overrides.json.
 | fate/grand_order_(game) | Fate/Grand Order | wikidata:Q18339082 | 16 |
 | inazuma_eleven_go_(movie) | イナズマイレブンGO | wikidata:Q65165706 | 16 |
 | junkers_come_here_(pilot_film) | ユンカース・カム・ヒア | wikidata:Q6313867 | 16 |
-| kase-san_series | 加瀬さんシリーズ | wikidata:Q28693132 | 16 |
+| kase-san_series | あさがおと加瀬さん。 シリーズ | wikidata:Q112713782 | 16 |
 | major_(tv) | MAJOR | wikidata:Q702497 | 16 |
 | mulan | ムーラン | wikidata:Q537407 | 16 |
 | persona_3_(game) | ペルソナ3 | wikidata:Q910889 | 16 |
@@ -408,6 +426,7 @@ needs_review entries (excluded from dist). Fix via data/overrides.json.
 | julien_chheng | ジュリアン・チェン | wikidata:Q72805932 | 15 |
 | yoshiyuki_kishi | 岸義之 | wikidata:Q11476012 | 15 |
 | alchemy_stars_(game) | 白夜極光 | wikidata:Q107359935 | 15 |
+| amagami_series | アマガミSS シリーズ | wikidata:Q3613535 | 15 |
 | atelier_series | アンダーウェア | wikidata:Q21692491 | 15 |
 | brawlhalla | ブロウルハラ | wikidata:Q22262001 | 15 |
 | hi-fi_rush_(video_game) | Hi-Fi RUSH | wikidata:Q116439515 | 15 |
@@ -433,7 +452,6 @@ needs_review entries (excluded from dist). Fix via data/overrides.json.
 | monster_(mv) | MONSTER | wikidata:Q100944081 | 14 |
 | resonance_solstice_(game) | レゾナンス:無限号列車 | wikidata:Q130559248 | 14 |
 | sand_land:_the_series | SAND LAND: THE SERIES | wikidata:Q125019012 | 14 |
-| suikoden_series | 幻想水滸伝 | wikidata:Q132916278 | 14 |
 | tailenders | TAILENDERS | wikidata:Q4050662 | 14 |
 | tensai_bakabon | 天才バカボン | wikidata:Q11442627 | 14 |
 | trinity_seven | トリニティセブン | wikidata:Q65040519 | 14 |
@@ -483,6 +501,7 @@ needs_review entries (excluded from dist). Fix via data/overrides.json.
 | hana_yori_dango | 花より男子 | wikidata:Q20669175 | 11 |
 | mega_man_(1994) | ロックマン (1994) | wikidata:Q7565689 | 11 |
 | prison_school | 監獄学園 | wikidata:Q52095596 | 11 |
+| rockman_zx_series | ロックマン シリーズ | wikidata:Q7565689 | 11 |
 | shingeki_no_kyojin_(ova) | 進撃の巨人 | wikidata:Q22126305 | 11 |
 | shoshimin_series | 小市民シリーズ | wikidata:Q124256086 | 11 |
 | supergirl_(mv) | SUPERGIRL/スーパーガール | wikidata:Q18844732 | 11 |
@@ -538,6 +557,7 @@ needs_review entries (excluded from dist). Fix via data/overrides.json.
 | blue_archive_(game) | ブルーアーカイブ -Blue Archive- | wikidata:Q105344455 | 8 |
 | clover | クローバー | wikidata:Q18703102 | 8 |
 | ducktales_(1987) | わんぱくダック夢冒険 (1987) | wikidata:Q214107 | 8 |
+| duel_masters_win_series | デュエル・マスターズ シリーズ | wikidata:Q912997 | 8 |
 | emma:_a_victorian_romance | 英國戀物語エマ | wikidata:Q106597679 | 8 |
 | godzilla | Godzilla | wikidata:Q2406442 | 8 |
 | guardian_tales_(game) | ガーディアンテイルズ | wikidata:Q103474572 | 8 |
@@ -569,7 +589,7 @@ needs_review entries (excluded from dist). Fix via data/overrides.json.
 | colours | カラーズ 天使の消えた街 | wikidata:Q1111758 | 7 |
 | conception | CONCEPTION | wikidata:Q66480979 | 7 |
 | dogs | 護衛犬都市 | wikidata:Q1213499 | 7 |
-| dokyuusei_series | 同級生 | wikidata:Q118978806 | 7 |
+| dokyuusei_series | 同級生2 シリーズ | wikidata:Q5321259 | 7 |
 | elsword | エルソード | wikidata:Q486189 | 7 |
 | end_of_summer_(mv) | 夏の終わり | wikidata:Q65659433 | 7 |
 | endless_(vtuber_project) | アルカディア | wikidata:Q39073297 | 7 |

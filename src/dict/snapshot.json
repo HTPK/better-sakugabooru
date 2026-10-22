@@ -2795,6 +2795,9 @@
     ".hack//legend_of_the_twilight": {
       "ja": ".hack//黄昏の腕輪伝説"
     },
+    ".hack_series": {
+      "ja": ".hack シリーズ"
+    },
     "009-1": {
       "ja": "009ノ1"
     },
@@ -2935,6 +2938,9 @@
     },
     "ai_city": {
       "ja": "アイ・シティ"
+    },
+    "aikatsu!_series": {
+      "ja": "アイカツ! シリーズ"
     },
     "aikatsu!_the_movie": {
       "ja": "劇場版 アイカツ！"
@@ -3732,6 +3738,9 @@
     "brave_police_j-decker": {
       "ja": "勇者警察ジェイデッカー"
     },
+    "brave_series": {
+      "ja": "勇者シリーズ"
+    },
     "brawl_stars": {
       "ja": "ブロスタ"
     },
@@ -3887,6 +3896,9 @@
     },
     "castlevania:_nocturne": {
       "ja": "悪魔城ドラキュラ -キャッスルヴァニア-: 月夜のノクターン"
+    },
+    "castlevania_series": {
+      "ja": "悪魔城ドラキュラ シリーズ"
     },
     "catnapped!": {
       "ja": "バニパルウィット 突然!猫の国"
@@ -4377,6 +4389,9 @@
     "disgaea_2": {
       "ja": "魔界戦記ディスガイア2"
     },
+    "disgaea_series": {
+      "ja": "魔界戦記ディスガイアシリーズ"
+    },
     "divergence_eve": {
       "ja": "ダイバージェンス・イヴ"
     },
@@ -4559,6 +4574,9 @@
     "duel_masters_lost:_boukyaku_no_taiyou": {
       "ja": "Duel Masters LOST ～忘却の太陽～"
     },
+    "duel_masters_lost_series": {
+      "ja": "Duel Masters LOST シリーズ"
+    },
     "duel_masters_vs": {
       "ja": "デュエル・マスターズ"
     },
@@ -4684,6 +4702,9 @@
     },
     "fairy_tail:_dragon_cry": {
       "ja": "劇場版 FAIRY TAIL -DRAGON CRY-"
+    },
+    "fairy_tail_series": {
+      "ja": "フェアリーテイル シリーズ"
     },
     "family_guy": {
       "ja": "ファミリー・ガイ"
@@ -5170,6 +5191,9 @@
     },
     "ghost_concert:_missing_songs": {
       "ja": "ゴーストコンサート: missing Songs"
+    },
+    "ghost_in_the_shell_series": {
+      "ja": "攻殻機動隊 シリーズ"
     },
     "ghost_in_the_shell_stand_alone_complex": {
       "ja": "攻殻機動隊 STAND ALONE COMPLEX"
@@ -5973,6 +5997,9 @@
     "inazuma_eleven_orion_no_koukuin": {
       "ja": "イナズマイレブン オリオンの刻印"
     },
+    "inazuma_eleven_series": {
+      "ja": "イナズマイレブンシリーズ"
+    },
     "innocent_venus": {
       "ja": "イノセント・ヴィーナス"
     },
@@ -6191,6 +6218,9 @@
     },
     "k-on!_the_movie": {
       "ja": "映画けいおん！"
+    },
+    "k-on_series": {
+      "ja": "けいおん! シリーズ"
     },
     "kabukichou_sherlock": {
       "ja": "歌舞伎町シャーロック"
@@ -6775,6 +6805,9 @@
     "langrisser_ii": {
       "ja": "ラングリッサーII"
     },
+    "langrisser_series": {
+      "ja": "ラングリッサーシリーズ"
+    },
     "laputa:_castle_in_the_sky": {
       "ja": "天空の城ラピュタ"
     },
@@ -6888,6 +6921,9 @@
     },
     "love_live!_bluebird": {
       "ja": "イキヅライブ！ LOVELIVE! BLUEBIRD"
+    },
+    "love_live!_series": {
+      "ja": "ラブライブ!シリーズ"
     },
     "love_live!_superstar!!": {
       "ja": "ラブライブ!スーパースター!!"
@@ -7669,6 +7705,9 @@
     "mushoku_tensei:_isekai_ittara_honki_dasu": {
       "ja": "無職転生 〜異世界行ったら本気だす〜"
     },
+    "mushoku_tensei_series": {
+      "ja": "無職転生 〜異世界行ったら本気だす〜 シリーズ"
+    },
     "mushrambo": {
       "ja": "マシュランボー"
     },
@@ -8345,6 +8384,9 @@
     "persona_5_the_royal": {
       "ja": "ペルソナ5 ザ・ロイヤル"
     },
+    "persona_series": {
+      "ja": "ペルソナ シリーズ"
+    },
     "peter_pan": {
       "ja": "ピーター・パン"
     },
@@ -8514,6 +8556,9 @@
     },
     "professor_layton_and_the_eternal_diva": {
       "ja": "レイトン教授と永遠の歌姫"
+    },
+    "professor_layton_series": {
+      "ja": "レイトン教授シリーズ"
     },
     "project_a-ko": {
       "ja": "プロジェクトA子"
@@ -8731,8 +8776,14 @@
     "rockman_8": {
       "ja": "ロックマン8 メタルヒーローズ"
     },
+    "rockman_series": {
+      "ja": "ロックマンシリーズ"
+    },
     "rockman_x4": {
       "ja": "ロックマンX4"
+    },
+    "rockman_x_series": {
+      "ja": "ロックマンXシリーズ"
     },
     "rocko's_modern_life": {
       "ja": "ロッコーのモダンライフ"
@@ -8968,6 +9019,9 @@
     "scooby_doo_and_the_witch's_ghost": {
       "ja": "スクービー・ドゥーと魔女ゴースト"
     },
+    "scooby_doo_series": {
+      "ja": "スクービー・ドゥー シリーズ"
+    },
     "scott_pilgrim_takes_off": {
       "ja": "スコット・ピルグリム テイクス・オフ"
     },
@@ -9147,6 +9201,9 @@
     },
     "shaman_king_flowers": {
       "ja": "シャーマンキングFLOWERS"
+    },
+    "shaman_king_series": {
+      "ja": "シャーマンキング シリーズ"
     },
     "shangri-la_frontier": {
       "ja": "シャングリラ・フロンティア〜クソゲーハンター、神ゲーに挑まんとす〜"
@@ -9691,6 +9748,9 @@
     "suicide_squad_isekai": {
       "ja": "異世界スーサイド・スクワッド"
     },
+    "suikoden_series": {
+      "ja": "幻想水滸伝シリーズ"
+    },
     "suisei_no_gargantia": {
       "ja": "翠星のガルガンティア"
     },
@@ -9720,6 +9780,9 @@
     },
     "summon_night_4": {
       "ja": "サモンナイト4"
+    },
+    "summon_night_series": {
+      "ja": "サモンナイトシリーズ"
     },
     "super_cub": {
       "ja": "スーパーカブ"
@@ -9837,6 +9900,9 @@
     },
     "tales_of_rebirth": {
       "ja": "テイルズ オブ リバース"
+    },
+    "tales_of_series": {
+      "ja": "テイルズ オブ シリーズ"
     },
     "tales_of_symphonia": {
       "ja": "テイルズ オブ シンフォニア"
@@ -10180,6 +10246,9 @@
     "the_idolm@ster_cinderella_girls_u149": {
       "ja": "アイドルマスター シンデレラガールズ U149"
     },
+    "the_idolm@ster_series": {
+      "ja": "アイドルマスターシリーズ"
+    },
     "the_idolmaster_cinderella_girls": {
       "ja": "アイドルマスター シンデレラガールズ"
     },
@@ -10191,6 +10260,9 @@
     },
     "the_idolmaster_million_live": {
       "ja": "アイドルマスター ミリオンライブ!"
+    },
+    "the_idolmaster_series": {
+      "ja": "アイドルマスターシリーズ"
     },
     "the_idolmaster_shiny_festa": {
       "ja": "THE IDOLM@STER SHINY FESTA"
@@ -10852,6 +10924,9 @@
     "uma_musume_pretty_derby_series": {
       "ja": "ウマ娘 プリティーダービー シリーズ"
     },
+    "uma_musume_series": {
+      "ja": "ウマ娘 プリティーダービー シリーズ"
+    },
     "umi_ga_kikoeru": {
       "ja": "海がきこえる"
     },
@@ -11064,6 +11139,9 @@
     },
     "wild_arms_3": {
       "ja": "ワイルドアームズ アドヴァンスドサード"
+    },
+    "wild_arms_series": {
+      "ja": "ワイルドアームズシリーズ"
     },
     "wild_knights_gulkeeva": {
       "ja": "獣戦士ガルキーバ"
@@ -11326,6 +11404,9 @@
     "ys_i": {
       "ja": "イースI"
     },
+    "ys_series": {
+      "ja": "イース シリーズ"
+    },
     "yu-gi-oh!": {
       "ja": "遊☆戯☆王"
     },
@@ -11498,6 +11579,7 @@
   "counts": {
     "\"deji\"_meets_girl": 5,
     ".hack//legend_of_the_twilight": 16,
+    ".hack_series": 57,
     "009-1": 37,
     "07-ghost": 7,
     "16bit_sensation:_another_layer": 6,
@@ -11551,6 +11633,7 @@
     "aho_girl": 21,
     "ai_city": 10,
     "ai_kikuchi": 11,
+    "aikatsu!_series": 218,
     "aikatsu!_the_movie": 8,
     "aikatsu_friends!": 32,
     "aikatsu_on_parade!": 22,
@@ -11885,6 +11968,7 @@
     "brave_exkaiser": 42,
     "brave_little_tailor": 26,
     "brave_police_j-decker": 229,
+    "brave_series": 568,
     "brawl_stars": 15,
     "break_blade": 93,
     "bt_x": 17,
@@ -11940,6 +12024,7 @@
     "casshan": 73,
     "casshern_sins": 64,
     "castlevania:_nocturne": 269,
+    "castlevania_series": 567,
     "catnapped!": 30,
     "cats_don't_dance": 29,
     "cats_eye": 17,
@@ -12138,6 +12223,7 @@
     "dirty_pair": 173,
     "dirty_pair_flash": 41,
     "disgaea_2": 5,
+    "disgaea_series": 17,
     "divergence_eve": 23,
     "divergence_eve_2:_misaki_chronicles": 14,
     "divine_gate": 15,
@@ -12202,6 +12288,7 @@
     "ducktales_2017": 26,
     "duel_masters": 306,
     "duel_masters_lost:_boukyaku_no_taiyou": 26,
+    "duel_masters_lost_series": 47,
     "duel_masters_vs": 9,
     "duel_masters_vs_series": 64,
     "dumbbell_nan_kilo_moteru": 28,
@@ -12259,6 +12346,7 @@
     "fabric": 22564,
     "fairy_ranmaru": 29,
     "fairy_tail:_dragon_cry": 26,
+    "fairy_tail_series": 293,
     "falling": 4103,
     "family_guy": 11,
     "fantasia_2000": 53,
@@ -12447,6 +12535,7 @@
     "getter_robo_go": 77,
     "getter_robo_series": 373,
     "ghost_concert:_missing_songs": 57,
+    "ghost_in_the_shell_series": 740,
     "ghost_in_the_shell_stand_alone_complex": 105,
     "ghost_slayers_ayashi": 75,
     "ghost_slayers_ayashi_series": 94,
@@ -12812,6 +12901,7 @@
     "inazuma_eleven_ares_no_tenbin": 33,
     "inazuma_eleven_go": 92,
     "inazuma_eleven_orion_no_koukuin": 27,
+    "inazuma_eleven_series": 462,
     "innocent_venus": 27,
     "inou-battle_wa_nichijou-kei_no_naka_de": 94,
     "instruments": 911,
@@ -12911,6 +13001,7 @@
     "k-on!": 152,
     "k-on!!": 129,
     "k-on!_the_movie": 121,
+    "k-on_series": 414,
     "kabukichou_sherlock": 24,
     "kagaku_ninjatai_gatchaman": 94,
     "kagami_no_kojou": 33,
@@ -13196,6 +13287,7 @@
     "landlock": 12,
     "landreaall": 10,
     "langrisser_ii": 5,
+    "langrisser_series": 10,
     "laputa:_castle_in_the_sky": 157,
     "last_days_of_coney_island": 8,
     "last_exile": 10,
@@ -13241,6 +13333,7 @@
     "love_death_and_robots": 58,
     "love_hina": 44,
     "love_live!_bluebird": 8,
+    "love_live!_series": 547,
     "love_live!_superstar!!": 99,
     "loving_vincent": 7,
     "lu_over_the_wall": 50,
@@ -13592,6 +13685,7 @@
     "mushibugyou": 66,
     "mushishi": 66,
     "mushoku_tensei:_isekai_ittara_honki_dasu": 238,
+    "mushoku_tensei_series": 404,
     "mushrambo": 8,
     "mutafukaz": 20,
     "muteki_choujin_zambot_3": 52,
@@ -13857,6 +13951,7 @@
     "persona_5": 125,
     "persona_5:_the_animation": 55,
     "persona_5_the_royal": 5,
+    "persona_series": 329,
     "pete_burness": 58,
     "peter_chung": 23,
     "peter_pan": 63,
@@ -13921,6 +14016,7 @@
     "production_materials": 19389,
     "professor_layton_and_the_curious_village": 7,
     "professor_layton_and_the_eternal_diva": 22,
+    "professor_layton_series": 82,
     "project_a-ko": 58,
     "project_a-ko_4:_final": 8,
     "project_a-ko_series": 95,
@@ -14004,7 +14100,9 @@
     "robotics;notes": 79,
     "rock_and_rule": 7,
     "rockman_8": 9,
+    "rockman_series": 295,
     "rockman_x4": 12,
+    "rockman_x_series": 33,
     "rocko's_modern_life": 7,
     "rodolphe_guenoden": 22,
     "roger_rabbit": 55,
@@ -14121,6 +14219,7 @@
     "scissor_seven": 91,
     "scissor_seven_series": 254,
     "scooby_doo_and_the_witch's_ghost": 8,
+    "scooby_doo_series": 57,
     "scott_pilgrim_takes_off": 167,
     "scrapped_princess": 37,
     "screencap": 101,
@@ -14190,6 +14289,7 @@
     "shakunetsu_no_takkyu_musume": 68,
     "shaman_king_(2021)": 39,
     "shaman_king_flowers": 8,
+    "shaman_king_series": 106,
     "shamus_culhane": 50,
     "shangri-la_frontier": 248,
     "sherlock_hound": 95,
@@ -14428,6 +14528,7 @@
     "sugar_sugar_rune_series": 19,
     "sugata_sanshiro": 15,
     "suicide_squad_isekai": 153,
+    "suikoden_series": 14,
     "suisei_no_gargantia": 62,
     "suite_precure": 82,
     "sukeban_deka": 12,
@@ -14439,6 +14540,7 @@
     "summer_time_rendering": 77,
     "summer_wars": 85,
     "summon_night_4": 6,
+    "summon_night_series": 34,
     "sunghoo_park": 243,
     "super_cub": 8,
     "super_doll_licca-chan": 7,
@@ -14520,6 +14622,7 @@
     "tales_of_luminaria": 22,
     "tales_of_phantasia": 24,
     "tales_of_rebirth": 6,
+    "tales_of_series": 658,
     "tales_of_symphonia": 89,
     "tales_of_symphonia:_dawn_of_the_new_world": 9,
     "tales_of_symphonia_the_animation": 68,
@@ -14657,10 +14760,12 @@
     "the_humpbacked_horse_(1947)": 50,
     "the_idolm@ster_cinderella_girls": 88,
     "the_idolm@ster_cinderella_girls_u149": 47,
+    "the_idolm@ster_series": 363,
     "the_idolmaster_cinderella_girls": 249,
     "the_idolmaster_cinderella_girls_u149": 268,
     "the_idolmaster_gakuen": 65,
     "the_idolmaster_million_live": 48,
+    "the_idolmaster_series": 1031,
     "the_idolmaster_shiny_festa": 33,
     "the_idolmaster_sidem": 32,
     "the_imaginary": 78,
@@ -14931,6 +15036,7 @@
     "uma_musume_cinderella_gray": 85,
     "uma_musume_pretty_derby": 146,
     "uma_musume_pretty_derby_series": 360,
+    "uma_musume_series": 439,
     "umi_ga_kikoeru": 31,
     "umi_monogatari": 48,
     "umineko_no_naku_koro_ni": 30,
@@ -15011,6 +15117,7 @@
     "who_framed_roger_rabbit": 47,
     "wild_7": 13,
     "wild_arms_3": 8,
+    "wild_arms_series": 33,
     "wild_knights_gulkeeva": 29,
     "will_finn": 18,
     "willard_bowsky": 16,
@@ -15154,6 +15261,7 @@
     "yozakura-san_chi_no_daisakusen": 78,
     "yozakura_quartet": 276,
     "ys_i": 14,
+    "ys_series": 39,
     "yu-gi-oh!": 906,
     "yu-gi-oh!_(1998)": 7,
     "yu-gi-oh!_5d's": 122,
@@ -15485,6 +15593,6 @@
       "ja": "風"
     }
   },
-  "updated": "2026-10-16",
+  "updated": "2026-10-23",
   "v": 1
 }
