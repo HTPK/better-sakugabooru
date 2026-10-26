@@ -1,10 +1,244 @@
 {
+  ".hack_series": {
+    "ja": ".hack シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q159851",
+    "type": "copyright"
+  },
+  "101_dalmatians": {
+    "ja": "101匹わんちゃん",
+    "needs_review": false,
+    "src": "wikidata:Q165512",
+    "type": "copyright"
+  },
+  "aa!_megami-sama!_series": {
+    "ja": "ああっ女神さまっ",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "ace_attorney_(series)": {
+    "ja": "逆転裁判",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "ace_wo_nerae!_series": {
+    "ja": "エースをねらえ!",
+    "needs_review": false,
+    "src": "wikidata:Q135215781",
+    "type": "copyright"
+  },
+  "ai_mai_mi": {
+    "ja": "ちょぼらうにょぽみ劇場 あいまいみー",
+    "needs_review": false,
+    "src": "wikidata:Q89895959",
+    "type": "copyright"
+  },
+  "aikatsu!": {
+    "ja": "アイカツ!",
+    "needs_review": false,
+    "src": "wikidata:Q113674971",
+    "type": "copyright"
+  },
+  "air": {
+    "ja": "AIR",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "air_series": {
+    "ja": "AIR シリーズ",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "akira": {
+    "ja": "AKIRA",
+    "needs_review": false,
+    "src": "wikidata:Q1905968",
+    "type": "copyright"
+  },
+  "aladdin": {
+    "ja": "アラジン",
+    "needs_review": false,
+    "src": "wikidata:Q215518",
+    "type": "copyright"
+  },
+  "aladdin_series": {
+    "ja": "アラジン シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q15731902",
+    "type": "copyright"
+  },
+  "alchemy_stars_(game)": {
+    "ja": "白夜極光",
+    "needs_review": false,
+    "src": "wikidata:Q107359935",
+    "type": "copyright"
+  },
+  "alice_in_wonderland": {
+    "ja": "ふしぎの国のアリス",
+    "needs_review": false,
+    "src": "wikidata:Q189875",
+    "type": "copyright"
+  },
   "all_out!!": {
     "count": 0,
     "ja": "ALL OUT!!",
     "kana": "おーるあうと",
     "needs_review": false,
     "src": "manual",
+    "type": "copyright"
+  },
+  "alvin_and_the_chipmunks": {
+    "ja": "アルビンとチップマンクス",
+    "needs_review": false,
+    "src": "wikidata:Q917295",
+    "type": "copyright"
+  },
+  "amagami_series": {
+    "ja": "アマガミ シリーズ",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "amnesia": {
+    "ja": "AMNESIA",
+    "needs_review": false,
+    "src": "wikidata:Q107502280",
+    "type": "copyright"
+  },
+  "amphibia": {
+    "ja": "ふしぎの国 アンフィビア",
+    "needs_review": false,
+    "src": "wikidata:Q55603855",
+    "type": "copyright"
+  },
+  "anastasia": {
+    "ja": "アナスタシア",
+    "needs_review": false,
+    "src": "wikidata:Q486609",
+    "type": "copyright"
+  },
+  "angel's_egg": {
+    "ja": "天使のたまご",
+    "needs_review": false,
+    "src": "wikidata:Q1754057",
+    "type": "copyright"
+  },
+  "angel_blade": {
+    "ja": "エンジェルブレイド",
+    "needs_review": false,
+    "src": "wikidata:Q3616717",
+    "type": "copyright"
+  },
+  "angelic_layer": {
+    "ja": "機動天使エンジェリックレイヤー",
+    "needs_review": false,
+    "src": "wikidata:Q107095871",
+    "type": "copyright"
+  },
+  "animaniacs": {
+    "ja": "アニマニアックス",
+    "needs_review": false,
+    "src": "wikidata:Q547744",
+    "type": "copyright"
+  },
+  "animaniacs_(1993)": {
+    "ja": "アニマニアックス (1993)",
+    "needs_review": false,
+    "src": "wikidata:Q547744",
+    "type": "copyright"
+  },
+  "animaniacs_(2020)": {
+    "ja": "アニマニアックス (2020)",
+    "needs_review": false,
+    "src": "wikidata:Q97327699",
+    "type": "copyright"
+  },
+  "animator_vs._animation_series": {
+    "ja": "アニメーターvsアニメーション シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q68947207",
+    "type": "copyright"
+  },
+  "anne_of_green_gables": {
+    "ja": "赤毛のアン",
+    "needs_review": false,
+    "src": "wikidata:Q514043",
+    "type": "copyright"
+  },
+  "anne_of_green_gables_series": {
+    "ja": "赤毛のアン シリーズ",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "ao_no_exorcist": {
+    "ja": "青の祓魔師",
+    "needs_review": false,
+    "src": "wikidata:Q131749035",
+    "type": "copyright"
+  },
+  "ao_no_exorcist_series": {
+    "ja": "青の祓魔師 シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q131749035",
+    "type": "copyright"
+  },
+  "aoki_ryusei_spt_layzner_(ova)": {
+    "ja": "蒼き流星SPTレイズナー (OVA)",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "aoki_ryusei_spt_layzner_(tv)": {
+    "ja": "蒼き流星SPTレイズナー (TV)",
+    "needs_review": false,
+    "src": "wikidata:Q2453763",
+    "type": "copyright"
+  },
+  "arcane": {
+    "ja": "アーケイン",
+    "needs_review": false,
+    "src": "wikidata:Q85518571",
+    "type": "copyright"
+  },
+  "archenemy": {
+    "ja": "ミュータント：マックス",
+    "needs_review": false,
+    "src": "wikidata:Q97609936",
+    "type": "copyright"
+  },
+  "arco": {
+    "ja": "ARCO/アルコ",
+    "needs_review": false,
+    "src": "wikidata:Q134571218",
+    "type": "copyright"
+  },
+  "aria_series": {
+    "ja": "ARIA シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q112624440",
+    "type": "copyright"
+  },
+  "ariel": {
+    "ja": "ARIEL",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "arknights_tv_series": {
+    "ja": "アークナイツ シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q114565614",
+    "type": "copyright"
+  },
+  "arslan_senki_(ova)": {
+    "ja": "アルスラーン戦記 (OVA)",
+    "needs_review": false,
+    "src": "wikidata:Q106549482",
     "type": "copyright"
   },
   "artist_unknown": {
@@ -14,6 +248,30 @@
     "src": "manual",
     "type": "artist"
   },
+  "aru_majo_ga_shinu_made": {
+    "ja": "ある魔女が死ぬまで",
+    "needs_review": false,
+    "src": "wikidata:Q126923268",
+    "type": "copyright"
+  },
+  "assassination_classroom": {
+    "ja": "暗殺教室",
+    "needs_review": false,
+    "src": "wikidata:Q50376961",
+    "type": "copyright"
+  },
+  "assassination_classroom_series": {
+    "ja": "暗殺教室 シリーズ",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "atelier_series": {
+    "ja": "アトリエシリーズ",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
   "atsushi_ikariya": {
     "count": 0,
     "ja": "碇谷敦",
@@ -21,6 +279,660 @@
     "needs_review": false,
     "src": "manual",
     "type": "artist"
+  },
+  "avatar:_the_last_airbender": {
+    "ja": "アバター 伝説の少年アン",
+    "needs_review": false,
+    "src": "wikidata:Q11572",
+    "type": "copyright"
+  },
+  "avatar_series": {
+    "ja": "アバター 伝説の少年アン シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q60518601",
+    "type": "copyright"
+  },
+  "azumanga_daioh": {
+    "ja": "あずまんが大王",
+    "needs_review": false,
+    "src": "wikidata:Q80873",
+    "type": "copyright"
+  },
+  "azur_lane_(tv)": {
+    "ja": "アズールレーン (TV)",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "b-daman_series": {
+    "ja": "ビーダマンシリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q795055",
+    "type": "copyright"
+  },
+  "b:_the_beginning_series": {
+    "ja": "B: The Beginning シリーズ",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "baby_steps": {
+    "ja": "ベイビーステップ",
+    "needs_review": false,
+    "src": "wikidata:Q106581652",
+    "type": "copyright"
+  },
+  "babylon": {
+    "ja": "バビロン",
+    "needs_review": false,
+    "src": "wikidata:Q102109929",
+    "type": "copyright"
+  },
+  "bakemonogatari": {
+    "ja": "化物語",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "baki-dou": {
+    "ja": "刃牙道",
+    "needs_review": false,
+    "src": "wikidata:Q140167204",
+    "type": "copyright"
+  },
+  "bakugan_series": {
+    "ja": "爆丸 シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q54888985",
+    "type": "copyright"
+  },
+  "bakusou_kyoudai_lets_and_go_series": {
+    "ja": "爆走兄弟レッツ&ゴー!! シリーズ",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "bakuten_shoot_beyblade_(2002)": {
+    "ja": "爆転シュート ベイブレード2002",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "bambi": {
+    "ja": "バンビ",
+    "needs_review": false,
+    "src": "wikidata:Q43051",
+    "type": "copyright"
+  },
+  "basara_series": {
+    "ja": "戦国BASARA シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q17048665",
+    "type": "copyright"
+  },
+  "bastard": {
+    "ja": "BASTARD!! -暗黒の破壊神-",
+    "needs_review": false,
+    "src": "wikidata:Q60438581",
+    "type": "copyright"
+  },
+  "bastard!!:ankoku_no_hakaishin_series": {
+    "ja": "BASTARD!! -暗黒の破壊神- シリーズ",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "batman": {
+    "ja": "バットマン",
+    "needs_review": false,
+    "src": "wikidata:Q4869422",
+    "type": "copyright"
+  },
+  "batman:_the_animated_series": {
+    "ja": "バットマン シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q673517",
+    "type": "copyright"
+  },
+  "battery": {
+    "ja": "バッテリー",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "battle_arena_toshinden": {
+    "ja": "闘神伝",
+    "needs_review": false,
+    "src": "wikidata:Q810984",
+    "type": "copyright"
+  },
+  "battleborn": {
+    "ja": "バトルボーン",
+    "needs_review": false,
+    "src": "wikidata:Q20189954",
+    "type": "copyright"
+  },
+  "be-bop_highschool": {
+    "ja": "ビー・バップ・ハイスクール",
+    "needs_review": false,
+    "src": "wikidata:Q812788",
+    "type": "copyright"
+  },
+  "beastars_series": {
+    "ja": "BEASTARS シリーズ",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "beauty_and_the_beast": {
+    "ja": "美女と野獣",
+    "needs_review": false,
+    "src": "wikidata:Q179673",
+    "type": "copyright"
+  },
+  "beetlejuice:_the_animated_series": {
+    "ja": "ビートルジュース シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q782351",
+    "type": "copyright"
+  },
+  "ben_10": {
+    "ja": "ベン10",
+    "needs_review": false,
+    "src": "wikidata:Q207746",
+    "type": "copyright"
+  },
+  "berserk": {
+    "ja": "ベルセルク",
+    "needs_review": false,
+    "src": "wikidata:Q162234",
+    "type": "copyright"
+  },
+  "beyond": {
+    "ja": "ビヨンド",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "billposters": {
+    "ja": "ドナルドとヤギ",
+    "needs_review": false,
+    "src": "wikidata:Q2983024",
+    "type": "copyright"
+  },
+  "binan_koukou_chikyuu_bouei_bu_series": {
+    "ja": "美男高校地球防衛部 シリーズ",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "birth": {
+    "ja": "BIRTH",
+    "needs_review": false,
+    "src": "wikidata:Q4916994",
+    "type": "copyright"
+  },
+  "black_bullet": {
+    "ja": "ブラック・ブレット",
+    "needs_review": false,
+    "src": "wikidata:Q15051479",
+    "type": "copyright"
+  },
+  "black_cat": {
+    "ja": "BLACK CAT",
+    "needs_review": false,
+    "src": "wikidata:Q120357178",
+    "type": "copyright"
+  },
+  "black_jack": {
+    "ja": "ブラック・ジャック",
+    "needs_review": false,
+    "src": "wikidata:Q11072751",
+    "type": "copyright"
+  },
+  "black_rock_shooter_(tv)": {
+    "ja": "ブラック★ロックシューター (TV)",
+    "needs_review": false,
+    "src": "wikidata:Q112152955",
+    "type": "copyright"
+  },
+  "blade_(2011_anime)": {
+    "ja": "ブレイド",
+    "needs_review": false,
+    "src": "wikidata:Q10896756",
+    "type": "copyright"
+  },
+  "blade_of_the_immortal_(2019)": {
+    "ja": "無限の住人-IMMORTAL-",
+    "needs_review": false,
+    "src": "wikidata:Q85747664",
+    "type": "copyright"
+  },
+  "blood:_the_last_vampire": {
+    "ja": "BLOOD THE LAST VAMPIRE",
+    "needs_review": false,
+    "src": "wikidata:Q885189",
+    "type": "copyright"
+  },
+  "blood_series": {
+    "ja": "BLOOD シリーズ",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "blue_archive_(game)": {
+    "ja": "ブルーアーカイブ",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "blue_dragon": {
+    "ja": "BLUE DRAGON",
+    "needs_review": false,
+    "src": "wikidata:Q2408681",
+    "type": "copyright"
+  },
+  "bofuri_series": {
+    "ja": "痛いのは嫌なので防御力に極振りしたいと思います。",
+    "needs_review": false,
+    "src": "wikidata:Q91320001",
+    "type": "copyright"
+  },
+  "boku_no_son_goku": {
+    "ja": "ぼくの孫悟空",
+    "needs_review": false,
+    "src": "wikidata:Q11277968",
+    "type": "copyright"
+  },
+  "boku_wa_tomodachi_ga_sukunai": {
+    "ja": "僕は友達が少ない",
+    "needs_review": false,
+    "src": "wikidata:Q106562462",
+    "type": "copyright"
+  },
+  "bokurano_(mv)": {
+    "ja": "ぼくらの (MV)",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "bomberman": {
+    "ja": "ボンバーマン",
+    "needs_review": false,
+    "src": "wikidata:Q28464434",
+    "type": "copyright"
+  },
+  "bonkers": {
+    "ja": "ボンカーズ",
+    "needs_review": false,
+    "src": "wikidata:Q581369",
+    "type": "copyright"
+  },
+  "boogiepop_series": {
+    "ja": "ブギーポップシリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q124515011",
+    "type": "copyright"
+  },
+  "bouken_ou_beet_(jump_festa_pv)": {
+    "ja": "冒険王ビィト (PV)",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "brave_series": {
+    "ja": "勇者シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q910783",
+    "type": "copyright"
+  },
+  "brave_story": {
+    "ja": "ブレイブ ストーリー",
+    "needs_review": false,
+    "src": "wikidata:Q105096623",
+    "type": "copyright"
+  },
+  "brawlhalla": {
+    "ja": "Brawlhalla",
+    "needs_review": false,
+    "src": "wikidata:Q22262001",
+    "type": "copyright"
+  },
+  "break_blade_(tv)": {
+    "ja": "ブレイク ブレイド (TV)",
+    "needs_review": false,
+    "src": "wikidata:Q141514898",
+    "type": "copyright"
+  },
+  "breakers": {
+    "ja": "ブレーカーズ",
+    "needs_review": false,
+    "src": "wikidata:Q85873464",
+    "type": "copyright"
+  },
+  "brigadoon": {
+    "ja": "BRIGADOON まりんとメラン",
+    "needs_review": false,
+    "src": "wikidata:Q2487170",
+    "type": "copyright"
+  },
+  "bubble": {
+    "ja": "バブル",
+    "needs_review": false,
+    "src": "wikidata:Q109965531",
+    "type": "copyright"
+  },
+  "caligula": {
+    "ja": "Caligula -カリギュラ-",
+    "needs_review": false,
+    "src": "wikidata:Q48964751",
+    "type": "copyright"
+  },
+  "castlevania": {
+    "ja": "悪魔城ドラキュラ -キャッスルヴァニア-",
+    "needs_review": false,
+    "src": "wikidata:Q30610085",
+    "type": "copyright"
+  },
+  "cat_soup": {
+    "ja": "ねこぢる草",
+    "needs_review": false,
+    "src": "wikidata:Q2629677",
+    "type": "copyright"
+  },
+  "catherine_(game)": {
+    "ja": "キャサリン",
+    "needs_review": false,
+    "src": "wikidata:Q277377",
+    "type": "copyright"
+  },
+  "chibi_maruko-chan": {
+    "ja": "ちびまる子ちゃん",
+    "needs_review": false,
+    "src": "wikidata:Q106561023",
+    "type": "copyright"
+  },
+  "chicken_little": {
+    "ja": "チキン・リトル",
+    "needs_review": false,
+    "src": "wikidata:Q270940",
+    "type": "copyright"
+  },
+  "chiikawa": {
+    "ja": "ちいかわ",
+    "needs_review": false,
+    "src": "wikidata:Q116699251",
+    "type": "copyright"
+  },
+  "cinderella": {
+    "ja": "シンデレラ",
+    "needs_review": false,
+    "src": "wikidata:Q191753",
+    "type": "copyright"
+  },
+  "city_hunter": {
+    "ja": "シティーハンター",
+    "needs_review": false,
+    "src": "wikidata:Q3006142",
+    "type": "copyright"
+  },
+  "city_hunter_series": {
+    "ja": "シティーハンター シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q136379166",
+    "type": "copyright"
+  },
+  "clannad": {
+    "ja": "CLANNAD",
+    "needs_review": false,
+    "src": "wikidata:Q123046301",
+    "type": "copyright"
+  },
+  "clannad_series": {
+    "ja": "CLANNAD シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q123046301",
+    "type": "copyright"
+  },
+  "clarence": {
+    "ja": "ぼくはクラレンス!",
+    "needs_review": false,
+    "src": "wikidata:Q15987281",
+    "type": "copyright"
+  },
+  "cleopatra": {
+    "ja": "クレオパトラ",
+    "needs_review": false,
+    "src": "wikidata:Q3200538",
+    "type": "copyright"
+  },
+  "clevatess_series": {
+    "ja": "クレバテス-魔獣の王と赤子と屍の勇者-",
+    "needs_review": false,
+    "src": "wikidata:Q126959847",
+    "type": "copyright"
+  },
+  "clover": {
+    "ja": "CLOVER",
+    "needs_review": false,
+    "src": "wikidata:Q1075674",
+    "type": "copyright"
+  },
+  "cobra_command_(video_game)": {
+    "ja": "サンダーストーム",
+    "needs_review": false,
+    "src": "wikidata:Q2981167",
+    "type": "copyright"
+  },
+  "code_of_joker_(video_game)": {
+    "ja": "CODE OF JOKER",
+    "needs_review": false,
+    "src": "wikidata:Q17219689",
+    "type": "copyright"
+  },
+  "colorful": {
+    "ja": "カラフル",
+    "needs_review": false,
+    "src": "wikidata:Q1368665",
+    "type": "copyright"
+  },
+  "colors_(mv)": {
+    "ja": "COLORs",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "conception": {
+    "ja": "CONCEPTION",
+    "needs_review": false,
+    "src": "wikidata:Q66480979",
+    "type": "copyright"
+  },
+  "connected": {
+    "ja": "ミッチェル家とマシンの反乱",
+    "needs_review": false,
+    "src": "wikidata:Q54021143",
+    "type": "copyright"
+  },
+  "crossroad": {
+    "ja": "クロスロード",
+    "needs_review": false,
+    "src": "wikidata:Q18384133",
+    "type": "copyright"
+  },
+  "crying_freeman": {
+    "ja": "クライング フリーマン",
+    "needs_review": false,
+    "src": "wikidata:Q1117884",
+    "type": "copyright"
+  },
+  "cuphead": {
+    "ja": "Cuphead",
+    "needs_review": false,
+    "src": "wikidata:Q18149495",
+    "type": "copyright"
+  },
+  "cuphead_(video_game)": {
+    "ja": "Cuphead (ゲーム)",
+    "needs_review": false,
+    "src": "wikidata:Q18149495",
+    "type": "copyright"
+  },
+  "cutey_honey_series": {
+    "ja": "キューティーハニー シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q1077402",
+    "type": "copyright"
+  },
+  "cyborg_009_(2001)": {
+    "ja": "サイボーグ009 THE CYBORG SOLDIER",
+    "needs_review": false,
+    "src": "wikidata:Q107102611",
+    "type": "copyright"
+  },
+  "dancougar_series": {
+    "ja": "ダンクーガ シリーズ",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "dandelion": {
+    "ja": "だんでらいおん",
+    "needs_review": false,
+    "src": "wikidata:Q138498505",
+    "type": "copyright"
+  },
+  "darker_than_black": {
+    "ja": "DARKER THAN BLACK",
+    "needs_review": false,
+    "src": "wikidata:Q16140382",
+    "type": "copyright"
+  },
+  "dead_heat": {
+    "ja": "デッドヒート",
+    "needs_review": false,
+    "src": "wikidata:Q11320637",
+    "type": "copyright"
+  },
+  "death_note": {
+    "ja": "DEATH NOTE",
+    "needs_review": false,
+    "src": "wikidata:Q718624",
+    "type": "copyright"
+  },
+  "desire": {
+    "ja": "DESIRE",
+    "needs_review": false,
+    "src": "wikidata:Q11195760",
+    "type": "copyright"
+  },
+  "devil_may_cry": {
+    "ja": "Devil May Cry",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "devilman_(1972)": {
+    "ja": "デビルマン (1972)",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "devilman_(1987)": {
+    "ja": "デビルマン 誕生編",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "digimon": {
+    "ja": "デジモン",
+    "needs_review": false,
+    "src": "wikidata:Q140799529",
+    "type": "copyright"
+  },
+  "digimon_adventure": {
+    "ja": "デジモンアドベンチャー",
+    "needs_review": false,
+    "src": "wikidata:Q689114",
+    "type": "copyright"
+  },
+  "dinosaur_king": {
+    "ja": "古代王者 恐竜キング Dキッズ・アドベンチャー",
+    "needs_review": false,
+    "src": "wikidata:Q17221338",
+    "type": "copyright"
+  },
+  "dirty_pair:_project_eden": {
+    "ja": "劇場版ダーティペア",
+    "needs_review": false,
+    "src": "wikidata:Q3013259",
+    "type": "copyright"
+  },
+  "dirty_pair_(tv)": {
+    "ja": "ダーティペア (TV)",
+    "needs_review": false,
+    "src": "wikidata:Q20874770",
+    "type": "copyright"
+  },
+  "disgaea_series": {
+    "ja": "魔界戦記ディスガイアシリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q5102631",
+    "type": "copyright"
+  },
+  "do_it_yourself": {
+    "ja": "Do It Yourself!! -どぅー・いっと・ゆあせるふ-",
+    "needs_review": false,
+    "src": "wikidata:Q106189045",
+    "type": "copyright"
+  },
+  "dobutsu_no_mori": {
+    "ja": "劇場版 どうぶつの森",
+    "needs_review": false,
+    "src": "wikidata:Q967090",
+    "type": "copyright"
+  },
+  "dog_days": {
+    "ja": "DOG DAYS",
+    "needs_review": false,
+    "src": "wikidata:Q482865",
+    "type": "copyright"
+  },
+  "dogs": {
+    "ja": "DOGS",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "dokkan_battle_(video_game)": {
+    "ja": "ドラゴンボールZ ドッカンバトル",
+    "needs_review": false,
+    "src": "wikidata:Q28224681",
+    "type": "copyright"
+  },
+  "dokkoida": {
+    "ja": "住めば都のコスモス荘 すっとこ大戦ドッコイダー",
+    "needs_review": false,
+    "src": "wikidata:Q134464071",
+    "type": "copyright"
+  },
+  "dokyuusei_series": {
+    "ja": "同級生 シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q1059405",
+    "type": "copyright"
+  },
+  "dororo": {
+    "ja": "どろろ",
+    "needs_review": false,
+    "src": "wikidata:Q250526",
+    "type": "copyright"
+  },
+  "dr_slump": {
+    "ja": "Dr.スランプ",
+    "needs_review": false,
+    "src": "wikidata:Q18008936",
+    "type": "copyright"
   },
   "dragon_ball": {
     "count": 0,
@@ -38,6 +950,72 @@
     "src": "manual",
     "type": "copyright"
   },
+  "dragon_ball_z": {
+    "ja": "ドラゴンボールZ",
+    "needs_review": false,
+    "src": "wikidata:Q477916",
+    "type": "copyright"
+  },
+  "ducktales": {
+    "ja": "わんぱくダック夢冒険",
+    "needs_review": false,
+    "src": "wikidata:Q214107",
+    "type": "copyright"
+  },
+  "ducktales_(1987)": {
+    "ja": "わんぱくダック夢冒険 (1987)",
+    "needs_review": false,
+    "src": "wikidata:Q214107",
+    "type": "copyright"
+  },
+  "duel_masters_(2017)": {
+    "ja": "デュエル・マスターズ (2017)",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "duel_masters_(2017)_series": {
+    "ja": "デュエル・マスターズ (2017) シリーズ",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "duel_masters_king_series": {
+    "ja": "デュエル・マスターズ キング シリーズ",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "duel_masters_lost_series": {
+    "ja": "Duel Masters LOST シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q137322938",
+    "type": "copyright"
+  },
+  "duel_masters_win_series": {
+    "ja": "デュエル・マスターズWIN シリーズ",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "dumbo": {
+    "ja": "ダンボ",
+    "needs_review": false,
+    "src": "wikidata:Q40895",
+    "type": "copyright"
+  },
+  "dungeon_ni_deai_o_motomeru_no_wa_machigatte_iru_darouka_series": {
+    "ja": "ダンジョンに出会いを求めるのは間違っているだろうか シリーズ",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "ehrgeiz": {
+    "ja": "ネクスト戦記EHRGEIZ",
+    "needs_review": false,
+    "src": "wikidata:Q5018393",
+    "type": "copyright"
+  },
   "eiji_komatsu": {
     "count": 0,
     "ja": "小松英司",
@@ -46,12 +1024,642 @@
     "src": "manual",
     "type": "artist"
   },
+  "eldoran_series": {
+    "ja": "エルドランシリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q848936",
+    "type": "copyright"
+  },
+  "elsword": {
+    "ja": "エルソード",
+    "needs_review": false,
+    "src": "wikidata:Q486189",
+    "type": "copyright"
+  },
+  "emma:_a_victorian_romance": {
+    "ja": "英國戀物語エマ",
+    "needs_review": false,
+    "src": "wikidata:Q106597679",
+    "type": "copyright"
+  },
+  "emma:_a_victorian_romance_series": {
+    "ja": "英國戀物語エマ シリーズ",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "encanto": {
+    "ja": "ミラベルと魔法だらけの家",
+    "needs_review": false,
+    "src": "wikidata:Q103372692",
+    "type": "copyright"
+  },
+  "enchanted": {
+    "ja": "魔法にかけられて",
+    "needs_review": false,
+    "src": "wikidata:Q490464",
+    "type": "copyright"
+  },
+  "ensemble_stars!": {
+    "ja": "あんさんぶるスターズ!",
+    "needs_review": false,
+    "src": "wikidata:Q140056987",
+    "type": "copyright"
+  },
+  "escaflowne_(movie)": {
+    "ja": "エスカフローネ",
+    "needs_review": false,
+    "src": "wikidata:Q2303163",
+    "type": "copyright"
+  },
+  "eureka_seven_series": {
+    "ja": "エウレカセブン シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q11289673",
+    "type": "copyright"
+  },
+  "excel_saga": {
+    "ja": "へっぽこ実験アニメーション エクセル♥サーガ",
+    "needs_review": false,
+    "src": "wikidata:Q141490753",
+    "type": "copyright"
+  },
+  "exodus": {
+    "ja": "エクソダス!",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "fairy_tail": {
+    "ja": "FAIRY TAIL",
+    "needs_review": false,
+    "src": "wikidata:Q16510277",
+    "type": "copyright"
+  },
+  "fairy_tail:_100_years_quest": {
+    "ja": "FAIRY TAIL 100年クエスト",
+    "needs_review": false,
+    "src": "wikidata:Q124817637",
+    "type": "copyright"
+  },
+  "fantasia": {
+    "ja": "ファンタジア",
+    "needs_review": false,
+    "src": "wikidata:Q943192",
+    "type": "copyright"
+  },
+  "fantasia_series": {
+    "ja": "ファンタジア シリーズ",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "farmagia": {
+    "ja": "FARMAGIA",
+    "needs_review": false,
+    "src": "wikidata:Q126743833",
+    "type": "copyright"
+  },
+  "fate/grand_order_(game)": {
+    "ja": "Fate/Grand Order (ゲーム)",
+    "needs_review": false,
+    "src": "wikidata:Q18339082",
+    "type": "copyright"
+  },
+  "fate/stay_night_unlimited_blade_works_(2014)": {
+    "ja": "Fate/stay night [Unlimited Blade Works]",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "final_fantasy": {
+    "ja": "ファイナルファンタジー",
+    "needs_review": false,
+    "src": "wikidata:Q12391356",
+    "type": "copyright"
+  },
+  "fire_emblem": {
+    "ja": "ファイアーエムブレム",
+    "needs_review": false,
+    "src": "wikidata:Q134005203",
+    "type": "copyright"
+  },
+  "fire_emblem_series": {
+    "ja": "ファイアーエムブレムシリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q1768977",
+    "type": "copyright"
+  },
+  "flee": {
+    "ja": "FLEE フリー",
+    "needs_review": false,
+    "src": "wikidata:Q76450209",
+    "type": "copyright"
+  },
+  "fullmetal_alchemist_2:_curse_of_the_crimson_elixir_(video_game)": {
+    "ja": "鋼の錬金術師2 赤きエリクシルの悪魔",
+    "needs_review": false,
+    "src": "wikidata:Q2633480",
+    "type": "copyright"
+  },
+  "galaxy_express_999_(tv)": {
+    "ja": "銀河鉄道999",
+    "needs_review": false,
+    "src": "wikidata:Q3094550",
+    "type": "copyright"
+  },
+  "galaxy_express_999_series": {
+    "ja": "銀河鉄道999",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "gargoyles": {
+    "ja": "ガーゴイルズ",
+    "needs_review": false,
+    "src": "wikidata:Q937172",
+    "type": "copyright"
+  },
+  "garo_series": {
+    "ja": "牙狼〈GARO〉シリーズ",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "gatchaman_series": {
+    "ja": "ガッチャマンシリーズ",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "gate": {
+    "ja": "GATE 自衛隊 彼の地にて、斯く戦えり",
+    "needs_review": false,
+    "src": "wikidata:Q125699331",
+    "type": "copyright"
+  },
+  "ghost_in_the_shell": {
+    "ja": "GHOST IN THE SHELL / 攻殻機動隊",
+    "needs_review": false,
+    "src": "wikidata:Q1066948",
+    "type": "copyright"
+  },
+  "ghost_slayers_ayashi_(ova)": {
+    "ja": "天保異聞 妖奇士 (OVA)",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "ghost_sweeper_mikami": {
+    "ja": "GS美神",
+    "needs_review": false,
+    "src": "wikidata:Q107093148",
+    "type": "copyright"
+  },
+  "giantland": {
+    "ja": "ミッキーの巨人征服",
+    "needs_review": false,
+    "src": "wikidata:Q3105316",
+    "type": "copyright"
+  },
+  "ginga_hyoryu_vifam_(tv)": {
+    "ja": "銀河漂流バイファム (TV)",
+    "needs_review": false,
+    "src": "wikidata:Q1073326",
+    "type": "copyright"
+  },
+  "gnosia": {
+    "ja": "グノーシア",
+    "needs_review": false,
+    "src": "wikidata:Q131367609",
+    "type": "copyright"
+  },
+  "gochiusa_series": {
+    "ja": "ご注文はうさぎですか?",
+    "needs_review": false,
+    "src": "wikidata:Q100471038",
+    "type": "copyright"
+  },
+  "god_eater": {
+    "ja": "GOD EATER",
+    "needs_review": false,
+    "src": "wikidata:Q21705946",
+    "type": "copyright"
+  },
+  "godzilla": {
+    "ja": "ゴジラ",
+    "needs_review": false,
+    "src": "wikidata:Q28859760",
+    "type": "copyright"
+  },
+  "golden_boy": {
+    "ja": "GOLDEN BOY",
+    "needs_review": false,
+    "src": "wikidata:Q135684110",
+    "type": "copyright"
+  },
+  "gotcha!": {
+    "ja": "GOTCHA!",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "greed": {
+    "ja": "GREED",
+    "needs_review": false,
+    "src": "wikidata:Q11201860",
+    "type": "copyright"
+  },
+  "grisaia_series": {
+    "ja": "グリザイアシリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q5362695",
+    "type": "copyright"
+  },
+  "growlanser_series": {
+    "ja": "グローランサーシリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q5611687",
+    "type": "copyright"
+  },
+  "gu_gu_ganmo_(movie)": {
+    "ja": "Gu-Guガンモ (映画)",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "guardian_tales_(game)": {
+    "ja": "ガーディアンテイルズ",
+    "needs_review": false,
+    "src": "wikidata:Q103474572",
+    "type": "copyright"
+  },
+  "gumball_series": {
+    "ja": "おかしなガムボール",
+    "needs_review": false,
+    "src": "wikidata:Q906186",
+    "type": "copyright"
+  },
   "gundam": {
     "count": 0,
     "ja": "ガンダム",
     "kana": "がんだむ",
     "needs_review": false,
     "src": "manual",
+    "type": "copyright"
+  },
+  "gundam_build_series": {
+    "ja": "ガンダムビルドシリーズ",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "guskou_budori_no_denki_(1994)": {
+    "ja": "グスコーブドリの伝記",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "guyver": {
+    "ja": "強殖装甲ガイバー",
+    "needs_review": false,
+    "src": "wikidata:Q2632121",
+    "type": "copyright"
+  },
+  "hades_(video_game)_series": {
+    "ja": "HADES シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q123017175",
+    "type": "copyright"
+  },
+  "haifuri": {
+    "ja": "ハイスクール・フリート",
+    "needs_review": false,
+    "src": "wikidata:Q21682689",
+    "type": "copyright"
+  },
+  "hakuoki": {
+    "ja": "薄桜鬼",
+    "needs_review": false,
+    "src": "wikidata:Q115775247",
+    "type": "copyright"
+  },
+  "hamefura_series": {
+    "ja": "乙女ゲームの破滅フラグしかない悪役令嬢に転生してしまった…",
+    "needs_review": false,
+    "src": "wikidata:Q90911783",
+    "type": "copyright"
+  },
+  "hana_yori_dango": {
+    "ja": "花より男子",
+    "needs_review": false,
+    "src": "wikidata:Q20669175",
+    "type": "copyright"
+  },
+  "haruhi_suzumiya_series": {
+    "ja": "涼宮ハルヒシリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q498992",
+    "type": "copyright"
+  },
+  "heavy_metal_l-gaim_(tv)": {
+    "ja": "重戦機エルガイム (TV)",
+    "needs_review": false,
+    "src": "wikidata:Q945754",
+    "type": "copyright"
+  },
+  "hen_semi_(ova)": {
+    "ja": "変ゼミ (OVA)",
+    "needs_review": false,
+    "src": "wikidata:Q141514719",
+    "type": "copyright"
+  },
+  "hercules": {
+    "ja": "ヘラクレス",
+    "needs_review": false,
+    "src": "wikidata:Q271189",
+    "type": "copyright"
+  },
+  "hi-fi_rush_(video_game)": {
+    "ja": "Hi-Fi RUSH",
+    "needs_review": false,
+    "src": "wikidata:Q116439515",
+    "type": "copyright"
+  },
+  "hi_no_tori_series": {
+    "ja": "火の鳥",
+    "needs_review": false,
+    "src": "wikidata:Q1321785",
+    "type": "copyright"
+  },
+  "highschool_dxd_series": {
+    "ja": "ハイスクールD×D シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q124514325",
+    "type": "copyright"
+  },
+  "higurashi_no_naku_koro_ni_gou": {
+    "ja": "ひぐらしのなく頃に業",
+    "needs_review": false,
+    "src": "wikidata:Q98795185",
+    "type": "copyright"
+  },
+  "himitsu_no_akko-chan_series": {
+    "ja": "ひみつのアッコちゃん",
+    "needs_review": false,
+    "src": "wikidata:Q123334196",
+    "type": "copyright"
+  },
+  "his_and_her_circumstances": {
+    "ja": "彼氏彼女の事情",
+    "needs_review": false,
+    "src": "wikidata:Q99659358",
+    "type": "copyright"
+  },
+  "hitori_no_shita_the_outcast_series": {
+    "ja": "一人之下 the outcast シリーズ",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "horimiya": {
+    "ja": "ホリミヤ",
+    "needs_review": false,
+    "src": "wikidata:Q104815263",
+    "type": "copyright"
+  },
+  "horimiya_(ova)": {
+    "ja": "堀さんと宮村くん",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "horimiya_series": {
+    "ja": "ホリミヤ シリーズ",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "hypinosis_microphone_series": {
+    "ja": "ヒプノシスマイク シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q55280347",
+    "type": "copyright"
+  },
+  "i''s_series": {
+    "ja": "I\"s シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q108086016",
+    "type": "copyright"
+  },
+  "iczer_series": {
+    "ja": "イクサーシリーズ",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "idol_(mv)": {
+    "ja": "アイドル",
+    "needs_review": false,
+    "src": "wikidata:Q117462019",
+    "type": "copyright"
+  },
+  "idoly_pride": {
+    "ja": "IDOLY PRIDE",
+    "needs_review": false,
+    "src": "wikidata:Q85865679",
+    "type": "copyright"
+  },
+  "ika_musume_series": {
+    "ja": "侵略!イカ娘 シリーズ",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "ikkyu-san": {
+    "ja": "一休さん",
+    "needs_review": false,
+    "src": "wikidata:Q708513",
+    "type": "copyright"
+  },
+  "inazuma_eleven": {
+    "ja": "イナズマイレブン",
+    "needs_review": false,
+    "src": "wikidata:Q102283726",
+    "type": "copyright"
+  },
+  "inazuma_eleven_(movie)": {
+    "ja": "劇場版イナズマイレブン 最強軍団オーガ襲来",
+    "needs_review": false,
+    "src": "wikidata:Q1185615",
+    "type": "copyright"
+  },
+  "inazuma_eleven_go_(movie)": {
+    "ja": "劇場版イナズマイレブンGO 究極の絆 グリフォン",
+    "needs_review": false,
+    "src": "wikidata:Q1059633",
+    "type": "copyright"
+  },
+  "indivisible": {
+    "ja": "インディヴィジブル 闇を祓う魂たち",
+    "needs_review": false,
+    "src": "wikidata:Q21450518",
+    "type": "copyright"
+  },
+  "infinite_stratos": {
+    "ja": "IS〈インフィニット・ストラトス〉",
+    "needs_review": false,
+    "src": "wikidata:Q106554273",
+    "type": "copyright"
+  },
+  "injuu_seisen_series": {
+    "ja": "淫獣聖戦シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q5224997",
+    "type": "copyright"
+  },
+  "inspector_gadget": {
+    "ja": "ガジェット警部",
+    "needs_review": false,
+    "src": "wikidata:Q664840",
+    "type": "copyright"
+  },
+  "inuyasha_(tv)": {
+    "ja": "犬夜叉 (TV)",
+    "needs_review": false,
+    "src": "wikidata:Q21587460",
+    "type": "copyright"
+  },
+  "invincible": {
+    "ja": "インビンシブル ～無敵のヒーロー～",
+    "needs_review": false,
+    "src": "wikidata:Q55614601",
+    "type": "copyright"
+  },
+  "invisible": {
+    "ja": "透明人間",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "iron_man": {
+    "ja": "アイアンマン",
+    "needs_review": false,
+    "src": "wikidata:Q3802095",
+    "type": "copyright"
+  },
+  "isekai_nonbiri_nouka_series": {
+    "ja": "異世界のんびり農家 シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q116753325",
+    "type": "copyright"
+  },
+  "island": {
+    "ja": "ISLAND",
+    "needs_review": false,
+    "src": "wikidata:Q131631118",
+    "type": "copyright"
+  },
+  "japan_sinks_(2020)": {
+    "ja": "日本沈没2020",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "jarinko_chie": {
+    "ja": "じゃりン子チエ",
+    "needs_review": false,
+    "src": "wikidata:Q119308088",
+    "type": "copyright"
+  },
+  "jigoku_sensei_nube_series": {
+    "ja": "地獄先生ぬ〜べ〜 シリーズ",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "jigoku_shoujo_series": {
+    "ja": "地獄少女 シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q753729",
+    "type": "copyright"
+  },
+  "jojo's_bizarre_adventure:_phantom_blood": {
+    "ja": "ジョジョの奇妙な冒険 ファントムブラッド",
+    "needs_review": false,
+    "src": "wikidata:Q17151916",
+    "type": "copyright"
+  },
+  "joker_game": {
+    "ja": "ジョーカー・ゲーム",
+    "needs_review": false,
+    "src": "wikidata:Q66309332",
+    "type": "copyright"
+  },
+  "jujutsu_kaisen_0": {
+    "ja": "劇場版 呪術廻戦 0",
+    "needs_review": false,
+    "src": "wikidata:Q109914608",
+    "type": "copyright"
+  },
+  "junkers_come_here_(pilot_film)": {
+    "ja": "ユンカース・カム・ヒア (パイロット版)",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "k-on_series": {
+    "ja": "けいおん! シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q482482",
+    "type": "copyright"
+  },
+  "k_project": {
+    "ja": "K",
+    "needs_review": false,
+    "src": "wikidata:Q972852",
+    "type": "copyright"
+  },
+  "kage_no_jitsuryokusha_ni_naritakute!": {
+    "ja": "陰の実力者になりたくて!",
+    "needs_review": false,
+    "src": "wikidata:Q105751950",
+    "type": "copyright"
+  },
+  "kage_no_jitsuryokusha_ni_naritakute!_series": {
+    "ja": "陰の実力者になりたくて！ シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q122920276",
+    "type": "copyright"
+  },
+  "kageki_shoujo": {
+    "ja": "かげきしょうじょ!!",
+    "needs_review": false,
+    "src": "wikidata:Q105223508",
+    "type": "copyright"
+  },
+  "kaguya-sama:_love_is_war": {
+    "ja": "かぐや様は告らせたい〜天才たちの恋愛頭脳戦〜",
+    "needs_review": false,
+    "src": "wikidata:Q62017594",
+    "type": "copyright"
+  },
+  "kaiji_series": {
+    "ja": "カイジ シリーズ",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "karaoke_iko!": {
+    "ja": "カラオケ行こ!",
+    "needs_review": false,
+    "src": "wikidata:Q130551723",
+    "type": "copyright"
+  },
+  "kase-san_series": {
+    "ja": "加瀬さんシリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q28693132",
     "type": "copyright"
   },
   "katsuyoshi_nakatsuru": {
@@ -70,12 +1678,588 @@
     "src": "manual",
     "type": "artist"
   },
+  "keroro_gunsou": {
+    "ja": "ケロロ軍曹",
+    "needs_review": false,
+    "src": "wikidata:Q6151019",
+    "type": "copyright"
+  },
+  "keroro_gunsou_series": {
+    "ja": "ケロロ軍曹 シリーズ",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "kimi_ga_nozomu_eien_series": {
+    "ja": "君が望む永遠 シリーズ",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "kimi_no_na_wa": {
+    "ja": "君の名は。",
+    "needs_review": false,
+    "src": "wikidata:Q21697406",
+    "type": "copyright"
+  },
+  "king_of_prism_series": {
+    "ja": "KING OF PRISM シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q65056178",
+    "type": "copyright"
+  },
+  "king_of_the_hill": {
+    "ja": "キング・オブ・ザ・ヒル",
+    "needs_review": false,
+    "src": "wikidata:Q1135966",
+    "type": "copyright"
+  },
+  "kingdom_series": {
+    "ja": "キングダム シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q130544533",
+    "type": "copyright"
+  },
+  "kinnikuman": {
+    "ja": "キン肉マン",
+    "needs_review": false,
+    "src": "wikidata:Q11297974",
+    "type": "copyright"
+  },
+  "kinnikuman_nisei_(movie_2)": {
+    "ja": "キン肉マンII世 (映画2)",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "kino_no_tabi_series": {
+    "ja": "キノの旅",
+    "needs_review": false,
+    "src": "wikidata:Q61653144",
+    "type": "copyright"
+  },
+  "kirby_series": {
+    "ja": "星のカービィシリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q2569953",
+    "type": "copyright"
+  },
+  "kite": {
+    "ja": "A KITE",
+    "needs_review": false,
+    "src": "wikidata:Q1743872",
+    "type": "copyright"
+  },
+  "kite_series": {
+    "ja": "A KITE シリーズ",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "knight_ramune_series": {
+    "ja": "騎士ラムネ&40 シリーズ",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "kodomo_no_jikan": {
+    "ja": "こどものじかん",
+    "needs_review": false,
+    "src": "wikidata:Q135498139",
+    "type": "copyright"
+  },
+  "koe_no_katachi": {
+    "ja": "映画 聲の形",
+    "needs_review": false,
+    "src": "wikidata:Q23925035",
+    "type": "copyright"
+  },
+  "koihime_musou_series": {
+    "ja": "恋姫†無双",
+    "needs_review": false,
+    "src": "wikidata:Q11492028",
+    "type": "copyright"
+  },
+  "kono_subarashii_sekai_ni_bakuen_wo!": {
+    "ja": "この素晴らしい世界に爆焔を！",
+    "needs_review": false,
+    "src": "wikidata:Q112172500",
+    "type": "copyright"
+  },
+  "konosuba_series": {
+    "ja": "この素晴らしい世界に祝福を！",
+    "needs_review": false,
+    "src": "wikidata:Q112173539",
+    "type": "copyright"
+  },
+  "kuma_kuma_kuma_bear": {
+    "ja": "くまクマ熊ベアー",
+    "needs_review": false,
+    "src": "wikidata:Q98821830",
+    "type": "copyright"
+  },
+  "kuma_kuma_kuma_bear_series": {
+    "ja": "くまクマ熊ベアー シリーズ",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "kung_fu_panda": {
+    "ja": "カンフー・パンダ",
+    "needs_review": false,
+    "src": "wikidata:Q129193",
+    "type": "copyright"
+  },
+  "kung_fu_panda_series": {
+    "ja": "カンフー・パンダシリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q2081372",
+    "type": "copyright"
+  },
+  "kurenai_(ova)": {
+    "ja": "紅 (OVA)",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
   "kuroneko_to_majo_no_kyoushitsu": {
     "count": 0,
     "ja": "黒猫と魔女の教室",
     "kana": "くろねことまじょのきょうしつ",
     "needs_review": false,
     "src": "manual",
+    "type": "copyright"
+  },
+  "kurozuka": {
+    "ja": "黒塚 -KUROZUKA-",
+    "needs_review": false,
+    "src": "wikidata:Q89894749",
+    "type": "copyright"
+  },
+  "kyou_kara_ore_wa": {
+    "ja": "今日から俺は!!",
+    "needs_review": false,
+    "src": "wikidata:Q135968863",
+    "type": "copyright"
+  },
+  "kyou_no_5_no_2_(tv)": {
+    "ja": "今日の5の2",
+    "needs_review": false,
+    "src": "wikidata:Q132183441",
+    "type": "copyright"
+  },
+  "kyoushoku_soukou_guyver_(1986)": {
+    "ja": "強殖装甲ガイバー",
+    "needs_review": false,
+    "src": "wikidata:Q13479312",
+    "type": "copyright"
+  },
+  "kyousougiga_(ona)": {
+    "ja": "京騒戯画 (ONA)",
+    "needs_review": false,
+    "src": "wikidata:Q11175349",
+    "type": "copyright"
+  },
+  "kyousougiga_(tv)": {
+    "ja": "京騒戯画 (TV)",
+    "needs_review": false,
+    "src": "wikidata:Q11175349",
+    "type": "copyright"
+  },
+  "kyuuketsuki_sugu_shinu_series": {
+    "ja": "吸血鬼すぐ死ぬ シリーズ",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "la_blue_girl": {
+    "ja": "淫獣学園 La☆Blue Girl",
+    "needs_review": false,
+    "src": "wikidata:Q130367822",
+    "type": "copyright"
+  },
+  "lapis_re:lights": {
+    "ja": "ラピスリライツ",
+    "needs_review": false,
+    "src": "wikidata:Q98908262",
+    "type": "copyright"
+  },
+  "latale_series": {
+    "ja": "ラテール シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q840972",
+    "type": "copyright"
+  },
+  "lazarus": {
+    "ja": "LAZARUS ラザロ",
+    "needs_review": false,
+    "src": "wikidata:Q121095142",
+    "type": "copyright"
+  },
+  "le_chevalier_d'eon": {
+    "ja": "シュヴァリエ 〜Le Chevalier D'Eon〜",
+    "needs_review": false,
+    "src": "wikidata:Q320678",
+    "type": "copyright"
+  },
+  "legend_of_lemnear": {
+    "ja": "極黒の翼バルキサス",
+    "needs_review": false,
+    "src": "wikidata:Q382828",
+    "type": "copyright"
+  },
+  "legend_of_the_galactic_heroes_(1988)": {
+    "ja": "銀河英雄伝説 (1988)",
+    "needs_review": false,
+    "src": "wikidata:Q135295556",
+    "type": "copyright"
+  },
+  "lilo_and_stitch": {
+    "ja": "リロ・アンド・スティッチ",
+    "needs_review": false,
+    "src": "wikidata:Q6548398",
+    "type": "copyright"
+  },
+  "lilo_and_stitch_series": {
+    "ja": "リロ・アンド・スティッチ シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q6548398",
+    "type": "copyright"
+  },
+  "little_busters!": {
+    "ja": "リトルバスターズ！",
+    "needs_review": false,
+    "src": "wikidata:Q123348612",
+    "type": "copyright"
+  },
+  "little_women": {
+    "ja": "愛の若草物語",
+    "needs_review": false,
+    "src": "wikidata:Q719160",
+    "type": "copyright"
+  },
+  "lookism": {
+    "ja": "外見至上主義",
+    "needs_review": false,
+    "src": "wikidata:Q115322550",
+    "type": "copyright"
+  },
+  "looney_tunes": {
+    "ja": "ルーニー・テューンズ",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "love_live!": {
+    "ja": "ラブライブ!",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "love_live!_nijigasaki_high_school_idol_club": {
+    "ja": "ラブライブ!虹ヶ咲学園スクールアイドル同好会",
+    "needs_review": false,
+    "src": "wikidata:Q48937717",
+    "type": "copyright"
+  },
+  "love_live!_sunshine!!": {
+    "ja": "ラブライブ!サンシャイン!!",
+    "needs_review": false,
+    "src": "wikidata:Q116769230",
+    "type": "copyright"
+  },
+  "lucky_star": {
+    "ja": "らき☆すた",
+    "needs_review": false,
+    "src": "wikidata:Q5973302",
+    "type": "copyright"
+  },
+  "lunar_series": {
+    "ja": "LUNAR シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q2630106",
+    "type": "copyright"
+  },
+  "lupin_iii": {
+    "ja": "ルパン三世",
+    "needs_review": false,
+    "src": "wikidata:Q876182",
+    "type": "copyright"
+  },
+  "lupin_iii_(2015)": {
+    "ja": "ルパン三世 PART4",
+    "needs_review": false,
+    "src": "wikidata:Q19979507",
+    "type": "copyright"
+  },
+  "macademi_wasshoi": {
+    "ja": "まかでみ・WAっしょい!",
+    "needs_review": false,
+    "src": "wikidata:Q110961934",
+    "type": "copyright"
+  },
+  "macross_delta": {
+    "ja": "マクロスΔ",
+    "needs_review": false,
+    "src": "wikidata:Q21120333",
+    "type": "copyright"
+  },
+  "magi_series": {
+    "ja": "マギ シリーズ",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "magic_knight_rayearth": {
+    "ja": "魔法騎士レイアース",
+    "needs_review": false,
+    "src": "wikidata:Q127718593",
+    "type": "copyright"
+  },
+  "magic_pengel:_the_quest_for_color_(video_game)": {
+    "ja": "ラクガキ王国",
+    "needs_review": false,
+    "src": "wikidata:Q4353715",
+    "type": "copyright"
+  },
+  "mahou_shoujo_pretty_sammy_(ova)": {
+    "ja": "魔法少女プリティサミー (OVA)",
+    "needs_review": false,
+    "src": "wikidata:Q6730997",
+    "type": "copyright"
+  },
+  "mahou_shoujo_pretty_sammy_(tv)": {
+    "ja": "魔法少女プリティサミー (TV)",
+    "needs_review": false,
+    "src": "wikidata:Q6730997",
+    "type": "copyright"
+  },
+  "major_(tv)": {
+    "ja": "メジャー",
+    "needs_review": false,
+    "src": "wikidata:Q1154274",
+    "type": "copyright"
+  },
+  "major_2nd": {
+    "ja": "メジャーセカンド",
+    "needs_review": false,
+    "src": "wikidata:Q127726317",
+    "type": "copyright"
+  },
+  "majutsushi_orphen": {
+    "ja": "魔術士オーフェン",
+    "needs_review": false,
+    "src": "wikidata:Q135855521",
+    "type": "copyright"
+  },
+  "marvel's_spider-man": {
+    "ja": "マーベル スパイダーマン",
+    "needs_review": false,
+    "src": "wikidata:Q28207200",
+    "type": "copyright"
+  },
+  "mary_poppins": {
+    "ja": "メリー・ポピンズ",
+    "needs_review": false,
+    "src": "wikidata:Q209170",
+    "type": "copyright"
+  },
+  "mashin_hero_wataru": {
+    "ja": "魔神英雄伝ワタル",
+    "needs_review": false,
+    "src": "wikidata:Q17222326",
+    "type": "copyright"
+  },
+  "masters_of_the_universe_series": {
+    "ja": "マスターズ・オブ・ユニバース シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q519710",
+    "type": "copyright"
+  },
+  "mayoi_neko_overrun": {
+    "ja": "迷い猫オーバーラン！",
+    "needs_review": false,
+    "src": "wikidata:Q106570097",
+    "type": "copyright"
+  },
+  "maze_series": {
+    "ja": "MAZE☆爆熱時空 シリーズ",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "mazinger_series": {
+    "ja": "マジンガーシリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q1088136",
+    "type": "copyright"
+  },
+  "medarot": {
+    "ja": "メダロット",
+    "needs_review": false,
+    "src": "wikidata:Q11343725",
+    "type": "copyright"
+  },
+  "medarot_series": {
+    "ja": "メダロットシリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q2266701",
+    "type": "copyright"
+  },
+  "mega_man_(1994)": {
+    "ja": "ロックマン USA",
+    "needs_review": false,
+    "src": "wikidata:Q516385",
+    "type": "copyright"
+  },
+  "memories": {
+    "ja": "MEMORIES",
+    "needs_review": false,
+    "src": "wikidata:Q564403",
+    "type": "copyright"
+  },
+  "mickey_mouse": {
+    "ja": "ミッキーマウス",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "miracle_girls": {
+    "ja": "ミラクル☆ガールズ",
+    "needs_review": false,
+    "src": "wikidata:Q125724813",
+    "type": "copyright"
+  },
+  "mix:_meisei_story_series": {
+    "ja": "MIX MEISEI STORY シリーズ",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "mlb_tokyo_series": {
+    "ja": "MLB東京シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q130485965",
+    "type": "copyright"
+  },
+  "moana": {
+    "ja": "モアナと伝説の海",
+    "needs_review": false,
+    "src": "wikidata:Q18647981",
+    "type": "copyright"
+  },
+  "mobile_fighter_g_gundam": {
+    "ja": "機動武闘伝Gガンダム",
+    "needs_review": false,
+    "src": "wikidata:Q716172",
+    "type": "copyright"
+  },
+  "mobile_police_patlabor": {
+    "ja": "機動警察パトレイバー",
+    "needs_review": false,
+    "src": "wikidata:Q702520",
+    "type": "copyright"
+  },
+  "mobile_suit_gundam": {
+    "ja": "機動戦士ガンダム",
+    "needs_review": false,
+    "src": "wikidata:Q1134906",
+    "type": "copyright"
+  },
+  "mobile_suit_gundam:_char's_counterattack": {
+    "ja": "機動戦士ガンダム 逆襲のシャア",
+    "needs_review": false,
+    "src": "wikidata:Q1363770",
+    "type": "copyright"
+  },
+  "mobile_suit_gundam_(game)": {
+    "ja": "機動戦士ガンダム (ゲーム)",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "mobile_suit_gundam_age_(game)": {
+    "ja": "機動戦士ガンダムAGE (ゲーム)",
+    "needs_review": false,
+    "src": "wikidata:Q16158282",
+    "type": "copyright"
+  },
+  "mobile_suit_gundam_seed": {
+    "ja": "機動戦士ガンダムSEED",
+    "needs_review": false,
+    "src": "wikidata:Q696206",
+    "type": "copyright"
+  },
+  "mobile_suit_gundam_wing_(tv)": {
+    "ja": "新機動戦記ガンダムW (TV)",
+    "needs_review": false,
+    "src": "wikidata:Q711148",
+    "type": "copyright"
+  },
+  "mobile_suit_zeta_gundam_(tv)": {
+    "ja": "機動戦士Ζガンダム (TV)",
+    "needs_review": false,
+    "src": "wikidata:Q698745",
+    "type": "copyright"
+  },
+  "monogatari_series": {
+    "ja": "〈物語〉シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q123022697",
+    "type": "copyright"
+  },
+  "monster_(2004)": {
+    "ja": "MONSTER",
+    "needs_review": false,
+    "src": "wikidata:Q100944081",
+    "type": "copyright"
+  },
+  "monster_strike_(mv)": {
+    "ja": "モンスターストライク (MV)",
+    "needs_review": false,
+    "src": "wikidata:Q24628305",
+    "type": "copyright"
+  },
+  "moomin_series": {
+    "ja": "ムーミンシリーズ",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "motorcity": {
+    "ja": "モーターシティ",
+    "needs_review": false,
+    "src": "wikidata:Q24060",
+    "type": "copyright"
+  },
+  "mouryou_senki_madara": {
+    "ja": "魍魎戦記MADARA",
+    "needs_review": false,
+    "src": "wikidata:Q11673630",
+    "type": "copyright"
+  },
+  "moyashimon": {
+    "ja": "もやしもん",
+    "needs_review": false,
+    "src": "wikidata:Q141514772",
+    "type": "copyright"
+  },
+  "mulan": {
+    "ja": "ムーラン",
+    "needs_review": false,
+    "src": "wikidata:Q537407",
+    "type": "copyright"
+  },
+  "munto_(tv)": {
+    "ja": "空を見上げる少女の瞳に映る世界",
+    "needs_review": false,
+    "src": "wikidata:Q116001170",
+    "type": "copyright"
+  },
+  "mushoku_tensei_series": {
+    "ja": "無職転生 〜異世界行ったら本気だす〜 シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q104246919",
     "type": "copyright"
   },
   "my_hero_academia": {
@@ -86,12 +2270,66 @@
     "src": "manual",
     "type": "copyright"
   },
+  "my_hero_academia:_vigilantes": {
+    "ja": "ヴィジランテ -僕のヒーローアカデミア ILLEGALS-",
+    "needs_review": false,
+    "src": "wikidata:Q131534559",
+    "type": "copyright"
+  },
+  "my_neighbors_the_yamadas": {
+    "ja": "ホーホケキョ となりの山田くん",
+    "needs_review": false,
+    "src": "wikidata:Q1418326",
+    "type": "copyright"
+  },
   "naruto": {
     "count": 0,
     "ja": "NARUTO -ナルト-",
     "kana": "なると",
     "needs_review": false,
     "src": "manual",
+    "type": "copyright"
+  },
+  "natsu_no_niwa": {
+    "ja": "夏の庭",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "needy_girl_overdose_(tv)": {
+    "ja": "NEEDY GIRL OVERDOSE (TV)",
+    "needs_review": false,
+    "src": "wikidata:Q136751943",
+    "type": "copyright"
+  },
+  "neon_genesis_evangelion": {
+    "ja": "新世紀エヴァンゲリオン",
+    "needs_review": false,
+    "src": "wikidata:Q662",
+    "type": "copyright"
+  },
+  "neon_genesis_evangelion_series": {
+    "ja": "エヴァンゲリオンシリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q66834583",
+    "type": "copyright"
+  },
+  "nerawareta_gakuen": {
+    "ja": "ねらわれた学園",
+    "needs_review": false,
+    "src": "wikidata:Q17214811",
+    "type": "copyright"
+  },
+  "nightmare": {
+    "ja": "ニワトリ男と赤い首",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "nimona": {
+    "ja": "ニモナ",
+    "needs_review": false,
+    "src": "wikidata:Q111165179",
     "type": "copyright"
   },
   "nobuaki_nagano": {
@@ -101,6 +2339,30 @@
     "needs_review": false,
     "src": "manual",
     "type": "artist"
+  },
+  "non_non_biyori_series": {
+    "ja": "のんのんびより シリーズ",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "occultic;nine": {
+    "ja": "Occultic;Nine -オカルティック・ナイン-",
+    "needs_review": false,
+    "src": "wikidata:Q124514496",
+    "type": "copyright"
+  },
+  "ojarumaru_series": {
+    "ja": "おじゃる丸",
+    "needs_review": false,
+    "src": "wikidata:Q711735",
+    "type": "copyright"
+  },
+  "one-punch_man_(ova)": {
+    "ja": "ワンパンマン (OVA)",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
   },
   "one_piece": {
     "count": 0,
@@ -118,6 +2380,168 @@
     "src": "manual",
     "type": "copyright"
   },
+  "ongaku_shoujo_(2015)": {
+    "ja": "音楽少女 (2015)",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "only_yesterday": {
+    "ja": "おもひでぽろぽろ",
+    "needs_review": false,
+    "src": "wikidata:Q1045889",
+    "type": "copyright"
+  },
+  "oreimo_series": {
+    "ja": "俺の妹がこんなに可愛いわけがない",
+    "needs_review": false,
+    "src": "wikidata:Q112964490",
+    "type": "copyright"
+  },
+  "oshi_no_ko": {
+    "ja": "【推しの子】",
+    "needs_review": false,
+    "src": "wikidata:Q112305523",
+    "type": "copyright"
+  },
+  "oshiri_tantei_series": {
+    "ja": "おしりたんてい シリーズ",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "outbreak_company": {
+    "ja": "アウトブレイク・カンパニー",
+    "needs_review": false,
+    "src": "wikidata:Q130456000",
+    "type": "copyright"
+  },
+  "outlaw_star": {
+    "ja": "星方武侠アウトロースター",
+    "needs_review": false,
+    "src": "wikidata:Q2470001",
+    "type": "copyright"
+  },
+  "overdrive": {
+    "ja": "Over Drive",
+    "needs_review": false,
+    "src": "wikidata:Q124474862",
+    "type": "copyright"
+  },
+  "overlord": {
+    "ja": "オーバーロード",
+    "needs_review": false,
+    "src": "wikidata:Q50308776",
+    "type": "copyright"
+  },
+  "overlord_series": {
+    "ja": "オーバーロード シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q110516207",
+    "type": "copyright"
+  },
+  "overwatch": {
+    "ja": "オーバーウォッチ",
+    "needs_review": false,
+    "src": "wikidata:Q99569678",
+    "type": "copyright"
+  },
+  "panzer_world_galient_(ova)": {
+    "ja": "機甲界ガリアン 鉄の紋章",
+    "needs_review": false,
+    "src": "wikidata:Q11544518",
+    "type": "copyright"
+  },
+  "paradise_kiss": {
+    "ja": "Paradise Kiss",
+    "needs_review": false,
+    "src": "wikidata:Q106576557",
+    "type": "copyright"
+  },
+  "parasite_dolls": {
+    "ja": "パラサイトドールズ",
+    "needs_review": false,
+    "src": "wikidata:Q1353054",
+    "type": "copyright"
+  },
+  "peanuts": {
+    "ja": "ピーナッツ",
+    "needs_review": false,
+    "src": "wikidata:Q98149594",
+    "type": "copyright"
+  },
+  "perfect_blue": {
+    "ja": "PERFECT BLUE",
+    "needs_review": false,
+    "src": "wikidata:Q1205051",
+    "type": "copyright"
+  },
+  "persepolis": {
+    "ja": "ペルセポリス",
+    "needs_review": false,
+    "src": "wikidata:Q477965",
+    "type": "copyright"
+  },
+  "persona_3_(game)": {
+    "ja": "ペルソナ3 (ゲーム)",
+    "needs_review": false,
+    "src": "wikidata:Q910889",
+    "type": "copyright"
+  },
+  "persona_5_(game)": {
+    "ja": "ペルソナ5 (ゲーム)",
+    "needs_review": false,
+    "src": "wikidata:Q15225985",
+    "type": "copyright"
+  },
+  "persona_series": {
+    "ja": "ペルソナ シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q116778533",
+    "type": "copyright"
+  },
+  "phantasmagoria_series": {
+    "ja": "ファンタスマゴリア シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q4658825",
+    "type": "copyright"
+  },
+  "phi_brain_series": {
+    "ja": "ファイ・ブレイン 神のパズル シリーズ",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "photon": {
+    "ja": "フォトン",
+    "needs_review": false,
+    "src": "wikidata:Q4355178",
+    "type": "copyright"
+  },
+  "piano_no_mori_(movie)": {
+    "ja": "ピアノの森 (映画)",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "pink_panther": {
+    "ja": "ピンク・パンサー",
+    "needs_review": false,
+    "src": "wikidata:Q7143846",
+    "type": "copyright"
+  },
+  "pinocchio": {
+    "ja": "ピノキオ",
+    "needs_review": false,
+    "src": "wikidata:Q4341553",
+    "type": "copyright"
+  },
+  "pocahontas": {
+    "ja": "ポカホンタス",
+    "needs_review": false,
+    "src": "wikidata:Q218894",
+    "type": "copyright"
+  },
   "pokemon": {
     "count": 0,
     "ja": "ポケットモンスター",
@@ -126,12 +2550,426 @@
     "src": "manual",
     "type": "copyright"
   },
+  "pokemon_(2019)": {
+    "ja": "ポケットモンスター (2019)",
+    "needs_review": false,
+    "src": "wikidata:Q67955198",
+    "type": "copyright"
+  },
+  "pokemon_(2023)": {
+    "ja": "ポケットモンスター (2023)",
+    "needs_review": false,
+    "src": "wikidata:Q115733264",
+    "type": "copyright"
+  },
+  "popeye_the_sailor": {
+    "ja": "ポパイ",
+    "needs_review": false,
+    "src": "wikidata:Q7229295",
+    "type": "copyright"
+  },
+  "popolocrois_(1998)": {
+    "ja": "ポポロクロイス物語 (1998)",
+    "needs_review": false,
+    "src": "wikidata:Q6148736",
+    "type": "copyright"
+  },
+  "popolocrois_(2003)": {
+    "ja": "ポポロクロイス",
+    "needs_review": false,
+    "src": "wikidata:Q11144377",
+    "type": "copyright"
+  },
+  "popolocrois_monogatari_(game)": {
+    "ja": "ポポロクロイス物語",
+    "needs_review": false,
+    "src": "wikidata:Q11339271",
+    "type": "copyright"
+  },
   "precure": {
     "count": 0,
-    "ja": "プリキュア",
+    "ja": "プリキュアシリーズ",
     "kana": "ぷりきゅあ",
     "needs_review": false,
+    "src": "wikidata:Q1196203",
+    "type": "copyright"
+  },
+  "presence": {
+    "ja": "プレゼンス",
+    "needs_review": false,
     "src": "manual",
+    "type": "copyright"
+  },
+  "prison_school": {
+    "ja": "監獄学園",
+    "needs_review": false,
+    "src": "wikidata:Q52095596",
+    "type": "copyright"
+  },
+  "program": {
+    "ja": "プログラム",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "project_a": {
+    "ja": "PROJECT A",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "psychic_force_(ova)": {
+    "ja": "サイキックフォース (OVA)",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "psycho_pass_(movie)": {
+    "ja": "劇場版 PSYCHO-PASS サイコパス",
+    "needs_review": false,
+    "src": "wikidata:Q18578673",
+    "type": "copyright"
+  },
+  "qualidea_code": {
+    "ja": "クオリディア・コード",
+    "needs_review": false,
+    "src": "wikidata:Q134473827",
+    "type": "copyright"
+  },
+  "queen_millennia": {
+    "ja": "新竹取物語 1000年女王",
+    "needs_review": false,
+    "src": "wikidata:Q115947485",
+    "type": "copyright"
+  },
+  "radiant": {
+    "ja": "ラディアン",
+    "needs_review": false,
+    "src": "wikidata:Q61654599",
+    "type": "copyright"
+  },
+  "ragnarok": {
+    "ja": "ラグナロク",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "rakshasa_street_series": {
+    "ja": "鎮魂街 シリーズ",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "rampo": {
+    "ja": "RAMPO",
+    "needs_review": false,
+    "src": "wikidata:Q7290046",
+    "type": "copyright"
+  },
+  "ranma_1/2": {
+    "ja": "らんま1/2",
+    "needs_review": false,
+    "src": "wikidata:Q3419007",
+    "type": "copyright"
+  },
+  "rayearth_(ova)": {
+    "ja": "レイアース",
+    "needs_review": false,
+    "src": "wikidata:Q127717082",
+    "type": "copyright"
+  },
+  "re:_zero_kara_hajimeru_isekai_seikatsu_series": {
+    "ja": "Re:ゼロから始める異世界生活 シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q137395368",
+    "type": "copyright"
+  },
+  "read_or_die_series": {
+    "ja": "R.O.D シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q488184",
+    "type": "copyright"
+  },
+  "red_baron": {
+    "ja": "レッドバロン",
+    "needs_review": false,
+    "src": "wikidata:Q3297634",
+    "type": "copyright"
+  },
+  "redline": {
+    "ja": "REDLINE",
+    "needs_review": false,
+    "src": "wikidata:Q1207954",
+    "type": "copyright"
+  },
+  "redline_(pilot)": {
+    "ja": "REDLINE (パイロット版)",
+    "needs_review": false,
+    "src": "wikidata:Q1207954",
+    "type": "copyright"
+  },
+  "resonance_solstice_(game)": {
+    "ja": "レゾナンス:無限号列車",
+    "needs_review": false,
+    "src": "wikidata:Q130559248",
+    "type": "copyright"
+  },
+  "revenger": {
+    "ja": "REVENGER",
+    "needs_review": false,
+    "src": "wikidata:Q114888419",
+    "type": "copyright"
+  },
+  "rewrite": {
+    "ja": "Rewrite",
+    "needs_review": false,
+    "src": "wikidata:Q28017575",
+    "type": "copyright"
+  },
+  "rewrite_(game)": {
+    "ja": "Rewrite (ゲーム)",
+    "needs_review": false,
+    "src": "wikidata:Q683324",
+    "type": "copyright"
+  },
+  "rewrite_(tv)": {
+    "ja": "Rewrite (TV)",
+    "needs_review": false,
+    "src": "wikidata:Q28017575",
+    "type": "copyright"
+  },
+  "river_city_girls_(game)": {
+    "ja": "熱血硬派くにおくん外伝 リバーシティガールズ",
+    "needs_review": false,
+    "src": "wikidata:Q66665639",
+    "type": "copyright"
+  },
+  "ro-kyu-bu!_series": {
+    "ja": "ロウきゅーぶ! シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q105353766",
+    "type": "copyright"
+  },
+  "road_blaster_(video_game)": {
+    "ja": "ロードブラスター",
+    "needs_review": false,
+    "src": "wikidata:Q2113943",
+    "type": "copyright"
+  },
+  "robin_hood": {
+    "ja": "ロビン・フッド",
+    "needs_review": false,
+    "src": "wikidata:Q19090",
+    "type": "copyright"
+  },
+  "rockman_x_series": {
+    "ja": "ロックマンXシリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q2747942",
+    "type": "copyright"
+  },
+  "rockman_zx_series": {
+    "ja": "ロックマンゼクスシリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q4130176",
+    "type": "copyright"
+  },
+  "rozen_maiden_(2004)": {
+    "ja": "ローゼンメイデン (2004)",
+    "needs_review": false,
+    "src": "wikidata:Q124649505",
+    "type": "copyright"
+  },
+  "rugrats": {
+    "ja": "ラグラッツ",
+    "needs_review": false,
+    "src": "wikidata:Q304290",
+    "type": "copyright"
+  },
+  "running_man": {
+    "ja": "走る男",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "rurouni_kenshin": {
+    "ja": "るろうに剣心 -明治剣客浪漫譚-",
+    "needs_review": false,
+    "src": "wikidata:Q135552357",
+    "type": "copyright"
+  },
+  "rurouni_kenshin_series": {
+    "ja": "るろうに剣心 シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q135552357",
+    "type": "copyright"
+  },
+  "rusalka": {
+    "ja": "水の精",
+    "needs_review": false,
+    "src": "wikidata:Q1215176",
+    "type": "copyright"
+  },
+  "saiyuuki": {
+    "ja": "西遊記",
+    "needs_review": false,
+    "src": "wikidata:Q2626114",
+    "type": "copyright"
+  },
+  "sakura_taisen_series": {
+    "ja": "サクラ大戦",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "salamander": {
+    "ja": "沙羅曼蛇",
+    "needs_review": false,
+    "src": "wikidata:Q845462",
+    "type": "copyright"
+  },
+  "sand_land:_the_series": {
+    "ja": "SAND LAND: THE SERIES",
+    "needs_review": false,
+    "src": "wikidata:Q125019012",
+    "type": "copyright"
+  },
+  "sangokushi": {
+    "ja": "三国志",
+    "needs_review": false,
+    "src": "wikidata:Q10865607",
+    "type": "copyright"
+  },
+  "sangokushi_(movie_series)": {
+    "ja": "三国志 (映画)",
+    "needs_review": false,
+    "src": "wikidata:Q10865607",
+    "type": "copyright"
+  },
+  "sayonara_lara_(mv)": {
+    "ja": "さよならララ (MV)",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "scandal_(video_game)": {
+    "ja": "スキャンダル",
+    "needs_review": false,
+    "src": "wikidata:Q952602",
+    "type": "copyright"
+  },
+  "school_days": {
+    "ja": "School Days",
+    "needs_review": false,
+    "src": "wikidata:Q11703656",
+    "type": "copyright"
+  },
+  "scooby_doo_series": {
+    "ja": "スクービー・ドゥー シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q205683",
+    "type": "copyright"
+  },
+  "seishun_buta_yarou_wa_bunny_girl_senpai_no_yume_wo_minai_series": {
+    "ja": "青春ブタ野郎シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q133251942",
+    "type": "copyright"
+  },
+  "sengoku_majin_goshogun_(1982)": {
+    "ja": "戦国魔神ゴーショーグン (1982)",
+    "needs_review": false,
+    "src": "wikidata:Q137162288",
+    "type": "copyright"
+  },
+  "senran_kagura_(game)": {
+    "ja": "閃乱カグラ (ゲーム)",
+    "needs_review": false,
+    "src": "wikidata:Q66809434",
+    "type": "copyright"
+  },
+  "sesame_street": {
+    "ja": "セサミストリート",
+    "needs_review": false,
+    "src": "wikidata:Q155629",
+    "type": "copyright"
+  },
+  "shadow_skill_(tv)": {
+    "ja": "SHADOW SKILL",
+    "needs_review": false,
+    "src": "wikidata:Q3141397",
+    "type": "copyright"
+  },
+  "shadow_skill_series": {
+    "ja": "SHADOW SKILL",
+    "needs_review": false,
+    "src": "wikidata:Q3141397",
+    "type": "copyright"
+  },
+  "shadowverse": {
+    "ja": "シャドウバース",
+    "needs_review": false,
+    "src": "wikidata:Q89277583",
+    "type": "copyright"
+  },
+  "shadowverse:_worlds_beyond_(game)": {
+    "ja": "Shadowverse: Worlds Beyond",
+    "needs_review": false,
+    "src": "wikidata:Q123740402",
+    "type": "copyright"
+  },
+  "shadowverse_(video_game)": {
+    "ja": "Shadowverse",
+    "needs_review": false,
+    "src": "wikidata:Q27890279",
+    "type": "copyright"
+  },
+  "shaman_king": {
+    "ja": "シャーマンキング",
+    "needs_review": false,
+    "src": "wikidata:Q106346619",
+    "type": "copyright"
+  },
+  "shanghaied": {
+    "ja": "ミッキーの海賊退治",
+    "needs_review": false,
+    "src": "wikidata:Q977568",
+    "type": "copyright"
+  },
+  "shangri-la": {
+    "ja": "シャングリ・ラ",
+    "needs_review": false,
+    "src": "wikidata:Q17277591",
+    "type": "copyright"
+  },
+  "shelter": {
+    "ja": "SHELTER",
+    "needs_review": false,
+    "src": "wikidata:Q27467421",
+    "type": "copyright"
+  },
+  "shin_megami_tensei:_devil_children": {
+    "ja": "真・女神転生デビチル",
+    "needs_review": false,
+    "src": "wikidata:Q16549370",
+    "type": "copyright"
+  },
+  "shingeki_no_kyojin_(ova)": {
+    "ja": "進撃の巨人 (OVA)",
+    "needs_review": false,
+    "src": "wikidata:Q22126305",
+    "type": "copyright"
+  },
+  "shoshimin_series": {
+    "ja": "小市民シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q124256086",
+    "type": "copyright"
+  },
+  "shoushimin_series": {
+    "ja": "小市民シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q124256086",
     "type": "copyright"
   },
   "shuu_sugita": {
@@ -141,6 +2979,786 @@
     "needs_review": false,
     "src": "manual",
     "type": "artist"
+  },
+  "sister_princess": {
+    "ja": "シスター・プリンセス",
+    "needs_review": false,
+    "src": "wikidata:Q702922",
+    "type": "copyright"
+  },
+  "skull_island": {
+    "ja": "髑髏島",
+    "needs_review": false,
+    "src": "wikidata:Q118641155",
+    "type": "copyright"
+  },
+  "skullgirls_(video_game)": {
+    "ja": "スカルガールズ",
+    "needs_review": false,
+    "src": "wikidata:Q766633",
+    "type": "copyright"
+  },
+  "slam_dunk": {
+    "ja": "SLAM DUNK",
+    "needs_review": false,
+    "src": "wikidata:Q100910749",
+    "type": "copyright"
+  },
+  "slam_dunk_series": {
+    "ja": "SLAM DUNK シリーズ",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "slayers_premium": {
+    "ja": "スレイヤーズぷれみあむ",
+    "needs_review": false,
+    "src": "wikidata:Q2293949",
+    "type": "copyright"
+  },
+  "sleeping_beauty": {
+    "ja": "眠れる森の美女",
+    "needs_review": false,
+    "src": "wikidata:Q215617",
+    "type": "copyright"
+  },
+  "sonic_the_hedgehog": {
+    "ja": "ソニック・ザ・ヘッジホッグ",
+    "needs_review": false,
+    "src": "wikidata:Q1046812",
+    "type": "copyright"
+  },
+  "sonny_boy": {
+    "ja": "Sonny Boy",
+    "needs_review": false,
+    "src": "wikidata:Q106837406",
+    "type": "copyright"
+  },
+  "sora_no_manimani": {
+    "ja": "宙のまにまに",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "space_adventure_cobra": {
+    "ja": "スペースコブラ",
+    "needs_review": false,
+    "src": "wikidata:Q2981166",
+    "type": "copyright"
+  },
+  "spider-man": {
+    "ja": "スパイダーマン",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "spider-man_the_animated_series": {
+    "ja": "スパイダーマン シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q569934",
+    "type": "copyright"
+  },
+  "spriggan_(2022)": {
+    "ja": "スプリガン (2022)",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "spring_song": {
+    "ja": "春の唄",
+    "needs_review": false,
+    "src": "wikidata:Q106399001",
+    "type": "copyright"
+  },
+  "star_ocean_series": {
+    "ja": "スターオーシャンシリーズ",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "star_wars": {
+    "ja": "スター・ウォーズ",
+    "needs_review": false,
+    "src": "wikidata:Q462",
+    "type": "copyright"
+  },
+  "steins;gate_0": {
+    "ja": "シュタインズ・ゲート ゼロ",
+    "needs_review": false,
+    "src": "wikidata:Q48835532",
+    "type": "copyright"
+  },
+  "street_fighter": {
+    "ja": "ストリートファイター",
+    "needs_review": false,
+    "src": "wikidata:Q288035",
+    "type": "copyright"
+  },
+  "suika": {
+    "ja": "水夏",
+    "needs_review": false,
+    "src": "wikidata:Q7635435",
+    "type": "copyright"
+  },
+  "suikoden_series": {
+    "ja": "幻想水滸伝シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q209612",
+    "type": "copyright"
+  },
+  "summer_pockets_(tv)": {
+    "ja": "Summer Pockets (TV)",
+    "needs_review": false,
+    "src": "wikidata:Q126934355",
+    "type": "copyright"
+  },
+  "summon_night_2_(video_game)": {
+    "ja": "サモンナイト2",
+    "needs_review": false,
+    "src": "wikidata:Q11305235",
+    "type": "copyright"
+  },
+  "summon_night_5_(video_game)": {
+    "ja": "サモンナイト5",
+    "needs_review": false,
+    "src": "wikidata:Q7637915",
+    "type": "copyright"
+  },
+  "summon_night_series": {
+    "ja": "サモンナイトシリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q859249",
+    "type": "copyright"
+  },
+  "supergirl_(mv)": {
+    "ja": "Supergirl",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "superman": {
+    "ja": "スーパーマン",
+    "needs_review": false,
+    "src": "wikidata:Q3638",
+    "type": "copyright"
+  },
+  "superman_(1940s)": {
+    "ja": "スーパーマン (1940年代)",
+    "needs_review": false,
+    "src": "wikidata:Q1975401",
+    "type": "copyright"
+  },
+  "superman_the_animated_series": {
+    "ja": "スーパーマン アニメ・シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q1277432",
+    "type": "copyright"
+  },
+  "survival_series": {
+    "ja": "サバイバルシリーズ",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "sword_art_online_alicization_series": {
+    "ja": "ソードアート・オンライン アリシゼーション シリーズ",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "tailenders": {
+    "ja": "TAILENDERS",
+    "needs_review": false,
+    "src": "wikidata:Q4050662",
+    "type": "copyright"
+  },
+  "talesweaver": {
+    "ja": "テイルズウィーバー",
+    "needs_review": false,
+    "src": "wikidata:Q484913",
+    "type": "copyright"
+  },
+  "tamako_series": {
+    "ja": "たまこまーけっと シリーズ",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "tamayura": {
+    "ja": "たまゆら",
+    "needs_review": false,
+    "src": "wikidata:Q112663898",
+    "type": "copyright"
+  },
+  "tamayura_(ova)": {
+    "ja": "たまゆら (OVA)",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "tangled": {
+    "ja": "塔の上のラプンツェル",
+    "needs_review": false,
+    "src": "wikidata:Q188439",
+    "type": "copyright"
+  },
+  "tangled:_the_series": {
+    "ja": "ラプンツェル ザ・シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q23680095",
+    "type": "copyright"
+  },
+  "tantei_opera_milky_holmes": {
+    "ja": "探偵オペラ ミルキィホームズ",
+    "needs_review": false,
+    "src": "wikidata:Q134955581",
+    "type": "copyright"
+  },
+  "tantei_opera_milky_holmes_series": {
+    "ja": "探偵オペラ ミルキィホームズ シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q18705458",
+    "type": "copyright"
+  },
+  "tarzan": {
+    "ja": "ターザン",
+    "needs_review": false,
+    "src": "wikidata:Q208696",
+    "type": "copyright"
+  },
+  "tearmoon_teikoku_monogatari": {
+    "ja": "ティアムーン帝国物語",
+    "needs_review": false,
+    "src": "wikidata:Q122780569",
+    "type": "copyright"
+  },
+  "teenage_mutant_ninja_turtles": {
+    "ja": "ティーンエイジ・ミュータント・ニンジャ・タートルズ",
+    "needs_review": false,
+    "src": "wikidata:Q98713259",
+    "type": "copyright"
+  },
+  "telepathy_shoujo_ran": {
+    "ja": "テレパシー少女 蘭",
+    "needs_review": false,
+    "src": "wikidata:Q136259350",
+    "type": "copyright"
+  },
+  "tensai_bakabon": {
+    "ja": "天才バカボン",
+    "needs_review": false,
+    "src": "wikidata:Q11442627",
+    "type": "copyright"
+  },
+  "tensai_bakabon_series": {
+    "ja": "天才バカボン シリーズ",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "tetsujin_28-go_(1980)": {
+    "ja": "鉄人28号",
+    "needs_review": false,
+    "src": "wikidata:Q703088",
+    "type": "copyright"
+  },
+  "tetsuwan_atom_(2003)": {
+    "ja": "ASTRO BOY 鉄腕アトム",
+    "needs_review": false,
+    "src": "wikidata:Q3391330",
+    "type": "copyright"
+  },
+  "the_boxer": {
+    "ja": "ザ・ボクサー",
+    "needs_review": false,
+    "src": "wikidata:Q141678355",
+    "type": "copyright"
+  },
+  "the_great_passage": {
+    "ja": "舟を編む",
+    "needs_review": false,
+    "src": "wikidata:Q28154189",
+    "type": "copyright"
+  },
+  "the_hobbit": {
+    "ja": "ホビットの冒険",
+    "needs_review": false,
+    "src": "wikidata:Q74229",
+    "type": "copyright"
+  },
+  "the_hunchback_of_notre_dame": {
+    "ja": "ノートルダムの鐘",
+    "needs_review": false,
+    "src": "wikidata:Q213787",
+    "type": "copyright"
+  },
+  "the_idolm@ster": {
+    "ja": "THE IDOLM@STER",
+    "needs_review": false,
+    "src": "wikidata:Q2480998",
+    "type": "copyright"
+  },
+  "the_idolmaster": {
+    "ja": "THE IDOLM@STER",
+    "needs_review": false,
+    "src": "wikidata:Q2480998",
+    "type": "copyright"
+  },
+  "the_illusionist": {
+    "ja": "イリュージョニスト",
+    "needs_review": false,
+    "src": "wikidata:Q1164767",
+    "type": "copyright"
+  },
+  "the_jungle_book": {
+    "ja": "ジャングル・ブック",
+    "needs_review": false,
+    "src": "wikidata:Q199839",
+    "type": "copyright"
+  },
+  "the_king's_avatar_(2018)": {
+    "ja": "マスターオブスキル 全職高手 (2018)",
+    "needs_review": false,
+    "src": "wikidata:Q110946281",
+    "type": "copyright"
+  },
+  "the_little_mermaid": {
+    "ja": "リトル・マーメイド",
+    "needs_review": false,
+    "src": "wikidata:Q190135",
+    "type": "copyright"
+  },
+  "the_monkey_king": {
+    "ja": "モンキー・キング",
+    "needs_review": false,
+    "src": "wikidata:Q118869690",
+    "type": "copyright"
+  },
+  "the_ninth_jedi_series": {
+    "ja": "九人目のジェダイ シリーズ",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "the_powerpuff_girls": {
+    "ja": "パワーパフガールズ",
+    "needs_review": false,
+    "src": "wikidata:Q1236206",
+    "type": "copyright"
+  },
+  "the_prince_and_the_pauper": {
+    "ja": "ミッキーの王子と少年",
+    "needs_review": false,
+    "src": "wikidata:Q2624382",
+    "type": "copyright"
+  },
+  "the_real_ghostbusters": {
+    "ja": "アニメ ゴーストバスターズ",
+    "needs_review": false,
+    "src": "wikidata:Q733938",
+    "type": "copyright"
+  },
+  "the_samurai": {
+    "ja": "ザ・サムライ",
+    "needs_review": false,
+    "src": "wikidata:Q11306543",
+    "type": "copyright"
+  },
+  "the_thief_and_the_cobbler": {
+    "ja": "泥棒と靴屋",
+    "needs_review": false,
+    "src": "wikidata:Q2657071",
+    "type": "copyright"
+  },
+  "the_witcher_series": {
+    "ja": "ウィッチャー シリーズ",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "thumbelina": {
+    "ja": "おやゆび姫 サンベリーナ",
+    "needs_review": false,
+    "src": "wikidata:Q965266",
+    "type": "copyright"
+  },
+  "thundercats": {
+    "ja": "サンダーキャッツ",
+    "needs_review": false,
+    "src": "wikidata:Q21706035",
+    "type": "copyright"
+  },
+  "tian_guan_ci_fu_series": {
+    "ja": "天官賜福 シリーズ",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "time_gal_(video_game)": {
+    "ja": "タイムギャル",
+    "needs_review": false,
+    "src": "wikidata:Q1983270",
+    "type": "copyright"
+  },
+  "to_aru_series": {
+    "ja": "とあるシリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q277021",
+    "type": "copyright"
+  },
+  "to_be_hero_x_(ona)": {
+    "ja": "TO BE HERO X (ONA)",
+    "needs_review": false,
+    "src": "wikidata:Q133866311",
+    "type": "copyright"
+  },
+  "to_heart": {
+    "ja": "To Heart",
+    "needs_review": false,
+    "src": "wikidata:Q123415929",
+    "type": "copyright"
+  },
+  "to_heart_series": {
+    "ja": "To Heart シリーズ",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "to_love_ru_(ova)": {
+    "ja": "To LOVEる -とらぶる- (OVA)",
+    "needs_review": false,
+    "src": "wikidata:Q107353932",
+    "type": "copyright"
+  },
+  "to_love_ru_darkness": {
+    "ja": "To LOVEる -とらぶる- ダークネス",
+    "needs_review": false,
+    "src": "wikidata:Q61976583",
+    "type": "copyright"
+  },
+  "tokimeki_memorial_series": {
+    "ja": "ときめきメモリアル",
+    "needs_review": false,
+    "src": "wikidata:Q7470389",
+    "type": "copyright"
+  },
+  "tokyo_ghoul": {
+    "ja": "東京喰種トーキョーグール",
+    "needs_review": false,
+    "src": "wikidata:Q40239998",
+    "type": "copyright"
+  },
+  "tokyo_ghoul:re": {
+    "ja": "東京喰種トーキョーグール：re",
+    "needs_review": false,
+    "src": "wikidata:Q107429584",
+    "type": "copyright"
+  },
+  "tokyo_revengers": {
+    "ja": "東京リベンジャーズ",
+    "needs_review": false,
+    "src": "wikidata:Q100255568",
+    "type": "copyright"
+  },
+  "tokyo_vice": {
+    "ja": "トウキョウ・バイス",
+    "needs_review": false,
+    "src": "wikidata:Q11321091",
+    "type": "copyright"
+  },
+  "tomb_raider_series": {
+    "ja": "トゥームレイダー",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "tonikaku_kawaii_series": {
+    "ja": "トニカクカワイイ",
+    "needs_review": false,
+    "src": "wikidata:Q98803646",
+    "type": "copyright"
+  },
+  "touch": {
+    "ja": "タッチ",
+    "needs_review": false,
+    "src": "wikidata:Q619500",
+    "type": "copyright"
+  },
+  "toward_the_terra_(tv)": {
+    "ja": "地球へ… (TV)",
+    "needs_review": false,
+    "src": "wikidata:Q139147902",
+    "type": "copyright"
+  },
+  "transformers_series": {
+    "ja": "トランスフォーマー",
+    "needs_review": false,
+    "src": "wikidata:Q1323565",
+    "type": "copyright"
+  },
+  "tribe_nine": {
+    "ja": "TRIBE NINE",
+    "needs_review": false,
+    "src": "wikidata:Q108772833",
+    "type": "copyright"
+  },
+  "trick_or_treat": {
+    "ja": "ドナルドの魔法使い",
+    "needs_review": false,
+    "src": "wikidata:Q2090328",
+    "type": "copyright"
+  },
+  "trinity_seven": {
+    "ja": "トリニティセブン",
+    "needs_review": false,
+    "src": "wikidata:Q65040519",
+    "type": "copyright"
+  },
+  "tsukihime": {
+    "ja": "月姫",
+    "needs_review": false,
+    "src": "wikidata:Q1193720",
+    "type": "copyright"
+  },
+  "uchuu_senshi_baldios_(movie)": {
+    "ja": "宇宙戦士バルディオス (映画)",
+    "needs_review": false,
+    "src": "wikidata:Q711139",
+    "type": "copyright"
+  },
+  "ultra_nyan_series": {
+    "ja": "ウルトラニャン シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q11289210",
+    "type": "copyright"
+  },
+  "ultraman_(series)": {
+    "ja": "ウルトラシリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q1340870",
+    "type": "copyright"
+  },
+  "uma_musume_series": {
+    "ja": "ウマ娘 プリティーダービー シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q29034274",
+    "type": "copyright"
+  },
+  "urusei_yatsura_(1985)": {
+    "ja": "うる星やつら (1985)",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "urusei_yatsura_(tv)": {
+    "ja": "うる星やつら (TV)",
+    "needs_review": false,
+    "src": "wikidata:Q3216881",
+    "type": "copyright"
+  },
+  "urusei_yatsura_series": {
+    "ja": "うる星やつら",
+    "needs_review": false,
+    "src": "wikidata:Q3216881",
+    "type": "copyright"
+  },
+  "uta_no_prince-sama_series": {
+    "ja": "うたの☆プリンスさまっ♪",
+    "needs_review": false,
+    "src": "wikidata:Q66366745",
+    "type": "copyright"
+  },
+  "valkyria_chronicles_series": {
+    "ja": "戦場のヴァルキュリアシリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q11496045",
+    "type": "copyright"
+  },
+  "valorant": {
+    "ja": "VALORANT",
+    "needs_review": false,
+    "src": "wikidata:Q86919275",
+    "type": "copyright"
+  },
+  "vampire_hunter:_the_animated_series": {
+    "ja": "ヴァンパイアハンター THE ANIMATED SERIES シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q891681",
+    "type": "copyright"
+  },
+  "vampire_princess_miyu_(tv)": {
+    "ja": "吸血姫美夕 (TV)",
+    "needs_review": false,
+    "src": "wikidata:Q11416442",
+    "type": "copyright"
+  },
+  "video_girl_ai": {
+    "ja": "電影少女",
+    "needs_review": false,
+    "src": "wikidata:Q1505050",
+    "type": "copyright"
+  },
+  "vinland_saga": {
+    "ja": "ヴィンランド・サガ",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "vinland_saga_series": {
+    "ja": "ヴィンランド・サガ シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q124290761",
+    "type": "copyright"
+  },
+  "wagamama☆fairy_mirumo_de_pon!_series": {
+    "ja": "わがまま☆フェアリー ミルモでポン! シリーズ",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "wake_up_girls!_series": {
+    "ja": "Wake Up, Girls!シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q108438232",
+    "type": "copyright"
+  },
+  "wakfu": {
+    "ja": "ワクフ",
+    "needs_review": false,
+    "src": "wikidata:Q2760256",
+    "type": "copyright"
+  },
+  "warframe": {
+    "ja": "Warframe",
+    "needs_review": false,
+    "src": "wikidata:Q7969348",
+    "type": "copyright"
+  },
+  "where_the_wind_blows_(mv)": {
+    "ja": "風のゆくえ",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "wicked_city": {
+    "ja": "妖獣都市",
+    "needs_review": false,
+    "src": "wikidata:Q10943025",
+    "type": "copyright"
+  },
+  "wild_arms_series": {
+    "ja": "ワイルドアームズシリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q4978563",
+    "type": "copyright"
+  },
+  "winnie_the_pooh": {
+    "ja": "くまのプーさん",
+    "needs_review": false,
+    "src": "wikidata:Q17984894",
+    "type": "copyright"
+  },
+  "wolf_guy": {
+    "ja": "ウルフガイ",
+    "needs_review": false,
+    "src": "wikidata:Q162469",
+    "type": "copyright"
+  },
+  "wolfwalkers": {
+    "ja": "ウルフウォーカー",
+    "needs_review": false,
+    "src": "wikidata:Q68681463",
+    "type": "copyright"
+  },
+  "wolverine": {
+    "ja": "ウルヴァリン",
+    "needs_review": false,
+    "src": "wikidata:Q4020700",
+    "type": "copyright"
+  },
+  "wonderful_days": {
+    "ja": "ワンダフルデイズ",
+    "needs_review": false,
+    "src": "wikidata:Q488937",
+    "type": "copyright"
+  },
+  "woody_woodpecker": {
+    "ja": "ウッディー・ウッドペッカー",
+    "needs_review": false,
+    "src": "wikidata:Q59828807",
+    "type": "copyright"
+  },
+  "working!!": {
+    "ja": "WORKING!!",
+    "needs_review": false,
+    "src": "wikidata:Q106641636",
+    "type": "copyright"
+  },
+  "working!!_series": {
+    "ja": "WORKING!! シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q106641636",
+    "type": "copyright"
+  },
+  "world_of_final_fantasy_(video_game)": {
+    "ja": "ワールド オブ ファイナルファンタジー",
+    "needs_review": false,
+    "src": "wikidata:Q20189428",
+    "type": "copyright"
+  },
+  "world_witches_series": {
+    "ja": "ワールドウィッチーズシリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q1202631",
+    "type": "copyright"
+  },
+  "x-men": {
+    "ja": "X-MEN",
+    "needs_review": false,
+    "src": "wikidata:Q1340065",
+    "type": "copyright"
+  },
+  "x-men_(2011_anime)": {
+    "ja": "エックスメン",
+    "needs_review": false,
+    "src": "wikidata:Q4021197",
+    "type": "copyright"
+  },
+  "x-men_the_animated_series": {
+    "ja": "X-MEN シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q1340065",
+    "type": "copyright"
+  },
+  "x_series": {
+    "ja": "X シリーズ",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "xxxholic": {
+    "ja": "xxxHOLiC",
+    "needs_review": false,
+    "src": "wikidata:Q116695507",
+    "type": "copyright"
+  },
+  "yaiba_series": {
+    "ja": "YAIBA シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q626947",
+    "type": "copyright"
+  },
+  "yamato_series": {
+    "ja": "宇宙戦艦ヤマト",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "yatterman_series": {
+    "ja": "ヤッターマン",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
   },
   "yoshihiko_umakoshi": {
     "count": 0,
@@ -157,5 +3775,71 @@
     "needs_review": false,
     "src": "manual:https://www.wikidata.org/wiki/Q919281",
     "type": "artist"
+  },
+  "you're_under_arrest_(tv)": {
+    "ja": "逮捕しちゃうぞ (TV)",
+    "needs_review": false,
+    "src": "wikidata:Q3211899",
+    "type": "copyright"
+  },
+  "youkai_ningen_bem_series": {
+    "ja": "妖怪人間ベム シリーズ",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "youkai_watch": {
+    "ja": "妖怪ウォッチ",
+    "needs_review": false,
+    "src": "wikidata:Q11446791",
+    "type": "copyright"
+  },
+  "youkai_watch_series": {
+    "ja": "妖怪ウォッチ シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q11446791",
+    "type": "copyright"
+  },
+  "youkoso_jitsuryoku_shijou_shugi_no_kyoushitsu_e_series": {
+    "ja": "ようこそ実力至上主義の教室へ シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q137109062",
+    "type": "copyright"
+  },
+  "yu-gi-oh!_gx": {
+    "ja": "遊☆戯☆王デュエルモンスターズGX",
+    "needs_review": false,
+    "src": "wikidata:Q527316",
+    "type": "copyright"
+  },
+  "yu_yu_hakusho": {
+    "ja": "幽☆遊☆白書",
+    "needs_review": false,
+    "src": "wikidata:Q286950",
+    "type": "copyright"
+  },
+  "yu_yu_hakusho_series": {
+    "ja": "幽☆遊☆白書 シリーズ",
+    "needs_review": false,
+    "src": "manual",
+    "type": "copyright"
+  },
+  "yuri_seijin_naoko-san_(2010)": {
+    "ja": "百合星人ナオコサン (2010)",
+    "needs_review": false,
+    "src": "wikidata:Q8061598",
+    "type": "copyright"
+  },
+  "yuri_seijin_naoko-san_(2012)": {
+    "ja": "百合星人ナオコサン (2012)",
+    "needs_review": false,
+    "src": "wikidata:Q8061598",
+    "type": "copyright"
+  },
+  "zaregoto_series": {
+    "ja": "戯言シリーズ",
+    "needs_review": false,
+    "src": "wikidata:Q8066727",
+    "type": "copyright"
   }
 }

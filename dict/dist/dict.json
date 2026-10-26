@@ -2804,6 +2804,9 @@
     "07-ghost": {
       "ja": "07-GHOST"
     },
+    "101_dalmatians": {
+      "ja": "101匹わんちゃん"
+    },
     "16bit_sensation:_another_layer": {
       "ja": "16bitセンセーション ANOTHER LAYER"
     },
@@ -2867,6 +2870,9 @@
     "a_whisker_away": {
       "ja": "泣きたい私は猫をかぶる"
     },
+    "aa!_megami-sama!_series": {
+      "ja": "ああっ女神さまっ"
+    },
     "abara": {
       "ja": "ABARA"
     },
@@ -2885,6 +2891,9 @@
     "acchi_kocchi": {
       "ja": "あっちこっち"
     },
+    "ace_attorney_(series)": {
+      "ja": "逆転裁判"
+    },
     "ace_of_diamond": {
       "ja": "ダイヤのA"
     },
@@ -2893,6 +2902,9 @@
     },
     "ace_wo_nerae!_(1979)": {
       "ja": "エースをねらえ! (1979)"
+    },
+    "ace_wo_nerae!_series": {
+      "ja": "エースをねらえ!"
     },
     "acro_trip": {
       "ja": "アクロトリップ"
@@ -2939,6 +2951,12 @@
     "ai_city": {
       "ja": "アイ・シティ"
     },
+    "ai_mai_mi": {
+      "ja": "ちょぼらうにょぽみ劇場 あいまいみー"
+    },
+    "aikatsu!": {
+      "ja": "アイカツ!"
+    },
     "aikatsu!_series": {
       "ja": "アイカツ! シリーズ"
     },
@@ -2954,11 +2972,17 @@
     "aikatsu_stars!": {
       "ja": "アイカツスターズ!"
     },
+    "air": {
+      "ja": "AIR"
+    },
     "air_gear": {
       "ja": "エア・ギア"
     },
     "air_master": {
       "ja": "エアマスター"
+    },
+    "air_series": {
+      "ja": "AIR シリーズ"
     },
     "aiura": {
       "ja": "あいうら"
@@ -3008,6 +3032,9 @@
     "akikan": {
       "ja": "アキカン!"
     },
+    "akira": {
+      "ja": "AKIRA"
+    },
     "aku_no_hana": {
       "ja": "惡の華"
     },
@@ -3029,11 +3056,23 @@
     "akuyaku_reijou_tensei_ojisan": {
       "ja": "悪役令嬢転生おじさん"
     },
+    "aladdin": {
+      "ja": "アラジン"
+    },
+    "aladdin_series": {
+      "ja": "アラジン シリーズ"
+    },
+    "alchemy_stars_(game)": {
+      "ja": "白夜極光"
+    },
     "aldnoah_zero": {
       "ja": "アルドノア・ゼロ"
     },
     "alice_in_cyberland": {
       "ja": "ありす in Cyberland"
+    },
+    "alice_in_wonderland": {
+      "ja": "ふしぎの国のアリス"
     },
     "alice_to_therese_no_maboroshi_koujou": {
       "ja": "アリスとテレスのまぼろし工場"
@@ -3060,11 +3099,17 @@
     "alpine_climbers": {
       "ja": "ミッキーの山登り"
     },
+    "alvin_and_the_chipmunks": {
+      "ja": "アルビンとチップマンクス"
+    },
     "amaama_to_inazuma": {
       "ja": "甘々と稲妻"
     },
     "amagami-san_chi_no_enmusubi": {
       "ja": "甘神さんちの縁結び"
+    },
+    "amagami_series": {
+      "ja": "アマガミ シリーズ"
     },
     "amagami_ss": {
       "ja": "アマガミSS"
@@ -3078,17 +3123,35 @@
     "american_pop": {
       "ja": "アメリカン・ポップ"
     },
+    "amnesia": {
+      "ja": "AMNESIA"
+    },
     "amon_saga": {
       "ja": "アモン・サーガ"
+    },
+    "amphibia": {
+      "ja": "ふしぎの国 アンフィビア"
     },
     "an_american_tail": {
       "ja": "アメリカ物語"
     },
+    "anastasia": {
+      "ja": "アナスタシア"
+    },
     "ange_vierge": {
       "ja": "アンジュ・ヴィエルジュ"
     },
+    "angel's_egg": {
+      "ja": "天使のたまご"
+    },
     "angel_beats": {
       "ja": "Angel Beats!"
+    },
+    "angel_blade": {
+      "ja": "エンジェルブレイド"
+    },
+    "angelic_layer": {
+      "ja": "機動天使エンジェリックレイヤー"
     },
     "angelina_ballerina": {
       "ja": "アンジェリーナはバレリーナ"
@@ -3099,8 +3162,20 @@
     "anima_yell!": {
       "ja": "アニマエール!"
     },
+    "animaniacs": {
+      "ja": "アニマニアックス"
+    },
+    "animaniacs_(1993)": {
+      "ja": "アニマニアックス (1993)"
+    },
+    "animaniacs_(2020)": {
+      "ja": "アニマニアックス (2020)"
+    },
     "animation_runner_kuromi": {
       "ja": "アニメーション制作進行くろみちゃん"
+    },
+    "animator_vs._animation_series": {
+      "ja": "アニメーターvsアニメーション シリーズ"
     },
     "animatrix": {
       "ja": "アニマトリックス"
@@ -3110,6 +3185,12 @@
     },
     "anmitsu_hime": {
       "ja": "あんみつ姫"
+    },
+    "anne_of_green_gables": {
+      "ja": "赤毛のアン"
+    },
+    "anne_of_green_gables_series": {
+      "ja": "赤毛のアン シリーズ"
     },
     "anne_shirley": {
       "ja": "アン・シャーリー"
@@ -3131,6 +3212,12 @@
     },
     "ansatsusha_de_aru_ore_no_status_ga_yuusha_yori_mo_akiraka_ni_tsuyoi_no_da_ga": {
       "ja": "暗殺者である俺のステータスが勇者よりも明らかに強いのだが"
+    },
+    "ao_no_exorcist": {
+      "ja": "青の祓魔師"
+    },
+    "ao_no_exorcist_series": {
+      "ja": "青の祓魔師 シリーズ"
     },
     "ao_no_orchestra": {
       "ja": "青のオーケストラ"
@@ -3158,6 +3245,12 @@
     },
     "aoki_ryusei_spt_layzner": {
       "ja": "蒼き流星SPTレイズナー"
+    },
+    "aoki_ryusei_spt_layzner_(ova)": {
+      "ja": "蒼き流星SPTレイズナー (OVA)"
+    },
+    "aoki_ryusei_spt_layzner_(tv)": {
+      "ja": "蒼き流星SPTレイズナー (TV)"
     },
     "aoyama_gosho_tanpenshuu": {
       "ja": "青山剛昌短編集"
@@ -3192,8 +3285,17 @@
     "arcadia_of_my_youth": {
       "ja": "わが青春のアルカディア"
     },
+    "arcane": {
+      "ja": "アーケイン"
+    },
     "arcane_season_2": {
       "ja": "アーケイン　（シーズン2）"
+    },
+    "archenemy": {
+      "ja": "ミュータント：マックス"
+    },
+    "arco": {
+      "ja": "ARCO/アルコ"
     },
     "area_88": {
       "ja": "エリア88"
@@ -3201,11 +3303,17 @@
     "argento_soma": {
       "ja": "アルジェントソーマ"
     },
+    "aria_series": {
+      "ja": "ARIA シリーズ"
+    },
     "aria_the_animation": {
       "ja": "ARIA The ANIMATION"
     },
     "aria_the_natural": {
       "ja": "ARIA The NATURAL"
+    },
+    "ariel": {
+      "ja": "ARIEL"
     },
     "arifureta_shokugyou_de_sekai_saikyou": {
       "ja": "ありふれた職業で世界最強"
@@ -3215,6 +3323,9 @@
     },
     "arknights": {
       "ja": "アークナイツ"
+    },
+    "arknights_tv_series": {
+      "ja": "アークナイツ シリーズ"
     },
     "armitage_iii": {
       "ja": "アミテージ・ザ・サード"
@@ -3240,6 +3351,12 @@
     "arslan_senki": {
       "ja": "アルスラーン戦記"
     },
+    "arslan_senki_(ova)": {
+      "ja": "アルスラーン戦記 (OVA)"
+    },
+    "aru_majo_ga_shinu_made": {
+      "ja": "ある魔女が死ぬまで"
+    },
     "asagao_to_kase-san": {
       "ja": "あさがおと加瀬さん。"
     },
@@ -3260,6 +3377,12 @@
     },
     "asobi_ni_ikuyo": {
       "ja": "あそびにいくヨ!"
+    },
+    "assassination_classroom": {
+      "ja": "暗殺教室"
+    },
+    "assassination_classroom_series": {
+      "ja": "暗殺教室 シリーズ"
     },
     "assassins_pride": {
       "ja": "アサシンズプライド"
@@ -3291,14 +3414,23 @@
     "atashin'chi_the_movie": {
       "ja": "映画 あたしンち"
     },
+    "atelier_series": {
+      "ja": "アトリエシリーズ"
+    },
     "atlantis:_the_lost_empire": {
       "ja": "アトランティス 失われた帝国"
     },
     "atom:_the_beginning": {
       "ja": "アトム ザ・ビギニング"
     },
+    "avatar:_the_last_airbender": {
+      "ja": "アバター 伝説の少年アン"
+    },
     "avatar_aang:_the_last_airbender": {
       "ja": "アバター・アン: ラスト・エアベンダー"
+    },
+    "avatar_series": {
+      "ja": "アバター 伝説の少年アン シリーズ"
     },
     "awajima_hyakkei": {
       "ja": "淡島百景"
@@ -3309,14 +3441,32 @@
     "azuki-chan": {
       "ja": "あずきちゃん"
     },
+    "azumanga_daioh": {
+      "ja": "あずまんが大王"
+    },
     "azur_lane": {
       "ja": "アズールレーン"
+    },
+    "azur_lane_(tv)": {
+      "ja": "アズールレーン (TV)"
     },
     "azur_lane_series": {
       "ja": "アズールレーン シリーズ"
     },
+    "b-daman_series": {
+      "ja": "ビーダマンシリーズ"
+    },
+    "b:_the_beginning_series": {
+      "ja": "B: The Beginning シリーズ"
+    },
     "babanba_banban_vampire": {
       "ja": "ババンババンバンバンパイア"
+    },
+    "baby_steps": {
+      "ja": "ベイビーステップ"
+    },
+    "babylon": {
+      "ja": "バビロン"
     },
     "baccano": {
       "ja": "バッカーノ!"
@@ -3336,8 +3486,14 @@
     "bakemono_no_ko": {
       "ja": "バケモノの子"
     },
+    "bakemonogatari": {
+      "ja": "化物語"
+    },
     "bakeneko_anzu-chan": {
       "ja": "化け猫あんずちゃん"
+    },
+    "baki-dou": {
+      "ja": "刃牙道"
     },
     "baki_hanma": {
       "ja": "範馬刃牙"
@@ -3354,6 +3510,9 @@
     "bakugan_battle_planet": {
       "ja": "爆丸バトルプラネット"
     },
+    "bakugan_series": {
+      "ja": "爆丸 シリーズ"
+    },
     "bakuman": {
       "ja": "バクマン。"
     },
@@ -3363,17 +3522,26 @@
     "bakuretsu_tenshi": {
       "ja": "爆裂天使"
     },
+    "bakusou_kyoudai_lets_and_go_series": {
+      "ja": "爆走兄弟レッツ&ゴー!! シリーズ"
+    },
     "bakuten!!": {
       "ja": "バクテン!!"
     },
     "bakuten_shoot_beyblade": {
       "ja": "爆転シュート ベイブレード"
     },
+    "bakuten_shoot_beyblade_(2002)": {
+      "ja": "爆転シュート ベイブレード2002"
+    },
     "bakutou_sengen_daigunder": {
       "ja": "爆闘宣言ダイガンダー"
     },
     "bakutsuri_bar_hunter": {
       "ja": "爆釣バーハンター"
+    },
+    "bambi": {
+      "ja": "バンビ"
     },
     "bambi_ii": {
       "ja": "バンビ2 森のプリンス"
@@ -3405,6 +3573,9 @@
     "bari_bari_densetsu": {
       "ja": "バリバリ伝説"
     },
+    "basara_series": {
+      "ja": "戦国BASARA シリーズ"
+    },
     "baseball_bugs": {
       "ja": "バッグスの野球狂時代"
     },
@@ -3416,6 +3587,21 @@
     },
     "basquash!": {
       "ja": "バスカッシュ!"
+    },
+    "bastard": {
+      "ja": "BASTARD!! -暗黒の破壊神-"
+    },
+    "bastard!!:ankoku_no_hakaishin_series": {
+      "ja": "BASTARD!! -暗黒の破壊神- シリーズ"
+    },
+    "bastard_series": {
+      "ja": "BASTARD!! -暗黒の破壊神- シリーズ"
+    },
+    "batman": {
+      "ja": "バットマン"
+    },
+    "batman:_the_animated_series": {
+      "ja": "バットマン シリーズ"
     },
     "batman:_under_the_red_hood": {
       "ja": "バットマン:アンダー・ザ・レッドフード"
@@ -3434,6 +3620,12 @@
     },
     "batman_vs_teenage_mutant_ninja_turtles": {
       "ja": "バットマン VS. ティーンエイジ・ミュータント・ニンジャ・タートルズ"
+    },
+    "battery": {
+      "ja": "バッテリー"
+    },
+    "battle_arena_toshinden": {
+      "ja": "闘神伝"
     },
     "battle_athletes": {
       "ja": "バトルアスリーテス 大運動会"
@@ -3462,14 +3654,26 @@
     "battle_tryst": {
       "ja": "バトルトライスト"
     },
+    "battleborn": {
+      "ja": "バトルボーン"
+    },
+    "be-bop_highschool": {
+      "ja": "ビー・バップ・ハイスクール"
+    },
     "beast_wars_ii": {
       "ja": "ビーストウォーズII 超生命体トランスフォーマー"
     },
     "beast_wars_neo": {
       "ja": "ビーストウォーズネオ 超生命体トランスフォーマー"
     },
+    "beastars_series": {
+      "ja": "BEASTARS シリーズ"
+    },
     "beatless": {
       "ja": "BEATLESS"
+    },
+    "beauty_and_the_beast": {
+      "ja": "美女と野獣"
     },
     "beavis_and_butthead": {
       "ja": "BEAVIS AND BUTT-HEAD"
@@ -3480,14 +3684,23 @@
     "beelzebub": {
       "ja": "べるぜバブ"
     },
+    "beetlejuice:_the_animated_series": {
+      "ja": "ビートルジュース シリーズ"
+    },
     "bem:_become_human": {
       "ja": "劇場版BEM 〜BECOME HUMAN〜"
     },
     "ben-to": {
       "ja": "ベン・トー"
     },
+    "ben_10": {
+      "ja": "ベン10"
+    },
     "ben_10_(2005)": {
       "ja": "ベン10 (2005)"
+    },
+    "berserk": {
+      "ja": "ベルセルク"
     },
     "berserk_(1997)": {
       "ja": "剣風伝奇ベルセルク (1997)"
@@ -3504,6 +3717,9 @@
     "beyblade_x": {
       "ja": "BEYBLADE X"
     },
+    "beyond": {
+      "ja": "ビヨンド"
+    },
     "beywheelz": {
       "ja": "ベイホイールズ"
     },
@@ -3513,11 +3729,17 @@
     "bikkuriman": {
       "ja": "ビックリマン"
     },
+    "billposters": {
+      "ja": "ドナルドとヤギ"
+    },
     "binan_koukou_chikyuu_bouei_bu_haikara": {
       "ja": "美男高校地球防衛部ハイカラ!"
     },
     "binan_koukou_chikyuu_bouei_bu_love!": {
       "ja": "美男高校地球防衛部LOVE!"
+    },
+    "binan_koukou_chikyuu_bouei_bu_series": {
+      "ja": "美男高校地球防衛部 シリーズ"
     },
     "binbogami_ga!": {
       "ja": "貧乏神が!"
@@ -3531,6 +3753,9 @@
     "bird_karma": {
       "ja": "鳥のカルマ"
     },
+    "birth": {
+      "ja": "BIRTH"
+    },
     "birthday_wonderland": {
       "ja": "バースデー・ワンダーランド"
     },
@@ -3543,6 +3768,12 @@
     "bishounen_tanteidan": {
       "ja": "美少年探偵団"
     },
+    "black_bullet": {
+      "ja": "ブラック・ブレット"
+    },
+    "black_cat": {
+      "ja": "BLACK CAT"
+    },
     "black_clover": {
       "ja": "ブラッククローバー"
     },
@@ -3551,6 +3782,9 @@
     },
     "black_heaven": {
       "ja": "課長王子"
+    },
+    "black_jack": {
+      "ja": "ブラック・ジャック"
     },
     "black_lagoon": {
       "ja": "BLACK LAGOON"
@@ -3567,14 +3801,23 @@
     "black_rock_shooter": {
       "ja": "ブラック★ロックシューター"
     },
+    "black_rock_shooter_(tv)": {
+      "ja": "ブラック★ロックシューター (TV)"
+    },
     "black_torch": {
       "ja": "BLACK TORCH"
     },
     "blackfox": {
       "ja": "BLACKFOX"
     },
+    "blade_(2011_anime)": {
+      "ja": "ブレイド"
+    },
     "blade_of_the_immortal": {
       "ja": "無限の住人"
+    },
+    "blade_of_the_immortal_(2019)": {
+      "ja": "無限の住人-IMMORTAL-"
     },
     "blade_runner_black_out_2022": {
       "ja": "ブレードランナー ブラックアウト2022"
@@ -3624,20 +3867,35 @@
     "blood-c": {
       "ja": "BLOOD-C"
     },
+    "blood:_the_last_vampire": {
+      "ja": "BLOOD THE LAST VAMPIRE"
+    },
     "blood_lad": {
       "ja": "ブラッドラッド"
     },
     "blood_reign:_curse_of_the_yoma": {
       "ja": "妖魔"
     },
+    "blood_series": {
+      "ja": "BLOOD シリーズ"
+    },
     "blue_archive": {
       "ja": "ブルーアーカイブ -Blue Archive-"
+    },
+    "blue_archive_(game)": {
+      "ja": "ブルーアーカイブ"
     },
     "blue_archive_the_animation": {
       "ja": "ブルーアーカイブ The Animation"
     },
     "blue_box": {
       "ja": "アオのハコ"
+    },
+    "blue_dragon": {
+      "ja": "BLUE DRAGON"
+    },
+    "blue_dragon_series": {
+      "ja": "BLUE DRAGON シリーズ"
     },
     "blue_gender": {
       "ja": "BLUE GENDER"
@@ -3678,14 +3936,26 @@
     "bodacious_space_pirates": {
       "ja": "モーレツ宇宙海賊"
     },
+    "bofuri_series": {
+      "ja": "痛いのは嫌なので防御力に極振りしたいと思います。"
+    },
     "boku_dake_ga_inai_machi": {
       "ja": "僕だけがいない街"
+    },
+    "boku_no_son_goku": {
+      "ja": "ぼくの孫悟空"
     },
     "boku_to_roboco": {
       "ja": "僕とロボコ"
     },
+    "boku_wa_tomodachi_ga_sukunai": {
+      "ja": "僕は友達が少ない"
+    },
     "bokurano": {
       "ja": "ぼくらの"
+    },
+    "bokurano_(mv)": {
+      "ja": "ぼくらの (MV)"
     },
     "bokutachi_no_remake": {
       "ja": "ぼくたちのリメイク"
@@ -3693,8 +3963,17 @@
     "bokutachi_wa_benkyou_ga_dekinai": {
       "ja": "ぼくたちは勉強ができない"
     },
+    "bomberman": {
+      "ja": "ボンバーマン"
+    },
     "bomberman_jetters": {
       "ja": "ボンバーマンジェッターズ"
+    },
+    "bonkers": {
+      "ja": "ボンカーズ"
+    },
+    "boogiepop_series": {
+      "ja": "ブギーポップシリーズ"
     },
     "boogiepop_wa_warawanai": {
       "ja": "ブギーポップは笑わない"
@@ -3707,6 +3986,9 @@
     },
     "bouken_ou_beet": {
       "ja": "冒険王ビィト"
+    },
+    "bouken_ou_beet_(jump_festa_pv)": {
+      "ja": "冒険王ビィト (PV)"
     },
     "bouken_ou_beet_excellion": {
       "ja": "冒険王ビィト エクセリオン"
@@ -3741,17 +4023,35 @@
     "brave_series": {
       "ja": "勇者シリーズ"
     },
+    "brave_story": {
+      "ja": "ブレイブ ストーリー"
+    },
     "brawl_stars": {
       "ja": "ブロスタ"
     },
+    "brawlhalla": {
+      "ja": "Brawlhalla"
+    },
     "break_blade": {
       "ja": "ブレイク ブレイド"
+    },
+    "break_blade_(tv)": {
+      "ja": "ブレイク ブレイド (TV)"
+    },
+    "breakers": {
+      "ja": "ブレーカーズ"
+    },
+    "brigadoon": {
+      "ja": "BRIGADOON まりんとメラン"
     },
     "bt_x": {
       "ja": "B'T-X"
     },
     "btooom!": {
       "ja": "BTOOOM!"
+    },
+    "bubble": {
+      "ja": "バブル"
     },
     "bubblegum_crisis": {
       "ja": "バブルガムクライシス"
@@ -3825,6 +4125,9 @@
     "buzz_lightyear_of_star_command": {
       "ja": "スペースレンジャー バズ・ライトイヤー"
     },
+    "caligula": {
+      "ja": "Caligula -カリギュラ-"
+    },
     "call_me_tonight": {
       "ja": "Call Me トゥナイト"
     },
@@ -3894,11 +4197,20 @@
     "casshern_sins": {
       "ja": "キャシャーン Sins"
     },
+    "castlevania": {
+      "ja": "悪魔城ドラキュラ -キャッスルヴァニア-"
+    },
     "castlevania:_nocturne": {
       "ja": "悪魔城ドラキュラ -キャッスルヴァニア-: 月夜のノクターン"
     },
     "castlevania_series": {
       "ja": "悪魔城ドラキュラ シリーズ"
+    },
+    "cat_soup": {
+      "ja": "ねこぢる草"
+    },
+    "catherine_(game)": {
+      "ja": "キャサリン"
     },
     "catnapped!": {
       "ja": "バニパルウィット 突然!猫の国"
@@ -3939,14 +4251,23 @@
     "chi.:_chikyuu_no_undou_ni_tsuite": {
       "ja": "チ。-地球の運動について-"
     },
+    "chibi_maruko-chan": {
+      "ja": "ちびまる子ちゃん"
+    },
     "chichibu_de_buchichi": {
       "ja": "ちちぶでぶちち"
+    },
+    "chicken_little": {
+      "ja": "チキン・リトル"
     },
     "chihayafuru": {
       "ja": "ちはやふる"
     },
     "chihayafuru_series": {
       "ja": "ちはやふる シリーズ"
+    },
+    "chiikawa": {
+      "ja": "ちいかわ"
     },
     "chiisana_kyojin_microman": {
       "ja": "ミクロマン・マグネパワーズ"
@@ -4017,8 +4338,14 @@
     "cider_no_you_ni_kotoba_ga_wakiagaru": {
       "ja": "サイダーのように言葉が湧き上がる"
     },
+    "cinderella": {
+      "ja": "シンデレラ"
+    },
     "cinderella_monogatari": {
       "ja": "シンデレラ物語"
+    },
+    "city_hunter": {
+      "ja": "シティーハンター"
     },
     "city_hunter:_ai_to_shukumei_no_magnum": {
       "ja": "シティーハンター 愛と宿命のマグナム"
@@ -4026,11 +4353,23 @@
     "city_hunter:_shinjuku_private_eyes": {
       "ja": "劇場版シティーハンター 〈新宿プライベート・アイズ〉"
     },
+    "city_hunter_series": {
+      "ja": "シティーハンター シリーズ"
+    },
     "city_the_animation": {
       "ja": "CITY THE ANIMATION"
     },
     "clamp_in_wonderland": {
       "ja": "CLAMP IN WONDERLAND"
+    },
+    "clannad": {
+      "ja": "CLANNAD"
+    },
+    "clannad_series": {
+      "ja": "CLANNAD シリーズ"
+    },
+    "clarence": {
+      "ja": "ぼくはクラレンス!"
     },
     "class_de_2-banme_ni_kawaii_onnanoko_to_tomodachi_ni_natta": {
       "ja": "クラスで2番目に可愛い女の子と友だちになった"
@@ -4041,7 +4380,13 @@
     "classroom_crisis": {
       "ja": "クラスルーム☆クライシス"
     },
+    "cleopatra": {
+      "ja": "クレオパトラ"
+    },
     "clevatess:_majuu_no_ou_to_akago_to_shikabane_no_yuusha": {
+      "ja": "クレバテス-魔獣の王と赤子と屍の勇者-"
+    },
+    "clevatess_series": {
       "ja": "クレバテス-魔獣の王と赤子と屍の勇者-"
     },
     "clock_cleaners": {
@@ -4050,11 +4395,17 @@
     "clockwork_planet": {
       "ja": "クロックワーク・プラネット"
     },
+    "clover": {
+      "ja": "CLOVER"
+    },
     "clown_of_the_jungle": {
       "ja": "ジャングルのおどけ者"
     },
     "cluster_edge": {
       "ja": "CLUSTER EDGE"
+    },
+    "cobra_command_(video_game)": {
+      "ja": "サンダーストーム"
     },
     "code_breaker": {
       "ja": "CØDE:BREAKER"
@@ -4062,11 +4413,20 @@
     "code_geass": {
       "ja": "コードギアス"
     },
+    "code_of_joker_(video_game)": {
+      "ja": "CODE OF JOKER"
+    },
     "code_vein": {
       "ja": "CODE VEIN"
     },
+    "colorful": {
+      "ja": "カラフル"
+    },
     "colorful_(1999)": {
       "ja": "COLORFUL (1999)"
+    },
+    "colors_(mv)": {
+      "ja": "COLORs"
     },
     "comet_lucifer": {
       "ja": "コメット・ルシファー"
@@ -4082,6 +4442,12 @@
     },
     "compiler": {
       "ja": "Compiler"
+    },
+    "conception": {
+      "ja": "CONCEPTION"
+    },
+    "connected": {
+      "ja": "ミッチェル家とマシンの反乱"
     },
     "cooking_with_valkyries": {
       "ja": "戦乙女の食卓"
@@ -4134,8 +4500,14 @@
     "cross_ange:_tenshi_to_ryuu_no_rondo": {
       "ja": "クロスアンジュ 天使と竜の輪舞"
     },
+    "crossroad": {
+      "ja": "クロスロード"
+    },
     "crusher_joe": {
       "ja": "クラッシャージョウ"
+    },
+    "crying_freeman": {
+      "ja": "クライング フリーマン"
     },
     "crymachina": {
       "ja": "クライマキナ"
@@ -4145,6 +4517,15 @@
     },
     "cue!": {
       "ja": "CUE!"
+    },
+    "cuphead": {
+      "ja": "Cuphead"
+    },
+    "cuphead_(video_game)": {
+      "ja": "Cuphead (ゲーム)"
+    },
+    "cutey_honey_series": {
+      "ja": "キューティーハニー シリーズ"
     },
     "cuticle_tantei_inaba": {
       "ja": "キューティクル探偵因幡"
@@ -4166,6 +4547,9 @@
     },
     "cyborg_009_(1979)": {
       "ja": "サイボーグ009 (1979)"
+    },
+    "cyborg_009_(2001)": {
+      "ja": "サイボーグ009 THE CYBORG SOLDIER"
     },
     "d-frag!": {
       "ja": "ディーふらぐ!"
@@ -4212,8 +4596,14 @@
     "dance_in_the_vampire_bund": {
       "ja": "ダンス イン ザ ヴァンパイアバンド"
     },
+    "dancougar_series": {
+      "ja": "ダンクーガ シリーズ"
+    },
     "dandadan": {
       "ja": "ダンダダン"
+    },
+    "dandelion": {
+      "ja": "だんでらいおん"
     },
     "danna_ga_nani_wo_itteiru_ka_wakaranai_ken": {
       "ja": "旦那が何を言っているかわからない件"
@@ -4223,6 +4613,9 @@
     },
     "dantalian_no_shoka": {
       "ja": "ダンタリアンの書架"
+    },
+    "darker_than_black": {
+      "ja": "DARKER THAN BLACK"
     },
     "darker_than_black:_kuro_no_keiyakusha": {
       "ja": "DARKER THAN BLACK -黒の契約者-"
@@ -4251,6 +4644,9 @@
     "date_a_live": {
       "ja": "デート・ア・ライブ"
     },
+    "dead_heat": {
+      "ja": "デッドヒート"
+    },
     "dead_leaves": {
       "ja": "DEAD LEAVES"
     },
@@ -4262,6 +4658,9 @@
     },
     "dear_basketball": {
       "ja": "親愛なるバスケットボール"
+    },
+    "death_note": {
+      "ja": "DEATH NOTE"
     },
     "death_parade": {
       "ja": "デス・ビリヤード"
@@ -4311,6 +4710,9 @@
     "desert_punk": {
       "ja": "砂ぼうず"
     },
+    "desire": {
+      "ja": "DESIRE"
+    },
     "detatoko_princess": {
       "ja": "でたとこプリンセス"
     },
@@ -4326,17 +4728,35 @@
     "detective_story": {
       "ja": "探偵物語"
     },
+    "devil_may_cry": {
+      "ja": "Devil May Cry"
+    },
+    "devil_may_cry_series": {
+      "ja": "Devil May Cry シリーズ"
+    },
     "devil_survivor_2": {
       "ja": "デビルサバイバー2"
     },
     "devilman": {
       "ja": "デビルマン"
     },
+    "devilman_(1972)": {
+      "ja": "デビルマン (1972)"
+    },
+    "devilman_(1987)": {
+      "ja": "デビルマン 誕生編"
+    },
     "devilman_lady": {
       "ja": "デビルマンレディー"
     },
     "di_gi_charat": {
       "ja": "デ・ジ・キャラット"
+    },
+    "digimon": {
+      "ja": "デジモン"
+    },
+    "digimon_adventure": {
+      "ja": "デジモンアドベンチャー"
     },
     "digimon_adventure_(2020)": {
       "ja": "デジモンアドベンチャー: (2020)"
@@ -4380,8 +4800,17 @@
     "dimension_w": {
       "ja": "Dimension W"
     },
+    "dinosaur_king": {
+      "ja": "古代王者 恐竜キング Dキッズ・アドベンチャー"
+    },
     "dirty_pair": {
       "ja": "ダーティペア"
+    },
+    "dirty_pair:_project_eden": {
+      "ja": "劇場版ダーティペア"
+    },
+    "dirty_pair_(tv)": {
+      "ja": "ダーティペア (TV)"
     },
     "dirty_pair_flash": {
       "ja": "ダーティペア Flash"
@@ -4404,8 +4833,20 @@
     "dna2": {
       "ja": "D・N・A² 〜何処かで失くしたあいつのアイツ〜"
     },
+    "do_it_yourself": {
+      "ja": "Do It Yourself!! -どぅー・いっと・ゆあせるふ-"
+    },
+    "dobutsu_no_mori": {
+      "ja": "劇場版 どうぶつの森"
+    },
+    "dog_days": {
+      "ja": "DOG DAYS"
+    },
     "dog_days'": {
       "ja": "DOG DAYS"
+    },
+    "dogs": {
+      "ja": "DOGS"
     },
     "dogs:_bullets_&_carnage": {
       "ja": "DOGS/BULLETS&CARNAGE"
@@ -4413,14 +4854,23 @@
     "dokidoki!_precure": {
       "ja": "ドキドキ!プリキュア"
     },
+    "dokkan_battle_(video_game)": {
+      "ja": "ドラゴンボールZ ドッカンバトル"
+    },
     "dokkiri_doctor": {
       "ja": "どっきりドクター"
+    },
+    "dokkoida": {
+      "ja": "住めば都のコスモス荘 すっとこ大戦ドッコイダー"
     },
     "dokyuu_hentai_hxeros": {
       "ja": "ド級編隊エグゼロス"
     },
     "dokyuusei_2": {
       "ja": "同級生2"
+    },
+    "dokyuusei_series": {
+      "ja": "同級生 シリーズ"
     },
     "dominion_tank_police": {
       "ja": "ドミニオン"
@@ -4473,6 +4923,9 @@
     "dorohedoro_series": {
       "ja": "ドロヘドロ シリーズ"
     },
+    "dororo": {
+      "ja": "どろろ"
+    },
     "dororo_(2019)": {
       "ja": "どろろ (2019)"
     },
@@ -4496,6 +4949,9 @@
     },
     "dr._stone_series": {
       "ja": "Dr.STONE シリーズ"
+    },
+    "dr_slump": {
+      "ja": "Dr.スランプ"
     },
     "dragon's_heaven": {
       "ja": "ドラゴンズヘブン"
@@ -4522,6 +4978,9 @@
     },
     "dragon_ball_super:_broly": {
       "ja": "ドラゴンボール超 ブロリー"
+    },
+    "dragon_ball_z": {
+      "ja": "ドラゴンボールZ"
     },
     "dragon_ball_z:_battle_of_gods": {
       "ja": "ドラゴンボールZ 神と神"
@@ -4565,11 +5024,26 @@
     "duck_pimples": {
       "ja": "ドナルドの恐怖の一夜"
     },
+    "ducktales": {
+      "ja": "わんぱくダック夢冒険"
+    },
+    "ducktales_(1987)": {
+      "ja": "わんぱくダック夢冒険 (1987)"
+    },
     "ducktales_2017": {
       "ja": "ダックテイルズ"
     },
     "duel_masters": {
       "ja": "デュエル・マスターズ"
+    },
+    "duel_masters_(2017)": {
+      "ja": "デュエル・マスターズ (2017)"
+    },
+    "duel_masters_(2017)_series": {
+      "ja": "デュエル・マスターズ (2017) シリーズ"
+    },
+    "duel_masters_king_series": {
+      "ja": "デュエル・マスターズ キング シリーズ"
     },
     "duel_masters_lost:_boukyaku_no_taiyou": {
       "ja": "Duel Masters LOST ～忘却の太陽～"
@@ -4583,14 +5057,23 @@
     "duel_masters_vs_series": {
       "ja": "デュエル・マスターズ シリーズ"
     },
+    "duel_masters_win_series": {
+      "ja": "デュエル・マスターズWIN シリーズ"
+    },
     "dumbbell_nan_kilo_moteru": {
       "ja": "ダンベル何キロ持てる?"
+    },
+    "dumbo": {
+      "ja": "ダンボ"
     },
     "dungeon_and_fighter": {
       "ja": "アラド戦記"
     },
     "dungeon_meshi": {
       "ja": "ダンジョン飯"
+    },
+    "dungeon_ni_deai_o_motomeru_no_wa_machigatte_iru_darouka_series": {
+      "ja": "ダンジョンに出会いを求めるのは間違っているだろうか シリーズ"
     },
     "durarara!!": {
       "ja": "デュラララ!!"
@@ -4625,6 +5108,9 @@
     "egao_no_daika": {
       "ja": "エガオノダイカ"
     },
+    "ehrgeiz": {
+      "ja": "ネクスト戦記EHRGEIZ"
+    },
     "eiga_daisuki_pompo_san": {
       "ja": "映画大好きポンポさん"
     },
@@ -4649,6 +5135,9 @@
     "eldlive": {
       "ja": "エルドライブ【élDLIVE】"
     },
+    "eldoran_series": {
+      "ja": "エルドランシリーズ"
+    },
     "elemental_gelade": {
       "ja": "エレメンタル ジェレイド"
     },
@@ -4658,8 +5147,23 @@
     "elfen_lied": {
       "ja": "エルフェンリート"
     },
+    "elsword": {
+      "ja": "エルソード"
+    },
     "emiya-san_chi_no_kyou_no_gohan": {
       "ja": "衛宮さんちの今日のごはん"
+    },
+    "emma:_a_victorian_romance": {
+      "ja": "英國戀物語エマ"
+    },
+    "emma:_a_victorian_romance_series": {
+      "ja": "英國戀物語エマ シリーズ"
+    },
+    "encanto": {
+      "ja": "ミラベルと魔法だらけの家"
+    },
+    "enchanted": {
+      "ja": "魔法にかけられて"
     },
     "endless_night": {
       "ja": "エンドレスナイト"
@@ -4670,6 +5174,9 @@
     "engage_kiss": {
       "ja": "Engage Kiss"
     },
+    "ensemble_stars!": {
+      "ja": "あんさんぶるスターズ!"
+    },
     "ergo_proxy": {
       "ja": "Ergo Proxy"
     },
@@ -4679,14 +5186,26 @@
     "eromanga_sensei": {
       "ja": "エロマンガ先生"
     },
+    "escaflowne_(movie)": {
+      "ja": "エスカフローネ"
+    },
     "eureka_seven_(2005)": {
       "ja": "交響詩篇エウレカセブン (2005)"
     },
     "eureka_seven_ao": {
       "ja": "エウレカセブンAO"
     },
+    "eureka_seven_series": {
+      "ja": "エウレカセブン シリーズ"
+    },
     "eve_the_lost_one": {
       "ja": "EVE The Lost One"
+    },
+    "excel_saga": {
+      "ja": "へっぽこ実験アニメーション エクセル♥サーガ"
+    },
+    "exodus": {
+      "ja": "エクソダス!"
     },
     "explorer_woman_ray": {
       "ja": "エクスプローラーウーマン・レイ"
@@ -4700,6 +5219,12 @@
     "fairy_ranmaru": {
       "ja": "Fairy蘭丸〜あなたの心お助けします〜"
     },
+    "fairy_tail": {
+      "ja": "FAIRY TAIL"
+    },
+    "fairy_tail:_100_years_quest": {
+      "ja": "FAIRY TAIL 100年クエスト"
+    },
     "fairy_tail:_dragon_cry": {
       "ja": "劇場版 FAIRY TAIL -DRAGON CRY-"
     },
@@ -4709,8 +5234,14 @@
     "family_guy": {
       "ja": "ファミリー・ガイ"
     },
+    "fantasia": {
+      "ja": "ファンタジア"
+    },
     "fantasia_2000": {
       "ja": "ファンタジア2000"
+    },
+    "fantasia_series": {
+      "ja": "ファンタジア シリーズ"
     },
     "fantasista_doll": {
       "ja": "ファンタジスタドール"
@@ -4720,6 +5251,9 @@
     },
     "fantasy_westward_journey": {
       "ja": "夢幻西遊"
+    },
+    "farmagia": {
+      "ja": "FARMAGIA"
     },
     "fatal_fury:_legend_of_the_hungry_wolf": {
       "ja": "バトルファイターズ 餓狼伝説"
@@ -4748,6 +5282,9 @@
     "fate/grand_order:_first_order": {
       "ja": "Fate/Grand Order -First Order-"
     },
+    "fate/grand_order_(game)": {
+      "ja": "Fate/Grand Order (ゲーム)"
+    },
     "fate/kaleid_liner_prisma☆illya": {
       "ja": "Fate/kaleid liner プリズマ☆イリヤ"
     },
@@ -4771,6 +5308,9 @@
     },
     "fate/stay_night_unlimited_blade_works": {
       "ja": "Fate/stay night UNLIMITED BLADE WORKS"
+    },
+    "fate/stay_night_unlimited_blade_works_(2014)": {
+      "ja": "Fate/stay night [Unlimited Blade Works]"
     },
     "fate/strange_fake": {
       "ja": "Fate/strange Fake"
@@ -4796,6 +5336,9 @@
     "fight_song": {
       "ja": "ファイトソング"
     },
+    "final_fantasy": {
+      "ja": "ファイナルファンタジー"
+    },
     "final_fantasy_xiv": {
       "ja": "ファイナルファンタジーXIV"
     },
@@ -4810,6 +5353,12 @@
     },
     "final_yamato": {
       "ja": "宇宙戦艦ヤマト 完結編"
+    },
+    "fire_emblem": {
+      "ja": "ファイアーエムブレム"
+    },
+    "fire_emblem_series": {
+      "ja": "ファイアーエムブレムシリーズ"
     },
     "fire_force": {
       "ja": "炎炎ノ消防隊"
@@ -4843,6 +5392,9 @@
     },
     "flcl_series": {
       "ja": "フリクリ シリーズ"
+    },
+    "flee": {
+      "ja": "FLEE フリー"
     },
     "flip_flappers": {
       "ja": "フリップフラッパーズ"
@@ -4915,6 +5467,9 @@
     },
     "fullmetal_alchemist_(2003)": {
       "ja": "鋼の錬金術師 (2003)"
+    },
+    "fullmetal_alchemist_2:_curse_of_the_crimson_elixir_(video_game)": {
+      "ja": "鋼の錬金術師2 赤きエリクシルの悪魔"
     },
     "fullmetal_alchemist_and_the_broken_angel": {
       "ja": "鋼の錬金術師 翔べない天使"
@@ -5024,6 +5579,12 @@
     "galaxy_express_999_(1979)": {
       "ja": "銀河鉄道999 (1979)"
     },
+    "galaxy_express_999_(tv)": {
+      "ja": "銀河鉄道999"
+    },
+    "galaxy_express_999_series": {
+      "ja": "銀河鉄道999"
+    },
     "galaxy_fraulein_yuna": {
       "ja": "銀河お嬢様伝説ユナ"
     },
@@ -5066,11 +5627,23 @@
     "garden_of_remembrance": {
       "ja": "Garden of Remembrance"
     },
+    "gargoyles": {
+      "ja": "ガーゴイルズ"
+    },
+    "garo_series": {
+      "ja": "牙狼〈GARO〉シリーズ"
+    },
     "gasaraki": {
       "ja": "ガサラキ"
     },
     "gatchaman_crowds": {
       "ja": "ガッチャマン クラウズ"
+    },
+    "gatchaman_series": {
+      "ja": "ガッチャマンシリーズ"
+    },
+    "gate": {
+      "ja": "GATE 自衛隊 彼の地にて、斯く戦えり"
     },
     "gate_keepers": {
       "ja": "ゲートキーパーズ"
@@ -5192,6 +5765,9 @@
     "ghost_concert:_missing_songs": {
       "ja": "ゴーストコンサート: missing Songs"
     },
+    "ghost_in_the_shell": {
+      "ja": "GHOST IN THE SHELL / 攻殻機動隊"
+    },
     "ghost_in_the_shell_series": {
       "ja": "攻殻機動隊 シリーズ"
     },
@@ -5201,8 +5777,14 @@
     "ghost_slayers_ayashi": {
       "ja": "天保異聞 妖奇士"
     },
+    "ghost_slayers_ayashi_(ova)": {
+      "ja": "天保異聞 妖奇士 (OVA)"
+    },
     "ghost_slayers_ayashi_series": {
       "ja": "天保異聞 妖奇士 シリーズ"
+    },
+    "ghost_sweeper_mikami": {
+      "ja": "GS美神"
     },
     "gi_joe": {
       "ja": "G.I.ジョー"
@@ -5213,11 +5795,17 @@
     "giant_robo": {
       "ja": "ジャイアントロボ"
     },
+    "giantland": {
+      "ja": "ミッキーの巨人征服"
+    },
     "ginga_e_kickoff": {
       "ja": "銀河へキックオフ!!"
     },
     "ginga_hyoryu_vifam": {
       "ja": "銀河漂流バイファム"
+    },
+    "ginga_hyoryu_vifam_(tv)": {
+      "ja": "銀河漂流バイファム (TV)"
     },
     "ginga_kikoutai_majestic_prince": {
       "ja": "銀河機攻隊 マジェスティックプリンス"
@@ -5273,6 +5861,9 @@
     "glitch_techs": {
       "ja": "グリッチ・テックス"
     },
+    "gnosia": {
+      "ja": "グノーシア"
+    },
     "go!_princess_precure": {
       "ja": "Go!プリンセスプリキュア"
     },
@@ -5282,8 +5873,14 @@
     "goblin_slayer_series": {
       "ja": "ゴブリンスレイヤー シリーズ"
     },
+    "gochiusa_series": {
+      "ja": "ご注文はうさぎですか?"
+    },
     "gochuumon_wa_usagi_desu_ka?": {
       "ja": "ご注文はうさぎですか?"
+    },
+    "god_eater": {
+      "ja": "GOD EATER"
     },
     "god_eater_(2015)": {
       "ja": "GOD EATER (2015)"
@@ -5299,6 +5896,9 @@
     },
     "goddamn": {
       "ja": "ガッデム"
+    },
+    "godzilla": {
+      "ja": "ゴジラ"
     },
     "godzilla_singular_point": {
       "ja": "ゴジラ S.P"
@@ -5317,6 +5917,9 @@
     },
     "gokushufudou": {
       "ja": "極主夫道"
+    },
+    "golden_boy": {
+      "ja": "GOLDEN BOY"
     },
     "golden_hour": {
       "ja": "ゴールデンアワー"
@@ -5357,6 +5960,9 @@
     "gosick": {
       "ja": "GOSICK -ゴシック-"
     },
+    "gotcha!": {
+      "ja": "GOTCHA!"
+    },
     "gotoubun_no_hanayome": {
       "ja": "五等分の花嫁"
     },
@@ -5393,6 +5999,9 @@
     "great_teacher_onizuka": {
       "ja": "GTO"
     },
+    "greed": {
+      "ja": "GREED"
+    },
     "green_eggs_and_ham": {
       "ja": "緑のたまごとハム ～サムとガイの大冒険～"
     },
@@ -5426,11 +6035,23 @@
     "grisaia_no_rakuen": {
       "ja": "グリザイアの楽園"
     },
+    "grisaia_series": {
+      "ja": "グリザイアシリーズ"
+    },
     "groove_adventure_rave": {
       "ja": "RAVE"
     },
+    "growlanser_series": {
+      "ja": "グローランサーシリーズ"
+    },
     "gu_gu_ganmo": {
       "ja": "Gu-Guガンモ"
+    },
+    "gu_gu_ganmo_(movie)": {
+      "ja": "Gu-Guガンモ (映画)"
+    },
+    "guardian_tales_(game)": {
+      "ja": "ガーディアンテイルズ"
     },
     "guilty_crown": {
       "ja": "ギルティクラウン"
@@ -5446,6 +6067,9 @@
     },
     "gulliver_no_uchuu_ryokou": {
       "ja": "ガリバーの宇宙旅行"
+    },
+    "gumball_series": {
+      "ja": "おかしなガムボール"
     },
     "gundam": {
       "ja": "ガンダム",
@@ -5472,6 +6096,9 @@
     "gundam_build_fighters_try": {
       "ja": "ガンダムビルドファイターズトライ"
     },
+    "gundam_build_series": {
+      "ja": "ガンダムビルドシリーズ"
+    },
     "gundam_perfect_mission": {
       "ja": "GUNDAM PERFECT MISSION"
     },
@@ -5493,11 +6120,20 @@
     "gunsmith_cats": {
       "ja": "ガンスミスキャッツ"
     },
+    "guskou_budori_no_denki_(1994)": {
+      "ja": "グスコーブドリの伝記"
+    },
     "guy:_double_target": {
       "ja": "ガイ -妖魔覚醒-"
     },
+    "guyver": {
+      "ja": "強殖装甲ガイバー"
+    },
     "h2": {
       "ja": "H2"
+    },
+    "hades_(video_game)_series": {
+      "ja": "HADES シリーズ"
     },
     "hades_project_zeorymer": {
       "ja": "冥王計画ゼオライマー"
@@ -5507,6 +6143,9 @@
     },
     "haibane_renmei": {
       "ja": "灰羽連盟"
+    },
+    "haifuri": {
+      "ja": "ハイスクール・フリート"
     },
     "haikara-san_ga_tooru": {
       "ja": "はいからさんが通る"
@@ -5532,8 +6171,17 @@
     "hakubo": {
       "ja": "薄暮"
     },
+    "hakuoki": {
+      "ja": "薄桜鬼"
+    },
     "halo_legends": {
       "ja": "Halo Legends"
+    },
+    "hamefura_series": {
+      "ja": "乙女ゲームの破滅フラグしかない悪役令嬢に転生してしまった…"
+    },
+    "hana_yori_dango": {
+      "ja": "花より男子"
     },
     "hanamaru_kindergarten": {
       "ja": "はなまる幼稚園"
@@ -5592,6 +6240,9 @@
     "harmonie": {
       "ja": "アルモニ"
     },
+    "haruhi_suzumiya_series": {
+      "ja": "涼宮ハルヒシリーズ"
+    },
     "harukana_receive": {
       "ja": "はるかなレシーブ"
     },
@@ -5646,6 +6297,9 @@
     "heavy_metal_l-gaim": {
       "ja": "重戦機エルガイム"
     },
+    "heavy_metal_l-gaim_(tv)": {
+      "ja": "重戦機エルガイム (TV)"
+    },
     "heavy_object": {
       "ja": "ヘヴィーオブジェクト"
     },
@@ -5670,11 +6324,17 @@
     "hen_semi": {
       "ja": "変ゼミ"
     },
+    "hen_semi_(ova)": {
+      "ja": "変ゼミ (OVA)"
+    },
     "hentai_ouji_to_warawanai_neko": {
       "ja": "変態王子と笑わない猫。"
     },
     "her_blue_sky": {
       "ja": "空の青さを知る人よ"
+    },
+    "hercules": {
+      "ja": "ヘラクレス"
     },
     "hero_bank": {
       "ja": "ヒーローバンク"
@@ -5700,8 +6360,14 @@
     "heybot!": {
       "ja": "ヘボット!"
     },
+    "hi-fi_rush_(video_game)": {
+      "ja": "Hi-Fi RUSH"
+    },
     "hi_no_tori_(1978)": {
       "ja": "火の鳥 (1978)"
+    },
+    "hi_no_tori_series": {
+      "ja": "火の鳥"
     },
     "hibi_wa_sugiredo_meshi_umashi": {
       "ja": "日々は過ぎれど飯うまし"
@@ -5739,6 +6405,9 @@
     "high_tide": {
       "ja": "フィッシュ・レース２"
     },
+    "highschool_dxd_series": {
+      "ja": "ハイスクールD×D シリーズ"
+    },
     "highschool_of_the_dead": {
       "ja": "学園黙示録 HIGHSCHOOL OF THE DEAD"
     },
@@ -5747,6 +6416,9 @@
     },
     "higurashi_no_naku_koro_ni_(2006)": {
       "ja": "ひぐらしのなく頃に (2006)"
+    },
+    "higurashi_no_naku_koro_ni_gou": {
+      "ja": "ひぐらしのなく頃に業"
     },
     "higurashi_no_naku_koro_ni_kai": {
       "ja": "ひぐらしのなく頃に解"
@@ -5769,6 +6441,9 @@
     "himegoto": {
       "ja": "ひめゴト"
     },
+    "himitsu_no_akko-chan_series": {
+      "ja": "ひみつのアッコちゃん"
+    },
     "hinako_note": {
       "ja": "ひなこのーと"
     },
@@ -5781,8 +6456,14 @@
     "hirogaru_sky!_precure": {
       "ja": "ひろがるスカイ!プリキュア"
     },
+    "his_and_her_circumstances": {
+      "ja": "彼氏彼女の事情"
+    },
     "hitohira": {
       "ja": "ひとひら"
+    },
+    "hitori_no_shita_the_outcast_series": {
+      "ja": "一人之下 the outcast シリーズ"
     },
     "hitoribocchi_no_marumaru_seikatsu": {
       "ja": "ひとりぼっちの○○生活"
@@ -5825,6 +6506,15 @@
     },
     "hoozuki_no_reitetsu": {
       "ja": "鬼灯の冷徹"
+    },
+    "horimiya": {
+      "ja": "ホリミヤ"
+    },
+    "horimiya_(ova)": {
+      "ja": "堀さんと宮村くん"
+    },
+    "horimiya_series": {
+      "ja": "ホリミヤ シリーズ"
     },
     "horizon_in_the_middle_of_nowhere": {
       "ja": "境界線上のホライゾン"
@@ -5904,6 +6594,12 @@
     "hyper_speed_grandoll": {
       "ja": "超光速グランドール"
     },
+    "hypinosis_microphone_series": {
+      "ja": "ヒプノシスマイク シリーズ"
+    },
+    "i''s_series": {
+      "ja": "I\"s シリーズ"
+    },
     "i_lost_my_body": {
       "ja": "失くした体"
     },
@@ -5927,6 +6623,12 @@
     },
     "ichigo_mashimaro": {
       "ja": "苺ましまろ"
+    },
+    "iczer_series": {
+      "ja": "イクサーシリーズ"
+    },
+    "idol_(mv)": {
+      "ja": "アイドル"
     },
     "idol_densetsu_eriko": {
       "ja": "アイドル伝説えり子"
@@ -5955,8 +6657,14 @@
     "idolmaster_xenoglossia": {
       "ja": "アイドルマスター XENOGLOSSIA"
     },
+    "idoly_pride": {
+      "ja": "IDOLY PRIDE"
+    },
     "igpx": {
       "ja": "IGPX"
+    },
+    "ika_musume_series": {
+      "ja": "侵略!イカ娘 シリーズ"
     },
     "ikebukuro_west_gate_park": {
       "ja": "池袋ウエストゲートパーク"
@@ -5969,6 +6677,9 @@
     },
     "ikki_tousen_series": {
       "ja": "一騎当千 シリーズ"
+    },
+    "ikkyu-san": {
+      "ja": "一休さん"
     },
     "ikoku_meiro_no_croisee": {
       "ja": "異国迷路のクロワーゼ"
@@ -5988,11 +6699,20 @@
     "in_this_corner_of_the_world": {
       "ja": "この世界の片隅に"
     },
+    "inazuma_eleven": {
+      "ja": "イナズマイレブン"
+    },
+    "inazuma_eleven_(movie)": {
+      "ja": "劇場版イナズマイレブン 最強軍団オーガ襲来"
+    },
     "inazuma_eleven_ares_no_tenbin": {
       "ja": "イナズマイレブン アレスの天秤"
     },
     "inazuma_eleven_go": {
       "ja": "イナズマイレブンGO"
+    },
+    "inazuma_eleven_go_(movie)": {
+      "ja": "劇場版イナズマイレブンGO 究極の絆 グリフォン"
     },
     "inazuma_eleven_orion_no_koukuin": {
       "ja": "イナズマイレブン オリオンの刻印"
@@ -6000,11 +6720,23 @@
     "inazuma_eleven_series": {
       "ja": "イナズマイレブンシリーズ"
     },
+    "indivisible": {
+      "ja": "インディヴィジブル 闇を祓う魂たち"
+    },
+    "infinite_stratos": {
+      "ja": "IS〈インフィニット・ストラトス〉"
+    },
+    "injuu_seisen_series": {
+      "ja": "淫獣聖戦シリーズ"
+    },
     "innocent_venus": {
       "ja": "イノセント・ヴィーナス"
     },
     "inou-battle_wa_nichijou-kei_no_naka_de": {
       "ja": "異能バトルは日常系のなかで"
+    },
+    "inspector_gadget": {
+      "ja": "ガジェット警部"
     },
     "inu-oh": {
       "ja": "犬王"
@@ -6018,6 +6750,9 @@
     "inuyasha": {
       "ja": "犬夜叉"
     },
+    "inuyasha_(tv)": {
+      "ja": "犬夜叉 (TV)"
+    },
     "inuyashiki": {
       "ja": "いぬやしき"
     },
@@ -6027,14 +6762,23 @@
     "invader_zim:_enter_the_florpus": {
       "ja": "インベーダー・ジム:フローパス計画"
     },
+    "invincible": {
+      "ja": "インビンシブル ～無敵のヒーロー～"
+    },
     "invincible_steel_man_daitarn_3": {
       "ja": "無敵鋼人ダイターン3"
     },
     "invincible_super_man_zambot_3": {
       "ja": "無敵超人ザンボット3"
     },
+    "invisible": {
+      "ja": "透明人間"
+    },
     "iria_zeiram_the_animation": {
       "ja": "I・R・I・A ZEIRAM THE ANIMATION"
+    },
+    "iron_man": {
+      "ja": "アイアンマン"
     },
     "iron_saga": {
       "ja": "機動戦隊アイアンサーガ"
@@ -6044,6 +6788,9 @@
     },
     "isekai_meikyuu_de_harem_wo": {
       "ja": "異世界迷宮でハーレムを"
+    },
+    "isekai_nonbiri_nouka_series": {
+      "ja": "異世界のんびり農家 シリーズ"
     },
     "isekai_ojisan": {
       "ja": "異世界おじさん"
@@ -6062,6 +6809,9 @@
     },
     "ishuzoku_reviewers": {
       "ja": "異種族レビュアーズ"
+    },
+    "island": {
+      "ja": "ISLAND"
     },
     "isshuukan_friends": {
       "ja": "一週間フレンズ。"
@@ -6086,6 +6836,12 @@
     },
     "jaku-chara_tomozaki-kun": {
       "ja": "弱キャラ友崎くん"
+    },
+    "japan_sinks_(2020)": {
+      "ja": "日本沈没2020"
+    },
+    "jarinko_chie": {
+      "ja": "じゃりン子チエ"
     },
     "jashin-chan_dropkick": {
       "ja": "邪神ちゃんドロップキック"
@@ -6117,6 +6873,12 @@
     "jigoku_sensei_nube_(2025)": {
       "ja": "地獄先生ぬ〜べ〜 (2025)"
     },
+    "jigoku_sensei_nube_series": {
+      "ja": "地獄先生ぬ〜べ〜 シリーズ"
+    },
+    "jigoku_shoujo_series": {
+      "ja": "地獄少女 シリーズ"
+    },
     "jigokuraku": {
       "ja": "地獄楽"
     },
@@ -6138,6 +6900,9 @@
     "jojo's_bizarre_adventure": {
       "ja": "ジョジョの奇妙な冒険"
     },
+    "jojo's_bizarre_adventure:_phantom_blood": {
+      "ja": "ジョジョの奇妙な冒険 ファントムブラッド"
+    },
     "jojo's_bizarre_adventure:_vento_aureo": {
       "ja": "黄金の風"
     },
@@ -6146,6 +6911,9 @@
     },
     "jojo's_bizarre_adventure_series": {
       "ja": "ジョジョの奇妙な冒険 シリーズ"
+    },
+    "joker_game": {
+      "ja": "ジョーカー・ゲーム"
     },
     "jormungand": {
       "ja": "ヨルムンガンド"
@@ -6158,6 +6926,9 @@
     },
     "jujutsu_kaisen": {
       "ja": "呪術廻戦"
+    },
+    "jujutsu_kaisen_0": {
+      "ja": "劇場版 呪術廻戦 0"
     },
     "jujutsu_kaisen_modulo": {
       "ja": "呪術廻戦≡"
@@ -6182,6 +6953,9 @@
     },
     "junkers_come_here": {
       "ja": "ユンカース・カム・ヒア"
+    },
+    "junkers_come_here_(pilot_film)": {
+      "ja": "ユンカース・カム・ヒア (パイロット版)"
     },
     "junketsu_no_maria": {
       "ja": "純潔のマリア"
@@ -6222,6 +6996,9 @@
     "k-on_series": {
       "ja": "けいおん! シリーズ"
     },
+    "k_project": {
+      "ja": "K"
+    },
     "kabukichou_sherlock": {
       "ja": "歌舞伎町シャーロック"
     },
@@ -6230,6 +7007,21 @@
     },
     "kagami_no_kojou": {
       "ja": "かがみの孤城"
+    },
+    "kage_no_jitsuryokusha_ni_naritakute!": {
+      "ja": "陰の実力者になりたくて!"
+    },
+    "kage_no_jitsuryokusha_ni_naritakute!_series": {
+      "ja": "陰の実力者になりたくて！ シリーズ"
+    },
+    "kageki_shoujo": {
+      "ja": "かげきしょうじょ!!"
+    },
+    "kaguya-sama:_love_is_war": {
+      "ja": "かぐや様は告らせたい〜天才たちの恋愛頭脳戦〜"
+    },
+    "kaguya-sama:_love_is_war_series": {
+      "ja": "かぐや様は告らせたい〜天才たちの恋愛頭脳戦〜 シリーズ"
     },
     "kahlil_gibran's_the_prophet": {
       "ja": "預言者"
@@ -6248,6 +7040,9 @@
     },
     "kaii_to_otome_to_kamikakushi": {
       "ja": "怪異と乙女と神隠し"
+    },
+    "kaiji_series": {
+      "ja": "カイジ シリーズ"
     },
     "kaiju_no._8": {
       "ja": "怪獣8号"
@@ -6354,6 +7149,9 @@
     "karakuri_no_kimi": {
       "ja": "からくりの君"
     },
+    "karaoke_iko!": {
+      "ja": "カラオケ行こ!"
+    },
     "karasu_wa_aruji_wo_erabanai": {
       "ja": "烏は主を選ばない"
     },
@@ -6368,6 +7166,9 @@
     },
     "karuizawa_syndrome": {
       "ja": "軽井沢シンドローム"
+    },
+    "kase-san_series": {
+      "ja": "加瀬さんシリーズ"
     },
     "kasei_yakyoku": {
       "ja": "華星夜曲"
@@ -6444,6 +7245,12 @@
     "kero_kero_chime": {
       "ja": "ケロケロちゃいむ"
     },
+    "keroro_gunsou": {
+      "ja": "ケロロ軍曹"
+    },
+    "keroro_gunsou_series": {
+      "ja": "ケロロ軍曹 シリーズ"
+    },
     "keroro_gunsou☆": {
       "ja": "ケロロ軍曹☆"
     },
@@ -6498,6 +7305,9 @@
     "kimetsu_no_yaiba_series": {
       "ja": "鬼滅の刃 シリーズ"
     },
+    "kimi_ga_nozomu_eien_series": {
+      "ja": "君が望む永遠 シリーズ"
+    },
     "kimi_ga_shinu_made_koi_wo_shitai": {
       "ja": "きみが死ぬまで恋をしたい"
     },
@@ -6512,6 +7322,9 @@
     },
     "kimi_no_koto_ga_daidaidaidaidaisuki_na_100-nin_no_kanojo": {
       "ja": "君のことが大大大大大好きな100人の彼女"
+    },
+    "kimi_no_na_wa": {
+      "ja": "君の名は。"
     },
     "kimi_to_idol_precure♪": {
       "ja": "キミとアイドルプリキュア♪"
@@ -6531,17 +7344,35 @@
     "king's_raid": {
       "ja": "キングスレイド"
     },
+    "king_of_prism_series": {
+      "ja": "KING OF PRISM シリーズ"
+    },
+    "king_of_the_hill": {
+      "ja": "キング・オブ・ザ・ヒル"
+    },
+    "kingdom_series": {
+      "ja": "キングダム シリーズ"
+    },
     "kiniro_mosaic": {
       "ja": "きんいろモザイク"
     },
     "kiniro_mosaic:_pretty_days": {
       "ja": "きんいろモザイク Pretty Days"
     },
+    "kinnikuman": {
+      "ja": "キン肉マン"
+    },
     "kinnikuman_(1983)": {
       "ja": "キン肉マン (1983)"
     },
     "kinnikuman_nisei": {
       "ja": "キン肉マンII世"
+    },
+    "kinnikuman_nisei_(movie_2)": {
+      "ja": "キン肉マンII世 (映画2)"
+    },
+    "kino_no_tabi_series": {
+      "ja": "キノの旅"
     },
     "kinsou_no_vermeil": {
       "ja": "金装のヴェルメイユ〜崖っぷち魔術師は最強の厄災と魔法世界を突き進む〜"
@@ -6557,6 +7388,9 @@
     },
     "kiratto_pri☆chan": {
       "ja": "キラッとプリ☆チャン"
+    },
+    "kirby_series": {
+      "ja": "星のカービィシリーズ"
     },
     "kirio_fanclub": {
       "ja": "霧尾ファンクラブ"
@@ -6579,8 +7413,14 @@
     "kissxsis": {
       "ja": "Kiss×sis"
     },
+    "kite": {
+      "ja": "A KITE"
+    },
     "kite_liberator": {
       "ja": "カイト リベレイター"
+    },
+    "kite_series": {
+      "ja": "A KITE シリーズ"
     },
     "kiznaiver": {
       "ja": "キズナイーバー"
@@ -6594,6 +7434,9 @@
     "knight_hunters": {
       "ja": "ヴァイスクロイツ"
     },
+    "knight_ramune_series": {
+      "ja": "騎士ラムネ&40 シリーズ"
+    },
     "kobato": {
       "ja": "こばと。"
     },
@@ -6606,8 +7449,14 @@
     "kochira_katsushika-ku_kameari_kouen-mae_hashutsujo": {
       "ja": "こちら葛飾区亀有公園前派出所"
     },
+    "kodomo_no_jikan": {
+      "ja": "こどものじかん"
+    },
     "kodomo_no_omocha": {
       "ja": "こどものおもちゃ"
+    },
+    "koe_no_katachi": {
+      "ja": "映画 聲の形"
     },
     "koi_kaze": {
       "ja": "恋風"
@@ -6617,6 +7466,9 @@
     },
     "koi_wa_sekai_seifuku_no_ato_de": {
       "ja": "恋は世界征服のあとで"
+    },
+    "koihime_musou_series": {
+      "ja": "恋姫†無双"
     },
     "koisuru_asteroid": {
       "ja": "恋する小惑星"
@@ -6642,7 +7494,13 @@
     "kono_bijutsubu_ni_wa_mondai_ga_aru": {
       "ja": "この美術部には問題がある!"
     },
+    "kono_subarashii_sekai_ni_bakuen_wo!": {
+      "ja": "この素晴らしい世界に爆焔を！"
+    },
     "kono_subarashii_sekai_ni_shukufuku_wo!": {
+      "ja": "この素晴らしい世界に祝福を！"
+    },
+    "konosuba_series": {
       "ja": "この素晴らしい世界に祝福を！"
     },
     "koori_no_jouheki": {
@@ -6696,11 +7554,23 @@
     "kujira_no_josephina": {
       "ja": "くじらのホセフィーナ"
     },
+    "kuma_kuma_kuma_bear": {
+      "ja": "くまクマ熊ベアー"
+    },
+    "kuma_kuma_kuma_bear_series": {
+      "ja": "くまクマ熊ベアー シリーズ"
+    },
     "kumamiko": {
       "ja": "くまみこ"
     },
     "kung-fu_cooking_girls": {
       "ja": "功夫料理娘"
+    },
+    "kung_fu_panda": {
+      "ja": "カンフー・パンダ"
+    },
+    "kung_fu_panda_series": {
+      "ja": "カンフー・パンダシリーズ"
     },
     "kunoichi_tsubaki_no_mune_no_uchi": {
       "ja": "くノ一ツバキの胸の内"
@@ -6716,6 +7586,9 @@
     },
     "kurenai": {
       "ja": "紅"
+    },
+    "kurenai_(ova)": {
+      "ja": "紅 (OVA)"
     },
     "kurenai_sanshiro": {
       "ja": "紅三四郎"
@@ -6745,6 +7618,9 @@
     "kuroshitsuji_series": {
       "ja": "黒執事 シリーズ"
     },
+    "kurozuka": {
+      "ja": "黒塚 -KUROZUKA-"
+    },
     "kusunoki_no_bannin": {
       "ja": "クスノキの番人"
     },
@@ -6766,6 +7642,12 @@
     "kyoro-chan": {
       "ja": "キョロちゃん"
     },
+    "kyou_kara_ore_wa": {
+      "ja": "今日から俺は!!"
+    },
+    "kyou_no_5_no_2_(tv)": {
+      "ja": "今日の5の2"
+    },
     "kyoukai_no_kanata": {
       "ja": "境界の彼方"
     },
@@ -6784,8 +7666,23 @@
     "kyouran_kazoku_nikki": {
       "ja": "狂乱家族日記"
     },
+    "kyoushoku_soukou_guyver_(1986)": {
+      "ja": "強殖装甲ガイバー"
+    },
     "kyousougiga": {
       "ja": "京騒戯画"
+    },
+    "kyousougiga_(ona)": {
+      "ja": "京騒戯画 (ONA)"
+    },
+    "kyousougiga_(tv)": {
+      "ja": "京騒戯画 (TV)"
+    },
+    "kyuuketsuki_sugu_shinu_series": {
+      "ja": "吸血鬼すぐ死ぬ シリーズ"
+    },
+    "la_blue_girl": {
+      "ja": "淫獣学園 La☆Blue Girl"
     },
     "la_storia_della_arcana_famiglia": {
       "ja": "アルカナ・ファミリア -La storia della Arcana Famiglia-"
@@ -6808,6 +7705,9 @@
     "langrisser_series": {
       "ja": "ラングリッサーシリーズ"
     },
+    "lapis_re:lights": {
+      "ja": "ラピスリライツ"
+    },
     "laputa:_castle_in_the_sky": {
       "ja": "天空の城ラピュタ"
     },
@@ -6820,11 +7720,26 @@
     "last_period:_owarinaki_rasen_no_monogatari": {
       "ja": "ラストピリオド -終わりなき螺旋の物語-"
     },
+    "latale_series": {
+      "ja": "ラテール シリーズ"
+    },
+    "lazarus": {
+      "ja": "LAZARUS ラザロ"
+    },
+    "le_chevalier_d'eon": {
+      "ja": "シュヴァリエ 〜Le Chevalier D'Eon〜"
+    },
     "legend_of_crystania": {
       "ja": "はじまりの冒険者たち レジェンド・オブ・クリスタニア"
     },
+    "legend_of_lemnear": {
+      "ja": "極黒の翼バルキサス"
+    },
     "legend_of_the_galactic_heroes": {
       "ja": "銀河英雄伝説"
+    },
+    "legend_of_the_galactic_heroes_(1988)": {
+      "ja": "銀河英雄伝説 (1988)"
     },
     "legend_of_the_galactic_heroes_series": {
       "ja": "銀河英雄伝説 シリーズ"
@@ -6844,6 +7759,12 @@
     "library_war": {
       "ja": "図書館戦争"
     },
+    "lilo_and_stitch": {
+      "ja": "リロ・アンド・スティッチ"
+    },
+    "lilo_and_stitch_series": {
+      "ja": "リロ・アンド・スティッチ シリーズ"
+    },
     "lily_c.a.t": {
       "ja": "LILY-C.A.T."
     },
@@ -6856,11 +7777,17 @@
     "link_click_series": {
       "ja": "時光代理人 -LINK CLICK- シリーズ"
     },
+    "little_busters!": {
+      "ja": "リトルバスターズ！"
+    },
     "little_nemo:_adventures_in_slumberland": {
       "ja": "NEMO/ニモ"
     },
     "little_witch_academia": {
       "ja": "リトルウィッチアカデミア"
+    },
+    "little_women": {
+      "ja": "愛の若草物語"
     },
     "live_on_cardliver_kakeru": {
       "ja": "ライブオン CARDLIVER 翔"
@@ -6885,6 +7812,12 @@
     },
     "look_back": {
       "ja": "ルックバック"
+    },
+    "lookism": {
+      "ja": "外見至上主義"
+    },
+    "looney_tunes": {
+      "ja": "ルーニー・テューンズ"
     },
     "looney_tunes_cartoons": {
       "ja": "ルーニー・テューンズ・カートゥーンズ"
@@ -6919,11 +7852,20 @@
     "love_hina": {
       "ja": "ラブひな"
     },
+    "love_live!": {
+      "ja": "ラブライブ!"
+    },
     "love_live!_bluebird": {
       "ja": "イキヅライブ！ LOVELIVE! BLUEBIRD"
     },
+    "love_live!_nijigasaki_high_school_idol_club": {
+      "ja": "ラブライブ!虹ヶ咲学園スクールアイドル同好会"
+    },
     "love_live!_series": {
       "ja": "ラブライブ!シリーズ"
+    },
+    "love_live!_sunshine!!": {
+      "ja": "ラブライブ!サンシャイン!!"
     },
     "love_live!_superstar!!": {
       "ja": "ラブライブ!スーパースター!!"
@@ -6937,14 +7879,26 @@
     "luck_&_logic": {
       "ja": "ラクエンロジック"
     },
+    "lucky_star": {
+      "ja": "らき☆すた"
+    },
     "luminous_witches": {
       "ja": "連盟空軍航空魔法音楽隊ルミナスウィッチーズ"
+    },
+    "lunar_series": {
+      "ja": "LUNAR シリーズ"
+    },
+    "lupin_iii": {
+      "ja": "ルパン三世"
     },
     "lupin_iii:_dead_or_alive": {
       "ja": "ルパン三世 DEAD OR ALIVE"
     },
     "lupin_iii:_the_castle_of_cagliostro": {
       "ja": "ルパン三世 カリオストロの城"
+    },
+    "lupin_iii_(2015)": {
+      "ja": "ルパン三世 PART4"
     },
     "lupin_iii_part_i": {
       "ja": "ルパン三世"
@@ -6976,6 +7930,9 @@
     "maburaho": {
       "ja": "まぶらほ"
     },
+    "macademi_wasshoi": {
+      "ja": "まかでみ・WAっしょい!"
+    },
     "machikado_mazoku": {
       "ja": "まちカドまぞく"
     },
@@ -6984,6 +7941,9 @@
     },
     "macross_7": {
       "ja": "マクロス7"
+    },
+    "macross_delta": {
+      "ja": "マクロスΔ"
     },
     "macross_frontier": {
       "ja": "マクロスF"
@@ -7000,6 +7960,9 @@
     "made_in_abyss_series": {
       "ja": "メイドインアビス シリーズ"
     },
+    "magi_series": {
+      "ja": "マギ シリーズ"
+    },
     "magi_the_labyrinth_of_magic": {
       "ja": "マギ"
     },
@@ -7012,8 +7975,14 @@
     "magic_kaito_series": {
       "ja": "まじっく快斗 シリーズ"
     },
+    "magic_knight_rayearth": {
+      "ja": "魔法騎士レイアース"
+    },
     "magic_knight_rayearth_(1994)": {
       "ja": "魔法騎士レイアース (1994)"
+    },
+    "magic_pengel:_the_quest_for_color_(video_game)": {
+      "ja": "ラクガキ王国"
     },
     "magic_tree_house": {
       "ja": "マジック・ツリーハウス"
@@ -7093,6 +8062,12 @@
     "mahou_shoujo_pretty_sammy": {
       "ja": "魔法少女プリティサミー"
     },
+    "mahou_shoujo_pretty_sammy_(ova)": {
+      "ja": "魔法少女プリティサミー (OVA)"
+    },
+    "mahou_shoujo_pretty_sammy_(tv)": {
+      "ja": "魔法少女プリティサミー (TV)"
+    },
     "mahou_shoujo_site": {
       "ja": "魔法少女サイト"
     },
@@ -7164,6 +8139,15 @@
     },
     "major": {
       "ja": "MAJOR"
+    },
+    "major_(tv)": {
+      "ja": "メジャー"
+    },
+    "major_2nd": {
+      "ja": "メジャーセカンド"
+    },
+    "majutsushi_orphen": {
+      "ja": "魔術士オーフェン"
     },
     "majutsushi_orphen_(1998)": {
       "ja": "魔術士オーフェン (1998)"
@@ -7273,6 +8257,9 @@
     "marvel's_midnight_suns": {
       "ja": "マーベル ミッドナイト・サンズ"
     },
+    "marvel's_spider-man": {
+      "ja": "マーベル スパイダーマン"
+    },
     "marvel_future_avengers": {
       "ja": "マーベル フューチャー・アベンジャーズ"
     },
@@ -7282,6 +8269,9 @@
     "mary_and_the_witch's_flower": {
       "ja": "メアリと魔女の花"
     },
+    "mary_poppins": {
+      "ja": "メリー・ポピンズ"
+    },
     "mary_poppins_returns": {
       "ja": "メリー・ポピンズ リターンズ"
     },
@@ -7290,6 +8280,9 @@
     },
     "mashin_eiyuuden_wataru": {
       "ja": "魔神英雄伝ワタルシリーズ"
+    },
+    "mashin_hero_wataru": {
+      "ja": "魔神英雄伝ワタル"
     },
     "mashin_souzouden_wataru": {
       "ja": "魔神創造伝ワタル"
@@ -7306,6 +8299,9 @@
     "master_of_mosquiton": {
       "ja": "マスターモスキートン"
     },
+    "masters_of_the_universe_series": {
+      "ja": "マスターズ・オブ・ユニバース シリーズ"
+    },
     "matantei_loki_ragnarok": {
       "ja": "魔探偵ロキ RAGNAROK"
     },
@@ -7318,11 +8314,20 @@
     "mayo_chiki!": {
       "ja": "まよチキ!"
     },
+    "mayoi_neko_overrun": {
+      "ja": "迷い猫オーバーラン！"
+    },
     "mayoiga": {
       "ja": "迷家-マヨイガ-"
     },
     "mayonaka_punch": {
       "ja": "真夜中ぱんチ"
+    },
+    "maze_series": {
+      "ja": "MAZE☆爆熱時空 シリーズ"
+    },
+    "mazinger_series": {
+      "ja": "マジンガーシリーズ"
     },
     "mazinger_z": {
       "ja": "マジンガーZ"
@@ -7344,6 +8349,15 @@
     },
     "medalist": {
       "ja": "メダリスト"
+    },
+    "medarot": {
+      "ja": "メダロット"
+    },
+    "medarot_series": {
+      "ja": "メダロットシリーズ"
+    },
+    "mega_man_(1994)": {
+      "ja": "ロックマン USA"
     },
     "megalo_box": {
       "ja": "メガロボクス"
@@ -7374,6 +8388,9 @@
     },
     "melody_time": {
       "ja": "メロディ・タイム"
+    },
+    "memories": {
+      "ja": "MEMORIES"
     },
     "metal_armor_dragonar": {
       "ja": "機甲戦記ドラグナー"
@@ -7429,6 +8446,9 @@
     "mickey's_trailer": {
       "ja": "ミッキーの移動住宅"
     },
+    "mickey_mouse": {
+      "ja": "ミッキーマウス"
+    },
     "mickey’s_fire_brigade": {
       "ja": "ミッキーの消防隊"
     },
@@ -7477,6 +8497,9 @@
     "minori_scramble": {
       "ja": "みのりスクランブル!"
     },
+    "miracle_girls": {
+      "ja": "ミラクル☆ガールズ"
+    },
     "miraculous_ladybug": {
       "ja": "ミラキュラス・レディバグ"
     },
@@ -7513,17 +8536,38 @@
     "mitsudomoe_series": {
       "ja": "みつどもえ シリーズ"
     },
+    "mix:_meisei_story_series": {
+      "ja": "MIX MEISEI STORY シリーズ"
+    },
+    "mlb_tokyo_series": {
+      "ja": "MLB東京シリーズ"
+    },
     "mm!": {
       "ja": "えむえむっ!"
     },
     "mo_dao_zu_shi": {
       "ja": "魔道祖師"
     },
+    "moana": {
+      "ja": "モアナと伝説の海"
+    },
     "mob_psycho_100": {
       "ja": "モブサイコ100"
     },
     "mob_psycho_100_series": {
       "ja": "モブサイコ100 シリーズ"
+    },
+    "mobile_fighter_g_gundam": {
+      "ja": "機動武闘伝Gガンダム"
+    },
+    "mobile_police_patlabor": {
+      "ja": "機動警察パトレイバー"
+    },
+    "mobile_suit_gundam": {
+      "ja": "機動戦士ガンダム"
+    },
+    "mobile_suit_gundam:_char's_counterattack": {
+      "ja": "機動戦士ガンダム 逆襲のシャア"
     },
     "mobile_suit_gundam:_cucuruz_doan's_island": {
       "ja": "機動戦士ガンダム ククルス・ドアンの島"
@@ -7537,11 +8581,17 @@
     "mobile_suit_gundam:_the_witch_from_mercury": {
       "ja": "機動戦士ガンダム 水星の魔女"
     },
+    "mobile_suit_gundam_(game)": {
+      "ja": "機動戦士ガンダム (ゲーム)"
+    },
     "mobile_suit_gundam_00": {
       "ja": "機動戦士ガンダム00"
     },
     "mobile_suit_gundam_age": {
       "ja": "機動戦士ガンダムAGE"
+    },
+    "mobile_suit_gundam_age_(game)": {
+      "ja": "機動戦士ガンダムAGE (ゲーム)"
     },
     "mobile_suit_gundam_battle_operation_code_fairy": {
       "ja": "機動戦士ガンダム バトルオペレーション Code Fairy"
@@ -7573,6 +8623,9 @@
     "mobile_suit_gundam_narrative": {
       "ja": "機動戦士ガンダムNT"
     },
+    "mobile_suit_gundam_seed": {
+      "ja": "機動戦士ガンダムSEED"
+    },
     "mobile_suit_gundam_seed:_never_ending_tomorrow": {
       "ja": "機動戦士ガンダムSEED 終わらない明日へ"
     },
@@ -7597,6 +8650,9 @@
     "mobile_suit_gundam_wing": {
       "ja": "新機動戦記ガンダムW"
     },
+    "mobile_suit_gundam_wing_(tv)": {
+      "ja": "新機動戦記ガンダムW (TV)"
+    },
     "mobile_suit_gundam_zz": {
       "ja": "機動戦士ガンダムΖΖ"
     },
@@ -7611,6 +8667,9 @@
     },
     "mobile_suit_zeta_gundam:_a_new_translation_iii_-_love_is_the_pulse_of_the_stars": {
       "ja": "機動戦士ΖガンダムIII A New Translation -星の鼓動は愛-"
+    },
+    "mobile_suit_zeta_gundam_(tv)": {
+      "ja": "機動戦士Ζガンダム (TV)"
     },
     "moetan": {
       "ja": "もえたん"
@@ -7633,6 +8692,9 @@
     "mondaiji_tachi_ga_isekai_kara_kuru_sou_desu_yo": {
       "ja": "問題児たちが異世界から来るそうですよ?"
     },
+    "monogatari_series": {
+      "ja": "〈物語〉シリーズ"
+    },
     "mononogatari": {
       "ja": "もののがたり"
     },
@@ -7642,11 +8704,17 @@
     "mononoke_series": {
       "ja": "モノノ怪 シリーズ"
     },
+    "monster_(2004)": {
+      "ja": "MONSTER"
+    },
     "monster_musume_no_iru_nichijou": {
       "ja": "モンスター娘のいる日常"
     },
     "monster_strike": {
       "ja": "モンスターストライク"
+    },
+    "monster_strike_(mv)": {
+      "ja": "モンスターストライク (MV)"
     },
     "monsters:_103_mercies_dragon_damnation": {
       "ja": "MONSTERS 一百三情飛龍侍極"
@@ -7657,17 +8725,29 @@
     "moomin_(1990)": {
       "ja": "楽しいムーミン一家 (1990)"
     },
+    "moomin_series": {
+      "ja": "ムーミンシリーズ"
+    },
     "moon_girl_and_devil_dinosaur": {
       "ja": "ムーンガール&デビル・ダイナソー"
     },
+    "motorcity": {
+      "ja": "モーターシティ"
+    },
     "mou_ippon!": {
       "ja": "もういっぽん!"
+    },
+    "mouryou_senki_madara": {
+      "ja": "魍魎戦記MADARA"
     },
     "mouse": {
       "ja": "MOUSE"
     },
     "moving_day": {
       "ja": "ミッキーの引越し大騒動"
+    },
+    "moyashimon": {
+      "ja": "もやしもん"
     },
     "mr._bug_goes_to_town": {
       "ja": "バッタ君町に行く"
@@ -7684,11 +8764,17 @@
     "mujin_wakusei_survive": {
       "ja": "無人惑星サヴァイヴ"
     },
+    "mulan": {
+      "ja": "ムーラン"
+    },
     "munou_na_nana": {
       "ja": "無能なナナ"
     },
     "munto": {
       "ja": "MUNTOシリーズ"
+    },
+    "munto_(tv)": {
+      "ja": "空を見上げる少女の瞳に映る世界"
     },
     "munto_series": {
       "ja": "MUNTOシリーズ シリーズ"
@@ -7742,11 +8828,17 @@
       "ja": "僕のヒーローアカデミア",
       "kana": "ぼくのひーろーあかでみあ"
     },
+    "my_hero_academia:_vigilantes": {
+      "ja": "ヴィジランテ -僕のヒーローアカデミア ILLEGALS-"
+    },
     "my_hero_academia_series": {
       "ja": "僕のヒーローアカデミア シリーズ"
     },
     "my_neighbor_totoro": {
       "ja": "となりのトトロ"
+    },
+    "my_neighbors_the_yamadas": {
+      "ja": "ホーホケキョ となりの山田くん"
     },
     "myriad_colors_phantom_world": {
       "ja": "無彩限のファントム・ワールド"
@@ -7818,6 +8910,9 @@
     "natsu_no_arashi!": {
       "ja": "夏のあらし!"
     },
+    "natsu_no_niwa": {
+      "ja": "夏の庭"
+    },
     "natsuki_crisis": {
       "ja": "なつきクライシス"
     },
@@ -7854,6 +8949,9 @@
     "needy_girl_overdose": {
       "ja": "NEEDY GIRL OVERDOSE"
     },
+    "needy_girl_overdose_(tv)": {
+      "ja": "NEEDY GIRL OVERDOSE (TV)"
+    },
     "negaposi_angler": {
       "ja": "ネガポジアングラー"
     },
@@ -7871,6 +8969,15 @@
     },
     "neo_ranga": {
       "ja": "南海奇皇"
+    },
+    "neon_genesis_evangelion": {
+      "ja": "新世紀エヴァンゲリオン"
+    },
+    "neon_genesis_evangelion_series": {
+      "ja": "エヴァンゲリオンシリーズ"
+    },
+    "nerawareta_gakuen": {
+      "ja": "ねらわれた学園"
     },
     "nerima_daikon_brothers": {
       "ja": "練馬大根ブラザーズ"
@@ -7902,6 +9009,9 @@
     "nigashita_sakana_wa_ookikatta_ga_tsuriageta_sakana_ga_ookisugita_ken": {
       "ja": "逃がした魚は大きかったが釣りあげた魚が大きすぎた件"
     },
+    "nightmare": {
+      "ja": "ニワトリ男と赤い首"
+    },
     "niju-menso_no_musume": {
       "ja": "二十面相の娘"
     },
@@ -7910,6 +9020,9 @@
     },
     "nils_no_fushigi_na_tabi": {
       "ja": "ニルスのふしぎな旅"
+    },
+    "nimona": {
+      "ja": "ニモナ"
     },
     "ningen_fushin_no_boukensha-tachi_ga_sekai_wo_sukuu_you_desu": {
       "ja": "人間不信の冒険者たちが世界を救うようです"
@@ -8004,6 +9117,9 @@
     "noiseman_sound_insect": {
       "ja": "音響生命体ノイズマン"
     },
+    "non_non_biyori_series": {
+      "ja": "のんのんびより シリーズ"
+    },
     "noragami": {
       "ja": "ノラガミ"
     },
@@ -8027,6 +9143,9 @@
     },
     "oban_star-racers": {
       "ja": "オーバン・スターレーサーズ"
+    },
+    "occultic;nine": {
+      "ja": "Occultic;Nine -オカルティック・ナイン-"
     },
     "ochikobore_fruit_tart": {
       "ja": "おちこぼれフルーツタルト"
@@ -8054,6 +9173,9 @@
     },
     "ojamajo_doremi_series": {
       "ja": "おジャ魔女どれみ シリーズ"
+    },
+    "ojarumaru_series": {
+      "ja": "おじゃる丸"
     },
     "ok_k.o.!_let's_be_heroes": {
       "ja": "OK K.O.! めざせヒーロー"
@@ -8090,6 +9212,9 @@
     },
     "one-punch_man": {
       "ja": "ワンパンマン"
+    },
+    "one-punch_man_(ova)": {
+      "ja": "ワンパンマン (OVA)"
     },
     "one-punch_man_series": {
       "ja": "ワンパンマン シリーズ"
@@ -8153,6 +9278,9 @@
     "ongaku_shoujo": {
       "ja": "音楽少女"
     },
+    "ongaku_shoujo_(2015)": {
+      "ja": "音楽少女 (2015)"
+    },
     "ongaku_shoujo_(2018)": {
       "ja": "音楽少女 (2018)"
     },
@@ -8167,6 +9295,9 @@
     },
     "onipan": {
       "ja": "おにぱん!"
+    },
+    "only_yesterday": {
+      "ja": "おもひでぽろぽろ"
     },
     "onmyoji": {
       "ja": "陰陽師"
@@ -8195,6 +9326,9 @@
     "ore_wo_suki_nano_wa_omae_dake_ka_yo": {
       "ja": "俺を好きなのはお前だけかよ"
     },
+    "oreimo_series": {
+      "ja": "俺の妹がこんなに可愛いわけがない"
+    },
     "oroka_na_tenshi_wa_akuma_to_odoru": {
       "ja": "愚かな天使は悪魔と踊る"
     },
@@ -8203,6 +9337,12 @@
     },
     "oshi_ga_budoukan_ittekuretara_shinu": {
       "ja": "推しが武道館いってくれたら死ぬ"
+    },
+    "oshi_no_ko": {
+      "ja": "【推しの子】"
+    },
+    "oshiri_tantei_series": {
+      "ja": "おしりたんてい シリーズ"
     },
     "osmosis_jones": {
       "ja": "バクテリア・ウォーズ"
@@ -8249,20 +9389,38 @@
     "out_of_sight": {
       "ja": "アウト・オブ・サイト"
     },
+    "outbreak_company": {
+      "ja": "アウトブレイク・カンパニー"
+    },
     "outlanders": {
       "ja": "アウトランダーズ"
+    },
+    "outlaw_star": {
+      "ja": "星方武侠アウトロースター"
     },
     "over_the_moon": {
       "ja": "フェイフェイと月の冒険"
     },
+    "overdrive": {
+      "ja": "Over Drive"
+    },
     "overgeared": {
       "ja": "テムパル～アイテムの力～"
+    },
+    "overlord": {
+      "ja": "オーバーロード"
+    },
+    "overlord_series": {
+      "ja": "オーバーロード シリーズ"
     },
     "overman_king_gainer": {
       "ja": "OVERMANキングゲイナー"
     },
     "overtake!": {
       "ja": "オーバーテイク!"
+    },
+    "overwatch": {
+      "ja": "オーバーウォッチ"
     },
     "overwatch_2": {
       "ja": "オーバーウォッチ2"
@@ -8294,8 +9452,14 @@
     "panzer_world_galient": {
       "ja": "機甲界ガリアン"
     },
+    "panzer_world_galient_(ova)": {
+      "ja": "機甲界ガリアン 鉄の紋章"
+    },
     "paprika": {
       "ja": "パプリカ"
+    },
+    "paradise_kiss": {
+      "ja": "Paradise Kiss"
     },
     "paradox_live_the_animation": {
       "ja": "Paradox Live THE ANIMATION"
@@ -8305,6 +9469,9 @@
     },
     "parappa_the_rapper": {
       "ja": "パラッパラッパー"
+    },
+    "parasite_dolls": {
+      "ja": "パラサイトドールズ"
     },
     "parasyte": {
       "ja": "寄生獣"
@@ -8330,8 +9497,14 @@
     "peach_boy_riverside": {
       "ja": "ピーチボーイリバーサイド"
     },
+    "peanuts": {
+      "ja": "ピーナッツ"
+    },
     "penguin_highway": {
       "ja": "ペンギン・ハイウェイ"
+    },
+    "perfect_blue": {
+      "ja": "PERFECT BLUE"
     },
     "perfect_day": {
       "ja": "ロープ_戦場の生命線"
@@ -8339,11 +9512,17 @@
     "perrine_monogatari": {
       "ja": "ペリーヌ物語"
     },
+    "persepolis": {
+      "ja": "ペルセポリス"
+    },
     "persona:_trinity_soul": {
       "ja": "PERSONA -trinity soul-"
     },
     "persona_3": {
       "ja": "ペルソナ3"
+    },
+    "persona_3_(game)": {
+      "ja": "ペルソナ3 (ゲーム)"
     },
     "persona_3_reload": {
       "ja": "ペルソナ3 リロード"
@@ -8381,6 +9560,9 @@
     "persona_5:_the_animation": {
       "ja": "PERSONA5 the Animation"
     },
+    "persona_5_(game)": {
+      "ja": "ペルソナ5 (ゲーム)"
+    },
     "persona_5_the_royal": {
       "ja": "ペルソナ5 ザ・ロイヤル"
     },
@@ -8396,8 +9578,14 @@
     "petite_princess_yucie": {
       "ja": "ぷちぷり*ユーシィ"
     },
+    "phantasmagoria_series": {
+      "ja": "ファンタスマゴリア シリーズ"
+    },
     "phantom:_requiem_for_the_phantom": {
       "ja": "Phantom 〜Requiem for the Phantom〜"
+    },
+    "phi_brain_series": {
+      "ja": "ファイ・ブレイン 神のパズル シリーズ"
     },
     "phoenix_2772": {
       "ja": "火の鳥2772"
@@ -8405,8 +9593,14 @@
     "photo_kano": {
       "ja": "フォトカノ"
     },
+    "photon": {
+      "ja": "フォトン"
+    },
     "piano_no_mori": {
       "ja": "ピアノの森"
+    },
+    "piano_no_mori_(movie)": {
+      "ja": "ピアノの森 (映画)"
     },
     "pikaia!": {
       "ja": "ピカイア!"
@@ -8414,8 +9608,14 @@
     "ping_pong": {
       "ja": "ピンポン"
     },
+    "pink_panther": {
+      "ja": "ピンク・パンサー"
+    },
     "pinky_and_the_brain": {
       "ja": "ピンキー&ブレイン"
+    },
+    "pinocchio": {
+      "ja": "ピノキオ"
     },
     "plane_crazy": {
       "ja": "プレーン・クレイジー"
@@ -8447,6 +9647,9 @@
     "pluto": {
       "ja": "PLUTO"
     },
+    "pocahontas": {
+      "ja": "ポカホンタス"
+    },
     "pokemon": {
       "ja": "ポケットモンスター",
       "kana": "ぽけっともんすたー"
@@ -8456,6 +9659,12 @@
     },
     "pokemon_(1997)": {
       "ja": "ポケットモンスター (1997)"
+    },
+    "pokemon_(2019)": {
+      "ja": "ポケットモンスター (2019)"
+    },
+    "pokemon_(2023)": {
+      "ja": "ポケットモンスター (2023)"
     },
     "pokemon_diamond_&_pearl:_giratina_to_sora_no_hanataba_sheimi": {
       "ja": "劇場版ポケットモンスター ダイヤモンド&パール ギラティナと氷空の花束 シェイミ"
@@ -8478,7 +9687,19 @@
     "pop_team_epic": {
       "ja": "ポプテピピック"
     },
+    "popeye_the_sailor": {
+      "ja": "ポパイ"
+    },
     "popolocrois": {
+      "ja": "ポポロクロイス物語"
+    },
+    "popolocrois_(1998)": {
+      "ja": "ポポロクロイス物語 (1998)"
+    },
+    "popolocrois_(2003)": {
+      "ja": "ポポロクロイス"
+    },
+    "popolocrois_monogatari_(game)": {
       "ja": "ポポロクロイス物語"
     },
     "popotan": {
@@ -8494,7 +9715,7 @@
       "ja": "パワーストーン"
     },
     "precure": {
-      "ja": "プリキュア",
+      "ja": "プリキュアシリーズ",
       "kana": "ぷりきゅあ"
     },
     "precure_all_stars_f": {
@@ -8502,6 +9723,9 @@
     },
     "prefectural_earth_defense_force": {
       "ja": "県立地球防衛軍"
+    },
+    "presence": {
+      "ja": "プレゼンス"
     },
     "pretty_rhythm": {
       "ja": "プリティーリズム"
@@ -8551,6 +9775,9 @@
     "prism_rondo": {
       "ja": "プリズム輪舞曲"
     },
+    "prison_school": {
+      "ja": "監獄学園"
+    },
     "professor_layton_and_the_curious_village": {
       "ja": "レイトン教授と不思議な町"
     },
@@ -8559,6 +9786,12 @@
     },
     "professor_layton_series": {
       "ja": "レイトン教授シリーズ"
+    },
+    "program": {
+      "ja": "プログラム"
+    },
+    "project_a": {
+      "ja": "PROJECT A"
     },
     "project_a-ko": {
       "ja": "プロジェクトA子"
@@ -8584,8 +9817,14 @@
     "psychic_force": {
       "ja": "サイキックフォース"
     },
+    "psychic_force_(ova)": {
+      "ja": "サイキックフォース (OVA)"
+    },
     "psycho_pass": {
       "ja": "PSYCHO-PASS サイコパス"
+    },
+    "psycho_pass_(movie)": {
+      "ja": "劇場版 PSYCHO-PASS サイコパス"
     },
     "psycho_pass_3:_first_inspector": {
       "ja": "PSYCHO-PASS サイコパス 3 FIRST INSPECTOR"
@@ -8608,6 +9847,9 @@
     "puyo_puyo": {
       "ja": "ぷよぷよ"
     },
+    "qualidea_code": {
+      "ja": "クオリディア・コード"
+    },
     "queen's_blade": {
       "ja": "クイーンズブレイド"
     },
@@ -8616,6 +9858,9 @@
     },
     "queen_emeraldas": {
       "ja": "クイーン・エメラルダス"
+    },
+    "queen_millennia": {
+      "ja": "新竹取物語 1000年女王"
     },
     "quiet_please": {
       "ja": "ただいまお昼寝中"
@@ -8629,11 +9874,17 @@
     "rabbit_of_seville": {
       "ja": "セビリアのラビット理髪師"
     },
+    "radiant": {
+      "ja": "ラディアン"
+    },
     "radio_city_fantasy:_machikado_no_märchen": {
       "ja": "街角のメルヘン"
     },
     "ragna_crimson": {
       "ja": "ラグナクリムゾン"
+    },
+    "ragnarok": {
+      "ja": "ラグナロク"
     },
     "ragnastrike_angels": {
       "ja": "ラグナストライクエンジェルズ"
@@ -8650,11 +9901,20 @@
     "raise_wa_tanin_ga_ii": {
       "ja": "来世は他人がいい"
     },
+    "rakshasa_street_series": {
+      "ja": "鎮魂街 シリーズ"
+    },
     "rakudai_kishi_no_cavalry": {
       "ja": "落第騎士の英雄譚"
     },
     "rakudai_majo:_fuuka_to_yami_no_majo": {
       "ja": "らくだい魔女 フウカと闇の魔女"
+    },
+    "rampo": {
+      "ja": "RAMPO"
+    },
+    "ranma_1/2": {
+      "ja": "らんま1/2"
     },
     "ranma_1/2_(1989)": {
       "ja": "らんま1/2 (1989)"
@@ -8668,11 +9928,20 @@
     "ranma_1/2_ova": {
       "ja": "らんま１／２　（ＯＶＡ）"
     },
+    "rayearth_(ova)": {
+      "ja": "レイアース"
+    },
     "re-kan": {
       "ja": "レーカン!"
     },
     "re:_creators": {
       "ja": "Re:CREATORS"
+    },
+    "re:_zero_kara_hajimeru_isekai_seikatsu_series": {
+      "ja": "Re:ゼロから始める異世界生活 シリーズ"
+    },
+    "read_or_die_series": {
+      "ja": "R.O.D シリーズ"
     },
     "real_drive": {
       "ja": "RD 潜脳調査室"
@@ -8683,8 +9952,17 @@
     "record_of_lodoss_war": {
       "ja": "ロードス島戦記"
     },
+    "red_baron": {
+      "ja": "レッドバロン"
+    },
     "red_hot_riding_hood": {
       "ja": "おかしな赤頭巾"
+    },
+    "redline": {
+      "ja": "REDLINE"
+    },
+    "redline_(pilot)": {
+      "ja": "REDLINE (パイロット版)"
     },
     "reideen": {
       "ja": "REIDEEN"
@@ -8707,14 +9985,29 @@
     "rental_magica": {
       "ja": "レンタルマギカ"
     },
+    "resonance_solstice_(game)": {
+      "ja": "レゾナンス:無限号列車"
+    },
     "return_to_never_land": {
       "ja": "ピーター・パン2 ネバーランドの秘密"
+    },
+    "revenger": {
+      "ja": "REVENGER"
     },
     "reverse:_1999": {
       "ja": "リバース：1999"
     },
     "reverse_collapse:_code_name_bakery": {
       "ja": "逆コーラップス：パン屋作戦"
+    },
+    "rewrite": {
+      "ja": "Rewrite"
+    },
+    "rewrite_(game)": {
+      "ja": "Rewrite (ゲーム)"
+    },
+    "rewrite_(tv)": {
+      "ja": "Rewrite (TV)"
     },
     "rg_veda": {
       "ja": "聖伝-RG VEDA-"
@@ -8752,8 +10045,20 @@
     "rising_impact": {
       "ja": "ライジングインパクト"
     },
+    "river_city_girls_(game)": {
+      "ja": "熱血硬派くにおくん外伝 リバーシティガールズ"
+    },
     "river_of_death": {
       "ja": "デス・リバー/失なわれた帝国"
+    },
+    "ro-kyu-bu!_series": {
+      "ja": "ロウきゅーぶ! シリーズ"
+    },
+    "road_blaster_(video_game)": {
+      "ja": "ロードブラスター"
+    },
+    "robin_hood": {
+      "ja": "ロビン・フッド"
     },
     "robin_hood_no_daibouken": {
       "ja": "ロビンフッドの大冒険"
@@ -8784,6 +10089,9 @@
     },
     "rockman_x_series": {
       "ja": "ロックマンXシリーズ"
+    },
+    "rockman_zx_series": {
+      "ja": "ロックマンゼクスシリーズ"
     },
     "rocko's_modern_life": {
       "ja": "ロッコーのモダンライフ"
@@ -8824,14 +10132,32 @@
     "rozen_maiden": {
       "ja": "ローゼンメイデン"
     },
+    "rozen_maiden_(2004)": {
+      "ja": "ローゼンメイデン (2004)"
+    },
     "rpg_fudousan": {
       "ja": "RPG不動産"
+    },
+    "rugrats": {
+      "ja": "ラグラッツ"
     },
     "runaway_brain": {
       "ja": "ミッキーのアルバイトは危機一髪"
     },
+    "running_man": {
+      "ja": "走る男"
+    },
     "ruri_no_houseki": {
       "ja": "瑠璃の宝石"
+    },
+    "rurouni_kenshin": {
+      "ja": "るろうに剣心 -明治剣客浪漫譚-"
+    },
+    "rurouni_kenshin_series": {
+      "ja": "るろうに剣心 シリーズ"
+    },
+    "rusalka": {
+      "ja": "水の精"
     },
     "ryman's_club": {
       "ja": "リーマンズクラブ"
@@ -8896,11 +10222,17 @@
     "saishuu_heiki_kanojo": {
       "ja": "最終兵器彼女"
     },
+    "saiyuuki": {
+      "ja": "西遊記"
+    },
     "saiyuuki_reload": {
       "ja": "最遊記RELOAD"
     },
     "saiyuuki_reload_gunlock": {
       "ja": "最遊記RELOAD GUNLOCK"
+    },
+    "saiyuuki_series": {
+      "ja": "西遊記 シリーズ"
     },
     "sakamichi_no_apollon": {
       "ja": "坂道のアポロン"
@@ -8926,6 +10258,9 @@
     "sakura_taisen_monogatari:_mysterious_paris": {
       "ja": "サクラ大戦物語 〜ミステリアス巴里〜"
     },
+    "sakura_taisen_series": {
+      "ja": "サクラ大戦"
+    },
     "sakura_trick": {
       "ja": "桜Trick"
     },
@@ -8934,6 +10269,9 @@
     },
     "sakurasou_no_pet_na_kanojo": {
       "ja": "さくら荘のペットな彼女"
+    },
+    "salamander": {
+      "ja": "沙羅曼蛇"
     },
     "saludos_amigos": {
       "ja": "ラテン・アメリカの旅"
@@ -8958,6 +10296,15 @@
     },
     "samurai_jack_(2017)": {
       "ja": "サムライジャック (2017)"
+    },
+    "sand_land:_the_series": {
+      "ja": "SAND LAND: THE SERIES"
+    },
+    "sangokushi": {
+      "ja": "三国志"
+    },
+    "sangokushi_(movie_series)": {
+      "ja": "三国志 (映画)"
     },
     "sansha_sanyou": {
       "ja": "三者三葉"
@@ -8989,14 +10336,23 @@
     "sayonara_lara": {
       "ja": "さよならララ"
     },
+    "sayonara_lara_(mv)": {
+      "ja": "さよならララ (MV)"
+    },
     "sayonara_watashi_no_cramer": {
       "ja": "さよなら私のクラマー"
     },
     "sayonara_zetsubou_sensei": {
       "ja": "さよなら絶望先生"
     },
+    "scandal_(video_game)": {
+      "ja": "スキャンダル"
+    },
     "scarlet_nexus": {
       "ja": "Scarlet Nexus"
+    },
+    "school_days": {
+      "ja": "School Days"
     },
     "school_rumble": {
       "ja": "スクールランブル"
@@ -9088,6 +10444,9 @@
     "seisenshi_dunbine": {
       "ja": "聖戦士ダンバイン"
     },
+    "seishun_buta_yarou_wa_bunny_girl_senpai_no_yume_wo_minai_series": {
+      "ja": "青春ブタ野郎シリーズ"
+    },
     "seishun_buta_yarou_wa_odekake_sister_no_yume_wo_minai": {
       "ja": "青春ブタ野郎はおでかけシスターの夢を見ない"
     },
@@ -9127,6 +10486,9 @@
     "sengoku_majin_goshogun": {
       "ja": "戦国魔神ゴーショーグン"
     },
+    "sengoku_majin_goshogun_(1982)": {
+      "ja": "戦国魔神ゴーショーグン (1982)"
+    },
     "sengoku_night_blood": {
       "ja": "戦刻ナイトブラッド"
     },
@@ -9154,6 +10516,9 @@
     "senran_kagura": {
       "ja": "閃乱カグラ"
     },
+    "senran_kagura_(game)": {
+      "ja": "閃乱カグラ (ゲーム)"
+    },
     "senran_kagura_series": {
       "ja": "閃乱カグラ シリーズ"
     },
@@ -9175,14 +10540,35 @@
     "serial_experiments_lain": {
       "ja": "serial experiments lain"
     },
+    "sesame_street": {
+      "ja": "セサミストリート"
+    },
     "seto_no_hanayome": {
       "ja": "瀬戸の花嫁"
     },
     "sf_shinseiki_lensman": {
       "ja": "SF新世紀レンズマン"
     },
+    "shadow_skill_(tv)": {
+      "ja": "SHADOW SKILL"
+    },
+    "shadow_skill_series": {
+      "ja": "SHADOW SKILL"
+    },
     "shadows_house": {
       "ja": "シャドーハウス"
+    },
+    "shadowverse": {
+      "ja": "シャドウバース"
+    },
+    "shadowverse:_worlds_beyond_(game)": {
+      "ja": "Shadowverse: Worlds Beyond"
+    },
+    "shadowverse_(video_game)": {
+      "ja": "Shadowverse"
+    },
+    "shadowverse_series": {
+      "ja": "シャドウバース シリーズ"
     },
     "shakugan_no_shana": {
       "ja": "灼眼のシャナ"
@@ -9196,6 +10582,9 @@
     "shakunetsu_no_takkyu_musume": {
       "ja": "灼熱の卓球娘"
     },
+    "shaman_king": {
+      "ja": "シャーマンキング"
+    },
     "shaman_king_(2021)": {
       "ja": "SHAMAN KING (2021)"
     },
@@ -9205,8 +10594,17 @@
     "shaman_king_series": {
       "ja": "シャーマンキング シリーズ"
     },
+    "shanghaied": {
+      "ja": "ミッキーの海賊退治"
+    },
+    "shangri-la": {
+      "ja": "シャングリ・ラ"
+    },
     "shangri-la_frontier": {
       "ja": "シャングリラ・フロンティア〜クソゲーハンター、神ゲーに挑まんとす〜"
+    },
+    "shelter": {
+      "ja": "SHELTER"
     },
     "sherlock_hound": {
       "ja": "名探偵ホームズ"
@@ -9241,6 +10639,12 @@
     "shin_mazinger_shougeki!_z_hen": {
       "ja": "真マジンガー 衝撃! Z編"
     },
+    "shin_megami_tensei:_devil_children": {
+      "ja": "真・女神転生デビチル"
+    },
+    "shin_megami_tensei:_devil_children_series": {
+      "ja": "真・女神転生デビチル シリーズ"
+    },
     "shin_samurai-den_yaiba": {
       "ja": "真・侍伝YAIBA"
     },
@@ -9261,6 +10665,9 @@
     },
     "shingeki_no_kyojin": {
       "ja": "進撃の巨人"
+    },
+    "shingeki_no_kyojin_(ova)": {
+      "ja": "進撃の巨人 (OVA)"
     },
     "shingeki_no_kyojin_series": {
       "ja": "進撃の巨人 シリーズ"
@@ -9334,6 +10741,9 @@
     "short_peace": {
       "ja": "SHORT PEACE"
     },
+    "shoshimin_series": {
+      "ja": "小市民シリーズ"
+    },
     "shoujo_kageki_revue_starlight": {
       "ja": "少女☆歌劇 レヴュースタァライト"
     },
@@ -9357,6 +10767,9 @@
     },
     "shounen_sarutobi_sasuke": {
       "ja": "少年猿飛佐助"
+    },
+    "shoushimin_series": {
+      "ja": "小市民シリーズ"
     },
     "shouwa_genroku_rakugo_shinjuu": {
       "ja": "昭和元禄落語心中"
@@ -9418,6 +10831,9 @@
     "sirius_the_jaeger": {
       "ja": "天狼 Sirius the Jaeger"
     },
+    "sister_princess": {
+      "ja": "シスター・プリンセス"
+    },
     "skate-leading☆stars": {
       "ja": "スケートリーディング☆スターズ"
     },
@@ -9427,8 +10843,20 @@
     "skip_to_loafer": {
       "ja": "スキップとローファー"
     },
+    "skull_island": {
+      "ja": "髑髏島"
+    },
+    "skullgirls_(video_game)": {
+      "ja": "スカルガールズ"
+    },
     "sky_girls": {
       "ja": "スカイガールズ"
+    },
+    "slam_dunk": {
+      "ja": "SLAM DUNK"
+    },
+    "slam_dunk_series": {
+      "ja": "SLAM DUNK シリーズ"
     },
     "slayers": {
       "ja": "スレイヤーズ"
@@ -9445,6 +10873,9 @@
     "slayers_perfect": {
       "ja": "スレイヤーズ"
     },
+    "slayers_premium": {
+      "ja": "スレイヤーズぷれみあむ"
+    },
     "slayers_return": {
       "ja": "スレイヤーズRETURN"
     },
@@ -9456,6 +10887,9 @@
     },
     "slayers_special": {
       "ja": "スレイヤーズ すぺしゃる"
+    },
+    "sleeping_beauty": {
+      "ja": "眠れる森の美女"
     },
     "slow_start": {
       "ja": "スロウスタート"
@@ -9526,11 +10960,20 @@
     "sonic_superstars": {
       "ja": "ソニックスーパースターズ"
     },
+    "sonic_the_hedgehog": {
+      "ja": "ソニック・ザ・ヘッジホッグ"
+    },
     "sonic_x": {
       "ja": "ソニックX"
     },
+    "sonny_boy": {
+      "ja": "Sonny Boy"
+    },
     "sono_bisque_doll_wa_koi_wo_suru": {
       "ja": "その着せ替え人形は恋をする"
+    },
+    "sora_no_manimani": {
+      "ja": "宙のまにまに"
     },
     "sora_no_method": {
       "ja": "天体のメソッド"
@@ -9589,6 +11032,9 @@
     "sousou_no_frieren_series": {
       "ja": "葬送のフリーレン シリーズ"
     },
+    "space_adventure_cobra": {
+      "ja": "スペースコブラ"
+    },
     "space_adventure_cobra:_the_movie": {
       "ja": "SPACE ADVENTURE コブラ"
     },
@@ -9613,11 +11059,17 @@
     "spice_and_wolf": {
       "ja": "狼と香辛料"
     },
+    "spider-man": {
+      "ja": "スパイダーマン"
+    },
     "spider-man:_across_the_spider-verse": {
       "ja": "スパイダーマン：アクロス・ザ・スパイダーバース"
     },
     "spider-man:_into_the_spider-verse": {
       "ja": "スパイダーマン: スパイダーバース"
+    },
+    "spider-man_the_animated_series": {
+      "ja": "スパイダーマン シリーズ"
     },
     "spirit:_stallion_of_the_cimarron": {
       "ja": "スピリット"
@@ -9634,11 +11086,17 @@
     "spriggan": {
       "ja": "スプリガン"
     },
+    "spriggan_(2022)": {
+      "ja": "スプリガン (2022)"
+    },
     "spriggan_series": {
       "ja": "スプリガン シリーズ"
     },
     "spring_and_chaos": {
       "ja": "イーハトーブ幻想〜KENjIの春"
+    },
+    "spring_song": {
+      "ja": "春の唄"
     },
     "spy_kyoushitsu": {
       "ja": "スパイ教室"
@@ -9655,8 +11113,14 @@
     "star_driver": {
       "ja": "STAR DRIVER 輝きのタクト"
     },
+    "star_ocean_series": {
+      "ja": "スターオーシャンシリーズ"
+    },
     "star_twinkle_precure": {
       "ja": "スター☆トゥインクルプリキュア"
+    },
+    "star_wars": {
+      "ja": "スター・ウォーズ"
     },
     "star_wars:_clone_wars_(2003)": {
       "ja": "スター・ウォーズ クローン大戦 (2003)"
@@ -9688,6 +11152,9 @@
     "steins;gate": {
       "ja": "STEINS;GATE"
     },
+    "steins;gate_0": {
+      "ja": "シュタインズ・ゲート ゼロ"
+    },
     "steven_universe": {
       "ja": "スティーブン・ユニバース"
     },
@@ -9699,6 +11166,9 @@
     },
     "strange_dawn": {
       "ja": "ストレンジドーン"
+    },
+    "street_fighter": {
+      "ja": "ストリートファイター"
     },
     "street_fighter_alpha": {
       "ja": "ストリートファイターZERO"
@@ -9748,6 +11218,9 @@
     "suicide_squad_isekai": {
       "ja": "異世界スーサイド・スクワッド"
     },
+    "suika": {
+      "ja": "水夏"
+    },
     "suikoden_series": {
       "ja": "幻想水滸伝シリーズ"
     },
@@ -9772,14 +11245,23 @@
     "summer_pockets": {
       "ja": "Summer Pockets"
     },
+    "summer_pockets_(tv)": {
+      "ja": "Summer Pockets (TV)"
+    },
     "summer_time_rendering": {
       "ja": "サマータイムレンダ"
     },
     "summer_wars": {
       "ja": "サマーウォーズ"
     },
+    "summon_night_2_(video_game)": {
+      "ja": "サモンナイト2"
+    },
     "summon_night_4": {
       "ja": "サモンナイト4"
+    },
+    "summon_night_5_(video_game)": {
+      "ja": "サモンナイト5"
     },
     "summon_night_series": {
       "ja": "サモンナイトシリーズ"
@@ -9805,11 +11287,26 @@
     "super_shiro": {
       "ja": "SUPER SHIRO"
     },
+    "supergirl_(mv)": {
+      "ja": "Supergirl"
+    },
+    "superman": {
+      "ja": "スーパーマン"
+    },
     "superman/batman:_apocalypse": {
       "ja": "スーパーマン/バットマン:アポカリプス"
     },
+    "superman_(1940s)": {
+      "ja": "スーパーマン (1940年代)"
+    },
+    "superman_the_animated_series": {
+      "ja": "スーパーマン アニメ・シリーズ"
+    },
     "surveillance_kanshisha": {
       "ja": "サーヴィランス 監視者"
+    },
+    "survival_series": {
+      "ja": "サバイバルシリーズ"
     },
     "suzume_no_tojimari": {
       "ja": "すずめの戸締まり"
@@ -9822,6 +11319,9 @@
     },
     "sword_art_online:_progressive": {
       "ja": "ソードアート・オンライン プログレッシブ"
+    },
+    "sword_art_online_alicization_series": {
+      "ja": "ソードアート・オンライン アリシゼーション シリーズ"
     },
     "sword_art_online_alternative:_gun_gale_online": {
       "ja": "ソードアート・オンライン オルタナティブ ガンゲイル・オンライン"
@@ -9849,6 +11349,9 @@
     },
     "taifuu_no_noruda": {
       "ja": "台風のノルダ"
+    },
+    "tailenders": {
+      "ja": "TAILENDERS"
     },
     "taisho_baseball_girls": {
       "ja": "大正野球娘。"
@@ -9937,6 +11440,9 @@
     "tales_of_zestiria_the_x": {
       "ja": "テイルズ オブ ゼスティリア ザ クロス"
     },
+    "talesweaver": {
+      "ja": "テイルズウィーバー"
+    },
     "tamagotchi!": {
       "ja": "たまごっち!"
     },
@@ -9946,14 +11452,38 @@
     "tamako_market": {
       "ja": "たまこまーけっと"
     },
+    "tamako_series": {
+      "ja": "たまこまーけっと シリーズ"
+    },
+    "tamayura": {
+      "ja": "たまゆら"
+    },
+    "tamayura_(ova)": {
+      "ja": "たまゆら (OVA)"
+    },
     "tamayura_hitotose": {
       "ja": "たまゆら～hitotose～"
+    },
+    "tangled": {
+      "ja": "塔の上のラプンツェル"
+    },
+    "tangled:_the_series": {
+      "ja": "ラプンツェル ザ・シリーズ"
     },
     "tanken_driland": {
       "ja": "探検ドリランド"
     },
     "tanken_driland_series": {
       "ja": "探検ドリランド シリーズ"
+    },
+    "tantei_opera_milky_holmes": {
+      "ja": "探偵オペラ ミルキィホームズ"
+    },
+    "tantei_opera_milky_holmes_series": {
+      "ja": "探偵オペラ ミルキィホームズ シリーズ"
+    },
+    "tarzan": {
+      "ja": "ターザン"
     },
     "tatakau_shisho": {
       "ja": "戦う司書シリーズ"
@@ -9976,6 +11506,9 @@
     "tattoon_master": {
       "ja": "タトゥーン★マスター"
     },
+    "tearmoon_teikoku_monogatari": {
+      "ja": "ティアムーン帝国物語"
+    },
     "tears_to_tiara": {
       "ja": "Tears to Tiara"
     },
@@ -9987,6 +11520,9 @@
     },
     "teen_titans_go!_to_the_movies": {
       "ja": "ティーン・タイタンズ・ゴー！ トゥ・ザ・ムービーズ"
+    },
+    "teenage_mutant_ninja_turtles": {
+      "ja": "ティーンエイジ・ミュータント・ニンジャ・タートルズ"
     },
     "teenage_mutant_ninja_turtles_(1987)": {
       "ja": "ティーンエイジ・ミュータント・ニンジャ・タートルズ (1987年版シリーズ)"
@@ -10011,6 +11547,9 @@
     },
     "tekkon_kinkreet": {
       "ja": "鉄コン筋クリート"
+    },
+    "telepathy_shoujo_ran": {
+      "ja": "テレパシー少女 蘭"
     },
     "tenamonya_voyagers": {
       "ja": "てなもんやボイジャーズ"
@@ -10041,6 +11580,12 @@
     },
     "tenmaku_no_jaadugar": {
       "ja": "天幕のジャードゥーガル"
+    },
+    "tensai_bakabon": {
+      "ja": "天才バカボン"
+    },
+    "tensai_bakabon_series": {
+      "ja": "天才バカボン シリーズ"
     },
     "tensei_oujo_to_tensai_reijou_no_mahou_kakumei": {
       "ja": "転生王女と天才令嬢の魔法革命"
@@ -10075,6 +11620,9 @@
     "terraformars_series": {
       "ja": "テラフォーマーズ シリーズ"
     },
+    "tetsujin_28-go_(1980)": {
+      "ja": "鉄人28号"
+    },
     "tetsujin_28-go_(2004)": {
       "ja": "鉄人28号 (2004)"
     },
@@ -10089,6 +11637,9 @@
     },
     "tetsuwan_atom_(1963)": {
       "ja": "鉄腕アトム (1963)"
+    },
+    "tetsuwan_atom_(2003)": {
+      "ja": "ASTRO BOY 鉄腕アトム"
     },
     "tetsuwan_birdy": {
       "ja": "鉄腕バーディー"
@@ -10140,6 +11691,9 @@
     },
     "the_boondocks": {
       "ja": "ブーンドックス"
+    },
+    "the_boxer": {
+      "ja": "ザ・ボクサー"
     },
     "the_boy_and_the_heron": {
       "ja": "君たちはどう生きるか"
@@ -10234,11 +11788,23 @@
     "the_great_mouse_detective": {
       "ja": "オリビアちゃんの大冒険"
     },
+    "the_great_passage": {
+      "ja": "舟を編む"
+    },
     "the_hakkenden": {
       "ja": "THE八犬伝"
     },
+    "the_hobbit": {
+      "ja": "ホビットの冒険"
+    },
     "the_humpbacked_horse_(1947)": {
       "ja": "せむしの子馬 (1947)"
+    },
+    "the_hunchback_of_notre_dame": {
+      "ja": "ノートルダムの鐘"
+    },
+    "the_idolm@ster": {
+      "ja": "THE IDOLM@STER"
     },
     "the_idolm@ster_cinderella_girls": {
       "ja": "アイドルマスター シンデレラガールズ"
@@ -10248,6 +11814,9 @@
     },
     "the_idolm@ster_series": {
       "ja": "アイドルマスターシリーズ"
+    },
+    "the_idolmaster": {
+      "ja": "THE IDOLM@STER"
     },
     "the_idolmaster_cinderella_girls": {
       "ja": "アイドルマスター シンデレラガールズ"
@@ -10270,14 +11839,23 @@
     "the_idolmaster_sidem": {
       "ja": "アイドルマスター SideM"
     },
+    "the_illusionist": {
+      "ja": "イリュージョニスト"
+    },
     "the_imaginary": {
       "ja": "屋根裏のラジャー"
     },
     "the_jetsons": {
       "ja": "宇宙家族ジェットソン"
     },
+    "the_jungle_book": {
+      "ja": "ジャングル・ブック"
+    },
     "the_king's_avatar": {
       "ja": "マスターオブスキル 全職高手"
+    },
+    "the_king's_avatar_(2018)": {
+      "ja": "マスターオブスキル 全職高手 (2018)"
     },
     "the_king's_avatar_series": {
       "ja": "マスターオブスキル 全職高手 シリーズ"
@@ -10315,6 +11893,9 @@
     "the_lion_king_series": {
       "ja": "ライオン・キング シリーズ"
     },
+    "the_little_mermaid": {
+      "ja": "リトル・マーメイド"
+    },
     "the_little_whirlwind": {
       "ja": "ミッキーのつむじ風"
     },
@@ -10342,8 +11923,14 @@
     "the_mighty_river": {
       "ja": "大いなる河の流れ"
     },
+    "the_monkey_king": {
+      "ja": "モンキー・キング"
+    },
     "the_new_adventures_of_winnie_the_pooh": {
       "ja": "新くまのプーさん"
+    },
+    "the_ninth_jedi_series": {
+      "ja": "九人目のジェダイ シリーズ"
     },
     "the_old_grey_hare": {
       "ja": "未来のバニー"
@@ -10369,6 +11956,12 @@
     "the_pointer": {
       "ja": "ミッキーの猟は楽し"
     },
+    "the_powerpuff_girls": {
+      "ja": "パワーパフガールズ"
+    },
+    "the_prince_and_the_pauper": {
+      "ja": "ミッキーの王子と少年"
+    },
     "the_prince_of_egypt": {
       "ja": "プリンス・オブ・エジプト"
     },
@@ -10383,6 +11976,9 @@
     },
     "the_promised_neverland_series": {
       "ja": "約束のネバーランド シリーズ"
+    },
+    "the_real_ghostbusters": {
+      "ja": "アニメ ゴーストバスターズ"
     },
     "the_red_turtle": {
       "ja": "レッドタートル ある島の物語"
@@ -10410,6 +12006,9 @@
     },
     "the_rose_of_versailles_series": {
       "ja": "ベルサイユのばら シリーズ"
+    },
+    "the_samurai": {
+      "ja": "ザ・サムライ"
     },
     "the_secret_of_kells": {
       "ja": "ブレンダンとケルズの秘密"
@@ -10459,6 +12058,9 @@
     "the_tale_of_the_princess_kaguya": {
       "ja": "かぐや姫の物語"
     },
+    "the_thief_and_the_cobbler": {
+      "ja": "泥棒と靴屋"
+    },
     "the_three_caballeros": {
       "ja": "三人の騎士"
     },
@@ -10483,6 +12085,9 @@
     "the_witcher:_sirens_of_the_deep": {
       "ja": "ウィッチャー 深海のセイレーン"
     },
+    "the_witcher_series": {
+      "ja": "ウィッチャー シリーズ"
+    },
     "the_wolf": {
       "ja": "狼殿下"
     },
@@ -10495,11 +12100,20 @@
     "this_ugly_yet_beautiful_world": {
       "ja": "この醜くも美しい世界"
     },
+    "thumbelina": {
+      "ja": "おやゆび姫 サンベリーナ"
+    },
+    "thundercats": {
+      "ja": "サンダーキャッツ"
+    },
     "thundercats_(2011)": {
       "ja": "サンダーキャッツ (2011)"
     },
     "thus_spoke_kishibe_rohan": {
       "ja": "岸辺露伴は動かない"
+    },
+    "tian_guan_ci_fu_series": {
+      "ja": "天官賜福 シリーズ"
     },
     "tide-line_blue": {
       "ja": "タイドライン・ブルー"
@@ -10524,6 +12138,9 @@
     },
     "time_bokan_24": {
       "ja": "タイムボカン24"
+    },
+    "time_gal_(video_game)": {
+      "ja": "タイムギャル"
     },
     "time_jam:_valerian_&_laureline": {
       "ja": "ヴァレリアン＆ロールリンヌ"
@@ -10555,6 +12172,9 @@
     "to_aru_majutsu_no_index_series": {
       "ja": "とある魔術の禁書目録 シリーズ"
     },
+    "to_aru_series": {
+      "ja": "とあるシリーズ"
+    },
     "to_be_hero": {
       "ja": "TO BE HERO"
     },
@@ -10564,14 +12184,29 @@
     "to_be_hero_x": {
       "ja": "TO BE HERO X"
     },
+    "to_be_hero_x_(ona)": {
+      "ja": "TO BE HERO X (ONA)"
+    },
     "to_be_heroine": {
       "ja": "トゥー・ビー・ヒロイン"
+    },
+    "to_heart": {
+      "ja": "To Heart"
     },
     "to_heart_2": {
       "ja": "ToHeart2"
     },
+    "to_heart_series": {
+      "ja": "To Heart シリーズ"
+    },
     "to_love_ru": {
       "ja": "To LOVEる -とらぶる-"
+    },
+    "to_love_ru_(ova)": {
+      "ja": "To LOVEる -とらぶる- (OVA)"
+    },
+    "to_love_ru_darkness": {
+      "ja": "To LOVEる -とらぶる- ダークネス"
     },
     "to_love_ru_series": {
       "ja": "To LOVEる -とらぶる- シリーズ"
@@ -10600,6 +12235,9 @@
     "toki_wo_kakeru_shoujo": {
       "ja": "時をかける少女"
     },
+    "tokimeki_memorial_series": {
+      "ja": "ときめきメモリアル"
+    },
     "tokimeki_tonight": {
       "ja": "ときめきトゥナイト"
     },
@@ -10620,6 +12258,15 @@
     },
     "tokyo_esp": {
       "ja": "東京ESP"
+    },
+    "tokyo_ghoul": {
+      "ja": "東京喰種トーキョーグール"
+    },
+    "tokyo_ghoul:re": {
+      "ja": "東京喰種トーキョーグール：re"
+    },
+    "tokyo_ghoul_series": {
+      "ja": "東京喰種トーキョーグール シリーズ"
     },
     "tokyo_godfathers": {
       "ja": "東京ゴッドファーザーズ"
@@ -10645,11 +12292,17 @@
     "tokyo_ravens": {
       "ja": "東京レイヴンズ"
     },
+    "tokyo_revengers": {
+      "ja": "東京リベンジャーズ"
+    },
     "tokyo_tribe_2": {
       "ja": "TOKYO TRIBE2"
     },
     "tokyo_underground": {
       "ja": "東京アンダーグラウンド"
+    },
+    "tokyo_vice": {
+      "ja": "トウキョウ・バイス"
     },
     "tokyo_xanadu": {
       "ja": "東亰ザナドゥ"
@@ -10672,6 +12325,9 @@
     "tomb_raider:_the_legend_of_lara_croft": {
       "ja": "トゥームレイダー: レジェンド・オブ・ララ・クロフト"
     },
+    "tomb_raider_series": {
+      "ja": "トゥームレイダー"
+    },
     "tomo-chan_wa_onnanoko!": {
       "ja": "トモちゃんは女の子!"
     },
@@ -10689,6 +12345,9 @@
     },
     "tongari_boushi_no_atelier": {
       "ja": "とんがり帽子のアトリエ"
+    },
+    "tonikaku_kawaii_series": {
+      "ja": "トニカクカワイイ"
     },
     "tooi-san_wa_seishun_shitai!_\"baka_to_smapho_to_romance_to\"": {
       "ja": "遠井さんは青春したい！『バカとスマホとロマンスと』"
@@ -10713,6 +12372,9 @@
     },
     "totsukuni_no_shoujo": {
       "ja": "とつくにの少女"
+    },
+    "touch": {
+      "ja": "タッチ"
     },
     "tougen_anki": {
       "ja": "桃源暗鬼"
@@ -10744,6 +12406,9 @@
     "toward_the_terra": {
       "ja": "地球へ…"
     },
+    "toward_the_terra_(tv)": {
+      "ja": "地球へ… (TV)"
+    },
     "toward_the_terra_series": {
       "ja": "地球へ… シリーズ"
     },
@@ -10768,6 +12433,9 @@
     "transformers_animated": {
       "ja": "トランスフォーマー アニメイテッド"
     },
+    "transformers_series": {
+      "ja": "トランスフォーマー"
+    },
     "transformers_the_movie": {
       "ja": "トランスフォーマー ザ・ムービー"
     },
@@ -10779,6 +12447,12 @@
     },
     "treasure_planet": {
       "ja": "トレジャー・プラネット"
+    },
+    "tribe_nine": {
+      "ja": "TRIBE NINE"
+    },
+    "trick_or_treat": {
+      "ja": "ドナルドの魔法使い"
     },
     "trickster": {
       "ja": "TRICKSTER -江戸川乱歩「少年探偵団」より-"
@@ -10797,6 +12471,9 @@
     },
     "trinity_blood": {
       "ja": "トリニティ・ブラッド"
+    },
+    "trinity_seven": {
+      "ja": "トリニティセブン"
     },
     "tristia_of_the_deep_blue_sea": {
       "ja": "蒼い海のトリスティア"
@@ -10833,6 +12510,9 @@
     },
     "tsuki_to_laika_to_nosferatu": {
       "ja": "月とライカと吸血姫"
+    },
+    "tsukihime": {
+      "ja": "月姫"
     },
     "tsukuyomi_moon_phase": {
       "ja": "月詠"
@@ -10897,6 +12577,9 @@
     "uchuu_senshi_baldios": {
       "ja": "宇宙戦士バルディオス"
     },
+    "uchuu_senshi_baldios_(movie)": {
+      "ja": "宇宙戦士バルディオス (映画)"
+    },
     "uchuujin_muumuu": {
       "ja": "宇宙人ムームー"
     },
@@ -10914,6 +12597,12 @@
     },
     "ultimate_spider-man": {
       "ja": "アルティメット・スパイダーマン"
+    },
+    "ultra_nyan_series": {
+      "ja": "ウルトラニャン シリーズ"
+    },
+    "ultraman_(series)": {
+      "ja": "ウルトラシリーズ"
     },
     "uma_musume_cinderella_gray": {
       "ja": "ウマ娘 シンデレラグレイ"
@@ -10975,8 +12664,17 @@
     "urusei_yatsura:_only_you": {
       "ja": "うる星やつら オンリー・ユー"
     },
+    "urusei_yatsura_(1985)": {
+      "ja": "うる星やつら (1985)"
+    },
+    "urusei_yatsura_(tv)": {
+      "ja": "うる星やつら (TV)"
+    },
     "urusei_yatsura_2:_beautiful_dreamer": {
       "ja": "うる星やつら2 ビューティフル・ドリーマー"
+    },
+    "urusei_yatsura_series": {
+      "ja": "うる星やつら"
     },
     "usagi-chan_de_cue!!": {
       "ja": "うさぎちゃんでCue!!"
@@ -10986,6 +12684,9 @@
     },
     "ushio_to_tora": {
       "ja": "うしおととら"
+    },
+    "uta_no_prince-sama_series": {
+      "ja": "うたの☆プリンスさまっ♪"
     },
     "utawarerumono": {
       "ja": "うたわれるもの"
@@ -10999,11 +12700,20 @@
     "uzumaki": {
       "ja": "うずまき"
     },
+    "valkyria_chronicles_series": {
+      "ja": "戦場のヴァルキュリアシリーズ"
+    },
     "valkyrie_drive": {
       "ja": "VALKYRIE DRIVE"
     },
+    "valorant": {
+      "ja": "VALORANT"
+    },
     "valvrave_the_liberator": {
       "ja": "革命機ヴァルヴレイヴ"
+    },
+    "vampire_hunter:_the_animated_series": {
+      "ja": "ヴァンパイアハンター THE ANIMATED SERIES シリーズ"
     },
     "vampire_hunter_d_(1985)": {
       "ja": "吸血鬼ハンターD (1985)"
@@ -11013,6 +12723,9 @@
     },
     "vampire_princess_miyu": {
       "ja": "吸血姫美夕"
+    },
+    "vampire_princess_miyu_(tv)": {
+      "ja": "吸血姫美夕 (TV)"
     },
     "vampire_wars": {
       "ja": "ヴァンパイヤー戦争"
@@ -11028,6 +12741,15 @@
     },
     "vassalord": {
       "ja": "Vassalord."
+    },
+    "video_girl_ai": {
+      "ja": "電影少女"
+    },
+    "vinland_saga": {
+      "ja": "ヴィンランド・サガ"
+    },
+    "vinland_saga_series": {
+      "ja": "ヴィンランド・サガ シリーズ"
     },
     "violence_jack": {
       "ja": "バイオレンスジャック"
@@ -11065,8 +12787,20 @@
     "w'z": {
       "ja": "W'z《ウィズ》"
     },
+    "wagamama☆fairy_mirumo_de_pon!_series": {
+      "ja": "わがまま☆フェアリー ミルモでポン! シリーズ"
+    },
     "wake_up": {
       "ja": "ウェイク・アップ"
+    },
+    "wake_up_girls!_series": {
+      "ja": "Wake Up, Girls!シリーズ"
+    },
+    "wakfu": {
+      "ja": "ワクフ"
+    },
+    "wakfu_series": {
+      "ja": "ワクフ シリーズ"
     },
     "wander_over_yonder": {
       "ja": "なんだかんだワンダー"
@@ -11076,6 +12810,9 @@
     },
     "warau_arsnotoria_sun!": {
       "ja": "咲う アルスノトリア すんっ！"
+    },
+    "warframe": {
+      "ja": "Warframe"
     },
     "watashi_ga_motenai_no_wa_dou_kangaetemo_omaera_ga_warui": {
       "ja": "私がモテないのはどう考えてもお前らが悪い!"
@@ -11119,6 +12856,9 @@
     "when_the_wind_blows": {
       "ja": "風が吹くとき"
     },
+    "where_the_wind_blows_(mv)": {
+      "ja": "風のゆくえ"
+    },
     "whisper_of_the_heart": {
       "ja": "耳をすませば"
     },
@@ -11133,6 +12873,9 @@
     },
     "who_framed_roger_rabbit": {
       "ja": "ロジャー・ラビット"
+    },
+    "wicked_city": {
+      "ja": "妖獣都市"
     },
     "wild_7": {
       "ja": "ワイルド7"
@@ -11154,6 +12897,9 @@
     },
     "windy_tales": {
       "ja": "風人物語"
+    },
+    "winnie_the_pooh": {
+      "ja": "くまのプーさん"
     },
     "winnie_the_pooh_and_the_blustery_day": {
       "ja": "プーさんと大あらし"
@@ -11191,8 +12937,17 @@
     "wolf_boy_ken": {
       "ja": "狼少年ケン"
     },
+    "wolf_guy": {
+      "ja": "ウルフガイ"
+    },
     "wolfs_rain": {
       "ja": "WOLF'S RAIN"
+    },
+    "wolfwalkers": {
+      "ja": "ウルフウォーカー"
+    },
+    "wolverine": {
+      "ja": "ウルヴァリン"
     },
     "wonder_egg_priority": {
       "ja": "ワンダーエッグ・プライオリティ"
@@ -11200,14 +12955,26 @@
     "wonder_woman_(2009)": {
       "ja": "ワンダーウーマン (2009)"
     },
+    "wonderful_days": {
+      "ja": "ワンダフルデイズ"
+    },
     "wonderful_precure": {
       "ja": "わんだふるぷりきゅあ!"
+    },
+    "woody_woodpecker": {
+      "ja": "ウッディー・ウッドペッカー"
     },
     "words_worth": {
       "ja": "ワーズ・ワース"
     },
+    "working!!": {
+      "ja": "WORKING!!"
+    },
     "working!!!": {
       "ja": "WORKING!!"
+    },
+    "working!!_series": {
+      "ja": "WORKING!! シリーズ"
     },
     "working'!!": {
       "ja": "WORKING!!"
@@ -11218,11 +12985,17 @@
     "world_destruction": {
       "ja": "ワールド・デストラクション 世界撲滅の六人"
     },
+    "world_of_final_fantasy_(video_game)": {
+      "ja": "ワールド オブ ファイナルファンタジー"
+    },
     "world_trigger": {
       "ja": "ワールドトリガー"
     },
     "world_trigger_series": {
       "ja": "ワールドトリガー シリーズ"
+    },
+    "world_witches_series": {
+      "ja": "ワールドウィッチーズシリーズ"
     },
     "wotaku_ni_koi_wa_muzukashii": {
       "ja": "ヲタクに恋は難しい"
@@ -11236,14 +13009,29 @@
     "www.working!!": {
       "ja": "WORKING!!"
     },
+    "x-men": {
+      "ja": "X-MEN"
+    },
+    "x-men_(2011_anime)": {
+      "ja": "エックスメン"
+    },
     "x-men_97": {
       "ja": "X-MEN '97"
     },
     "x-men_evolution": {
       "ja": "X-メン:エボリューション"
     },
+    "x-men_the_animated_series": {
+      "ja": "X-MEN シリーズ"
+    },
+    "x_series": {
+      "ja": "X シリーズ"
+    },
     "xenosaga_the_animation": {
       "ja": "Xenosaga THE ANIMATION"
+    },
+    "xxxholic": {
+      "ja": "xxxHOLiC"
     },
     "xxxholic:_a_midsummer_night's_dream": {
       "ja": "劇場版xxxHOLiC 真夏ノ夜ノ夢"
@@ -11262,6 +13050,9 @@
     },
     "yahari_ore_no_seishun_love_comedy_wa_machigatteiru_series": {
       "ja": "やはり俺の青春ラブコメはまちがっている。 シリーズ"
+    },
+    "yaiba_series": {
+      "ja": "YAIBA シリーズ"
     },
     "yakitate!!_japan": {
       "ja": "焼きたて!!ジャぱん"
@@ -11289,6 +13080,9 @@
     },
     "yamato_2520": {
       "ja": "YAMATO2520"
+    },
+    "yamato_series": {
+      "ja": "宇宙戦艦ヤマト"
     },
     "yamato_takeru": {
       "ja": "ヤマトタケル"
@@ -11325,6 +13119,9 @@
     },
     "yatterman_(2008)": {
       "ja": "ヤッターマン (2008)"
+    },
+    "yatterman_series": {
+      "ja": "ヤッターマン"
     },
     "yawara!": {
       "ja": "YAWARA!"
@@ -11374,6 +13171,9 @@
     "you're_under_arrest:_the_movie": {
       "ja": "逮捕しちゃうぞ the MOVIE"
     },
+    "you're_under_arrest_(tv)": {
+      "ja": "逮捕しちゃうぞ (TV)"
+    },
     "youjo_senki": {
       "ja": "幼女戦記"
     },
@@ -11382,6 +13182,18 @@
     },
     "youkai_ningen_bem_(2006)": {
       "ja": "妖怪人間ベム -HUMANOID MONSTER BEM- (2006)"
+    },
+    "youkai_ningen_bem_series": {
+      "ja": "妖怪人間ベム シリーズ"
+    },
+    "youkai_watch": {
+      "ja": "妖怪ウォッチ"
+    },
+    "youkai_watch_series": {
+      "ja": "妖怪ウォッチ シリーズ"
+    },
+    "youkoso_jitsuryoku_shijou_shugi_no_kyoushitsu_e_series": {
+      "ja": "ようこそ実力至上主義の教室へ シリーズ"
     },
     "young_justice": {
       "ja": "ヤング・ジャスティス"
@@ -11425,6 +13237,9 @@
     "yu-gi-oh!_go_rush!!": {
       "ja": "遊☆戯☆王ゴーラッシュ!!"
     },
+    "yu-gi-oh!_gx": {
+      "ja": "遊☆戯☆王デュエルモンスターズGX"
+    },
     "yu-gi-oh!_master_duel": {
       "ja": "遊戯王マスターデュエル"
     },
@@ -11439,6 +13254,12 @@
     },
     "yu-gi-oh!_zexal": {
       "ja": "遊☆戯☆王ZEXAL"
+    },
+    "yu_yu_hakusho": {
+      "ja": "幽☆遊☆白書"
+    },
+    "yu_yu_hakusho_series": {
+      "ja": "幽☆遊☆白書 シリーズ"
     },
     "yubisaki_to_renren": {
       "ja": "ゆびさきと恋々"
@@ -11460,6 +13281,12 @@
     },
     "yuri_seijin_naoko-san": {
       "ja": "百合星人ナオコサン"
+    },
+    "yuri_seijin_naoko-san_(2010)": {
+      "ja": "百合星人ナオコサン (2010)"
+    },
+    "yuri_seijin_naoko-san_(2012)": {
+      "ja": "百合星人ナオコサン (2012)"
     },
     "yuru_camp": {
       "ja": "ゆるキャン△"
@@ -11496,6 +13323,9 @@
     },
     "zankyou_no_terror": {
       "ja": "残響のテロル"
+    },
+    "zaregoto_series": {
+      "ja": "戯言シリーズ"
     },
     "zenless_zone_zero": {
       "ja": "ゼンレスゾーンゼロ"
@@ -11582,6 +13412,7 @@
     ".hack_series": 57,
     "009-1": 37,
     "07-ghost": 7,
+    "101_dalmatians": 88,
     "16bit_sensation:_another_layer": 6,
     "18if": 10,
     "2.43:_seiin_koukou_danshi_volley-bu": 44,
@@ -11604,6 +13435,7 @@
     "a_tale_of_two_kitties": 14,
     "a_tree_of_palme": 87,
     "a_whisker_away": 32,
+    "aa!_megami-sama!_series": 38,
     "aaron_blaise": 22,
     "aaron_springer": 12,
     "abara": 13,
@@ -11614,9 +13446,11 @@
     "acca:_13_ku_kansatsu_ka": 132,
     "accel_world": 129,
     "acchi_kocchi": 12,
+    "ace_attorney_(series)": 49,
     "ace_of_diamond": 12,
     "ace_wo_nerae": 34,
     "ace_wo_nerae!_(1979)": 50,
+    "ace_wo_nerae!_series": 202,
     "acro_trip": 17,
     "action_heroine_cheer_fruits": 12,
     "actors:_songs_connection": 5,
@@ -11633,13 +13467,17 @@
     "aho_girl": 21,
     "ai_city": 10,
     "ai_kikuchi": 11,
+    "ai_mai_mi": 10,
+    "aikatsu!": 73,
     "aikatsu!_series": 218,
     "aikatsu!_the_movie": 8,
     "aikatsu_friends!": 32,
     "aikatsu_on_parade!": 22,
     "aikatsu_stars!": 65,
+    "air": 106,
     "air_gear": 8,
     "air_master": 24,
+    "air_series": 107,
     "aiura": 27,
     "akadou_suzunosuke": 22,
     "akagami_no_shirayuki-hime": 39,
@@ -11663,6 +13501,7 @@
     "akio_sugino": 115,
     "akio_takami": 16,
     "akio_watanabe": 52,
+    "akira": 161,
     "akira_amemiya": 240,
     "akira_daikuhara": 47,
     "akira_honma": 70,
@@ -11679,9 +13518,13 @@
     "akuu_daisakusen_srungle": 8,
     "akuyaku_reijou_tensei_ojisan": 69,
     "al_coe": 5,
+    "aladdin": 23,
+    "aladdin_series": 27,
+    "alchemy_stars_(game)": 15,
     "aldnoah_zero": 66,
     "aleksandr_petrov": 37,
     "alice_in_cyberland": 8,
+    "alice_in_wonderland": 21,
     "alice_to_therese_no_maboroshi_koujou": 41,
     "alien_nine": 31,
     "alien_stage": 18,
@@ -11690,28 +13533,42 @@
     "all_saints_street": 12,
     "all_you_need_is_kill": 27,
     "alpine_climbers": 18,
+    "alvin_and_the_chipmunks": 7,
     "amaama_to_inazuma": 11,
     "amagami-san_chi_no_enmusubi": 9,
+    "amagami_series": 15,
     "amagami_ss": 14,
     "amagi_brilliant_park": 52,
     "amanchu!": 11,
     "amby_paliwoda": 5,
     "american_pop": 10,
+    "amnesia": 14,
     "amon_saga": 9,
+    "amphibia": 54,
     "an_american_tail": 12,
+    "anastasia": 20,
     "andreas_deja": 53,
     "andy_gaskill": 29,
     "ange_vierge": 6,
+    "angel's_egg": 58,
     "angel_beats": 40,
+    "angel_blade": 14,
+    "angelic_layer": 119,
     "angelina_ballerina": 10,
     "ani*kuri15": 22,
     "anima_yell!": 14,
     "animals": 12939,
+    "animaniacs": 193,
+    "animaniacs_(1993)": 68,
+    "animaniacs_(2020)": 130,
     "animated": 219944,
     "animation_runner_kuromi": 17,
+    "animator_vs._animation_series": 27,
     "animatrix": 76,
     "anime_tenchou": 10,
     "anmitsu_hime": 10,
+    "anne_of_green_gables": 68,
+    "anne_of_green_gables_series": 104,
     "anne_shirley": 22,
     "ano_hi_mita_hana_no_namae_o_boku-tachi_wa_mada_shiranai": 82,
     "ano_natsu_de_matteru": 24,
@@ -11720,6 +13577,8 @@
     "anpanman": 203,
     "ansatsusha_de_aru_ore_no_status_ga_yuusha_yori_mo_akiraka_ni_tsuyoi_no_da_ga": 27,
     "anthony_derosa": 12,
+    "ao_no_exorcist": 118,
+    "ao_no_exorcist_series": 208,
     "ao_no_orchestra": 7,
     "ao_no_orchestra_series": 16,
     "aoashi": 33,
@@ -11729,6 +13588,8 @@
     "aoi_honoo": 7,
     "aoi_sekai_no_chuushin_de": 14,
     "aoki_ryusei_spt_layzner": 66,
+    "aoki_ryusei_spt_layzner_(ova)": 5,
+    "aoki_ryusei_spt_layzner_(tv)": 25,
     "aoyama_gosho_tanpenshuu": 8,
     "apocalypse_hotel": 51,
     "appare-ranman!": 27,
@@ -11740,14 +13601,20 @@
     "arakawa_under_the_bridge": 40,
     "arcade_gamer_fubuki": 42,
     "arcadia_of_my_youth": 40,
+    "arcane": 44,
     "arcane_season_2": 17,
+    "archenemy": 7,
+    "arco": 33,
     "area_88": 58,
     "argento_soma": 39,
+    "aria_series": 119,
     "aria_the_animation": 5,
     "aria_the_natural": 17,
+    "ariel": 10,
     "arifureta_shokugyou_de_sekai_saikyou": 27,
     "arjuna": 46,
     "arknights": 315,
+    "arknights_tv_series": 135,
     "armitage_iii": 37,
     "armor_hunter_mellowlink": 32,
     "armored_police_metal_jack": 14,
@@ -11756,11 +13623,13 @@
     "arrietty": 58,
     "ars_no_kyojuu": 23,
     "arslan_senki": 35,
+    "arslan_senki_(ova)": 18,
     "art_babbitt": 206,
     "art_davis": 34,
     "art_palmer": 53,
     "art_stevens": 24,
     "artist_unknown": 116439,
+    "aru_majo_ga_shinu_made": 14,
     "asagao_to_kase-san": 9,
     "asako_nishida": 83,
     "asatte_no_houkou": 10,
@@ -11769,6 +13638,8 @@
     "ashita_no_joe_series": 180,
     "ashita_no_nadja": 68,
     "asobi_ni_ikuyo": 20,
+    "assassination_classroom": 6,
+    "assassination_classroom_series": 15,
     "assassins_pride": 13,
     "assault_lily:_bouquet": 80,
     "assemble_insert": 6,
@@ -11779,6 +13650,7 @@
     "asura_cryin'": 183,
     "atashin'chi": 13,
     "atashin'chi_the_movie": 11,
+    "atelier_series": 15,
     "atlantis:_the_lost_empire": 22,
     "atom:_the_beginning": 19,
     "atsuko_fukushima": 59,
@@ -11794,7 +13666,9 @@
     "atsushi_takeuchi": 32,
     "atsushi_tamura": 65,
     "atsushi_wakabayashi": 128,
+    "avatar:_the_last_airbender": 315,
     "avatar_aang:_the_last_airbender": 217,
+    "avatar_series": 932,
     "awajima_hyakkei": 46,
     "aya_takano": 8,
     "ayakashi": 14,
@@ -11802,9 +13676,15 @@
     "ayumi_kurashima": 37,
     "ayumi_shiraishi": 25,
     "azuki-chan": 18,
+    "azumanga_daioh": 39,
     "azur_lane": 89,
+    "azur_lane_(tv)": 94,
     "azur_lane_series": 189,
+    "b-daman_series": 17,
+    "b:_the_beginning_series": 66,
     "babanba_banban_vampire": 8,
+    "baby_steps": 24,
+    "babylon": 21,
     "baccano": 78,
     "back_arrow": 11,
     "background_animation": 17666,
@@ -11813,19 +13693,25 @@
     "baise_shandian": 29,
     "baka_to_test_to_shoukanjuu": 24,
     "bakemono_no_ko": 55,
+    "bakemonogatari": 142,
     "bakeneko_anzu-chan": 83,
+    "baki-dou": 16,
     "baki_hanma": 25,
     "baki_the_grappler": 86,
     "baki_the_grappler_(2001)": 13,
     "bakugan_battle_brawlers": 11,
     "bakugan_battle_planet": 15,
+    "bakugan_series": 55,
     "bakuman": 20,
     "bakuretsu_hunters": 73,
     "bakuretsu_tenshi": 9,
+    "bakusou_kyoudai_lets_and_go_series": 41,
     "bakuten!!": 111,
     "bakuten_shoot_beyblade": 26,
+    "bakuten_shoot_beyblade_(2002)": 18,
     "bakutou_sengen_daigunder": 19,
     "bakutsuri_bar_hunter": 6,
+    "bambi": 119,
     "bambi_ii": 49,
     "bamboo_blade": 33,
     "banana_fish": 57,
@@ -11836,16 +13722,24 @@
     "barakamon": 42,
     "barefoot_gen": 5,
     "bari_bari_densetsu": 25,
+    "basara_series": 258,
     "baseball_bugs": 11,
     "basilisk": 48,
     "basilisk:_ouka_ninpouchou": 7,
     "basquash!": 10,
+    "bastard": 40,
+    "bastard!!:ankoku_no_hakaishin_series": 42,
+    "bastard_series": 84,
+    "batman": 377,
+    "batman:_the_animated_series": 125,
     "batman:_under_the_red_hood": 6,
     "batman_beyond": 28,
     "batman_gotham_knight": 31,
     "batman_ninja": 35,
     "batman_vs_robin": 15,
     "batman_vs_teenage_mutant_ninja_turtles": 7,
+    "battery": 7,
+    "battle_arena_toshinden": 41,
     "battle_athletes": 76,
     "battle_athletes_victory": 47,
     "battle_girl_high_school": 16,
@@ -11855,25 +13749,33 @@
     "battle_spirits_shounen_toppa_bashin": 22,
     "battle_spirits_sword_eyes": 18,
     "battle_tryst": 8,
+    "battleborn": 9,
+    "be-bop_highschool": 26,
     "beams": 11160,
     "beast_wars_ii": 11,
     "beast_wars_neo": 7,
+    "beastars_series": 5,
     "beatless": 84,
+    "beauty_and_the_beast": 37,
     "beavis_and_butthead": 9,
     "beavis_and_butthead_do_america": 8,
     "beelzebub": 40,
+    "beetlejuice:_the_animated_series": 8,
     "bem:_become_human": 49,
     "ben-to": 23,
+    "ben_10": 32,
     "ben_10_(2005)": 25,
     "ben_sharpsteen": 10,
     "ben_washam": 73,
     "bernard_garbutt": 24,
     "berny_wolf": 67,
+    "berserk": 101,
     "berserk_(1997)": 30,
     "berserk_(2016)": 8,
     "beyblade_burst": 251,
     "beyblade_series": 574,
     "beyblade_x": 52,
+    "beyond": 22,
     "beywheelz": 6,
     "big_fish_&_begonia": 39,
     "bikkuriman": 29,
@@ -11885,28 +13787,37 @@
     "bill_plympton": 6,
     "bill_roberts": 62,
     "bill_tytla": 163,
+    "billposters": 7,
     "binan_koukou_chikyuu_bouei_bu_haikara": 6,
     "binan_koukou_chikyuu_bouei_bu_love!": 72,
+    "binan_koukou_chikyuu_bouei_bu_series": 145,
     "binbogami_ga!": 23,
     "binchou-tan": 10,
     "bio_hunter": 7,
     "bird_karma": 7,
+    "birth": 98,
     "birthday_wonderland": 70,
     "bishoujo_senshi_sailor_moon": 796,
     "bishoujo_senshi_sailor_moon_(1992)": 121,
     "bishounen_tanteidan": 15,
     "black_and_white": 1311,
+    "black_bullet": 48,
+    "black_cat": 59,
     "black_clover": 822,
     "black_earth_rising": 13,
     "black_heaven": 14,
+    "black_jack": 49,
     "black_lagoon": 42,
     "black_lagoon_series": 74,
     "black_magic_m-66": 50,
     "black_myth:_wukong": 69,
     "black_rock_shooter": 89,
+    "black_rock_shooter_(tv)": 21,
     "black_torch": 49,
     "blackfox": 37,
+    "blade_(2011_anime)": 52,
     "blade_of_the_immortal": 14,
+    "blade_of_the_immortal_(2019)": 14,
     "blade_runner_black_out_2022": 22,
     "blades_of_the_guardians": 86,
     "blades_of_the_guardians_series": 109,
@@ -11924,12 +13835,17 @@
     "blitz_wolf": 7,
     "blood+": 69,
     "blood-c": 84,
+    "blood:_the_last_vampire": 65,
     "blood_lad": 21,
     "blood_reign:_curse_of_the_yoma": 8,
+    "blood_series": 242,
     "blue_archive": 159,
+    "blue_archive_(game)": 8,
     "blue_archive_the_animation": 67,
     "blue_box": 39,
     "blue_box_(animator)": 5,
+    "blue_dragon": 43,
+    "blue_dragon_series": 46,
     "blue_gender": 22,
     "blue_giant": 46,
     "blue_lock": 43,
@@ -11946,16 +13862,24 @@
     "bocchi_the_rock!_re:": 11,
     "bocchi_the_rock!_re:re:": 11,
     "bodacious_space_pirates": 6,
+    "bofuri_series": 71,
     "boku_dake_ga_inai_machi": 50,
+    "boku_no_son_goku": 9,
     "boku_to_roboco": 14,
+    "boku_wa_tomodachi_ga_sukunai": 19,
     "bokurano": 60,
+    "bokurano_(mv)": 10,
     "bokutachi_no_remake": 9,
     "bokutachi_wa_benkyou_ga_dekinai": 10,
+    "bomberman": 31,
     "bomberman_jetters": 25,
+    "bonkers": 13,
+    "boogiepop_series": 86,
     "boogiepop_wa_warawanai": 97,
     "boruto:_naruto_next_generations": 584,
     "boruto:_naruto_the_movie": 72,
     "bouken_ou_beet": 62,
+    "bouken_ou_beet_(jump_festa_pv)": 6,
     "bouken_ou_beet_excellion": 23,
     "bouken_ou_beet_series": 91,
     "boukyaku_battery": 148,
@@ -11969,10 +13893,16 @@
     "brave_little_tailor": 26,
     "brave_police_j-decker": 229,
     "brave_series": 568,
+    "brave_story": 41,
     "brawl_stars": 15,
+    "brawlhalla": 15,
     "break_blade": 93,
+    "break_blade_(tv)": 9,
+    "breakers": 7,
+    "brigadoon": 68,
     "bt_x": 17,
     "btooom!": 13,
+    "bubble": 63,
     "bubblegum_crisis": 107,
     "bubblegum_crisis_tokyo_2040": 5,
     "bubu_chacha": 11,
@@ -11998,6 +13928,7 @@
     "buttobi!!_cpu": 59,
     "buzz_lightyear_of_star_command": 45,
     "cal_dalton": 15,
+    "caligula": 17,
     "call_me_tonight": 9,
     "campbell_grant": 6,
     "campione": 43,
@@ -12023,8 +13954,11 @@
     "caroline_leaf": 5,
     "casshan": 73,
     "casshern_sins": 64,
+    "castlevania": 400,
     "castlevania:_nocturne": 269,
     "castlevania_series": 567,
+    "cat_soup": 36,
+    "catherine_(game)": 6,
     "catnapped!": 30,
     "cats_don't_dance": 29,
     "cats_eye": 17,
@@ -12043,10 +13977,13 @@
     "cheating_craft": 26,
     "cheer_danshi!!": 7,
     "chi.:_chikyuu_no_undou_ni_tsuite": 16,
+    "chibi_maruko-chan": 64,
     "chichibu_de_buchichi": 11,
+    "chicken_little": 5,
     "chie_uratani": 16,
     "chihayafuru": 37,
     "chihayafuru_series": 46,
+    "chiikawa": 11,
     "chiisana_kyojin_microman": 91,
     "chikashi_kubota": 157,
     "chikyuu_monogatari_telepath_2500": 5,
@@ -12075,26 +14012,39 @@
     "chuubyou_gekihatsu_boy": 14,
     "chuunibyou_demo_koi_ga_shitai!": 134,
     "cider_no_you_ni_kotoba_ga_wakiagaru": 50,
+    "cinderella": 82,
     "cinderella_monogatari": 7,
+    "city_hunter": 30,
     "city_hunter:_ai_to_shukumei_no_magnum": 36,
     "city_hunter:_shinjuku_private_eyes": 38,
+    "city_hunter_series": 160,
     "city_the_animation": 217,
     "clamp_in_wonderland": 15,
+    "clannad": 146,
+    "clannad_series": 275,
+    "clarence": 7,
     "class_de_2-banme_ni_kawaii_onnanoko_to_tomodachi_ni_natta": 14,
     "classicaloid": 33,
     "classroom_crisis": 11,
+    "cleopatra": 13,
     "clevatess:_majuu_no_ou_to_akago_to_shikabane_no_yuusha": 60,
+    "clevatess_series": 130,
     "cliff_nordberg": 100,
     "clock_cleaners": 5,
     "clockwork_planet": 7,
+    "clover": 8,
     "clown_of_the_jungle": 5,
     "cluster_edge": 21,
     "clyde_geronimi": 41,
+    "cobra_command_(video_game)": 13,
     "code_breaker": 56,
     "code_geass": 461,
+    "code_of_joker_(video_game)": 9,
     "code_vein": 15,
     "color_script": 28,
+    "colorful": 18,
     "colorful_(1999)": 10,
+    "colors_(mv)": 13,
     "comet_lucifer": 36,
     "comic_girls": 19,
     "comic_party": 19,
@@ -12102,6 +14052,8 @@
     "comparison": 215,
     "compiler": 33,
     "concept_art": 204,
+    "conception": 7,
+    "connected": 6,
     "cooking_with_valkyries": 7,
     "cool_cool_bye": 13,
     "cool_doji_danshi": 10,
@@ -12121,12 +14073,17 @@
     "creatures": 38271,
     "crimson_wolf": 34,
     "cross_ange:_tenshi_to_ryuu_no_rondo": 29,
+    "crossroad": 12,
     "crowd": 3395,
     "crusher_joe": 37,
     "crying": 2943,
+    "crying_freeman": 52,
     "crymachina": 5,
     "crystar": 7,
     "cue!": 29,
+    "cuphead": 99,
+    "cuphead_(video_game)": 91,
+    "cutey_honey_series": 323,
     "cuticle_tantei_inaba": 14,
     "cy_young": 71,
     "cybersix": 182,
@@ -12135,6 +14092,7 @@
     "cyborg_009_(1966)": 10,
     "cyborg_009_(1968)": 42,
     "cyborg_009_(1979)": 22,
+    "cyborg_009_(2001)": 280,
     "d-frag!": 20,
     "d.gray-man": 99,
     "d.gray-man_hallow": 14,
@@ -12156,11 +14114,14 @@
     "dance_dance_danseur": 40,
     "dance_in_the_vampire_bund": 16,
     "dancing": 4851,
+    "dancougar_series": 80,
     "dandadan": 421,
+    "dandelion": 46,
     "daniel_mcmanus": 9,
     "danna_ga_nani_wo_itteiru_ka_wakaranai_ken": 7,
     "dansai_bunri_no_crime_edge": 9,
     "dantalian_no_shoka": 59,
+    "darker_than_black": 117,
     "darker_than_black:_kuro_no_keiyakusha": 68,
     "darker_than_black:_ryuusei_no_gemini": 31,
     "darkside_blues": 33,
@@ -12173,10 +14134,12 @@
     "dave_spafford": 25,
     "david_feiss": 29,
     "david_silverman": 39,
+    "dead_heat": 14,
     "dead_leaves": 42,
     "dead_mount_death_play": 25,
     "deadman_wonderland": 43,
     "dear_basketball": 5,
+    "death_note": 36,
     "death_parade": 81,
     "debris": 28049,
     "deca-dence": 114,
@@ -12194,18 +14157,25 @@
     "denpa_teki_na_kanojo": 9,
     "densetsu_kyojin_ideon": 79,
     "desert_punk": 12,
+    "desire": 6,
     "detatoko_princess": 88,
     "detective_conan": 890,
     "detective_conan:_the_culprit_hanzawa": 6,
     "detective_conan:_zero's_tea_time": 5,
     "detective_story": 9,
+    "devil_may_cry": 14,
+    "devil_may_cry_series": 143,
     "devil_survivor_2": 26,
     "devilman": 309,
+    "devilman_(1972)": 56,
+    "devilman_(1987)": 61,
     "devilman_lady": 6,
     "di_gi_charat": 17,
     "dick_huemer": 58,
     "dick_lucas": 44,
     "dick_lundy": 48,
+    "digimon": 943,
+    "digimon_adventure": 148,
     "digimon_adventure_(2020)": 154,
     "digimon_adventure_02": 77,
     "digimon_adventure_02:_revenge_of_diaboromon": 12,
@@ -12220,7 +14190,10 @@
     "digital_devil_story:_megami_tensei": 6,
     "digital_juice": 9,
     "dimension_w": 63,
+    "dinosaur_king": 26,
     "dirty_pair": 173,
+    "dirty_pair:_project_eden": 53,
+    "dirty_pair_(tv)": 46,
     "dirty_pair_flash": 41,
     "disgaea_2": 5,
     "disgaea_series": 17,
@@ -12228,12 +14201,19 @@
     "divergence_eve_2:_misaki_chronicles": 14,
     "divine_gate": 15,
     "dna2": 25,
+    "do_it_yourself": 158,
+    "dobutsu_no_mori": 25,
+    "dog_days": 245,
     "dog_days'": 78,
+    "dogs": 7,
     "dogs:_bullets_&_carnage": 5,
     "dokidoki!_precure": 68,
+    "dokkan_battle_(video_game)": 13,
     "dokkiri_doctor": 9,
+    "dokkoida": 60,
     "dokyuu_hentai_hxeros": 18,
     "dokyuusei_2": 5,
+    "dokyuusei_series": 7,
     "dominion_tank_police": 26,
     "dominion_tank_police_series": 67,
     "don_bluth": 52,
@@ -12254,6 +14234,7 @@
     "doraemon_(2005)": 1338,
     "dorohedoro": 32,
     "dorohedoro_series": 60,
+    "dororo": 86,
     "dororo_(2019)": 84,
     "dororon_enma-kun": 14,
     "dota:_dragon's_blood": 10,
@@ -12263,6 +14244,7 @@
     "doukyuusei": 23,
     "dr._stone": 11,
     "dr._stone_series": 86,
+    "dr_slump": 33,
     "dragon's_heaven": 14,
     "dragon_ball": 116,
     "dragon_ball_daima": 233,
@@ -12271,6 +14253,7 @@
     "dragon_ball_series": 1437,
     "dragon_ball_super": 434,
     "dragon_ball_super:_broly": 175,
+    "dragon_ball_z": 574,
     "dragon_ball_z:_battle_of_gods": 35,
     "dragon_ball_z:_resurrection_f": 23,
     "dragon_collection": 9,
@@ -12285,15 +14268,23 @@
     "dt_eightron": 35,
     "dual!_parallel_trouble_adventure": 52,
     "duck_pimples": 18,
+    "ducktales": 31,
+    "ducktales_(1987)": 8,
     "ducktales_2017": 26,
     "duel_masters": 306,
+    "duel_masters_(2017)": 55,
+    "duel_masters_(2017)_series": 121,
+    "duel_masters_king_series": 44,
     "duel_masters_lost:_boukyaku_no_taiyou": 26,
     "duel_masters_lost_series": 47,
     "duel_masters_vs": 9,
     "duel_masters_vs_series": 64,
+    "duel_masters_win_series": 8,
     "dumbbell_nan_kilo_moteru": 28,
+    "dumbo": 141,
     "dungeon_and_fighter": 127,
     "dungeon_meshi": 398,
+    "dungeon_ni_deai_o_motomeru_no_wa_machigatte_iru_darouka_series": 405,
     "durarara!!": 66,
     "durarara!!_series": 125,
     "early_reins": 7,
@@ -12309,6 +14300,7 @@
     "ef:_a_tale_of_memories": 22,
     "effects": 129742,
     "egao_no_daika": 6,
+    "ehrgeiz": 28,
     "eiga_daisuki_pompo_san": 107,
     "eiga_nintama_rantaro": 10,
     "eiji_komatsu": 323,
@@ -12321,38 +14313,54 @@
     "el_hazard": 97,
     "el_hazard:_the_wanderers": 14,
     "eldlive": 8,
+    "eldoran_series": 48,
     "elemental_gelade": 40,
     "elf_17": 11,
     "elfen_lied": 20,
+    "elsword": 7,
     "emery_hawkins": 126,
     "emiya-san_chi_no_kyou_no_gohan": 83,
+    "emma:_a_victorian_romance": 8,
+    "emma:_a_victorian_romance_series": 20,
+    "encanto": 5,
+    "enchanted": 19,
     "endless_night": 10,
     "endro!": 5,
     "engage_kiss": 130,
+    "ensemble_stars!": 18,
     "ergo_proxy": 51,
     "eric_cleworth": 51,
     "eric_goldberg": 52,
     "eric_larson": 249,
     "ernest_&_celestine": 21,
     "eromanga_sensei": 218,
+    "escaflowne_(movie)": 55,
     "eun_young_choi": 14,
     "eureka_seven_(2005)": 348,
     "eureka_seven_ao": 137,
+    "eureka_seven_series": 638,
     "eve_the_lost_one": 7,
+    "excel_saga": 24,
+    "exodus": 20,
     "explorer_woman_ray": 9,
     "explosions": 24075,
     "exquisite_corpse": 6,
     "eyeshield_21": 107,
     "fabric": 22564,
     "fairy_ranmaru": 29,
+    "fairy_tail": 359,
+    "fairy_tail:_100_years_quest": 59,
     "fairy_tail:_dragon_cry": 26,
     "fairy_tail_series": 293,
     "falling": 4103,
     "family_guy": 11,
+    "fantasia": 168,
     "fantasia_2000": 53,
+    "fantasia_series": 199,
     "fantasista_doll": 10,
     "fantastic_children": 13,
     "fantasy_westward_journey": 13,
+    "farmagia": 7,
     "fatal_fury:_legend_of_the_hungry_wolf": 10,
     "fatal_fury:_the_motion_picture": 38,
     "fatal_fury_2:_the_new_battle": 22,
@@ -12362,6 +14370,7 @@
     "fate/extra_last_encore": 80,
     "fate/grand_order": 808,
     "fate/grand_order:_first_order": 13,
+    "fate/grand_order_(game)": 16,
     "fate/kaleid_liner_prisma☆illya": 218,
     "fate/stay_night": 61,
     "fate/stay_night:_heaven's_feel_i._presage_flower": 57,
@@ -12370,6 +14379,7 @@
     "fate/stay_night_(2006)": 15,
     "fate/stay_night_realta_nua": 19,
     "fate/stay_night_unlimited_blade_works": 46,
+    "fate/stay_night_unlimited_blade_works_(2014)": 165,
     "fate/strange_fake": 365,
     "fate/zero": 94,
     "fate_series": 2417,
@@ -12379,12 +14389,15 @@
     "fight_league:_gear_gadget_generators": 6,
     "fight_song": 6,
     "fighting": 55801,
+    "final_fantasy": 81,
     "final_fantasy_xiv": 12,
     "final_fantasy_xv": 14,
     "final_gear": 12,
     "final_space": 8,
     "final_yamato": 21,
     "fire": 16694,
+    "fire_emblem": 13,
+    "fire_emblem_series": 16,
     "fire_force": 267,
     "fire_force_series": 610,
     "first_line": 7,
@@ -12396,6 +14409,7 @@
     "flcl_alternative": 60,
     "flcl_progressive": 84,
     "flcl_series": 390,
+    "flee": 10,
     "flip_flappers": 243,
     "flipbook": 58,
     "flying": 5075,
@@ -12429,6 +14443,7 @@
     "full_metal_panic_fumoffu": 82,
     "fullmetal_alchemist": 942,
     "fullmetal_alchemist_(2003)": 472,
+    "fullmetal_alchemist_2:_curse_of_the_crimson_elixir_(video_game)": 7,
     "fullmetal_alchemist_and_the_broken_angel": 8,
     "fullmetal_alchemist_brotherhood": 355,
     "fumio_iida": 15,
@@ -12469,6 +14484,8 @@
     "galaxy_angel_series": 48,
     "galaxy_cyclone_braiger": 6,
     "galaxy_express_999_(1979)": 69,
+    "galaxy_express_999_(tv)": 10,
+    "galaxy_express_999_series": 162,
     "galaxy_fraulein_yuna": 68,
     "galilei_donna": 44,
     "gall_force": 52,
@@ -12483,8 +14500,12 @@
     "gankutsuou": 49,
     "ganso_tensai_bakabon": 30,
     "garden_of_remembrance": 32,
+    "gargoyles": 7,
+    "garo_series": 166,
     "gasaraki": 34,
     "gatchaman_crowds": 51,
+    "gatchaman_series": 171,
+    "gate": 41,
     "gate_keepers": 17,
     "gattai": 482,
     "gdleen": 8,
@@ -12535,17 +14556,22 @@
     "getter_robo_go": 77,
     "getter_robo_series": 373,
     "ghost_concert:_missing_songs": 57,
+    "ghost_in_the_shell": 112,
     "ghost_in_the_shell_series": 740,
     "ghost_in_the_shell_stand_alone_complex": 105,
     "ghost_slayers_ayashi": 75,
+    "ghost_slayers_ayashi_(ova)": 19,
     "ghost_slayers_ayashi_series": 94,
+    "ghost_sweeper_mikami": 13,
     "gi_joe": 7,
     "giant_gorg": 43,
     "giant_robo": 125,
+    "giantland": 12,
     "gil_turner": 16,
     "gin_san": 68,
     "ginga_e_kickoff": 10,
     "ginga_hyoryu_vifam": 60,
+    "ginga_hyoryu_vifam_(tv)": 11,
     "ginga_kikoutai_majestic_prince": 11,
     "gingitsune": 7,
     "gintama": 903,
@@ -12566,21 +14592,26 @@
     "gleipnir": 72,
     "glen_keane": 126,
     "glitch_techs": 63,
+    "gnosia": 26,
     "go!_princess_precure": 178,
     "goblin_slayer": 22,
     "goblin_slayer_series": 48,
+    "gochiusa_series": 59,
     "gochuumon_wa_usagi_desu_ka?": 33,
+    "god_eater": 92,
     "god_eater_(2015)": 45,
     "god_eater_2": 5,
     "god_eater_3": 7,
     "god_mazinger": 5,
     "goddamn": 7,
+    "godzilla": 8,
     "godzilla_singular_point": 7,
     "goemon:_shin_sedai_shumei!": 5,
     "gokinjo_monogatari": 8,
     "goku_midnight_eye": 20,
     "gokukoku_no_brynhildr": 10,
     "gokushufudou": 6,
+    "golden_boy": 48,
     "golden_hour": 12,
     "golden_kamuy": 76,
     "golden_time": 26,
@@ -12596,6 +14627,7 @@
     "goshogun": 47,
     "goshuushou-sama_ninomiya-kun": 10,
     "gosick": 33,
+    "gotcha!": 18,
     "gotoubun_no_hanayome": 5,
     "gotoubun_no_hanayome_series": 39,
     "gr:_giant_robo": 19,
@@ -12608,6 +14640,7 @@
     "great_pretender": 75,
     "great_pretender_razbliuto": 15,
     "great_teacher_onizuka": 50,
+    "greed": 9,
     "green_eggs_and_ham": 113,
     "green_eggs_and_ham_(2019)": 113,
     "green_green": 5,
@@ -12620,13 +14653,18 @@
     "grisaia:_phantom_trigger": 48,
     "grisaia_no_kajitsu": 24,
     "grisaia_no_rakuen": 15,
+    "grisaia_series": 102,
     "groove_adventure_rave": 5,
+    "growlanser_series": 6,
     "gu_gu_ganmo": 36,
+    "gu_gu_ganmo_(movie)": 11,
+    "guardian_tales_(game)": 8,
     "guilty_crown": 123,
     "guilty_gear": 7,
     "guin_saga": 26,
     "gulliver_mickey": 5,
     "gulliver_no_uchuu_ryokou": 30,
+    "gumball_series": 26,
     "gundam": 6466,
     "gundam_breaker": 45,
     "gundam_build_divers": 193,
@@ -12635,6 +14673,7 @@
     "gundam_build_fighters": 400,
     "gundam_build_fighters_series": 669,
     "gundam_build_fighters_try": 248,
+    "gundam_build_series": 1130,
     "gundam_perfect_mission": 11,
     "gungrave": 20,
     "gunjou_no_fanfare": 16,
@@ -12642,11 +14681,15 @@
     "gunslinger_girl": 15,
     "gunslinger_stratos:_the_animation": 45,
     "gunsmith_cats": 32,
+    "guskou_budori_no_denki_(1994)": 5,
     "guy:_double_target": 14,
+    "guyver": 23,
     "h2": 21,
+    "hades_(video_game)_series": 17,
     "hades_project_zeorymer": 45,
     "hai_to_gensou_no_grimgar": 38,
     "haibane_renmei": 20,
+    "haifuri": 100,
     "haikara-san_ga_tooru": 7,
     "haikyuu!!": 164,
     "haikyuu!!_final": 60,
@@ -12657,8 +14700,11 @@
     "hajime_no_ippo": 213,
     "hakaba_kitaro": 7,
     "hakubo": 5,
+    "hakuoki": 33,
     "hal_king": 146,
     "halo_legends": 38,
+    "hamefura_series": 6,
+    "hana_yori_dango": 11,
     "hanamaru_kindergarten": 40,
     "hanaori-san_wa_tensei_shite_mo_kenka_ga_shitai": 18,
     "hanasaku_iroha": 38,
@@ -12679,6 +14725,7 @@
     "hare+guu": 24,
     "hare+guu_series": 58,
     "harmonie": 7,
+    "haruhi_suzumiya_series": 123,
     "haruhiko_mikimoto": 13,
     "harukana_receive": 28,
     "harukanaru_toki_no_naka_de": 7,
@@ -12702,6 +14749,7 @@
     "heaven_burns_red": 6,
     "heavy_metal": 5,
     "heavy_metal_l-gaim": 105,
+    "heavy_metal_l-gaim_(tv)": 97,
     "heavy_object": 5,
     "heidi_girl_of_the_alps": 150,
     "heion_sedai_no_idaten_tachi": 47,
@@ -12710,11 +14758,13 @@
     "hellsing": 20,
     "hellsing_series": 23,
     "hen_semi": 38,
+    "hen_semi_(ova)": 38,
     "henkei": 590,
     "henry_thurlow": 62,
     "henshin": 1973,
     "hentai_ouji_to_warawanai_neko": 8,
     "her_blue_sky": 64,
+    "hercules": 6,
     "hero_bank": 22,
     "hero_mask": 52,
     "heroes_phantasia": 5,
@@ -12723,7 +14773,9 @@
     "heroman": 190,
     "hexamoon_guardians": 18,
     "heybot!": 10,
+    "hi-fi_rush_(video_game)": 15,
     "hi_no_tori_(1978)": 5,
+    "hi_no_tori_series": 92,
     "hibi_wa_sugiredo_meshi_umashi": 12,
     "hibike!_euphonium": 140,
     "hibike!_euphonium:_chikai_no_finale": 42,
@@ -12753,9 +14805,11 @@
     "higashi_no_eden": 32,
     "high_card": 48,
     "high_tide": 6,
+    "highschool_dxd_series": 127,
     "highschool_of_the_dead": 93,
     "higurashi_no_naku_koro_ni": 134,
     "higurashi_no_naku_koro_ni_(2006)": 7,
+    "higurashi_no_naku_koro_ni_gou": 37,
     "higurashi_no_naku_koro_ni_kai": 8,
     "higurashi_no_naku_koro_ni_rei": 12,
     "hiiro_no_kakera": 18,
@@ -12763,6 +14817,7 @@
     "hikaru_ga_shinda_natsu": 46,
     "hikikomari_kyuuketsuki_no_monmon": 76,
     "himegoto": 5,
+    "himitsu_no_akko-chan_series": 10,
     "hinako_note": 20,
     "hinamatsuri": 86,
     "hinomaru_sumo": 7,
@@ -12809,6 +14864,7 @@
     "hiroyuki_taiga": 6,
     "hiroyuki_takahashi": 27,
     "hiroyuki_yamashita": 255,
+    "his_and_her_circumstances": 55,
     "hisao_yokobori": 78,
     "hisashi_abe": 7,
     "hisashi_eguchi": 92,
@@ -12821,6 +14877,7 @@
     "hitohira": 10,
     "hitomi_hasegawa": 10,
     "hitomi_tsuruta": 32,
+    "hitori_no_shita_the_outcast_series": 93,
     "hitoribocchi_no_marumaru_seikatsu": 17,
     "hitsugi_no_chaika": 38,
     "hitsugi_no_chaika_series": 66,
@@ -12836,6 +14893,9 @@
     "honkai_impact_3rd": 49,
     "honzuki_no_gekokujou": 66,
     "hoozuki_no_reitetsu": 22,
+    "horimiya": 35,
+    "horimiya_(ova)": 22,
+    "horimiya_series": 85,
     "horizon_in_the_middle_of_nowhere": 95,
     "hortensia_saga": 17,
     "hoshi_no_kirby": 37,
@@ -12863,6 +14923,8 @@
     "hybrid_x_heart_magias_academy_ataraxia": 30,
     "hyouka": 118,
     "hyper_speed_grandoll": 13,
+    "hypinosis_microphone_series": 11,
+    "i''s_series": 7,
     "i_lost_my_body": 6,
     "i_my_me!_strawberry_eggs": 6,
     "i_want_to_eat_your_pancreas": 27,
@@ -12873,6 +14935,8 @@
     "ice_age": 5,
     "ichigo_mashimaro": 122,
     "ichiro_itano": 143,
+    "iczer_series": 116,
+    "idol_(mv)": 6,
     "idol_densetsu_eriko": 5,
     "idol_land_pripara": 9,
     "idol_memories": 28,
@@ -12882,12 +14946,15 @@
     "idolish7": 18,
     "idolish7_series": 69,
     "idolmaster_xenoglossia": 79,
+    "idoly_pride": 17,
     "igpx": 130,
+    "ika_musume_series": 76,
     "ikebukuro_west_gate_park": 19,
     "iketeru_futari": 6,
     "ikki_tousen": 11,
     "ikki_tousen_series": 141,
     "ikkou_kobayashi": 10,
+    "ikkyu-san": 6,
     "ikoku_meiro_no_croisee": 37,
     "ikoku_nikki": 34,
     "ikuko_itoh": 88,
@@ -12898,35 +14965,48 @@
     "imouto_sae_ireba_ii": 7,
     "impact_frames": 13780,
     "in_this_corner_of_the_world": 26,
+    "inazuma_eleven": 200,
+    "inazuma_eleven_(movie)": 17,
     "inazuma_eleven_ares_no_tenbin": 33,
     "inazuma_eleven_go": 92,
+    "inazuma_eleven_go_(movie)": 16,
     "inazuma_eleven_orion_no_koukuin": 27,
     "inazuma_eleven_series": 462,
+    "indivisible": 23,
+    "infinite_stratos": 40,
+    "injuu_seisen_series": 23,
     "innocent_venus": 27,
     "inou-battle_wa_nichijou-kei_no_naka_de": 94,
+    "inspector_gadget": 23,
     "instruments": 911,
     "inu-oh": 97,
     "inukami!": 105,
     "inukami!_the_movie": 21,
     "inuyasha": 407,
+    "inuyasha_(tv)": 225,
     "inuyashiki": 10,
     "invader_zim": 13,
     "invader_zim:_enter_the_florpus": 13,
+    "invincible": 111,
     "invincible_steel_man_daitarn_3": 16,
     "invincible_super_man_zambot_3": 17,
+    "invisible": 20,
     "iria_zeiram_the_animation": 24,
+    "iron_man": 12,
     "iron_saga": 17,
     "irv_spence": 174,
     "isamu_imakake": 24,
     "isao_sugimoto": 19,
     "isekai_maou_to_shoukan_shoujo_no_dorei_majutsu": 27,
     "isekai_meikyuu_de_harem_wo": 5,
+    "isekai_nonbiri_nouka_series": 9,
     "isekai_ojisan": 25,
     "isekai_one_turn_kill_nee-san:_ane_douhan_no_isekai_seikatsu_hajimemashita": 43,
     "isekai_yakkyoku": 23,
     "iseleve": 30,
     "ishura": 31,
     "ishuzoku_reviewers": 12,
+    "island": 7,
     "isshuukan_friends": 22,
     "isuca": 8,
     "itai_no_wa_iya_nano_de_bougyoryoku_ni_kyokufuri_shitai_to_omoimasu": 27,
@@ -12942,6 +15022,8 @@
     "jahy-sama_wa_kujikenai!": 10,
     "jaku-chara_tomozaki-kun": 7,
     "james_baxter": 142,
+    "japan_sinks_(2020)": 70,
+    "jarinko_chie": 62,
     "jashin-chan_dropkick": 31,
     "je_t'aime": 18,
     "jerry_hathcock": 28,
@@ -12953,6 +15035,8 @@
     "jewelpet_twinkle": 6,
     "jigoku_sensei_nube_(1996)": 15,
     "jigoku_sensei_nube_(2025)": 50,
+    "jigoku_sensei_nube_series": 63,
+    "jigoku_shoujo_series": 9,
     "jigokuraku": 201,
     "jijou_wo_shiranai_tenkousei_ga_guigui_kuru": 7,
     "jikuu_tenshou_nazca": 18,
@@ -12968,14 +15052,17 @@
     "john_musker": 5,
     "john_pomeroy": 73,
     "jojo's_bizarre_adventure": 101,
+    "jojo's_bizarre_adventure:_phantom_blood": 6,
     "jojo's_bizarre_adventure:_vento_aureo": 253,
     "jojo's_bizarre_adventure_(2012)": 43,
     "jojo's_bizarre_adventure_series": 695,
+    "joker_game": 39,
     "jormungand": 43,
     "josh_meador": 110,
     "joshiraku": 25,
     "joukamachi_no_dandelion": 6,
     "jujutsu_kaisen": 280,
+    "jujutsu_kaisen_0": 65,
     "jujutsu_kaisen_modulo": 14,
     "jujutsu_kaisen_series": 1991,
     "jumping": 5,
@@ -12989,6 +15076,7 @@
     "junichi_sato": 14,
     "junichiro_taniguchi": 14,
     "junkers_come_here": 52,
+    "junkers_come_here_(pilot_film)": 16,
     "junketsu_no_maria": 76,
     "just_because!": 25,
     "justeen": 13,
@@ -13002,9 +15090,15 @@
     "k-on!!": 129,
     "k-on!_the_movie": 121,
     "k-on_series": 414,
+    "k_project": 137,
     "kabukichou_sherlock": 24,
     "kagaku_ninjatai_gatchaman": 94,
     "kagami_no_kojou": 33,
+    "kage_no_jitsuryokusha_ni_naritakute!": 14,
+    "kage_no_jitsuryokusha_ni_naritakute!_series": 23,
+    "kageki_shoujo": 59,
+    "kaguya-sama:_love_is_war": 41,
+    "kaguya-sama:_love_is_war_series": 217,
     "kahlil_gibran's_the_prophet": 25,
     "kai_doh_maru": 7,
     "kaiba": 160,
@@ -13012,6 +15106,7 @@
     "kaichiro_terada": 122,
     "kaichou_wa_maid-sama!": 6,
     "kaii_to_otome_to_kamikakushi": 6,
+    "kaiji_series": 5,
     "kaiju_no._8": 262,
     "kaiketsu_zorori": 86,
     "kaiketsu_zorro": 27,
@@ -13056,11 +15151,13 @@
     "karakuri_circus": 37,
     "karakuri_kengou_den_musashi_lord": 11,
     "karakuri_no_kimi": 26,
+    "karaoke_iko!": 7,
     "karasu_wa_aruji_wo_erabanai": 23,
     "karate_baka_ichidai": 8,
     "karin": 7,
     "karneval": 38,
     "karuizawa_syndrome": 5,
+    "kase-san_series": 16,
     "kasei_yakyoku": 7,
     "kasumin": 5,
     "katanagatari": 62,
@@ -13143,6 +15240,8 @@
     "kenja_no_mago": 20,
     "kenzen_robo_daimidaler": 61,
     "kero_kero_chime": 13,
+    "keroro_gunsou": 104,
+    "keroro_gunsou_series": 246,
     "keroro_gunsou☆": 6,
     "kevin_lima": 8,
     "key_the_metal_idol": 19,
@@ -13163,11 +15262,13 @@
     "kimagure_orange_road": 89,
     "kimetsu_no_yaiba": 150,
     "kimetsu_no_yaiba_series": 745,
+    "kimi_ga_nozomu_eien_series": 7,
     "kimi_ga_shinu_made_koi_wo_shitai": 56,
     "kimi_ni_todoke": 45,
     "kimi_ni_todoke_series": 63,
     "kimi_no_iro": 142,
     "kimi_no_koto_ga_daidaidaidaidaisuki_na_100-nin_no_kanojo": 51,
+    "kimi_no_na_wa": 96,
     "kimi_to_idol_precure♪": 227,
     "kimi_wa_houkago_insomnia": 5,
     "kimi_wa_meido_sama": 10,
@@ -13175,15 +15276,22 @@
     "kindaichi_shōnen_no_jikenbo": 25,
     "kindaichi_shōnen_no_jikenbo_r": 10,
     "king's_raid": 48,
+    "king_of_prism_series": 18,
+    "king_of_the_hill": 8,
+    "kingdom_series": 59,
     "kiniro_mosaic": 53,
     "kiniro_mosaic:_pretty_days": 5,
+    "kinnikuman": 49,
     "kinnikuman_(1983)": 7,
     "kinnikuman_nisei": 13,
+    "kinnikuman_nisei_(movie_2)": 7,
+    "kino_no_tabi_series": 12,
     "kinsou_no_vermeil": 8,
     "kipo_and_the_age_of_wonderbeasts": 22,
     "kirakira_precure_a_la_mode": 179,
     "kirara": 17,
     "kiratto_pri☆chan": 13,
+    "kirby_series": 39,
     "kirio_fanclub": 13,
     "kisaki_kyouiku_kara_nigetai_watashi": 5,
     "kishin_douji_zenki": 21,
@@ -13192,16 +15300,21 @@
     "kishuku_gakkou_no_juliet": 10,
     "kissxsis": 8,
     "kitaro_kousaka": 78,
+    "kite": 32,
     "kite_liberator": 54,
+    "kite_series": 65,
     "kiznaiver": 99,
     "kizumonogatari_part_1:_tekketsu": 68,
     "kizumonogatari_part_3:_reiketsu": 61,
     "knight_hunters": 11,
+    "knight_ramune_series": 255,
     "kobato": 12,
     "kobayashi-san_chi_no_maid_dragon": 90,
     "kobayashi-san_chi_no_maid_dragon_series": 233,
     "kochira_katsushika-ku_kameari_kouen-mae_hashutsujo": 21,
+    "kodomo_no_jikan": 5,
     "kodomo_no_omocha": 30,
+    "koe_no_katachi": 77,
     "kohei_ashiya": 8,
     "koi_kaze": 10,
     "koi_wa_ameagari_no_you_ni": 14,
@@ -13209,6 +15322,7 @@
     "koichi_maruyama": 11,
     "koichi_murata": 27,
     "koichi_usami": 37,
+    "koihime_musou_series": 6,
     "koisuru_asteroid": 25,
     "koisuru_one_piece": 5,
     "koji_morimoto": 127,
@@ -13220,7 +15334,9 @@
     "konjiki_no_gash_bell": 75,
     "konnichiwa_anne:_before_green_gables": 15,
     "kono_bijutsubu_ni_wa_mondai_ga_aru": 19,
+    "kono_subarashii_sekai_ni_bakuen_wo!": 32,
     "kono_subarashii_sekai_ni_shukufuku_wo!": 53,
+    "konosuba_series": 226,
     "koori_no_jouheki": 14,
     "kore_kaite_shine": 6,
     "kore_wa_zombie_desu_ka": 26,
@@ -13243,9 +15359,13 @@
     "kujakuou": 6,
     "kujibiki_unbalance": 11,
     "kujira_no_josephina": 8,
+    "kuma_kuma_kuma_bear": 10,
+    "kuma_kuma_kuma_bear_series": 10,
     "kumamiko": 36,
     "kumiko_takahashi": 40,
     "kung-fu_cooking_girls": 5,
+    "kung_fu_panda": 7,
+    "kung_fu_panda_series": 15,
     "kunihiko_hamada": 116,
     "kunihiko_ikuhara": 24,
     "kunio_kato": 6,
@@ -13254,6 +15374,7 @@
     "kurau_phantom_memory": 100,
     "kurayukaba": 5,
     "kurenai": 25,
+    "kurenai_(ova)": 9,
     "kurenai_sanshiro": 44,
     "kurogane_no_linebarrels": 25,
     "kurokami_the_animation": 99,
@@ -13263,6 +15384,7 @@
     "kuroneko_to_majo_no_kyoushitsu": 16,
     "kuroshitsuji": 9,
     "kuroshitsuji_series": 66,
+    "kurozuka": 12,
     "kusunoki_no_bannin": 42,
     "kusuriya_no_hitorigoto": 146,
     "kuusen_madoushi_kouhosei_no_kyoukan": 32,
@@ -13273,14 +15395,21 @@
     "kyokou_suiri": 55,
     "kyokou_suiri_series": 73,
     "kyoro-chan": 7,
+    "kyou_kara_ore_wa": 24,
+    "kyou_no_5_no_2_(tv)": 41,
     "kyoukai_no_kanata": 294,
     "kyoukai_no_rinne": 48,
     "kyoukai_senki": 54,
     "kyoukai_senki:_kyokkou_no_souki": 12,
     "kyoukai_senki_series": 66,
     "kyouran_kazoku_nikki": 37,
+    "kyoushoku_soukou_guyver_(1986)": 5,
     "kyousougiga": 209,
+    "kyousougiga_(ona)": 93,
+    "kyousougiga_(tv)": 85,
+    "kyuuketsuki_sugu_shinu_series": 17,
     "kyuuta_sakai": 11,
+    "la_blue_girl": 26,
     "la_storia_della_arcana_famiglia": 20,
     "ladies_versus_butlers": 26,
     "lady_and_the_tramp": 24,
@@ -13288,14 +15417,20 @@
     "landreaall": 10,
     "langrisser_ii": 5,
     "langrisser_series": 10,
+    "lapis_re:lights": 28,
     "laputa:_castle_in_the_sky": 157,
     "last_days_of_coney_island": 8,
     "last_exile": 10,
     "last_period:_owarinaki_rasen_no_monogatari": 16,
+    "latale_series": 7,
     "laverne_harding": 22,
     "layout": 3783,
+    "lazarus": 163,
+    "le_chevalier_d'eon": 56,
     "legend_of_crystania": 58,
+    "legend_of_lemnear": 20,
     "legend_of_the_galactic_heroes": 42,
+    "legend_of_the_galactic_heroes_(1988)": 32,
     "legend_of_the_galactic_heroes_series": 97,
     "legend_of_the_millennium_dragon": 46,
     "legendary_armor_samurai_troopers": 23,
@@ -13304,13 +15439,17 @@
     "liberation_maiden": 8,
     "library_war": 32,
     "lightning": 14134,
+    "lilo_and_stitch": 30,
+    "lilo_and_stitch_series": 37,
     "lily_c.a.t": 9,
     "limbus_company": 5,
     "link_click": 85,
     "link_click_series": 98,
     "liquid": 30689,
+    "little_busters!": 21,
     "little_nemo:_adventures_in_slumberland": 8,
     "little_witch_academia": 394,
+    "little_women": 9,
     "live_action": 533,
     "live_on_cardliver_kakeru": 6,
     "liz_and_the_blue_bird": 47,
@@ -13320,6 +15459,8 @@
     "long_haired_hare": 8,
     "long_riders!": 61,
     "look_back": 93,
+    "lookism": 12,
+    "looney_tunes": 1309,
     "looney_tunes_cartoons": 249,
     "lord_el-melloi_ii-sei_no_jikenbo": 55,
     "lord_of_lords_ryu_knight": 203,
@@ -13332,15 +15473,22 @@
     "loups=garous": 5,
     "love_death_and_robots": 58,
     "love_hina": 44,
+    "love_live!": 47,
     "love_live!_bluebird": 8,
+    "love_live!_nijigasaki_high_school_idol_club": 175,
     "love_live!_series": 547,
+    "love_live!_sunshine!!": 46,
     "love_live!_superstar!!": 99,
     "loving_vincent": 7,
     "lu_over_the_wall": 50,
     "luck_&_logic": 26,
+    "lucky_star": 95,
     "luminous_witches": 10,
+    "lunar_series": 8,
+    "lupin_iii": 1132,
     "lupin_iii:_dead_or_alive": 9,
     "lupin_iii:_the_castle_of_cagliostro": 27,
+    "lupin_iii_(2015)": 35,
     "lupin_iii_part_i": 131,
     "lupin_iii_part_ii": 100,
     "lupin_iii_part_iii": 120,
@@ -13351,19 +15499,24 @@
     "lycoris_recoil_series": 102,
     "m3:_sono_kuroki_hagane": 12,
     "maburaho": 6,
+    "macademi_wasshoi": 22,
     "machikado_mazoku": 10,
     "machine_robo:_revenge_of_cronos": 217,
     "macross_7": 59,
+    "macross_delta": 35,
     "macross_frontier": 204,
     "madan_no_ou_to_vanadis": 28,
     "made_in_abyss": 59,
     "made_in_abyss:_retsujitsu_no_ougonkyo": 76,
     "made_in_abyss_series": 172,
+    "magi_series": 389,
     "magi_the_labyrinth_of_magic": 178,
     "magic-kyun_renaissance": 11,
     "magic_kaito": 21,
     "magic_kaito_series": 23,
+    "magic_knight_rayearth": 123,
     "magic_knight_rayearth_(1994)": 58,
+    "magic_pengel:_the_quest_for_color_(video_game)": 5,
     "magic_tree_house": 33,
     "magical_hat": 10,
     "magical_taruruuto-kun": 10,
@@ -13391,6 +15544,8 @@
     "mahou_shoujo_magical_destroyers": 94,
     "mahou_shoujo_ni_akogarete": 20,
     "mahou_shoujo_pretty_sammy": 33,
+    "mahou_shoujo_pretty_sammy_(ova)": 20,
+    "mahou_shoujo_pretty_sammy_(tv)": 15,
     "mahou_shoujo_site": 9,
     "mahou_shoujo_tai_arusu": 17,
     "mahou_shoujo_taisen": 6,
@@ -13417,6 +15572,9 @@
     "majocco_shimai_no_yoyo_to_nene": 90,
     "majokko_megu-chan": 20,
     "major": 68,
+    "major_(tv)": 16,
+    "major_2nd": 40,
+    "majutsushi_orphen": 108,
     "majutsushi_orphen_(1998)": 29,
     "majutsushi_orphen_hagure_tabi": 39,
     "make_heroine_ga_oosugiru!": 139,
@@ -13466,10 +15624,12 @@
     "mars_red": 22,
     "martian_successor_nadesico": 67,
     "marvel's_midnight_suns": 8,
+    "marvel's_spider-man": 10,
     "marvel_future_avengers": 16,
     "marvel_snap": 11,
     "marvin_woodward": 72,
     "mary_and_the_witch's_flower": 66,
+    "mary_poppins": 13,
     "mary_poppins_returns": 7,
     "maryuu_senki": 10,
     "masaaki_endo": 284,
@@ -13514,18 +15674,23 @@
     "masayuki_sato": 39,
     "masayuki_yoshihara": 82,
     "mashin_eiyuuden_wataru": 117,
+    "mashin_hero_wataru": 23,
     "mashin_souzouden_wataru": 35,
     "mashle": 123,
     "mashle_series": 6,
     "master_keaton": 101,
     "master_of_mosquiton": 26,
+    "masters_of_the_universe_series": 65,
     "matantei_loki_ragnarok": 8,
     "mato_seihei_no_slave": 27,
     "mawaru_penguindrum": 142,
     "max_fleischer": 7,
     "mayo_chiki!": 15,
+    "mayoi_neko_overrun": 14,
     "mayoiga": 9,
     "mayonaka_punch": 6,
+    "maze_series": 42,
+    "mazinger_series": 338,
     "mazinger_z": 58,
     "mazinger_z:_infinity": 5,
     "mazinkaiser": 143,
@@ -13535,6 +15700,9 @@
     "mechanical_design": 115,
     "medaka_box": 49,
     "medalist": 42,
+    "medarot": 178,
+    "medarot_series": 181,
+    "mega_man_(1994)": 11,
     "megalo_box": 45,
     "megami_paradise": 10,
     "megaton-kyuu_musashi": 28,
@@ -13549,6 +15717,7 @@
     "meitantei_precure!": 148,
     "mekakucity_actors": 40,
     "melody_time": 8,
+    "memories": 83,
     "merry_christmas": 52,
     "metal_armor_dragonar": 39,
     "metal_fight_beyblade": 68,
@@ -13574,6 +15743,7 @@
     "mickey's_rival": 11,
     "mickey's_service_station": 14,
     "mickey's_trailer": 14,
+    "mickey_mouse": 635,
     "mickey’s_fire_brigade": 15,
     "midnight_panther": 8,
     "midori_no_hibi": 13,
@@ -13594,6 +15764,7 @@
     "minna_no_uta": 38,
     "minori_scramble": 32,
     "minoru_maeda": 33,
+    "miracle_girls": 10,
     "miraculous_ladybug": 16,
     "mirai_keisatsu_urashiman": 68,
     "mirai_mizue": 16,
@@ -13612,18 +15783,27 @@
     "mitsuru_aoyama": 21,
     "mitsuru_ishihara": 97,
     "mitsuru_obunai": 222,
+    "mix:_meisei_story_series": 39,
     "miyako_yatsu": 14,
     "mizuki_takahashi": 43,
+    "mlb_tokyo_series": 11,
     "mm!": 6,
     "mo_dao_zu_shi": 115,
+    "moana": 8,
     "mob_psycho_100": 200,
     "mob_psycho_100_series": 535,
+    "mobile_fighter_g_gundam": 141,
+    "mobile_police_patlabor": 399,
+    "mobile_suit_gundam": 267,
+    "mobile_suit_gundam:_char's_counterattack": 48,
     "mobile_suit_gundam:_cucuruz_doan's_island": 60,
     "mobile_suit_gundam:_iron-blooded_orphans": 415,
     "mobile_suit_gundam:_the_origin": 75,
     "mobile_suit_gundam:_the_witch_from_mercury": 147,
+    "mobile_suit_gundam_(game)": 14,
     "mobile_suit_gundam_00": 587,
     "mobile_suit_gundam_age": 382,
+    "mobile_suit_gundam_age_(game)": 12,
     "mobile_suit_gundam_battle_operation_code_fairy": 8,
     "mobile_suit_gundam_battlefield_record_u.c._0081": 5,
     "mobile_suit_gundam_f91": 28,
@@ -13634,6 +15814,7 @@
     "mobile_suit_gundam_ii:_soldiers_of_sorrow": 10,
     "mobile_suit_gundam_iii:_encounters_in_space": 60,
     "mobile_suit_gundam_narrative": 73,
+    "mobile_suit_gundam_seed": 217,
     "mobile_suit_gundam_seed:_never_ending_tomorrow": 6,
     "mobile_suit_gundam_seed_c.e._73:_stargazer": 18,
     "mobile_suit_gundam_seed_destiny": 212,
@@ -13642,11 +15823,13 @@
     "mobile_suit_gundam_u.c._engage": 86,
     "mobile_suit_gundam_unicorn": 348,
     "mobile_suit_gundam_wing": 66,
+    "mobile_suit_gundam_wing_(tv)": 34,
     "mobile_suit_gundam_zz": 80,
     "mobile_suit_victory_gundam": 127,
     "mobile_suit_zeta_gundam": 265,
     "mobile_suit_zeta_gundam:_a_new_translation_ii_-_lovers": 7,
     "mobile_suit_zeta_gundam:_a_new_translation_iii_-_love_is_the_pulse_of_the_stars": 40,
+    "mobile_suit_zeta_gundam_(tv)": 192,
     "moetan": 32,
     "mojakou": 16,
     "mokushiroku_no_yonkishi": 9,
@@ -13655,31 +15838,40 @@
     "momo_kyun_sword": 25,
     "momoko_makiuchi": 7,
     "mondaiji_tachi_ga_isekai_kara_kuru_sou_desu_yo": 30,
+    "monogatari_series": 562,
     "mononogatari": 21,
     "mononoke": 38,
     "mononoke_series": 52,
+    "monster_(2004)": 72,
     "monster_musume_no_iru_nichijou": 46,
     "monster_strike": 156,
+    "monster_strike_(mv)": 35,
     "monsters:_103_mercies_dragon_damnation": 10,
     "moomin_(1969)": 9,
     "moomin_(1990)": 74,
+    "moomin_series": 85,
     "moon_girl_and_devil_dinosaur": 60,
     "morio_asaka": 6,
     "moriyasu_taniguchi": 24,
     "morphing": 4623,
     "motoki_tanaka": 38,
     "motonobu_hori": 13,
+    "motorcity": 102,
     "motosuke_takahashi": 120,
     "mou_ippon!": 11,
+    "mouryou_senki_madara": 24,
     "mouse": 8,
     "moving_day": 10,
+    "moyashimon": 10,
     "mr._bug_goes_to_town": 14,
     "mugen_no_ryvius": 15,
     "muhyo_to_roji_no_mahouritsu_soudan_jimusho": 10,
     "mujigen_hunter_fandora": 15,
     "mujin_wakusei_survive": 14,
+    "mulan": 16,
     "munou_na_nana": 7,
     "munto": 60,
+    "munto_(tv)": 22,
     "munto_series": 103,
     "murder_princess": 5,
     "mushibugyou": 66,
@@ -13698,8 +15890,10 @@
     "my_adventures_with_superman": 27,
     "my_dear_marie": 27,
     "my_hero_academia": 1987,
+    "my_hero_academia:_vigilantes": 285,
     "my_hero_academia_series": 2718,
     "my_neighbor_totoro": 81,
+    "my_neighbors_the_yamadas": 44,
     "myriad_colors_phantom_world": 97,
     "märchen_awakens_romance": 17,
     "na-nare_hana-nare": 7,
@@ -13738,6 +15932,7 @@
     "nasu": 35,
     "nasu:_suitcase_no_wataridori": 18,
     "natsu_no_arashi!": 9,
+    "natsu_no_niwa": 5,
     "natsuki_crisis": 17,
     "natsume_yuujinchou": 39,
     "natsume_yuujinchou_series": 93,
@@ -13750,12 +15945,16 @@
     "necronomico_no_cosmic_horror_show": 6,
     "needless": 63,
     "needy_girl_overdose": 37,
+    "needy_girl_overdose_(tv)": 28,
     "negaposi_angler": 28,
     "negima": 158,
     "negima!?": 83,
     "neo_angelique_abyss": 10,
     "neo_human_casshern": 11,
     "neo_ranga": 84,
+    "neon_genesis_evangelion": 320,
+    "neon_genesis_evangelion_series": 1048,
+    "nerawareta_gakuen": 86,
     "nerima_daikon_brothers": 14,
     "net-juu_no_susume": 11,
     "new_game": 151,
@@ -13766,9 +15965,11 @@
     "nichijou": 277,
     "niea_under_7": 8,
     "nigashita_sakana_wa_ookikatta_ga_tsuriageta_sakana_ga_ookisugita_ken": 18,
+    "nightmare": 18,
     "niju-menso_no_musume": 42,
     "nike": 7,
     "nils_no_fushigi_na_tabi": 65,
+    "nimona": 5,
     "ningen_fushin_no_boukensha-tachi_ga_sekai_wo_sukuu_you_desu": 5,
     "ninja_kamui": 54,
     "ninja_resurrection": 31,
@@ -13810,6 +16011,7 @@
     "nogizaka_haruka_no_himitsu": 14,
     "noir": 31,
     "noiseman_sound_insect": 13,
+    "non_non_biyori_series": 11,
     "noragami": 57,
     "noragami_series": 119,
     "noriko_takao": 12,
@@ -13826,6 +16028,7 @@
     "nurse_angel_ririka_sos": 18,
     "nyan_koi!": 27,
     "oban_star-racers": 12,
+    "occultic;nine": 190,
     "ochikobore_fruit_tart": 12,
     "oda_nobuna_no_yabou": 28,
     "off_the_air": 14,
@@ -13835,6 +16038,7 @@
     "oira_sukeban": 5,
     "ojamajo_doremi": 40,
     "ojamajo_doremi_series": 244,
+    "ojarumaru_series": 5,
     "ok_k.o.!_let's_be_heroes": 86,
     "okaasan_to_issho": 5,
     "okawari-boy_starzan_s": 12,
@@ -13848,6 +16052,7 @@
     "on_ice": 37,
     "once_upon_a_studio": 18,
     "one-punch_man": 232,
+    "one-punch_man_(ova)": 15,
     "one-punch_man_series": 369,
     "one_piece": 3927,
     "one_piece:_baron_omatsuri_and_the_secret_island": 61,
@@ -13868,11 +16073,13 @@
     "onegai_teacher": 22,
     "onegai_twins": 22,
     "ongaku_shoujo": 20,
+    "ongaku_shoujo_(2015)": 10,
     "ongaku_shoujo_(2018)": 10,
     "oniichan_no_koto_nanka_zenzen_suki_janain_dakara_ne!!": 8,
     "oniichan_wa_oshimai!": 338,
     "oniisama_e": 75,
     "onipan": 20,
+    "only_yesterday": 99,
     "onmyoji": 5,
     "onmyou_taisenki": 26,
     "ontama!": 11,
@@ -13882,6 +16089,7 @@
     "ore_no_kanojo_to_osananajimi_ga_shuraba_sugiru": 20,
     "ore_wa_seikan_kokka_no_akutoku_ryoushu!": 7,
     "ore_wo_suki_nano_wa_omae_dake_ka_yo": 6,
+    "oreimo_series": 28,
     "oroka_na_tenshi_wa_akuma_to_odoru": 29,
     "osamu_dezaki": 17,
     "osamu_nabeshima": 117,
@@ -13890,6 +16098,8 @@
     "osamu_tezuka": 8,
     "osananajimi_ga_zettai_ni_makenai_love_comedy": 10,
     "oshi_ga_budoukan_ittekuretara_shinu": 7,
+    "oshi_no_ko": 246,
+    "oshiri_tantei_series": 34,
     "osmosis_jones": 10,
     "osomatsu-kun": 16,
     "osomatsu-kun_(1988)": 26,
@@ -13905,11 +16115,17 @@
     "ousama_ranking": 313,
     "ousama_ranking_series": 467,
     "out_of_sight": 12,
+    "outbreak_company": 26,
     "outlanders": 13,
+    "outlaw_star": 88,
     "over_the_moon": 6,
+    "overdrive": 10,
     "overgeared": 10,
+    "overlord": 17,
+    "overlord_series": 87,
     "overman_king_gainer": 178,
     "overtake!": 34,
+    "overwatch": 26,
     "overwatch_2": 9,
     "owari_no_seraph": 55,
     "owari_no_seraph_series": 119,
@@ -13920,10 +16136,13 @@
     "panty_and_stocking_with_garterbelt": 129,
     "panty_and_stocking_with_garterbelt_series": 358,
     "panzer_world_galient": 56,
+    "panzer_world_galient_(ova)": 27,
     "paprika": 97,
+    "paradise_kiss": 7,
     "paradox_live_the_animation": 8,
     "paranoia_agent": 103,
     "parappa_the_rapper": 9,
+    "parasite_dolls": 23,
     "parasyte": 33,
     "paripi_koumei": 21,
     "party_7": 14,
@@ -13932,12 +16151,16 @@
     "pazudora_series": 273,
     "peace_maker_kurogane": 11,
     "peach_boy_riverside": 6,
+    "peanuts": 96,
     "penguin_highway": 95,
+    "perfect_blue": 87,
     "perfect_day": 8,
     "performance": 6706,
     "perrine_monogatari": 49,
+    "persepolis": 6,
     "persona:_trinity_soul": 8,
     "persona_3": 89,
+    "persona_3_(game)": 16,
     "persona_3_reload": 7,
     "persona_3_the_movie:_#1_spring_of_birth": 8,
     "persona_3_the_movie:_#2_midsummer_knight's_dream": 10,
@@ -13950,6 +16173,7 @@
     "persona_4_arena_ultimax": 6,
     "persona_5": 125,
     "persona_5:_the_animation": 55,
+    "persona_5_(game)": 16,
     "persona_5_the_royal": 5,
     "persona_series": 329,
     "pete_burness": 58,
@@ -13957,15 +16181,21 @@
     "peter_pan": 63,
     "peter_pan_no_bouken": 64,
     "petite_princess_yucie": 76,
+    "phantasmagoria_series": 15,
     "phantom:_requiem_for_the_phantom": 7,
+    "phi_brain_series": 44,
     "phil_duncan": 30,
     "phil_monroe": 32,
     "phoenix_2772": 13,
     "photo_kano": 9,
+    "photon": 99,
     "piano_no_mori": 39,
+    "piano_no_mori_(movie)": 38,
     "pikaia!": 6,
     "ping_pong": 203,
+    "pink_panther": 9,
     "pinky_and_the_brain": 18,
+    "pinocchio": 426,
     "pinto_colvig": 7,
     "plane_crazy": 5,
     "planetes": 115,
@@ -13977,9 +16207,12 @@
     "please_save_my_earth": 12,
     "plunderer": 9,
     "pluto": 99,
+    "pocahontas": 6,
     "pokemon": 4214,
     "pokemon:_hisuian_snow": 29,
     "pokemon_(1997)": 365,
+    "pokemon_(2019)": 423,
+    "pokemon_(2023)": 550,
     "pokemon_diamond_&_pearl:_giratina_to_sora_no_hanataba_sheimi": 15,
     "pokemon_mewtwo_returns": 11,
     "poketoon": 110,
@@ -13987,7 +16220,11 @@
     "ponyo": 94,
     "pop_in_q": 28,
     "pop_team_epic": 18,
+    "popeye_the_sailor": 168,
     "popolocrois": 64,
+    "popolocrois_(1998)": 31,
+    "popolocrois_(2003)": 13,
+    "popolocrois_monogatari_(game)": 9,
     "popotan": 9,
     "porco_rosso": 49,
     "porky_in_wackyland": 7,
@@ -13995,6 +16232,7 @@
     "precure": 3212,
     "precure_all_stars_f": 92,
     "prefectural_earth_defense_force": 16,
+    "presence": 21,
     "preston_blair": 59,
     "presumed": 0,
     "pretty_rhythm": 14,
@@ -14013,10 +16251,13 @@
     "pripara": 46,
     "prism_ark": 46,
     "prism_rondo": 21,
+    "prison_school": 11,
     "production_materials": 19389,
     "professor_layton_and_the_curious_village": 7,
     "professor_layton_and_the_eternal_diva": 22,
     "professor_layton_series": 82,
+    "program": 7,
+    "project_a": 30,
     "project_a-ko": 58,
     "project_a-ko_4:_final": 8,
     "project_a-ko_series": 95,
@@ -14025,7 +16266,9 @@
     "project_x_zone": 16,
     "promare": 67,
     "psychic_force": 19,
+    "psychic_force_(ova)": 10,
     "psycho_pass": 64,
+    "psycho_pass_(movie)": 72,
     "psycho_pass_3:_first_inspector": 9,
     "psycho_pass_providence": 41,
     "psycho_pass_series": 274,
@@ -14033,37 +16276,50 @@
     "puniru_wa_kawaii_slime": 70,
     "pupipo!": 12,
     "puyo_puyo": 12,
+    "qualidea_code": 22,
     "queen's_blade": 38,
     "queen's_blade_rebellion": 13,
     "queen_emeraldas": 11,
+    "queen_millennia": 35,
     "quiet_please": 7,
     "quo_vadis_2": 19,
     "r-15": 25,
     "rabbit_of_seville": 9,
+    "radiant": 7,
     "radio_city_fantasy:_machikado_no_märchen": 5,
     "ragna_crimson": 24,
+    "ragnarok": 21,
     "ragnastrike_angels": 9,
     "rahxephon": 134,
     "rail_wars": 6,
     "rainbow_sentai_robin": 44,
     "raise_wa_tanin_ga_ii": 8,
+    "rakshasa_street_series": 112,
     "rakudai_kishi_no_cavalry": 63,
     "rakudai_majo:_fuuka_to_yami_no_majo": 16,
     "ralph_bakshi": 5,
+    "rampo": 6,
     "randy_cartwright": 19,
+    "ranma_1/2": 731,
     "ranma_1/2_(1989)": 93,
     "ranma_1/2_(2024)": 166,
     "ranma_1/2_nettohen": 305,
     "ranma_1/2_ova": 74,
     "raul_garcia": 5,
     "ray_patterson": 47,
+    "rayearth_(ova)": 50,
     "re-kan": 6,
     "re:_creators": 67,
+    "re:_zero_kara_hajimeru_isekai_seikatsu_series": 464,
+    "read_or_die_series": 150,
     "real_drive": 75,
     "rebecca_sugar": 28,
     "record_of_grancrest_war": 126,
     "record_of_lodoss_war": 60,
+    "red_baron": 20,
     "red_hot_riding_hood": 9,
+    "redline": 164,
+    "redline_(pilot)": 15,
     "rei_yamazaki": 10,
     "reideen": 84,
     "reiko_nagasawa": 52,
@@ -14074,9 +16330,14 @@
     "relic_armor_legaciam": 7,
     "ren_and_stimpy_adult_party_cartoon": 12,
     "rental_magica": 13,
+    "resonance_solstice_(game)": 14,
     "return_to_never_land": 32,
+    "revenger": 18,
     "reverse:_1999": 18,
     "reverse_collapse:_code_name_bakery": 5,
+    "rewrite": 102,
+    "rewrite_(game)": 35,
+    "rewrite_(tv)": 64,
     "rg_veda": 21,
     "rick_and_morty": 27,
     "ride_your_wave": 71,
@@ -14091,8 +16352,12 @@
     "rinshi!!_ekoda-chan": 7,
     "rise_of_the_teenage_mutant_ninja_turtles": 225,
     "rising_impact": 7,
+    "river_city_girls_(game)": 28,
     "river_of_death": 6,
+    "ro-kyu-bu!_series": 5,
+    "road_blaster_(video_game)": 12,
     "robert_mckimson": 109,
+    "robin_hood": 37,
     "robin_hood_no_daibouken": 8,
     "robokko_beeton": 9,
     "robot_carnival": 78,
@@ -14103,6 +16368,7 @@
     "rockman_series": 295,
     "rockman_x4": 12,
     "rockman_x_series": 33,
+    "rockman_zx_series": 11,
     "rocko's_modern_life": 7,
     "rodolphe_guenoden": 22,
     "roger_rabbit": 55,
@@ -14124,11 +16390,17 @@
     "round_vernian_vifam": 16,
     "roy_williams": 11,
     "rozen_maiden": 17,
+    "rozen_maiden_(2004)": 10,
     "rpg_fudousan": 6,
     "ruben_aquino": 7,
+    "rugrats": 16,
     "runaway_brain": 8,
     "running": 21726,
+    "running_man": 19,
     "ruri_no_houseki": 197,
+    "rurouni_kenshin": 177,
+    "rurouni_kenshin_series": 223,
+    "rusalka": 8,
     "ryan_larkin": 17,
     "ryman's_club": 28,
     "ryo_tanaka": 637,
@@ -14160,8 +16432,10 @@
     "saint_seiya_series": 413,
     "saint_seiya_the_lost_canvas": 82,
     "saishuu_heiki_kanojo": 10,
+    "saiyuuki": 33,
     "saiyuuki_reload": 6,
     "saiyuuki_reload_gunlock": 8,
+    "saiyuuki_series": 55,
     "sakamichi_no_apollon": 37,
     "sakamoto_days": 89,
     "sakasama_no_patema": 9,
@@ -14171,9 +16445,11 @@
     "sakugan": 26,
     "sakura_quest": 12,
     "sakura_taisen_monogatari:_mysterious_paris": 13,
+    "sakura_taisen_series": 192,
     "sakura_trick": 17,
     "sakurako-san_no_ashimoto_ni_wa_shitai_ga_umatteiru": 5,
     "sakurasou_no_pet_na_kanojo": 16,
+    "salamander": 19,
     "saludos_amigos": 24,
     "samurai_7": 31,
     "samurai_champloo": 123,
@@ -14183,7 +16459,10 @@
     "samurai_jack": 39,
     "samurai_jack_(2017)": 28,
     "sanae_shimada": 18,
+    "sand_land:_the_series": 14,
     "sang_jin_kim": 34,
+    "sangokushi": 16,
+    "sangokushi_(movie_series)": 8,
     "sansha_sanyou": 134,
     "saraiya_goyou": 10,
     "sarazanmai": 44,
@@ -14208,10 +16487,13 @@
     "sayaka_koiso": 31,
     "sayo_yamamoto": 11,
     "sayonara_lara": 288,
+    "sayonara_lara_(mv)": 7,
     "sayonara_watashi_no_cramer": 5,
     "sayonara_zetsubou_sensei": 108,
     "sayuri_ichiishi": 17,
+    "scandal_(video_game)": 6,
     "scarlet_nexus": 8,
+    "school_days": 15,
     "school_rumble": 20,
     "schoolgirl_strikers": 14,
     "schwarzesmarken": 5,
@@ -14246,6 +16528,7 @@
     "seis_manos": 43,
     "seisen_cerberus": 6,
     "seisenshi_dunbine": 107,
+    "seishun_buta_yarou_wa_bunny_girl_senpai_no_yume_wo_minai_series": 132,
     "seishun_buta_yarou_wa_odekake_sister_no_yume_wo_minai": 6,
     "seitokai_ni_mo_ana_wa_aru!": 67,
     "seitokai_yakuindomo": 52,
@@ -14260,6 +16543,7 @@
     "sengoku_basara": 215,
     "sengoku_collection": 28,
     "sengoku_majin_goshogun": 16,
+    "sengoku_majin_goshogun_(1982)": 7,
     "sengoku_night_blood": 11,
     "sengoku_otome:_momoiro_paradox": 21,
     "sengoku_youko": 158,
@@ -14269,6 +16553,7 @@
     "senkou_no_night_raid": 10,
     "senpai_ga_uzai_kouhai_no_hanashi": 33,
     "senran_kagura": 59,
+    "senran_kagura_(game)": 26,
     "senran_kagura_series": 86,
     "senryuu_shoujo": 6,
     "sentai_daishikkaku": 86,
@@ -14277,21 +16562,32 @@
     "senyoku_no_sigrdrifa": 77,
     "sergio_pablos": 32,
     "serial_experiments_lain": 59,
+    "sesame_street": 10,
     "seto_no_hanayome": 16,
     "settei": 1973,
     "seung_eun_kim": 25,
     "seymour_kneitel": 5,
     "sf_shinseiki_lensman": 18,
+    "shadow_skill_(tv)": 89,
+    "shadow_skill_series": 115,
     "shadows_house": 11,
+    "shadowverse": 116,
+    "shadowverse:_worlds_beyond_(game)": 9,
+    "shadowverse_(video_game)": 18,
+    "shadowverse_series": 350,
     "shakugan_no_shana": 104,
     "shakugan_no_shana_movie": 6,
     "shakugan_no_shana_series": 172,
     "shakunetsu_no_takkyu_musume": 68,
+    "shaman_king": 59,
     "shaman_king_(2021)": 39,
     "shaman_king_flowers": 8,
     "shaman_king_series": 106,
     "shamus_culhane": 50,
+    "shanghaied": 6,
+    "shangri-la": 13,
     "shangri-la_frontier": 248,
+    "shelter": 30,
     "sherlock_hound": 95,
     "shiage": 63,
     "shiawase_sou_no_okojo-san": 49,
@@ -14316,6 +16612,8 @@
     "shin_angyo_onshi": 8,
     "shin_itagaki": 100,
     "shin_mazinger_shougeki!_z_hen": 11,
+    "shin_megami_tensei:_devil_children": 38,
+    "shin_megami_tensei:_devil_children_series": 51,
     "shin_samurai-den_yaiba": 661,
     "shin_wakabayashi": 33,
     "shina_dark": 6,
@@ -14324,6 +16622,7 @@
     "shingeki_no_bahamut:_genesis": 71,
     "shingeki_no_bahamut:_virgin_soul": 92,
     "shingeki_no_kyojin": 929,
+    "shingeki_no_kyojin_(ova)": 11,
     "shingeki_no_kyojin_series": 986,
     "shingetsutan_tsukihime": 11,
     "shingo_adachi": 60,
@@ -14371,6 +16670,7 @@
     "shonen_hollywood": 6,
     "shooting_of_dan_mcgoo": 5,
     "short_peace": 28,
+    "shoshimin_series": 11,
     "shota_goshozono": 72,
     "shougo_furuya": 29,
     "shoujo_kageki_revue_starlight": 82,
@@ -14383,6 +16683,7 @@
     "shounen_maid": 16,
     "shounen_ninja_kaze_no_fujimaru": 56,
     "shounen_sarutobi_sasuke": 22,
+    "shoushimin_series": 28,
     "shouwa_genroku_rakugo_shinjuu": 5,
     "show_by_rock!!": 39,
     "show_by_rock!!_series": 118,
@@ -14408,19 +16709,26 @@
     "sinkin'_in_the_bathtub": 8,
     "sirius_no_densetsu": 6,
     "sirius_the_jaeger": 48,
+    "sister_princess": 25,
     "skate-leading☆stars": 53,
     "sket_dance": 76,
     "skip_to_loafer": 11,
+    "skull_island": 23,
+    "skullgirls_(video_game)": 20,
     "sky_girls": 49,
+    "slam_dunk": 20,
+    "slam_dunk_series": 45,
     "slayers": 30,
     "slayers_evolution-r": 38,
     "slayers_gorgeous": 29,
     "slayers_great": 19,
     "slayers_perfect": 15,
+    "slayers_premium": 7,
     "slayers_return": 12,
     "slayers_revolution": 24,
     "slayers_series": 271,
     "slayers_special": 12,
+    "sleeping_beauty": 29,
     "slow_start": 105,
     "smash!": 5,
     "smears": 61359,
@@ -14446,8 +16754,11 @@
     "sonic_riders": 12,
     "sonic_soldier_borgman": 36,
     "sonic_superstars": 14,
+    "sonic_the_hedgehog": 561,
     "sonic_x": 267,
+    "sonny_boy": 197,
     "sono_bisque_doll_wa_koi_wo_suru": 332,
+    "sora_no_manimani": 6,
     "sora_no_method": 72,
     "sora_no_otoshimono": 41,
     "sora_no_woto": 103,
@@ -14468,6 +16779,7 @@
     "soushin_shoujo_matoi": 42,
     "sousou_no_frieren": 597,
     "sousou_no_frieren_series": 641,
+    "space_adventure_cobra": 118,
     "space_adventure_cobra:_the_movie": 12,
     "space_brothers": 44,
     "space_dandy": 462,
@@ -14477,23 +16789,29 @@
     "spectral_force": 5,
     "speed_grapher": 22,
     "spice_and_wolf": 5,
+    "spider-man": 132,
     "spider-man:_across_the_spider-verse": 62,
     "spider-man:_into_the_spider-verse": 9,
+    "spider-man_the_animated_series": 9,
     "spirit:_stallion_of_the_cimarron": 19,
     "spirit_of_wonder": 50,
     "spirited_away": 142,
     "spongebob_squarepants": 86,
     "sports": 5390,
     "spriggan": 49,
+    "spriggan_(2022)": 40,
     "spriggan_series": 89,
     "spring_and_chaos": 12,
+    "spring_song": 7,
     "sprite": 140,
     "spy_kyoushitsu": 37,
     "spy_x_family": 331,
     "spy_x_family_code:_white": 61,
     "spy_x_family_series": 379,
     "star_driver": 321,
+    "star_ocean_series": 29,
     "star_twinkle_precure": 77,
+    "star_wars": 397,
     "star_wars:_clone_wars_(2003)": 32,
     "star_wars_visions": 342,
     "starship_girl_yamamoto_yohko": 31,
@@ -14504,6 +16822,7 @@
     "steam_boy": 94,
     "steam_detectives": 33,
     "steins;gate": 49,
+    "steins;gate_0": 16,
     "steve_bosustow": 6,
     "steven_e._gordon": 30,
     "steven_universe": 139,
@@ -14512,6 +16831,7 @@
     "storyboard": 1897,
     "strait_jacket": 6,
     "strange_dawn": 18,
+    "street_fighter": 229,
     "street_fighter_alpha": 66,
     "street_fighter_alpha:_generations": 26,
     "street_fighter_ii_v": 31,
@@ -14528,6 +16848,7 @@
     "sugar_sugar_rune_series": 19,
     "sugata_sanshiro": 15,
     "suicide_squad_isekai": 153,
+    "suika": 8,
     "suikoden_series": 14,
     "suisei_no_gargantia": 62,
     "suite_precure": 82,
@@ -14537,9 +16858,12 @@
     "sumie_kinoshita": 8,
     "summer_ghost": 5,
     "summer_pockets": 44,
+    "summer_pockets_(tv)": 46,
     "summer_time_rendering": 77,
     "summer_wars": 85,
+    "summon_night_2_(video_game)": 9,
     "summon_night_4": 6,
+    "summon_night_5_(video_game)": 5,
     "summon_night_series": 34,
     "sunghoo_park": 243,
     "super_cub": 8,
@@ -14549,13 +16873,19 @@
     "super_meat_boy": 6,
     "super_rabbit": 12,
     "super_shiro": 23,
+    "supergirl_(mv)": 11,
+    "superman": 63,
     "superman/batman:_apocalypse": 10,
+    "superman_(1940s)": 6,
+    "superman_the_animated_series": 25,
     "surveillance_kanshisha": 18,
+    "survival_series": 8,
     "susumu_mitsunaka": 6,
     "suzume_no_tojimari": 107,
     "sword_art_online": 116,
     "sword_art_online:_ordinal_scale": 65,
     "sword_art_online:_progressive": 42,
+    "sword_art_online_alicization_series": 326,
     "sword_art_online_alternative:_gun_gale_online": 30,
     "sword_art_online_alternative:_gun_gale_online_series": 76,
     "sword_art_online_last_recollection": 9,
@@ -14571,6 +16901,7 @@
     "tagme": 140,
     "taichi_ishidate": 213,
     "taifuu_no_noruda": 20,
+    "tailenders": 14,
     "taisho_baseball_girls": 5,
     "taisuke_iwasaki": 7,
     "takaaki_sekizaki": 66,
@@ -14634,15 +16965,24 @@
     "tales_of_xillia_2": 11,
     "tales_of_zestiria": 14,
     "tales_of_zestiria_the_x": 108,
+    "talesweaver": 7,
     "tamagotchi!": 5,
     "tamako_love_story": 40,
     "tamako_market": 82,
+    "tamako_series": 122,
+    "tamayura": 30,
+    "tamayura_(ova)": 12,
     "tamayura_hitotose": 11,
     "tamotsu_ogawa": 156,
+    "tangled": 21,
+    "tangled:_the_series": 7,
     "tanken_driland": 48,
     "tanken_driland_series": 129,
+    "tantei_opera_milky_holmes": 59,
+    "tantei_opera_milky_holmes_series": 123,
     "tarafu_otani": 18,
     "taro_ikegami": 19,
+    "tarzan": 42,
     "tatakau_shisho": 76,
     "tate_no_yuusha_no_nariagari": 105,
     "tate_no_yuusha_no_nariagari_series": 263,
@@ -14658,12 +16998,14 @@
     "tatsuyuki_tanaka": 66,
     "tatsuzou_nishita": 156,
     "tattoon_master": 7,
+    "tearmoon_teikoku_monogatari": 8,
     "tears_to_tiara": 102,
     "ted_kierscey": 6,
     "ted_sears": 5,
     "teen_titans": 33,
     "teen_titans_go!": 28,
     "teen_titans_go!_to_the_movies": 7,
+    "teenage_mutant_ninja_turtles": 353,
     "teenage_mutant_ninja_turtles_(1987)": 10,
     "teenage_mutant_ninja_turtles_(2003)": 13,
     "tegami_bachi": 25,
@@ -14672,6 +17014,7 @@
     "tekkaman_blade_ii": 9,
     "tekkaman_blade_series": 44,
     "tekkon_kinkreet": 39,
+    "telepathy_shoujo_ran": 12,
     "tenamonya_voyagers": 65,
     "tenchi_in_tokyo": 24,
     "tenchi_muyo": 226,
@@ -14682,6 +17025,8 @@
     "tenjho_tenge": 21,
     "tenkai_knights": 15,
     "tenmaku_no_jaadugar": 114,
+    "tensai_bakabon": 14,
+    "tensai_bakabon_series": 53,
     "tensai_okamura": 23,
     "tensei_oujo_to_tensai_reijou_no_mahou_kakumei": 22,
     "tensei_shitara_ken_deshita": 50,
@@ -14697,12 +17042,14 @@
     "teruaki_murakami": 9,
     "terumi_nishii": 26,
     "test": 22,
+    "tetsujin_28-go_(1980)": 58,
     "tetsujin_28-go_(2004)": 44,
     "tetsujin_28-go_series": 107,
     "tetsunabe_no_jan!": 38,
     "tetsuro_araki": 5,
     "tetsuwan_atom": 192,
     "tetsuwan_atom_(1963)": 12,
+    "tetsuwan_atom_(2003)": 182,
     "tetsuwan_birdy": 58,
     "tetsuwan_birdy_series": 265,
     "tetsuya_kawakami": 12,
@@ -14725,6 +17072,7 @@
     "the_big_o": 53,
     "the_black_cauldron": 35,
     "the_boondocks": 42,
+    "the_boxer": 5,
     "the_boy_and_the_heron": 124,
     "the_brave_express_might_gaine": 60,
     "the_brave_fighter_of_legend_da-garn": 12,
@@ -14756,11 +17104,16 @@
     "the_girl_without_hands": 7,
     "the_god_of_high_school": 129,
     "the_great_mouse_detective": 13,
+    "the_great_passage": 59,
     "the_hakkenden": 148,
+    "the_hobbit": 10,
     "the_humpbacked_horse_(1947)": 50,
+    "the_hunchback_of_notre_dame": 66,
+    "the_idolm@ster": 143,
     "the_idolm@ster_cinderella_girls": 88,
     "the_idolm@ster_cinderella_girls_u149": 47,
     "the_idolm@ster_series": 363,
+    "the_idolmaster": 248,
     "the_idolmaster_cinderella_girls": 249,
     "the_idolmaster_cinderella_girls_u149": 268,
     "the_idolmaster_gakuen": 65,
@@ -14768,9 +17121,12 @@
     "the_idolmaster_series": 1031,
     "the_idolmaster_shiny_festa": 33,
     "the_idolmaster_sidem": 32,
+    "the_illusionist": 12,
     "the_imaginary": 78,
     "the_jetsons": 26,
+    "the_jungle_book": 107,
     "the_king's_avatar": 88,
+    "the_king's_avatar_(2018)": 15,
     "the_king's_avatar_series": 137,
     "the_king_of_braves_gaogaigar": 139,
     "the_king_of_braves_gaogaigar_final": 70,
@@ -14783,6 +17139,7 @@
     "the_legend_of_zelda": 5,
     "the_lion_king": 41,
     "the_lion_king_series": 59,
+    "the_little_mermaid": 23,
     "the_little_whirlwind": 13,
     "the_lord_of_the_rings": 18,
     "the_mad_doctor": 30,
@@ -14792,7 +17149,9 @@
     "the_melancholy_of_haruhi_suzumiya": 89,
     "the_midnight_gospel": 15,
     "the_mighty_river": 6,
+    "the_monkey_king": 8,
     "the_new_adventures_of_winnie_the_pooh": 24,
+    "the_ninth_jedi_series": 120,
     "the_old_grey_hare": 8,
     "the_old_lady_and_the_pigeons": 11,
     "the_old_man_and_the_sea": 9,
@@ -14801,11 +17160,14 @@
     "the_paperboy": 10,
     "the_peanuts_movie": 5,
     "the_pointer": 6,
+    "the_powerpuff_girls": 33,
+    "the_prince_and_the_pauper": 23,
     "the_prince_of_egypt": 33,
     "the_princess_and_the_frog": 63,
     "the_princess_and_the_goblin": 12,
     "the_promised_neverland": 48,
     "the_promised_neverland_series": 78,
+    "the_real_ghostbusters": 19,
     "the_red_turtle": 31,
     "the_reflection": 6,
     "the_reluctant_dragon": 49,
@@ -14815,6 +17177,7 @@
     "the_road_to_el_dorado": 43,
     "the_rose_of_versailles": 6,
     "the_rose_of_versailles_series": 7,
+    "the_samurai": 20,
     "the_secret_of_kells": 59,
     "the_secret_of_nimh": 28,
     "the_silver_guardian": 20,
@@ -14831,6 +17194,7 @@
     "the_swan_princess": 6,
     "the_sword_in_the_stone": 98,
     "the_tale_of_the_princess_kaguya": 110,
+    "the_thief_and_the_cobbler": 61,
     "the_three_caballeros": 94,
     "the_triplets_of_belleville": 22,
     "the_twelve_kingdoms": 34,
@@ -14839,14 +17203,18 @@
     "the_whalers": 13,
     "the_wind_rises": 95,
     "the_witcher:_sirens_of_the_deep": 26,
+    "the_witcher_series": 64,
     "the_wolf": 5,
     "the_world_is_dancing": 198,
     "they_were_eleven": 6,
     "this_ugly_yet_beautiful_world": 49,
     "thomas_romain": 153,
+    "thumbelina": 8,
     "thumbs_up": 59,
+    "thundercats": 75,
     "thundercats_(2011)": 31,
     "thus_spoke_kishibe_rohan": 11,
+    "tian_guan_ci_fu_series": 37,
     "tide-line_blue": 9,
     "tiger_&_bunny": 49,
     "tiger_&_bunny_series": 95,
@@ -14855,6 +17223,7 @@
     "tiger_mask_w": 191,
     "tiger_trouble": 10,
     "time_bokan_24": 26,
+    "time_gal_(video_game)": 15,
     "time_jam:_valerian_&_laureline": 22,
     "time_masters": 8,
     "time_patrol_bon": 159,
@@ -14868,12 +17237,18 @@
     "to_aru_kagaku_no_railgun_series": 382,
     "to_aru_majutsu_no_index": 101,
     "to_aru_majutsu_no_index_series": 277,
+    "to_aru_series": 670,
     "to_be_hero": 84,
     "to_be_hero_series": 324,
     "to_be_hero_x": 223,
+    "to_be_hero_x_(ona)": 156,
     "to_be_heroine": 77,
+    "to_heart": 35,
     "to_heart_2": 12,
+    "to_heart_series": 90,
     "to_love_ru": 70,
+    "to_love_ru_(ova)": 50,
+    "to_love_ru_darkness": 39,
     "to_love_ru_series": 137,
     "to_your_eternity": 106,
     "to_your_eternity_series": 141,
@@ -14883,6 +17258,7 @@
     "togainu_no_chi": 20,
     "toji_no_miko": 5,
     "toki_wo_kakeru_shoujo": 119,
+    "tokimeki_memorial_series": 5,
     "tokimeki_tonight": 9,
     "tokiwa_kitareri": 5,
     "tokumu_sentai_shinesman": 11,
@@ -14891,6 +17267,9 @@
     "tokyo_24-ku": 24,
     "tokyo_babylon": 15,
     "tokyo_esp": 8,
+    "tokyo_ghoul": 99,
+    "tokyo_ghoul:re": 8,
+    "tokyo_ghoul_series": 227,
     "tokyo_godfathers": 83,
     "tokyo_magnitude_8.0": 18,
     "tokyo_majin": 158,
@@ -14899,8 +17278,10 @@
     "tokyo_mew_mew_new": 39,
     "tokyo_mew_mew_series": 92,
     "tokyo_ravens": 21,
+    "tokyo_revengers": 24,
     "tokyo_tribe_2": 7,
     "tokyo_underground": 9,
+    "tokyo_vice": 8,
     "tokyo_xanadu": 7,
     "tom_&_jerry": 290,
     "tom_&_jerry:_the_movie": 5,
@@ -14911,6 +17292,7 @@
     "tom_sawyer_no_bouken": 19,
     "tom_sito": 10,
     "tomb_raider:_the_legend_of_lara_croft": 52,
+    "tomb_raider_series": 55,
     "tomo-chan_wa_onnanoko!": 14,
     "tomoe_aratani": 13,
     "tomohiro_furukawa": 12,
@@ -14927,6 +17309,7 @@
     "tonari_no_youkai-san": 9,
     "tondemo_skill_de_isekai_hourou_meshi": 54,
     "tongari_boushi_no_atelier": 271,
+    "tonikaku_kawaii_series": 8,
     "tooi-san_wa_seishun_shitai!_\"baka_to_smapho_to_romance_to\"": 10,
     "toradora": 205,
     "toriko": 145,
@@ -14956,6 +17339,7 @@
     "toshiyuki_shirai": 19,
     "toshiyuki_tsuru": 88,
     "totsukuni_no_shoujo": 26,
+    "touch": 12,
     "tougen_anki": 51,
     "touhou_cannonball": 6,
     "toujima_tanzaburou_wa_kamen_rider_ni_naritai": 24,
@@ -14967,6 +17351,7 @@
     "tousouchuu:_great_mission": 109,
     "towa_no_yuugure": 34,
     "toward_the_terra": 13,
+    "toward_the_terra_(tv)": 12,
     "toward_the_terra_series": 25,
     "tower_of_god": 21,
     "tower_of_god_series": 32,
@@ -14976,16 +17361,20 @@
     "transformers:_armada": 12,
     "transformers:_energon": 5,
     "transformers_animated": 15,
+    "transformers_series": 215,
     "transformers_the_movie": 111,
     "trapezium": 39,
     "treasure_island_(1988)": 60,
     "treasure_planet": 43,
+    "tribe_nine": 16,
+    "trick_or_treat": 6,
     "trickster": 8,
     "trigun": 48,
     "trigun:_badlands_rumble": 29,
     "trigun_series": 84,
     "trigun_stampede": 7,
     "trinity_blood": 10,
+    "trinity_seven": 14,
     "tristia_of_the_deep_blue_sea": 10,
     "trombone_trouble": 12,
     "tsubasa_chronicle": 33,
@@ -15000,6 +17389,7 @@
     "tsuki_ga_michibiku_isekai_douchuu": 17,
     "tsuki_ga_michibiku_isekai_douchuu_series": 120,
     "tsuki_to_laika_to_nosferatu": 5,
+    "tsukihime": 20,
     "tsukuyomi_moon_phase": 47,
     "tsunenori_saito": 112,
     "tsuneo_maeda": 14,
@@ -15027,12 +17417,15 @@
     "uchuu_senkan_yamato_2199": 98,
     "uchuu_senkan_yamato_3": 49,
     "uchuu_senshi_baldios": 40,
+    "uchuu_senshi_baldios_(movie)": 16,
     "uchuujin_muumuu": 18,
     "uchuusen_sagittarius": 38,
     "ueki_no_hōsoku": 35,
     "ufo_robot_grendizer": 74,
     "ultimate_girls": 5,
     "ultimate_spider-man": 11,
+    "ultra_nyan_series": 24,
+    "ultraman_(series)": 37,
     "uma_musume_cinderella_gray": 85,
     "uma_musume_pretty_derby": 146,
     "uma_musume_pretty_derby_series": 360,
@@ -15053,25 +17446,36 @@
     "urara_meirochou": 6,
     "urotsukidoji": 7,
     "urusei_yatsura:_only_you": 24,
+    "urusei_yatsura_(1985)": 10,
+    "urusei_yatsura_(tv)": 430,
     "urusei_yatsura_2:_beautiful_dreamer": 18,
+    "urusei_yatsura_series": 677,
     "usagi-chan_de_cue!!": 16,
     "usagi_drop": 100,
     "ushio_to_tora": 60,
+    "uta_no_prince-sama_series": 10,
     "utawarerumono": 63,
     "utawarerumono_series": 207,
     "uzaki-chan_wa_asobitai": 8,
     "uzumaki": 5,
+    "valkyria_chronicles_series": 29,
     "valkyrie_drive": 23,
+    "valorant": 65,
     "valvrave_the_liberator": 60,
+    "vampire_hunter:_the_animated_series": 84,
     "vampire_hunter_d_(1985)": 9,
     "vampire_knight": 16,
     "vampire_princess_miyu": 33,
+    "vampire_princess_miyu_(tv)": 31,
     "vampire_wars": 9,
     "vandread": 17,
     "vanitas_no_carte": 48,
     "variable_geo": 30,
     "vassalord": 11,
     "vehicle": 9157,
+    "video_girl_ai": 19,
+    "vinland_saga": 100,
+    "vinland_saga_series": 136,
     "violence_jack": 25,
     "violet_evergarden": 138,
     "violet_evergarden_series": 208,
@@ -15085,7 +17489,11 @@
     "voltage_fighter_gowcaizer": 55,
     "voogie's_angel": 104,
     "w'z": 21,
+    "wagamama☆fairy_mirumo_de_pon!_series": 11,
     "wake_up": 5,
+    "wake_up_girls!_series": 39,
+    "wakfu": 146,
+    "wakfu_series": 262,
     "walk_cycle": 6042,
     "walt_stanchfield": 18,
     "walter_lantz": 9,
@@ -15093,6 +17501,7 @@
     "wanpaku_ouji_no_orochi_taiji": 29,
     "warau_arsnotoria_sun!": 14,
     "ward_kimball": 191,
+    "warframe": 13,
     "watashi_ga_motenai_no_wa_dou_kangaetemo_omaera_ga_warui": 16,
     "watashi_ni_tenshi_ga_maiorita!": 75,
     "watashi_no_ashinaga_ojisan": 6,
@@ -15110,11 +17519,13 @@
     "what_if...?": 21,
     "when_marnie_was_there": 91,
     "when_the_wind_blows": 11,
+    "where_the_wind_blows_(mv)": 11,
     "whisper_of_the_heart": 67,
     "white_album": 76,
     "white_album_2": 22,
     "white_album_series": 92,
     "who_framed_roger_rabbit": 47,
+    "wicked_city": 20,
     "wild_7": 13,
     "wild_arms_3": 8,
     "wild_arms_series": 33,
@@ -15125,6 +17536,7 @@
     "wind_breaker": 151,
     "windaria": 18,
     "windy_tales": 57,
+    "winnie_the_pooh": 194,
     "winnie_the_pooh_and_the_blustery_day": 52,
     "winnie_the_pooh_and_the_honey_tree": 64,
     "winnie_the_pooh_and_tigger_too": 47,
@@ -15138,31 +17550,46 @@
     "wizard_barristers": 139,
     "wizardry": 7,
     "wolf_boy_ken": 46,
+    "wolf_guy": 7,
     "wolfs_rain": 126,
+    "wolfwalkers": 54,
+    "wolverine": 5,
     "wonder_egg_priority": 278,
     "wonder_woman_(2009)": 15,
+    "wonderful_days": 36,
     "wonderful_precure": 185,
+    "woody_woodpecker": 86,
     "woolie_reitherman": 167,
     "words_worth": 6,
+    "working!!": 62,
     "working!!!": 36,
+    "working!!_series": 168,
     "working'!!": 60,
     "world_dai_star": 13,
     "world_destruction": 48,
+    "world_of_final_fantasy_(video_game)": 5,
     "world_trigger": 61,
     "world_trigger_series": 173,
+    "world_witches_series": 137,
     "wotaku_ni_koi_wa_muzukashii": 6,
     "wreck-it_ralph": 8,
     "wuthering_waves": 80,
     "www.working!!": 10,
+    "x-men": 174,
+    "x-men_(2011_anime)": 76,
     "x-men_97": 67,
     "x-men_evolution": 15,
+    "x-men_the_animated_series": 9,
+    "x_series": 78,
     "xenosaga_the_animation": 6,
+    "xxxholic": 58,
     "xxxholic:_a_midsummer_night's_dream": 51,
     "yadamon": 34,
     "yagami-kun_no_katei_no_jijou": 25,
     "yagate_kimi_ni_naru": 20,
     "yahari_ore_no_seishun_love_comedy_wa_machigatteiru": 13,
     "yahari_ore_no_seishun_love_comedy_wa_machigatteiru_series": 77,
+    "yaiba_series": 668,
     "yakitate!!_japan": 11,
     "yakitori": 13,
     "yakunara_mug_cup_mo": 8,
@@ -15172,6 +17599,7 @@
     "yama_no_susume_series": 587,
     "yamada-kun_to_lv999_no_koi_wo_suru": 35,
     "yamato_2520": 7,
+    "yamato_series": 404,
     "yamato_takeru": 45,
     "yamato_yo_towa_ni": 19,
     "yami_no_matsuei": 10,
@@ -15197,6 +17625,7 @@
     "yasuyuki_noda": 7,
     "yat_anshin!_uchuu_ryokou": 7,
     "yatterman_(2008)": 87,
+    "yatterman_series": 129,
     "yawara!": 54,
     "year_of_the_tiger": 8,
     "yellow_submarine": 9,
@@ -15248,11 +17677,16 @@
     "yotsunoha": 6,
     "you're_under_arrest": 236,
     "you're_under_arrest:_the_movie": 10,
+    "you're_under_arrest_(tv)": 47,
     "youjo_senki": 53,
     "youjo_senki_series": 112,
     "youkai_ningen_bem_(2006)": 9,
+    "youkai_ningen_bem_series": 67,
+    "youkai_watch": 88,
+    "youkai_watch_series": 199,
     "youko_furuya": 33,
     "youko_kikuchi": 37,
+    "youkoso_jitsuryoku_shijou_shugi_no_kyoushitsu_e_series": 23,
     "young_justice": 22,
     "youseiki_suikoden": 13,
     "yousuke_kabashima": 85,
@@ -15268,11 +17702,14 @@
     "yu-gi-oh!_arc_v": 137,
     "yu-gi-oh!_duel_monsters": 145,
     "yu-gi-oh!_go_rush!!": 29,
+    "yu-gi-oh!_gx": 11,
     "yu-gi-oh!_master_duel": 16,
     "yu-gi-oh!_sevens": 87,
     "yu-gi-oh!_the_dark_side_of_dimensions": 36,
     "yu-gi-oh!_vrains": 94,
     "yu-gi-oh!_zexal": 96,
+    "yu_yu_hakusho": 412,
+    "yu_yu_hakusho_series": 370,
     "yubisaki_to_renren": 83,
     "yuichi_nakazawa": 56,
     "yuichiro_hayashi": 31,
@@ -15299,6 +17736,8 @@
     "yuri!!!_on_ice": 34,
     "yuri_kuma_arashi": 33,
     "yuri_seijin_naoko-san": 42,
+    "yuri_seijin_naoko-san_(2010)": 7,
+    "yuri_seijin_naoko-san_(2012)": 35,
     "yurie_kuniyuki": 14,
     "yuriko_chiba": 73,
     "yuriko_ishii": 31,
@@ -15324,6 +17763,7 @@
     "yuzo_aoki": 51,
     "z/x:_ignition": 7,
     "zankyou_no_terror": 29,
+    "zaregoto_series": 8,
     "zenless_zone_zero": 114,
     "zenshu": 45,
     "zero_kara_hajimeru_mahou_no_sho": 17,
@@ -15593,6 +18033,6 @@
       "ja": "風"
     }
   },
-  "updated": "2026-10-23",
+  "updated": "2026-10-27",
   "v": 1
 }
