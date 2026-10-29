@@ -280,6 +280,20 @@
     "src": "manual",
     "type": "artist"
   },
+  "atsushi_yano": {
+    "ja": "矢野篤",
+    "needs_review": false,
+    "type": "artist",
+    "src": "wikidata:Q11584421",
+    "kana": "やの あつし"
+  },
+  "atsuya_uki": {
+    "ja": "宇木敦哉",
+    "needs_review": false,
+    "type": "artist",
+    "src": "wikidata:Q11449435",
+    "kana": "うき あつや"
+  },
   "avatar:_the_last_airbender": {
     "ja": "アバター 伝説の少年アン",
     "needs_review": false,
@@ -291,6 +305,12 @@
     "needs_review": false,
     "src": "wikidata:Q60518601",
     "type": "copyright"
+  },
+  "awake_(mv)": {
+    "ja": "AWAKE",
+    "needs_review": false,
+    "type": "copyright",
+    "src": "manual:research-2026-10-30"
   },
   "azumanga_daioh": {
     "ja": "あずまんが大王",
@@ -484,6 +504,12 @@
     "src": "wikidata:Q120357178",
     "type": "copyright"
   },
+  "black_dynamite": {
+    "ja": "ブラック・ダイナマイト",
+    "needs_review": false,
+    "type": "copyright",
+    "src": "wikidata:Q4920709"
+  },
   "black_jack": {
     "ja": "ブラック・ジャック",
     "needs_review": false,
@@ -531,6 +557,12 @@
     "needs_review": false,
     "src": "wikidata:Q2408681",
     "type": "copyright"
+  },
+  "bob_carlson": {
+    "ja": "ボブ・カールソン",
+    "needs_review": false,
+    "type": "artist",
+    "src": "manual:research-2026-10-30"
   },
   "bofuri_series": {
     "ja": "痛いのは嫌なので防御力に極振りしたいと思います。",
@@ -628,6 +660,12 @@
     "src": "wikidata:Q48964751",
     "type": "copyright"
   },
+  "carnage": {
+    "ja": "Carnage",
+    "needs_review": false,
+    "type": "copyright",
+    "src": "manual:research-2026-10-30"
+  },
   "castlevania": {
     "ja": "悪魔城ドラキュラ -キャッスルヴァニア-",
     "needs_review": false,
@@ -663,6 +701,12 @@
     "needs_review": false,
     "src": "wikidata:Q116699251",
     "type": "copyright"
+  },
+  "chronicle": {
+    "ja": "CHRONICLE",
+    "needs_review": false,
+    "type": "copyright",
+    "src": "manual:research-2026-10-30"
   },
   "cinderella": {
     "ja": "シンデレラ",
@@ -711,6 +755,12 @@
     "needs_review": false,
     "src": "wikidata:Q126959847",
     "type": "copyright"
+  },
+  "clone": {
+    "ja": "Clone",
+    "needs_review": false,
+    "type": "copyright",
+    "src": "manual:research-2026-10-30"
   },
   "clover": {
     "ja": "CLOVER",
@@ -1024,6 +1074,13 @@
     "src": "manual",
     "type": "artist"
   },
+  "eisaku_kawanami": {
+    "ja": "河浪栄作",
+    "needs_review": false,
+    "type": "artist",
+    "src": "wikidata:Q56253200",
+    "kana": "かわなみ えいさく"
+  },
   "eldoran_series": {
     "ja": "エルドランシリーズ",
     "needs_review": false,
@@ -1059,6 +1116,12 @@
     "needs_review": false,
     "src": "wikidata:Q490464",
     "type": "copyright"
+  },
+  "end_of_summer_(mv)": {
+    "ja": "夏の終わり",
+    "needs_review": false,
+    "type": "copyright",
+    "src": "manual:research-2026-10-30"
   },
   "ensemble_stars!": {
     "ja": "あんさんぶるスターズ!",
@@ -1162,6 +1225,20 @@
     "src": "wikidata:Q2633480",
     "type": "copyright"
   },
+  "fuminori_kizaki": {
+    "ja": "木﨑文智",
+    "needs_review": false,
+    "type": "artist",
+    "src": "wikidata:Q3090837",
+    "kana": "きざき ふみのり"
+  },
+  "futoshi_higashide": {
+    "ja": "東出太",
+    "needs_review": false,
+    "type": "artist",
+    "src": "wikidata:Q90406243",
+    "kana": "ひがしで ふとし"
+  },
   "galaxy_express_999_(tv)": {
     "ja": "銀河鉄道999",
     "needs_review": false,
@@ -1185,6 +1262,12 @@
     "needs_review": false,
     "src": "manual",
     "type": "copyright"
+  },
+  "gary_goldman": {
+    "ja": "ゲイリー・ゴールドマン",
+    "needs_review": false,
+    "type": "artist",
+    "src": "wikidata:Q667959"
   },
   "gatchaman_series": {
     "ja": "ガッチャマンシリーズ",
@@ -1222,11 +1305,23 @@
     "src": "wikidata:Q3105316",
     "type": "copyright"
   },
+  "gift": {
+    "ja": "Gift",
+    "needs_review": false,
+    "type": "copyright",
+    "src": "manual:research-2026-10-30"
+  },
   "ginga_hyoryu_vifam_(tv)": {
     "ja": "銀河漂流バイファム (TV)",
     "needs_review": false,
     "src": "wikidata:Q1073326",
     "type": "copyright"
+  },
+  "girl": {
+    "ja": "GIRL",
+    "needs_review": false,
+    "type": "copyright",
+    "src": "manual:research-2026-10-30"
   },
   "gnosia": {
     "ja": "グノーシア",
@@ -1263,6 +1358,12 @@
     "needs_review": false,
     "src": "manual",
     "type": "copyright"
+  },
+  "greatest": {
+    "ja": "GREATEST",
+    "needs_review": false,
+    "type": "copyright",
+    "src": "manual:research-2026-10-30"
   },
   "greed": {
     "ja": "GREED",
@@ -1344,11 +1445,29 @@
     "src": "wikidata:Q115775247",
     "type": "copyright"
   },
+  "hal_ambro": {
+    "ja": "ハル・アンブロ",
+    "needs_review": false,
+    "type": "artist",
+    "src": "wikidata:Q3125876"
+  },
+  "ham_luske": {
+    "ja": "ハミルトン・ラスク",
+    "needs_review": false,
+    "type": "artist",
+    "src": "wikidata:Q926614"
+  },
   "hamefura_series": {
     "ja": "乙女ゲームの破滅フラグしかない悪役令嬢に転生してしまった…",
     "needs_review": false,
     "src": "wikidata:Q90911783",
     "type": "copyright"
+  },
+  "hammerhead": {
+    "ja": "ハンマーヘッド",
+    "needs_review": false,
+    "type": "copyright",
+    "src": "manual:research-2026-10-30"
   },
   "hana_yori_dango": {
     "ja": "花より男子",
@@ -1361,6 +1480,13 @@
     "needs_review": false,
     "src": "wikidata:Q498992",
     "type": "copyright"
+  },
+  "haruka_fujita": {
+    "ja": "藤田春香",
+    "needs_review": false,
+    "type": "artist",
+    "src": "wikidata:Q117862993",
+    "kana": "ふじた はるか"
   },
   "heavy_metal_l-gaim_(tv)": {
     "ja": "重戦機エルガイム (TV)",
@@ -1410,11 +1536,46 @@
     "src": "wikidata:Q123334196",
     "type": "copyright"
   },
+  "hiroshi_shimizu": {
+    "ja": "清水洋",
+    "needs_review": false,
+    "type": "artist",
+    "src": "manual:research-2026-10-30",
+    "kana": "しみず ひろし"
+  },
+  "hirotsugu_kawasaki": {
+    "ja": "川崎博嗣",
+    "needs_review": false,
+    "type": "artist",
+    "src": "wikidata:Q30924702",
+    "kana": "かわさき ひろつぐ"
+  },
+  "hiroyasu_ishida": {
+    "ja": "石田祐康",
+    "needs_review": false,
+    "type": "artist",
+    "src": "wikidata:Q11587052",
+    "kana": "いしだ ひろやす"
+  },
+  "hiroyuki_takashima": {
+    "ja": "高嶋宏之",
+    "needs_review": false,
+    "type": "artist",
+    "src": "manual:research-2026-10-30",
+    "kana": "たかしま ひろゆき"
+  },
   "his_and_her_circumstances": {
     "ja": "彼氏彼女の事情",
     "needs_review": false,
     "src": "wikidata:Q99659358",
     "type": "copyright"
+  },
+  "hisashi_saito": {
+    "ja": "斎藤久",
+    "needs_review": false,
+    "type": "artist",
+    "src": "wikidata:Q11500443",
+    "kana": "さいとう ひさし"
   },
   "hitori_no_shita_the_outcast_series": {
     "ja": "一人之下 the outcast シリーズ",
@@ -1439,6 +1600,12 @@
     "needs_review": false,
     "src": "manual",
     "type": "copyright"
+  },
+  "howl_(mv)": {
+    "ja": "HOWL",
+    "needs_review": false,
+    "type": "copyright",
+    "src": "manual:research-2026-10-30"
   },
   "hypinosis_microphone_series": {
     "ja": "ヒプノシスマイク シリーズ",
@@ -1518,6 +1685,18 @@
     "src": "wikidata:Q5224997",
     "type": "copyright"
   },
+  "inochi_no_tabekata_(mv)": {
+    "ja": "いのちの食べ方",
+    "needs_review": false,
+    "type": "copyright",
+    "src": "manual:research-2026-10-30"
+  },
+  "insomnia_(mv)": {
+    "ja": "インソムニア",
+    "needs_review": false,
+    "type": "copyright",
+    "src": "manual:research-2026-10-30"
+  },
   "inspector_gadget": {
     "ja": "ガジェット警部",
     "needs_review": false,
@@ -1547,6 +1726,13 @@
     "needs_review": false,
     "src": "wikidata:Q3802095",
     "type": "copyright"
+  },
+  "isao_hayashi": {
+    "ja": "林勇雄",
+    "needs_review": false,
+    "type": "artist",
+    "src": "manual:research-2026-10-30",
+    "kana": "はやし いさお"
   },
   "isekai_nonbiri_nouka_series": {
     "ja": "異世界のんびり農家 シリーズ",
@@ -1601,6 +1787,13 @@
     "needs_review": false,
     "src": "wikidata:Q109914608",
     "type": "copyright"
+  },
+  "jun_takagi": {
+    "ja": "高木淳",
+    "needs_review": false,
+    "type": "artist",
+    "src": "wikidata:Q11670115",
+    "kana": "たかぎ じゅん"
   },
   "junkers_come_here_(pilot_film)": {
     "ja": "ユンカース・カム・ヒア (パイロット版)",
@@ -1670,6 +1863,12 @@
     "src": "manual",
     "type": "artist"
   },
+  "kay_nielsen": {
+    "ja": "カイ・ニールセン",
+    "needs_review": false,
+    "type": "artist",
+    "src": "wikidata:Q3107486"
+  },
   "kazuhiro_miwa": {
     "count": 0,
     "ja": "三輪和宏",
@@ -1677,6 +1876,13 @@
     "needs_review": false,
     "src": "manual",
     "type": "artist"
+  },
+  "kazuya_murata": {
+    "ja": "村田和也",
+    "needs_review": false,
+    "type": "artist",
+    "src": "wikidata:Q11523412",
+    "kana": "むらた かずや"
   },
   "keroro_gunsou": {
     "ja": "ケロロ軍曹",
@@ -1755,6 +1961,13 @@
     "needs_review": false,
     "src": "manual",
     "type": "copyright"
+  },
+  "kiyotaka_oshiyama": {
+    "ja": "押山清高",
+    "needs_review": false,
+    "type": "artist",
+    "src": "wikidata:Q38276825",
+    "kana": "おしやま きよたか"
   },
   "knight_ramune_series": {
     "ja": "騎士ラムネ&40 シリーズ",
@@ -1884,6 +2097,12 @@
     "src": "wikidata:Q98908262",
     "type": "copyright"
   },
+  "last_dance_(music_video)": {
+    "ja": "ラストダンス",
+    "needs_review": false,
+    "type": "copyright",
+    "src": "manual:research-2026-10-30"
+  },
   "latale_series": {
     "ja": "ラテール シリーズ",
     "needs_review": false,
@@ -1967,6 +2186,12 @@
     "needs_review": false,
     "src": "wikidata:Q116769230",
     "type": "copyright"
+  },
+  "lucky_(pokemon_mv)": {
+    "ja": "Lucky",
+    "needs_review": false,
+    "type": "copyright",
+    "src": "manual:research-2026-10-30"
   },
   "lucky_star": {
     "ja": "らき☆すた",
@@ -2064,6 +2289,27 @@
     "src": "wikidata:Q209170",
     "type": "copyright"
   },
+  "masahiko_ota": {
+    "ja": "太田雅彦",
+    "needs_review": false,
+    "type": "artist",
+    "src": "wikidata:Q11444460",
+    "kana": "おおた まさひこ"
+  },
+  "masahiro_ando": {
+    "ja": "安藤真裕",
+    "needs_review": false,
+    "type": "artist",
+    "src": "wikidata:Q9128134",
+    "kana": "あんどう まさひろ"
+  },
+  "masahiro_ando_(1958)": {
+    "ja": "安藤正浩",
+    "needs_review": false,
+    "type": "artist",
+    "src": "manual:research-2026-10-30",
+    "kana": "あんどう まさひろ"
+  },
   "mashin_hero_wataru": {
     "ja": "魔神英雄伝ワタル",
     "needs_review": false,
@@ -2112,6 +2358,12 @@
     "src": "wikidata:Q516385",
     "type": "copyright"
   },
+  "mellow_(mv)": {
+    "ja": "メロウ",
+    "needs_review": false,
+    "type": "copyright",
+    "src": "manual:research-2026-10-30"
+  },
   "memories": {
     "ja": "MEMORIES",
     "needs_review": false,
@@ -2123,6 +2375,12 @@
     "needs_review": false,
     "src": "manual",
     "type": "copyright"
+  },
+  "miracle": {
+    "ja": "Miracle",
+    "needs_review": false,
+    "type": "copyright",
+    "src": "manual:research-2026-10-30"
   },
   "miracle_girls": {
     "ja": "ミラクル☆ガールズ",
@@ -2226,6 +2484,12 @@
     "src": "manual",
     "type": "copyright"
   },
+  "moon": {
+    "ja": "MOON",
+    "needs_review": false,
+    "type": "copyright",
+    "src": "manual:research-2026-10-30"
+  },
   "motorcity": {
     "ja": "モーターシティ",
     "needs_review": false,
@@ -2281,6 +2545,13 @@
     "needs_review": false,
     "src": "wikidata:Q1418326",
     "type": "copyright"
+  },
+  "naoki_takeda": {
+    "ja": "竹田直樹",
+    "needs_review": false,
+    "type": "artist",
+    "src": "wikidata:Q118692747",
+    "kana": "たけだ なおき"
   },
   "naruto": {
     "count": 0,
@@ -2340,6 +2611,13 @@
     "src": "manual",
     "type": "artist"
   },
+  "nobuo_tomizawa": {
+    "ja": "富沢信雄",
+    "needs_review": false,
+    "type": "artist",
+    "src": "wikidata:Q7804383",
+    "kana": "とみざわ のぶお"
+  },
   "non_non_biyori_series": {
     "ja": "のんのんびより シリーズ",
     "needs_review": false,
@@ -2398,6 +2676,26 @@
     "src": "wikidata:Q112964490",
     "type": "copyright"
   },
+  "orion_(mv)": {
+    "ja": "オリオン",
+    "needs_review": false,
+    "type": "copyright",
+    "src": "manual:research-2026-10-30"
+  },
+  "osamu_kobayashi": {
+    "ja": "小林治",
+    "needs_review": false,
+    "type": "artist",
+    "src": "wikidata:Q3356918",
+    "kana": "こばやし おさむ"
+  },
+  "osamu_kobayashi_(ajia_dou)": {
+    "ja": "小林治 (亜細亜堂)",
+    "needs_review": false,
+    "type": "artist",
+    "src": "wikidata:Q3356916",
+    "kana": "こばやし おさむ"
+  },
   "oshi_no_ko": {
     "ja": "【推しの子】",
     "needs_review": false,
@@ -2421,6 +2719,12 @@
     "needs_review": false,
     "src": "wikidata:Q2470001",
     "type": "copyright"
+  },
+  "outsider": {
+    "ja": "アウトサイダー",
+    "needs_review": false,
+    "type": "copyright",
+    "src": "manual:research-2026-10-30"
   },
   "overdrive": {
     "ja": "Over Drive",
@@ -2618,6 +2922,12 @@
     "src": "manual",
     "type": "copyright"
   },
+  "promise_(mv)": {
+    "ja": "約束",
+    "needs_review": false,
+    "type": "copyright",
+    "src": "manual:research-2026-10-30"
+  },
   "psychic_force_(ova)": {
     "ja": "サイキックフォース (OVA)",
     "needs_review": false,
@@ -2690,6 +3000,12 @@
     "src": "wikidata:Q488184",
     "type": "copyright"
   },
+  "rebellion_(mv)": {
+    "ja": "リベリオン",
+    "needs_review": false,
+    "type": "copyright",
+    "src": "manual:research-2026-10-30"
+  },
   "red_baron": {
     "ja": "レッドバロン",
     "needs_review": false,
@@ -2737,6 +3053,12 @@
     "needs_review": false,
     "src": "wikidata:Q28017575",
     "type": "copyright"
+  },
+  "richard_williams": {
+    "ja": "リチャード・ウィリアムズ",
+    "needs_review": false,
+    "type": "artist",
+    "src": "wikidata:Q1999598"
   },
   "river_city_girls_(game)": {
     "ja": "熱血硬派くにおくん外伝 リバーシティガールズ",
@@ -2810,6 +3132,27 @@
     "src": "wikidata:Q1215176",
     "type": "copyright"
   },
+  "ryota_aikei": {
+    "ja": "愛敬亮太",
+    "needs_review": false,
+    "type": "artist",
+    "src": "wikidata:Q140279246",
+    "kana": "あいけい りょうた"
+  },
+  "ryotaro_makihara": {
+    "ja": "牧原亮太郎",
+    "needs_review": false,
+    "type": "artist",
+    "src": "wikidata:Q22131383",
+    "kana": "まきはら りょうたろう"
+  },
+  "ryuunosuke_murakami": {
+    "ja": "村上竜之介",
+    "needs_review": false,
+    "type": "artist",
+    "src": "manual:research-2026-10-30",
+    "kana": "むらかみ りゅうのすけ"
+  },
   "saiyuuki": {
     "ja": "西遊記",
     "needs_review": false,
@@ -2846,6 +3189,13 @@
     "src": "wikidata:Q10865607",
     "type": "copyright"
   },
+  "satoshi_kimura": {
+    "ja": "木村智",
+    "needs_review": false,
+    "type": "artist",
+    "src": "manual:research-2026-10-30",
+    "kana": "きむら さとし"
+  },
   "sayonara_lara_(mv)": {
     "ja": "さよならララ (MV)",
     "needs_review": false,
@@ -2870,6 +3220,12 @@
     "src": "wikidata:Q205683",
     "type": "copyright"
   },
+  "sebastien_laudenbach": {
+    "ja": "セバスチャン・ローデンバック",
+    "needs_review": false,
+    "type": "artist",
+    "src": "wikidata:Q16028622"
+  },
   "seishun_buta_yarou_wa_bunny_girl_senpai_no_yume_wo_minai_series": {
     "ja": "青春ブタ野郎シリーズ",
     "needs_review": false,
@@ -2893,6 +3249,12 @@
     "needs_review": false,
     "src": "wikidata:Q155629",
     "type": "copyright"
+  },
+  "setting_sun_(mv)": {
+    "ja": "斜陽",
+    "needs_review": false,
+    "type": "copyright",
+    "src": "manual:research-2026-10-30"
   },
   "shadow_skill_(tv)": {
     "ja": "SHADOW SKILL",
@@ -2960,6 +3322,20 @@
     "src": "wikidata:Q22126305",
     "type": "copyright"
   },
+  "shinsuke_terasawa": {
+    "ja": "寺沢伸介",
+    "needs_review": false,
+    "type": "artist",
+    "src": "wikidata:Q111678563",
+    "kana": "てらさわ しんすけ"
+  },
+  "shishi_yamazaki": {
+    "ja": "シシヤマザキ",
+    "needs_review": false,
+    "type": "artist",
+    "src": "wikidata:Q60991144",
+    "kana": "しし やまざき"
+  },
   "shoshimin_series": {
     "ja": "小市民シリーズ",
     "needs_review": false,
@@ -2971,6 +3347,19 @@
     "needs_review": false,
     "src": "wikidata:Q124256086",
     "type": "copyright"
+  },
+  "showtime_(mv)": {
+    "ja": "Showtime",
+    "needs_review": false,
+    "type": "copyright",
+    "src": "manual:research-2026-10-30"
+  },
+  "shunsuke_okubo": {
+    "ja": "大久保俊介",
+    "needs_review": false,
+    "type": "artist",
+    "src": "manual:research-2026-10-30",
+    "kana": "おおくぼ しゅんすけ"
   },
   "shuu_sugita": {
     "count": 0,
@@ -3022,6 +3411,12 @@
     "src": "wikidata:Q215617",
     "type": "copyright"
   },
+  "song_of_life_(mv)": {
+    "ja": "人生讃歌",
+    "needs_review": false,
+    "type": "copyright",
+    "src": "manual:research-2026-10-30"
+  },
   "sonic_the_hedgehog": {
     "ja": "ソニック・ザ・ヘッジホッグ",
     "needs_review": false,
@@ -3045,6 +3440,12 @@
     "needs_review": false,
     "src": "wikidata:Q2981166",
     "type": "copyright"
+  },
+  "speed_(mv)": {
+    "ja": "SPEED",
+    "needs_review": false,
+    "type": "copyright",
+    "src": "manual:research-2026-10-30"
   },
   "spider-man": {
     "ja": "スパイダーマン",
@@ -3172,6 +3573,34 @@
     "src": "wikidata:Q4050662",
     "type": "copyright"
   },
+  "takahiko_abiru": {
+    "ja": "阿比留隆彦",
+    "needs_review": false,
+    "type": "artist",
+    "src": "wikidata:Q133859517",
+    "kana": "あびる たかひこ"
+  },
+  "takahiro_miura": {
+    "ja": "三浦貴博",
+    "needs_review": false,
+    "type": "artist",
+    "src": "wikidata:Q26043719",
+    "kana": "みうら たかひろ"
+  },
+  "takashi_nakamura": {
+    "ja": "なかむらたかし",
+    "needs_review": false,
+    "type": "artist",
+    "src": "wikidata:Q7677360",
+    "kana": "なかむら たかし"
+  },
+  "takuya_wada": {
+    "ja": "和田卓也",
+    "needs_review": false,
+    "type": "artist",
+    "src": "wikidata:Q11417935",
+    "kana": "わだ たくや"
+  },
   "talesweaver": {
     "ja": "テイルズウィーバー",
     "needs_review": false,
@@ -3226,11 +3655,24 @@
     "src": "wikidata:Q208696",
     "type": "copyright"
   },
+  "tatsuo_yamada": {
+    "ja": "山田起生",
+    "needs_review": false,
+    "type": "artist",
+    "src": "manual:research-2026-10-30",
+    "kana": "やまだ たつお"
+  },
   "tearmoon_teikoku_monogatari": {
     "ja": "ティアムーン帝国物語",
     "needs_review": false,
     "src": "wikidata:Q122780569",
     "type": "copyright"
+  },
+  "ted_berman": {
+    "ja": "テッド・バーマン",
+    "needs_review": false,
+    "type": "artist",
+    "src": "wikidata:Q3517016"
   },
   "teenage_mutant_ninja_turtles": {
     "ja": "ティーンエイジ・ミュータント・ニンジャ・タートルズ",
@@ -3261,6 +3703,13 @@
     "needs_review": false,
     "src": "wikidata:Q703088",
     "type": "copyright"
+  },
+  "tetsuo_yajima": {
+    "ja": "矢嶋哲生",
+    "needs_review": false,
+    "type": "artist",
+    "src": "wikidata:Q17221483",
+    "kana": "やじま てつお"
   },
   "tetsuwan_atom_(2003)": {
     "ja": "ASTRO BOY 鉄腕アトム",
@@ -3478,6 +3927,13 @@
     "src": "wikidata:Q98803646",
     "type": "copyright"
   },
+  "toshihisa_kaiya": {
+    "ja": "海谷敏久",
+    "needs_review": false,
+    "type": "artist",
+    "src": "manual:research-2026-10-30",
+    "kana": "かいや としひさ"
+  },
   "touch": {
     "ja": "タッチ",
     "needs_review": false,
@@ -3520,6 +3976,12 @@
     "src": "wikidata:Q1193720",
     "type": "copyright"
   },
+  "twilight_(mv)": {
+    "ja": "Twilight",
+    "needs_review": false,
+    "type": "copyright",
+    "src": "manual:research-2026-10-30"
+  },
   "uchuu_senshi_baldios_(movie)": {
     "ja": "宇宙戦士バルディオス (映画)",
     "needs_review": false,
@@ -3543,6 +4005,12 @@
     "needs_review": false,
     "src": "wikidata:Q29034274",
     "type": "copyright"
+  },
+  "underdog_(mv)": {
+    "ja": "Underdog",
+    "needs_review": false,
+    "type": "copyright",
+    "src": "manual:research-2026-10-30"
   },
   "urusei_yatsura_(1985)": {
     "ja": "うる星やつら (1985)",
@@ -3592,11 +4060,23 @@
     "src": "wikidata:Q11416442",
     "type": "copyright"
   },
+  "veil_(music_video)": {
+    "ja": "veil",
+    "needs_review": false,
+    "type": "copyright",
+    "src": "manual:research-2026-10-30"
+  },
   "video_girl_ai": {
     "ja": "電影少女",
     "needs_review": false,
     "src": "wikidata:Q1505050",
     "type": "copyright"
+  },
+  "viking_(mv)": {
+    "ja": "Viking",
+    "needs_review": false,
+    "type": "copyright",
+    "src": "manual:research-2026-10-30"
   },
   "vinland_saga": {
     "ja": "ヴィンランド・サガ",
@@ -3651,6 +4131,12 @@
     "needs_review": false,
     "src": "wikidata:Q4978563",
     "type": "copyright"
+  },
+  "wilderness": {
+    "ja": "WILDERNESS",
+    "needs_review": false,
+    "type": "copyright",
+    "src": "manual:research-2026-10-30"
   },
   "winnie_the_pooh": {
     "ja": "くまのプーさん",
@@ -3754,6 +4240,13 @@
     "src": "manual",
     "type": "copyright"
   },
+  "yasuhiro_kimura": {
+    "ja": "木村泰大",
+    "needs_review": false,
+    "type": "artist",
+    "src": "wikidata:Q26043179",
+    "kana": "きむら やすひろ"
+  },
   "yatterman_series": {
     "ja": "ヤッターマン",
     "needs_review": false,
@@ -3768,6 +4261,13 @@
     "src": "manual",
     "type": "artist"
   },
+  "yoshiki_yamakawa": {
+    "ja": "山川吉樹",
+    "needs_review": false,
+    "type": "artist",
+    "src": "wikidata:Q21019774",
+    "kana": "やまかわ よしのぶ"
+  },
   "yoshinori_kanada": {
     "count": 926,
     "ja": "金田伊功",
@@ -3775,6 +4275,13 @@
     "needs_review": false,
     "src": "manual:https://www.wikidata.org/wiki/Q919281",
     "type": "artist"
+  },
+  "yoshiyuki_kishi": {
+    "ja": "岸義之",
+    "needs_review": false,
+    "type": "artist",
+    "src": "wikidata:Q11476012",
+    "kana": "きし よしゆき"
   },
   "you're_under_arrest_(tv)": {
     "ja": "逮捕しちゃうぞ (TV)",
@@ -3824,6 +4331,13 @@
     "src": "manual",
     "type": "copyright"
   },
+  "yuichi_itou": {
+    "ja": "伊東優一",
+    "needs_review": false,
+    "type": "artist",
+    "src": "manual:research-2026-10-30",
+    "kana": "いとう ゆういち"
+  },
   "yuri_seijin_naoko-san_(2010)": {
     "ja": "百合星人ナオコサン (2010)",
     "needs_review": false,
@@ -3835,6 +4349,27 @@
     "needs_review": false,
     "src": "wikidata:Q8061598",
     "type": "copyright"
+  },
+  "yuta_murano": {
+    "ja": "村野佑太",
+    "needs_review": false,
+    "type": "artist",
+    "src": "wikidata:Q101200589",
+    "kana": "むらの ゆうた"
+  },
+  "yuuki_yase": {
+    "ja": "八瀬祐樹",
+    "needs_review": false,
+    "type": "artist",
+    "src": "wikidata:Q98926219",
+    "kana": "やせ ゆうき"
+  },
+  "yuusuke_yamamoto_(nara)": {
+    "ja": "山本ゆうすけ",
+    "needs_review": false,
+    "type": "artist",
+    "src": "manual:research-2026-10-30",
+    "kana": "やまもと ゆうすけ"
   },
   "zaregoto_series": {
     "ja": "戯言シリーズ",

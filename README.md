@@ -23,7 +23,9 @@
 
 ### B. Chrome ウェブストアから
 
-公開後に追記します: (URL は公開後に記入)
+1. https://chromewebstore.google.com/detail/sakuview-for-sakugabooru/lenbajkilclneoiohkfaggghafjadhog を開きます。
+2. 「Chrome に追加」を押し、確認ダイアログで「拡張機能を追加」を押します。
+3. https://www.sakugabooru.com/ を開けば日本語表示になります。更新はストア経由で自動です。
 
 ## 使い方
 

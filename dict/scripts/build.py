@@ -1,4 +1,5 @@
 """Build dist/dict.json, REVIEW.md and COVERAGE.md from data/*.json."""
+import re
 import sys
 from datetime import date
 from pathlib import Path
@@ -17,6 +18,43 @@ def _public(entry):
     out = {"ja": entry["ja"]}
     if entry.get("kana"):
         out["kana"] = entry["kana"]
+    return out
+
+
+_YEAR = r"(?:19|20)\d\d"
+# (regex with named group "base", formatter). First match wins.
+_VARIANT_RULES = [
+    (re.compile(r"^(?P<base>.+)_season_(?P<n>\d+)$"), lambda ja, m: f"{ja} 第{m['n']}期"),
+    (re.compile(r"^(?P<base>.+)_(?P<n>\d+)(?:st|nd|rd|th)_season$"),
+     lambda ja, m: f"{ja} 第{m['n']}期"),
+    (re.compile(r"^(?P<base>.+?)_(?:the_)?final_season$"),
+     lambda ja, m: f"{ja} The Final Season"),
+    (re.compile(rf"^(?P<base>.+)_(?P<n>{_YEAR})$"), lambda ja, m: f"{ja} ({m['n']})"),
+    (re.compile(r"^(?P<base>.+)_(?P<n>[2-9])$"), lambda ja, m: f"{ja} {m['n']}"),
+    (re.compile(r"^(?P<base>.+?)_(?:the_movie|movie|film)$"), lambda ja, m: f"劇場版 {ja}"),
+    (re.compile(r"^(?P<base>.+)_ova$"), lambda ja, m: f"{ja} (OVA)"),
+    (re.compile(r"^(?P<base>.+)_ona$"), lambda ja, m: f"{ja} (ONA)"),
+    (re.compile(r"^(?P<base>.+)_specials?$"), lambda ja, m: f"{ja} (スペシャル)"),
+    (re.compile(r"^(?P<base>.+)_recap$"), lambda ja, m: f"{ja} (総集編)"),
+]
+
+
+def derive_variants(settled, counts, existing):
+    """Titles for variants of settled works. settled: {tag: ja}; counts: {tag: n}."""
+    out = {}
+    for tag, n in counts.items():
+        if n < MIN_COUNT or tag in existing or tag in settled:
+            continue
+        for rx, fmt in _VARIANT_RULES:
+            m = rx.match(tag)
+            if not m:
+                continue
+            base = m["base"]
+            if base.endswith(SERIES_SUFFIX) or base not in settled:
+                break  # first match wins, even when its base is unusable
+            out[tag] = {"ja": fmt(settled[base], m), "src": f"derived:{base}",
+                        "needs_review": False}
+            break
     return out
 
 
@@ -79,6 +117,15 @@ def build(root=ROOT, today=None):
             base = tag[: -len(SERIES_SUFFIX)]
             if base in cop:
                 cop[tag] = {"ja": cop[base]["ja"] + " シリーズ"}
+
+    # mechanical variants (season N, movie, OVA...) of a settled work title
+    cop_counts = {**entry_counts["copyrights"], **cache_all["copyrights"]}
+    settled = {k: v["ja"] for k, v in cop.items()}
+    derived = derive_variants(settled, cop_counts, set(cop) | set(overrides))
+    for tag, e in derived.items():
+        cop[tag] = _public(e)
+    review = [r for r in review if not (r[1] == "copyrights" and r[0] in derived)]
+    print(f"derived {len(derived)} variant titles")
 
     # counts is one flat {tag: n} map, but the same name can be translated in two
     # types (e.g. an artist and a general tag). Count each per its own type and,

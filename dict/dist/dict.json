@@ -164,6 +164,14 @@
       "ja": "若林厚史",
       "kana": "わかばやし あつし"
     },
+    "atsushi_yano": {
+      "ja": "矢野篤",
+      "kana": "やの あつし"
+    },
+    "atsuya_uki": {
+      "ja": "宇木敦哉",
+      "kana": "うき あつや"
+    },
     "aya_takano": {
       "ja": "髙野綾",
       "kana": "たかの あや"
@@ -219,6 +227,9 @@
     },
     "blue_box_(animator)": {
       "ja": "アオのハコ"
+    },
+    "bob_carlson": {
+      "ja": "ボブ・カールソン"
     },
     "bob_clampett": {
       "ja": "ボブ・クランペット"
@@ -349,6 +360,10 @@
       "ja": "山森英司",
       "kana": "やまもり えいじ"
     },
+    "eisaku_kawanami": {
+      "ja": "河浪栄作",
+      "kana": "かわなみ えいさく"
+    },
     "emery_hawkins": {
       "ja": "エメリー・ホーキンズ"
     },
@@ -384,6 +399,10 @@
       "ja": "フリッツ・フレラング",
       "kana": "ふりっつ・ふれれんぐ"
     },
+    "fuminori_kizaki": {
+      "ja": "木﨑文智",
+      "kana": "きざき ふみのり"
+    },
     "fumio_iida": {
       "ja": "SUEZEN"
     },
@@ -391,12 +410,19 @@
       "ja": "藤川太",
       "kana": "ふじかわ ふとし"
     },
+    "futoshi_higashide": {
+      "ja": "東出太",
+      "kana": "ひがしで ふとし"
+    },
     "futoshi_nishiya": {
       "ja": "西屋太志",
       "kana": "にしや ふとし"
     },
     "fyodor_khitruk": {
       "ja": "フョードル・ヒートルーク"
+    },
+    "gary_goldman": {
+      "ja": "ゲイリー・ゴールドマン"
     },
     "gen'ichirou_abe": {
       "ja": "阿部厳一朗"
@@ -447,12 +473,22 @@
       "ja": "亀垣一",
       "kana": "かめがき はじめ"
     },
+    "hal_ambro": {
+      "ja": "ハル・アンブロ"
+    },
     "hal_king": {
       "ja": "ハル・キング"
+    },
+    "ham_luske": {
+      "ja": "ハミルトン・ラスク"
     },
     "haruhiko_mikimoto": {
       "ja": "美樹本晴彦",
       "kana": "みきもと はるひこ"
+    },
+    "haruka_fujita": {
+      "ja": "藤田春香",
+      "kana": "ふじた はるか"
     },
     "haruko_iizuka": {
       "ja": "飯塚晴子",
@@ -620,6 +656,10 @@
       "ja": "斎藤博",
       "kana": "さいとう ひろし"
     },
+    "hiroshi_shimizu": {
+      "ja": "清水洋",
+      "kana": "しみず ひろし"
+    },
     "hiroshi_takeuchi": {
       "ja": "竹内浩志",
       "kana": "たけうち ひろし"
@@ -646,6 +686,14 @@
     "hirotoshi_takaya": {
       "ja": "高谷浩利",
       "kana": "たかや ひろとし"
+    },
+    "hirotsugu_kawasaki": {
+      "ja": "川崎博嗣",
+      "kana": "かわさき ひろつぐ"
+    },
+    "hiroyasu_ishida": {
+      "ja": "石田祐康",
+      "kana": "いしだ ひろやす"
     },
     "hiroyuki_aoyama": {
       "ja": "青山浩行",
@@ -690,6 +738,10 @@
       "ja": "高橋博行",
       "kana": "たかはし ひろゆき"
     },
+    "hiroyuki_takashima": {
+      "ja": "高嶋宏之",
+      "kana": "たかしま ひろゆき"
+    },
     "hiroyuki_yamashita": {
       "ja": "山下宏幸",
       "kana": "やました ひろゆき"
@@ -720,6 +772,10 @@
     "hisashi_mori": {
       "ja": "森久司",
       "kana": "もり ひさし"
+    },
+    "hisashi_saito": {
+      "ja": "斎藤久",
+      "kana": "さいとう ひさし"
     },
     "hisashi_sakaguchi": {
       "ja": "坂口尚",
@@ -761,6 +817,10 @@
     "isamu_imakake": {
       "ja": "今掛勇",
       "kana": "いまかけ いさむ"
+    },
+    "isao_hayashi": {
+      "ja": "林勇雄",
+      "kana": "はやし いさお"
     },
     "isao_sugimoto": {
       "ja": "杉本功",
@@ -826,6 +886,10 @@
     "jun_shishido": {
       "ja": "宍戸淳",
       "kana": "ししど じゅん"
+    },
+    "jun_takagi": {
+      "ja": "高木淳",
+      "kana": "たかぎ じゅん"
     },
     "jun_yamazaki": {
       "ja": "山崎淳"
@@ -901,6 +965,9 @@
     "katsuzo_hirata": {
       "ja": "平田雄三",
       "kana": "ひらた かつぞう"
+    },
+    "kay_nielsen": {
+      "ja": "カイ・ニールセン"
     },
     "kazuaki_mouri": {
       "ja": "毛利和昭",
@@ -992,6 +1059,10 @@
     },
     "kazuya_miura": {
       "ja": "三浦和也"
+    },
+    "kazuya_murata": {
+      "ja": "村田和也",
+      "kana": "むらた かずや"
     },
     "kazuya_shiotsuki": {
       "ja": "潮月一也"
@@ -1095,6 +1166,10 @@
     "kitaro_kousaka": {
       "ja": "高坂希太郎",
       "kana": "こうさか きたろう"
+    },
+    "kiyotaka_oshiyama": {
+      "ja": "押山清高",
+      "kana": "おしやま きよたか"
     },
     "kohei_ashiya": {
       "ja": "芦谷耕平"
@@ -1281,9 +1356,21 @@
       "ja": "大倉雅彦",
       "kana": "おおくら まさひこ"
     },
+    "masahiko_ota": {
+      "ja": "太田雅彦",
+      "kana": "おおた まさひこ"
+    },
     "masahiro_aizawa": {
       "ja": "相澤昌弘",
       "kana": "あいざわ まさひろ"
+    },
+    "masahiro_ando": {
+      "ja": "安藤真裕",
+      "kana": "あんどう まさひろ"
+    },
+    "masahiro_ando_(1958)": {
+      "ja": "安藤正浩",
+      "kana": "あんどう まさひろ"
     },
     "masahito_sawada": {
       "ja": "沢田正人",
@@ -1516,6 +1603,10 @@
     "naoki_miyahara": {
       "ja": "宮原直樹"
     },
+    "naoki_takeda": {
+      "ja": "竹田直樹",
+      "kana": "たけだ なおき"
+    },
     "naoki_tate": {
       "ja": "舘直樹",
       "kana": "たて なおき"
@@ -1569,6 +1660,10 @@
     "nobuaki_nagano": {
       "ja": "長野伸明",
       "kana": "ながの のぶあき"
+    },
+    "nobuo_tomizawa": {
+      "ja": "富沢信雄",
+      "kana": "とみざわ のぶお"
     },
     "nobutake_ito": {
       "ja": "伊東伸高"
@@ -1633,6 +1728,14 @@
       "ja": "出崎統",
       "kana": "でざき おさむ"
     },
+    "osamu_kobayashi": {
+      "ja": "小林治",
+      "kana": "こばやし おさむ"
+    },
+    "osamu_kobayashi_(ajia_dou)": {
+      "ja": "小林治 (亜細亜堂)",
+      "kana": "こばやし おさむ"
+    },
     "osamu_nabeshima": {
       "ja": "鍋島修",
       "kana": "なべしま おさむ"
@@ -1694,6 +1797,9 @@
       "ja": "奥山玲子",
       "kana": "おくやま れいこ"
     },
+    "richard_williams": {
+      "ja": "リチャード・ウィリアムズ"
+    },
     "rie_matsumoto": {
       "ja": "松本理恵",
       "kana": "まつもと りえ"
@@ -1735,6 +1841,14 @@
       "ja": "中村亮介",
       "kana": "なかむら りょうすけ"
     },
+    "ryota_aikei": {
+      "ja": "愛敬亮太",
+      "kana": "あいけい りょうた"
+    },
+    "ryotaro_makihara": {
+      "ja": "牧原亮太郎",
+      "kana": "まきはら りょうたろう"
+    },
     "ryouma_ebata": {
       "ja": "江畑諒真",
       "kana": "えばた りょうま"
@@ -1748,6 +1862,10 @@
     "ryuichi_makino": {
       "ja": "牧野竜一",
       "kana": "まきの りゅういち"
+    },
+    "ryuunosuke_murakami": {
+      "ja": "村上竜之介",
+      "kana": "むらかみ りゅうのすけ"
     },
     "sachiko_kamimura": {
       "ja": "神村幸子",
@@ -1798,6 +1916,10 @@
       "ja": "岩瀧智",
       "kana": "いわたき さとし"
     },
+    "satoshi_kimura": {
+      "ja": "木村智",
+      "kana": "きむら さとし"
+    },
     "satoshi_kon": {
       "ja": "今敏",
       "kana": "こん さとし"
@@ -1827,6 +1949,9 @@
     "sayuri_ichiishi": {
       "ja": "一石小百合",
       "kana": "いちいし さゆり"
+    },
+    "sebastien_laudenbach": {
+      "ja": "セバスチャン・ローデンバック"
     },
     "seiichi_hayashi": {
       "ja": "林静一",
@@ -1958,6 +2083,10 @@
       "ja": "笹木信作",
       "kana": "ささき しんさく"
     },
+    "shinsuke_terasawa": {
+      "ja": "寺沢伸介",
+      "kana": "てらさわ しんすけ"
+    },
     "shintarou_douge": {
       "ja": "道解慎太郎",
       "kana": "どうげ しんたろう"
@@ -1977,6 +2106,10 @@
     "shinya_takahashi_(1943)": {
       "ja": "高橋信也",
       "kana": "たかはし しんや"
+    },
+    "shishi_yamazaki": {
+      "ja": "シシヤマザキ",
+      "kana": "しし やまざき"
     },
     "shizue_kaneko": {
       "ja": "金子志津枝",
@@ -2023,6 +2156,10 @@
     "shunji_suzuki": {
       "ja": "鈴木俊二",
       "kana": "すずき しゅんじ"
+    },
+    "shunsuke_okubo": {
+      "ja": "大久保俊介",
+      "kana": "おおくぼ しゅんすけ"
     },
     "shuu_sugita": {
       "ja": "杉田柊",
@@ -2081,6 +2218,10 @@
       "ja": "山下高明",
       "kana": "やました たかあき"
     },
+    "takahiko_abiru": {
+      "ja": "阿比留隆彦",
+      "kana": "あびる たかひこ"
+    },
     "takahiro_kagami": {
       "ja": "加々美高浩",
       "kana": "かがみ たかひろ"
@@ -2096,6 +2237,10 @@
     "takahiro_komori": {
       "ja": "小森高博",
       "kana": "こもり たかひろ"
+    },
+    "takahiro_miura": {
+      "ja": "三浦貴博",
+      "kana": "みうら たかひろ"
     },
     "takahiro_yoshimatsu": {
       "ja": "吉松孝博",
@@ -2120,6 +2265,10 @@
     "takashi_kawaguchi": {
       "ja": "川口隆",
       "kana": "かわぐち たかし"
+    },
+    "takashi_nakamura": {
+      "ja": "なかむらたかし",
+      "kana": "なかむら たかし"
     },
     "takashi_watabe": {
       "ja": "渡部隆",
@@ -2189,6 +2338,10 @@
       "ja": "佐藤卓哉",
       "kana": "さとう たくや"
     },
+    "takuya_wada": {
+      "ja": "和田卓也",
+      "kana": "わだ たくや"
+    },
     "takuya_yamamura": {
       "ja": "山村卓也"
     },
@@ -2209,6 +2362,10 @@
     "tatsuo_satou": {
       "ja": "佐藤竜雄",
       "kana": "さとう たつお"
+    },
+    "tatsuo_yamada": {
+      "ja": "山田起生",
+      "kana": "やまだ たつお"
     },
     "tatsuya_ishihara": {
       "ja": "石原立也",
@@ -2232,6 +2389,9 @@
       "ja": "西田達三",
       "kana": "にしだ たつぞう"
     },
+    "ted_berman": {
+      "ja": "テッド・バーマン"
+    },
     "ted_kierscey": {
       "ja": "テッド・カーシー"
     },
@@ -2248,6 +2408,10 @@
     "terumi_nishii": {
       "ja": "西位輝実",
       "kana": "にしい てるみ"
+    },
+    "tetsuo_yajima": {
+      "ja": "矢嶋哲生",
+      "kana": "やじま てつお"
     },
     "tetsuro_araki": {
       "ja": "荒木哲郎",
@@ -2352,6 +2516,10 @@
     "toshihiro_kawamoto": {
       "ja": "川元利浩",
       "kana": "かわもと としひろ"
+    },
+    "toshihisa_kaiya": {
+      "ja": "海谷敏久",
+      "kana": "かいや としひさ"
     },
     "toshihito_hirooka": {
       "ja": "広岡トシヒト",
@@ -2480,6 +2648,10 @@
       "ja": "入江泰浩",
       "kana": "いりえ やすひろ"
     },
+    "yasuhiro_kimura": {
+      "ja": "木村泰大",
+      "kana": "きむら やすひろ"
+    },
     "yasuhiro_nakura": {
       "ja": "名倉靖博",
       "kana": "なくら やすひろ"
@@ -2607,6 +2779,10 @@
       "ja": "安彦良和",
       "kana": "やすひこ よしかず"
     },
+    "yoshiki_yamakawa": {
+      "ja": "山川吉樹",
+      "kana": "やまかわ よしのぶ"
+    },
     "yoshimi_itazu": {
       "ja": "板津匡覧"
     },
@@ -2642,6 +2818,10 @@
       "ja": "伊藤嘉之",
       "kana": "いとう よしゆき"
     },
+    "yoshiyuki_kishi": {
+      "ja": "岸義之",
+      "kana": "きし よしゆき"
+    },
     "yoshiyuki_momose": {
       "ja": "百瀬義行",
       "kana": "ももせ よしゆき"
@@ -2671,6 +2851,10 @@
     },
     "yousuke_kabashima": {
       "ja": "椛島洋介"
+    },
+    "yuichi_itou": {
+      "ja": "伊東優一",
+      "kana": "いとう ゆういち"
     },
     "yuichi_nakazawa": {
       "ja": "中澤勇一",
@@ -2756,6 +2940,10 @@
       "ja": "芳垣祐介",
       "kana": "よしがき ゆうすけ"
     },
+    "yuta_murano": {
+      "ja": "村野佑太",
+      "kana": "むらの ゆうた"
+    },
     "yutaka_minowa": {
       "ja": "箕輪豊",
       "kana": "みのわ ゆたか"
@@ -2776,9 +2964,17 @@
     "yuuki_igarashi": {
       "ja": "五十嵐祐貴"
     },
+    "yuuki_yase": {
+      "ja": "八瀬祐樹",
+      "kana": "やせ ゆうき"
+    },
     "yuusuke_matsuo": {
       "ja": "松尾祐輔",
       "kana": "まつお ゆうすけ"
+    },
+    "yuusuke_yamamoto_(nara)": {
+      "ja": "山本ゆうすけ",
+      "kana": "やまもと ゆうすけ"
     },
     "yuya_takahashi": {
       "ja": "高橋優也"
@@ -2993,6 +3189,9 @@
     "akagami_no_shirayuki-hime": {
       "ja": "赤髪の白雪姫"
     },
+    "akagami_no_shirayuki-hime_season_2": {
+      "ja": "赤髪の白雪姫 第2期"
+    },
     "akahori_gedou_hour_rabuge": {
       "ja": "あかほり外道アワーらぶげ"
     },
@@ -3010,6 +3209,9 @@
     },
     "akazukin_chacha": {
       "ja": "赤ずきんチャチャ"
+    },
+    "akazukin_chacha_ova": {
+      "ja": "赤ずきんチャチャ (OVA)"
     },
     "akb0048": {
       "ja": "AKB0048"
@@ -3219,8 +3421,14 @@
     "ao_no_exorcist_series": {
       "ja": "青の祓魔師 シリーズ"
     },
+    "ao_no_exorcist_the_movie": {
+      "ja": "劇場版 青の祓魔師"
+    },
     "ao_no_orchestra": {
       "ja": "青のオーケストラ"
+    },
+    "ao_no_orchestra_2nd_season": {
+      "ja": "青のオーケストラ 第2期"
     },
     "ao_no_orchestra_series": {
       "ja": "青のオーケストラ シリーズ"
@@ -3288,6 +3496,9 @@
     "arcane": {
       "ja": "アーケイン"
     },
+    "arcane_season_1": {
+      "ja": "アーケイン 第1期"
+    },
     "arcane_season_2": {
       "ja": "アーケイン　（シーズン2）"
     },
@@ -3317,6 +3528,9 @@
     },
     "arifureta_shokugyou_de_sekai_saikyou": {
       "ja": "ありふれた職業で世界最強"
+    },
+    "arifureta_shokugyou_de_sekai_saikyou_season_2": {
+      "ja": "ありふれた職業で世界最強 第2期"
     },
     "arjuna": {
       "ja": "地球少女アルジュナ"
@@ -3359,6 +3573,9 @@
     },
     "asagao_to_kase-san": {
       "ja": "あさがおと加瀬さん。"
+    },
+    "asagao_to_kase-san_ova": {
+      "ja": "あさがおと加瀬さん。 (OVA)"
     },
     "asatte_no_houkou": {
       "ja": "あさっての方向。"
@@ -3435,6 +3652,9 @@
     "awajima_hyakkei": {
       "ja": "淡島百景"
     },
+    "awake_(mv)": {
+      "ja": "AWAKE"
+    },
     "ayakashi": {
       "ja": "AYAKASHI"
     },
@@ -3464,6 +3684,9 @@
     },
     "baby_steps": {
       "ja": "ベイビーステップ"
+    },
+    "baby_steps_2": {
+      "ja": "ベイビーステップ 2"
     },
     "babylon": {
       "ja": "バビロン"
@@ -3498,11 +3721,17 @@
     "baki_hanma": {
       "ja": "範馬刃牙"
     },
+    "baki_hanma_season_2": {
+      "ja": "範馬刃牙 第2期"
+    },
     "baki_the_grappler": {
       "ja": "グラップラー刃牙"
     },
     "baki_the_grappler_(2001)": {
       "ja": "グラップラー刃牙 (2001)"
+    },
+    "baki_the_grappler_ova": {
+      "ja": "グラップラー刃牙 (OVA)"
     },
     "bakugan_battle_brawlers": {
       "ja": "爆丸バトルブローラーズ"
@@ -3527,6 +3756,9 @@
     },
     "bakuten!!": {
       "ja": "バクテン!!"
+    },
+    "bakuten!!_movie": {
+      "ja": "劇場版 バクテン!!"
     },
     "bakuten_shoot_beyblade": {
       "ja": "爆転シュート ベイブレード"
@@ -3629,6 +3861,9 @@
     },
     "battle_athletes": {
       "ja": "バトルアスリーテス 大運動会"
+    },
+    "battle_athletes_ova": {
+      "ja": "バトルアスリーテス 大運動会 (OVA)"
     },
     "battle_athletes_victory": {
       "ja": "バトルアスリーテス大運動会"
@@ -3777,6 +4012,12 @@
     "black_clover": {
       "ja": "ブラッククローバー"
     },
+    "black_clover_2nd_season": {
+      "ja": "ブラッククローバー 第2期"
+    },
+    "black_dynamite": {
+      "ja": "ブラック・ダイナマイト"
+    },
     "black_earth_rising": {
       "ja": "ブラック・アース・ライジング"
     },
@@ -3786,8 +4027,14 @@
     "black_jack": {
       "ja": "ブラック・ジャック"
     },
+    "black_jack_ova": {
+      "ja": "ブラック・ジャック (OVA)"
+    },
     "black_lagoon": {
       "ja": "BLACK LAGOON"
+    },
+    "black_lagoon_ova": {
+      "ja": "BLACK LAGOON (OVA)"
     },
     "black_lagoon_series": {
       "ja": "BLACK LAGOON シリーズ"
@@ -3803,6 +4050,9 @@
     },
     "black_rock_shooter_(tv)": {
       "ja": "ブラック★ロックシューター (TV)"
+    },
+    "black_rock_shooter_ova": {
+      "ja": "ブラック★ロックシューター (OVA)"
     },
     "black_torch": {
       "ja": "BLACK TORCH"
@@ -3824,6 +4074,9 @@
     },
     "blades_of_the_guardians": {
       "ja": "鏢人 -BLADES OF THE GUARDIANS-"
+    },
+    "blades_of_the_guardians_season_2": {
+      "ja": "鏢人 -BLADES OF THE GUARDIANS- 第2期"
     },
     "blades_of_the_guardians_series": {
       "ja": "鏢人 -BLADES OF THE GUARDIANS- シリーズ"
@@ -3915,6 +4168,9 @@
     "blue_seed": {
       "ja": "BLUE SEED"
     },
+    "blue_seed_2": {
+      "ja": "BLUE SEED 2"
+    },
     "blue_submarine_no_6": {
       "ja": "青の6号"
     },
@@ -3935,6 +4191,9 @@
     },
     "bodacious_space_pirates": {
       "ja": "モーレツ宇宙海賊"
+    },
+    "bodacious_space_pirates_movie": {
+      "ja": "劇場版 モーレツ宇宙海賊"
     },
     "bofuri_series": {
       "ja": "痛いのは嫌なので防御力に極振りしたいと思います。"
@@ -4170,6 +4429,9 @@
     "cardfight!!_vanguard_divinez": {
       "ja": "カードファイト!! ヴァンガード Divinez"
     },
+    "cardfight!!_vanguard_divinez_season_2": {
+      "ja": "カードファイト!! ヴァンガード Divinez 第2期"
+    },
     "cardfight!!_vanguard_g": {
       "ja": "カードファイト!! ヴァンガードG"
     },
@@ -4182,8 +4444,17 @@
     "cardfight!!_vanguard_will+dress": {
       "ja": "カードファイト!! ヴァンガード will+Dress"
     },
+    "cardfight!!_vanguard_will+dress_season_2": {
+      "ja": "カードファイト!! ヴァンガード will+Dress 第2期"
+    },
+    "cardfight!!_vanguard_will+dress_season_3": {
+      "ja": "カードファイト!! ヴァンガード will+Dress 第3期"
+    },
     "care_bears": {
       "ja": "ケアベアーズ"
+    },
+    "carnage": {
+      "ja": "Carnage"
     },
     "carnival_phantasm": {
       "ja": "TAKE MOON"
@@ -4202,6 +4473,24 @@
     },
     "castlevania:_nocturne": {
       "ja": "悪魔城ドラキュラ -キャッスルヴァニア-: 月夜のノクターン"
+    },
+    "castlevania:_nocturne_season_1": {
+      "ja": "悪魔城ドラキュラ -キャッスルヴァニア-: 月夜のノクターン 第1期"
+    },
+    "castlevania:_nocturne_season_2": {
+      "ja": "悪魔城ドラキュラ -キャッスルヴァニア-: 月夜のノクターン 第2期"
+    },
+    "castlevania_season_1": {
+      "ja": "悪魔城ドラキュラ -キャッスルヴァニア- 第1期"
+    },
+    "castlevania_season_2": {
+      "ja": "悪魔城ドラキュラ -キャッスルヴァニア- 第2期"
+    },
+    "castlevania_season_3": {
+      "ja": "悪魔城ドラキュラ -キャッスルヴァニア- 第3期"
+    },
+    "castlevania_season_4": {
+      "ja": "悪魔城ドラキュラ -キャッスルヴァニア- 第4期"
     },
     "castlevania_series": {
       "ja": "悪魔城ドラキュラ シリーズ"
@@ -4263,6 +4552,9 @@
     "chihayafuru": {
       "ja": "ちはやふる"
     },
+    "chihayafuru_season_2": {
+      "ja": "ちはやふる 第2期"
+    },
     "chihayafuru_series": {
       "ja": "ちはやふる シリーズ"
     },
@@ -4320,11 +4612,17 @@
     "chrome_shelled_regios": {
       "ja": "鋼殻のレギオス"
     },
+    "chronicle": {
+      "ja": "CHRONICLE"
+    },
     "chrono_crusade": {
       "ja": "クロノクルセイド"
     },
     "chrono_trigger": {
       "ja": "クロノ・トリガー"
+    },
+    "chrono_trigger_ova": {
+      "ja": "クロノ・トリガー (OVA)"
     },
     "chu-bra": {
       "ja": "ちゅーぶら!!"
@@ -4352,6 +4650,12 @@
     },
     "city_hunter:_shinjuku_private_eyes": {
       "ja": "劇場版シティーハンター 〈新宿プライベート・アイズ〉"
+    },
+    "city_hunter_2": {
+      "ja": "シティーハンター 2"
+    },
+    "city_hunter_3": {
+      "ja": "シティーハンター 3"
     },
     "city_hunter_series": {
       "ja": "シティーハンター シリーズ"
@@ -4395,6 +4699,9 @@
     "clockwork_planet": {
       "ja": "クロックワーク・プラネット"
     },
+    "clone": {
+      "ja": "Clone"
+    },
     "clover": {
       "ja": "CLOVER"
     },
@@ -4412,6 +4719,9 @@
     },
     "code_geass": {
       "ja": "コードギアス"
+    },
+    "code_geass_movie": {
+      "ja": "劇場版 コードギアス"
     },
     "code_of_joker_(video_game)": {
       "ja": "CODE OF JOKER"
@@ -4451,6 +4761,9 @@
     },
     "cooking_with_valkyries": {
       "ja": "戦乙女の食卓"
+    },
+    "cooking_with_valkyries_2": {
+      "ja": "戦乙女の食卓 2"
     },
     "cool_cool_bye": {
       "ja": "Cool Cool Bye"
@@ -4731,6 +5044,12 @@
     "devil_may_cry": {
       "ja": "Devil May Cry"
     },
+    "devil_may_cry_2025": {
+      "ja": "Devil May Cry (2025)"
+    },
+    "devil_may_cry_season_2": {
+      "ja": "Devil May Cry 第2期"
+    },
     "devil_may_cry_series": {
       "ja": "Devil May Cry シリーズ"
     },
@@ -4782,6 +5101,9 @@
     "digimon_savers": {
       "ja": "デジモンセイバーズ"
     },
+    "digimon_savers_the_movie": {
+      "ja": "劇場版 デジモンセイバーズ"
+    },
     "digimon_tamers": {
       "ja": "デジモンテイマーズ"
     },
@@ -4814,6 +5136,15 @@
     },
     "dirty_pair_flash": {
       "ja": "ダーティペア Flash"
+    },
+    "dirty_pair_flash_2": {
+      "ja": "ダーティペア Flash 2"
+    },
+    "dirty_pair_flash_3": {
+      "ja": "ダーティペア Flash 3"
+    },
+    "dirty_pair_ova": {
+      "ja": "ダーティペア (OVA)"
     },
     "disgaea_2": {
       "ja": "魔界戦記ディスガイア2"
@@ -4920,6 +5251,9 @@
     "dorohedoro": {
       "ja": "ドロヘドロ"
     },
+    "dorohedoro_season_2": {
+      "ja": "ドロヘドロ 第2期"
+    },
     "dorohedoro_series": {
       "ja": "ドロヘドロ シリーズ"
     },
@@ -5002,6 +5336,9 @@
     },
     "dragon_raja": {
       "ja": "龍族"
+    },
+    "dragon_raja_season_2": {
+      "ja": "龍族 第2期"
     },
     "dragon_rider": {
       "ja": "銀のドラゴン ファイアドレイク"
@@ -5096,6 +5433,9 @@
     "edens_zero": {
       "ja": "エデンズゼロ"
     },
+    "edens_zero_season_2": {
+      "ja": "エデンズゼロ 第2期"
+    },
     "edens_zero_series": {
       "ja": "エデンズゼロ シリーズ"
     },
@@ -5132,6 +5472,9 @@
     "el_hazard:_the_wanderers": {
       "ja": "エルハザード"
     },
+    "el_hazard_2": {
+      "ja": "神秘の世界エルハザード 2"
+    },
     "eldlive": {
       "ja": "エルドライブ【élDLIVE】"
     },
@@ -5164,6 +5507,9 @@
     },
     "enchanted": {
       "ja": "魔法にかけられて"
+    },
+    "end_of_summer_(mv)": {
+      "ja": "夏の終わり"
     },
     "endless_night": {
       "ja": "エンドレスナイト"
@@ -5363,6 +5709,12 @@
     "fire_force": {
       "ja": "炎炎ノ消防隊"
     },
+    "fire_force_season_2": {
+      "ja": "炎炎ノ消防隊 第2期"
+    },
+    "fire_force_season_3": {
+      "ja": "炎炎ノ消防隊 第3期"
+    },
     "fire_force_series": {
       "ja": "炎炎ノ消防隊 シリーズ"
     },
@@ -5449,6 +5801,9 @@
     },
     "fruits_basket_(2019)": {
       "ja": "フルーツバスケット (2019)"
+    },
+    "fruits_basket_2nd_season": {
+      "ja": "フルーツバスケット 第2期"
     },
     "fugou_keiji_balance:_unlimited": {
       "ja": "富豪刑事 Balance:UNLIMITED"
@@ -5723,6 +6078,9 @@
     "genshiken": {
       "ja": "げんしけん"
     },
+    "genshiken_2": {
+      "ja": "げんしけん 2"
+    },
     "genshiken_nidaime": {
       "ja": "げんしけん二代目"
     },
@@ -5786,6 +6144,9 @@
     "ghost_sweeper_mikami": {
       "ja": "GS美神"
     },
+    "ghost_sweeper_mikami_movie": {
+      "ja": "劇場版 GS美神"
+    },
     "gi_joe": {
       "ja": "G.I.ジョー"
     },
@@ -5797,6 +6158,9 @@
     },
     "giantland": {
       "ja": "ミッキーの巨人征服"
+    },
+    "gift": {
+      "ja": "Gift"
     },
     "ginga_e_kickoff": {
       "ja": "銀河へキックオフ!!"
@@ -5827,6 +6191,9 @@
     },
     "giovanni's_island": {
       "ja": "ジョバンニの島"
+    },
+    "girl": {
+      "ja": "GIRL"
     },
     "girlish_number": {
       "ja": "ガーリッシュナンバー"
@@ -5869,6 +6236,9 @@
     },
     "goblin_slayer": {
       "ja": "ゴブリンスレイヤー"
+    },
+    "goblin_slayer_2": {
+      "ja": "ゴブリンスレイヤー 2"
     },
     "goblin_slayer_series": {
       "ja": "ゴブリンスレイヤー シリーズ"
@@ -5998,6 +6368,9 @@
     },
     "great_teacher_onizuka": {
       "ja": "GTO"
+    },
+    "greatest": {
+      "ja": "GREATEST"
     },
     "greed": {
       "ja": "GREED"
@@ -6150,11 +6523,23 @@
     "haikara-san_ga_tooru": {
       "ja": "はいからさんが通る"
     },
+    "haikara-san_ga_tooru_movie": {
+      "ja": "劇場版 はいからさんが通る"
+    },
     "haikyuu!!": {
       "ja": "ハイキュー!!"
     },
     "haikyuu!!_final": {
       "ja": "劇場版ハイキュー!! ゴミ捨て場の決戦"
+    },
+    "haikyuu!!_season_2": {
+      "ja": "ハイキュー!! 第2期"
+    },
+    "haikyuu!!_season_3": {
+      "ja": "ハイキュー!! 第3期"
+    },
+    "haikyuu!!_season_4": {
+      "ja": "ハイキュー!! 第4期"
     },
     "haikyuu!!_series": {
       "ja": "ハイキュー!! シリーズ"
@@ -6179,6 +6564,9 @@
     },
     "hamefura_series": {
       "ja": "乙女ゲームの破滅フラグしかない悪役令嬢に転生してしまった…"
+    },
+    "hammerhead": {
+      "ja": "ハンマーヘッド"
     },
     "hana_yori_dango": {
       "ja": "花より男子"
@@ -6272,6 +6660,9 @@
     },
     "hayate_no_gotoku!": {
       "ja": "ハヤテのごとく!"
+    },
+    "hayate_no_gotoku!_2": {
+      "ja": "ハヤテのごとく! 2"
     },
     "hazbin_hotel": {
       "ja": "ハズビン・ホテル"
@@ -6377,6 +6768,12 @@
     },
     "hibike!_euphonium:_chikai_no_finale": {
       "ja": "劇場版 響け！ユーフォニアム ～誓いのフィナーレ～"
+    },
+    "hibike!_euphonium_2": {
+      "ja": "響け!ユーフォニアム 2"
+    },
+    "hibike!_euphonium_3": {
+      "ja": "響け!ユーフォニアム 3"
     },
     "hibike!_euphonium_series": {
       "ja": "響け!ユーフォニアム シリーズ"
@@ -6504,6 +6901,9 @@
     "honzuki_no_gekokujou": {
       "ja": "本好きの下剋上"
     },
+    "honzuki_no_gekokujou_season_4": {
+      "ja": "本好きの下剋上 第4期"
+    },
     "hoozuki_no_reitetsu": {
       "ja": "鬼灯の冷徹"
     },
@@ -6549,6 +6949,9 @@
     "howl's_moving_castle": {
       "ja": "ハウルの動く城"
     },
+    "howl_(mv)": {
+      "ja": "HOWL"
+    },
     "hugtto!_precure": {
       "ja": "HUGっと!プリキュア"
     },
@@ -6563,6 +6966,15 @@
     },
     "hunter_x_hunter": {
       "ja": "HUNTER×HUNTER"
+    },
+    "hunter_x_hunter_1999": {
+      "ja": "HUNTER×HUNTER (1999)"
+    },
+    "hunter_x_hunter_2011": {
+      "ja": "HUNTER×HUNTER (2011)"
+    },
+    "hunter_x_hunter_ova": {
+      "ja": "HUNTER×HUNTER (OVA)"
     },
     "hurricane_polymar": {
       "ja": "破裏拳ポリマー"
@@ -6732,8 +7144,14 @@
     "innocent_venus": {
       "ja": "イノセント・ヴィーナス"
     },
+    "inochi_no_tabekata_(mv)": {
+      "ja": "いのちの食べ方"
+    },
     "inou-battle_wa_nichijou-kei_no_naka_de": {
       "ja": "異能バトルは日常系のなかで"
+    },
+    "insomnia_(mv)": {
+      "ja": "インソムニア"
     },
     "inspector_gadget": {
       "ja": "ガジェット警部"
@@ -6821,6 +7239,9 @@
     },
     "itai_no_wa_iya_nano_de_bougyoryoku_ni_kyokufuri_shitai_to_omoimasu": {
       "ja": "痛いのは嫌なので防御力に極振りしたいと思います。"
+    },
+    "itai_no_wa_iya_nano_de_bougyoryoku_ni_kyokufuri_shitai_to_omoimasu_season_2": {
+      "ja": "痛いのは嫌なので防御力に極振りしたいと思います。 第2期"
     },
     "itsuka_tenma_no_kuro_usagi": {
       "ja": "いつか天魔の黒ウサギ"
@@ -6933,6 +7354,12 @@
     "jujutsu_kaisen_modulo": {
       "ja": "呪術廻戦≡"
     },
+    "jujutsu_kaisen_season_2": {
+      "ja": "呪術廻戦 第2期"
+    },
+    "jujutsu_kaisen_season_3": {
+      "ja": "呪術廻戦 第3期"
+    },
     "jujutsu_kaisen_series": {
       "ja": "呪術廻戦 シリーズ"
     },
@@ -7011,6 +7438,9 @@
     "kage_no_jitsuryokusha_ni_naritakute!": {
       "ja": "陰の実力者になりたくて!"
     },
+    "kage_no_jitsuryokusha_ni_naritakute!_2nd_season": {
+      "ja": "陰の実力者になりたくて! 第2期"
+    },
     "kage_no_jitsuryokusha_ni_naritakute!_series": {
       "ja": "陰の実力者になりたくて！ シリーズ"
     },
@@ -7019,6 +7449,15 @@
     },
     "kaguya-sama:_love_is_war": {
       "ja": "かぐや様は告らせたい〜天才たちの恋愛頭脳戦〜"
+    },
+    "kaguya-sama:_love_is_war_ova": {
+      "ja": "かぐや様は告らせたい〜天才たちの恋愛頭脳戦〜 (OVA)"
+    },
+    "kaguya-sama:_love_is_war_season_2": {
+      "ja": "かぐや様は告らせたい〜天才たちの恋愛頭脳戦〜 第2期"
+    },
+    "kaguya-sama:_love_is_war_season_3": {
+      "ja": "かぐや様は告らせたい〜天才たちの恋愛頭脳戦〜 第3期"
     },
     "kaguya-sama:_love_is_war_series": {
       "ja": "かぐや様は告らせたい〜天才たちの恋愛頭脳戦〜 シリーズ"
@@ -7272,6 +7711,9 @@
     "kiddy_grade": {
       "ja": "キディ・グレイド"
     },
+    "kiddy_grade_2": {
+      "ja": "キディ・グレイド 2"
+    },
     "kiddy_grade_series": {
       "ja": "キディ・グレイド シリーズ"
     },
@@ -7299,6 +7741,9 @@
     "kimagure_orange_road": {
       "ja": "きまぐれオレンジ☆ロード"
     },
+    "kimagure_orange_road_ova": {
+      "ja": "きまぐれオレンジ☆ロード (OVA)"
+    },
     "kimetsu_no_yaiba": {
       "ja": "鬼滅の刃"
     },
@@ -7313,6 +7758,9 @@
     },
     "kimi_ni_todoke": {
       "ja": "君に届け"
+    },
+    "kimi_ni_todoke_season_2": {
+      "ja": "君に届け 第2期"
     },
     "kimi_ni_todoke_series": {
       "ja": "君に届け シリーズ"
@@ -7380,6 +7828,9 @@
     "kipo_and_the_age_of_wonderbeasts": {
       "ja": "キポとワンダービーストの冒険"
     },
+    "kipo_and_the_age_of_wonderbeasts_season_1": {
+      "ja": "キポとワンダービーストの冒険 第1期"
+    },
     "kirakira_precure_a_la_mode": {
       "ja": "キラキラ☆プリキュアアラモード"
     },
@@ -7434,6 +7885,9 @@
     "knight_hunters": {
       "ja": "ヴァイスクロイツ"
     },
+    "knight_hunters_ova": {
+      "ja": "ヴァイスクロイツ (OVA)"
+    },
     "knight_ramune_series": {
       "ja": "騎士ラムネ&40 シリーズ"
     },
@@ -7454,6 +7908,9 @@
     },
     "kodomo_no_omocha": {
       "ja": "こどものおもちゃ"
+    },
+    "kodomo_no_omocha_ova": {
+      "ja": "こどものおもちゃ (OVA)"
     },
     "koe_no_katachi": {
       "ja": "映画 聲の形"
@@ -7499,6 +7956,15 @@
     },
     "kono_subarashii_sekai_ni_shukufuku_wo!": {
       "ja": "この素晴らしい世界に祝福を！"
+    },
+    "kono_subarashii_sekai_ni_shukufuku_wo!_2": {
+      "ja": "この素晴らしい世界に祝福を！ 2"
+    },
+    "kono_subarashii_sekai_ni_shukufuku_wo!_3": {
+      "ja": "この素晴らしい世界に祝福を！ 3"
+    },
+    "kono_subarashii_sekai_ni_shukufuku_wo!_movie": {
+      "ja": "劇場版 この素晴らしい世界に祝福を！"
     },
     "konosuba_series": {
       "ja": "この素晴らしい世界に祝福を！"
@@ -7636,6 +8102,9 @@
     "kyokou_suiri": {
       "ja": "虚構推理"
     },
+    "kyokou_suiri_season_2": {
+      "ja": "虚構推理 第2期"
+    },
     "kyokou_suiri_series": {
       "ja": "虚構推理 シリーズ"
     },
@@ -7711,6 +8180,9 @@
     "laputa:_castle_in_the_sky": {
       "ja": "天空の城ラピュタ"
     },
+    "last_dance_(music_video)": {
+      "ja": "ラストダンス"
+    },
     "last_days_of_coney_island": {
       "ja": "ラスト・デイズ・オブ・コニーアイランド"
     },
@@ -7731,6 +8203,9 @@
     },
     "legend_of_crystania": {
       "ja": "はじまりの冒険者たち レジェンド・オブ・クリスタニア"
+    },
+    "legend_of_crystania_ova": {
+      "ja": "はじまりの冒険者たち レジェンド・オブ・クリスタニア (OVA)"
     },
     "legend_of_lemnear": {
       "ja": "極黒の翼バルキサス"
@@ -7786,6 +8261,9 @@
     "little_witch_academia": {
       "ja": "リトルウィッチアカデミア"
     },
+    "little_witch_academia_ova": {
+      "ja": "リトルウィッチアカデミア (OVA)"
+    },
     "little_women": {
       "ja": "愛の若草物語"
     },
@@ -7797,6 +8275,9 @@
     },
     "log_horizon": {
       "ja": "ログ・ホライズン"
+    },
+    "log_horizon_2": {
+      "ja": "ログ・ホライズン 2"
     },
     "log_horizon_series": {
       "ja": "ログ・ホライズン シリーズ"
@@ -7858,8 +8339,17 @@
     "love_live!_bluebird": {
       "ja": "イキヅライブ！ LOVELIVE! BLUEBIRD"
     },
+    "love_live!_movie": {
+      "ja": "劇場版 ラブライブ!"
+    },
     "love_live!_nijigasaki_high_school_idol_club": {
       "ja": "ラブライブ!虹ヶ咲学園スクールアイドル同好会"
+    },
+    "love_live!_nijigasaki_high_school_idol_club_2nd_season": {
+      "ja": "ラブライブ!虹ヶ咲学園スクールアイドル同好会 第2期"
+    },
+    "love_live!_season_2": {
+      "ja": "ラブライブ! 第2期"
     },
     "love_live!_series": {
       "ja": "ラブライブ!シリーズ"
@@ -7867,8 +8357,14 @@
     "love_live!_sunshine!!": {
       "ja": "ラブライブ!サンシャイン!!"
     },
+    "love_live!_sunshine!!_2nd_season": {
+      "ja": "ラブライブ!サンシャイン!! 第2期"
+    },
     "love_live!_superstar!!": {
       "ja": "ラブライブ!スーパースター!!"
+    },
+    "love_live!_superstar!!_2nd_season": {
+      "ja": "ラブライブ!スーパースター!! 第2期"
     },
     "loving_vincent": {
       "ja": "ゴッホ 最期の手紙"
@@ -7878,6 +8374,9 @@
     },
     "luck_&_logic": {
       "ja": "ラクエンロジック"
+    },
+    "lucky_(pokemon_mv)": {
+      "ja": "Lucky"
     },
     "lucky_star": {
       "ja": "らき☆すた"
@@ -7999,6 +8498,9 @@
     "magilumiere_co._ltd.": {
       "ja": "株式会社マジルミエ"
     },
+    "magilumiere_co._ltd._season_2": {
+      "ja": "株式会社マジルミエ 第2期"
+    },
     "magnerobo_ga-keen": {
       "ja": "マグネロボ ガ・キーン"
     },
@@ -8092,11 +8594,17 @@
     "mahouka_koukou_no_rettousei": {
       "ja": "魔法科高校の劣等生"
     },
+    "mahouka_koukou_no_rettousei_season_3": {
+      "ja": "魔法科高校の劣等生 第3期"
+    },
     "mahouka_koukou_no_rettousei_series": {
       "ja": "魔法科高校の劣等生 シリーズ"
     },
     "mahouka_koukou_no_yuutousei": {
       "ja": "魔法科高校の優等生"
+    },
+    "mahouka_koukou_no_yuutousei_season_3": {
+      "ja": "魔法科高校の優等生 第3期"
     },
     "mahoutsukai_precure!": {
       "ja": "魔法つかいプリキュア!"
@@ -8154,6 +8662,9 @@
     },
     "majutsushi_orphen_hagure_tabi": {
       "ja": "魔術士オーフェンはぐれ旅"
+    },
+    "majutsushi_orphen_hagure_tabi_season_2": {
+      "ja": "魔術士オーフェンはぐれ旅 第2期"
     },
     "make_heroine_ga_oosugiru!": {
       "ja": "負けヒロインが多すぎる！"
@@ -8215,6 +8726,9 @@
     "maplestory": {
       "ja": "メイプルストーリー"
     },
+    "maplestory_2": {
+      "ja": "メイプルストーリー 2"
+    },
     "maps": {
       "ja": "マップス"
     },
@@ -8263,6 +8777,9 @@
     "marvel_future_avengers": {
       "ja": "マーベル フューチャー・アベンジャーズ"
     },
+    "marvel_future_avengers_season_2": {
+      "ja": "マーベル フューチャー・アベンジャーズ 第2期"
+    },
     "marvel_snap": {
       "ja": "MARVEL SNAP"
     },
@@ -8281,6 +8798,9 @@
     "mashin_eiyuuden_wataru": {
       "ja": "魔神英雄伝ワタルシリーズ"
     },
+    "mashin_eiyuuden_wataru_2": {
+      "ja": "魔神英雄伝ワタルシリーズ 2"
+    },
     "mashin_hero_wataru": {
       "ja": "魔神英雄伝ワタル"
     },
@@ -8295,6 +8815,9 @@
     },
     "master_keaton": {
       "ja": "MASTERキートン"
+    },
+    "master_keaton_ova": {
+      "ja": "MASTERキートン (OVA)"
     },
     "master_of_mosquiton": {
       "ja": "マスターモスキートン"
@@ -8385,6 +8908,9 @@
     },
     "mekakucity_actors": {
       "ja": "メカクシティアクターズ"
+    },
+    "mellow_(mv)": {
+      "ja": "メロウ"
     },
     "melody_time": {
       "ja": "メロディ・タイム"
@@ -8497,6 +9023,9 @@
     "minori_scramble": {
       "ja": "みのりスクランブル!"
     },
+    "miracle": {
+      "ja": "Miracle"
+    },
     "miracle_girls": {
       "ja": "ミラクル☆ガールズ"
     },
@@ -8562,6 +9091,9 @@
     },
     "mobile_police_patlabor": {
       "ja": "機動警察パトレイバー"
+    },
+    "mobile_police_patlabor_the_movie": {
+      "ja": "劇場版 機動警察パトレイバー"
     },
     "mobile_suit_gundam": {
       "ja": "機動戦士ガンダム"
@@ -8728,6 +9260,9 @@
     "moomin_series": {
       "ja": "ムーミンシリーズ"
     },
+    "moon": {
+      "ja": "MOON"
+    },
     "moon_girl_and_devil_dinosaur": {
       "ja": "ムーンガール&デビル・ダイナソー"
     },
@@ -8873,6 +9408,9 @@
     "namiuchigiwa_no_muromi-san": {
       "ja": "波打際のむろみさん"
     },
+    "namiuchigiwa_no_muromi-san_ova": {
+      "ja": "波打際のむろみさん (OVA)"
+    },
     "nanatsu_no_maken_ga_shihai_suru": {
       "ja": "七つの魔剣が支配する"
     },
@@ -8897,6 +9435,9 @@
     },
     "naruto_(2002)": {
       "ja": "NARUTO -ナルト- (2002)"
+    },
+    "naruto_ova": {
+      "ja": "NARUTO -ナルト- (OVA)"
     },
     "naruto_shippuuden": {
       "ja": "NARUTO -ナルト- 疾風伝"
@@ -9057,6 +9598,9 @@
     "ninku": {
       "ja": "NINKU -忍空-"
     },
+    "ninku_the_movie": {
+      "ja": "劇場版 NINKU -忍空-"
+    },
     "nintama_rantaro": {
       "ja": "忍たま乱太郎"
     },
@@ -9216,6 +9760,12 @@
     "one-punch_man_(ova)": {
       "ja": "ワンパンマン (OVA)"
     },
+    "one-punch_man_2": {
+      "ja": "ワンパンマン 2"
+    },
+    "one-punch_man_3": {
+      "ja": "ワンパンマン 3"
+    },
     "one-punch_man_series": {
       "ja": "ワンパンマン シリーズ"
     },
@@ -9329,6 +9879,9 @@
     "oreimo_series": {
       "ja": "俺の妹がこんなに可愛いわけがない"
     },
+    "orion_(mv)": {
+      "ja": "オリオン"
+    },
     "oroka_na_tenshi_wa_akuma_to_odoru": {
       "ja": "愚かな天使は悪魔と踊る"
     },
@@ -9397,6 +9950,9 @@
     },
     "outlaw_star": {
       "ja": "星方武侠アウトロースター"
+    },
+    "outsider": {
+      "ja": "アウトサイダー"
     },
     "over_the_moon": {
       "ja": "フェイフェイと月の冒険"
@@ -9526,6 +10082,9 @@
     },
     "persona_3_reload": {
       "ja": "ペルソナ3 リロード"
+    },
+    "persona_3_the_movie": {
+      "ja": "劇場版 ペルソナ3"
     },
     "persona_3_the_movie:_#1_spring_of_birth": {
       "ja": "PERSONA3 THE MOVIE #1 -Spring of Birth-"
@@ -9687,6 +10246,9 @@
     "pop_team_epic": {
       "ja": "ポプテピピック"
     },
+    "pop_team_epic_2nd_season": {
+      "ja": "ポプテピピック 第2期"
+    },
     "popeye_the_sailor": {
       "ja": "ポパイ"
     },
@@ -9814,6 +10376,9 @@
     "promare": {
       "ja": "プロメア"
     },
+    "promise_(mv)": {
+      "ja": "約束"
+    },
     "psychic_force": {
       "ja": "サイキックフォース"
     },
@@ -9825,6 +10390,12 @@
     },
     "psycho_pass_(movie)": {
       "ja": "劇場版 PSYCHO-PASS サイコパス"
+    },
+    "psycho_pass_2": {
+      "ja": "PSYCHO-PASS サイコパス 2"
+    },
+    "psycho_pass_3": {
+      "ja": "PSYCHO-PASS サイコパス 3"
     },
     "psycho_pass_3:_first_inspector": {
       "ja": "PSYCHO-PASS サイコパス 3 FIRST INSPECTOR"
@@ -9946,6 +10517,9 @@
     "real_drive": {
       "ja": "RD 潜脳調査室"
     },
+    "rebellion_(mv)": {
+      "ja": "リベリオン"
+    },
     "record_of_grancrest_war": {
       "ja": "グランクレスト戦記"
     },
@@ -10042,6 +10616,9 @@
     "rise_of_the_teenage_mutant_ninja_turtles": {
       "ja": "ライズ・オブ・ザ・ティーンエイジ・ミュータント・ニンジャ・タートルズ"
     },
+    "rise_of_the_teenage_mutant_ninja_turtles_movie": {
+      "ja": "劇場版 ライズ・オブ・ザ・ティーンエイジ・ミュータント・ニンジャ・タートルズ"
+    },
     "rising_impact": {
       "ja": "ライジングインパクト"
     },
@@ -10071,6 +10648,9 @@
     },
     "robot_girls_z": {
       "ja": "ロボットガールズZ"
+    },
+    "robot_girls_z_specials": {
+      "ja": "ロボットガールズZ (スペシャル)"
     },
     "robotics;notes": {
       "ja": "ROBOTICS;NOTES"
@@ -10153,6 +10733,9 @@
     "rurouni_kenshin": {
       "ja": "るろうに剣心 -明治剣客浪漫譚-"
     },
+    "rurouni_kenshin_2023": {
+      "ja": "るろうに剣心 -明治剣客浪漫譚- (2023)"
+    },
     "rurouni_kenshin_series": {
       "ja": "るろうに剣心 シリーズ"
     },
@@ -10201,8 +10784,14 @@
     "saihate_no_paladin": {
       "ja": "最果てのパラディン"
     },
+    "saihate_no_paladin_season_2": {
+      "ja": "最果てのパラディン 第2期"
+    },
     "saiki_kusuo_no_psi_nan": {
       "ja": "斉木楠雄のΨ難"
+    },
+    "saiki_kusuo_no_psi_nan_season_2": {
+      "ja": "斉木楠雄のΨ難 第2期"
     },
     "saiki_kusuo_no_psi_nan_series": {
       "ja": "斉木楠雄のΨ難 シリーズ"
@@ -10399,6 +10988,9 @@
     "seijo_no_maryoku_wa_bannou_desu": {
       "ja": "聖女の魔力は万能です"
     },
+    "seijo_no_maryoku_wa_bannou_desu_season_2": {
+      "ja": "聖女の魔力は万能です 第2期"
+    },
     "seijo_no_maryoku_wa_bannou_desu_series": {
       "ja": "聖女の魔力は万能です シリーズ"
     },
@@ -10546,6 +11138,9 @@
     "seto_no_hanayome": {
       "ja": "瀬戸の花嫁"
     },
+    "setting_sun_(mv)": {
+      "ja": "斜陽"
+    },
     "sf_shinseiki_lensman": {
       "ja": "SF新世紀レンズマン"
     },
@@ -10672,6 +11267,9 @@
     "shingeki_no_kyojin_series": {
       "ja": "進撃の巨人 シリーズ"
     },
+    "shingeki_no_kyojin_the_final_season": {
+      "ja": "進撃の巨人 The Final Season"
+    },
     "shingetsutan_tsukihime": {
       "ja": "真月譚 月姫"
     },
@@ -10702,6 +11300,9 @@
     "shinryaku!_ika_musume": {
       "ja": "侵略!イカ娘"
     },
+    "shinryaku!_ika_musume_ova": {
+      "ja": "侵略!イカ娘 (OVA)"
+    },
     "shion_no_ou": {
       "ja": "しおんの王"
     },
@@ -10713,6 +11314,9 @@
     },
     "shirobako": {
       "ja": "SHIROBAKO"
+    },
+    "shirobako_the_movie": {
+      "ja": "劇場版 SHIROBAKO"
     },
     "shiroi_suna_no_aquatope": {
       "ja": "白い砂のアクアトープ"
@@ -10747,6 +11351,9 @@
     "shoujo_kageki_revue_starlight": {
       "ja": "少女☆歌劇 レヴュースタァライト"
     },
+    "shoujo_kageki_revue_starlight_movie": {
+      "ja": "劇場版 少女☆歌劇 レヴュースタァライト"
+    },
     "shoujo_kageki_revue_starlight_series": {
       "ja": "少女☆歌劇 レヴュースタァライト シリーズ"
     },
@@ -10777,8 +11384,14 @@
     "show_by_rock!!": {
       "ja": "SHOW BY ROCK!!"
     },
+    "show_by_rock!!_season_2": {
+      "ja": "SHOW BY ROCK!! 第2期"
+    },
     "show_by_rock!!_series": {
       "ja": "SHOW BY ROCK!! シリーズ"
+    },
+    "showtime_(mv)": {
+      "ja": "Showtime"
     },
     "shuffle!": {
       "ja": "SHUFFLE!"
@@ -10815,6 +11428,9 @@
     },
     "silver_spoon": {
       "ja": "銀の匙 Silver Spoon"
+    },
+    "silver_spoon_season_2": {
+      "ja": "銀の匙 Silver Spoon 第2期"
     },
     "simoun": {
       "ja": "シムーン"
@@ -10933,6 +11549,9 @@
     "solo_leveling": {
       "ja": "俺だけレベルアップな件"
     },
+    "song_of_life_(mv)": {
+      "ja": "人生讃歌"
+    },
     "song_of_the_sea": {
       "ja": "ソング・オブ・ザ・シー 海のうた"
     },
@@ -10962,6 +11581,9 @@
     },
     "sonic_the_hedgehog": {
       "ja": "ソニック・ザ・ヘッジホッグ"
+    },
+    "sonic_the_hedgehog_ova": {
+      "ja": "ソニック・ザ・ヘッジホッグ (OVA)"
     },
     "sonic_x": {
       "ja": "ソニックX"
@@ -11029,6 +11651,9 @@
     "sousou_no_frieren": {
       "ja": "葬送のフリーレン"
     },
+    "sousou_no_frieren_season_2": {
+      "ja": "葬送のフリーレン 第2期"
+    },
     "sousou_no_frieren_series": {
       "ja": "葬送のフリーレン シリーズ"
     },
@@ -11052,6 +11677,9 @@
     },
     "spectral_force": {
       "ja": "スペクトラルフォース"
+    },
+    "speed_(mv)": {
+      "ja": "SPEED"
     },
     "speed_grapher": {
       "ja": "SPEED GRAPHER"
@@ -11107,11 +11735,17 @@
     "spy_x_family_code:_white": {
       "ja": "劇場版 SPY×FAMILY CODE: White"
     },
+    "spy_x_family_season_2": {
+      "ja": "SPY×FAMILY 第2期"
+    },
     "spy_x_family_series": {
       "ja": "SPY×FAMILY シリーズ"
     },
     "star_driver": {
       "ja": "STAR DRIVER 輝きのタクト"
+    },
+    "star_driver_the_movie": {
+      "ja": "劇場版 STAR DRIVER 輝きのタクト"
     },
     "star_ocean_series": {
       "ja": "スターオーシャンシリーズ"
@@ -11124,6 +11758,12 @@
     },
     "star_wars:_clone_wars_(2003)": {
       "ja": "スター・ウォーズ クローン大戦 (2003)"
+    },
+    "star_wars:_clone_wars_(2003)_season_1": {
+      "ja": "スター・ウォーズ クローン大戦 (2003) 第1期"
+    },
+    "star_wars:_clone_wars_(2003)_season_2": {
+      "ja": "スター・ウォーズ クローン大戦 (2003) 第2期"
     },
     "star_wars_visions": {
       "ja": "スター・ウォーズ: ビジョンズ"
@@ -11157,6 +11797,9 @@
     },
     "steven_universe": {
       "ja": "スティーブン・ユニバース"
+    },
+    "steven_universe_the_movie": {
+      "ja": "劇場版 スティーブン・ユニバース"
     },
     "stop!!_hibari-kun!": {
       "ja": "ストップ!! ひばりくん!"
@@ -11199,6 +11842,9 @@
     },
     "strike_witches_2": {
       "ja": "ストライクウィッチーズ 2"
+    },
+    "strike_witches_movie": {
+      "ja": "劇場版 ストライクウィッチーズ"
     },
     "subete_ga_f_ni_naru": {
       "ja": "すべてがFになる THE PERFECT INSIDER"
@@ -11491,6 +12137,15 @@
     "tate_no_yuusha_no_nariagari": {
       "ja": "盾の勇者の成り上がり"
     },
+    "tate_no_yuusha_no_nariagari_season_2": {
+      "ja": "盾の勇者の成り上がり 第2期"
+    },
+    "tate_no_yuusha_no_nariagari_season_3": {
+      "ja": "盾の勇者の成り上がり 第3期"
+    },
+    "tate_no_yuusha_no_nariagari_season_4": {
+      "ja": "盾の勇者の成り上がり 第4期"
+    },
     "tate_no_yuusha_no_nariagari_series": {
       "ja": "盾の勇者の成り上がり シリーズ"
     },
@@ -11563,6 +12218,9 @@
     "tenchi_muyo_in_love": {
       "ja": "劇場版 天地無用! in LOVE"
     },
+    "tenchi_muyo_in_love_2": {
+      "ja": "劇場版 天地無用! in LOVE 2"
+    },
     "tengen_toppa_gurren_lagann": {
       "ja": "天元突破グレンラガン"
     },
@@ -11617,6 +12275,9 @@
     "terraformars": {
       "ja": "テラフォーマーズ"
     },
+    "terraformars_ova": {
+      "ja": "テラフォーマーズ (OVA)"
+    },
     "terraformars_series": {
       "ja": "テラフォーマーズ シリーズ"
     },
@@ -11659,6 +12320,9 @@
     "the_ancient_magus'_bride": {
       "ja": "魔法使いの嫁"
     },
+    "the_ancient_magus'_bride_season_2": {
+      "ja": "魔法使いの嫁 第2期"
+    },
     "the_ancient_magus'_bride_series": {
       "ja": "魔法使いの嫁 シリーズ"
     },
@@ -11691,6 +12355,15 @@
     },
     "the_boondocks": {
       "ja": "ブーンドックス"
+    },
+    "the_boondocks_season_2": {
+      "ja": "ブーンドックス 第2期"
+    },
+    "the_boondocks_season_3": {
+      "ja": "ブーンドックス 第3期"
+    },
+    "the_boondocks_season_4": {
+      "ja": "ブーンドックス 第4期"
     },
     "the_boxer": {
       "ja": "ザ・ボクサー"
@@ -11733,6 +12406,9 @@
     },
     "the_dangers_in_my_heart": {
       "ja": "僕の心のヤバイやつ"
+    },
+    "the_dangers_in_my_heart_season_2": {
+      "ja": "僕の心のヤバイやつ 第2期"
     },
     "the_dangers_in_my_heart_series": {
       "ja": "僕の心のヤバイやつ シリーズ"
@@ -11857,8 +12533,20 @@
     "the_king's_avatar_(2018)": {
       "ja": "マスターオブスキル 全職高手 (2018)"
     },
+    "the_king's_avatar_2": {
+      "ja": "マスターオブスキル 全職高手 2"
+    },
+    "the_king's_avatar_3": {
+      "ja": "マスターオブスキル 全職高手 3"
+    },
+    "the_king's_avatar_movie": {
+      "ja": "劇場版 マスターオブスキル 全職高手"
+    },
     "the_king's_avatar_series": {
       "ja": "マスターオブスキル 全職高手 シリーズ"
+    },
+    "the_king's_avatar_specials": {
+      "ja": "マスターオブスキル 全職高手 (スペシャル)"
     },
     "the_king_of_braves_gaogaigar": {
       "ja": "勇者王ガオガイガー"
@@ -11875,6 +12563,15 @@
     "the_legend_of_hei": {
       "ja": "羅小黒戦記"
     },
+    "the_legend_of_hei_movie": {
+      "ja": "劇場版 羅小黒戦記"
+    },
+    "the_legend_of_hei_season_1": {
+      "ja": "羅小黒戦記 第1期"
+    },
+    "the_legend_of_hei_season_2": {
+      "ja": "羅小黒戦記 第2期"
+    },
     "the_legend_of_korra": {
       "ja": "ザ・レジェンド・オブ・コーラ"
     },
@@ -11883,6 +12580,9 @@
     },
     "the_legend_of_vox_machina": {
       "ja": "ヴォクス・マキナの伝説"
+    },
+    "the_legend_of_vox_machina_season_1": {
+      "ja": "ヴォクス・マキナの伝説 第1期"
     },
     "the_legend_of_zelda": {
       "ja": "ゼルダの伝説"
@@ -11973,6 +12673,9 @@
     },
     "the_promised_neverland": {
       "ja": "約束のネバーランド"
+    },
+    "the_promised_neverland_season_2": {
+      "ja": "約束のネバーランド 第2期"
     },
     "the_promised_neverland_series": {
       "ja": "約束のネバーランド シリーズ"
@@ -12121,6 +12824,9 @@
     "tiger_&_bunny": {
       "ja": "TIGER & BUNNY"
     },
+    "tiger_&_bunny_2": {
+      "ja": "TIGER & BUNNY 2"
+    },
     "tiger_&_bunny_series": {
       "ja": "TIGER & BUNNY シリーズ"
     },
@@ -12196,8 +12902,14 @@
     "to_heart_2": {
       "ja": "ToHeart2"
     },
+    "to_heart_2_ova": {
+      "ja": "ToHeart2 (OVA)"
+    },
     "to_heart_series": {
       "ja": "To Heart シリーズ"
+    },
+    "to_heart_specials": {
+      "ja": "To Heart (スペシャル)"
     },
     "to_love_ru": {
       "ja": "To LOVEる -とらぶる-"
@@ -12325,6 +13037,9 @@
     "tomb_raider:_the_legend_of_lara_croft": {
       "ja": "トゥームレイダー: レジェンド・オブ・ララ・クロフト"
     },
+    "tomb_raider:_the_legend_of_lara_croft_season_2": {
+      "ja": "トゥームレイダー: レジェンド・オブ・ララ・クロフト 第2期"
+    },
     "tomb_raider_series": {
       "ja": "トゥームレイダー"
     },
@@ -12415,6 +13130,9 @@
     "tower_of_god": {
       "ja": "神之塔"
     },
+    "tower_of_god_season_2": {
+      "ja": "神之塔 第2期"
+    },
     "tower_of_god_series": {
       "ja": "神之塔 シリーズ"
     },
@@ -12487,6 +13205,9 @@
     "tsue_to_tsurugi_no_wistoria": {
       "ja": "杖と剣のウィストリア"
     },
+    "tsue_to_tsurugi_no_wistoria_season_2": {
+      "ja": "杖と剣のウィストリア 第2期"
+    },
     "tsue_to_tsurugi_no_wistoria_series": {
       "ja": "杖と剣のウィストリア シリーズ"
     },
@@ -12504,6 +13225,9 @@
     },
     "tsuki_ga_michibiku_isekai_douchuu": {
       "ja": "月が導く異世界道中"
+    },
+    "tsuki_ga_michibiku_isekai_douchuu_season_2": {
+      "ja": "月が導く異世界道中 第2期"
     },
     "tsuki_ga_michibiku_isekai_douchuu_series": {
       "ja": "月が導く異世界道中 シリーズ"
@@ -12529,6 +13253,9 @@
     "turn_a_gundam": {
       "ja": "∀ガンダム"
     },
+    "twilight_(mv)": {
+      "ja": "Twilight"
+    },
     "twilight_q": {
       "ja": "トワイライトQ"
     },
@@ -12549,6 +13276,9 @@
     },
     "uchouten_kazoku": {
       "ja": "有頂天家族"
+    },
+    "uchouten_kazoku_2": {
+      "ja": "有頂天家族 2"
     },
     "uchouten_kazoku_series": {
       "ja": "有頂天家族 シリーズ"
@@ -12610,6 +13340,12 @@
     "uma_musume_pretty_derby": {
       "ja": "ウマ娘 プリティーダービー"
     },
+    "uma_musume_pretty_derby_season_2": {
+      "ja": "ウマ娘 プリティーダービー 第2期"
+    },
+    "uma_musume_pretty_derby_season_3": {
+      "ja": "ウマ娘 プリティーダービー 第3期"
+    },
     "uma_musume_pretty_derby_series": {
       "ja": "ウマ娘 プリティーダービー シリーズ"
     },
@@ -12639,6 +13375,9 @@
     },
     "under_the_dog": {
       "ja": "Under the Dog"
+    },
+    "underdog_(mv)": {
+      "ja": "Underdog"
     },
     "unico": {
       "ja": "ユニコ"
@@ -12691,6 +13430,9 @@
     "utawarerumono": {
       "ja": "うたわれるもの"
     },
+    "utawarerumono_ova": {
+      "ja": "うたわれるもの (OVA)"
+    },
     "utawarerumono_series": {
       "ja": "うたわれるもの シリーズ"
     },
@@ -12742,11 +13484,20 @@
     "vassalord": {
       "ja": "Vassalord."
     },
+    "veil_(music_video)": {
+      "ja": "veil"
+    },
     "video_girl_ai": {
       "ja": "電影少女"
     },
+    "viking_(mv)": {
+      "ja": "Viking"
+    },
     "vinland_saga": {
       "ja": "ヴィンランド・サガ"
+    },
+    "vinland_saga_season_2": {
+      "ja": "ヴィンランド・サガ 第2期"
     },
     "vinland_saga_series": {
       "ja": "ヴィンランド・サガ シリーズ"
@@ -12759,6 +13510,9 @@
     },
     "violet_evergarden_series": {
       "ja": "ヴァイオレット・エヴァーガーデン シリーズ"
+    },
+    "violet_evergarden_the_movie": {
+      "ja": "劇場版 ヴァイオレット・エヴァーガーデン"
     },
     "virtua_fighter": {
       "ja": "バーチャファイター"
@@ -12888,6 +13642,9 @@
     },
     "wild_knights_gulkeeva": {
       "ja": "獣戦士ガルキーバ"
+    },
+    "wilderness": {
+      "ja": "WILDERNESS"
     },
     "wind_breaker": {
       "ja": "WIND BREAKER"
@@ -13111,6 +13868,9 @@
     "yasei_no_last_boss_ga_arawareta!": {
       "ja": "野生のラスボスが現れた!"
     },
+    "yasei_no_last_boss_ga_arawareta!_2nd_season": {
+      "ja": "野生のラスボスが現れた! 第2期"
+    },
     "yasei_no_last_boss_ga_arawareta!_series": {
       "ja": "野生のラスボスが現れた! シリーズ"
     },
@@ -13144,6 +13904,9 @@
     "yofukashi_no_uta": {
       "ja": "よふかしのうた"
     },
+    "yofukashi_no_uta_season_2": {
+      "ja": "よふかしのうた 第2期"
+    },
     "yokohama_kaidashi_kikou": {
       "ja": "ヨコハマ買い出し紀行"
     },
@@ -13174,8 +13937,17 @@
     "you're_under_arrest_(tv)": {
       "ja": "逮捕しちゃうぞ (TV)"
     },
+    "you're_under_arrest_ova": {
+      "ja": "逮捕しちゃうぞ (OVA)"
+    },
     "youjo_senki": {
       "ja": "幼女戦記"
+    },
+    "youjo_senki_movie": {
+      "ja": "劇場版 幼女戦記"
+    },
+    "youjo_senki_season_2": {
+      "ja": "幼女戦記 第2期"
     },
     "youjo_senki_series": {
       "ja": "幼女戦記 シリーズ"
@@ -13291,6 +14063,9 @@
     "yuru_camp": {
       "ja": "ゆるキャン△"
     },
+    "yuru_camp_season_3": {
+      "ja": "ゆるキャン△ 第3期"
+    },
     "yuruyuri": {
       "ja": "ゆるゆり"
     },
@@ -13317,6 +14092,9 @@
     },
     "yuyushiki": {
       "ja": "ゆゆ式"
+    },
+    "yuyushiki_ova": {
+      "ja": "ゆゆ式 (OVA)"
     },
     "z/x:_ignition": {
       "ja": "Z/X IGNITION"
@@ -13481,12 +14259,14 @@
     "aiura": 27,
     "akadou_suzunosuke": 22,
     "akagami_no_shirayuki-hime": 39,
+    "akagami_no_shirayuki-hime_season_2": 18,
     "akahori_gedou_hour_rabuge": 26,
     "akame_ga_kill!": 136,
     "akane-banashi": 76,
     "akane_iro_ni_somaru_saka": 19,
     "akatsuki_no_yona": 19,
     "akazukin_chacha": 116,
+    "akazukin_chacha_ova": 11,
     "akb0048": 6,
     "akebi-chan_no_sailor-fuku": 188,
     "akemi_hayashi": 63,
@@ -13579,7 +14359,9 @@
     "anthony_derosa": 12,
     "ao_no_exorcist": 118,
     "ao_no_exorcist_series": 208,
+    "ao_no_exorcist_the_movie": 36,
     "ao_no_orchestra": 7,
+    "ao_no_orchestra_2nd_season": 13,
     "ao_no_orchestra_series": 16,
     "aoashi": 33,
     "aoharu_x_kikanjuu": 20,
@@ -13602,6 +14384,7 @@
     "arcade_gamer_fubuki": 42,
     "arcadia_of_my_youth": 40,
     "arcane": 44,
+    "arcane_season_1": 27,
     "arcane_season_2": 17,
     "archenemy": 7,
     "arco": 33,
@@ -13612,6 +14395,7 @@
     "aria_the_natural": 17,
     "ariel": 10,
     "arifureta_shokugyou_de_sekai_saikyou": 27,
+    "arifureta_shokugyou_de_sekai_saikyou_season_2": 13,
     "arjuna": 46,
     "arknights": 315,
     "arknights_tv_series": 135,
@@ -13631,6 +14415,7 @@
     "artist_unknown": 116439,
     "aru_majo_ga_shinu_made": 14,
     "asagao_to_kase-san": 9,
+    "asagao_to_kase-san_ova": 7,
     "asako_nishida": 83,
     "asatte_no_houkou": 10,
     "ashita_no_joe": 130,
@@ -13666,10 +14451,13 @@
     "atsushi_takeuchi": 32,
     "atsushi_tamura": 65,
     "atsushi_wakabayashi": 128,
+    "atsushi_yano": 25,
+    "atsuya_uki": 57,
     "avatar:_the_last_airbender": 315,
     "avatar_aang:_the_last_airbender": 217,
     "avatar_series": 932,
     "awajima_hyakkei": 46,
+    "awake_(mv)": 10,
     "aya_takano": 8,
     "ayakashi": 14,
     "ayataka_tanemura": 18,
@@ -13684,6 +14472,7 @@
     "b:_the_beginning_series": 66,
     "babanba_banban_vampire": 8,
     "baby_steps": 24,
+    "baby_steps_2": 10,
     "babylon": 21,
     "baccano": 78,
     "back_arrow": 11,
@@ -13697,8 +14486,10 @@
     "bakeneko_anzu-chan": 83,
     "baki-dou": 16,
     "baki_hanma": 25,
+    "baki_hanma_season_2": 15,
     "baki_the_grappler": 86,
     "baki_the_grappler_(2001)": 13,
+    "baki_the_grappler_ova": 9,
     "bakugan_battle_brawlers": 11,
     "bakugan_battle_planet": 15,
     "bakugan_series": 55,
@@ -13707,6 +14498,7 @@
     "bakuretsu_tenshi": 9,
     "bakusou_kyoudai_lets_and_go_series": 41,
     "bakuten!!": 111,
+    "bakuten!!_movie": 34,
     "bakuten_shoot_beyblade": 26,
     "bakuten_shoot_beyblade_(2002)": 18,
     "bakutou_sengen_daigunder": 19,
@@ -13741,6 +14533,7 @@
     "battery": 7,
     "battle_arena_toshinden": 41,
     "battle_athletes": 76,
+    "battle_athletes_ova": 22,
     "battle_athletes_victory": 47,
     "battle_girl_high_school": 16,
     "battle_royal_high_school": 13,
@@ -13804,15 +14597,20 @@
     "black_bullet": 48,
     "black_cat": 59,
     "black_clover": 822,
+    "black_clover_2nd_season": 44,
+    "black_dynamite": 21,
     "black_earth_rising": 13,
     "black_heaven": 14,
     "black_jack": 49,
+    "black_jack_ova": 40,
     "black_lagoon": 42,
+    "black_lagoon_ova": 32,
     "black_lagoon_series": 74,
     "black_magic_m-66": 50,
     "black_myth:_wukong": 69,
     "black_rock_shooter": 89,
     "black_rock_shooter_(tv)": 21,
+    "black_rock_shooter_ova": 52,
     "black_torch": 49,
     "blackfox": 37,
     "blade_(2011_anime)": 52,
@@ -13820,6 +14618,7 @@
     "blade_of_the_immortal_(2019)": 14,
     "blade_runner_black_out_2022": 22,
     "blades_of_the_guardians": 86,
+    "blades_of_the_guardians_season_2": 42,
     "blades_of_the_guardians_series": 109,
     "blaine_gibson": 23,
     "blassreiter": 6,
@@ -13852,8 +14651,10 @@
     "blue_lock_series": 50,
     "blue_reflection_ray": 19,
     "blue_seed": 51,
+    "blue_seed_2": 16,
     "blue_submarine_no_6": 66,
     "blue_thermal": 7,
+    "bob_carlson": 43,
     "bob_clampett": 7,
     "bob_jaques": 19,
     "bob_mccrea": 21,
@@ -13862,6 +14663,7 @@
     "bocchi_the_rock!_re:": 11,
     "bocchi_the_rock!_re:re:": 11,
     "bodacious_space_pirates": 6,
+    "bodacious_space_pirates_movie": 6,
     "bofuri_series": 71,
     "boku_dake_ga_inai_machi": 50,
     "boku_no_son_goku": 9,
@@ -13944,11 +14746,15 @@
     "card_captor_sakura_series": 153,
     "cardfight!!_vanguard": 10,
     "cardfight!!_vanguard_divinez": 182,
+    "cardfight!!_vanguard_divinez_season_2": 45,
     "cardfight!!_vanguard_g": 15,
     "cardfight!!_vanguard_overdress": 55,
     "cardfight!!_vanguard_series": 507,
     "cardfight!!_vanguard_will+dress": 150,
+    "cardfight!!_vanguard_will+dress_season_2": 50,
+    "cardfight!!_vanguard_will+dress_season_3": 61,
     "care_bears": 6,
+    "carnage": 12,
     "carnival_phantasm": 15,
     "carole_and_tuesday": 96,
     "caroline_leaf": 5,
@@ -13956,6 +14762,12 @@
     "casshern_sins": 64,
     "castlevania": 400,
     "castlevania:_nocturne": 269,
+    "castlevania:_nocturne_season_1": 142,
+    "castlevania:_nocturne_season_2": 127,
+    "castlevania_season_1": 62,
+    "castlevania_season_2": 96,
+    "castlevania_season_3": 47,
+    "castlevania_season_4": 161,
     "castlevania_series": 567,
     "cat_soup": 36,
     "catherine_(game)": 6,
@@ -13982,6 +14794,7 @@
     "chicken_little": 5,
     "chie_uratani": 16,
     "chihayafuru": 37,
+    "chihayafuru_season_2": 5,
     "chihayafuru_series": 46,
     "chiikawa": 11,
     "chiisana_kyojin_microman": 91,
@@ -14005,8 +14818,10 @@
     "chris_buck": 5,
     "chris_sauve": 20,
     "chrome_shelled_regios": 21,
+    "chronicle": 6,
     "chrono_crusade": 10,
     "chrono_trigger": 19,
+    "chrono_trigger_ova": 13,
     "chu-bra": 10,
     "chuck_jones": 46,
     "chuubyou_gekihatsu_boy": 14,
@@ -14017,6 +14832,8 @@
     "city_hunter": 30,
     "city_hunter:_ai_to_shukumei_no_magnum": 36,
     "city_hunter:_shinjuku_private_eyes": 38,
+    "city_hunter_2": 18,
+    "city_hunter_3": 13,
     "city_hunter_series": 160,
     "city_the_animation": 217,
     "clamp_in_wonderland": 15,
@@ -14032,6 +14849,7 @@
     "cliff_nordberg": 100,
     "clock_cleaners": 5,
     "clockwork_planet": 7,
+    "clone": 5,
     "clover": 8,
     "clown_of_the_jungle": 5,
     "cluster_edge": 21,
@@ -14039,6 +14857,7 @@
     "cobra_command_(video_game)": 13,
     "code_breaker": 56,
     "code_geass": 461,
+    "code_geass_movie": 26,
     "code_of_joker_(video_game)": 9,
     "code_vein": 15,
     "color_script": 28,
@@ -14055,6 +14874,7 @@
     "conception": 7,
     "connected": 6,
     "cooking_with_valkyries": 7,
+    "cooking_with_valkyries_2": 6,
     "cool_cool_bye": 13,
     "cool_doji_danshi": 10,
     "cop_craft": 16,
@@ -14164,6 +14984,8 @@
     "detective_conan:_zero's_tea_time": 5,
     "detective_story": 9,
     "devil_may_cry": 14,
+    "devil_may_cry_2025": 134,
+    "devil_may_cry_season_2": 70,
     "devil_may_cry_series": 143,
     "devil_survivor_2": 26,
     "devilman": 309,
@@ -14184,6 +15006,7 @@
     "digimon_frontier": 13,
     "digimon_ghost_game": 132,
     "digimon_savers": 18,
+    "digimon_savers_the_movie": 5,
     "digimon_tamers": 23,
     "digimon_universe:_appli_monsters": 21,
     "digimon_xros_wars": 44,
@@ -14195,6 +15018,9 @@
     "dirty_pair:_project_eden": 53,
     "dirty_pair_(tv)": 46,
     "dirty_pair_flash": 41,
+    "dirty_pair_flash_2": 18,
+    "dirty_pair_flash_3": 9,
+    "dirty_pair_ova": 40,
     "disgaea_2": 5,
     "disgaea_series": 17,
     "divergence_eve": 23,
@@ -14233,6 +15059,7 @@
     "doraemon_(1979)": 48,
     "doraemon_(2005)": 1338,
     "dorohedoro": 32,
+    "dorohedoro_season_2": 28,
     "dorohedoro_series": 60,
     "dororo": 86,
     "dororo_(2019)": 84,
@@ -14261,6 +15088,7 @@
     "dragon_half": 12,
     "dragon_quest": 333,
     "dragon_raja": 45,
+    "dragon_raja_season_2": 13,
     "dragon_rider": 5,
     "dragon_striker": 26,
     "dragonaut_the_resonance": 40,
@@ -14295,6 +15123,7 @@
     "ed_love": 97,
     "eden's_bowy": 9,
     "edens_zero": 53,
+    "edens_zero_season_2": 38,
     "edens_zero_series": 91,
     "ef:_a_tale_of_melodies": 11,
     "ef:_a_tale_of_memories": 22,
@@ -14308,10 +15137,12 @@
     "eiji_suganuma": 72,
     "eiji_yamamori": 43,
     "eiken": 6,
+    "eisaku_kawanami": 14,
     "eiyuu_kyoushitsu": 17,
     "eizouken_ni_wa_te_wo_dasu_na!": 292,
     "el_hazard": 97,
     "el_hazard:_the_wanderers": 14,
+    "el_hazard_2": 24,
     "eldlive": 8,
     "eldoran_series": 48,
     "elemental_gelade": 40,
@@ -14324,6 +15155,7 @@
     "emma:_a_victorian_romance_series": 20,
     "encanto": 5,
     "enchanted": 19,
+    "end_of_summer_(mv)": 7,
     "endless_night": 10,
     "endro!": 5,
     "engage_kiss": 130,
@@ -14399,6 +15231,8 @@
     "fire_emblem": 13,
     "fire_emblem_series": 16,
     "fire_force": 267,
+    "fire_force_season_2": 189,
+    "fire_force_season_3": 155,
     "fire_force_series": 610,
     "first_line": 7,
     "five_star_stories": 40,
@@ -14437,6 +15271,7 @@
     "fruits_basket": 24,
     "fruits_basket_(2001)": 6,
     "fruits_basket_(2019)": 17,
+    "fruits_basket_2nd_season": 5,
     "fugou_keiji_balance:_unlimited": 20,
     "full_metal_panic": 259,
     "full_metal_panic_(2002)": 49,
@@ -14446,6 +15281,7 @@
     "fullmetal_alchemist_2:_curse_of_the_crimson_elixir_(video_game)": 7,
     "fullmetal_alchemist_and_the_broken_angel": 8,
     "fullmetal_alchemist_brotherhood": 355,
+    "fuminori_kizaki": 33,
     "fumio_iida": 15,
     "fun_&_fancy_free": 28,
     "funky_forest": 8,
@@ -14459,6 +15295,7 @@
     "futatsu_no_spica": 5,
     "futoku_no_guild": 11,
     "futoshi_fujikawa": 5,
+    "futoshi_higashide": 86,
     "futoshi_nishiya": 26,
     "futsal_boys!!!!!": 19,
     "future_card_buddyfight": 22,
@@ -14502,6 +15339,7 @@
     "garden_of_remembrance": 32,
     "gargoyles": 7,
     "garo_series": 166,
+    "gary_goldman": 33,
     "gasaraki": 34,
     "gatchaman_crowds": 51,
     "gatchaman_series": 171,
@@ -14538,6 +15376,7 @@
     "genocidal_organ": 29,
     "genocyber": 40,
     "genshiken": 23,
+    "genshiken_2": 5,
     "genshiken_nidaime": 29,
     "genshin_impact": 134,
     "genso_suikoden": 5,
@@ -14563,10 +15402,12 @@
     "ghost_slayers_ayashi_(ova)": 19,
     "ghost_slayers_ayashi_series": 94,
     "ghost_sweeper_mikami": 13,
+    "ghost_sweeper_mikami_movie": 12,
     "gi_joe": 7,
     "giant_gorg": 43,
     "giant_robo": 125,
     "giantland": 12,
+    "gift": 23,
     "gil_turner": 16,
     "gin_san": 68,
     "ginga_e_kickoff": 10,
@@ -14579,6 +15420,7 @@
     "gintama:_the_final": 75,
     "gintama_(2006)": 325,
     "giovanni's_island": 38,
+    "girl": 11,
     "girlish_number": 15,
     "girls'_last_tour": 21,
     "girls_bravo": 31,
@@ -14595,6 +15437,7 @@
     "gnosia": 26,
     "go!_princess_precure": 178,
     "goblin_slayer": 22,
+    "goblin_slayer_2": 18,
     "goblin_slayer_series": 48,
     "gochiusa_series": 59,
     "gochuumon_wa_usagi_desu_ka?": 33,
@@ -14640,6 +15483,7 @@
     "great_pretender": 75,
     "great_pretender_razbliuto": 15,
     "great_teacher_onizuka": 50,
+    "greatest": 7,
     "greed": 9,
     "green_eggs_and_ham": 113,
     "green_eggs_and_ham_(2019)": 113,
@@ -14691,8 +15535,12 @@
     "haibane_renmei": 20,
     "haifuri": 100,
     "haikara-san_ga_tooru": 7,
+    "haikara-san_ga_tooru_movie": 7,
     "haikyuu!!": 164,
     "haikyuu!!_final": 60,
+    "haikyuu!!_season_2": 203,
+    "haikyuu!!_season_3": 64,
+    "haikyuu!!_season_4": 97,
     "haikyuu!!_series": 602,
     "hair": 24540,
     "haitai_nanafa": 5,
@@ -14701,9 +15549,12 @@
     "hakaba_kitaro": 7,
     "hakubo": 5,
     "hakuoki": 33,
+    "hal_ambro": 58,
     "hal_king": 146,
     "halo_legends": 38,
+    "ham_luske": 99,
     "hamefura_series": 6,
+    "hammerhead": 10,
     "hana_yori_dango": 11,
     "hanamaru_kindergarten": 40,
     "hanaori-san_wa_tensei_shite_mo_kenka_ga_shitai": 18,
@@ -14727,6 +15578,7 @@
     "harmonie": 7,
     "haruhi_suzumiya_series": 123,
     "haruhiko_mikimoto": 13,
+    "haruka_fujita": 16,
     "harukana_receive": 28,
     "harukanaru_toki_no_naka_de": 7,
     "haruko_iizuka": 12,
@@ -14741,6 +15593,7 @@
     "haunted_junction": 20,
     "hayao_miyazaki": 357,
     "hayate_no_gotoku!": 73,
+    "hayate_no_gotoku!_2": 6,
     "hazbin_hotel": 85,
     "healer_girl": 35,
     "healin'_good_precure": 63,
@@ -14779,6 +15632,8 @@
     "hibi_wa_sugiredo_meshi_umashi": 12,
     "hibike!_euphonium": 140,
     "hibike!_euphonium:_chikai_no_finale": 42,
+    "hibike!_euphonium_2": 103,
+    "hibike!_euphonium_3": 110,
     "hibike!_euphonium_series": 487,
     "hicks_lokey": 8,
     "hidamari_no_ki": 21,
@@ -14845,6 +15700,7 @@
     "hiroshi_nagahama": 6,
     "hiroshi_ousaka": 27,
     "hiroshi_saito": 40,
+    "hiroshi_shimizu": 73,
     "hiroshi_takeuchi": 8,
     "hiroshi_watanabe": 74,
     "hirotaka_kato": 75,
@@ -14852,6 +15708,8 @@
     "hiroto_tanaka": 15,
     "hirotoshi_sano": 118,
     "hirotoshi_takaya": 235,
+    "hirotsugu_kawasaki": 34,
+    "hiroyasu_ishida": 12,
     "hiroyuki_aoyama": 166,
     "hiroyuki_horiuchi": 129,
     "hiroyuki_imaishi": 397,
@@ -14863,6 +15721,7 @@
     "hiroyuki_okiura": 255,
     "hiroyuki_taiga": 6,
     "hiroyuki_takahashi": 27,
+    "hiroyuki_takashima": 153,
     "hiroyuki_yamashita": 255,
     "his_and_her_circumstances": 55,
     "hisao_yokobori": 78,
@@ -14872,6 +15731,7 @@
     "hisashi_hirai": 85,
     "hisashi_kagawa": 66,
     "hisashi_mori": 310,
+    "hisashi_saito": 98,
     "hisashi_sakaguchi": 5,
     "hisayuki_tabata": 24,
     "hitohira": 10,
@@ -14892,6 +15752,7 @@
     "honkai:_star_rail": 145,
     "honkai_impact_3rd": 49,
     "honzuki_no_gekokujou": 66,
+    "honzuki_no_gekokujou_season_4": 26,
     "hoozuki_no_reitetsu": 22,
     "horimiya": 35,
     "horimiya_(ova)": 22,
@@ -14907,12 +15768,16 @@
     "houseki_no_kuni": 21,
     "how_to_play_baseball": 16,
     "howl's_moving_castle": 157,
+    "howl_(mv)": 5,
     "hugh_fraser": 71,
     "hugtto!_precure": 175,
     "hula_fulla_dance": 7,
     "hulaing_babies": 8,
     "hundred": 51,
     "hunter_x_hunter": 193,
+    "hunter_x_hunter_1999": 172,
+    "hunter_x_hunter_2011": 211,
+    "hunter_x_hunter_ova": 8,
     "hurricane_polymar": 46,
     "hurricane_polymar_series": 79,
     "hustle_punch": 63,
@@ -14976,7 +15841,9 @@
     "infinite_stratos": 40,
     "injuu_seisen_series": 23,
     "innocent_venus": 27,
+    "inochi_no_tabekata_(mv)": 7,
     "inou-battle_wa_nichijou-kei_no_naka_de": 94,
+    "insomnia_(mv)": 9,
     "inspector_gadget": 23,
     "instruments": 911,
     "inu-oh": 97,
@@ -14996,6 +15863,7 @@
     "iron_saga": 17,
     "irv_spence": 174,
     "isamu_imakake": 24,
+    "isao_hayashi": 164,
     "isao_sugimoto": 19,
     "isekai_maou_to_shoukan_shoujo_no_dorei_majutsu": 27,
     "isekai_meikyuu_de_harem_wo": 5,
@@ -15010,6 +15878,7 @@
     "isshuukan_friends": 22,
     "isuca": 8,
     "itai_no_wa_iya_nano_de_bougyoryoku_ni_kyokufuri_shitai_to_omoimasu": 27,
+    "itai_no_wa_iya_nano_de_bougyoryoku_ni_kyokufuri_shitai_to_omoimasu_season_2": 44,
     "itsuka_tenma_no_kuro_usagi": 13,
     "itsuki_imazaki": 149,
     "iwa_kakeru!_sport_climbing_girls": 5,
@@ -15064,10 +15933,13 @@
     "jujutsu_kaisen": 280,
     "jujutsu_kaisen_0": 65,
     "jujutsu_kaisen_modulo": 14,
+    "jujutsu_kaisen_season_2": 1189,
+    "jujutsu_kaisen_season_3": 420,
     "jujutsu_kaisen_series": 1991,
     "jumping": 5,
     "jun_nakai": 33,
     "jun_shishido": 5,
+    "jun_takagi": 7,
     "jun_yamazaki": 5,
     "jungle_emperor_leo": 22,
     "jungle_kurobe": 9,
@@ -15095,9 +15967,13 @@
     "kagaku_ninjatai_gatchaman": 94,
     "kagami_no_kojou": 33,
     "kage_no_jitsuryokusha_ni_naritakute!": 14,
+    "kage_no_jitsuryokusha_ni_naritakute!_2nd_season": 13,
     "kage_no_jitsuryokusha_ni_naritakute!_series": 23,
     "kageki_shoujo": 59,
     "kaguya-sama:_love_is_war": 41,
+    "kaguya-sama:_love_is_war_ova": 8,
+    "kaguya-sama:_love_is_war_season_2": 61,
+    "kaguya-sama:_love_is_war_season_3": 69,
     "kaguya-sama:_love_is_war_series": 217,
     "kahlil_gibran's_the_prophet": 25,
     "kai_doh_maru": 7,
@@ -15176,6 +16052,7 @@
     "katsuzo_hirata": 8,
     "katteni_kaizo": 34,
     "kawaii_dake_ja_nai_shikimori-san": 54,
+    "kay_nielsen": 13,
     "kaze_ga_tsuyoku_fuiteiru": 138,
     "kaze_no_yojimbo": 30,
     "kazemakase_tsukikage_ran": 22,
@@ -15203,6 +16080,7 @@
     "kazuto_nakazawa": 212,
     "kazuya_kuroda": 5,
     "kazuya_miura": 8,
+    "kazuya_murata": 7,
     "kazuya_shiotsuki": 6,
     "kazuya_tsurumaki": 37,
     "kazuyoshi_yaginuma": 55,
@@ -15250,6 +16128,7 @@
     "kid_icarus": 9,
     "kiddy_girl-and": 75,
     "kiddy_grade": 28,
+    "kiddy_grade_2": 12,
     "kiddy_grade_series": 28,
     "kidou_senshi_gundam_gquuuuuux": 121,
     "kiitarou_shounen_no_youkai_enikki": 10,
@@ -15260,11 +16139,13 @@
     "kill_me_baby": 45,
     "kim_possible": 11,
     "kimagure_orange_road": 89,
+    "kimagure_orange_road_ova": 5,
     "kimetsu_no_yaiba": 150,
     "kimetsu_no_yaiba_series": 745,
     "kimi_ga_nozomu_eien_series": 7,
     "kimi_ga_shinu_made_koi_wo_shitai": 56,
     "kimi_ni_todoke": 45,
+    "kimi_ni_todoke_season_2": 15,
     "kimi_ni_todoke_series": 63,
     "kimi_no_iro": 142,
     "kimi_no_koto_ga_daidaidaidaidaisuki_na_100-nin_no_kanojo": 51,
@@ -15288,6 +16169,7 @@
     "kino_no_tabi_series": 12,
     "kinsou_no_vermeil": 8,
     "kipo_and_the_age_of_wonderbeasts": 22,
+    "kipo_and_the_age_of_wonderbeasts_season_1": 13,
     "kirakira_precure_a_la_mode": 179,
     "kirara": 17,
     "kiratto_pri☆chan": 13,
@@ -15303,10 +16185,12 @@
     "kite": 32,
     "kite_liberator": 54,
     "kite_series": 65,
+    "kiyotaka_oshiyama": 245,
     "kiznaiver": 99,
     "kizumonogatari_part_1:_tekketsu": 68,
     "kizumonogatari_part_3:_reiketsu": 61,
     "knight_hunters": 11,
+    "knight_hunters_ova": 7,
     "knight_ramune_series": 255,
     "kobato": 12,
     "kobayashi-san_chi_no_maid_dragon": 90,
@@ -15314,6 +16198,7 @@
     "kochira_katsushika-ku_kameari_kouen-mae_hashutsujo": 21,
     "kodomo_no_jikan": 5,
     "kodomo_no_omocha": 30,
+    "kodomo_no_omocha_ova": 20,
     "koe_no_katachi": 77,
     "kohei_ashiya": 8,
     "koi_kaze": 10,
@@ -15336,6 +16221,9 @@
     "kono_bijutsubu_ni_wa_mondai_ga_aru": 19,
     "kono_subarashii_sekai_ni_bakuen_wo!": 32,
     "kono_subarashii_sekai_ni_shukufuku_wo!": 53,
+    "kono_subarashii_sekai_ni_shukufuku_wo!_2": 44,
+    "kono_subarashii_sekai_ni_shukufuku_wo!_3": 23,
+    "kono_subarashii_sekai_ni_shukufuku_wo!_movie": 74,
     "konosuba_series": 226,
     "koori_no_jouheki": 14,
     "kore_kaite_shine": 6,
@@ -15393,6 +16281,7 @@
     "kyojin_no_hoshi": 81,
     "kyoko_ito": 5,
     "kyokou_suiri": 55,
+    "kyokou_suiri_season_2": 19,
     "kyokou_suiri_series": 73,
     "kyoro-chan": 7,
     "kyou_kara_ore_wa": 24,
@@ -15419,6 +16308,7 @@
     "langrisser_series": 10,
     "lapis_re:lights": 28,
     "laputa:_castle_in_the_sky": 157,
+    "last_dance_(music_video)": 6,
     "last_days_of_coney_island": 8,
     "last_exile": 10,
     "last_period:_owarinaki_rasen_no_monogatari": 16,
@@ -15428,6 +16318,7 @@
     "lazarus": 163,
     "le_chevalier_d'eon": 56,
     "legend_of_crystania": 58,
+    "legend_of_crystania_ova": 17,
     "legend_of_lemnear": 20,
     "legend_of_the_galactic_heroes": 42,
     "legend_of_the_galactic_heroes_(1988)": 32,
@@ -15449,11 +16340,13 @@
     "little_busters!": 21,
     "little_nemo:_adventures_in_slumberland": 8,
     "little_witch_academia": 394,
+    "little_witch_academia_ova": 20,
     "little_women": 9,
     "live_action": 533,
     "live_on_cardliver_kakeru": 6,
     "liz_and_the_blue_bird": 47,
     "log_horizon": 42,
+    "log_horizon_2": 24,
     "log_horizon_series": 76,
     "lonesome_ghosts": 13,
     "long_haired_hare": 8,
@@ -15475,13 +16368,19 @@
     "love_hina": 44,
     "love_live!": 47,
     "love_live!_bluebird": 8,
+    "love_live!_movie": 40,
     "love_live!_nijigasaki_high_school_idol_club": 175,
+    "love_live!_nijigasaki_high_school_idol_club_2nd_season": 41,
+    "love_live!_season_2": 26,
     "love_live!_series": 547,
     "love_live!_sunshine!!": 46,
+    "love_live!_sunshine!!_2nd_season": 24,
     "love_live!_superstar!!": 99,
+    "love_live!_superstar!!_2nd_season": 21,
     "loving_vincent": 7,
     "lu_over_the_wall": 50,
     "luck_&_logic": 26,
+    "lucky_(pokemon_mv)": 5,
     "lucky_star": 95,
     "luminous_witches": 10,
     "lunar_series": 8,
@@ -15522,6 +16421,7 @@
     "magical_taruruuto-kun": 10,
     "magician_mickey": 13,
     "magilumiere_co._ltd.": 40,
+    "magilumiere_co._ltd._season_2": 34,
     "magnerobo_ga-keen": 52,
     "mahiro_maeda": 41,
     "mahoraba": 7,
@@ -15554,8 +16454,10 @@
     "mahou_tsukai_tai!": 42,
     "mahoujin_guru_guru_(2017)": 77,
     "mahouka_koukou_no_rettousei": 60,
+    "mahouka_koukou_no_rettousei_season_3": 32,
     "mahouka_koukou_no_rettousei_series": 160,
     "mahouka_koukou_no_yuutousei": 15,
+    "mahouka_koukou_no_yuutousei_season_3": 9,
     "mahoutsukai_precure!": 176,
     "mai_hime": 127,
     "mai_hime_series": 260,
@@ -15577,6 +16479,7 @@
     "majutsushi_orphen": 108,
     "majutsushi_orphen_(1998)": 29,
     "majutsushi_orphen_hagure_tabi": 39,
+    "majutsushi_orphen_hagure_tabi_season_2": 14,
     "make_heroine_ga_oosugiru!": 139,
     "make_mine_music": 18,
     "maken_ki!": 18,
@@ -15605,6 +16508,7 @@
     "maoujou_de_oyasumi": 9,
     "maoyuu_maou_yuusha": 15,
     "maplestory": 97,
+    "maplestory_2": 14,
     "maps": 19,
     "marc_davis": 97,
     "marchen_madchen": 29,
@@ -15626,6 +16530,7 @@
     "marvel's_midnight_suns": 8,
     "marvel's_spider-man": 10,
     "marvel_future_avengers": 16,
+    "marvel_future_avengers_season_2": 9,
     "marvel_snap": 11,
     "marvin_woodward": 72,
     "mary_and_the_witch's_flower": 66,
@@ -15642,7 +16547,10 @@
     "masahiko_murata": 62,
     "masahiko_nakada": 12,
     "masahiko_ohkura": 18,
+    "masahiko_ota": 12,
     "masahiro_aizawa": 7,
+    "masahiro_ando": 128,
+    "masahiro_ando_(1958)": 33,
     "masahito_sawada": 162,
     "masahito_yamashita": 349,
     "masakatsu_sasaki": 156,
@@ -15674,11 +16582,13 @@
     "masayuki_sato": 39,
     "masayuki_yoshihara": 82,
     "mashin_eiyuuden_wataru": 117,
+    "mashin_eiyuuden_wataru_2": 55,
     "mashin_hero_wataru": 23,
     "mashin_souzouden_wataru": 35,
     "mashle": 123,
     "mashle_series": 6,
     "master_keaton": 101,
+    "master_keaton_ova": 56,
     "master_of_mosquiton": 26,
     "masters_of_the_universe_series": 65,
     "matantei_loki_ragnarok": 8,
@@ -15716,6 +16626,7 @@
     "meikyuu_black_company": 17,
     "meitantei_precure!": 148,
     "mekakucity_actors": 40,
+    "mellow_(mv)": 9,
     "melody_time": 8,
     "memories": 83,
     "merry_christmas": 52,
@@ -15764,6 +16675,7 @@
     "minna_no_uta": 38,
     "minori_scramble": 32,
     "minoru_maeda": 33,
+    "miracle": 5,
     "miracle_girls": 10,
     "miraculous_ladybug": 16,
     "mirai_keisatsu_urashiman": 68,
@@ -15794,6 +16706,7 @@
     "mob_psycho_100_series": 535,
     "mobile_fighter_g_gundam": 141,
     "mobile_police_patlabor": 399,
+    "mobile_police_patlabor_the_movie": 73,
     "mobile_suit_gundam": 267,
     "mobile_suit_gundam:_char's_counterattack": 48,
     "mobile_suit_gundam:_cucuruz_doan's_island": 60,
@@ -15850,6 +16763,7 @@
     "moomin_(1969)": 9,
     "moomin_(1990)": 74,
     "moomin_series": 85,
+    "moon": 6,
     "moon_girl_and_devil_dinosaur": 60,
     "morio_asaka": 6,
     "moriyasu_taniguchi": 24,
@@ -15906,6 +16820,7 @@
     "nam-yeol_baek": 9,
     "nami_yo_kiite_kure": 20,
     "namiuchigiwa_no_muromi-san": 87,
+    "namiuchigiwa_no_muromi-san_ova": 16,
     "nanatsu_no_maken_ga_shihai_suru": 52,
     "nanatsu_no_taizai": 65,
     "nanatsu_no_taizai_series": 265,
@@ -15914,6 +16829,7 @@
     "naohiro_osugi": 20,
     "naohito_takahashi": 8,
     "naoki_miyahara": 26,
+    "naoki_takeda": 22,
     "naoki_tate": 318,
     "naoko_yamada": 36,
     "naoto_hosoda": 142,
@@ -15928,6 +16844,7 @@
     "narumi_kakinouchi": 5,
     "naruto": 2833,
     "naruto_(2002)": 484,
+    "naruto_ova": 22,
     "naruto_shippuuden": 1699,
     "nasu": 35,
     "nasu:_suitcase_no_wataridori": 18,
@@ -15981,6 +16898,7 @@
     "ninja_to_koroshiya_no_futarigurashi": 30,
     "ninjala": 9,
     "ninku": 274,
+    "ninku_the_movie": 13,
     "nintama_rantaro": 69,
     "nippon_sangoku": 64,
     "nisekoi": 59,
@@ -15999,6 +16917,7 @@
     "nobunaga_no_shinobi": 5,
     "nobunaga_the_fool": 19,
     "nobunagun": 14,
+    "nobuo_tomizawa": 66,
     "nobutake_ito": 75,
     "nobuteru_yuki": 31,
     "nobutoshi_ogura": 74,
@@ -16053,6 +16972,8 @@
     "once_upon_a_studio": 18,
     "one-punch_man": 232,
     "one-punch_man_(ova)": 15,
+    "one-punch_man_2": 55,
+    "one-punch_man_3": 37,
     "one-punch_man_series": 369,
     "one_piece": 3927,
     "one_piece:_baron_omatsuri_and_the_secret_island": 61,
@@ -16090,8 +17011,11 @@
     "ore_wa_seikan_kokka_no_akutoku_ryoushu!": 7,
     "ore_wo_suki_nano_wa_omae_dake_ka_yo": 6,
     "oreimo_series": 28,
+    "orion_(mv)": 7,
     "oroka_na_tenshi_wa_akuma_to_odoru": 29,
     "osamu_dezaki": 17,
+    "osamu_kobayashi": 36,
+    "osamu_kobayashi_(ajia_dou)": 25,
     "osamu_nabeshima": 117,
     "osamu_sakata": 41,
     "osamu_tanabe": 72,
@@ -16118,6 +17042,7 @@
     "outbreak_company": 26,
     "outlanders": 13,
     "outlaw_star": 88,
+    "outsider": 5,
     "over_the_moon": 6,
     "overdrive": 10,
     "overgeared": 10,
@@ -16162,6 +17087,7 @@
     "persona_3": 89,
     "persona_3_(game)": 16,
     "persona_3_reload": 7,
+    "persona_3_the_movie": 60,
     "persona_3_the_movie:_#1_spring_of_birth": 8,
     "persona_3_the_movie:_#2_midsummer_knight's_dream": 10,
     "persona_3_the_movie:_#3_falling_down": 16,
@@ -16220,6 +17146,7 @@
     "ponyo": 94,
     "pop_in_q": 28,
     "pop_team_epic": 18,
+    "pop_team_epic_2nd_season": 8,
     "popeye_the_sailor": 168,
     "popolocrois": 64,
     "popolocrois_(1998)": 31,
@@ -16265,10 +17192,13 @@
     "project_scard:_praeter_no_kizu": 14,
     "project_x_zone": 16,
     "promare": 67,
+    "promise_(mv)": 16,
     "psychic_force": 19,
     "psychic_force_(ova)": 10,
     "psycho_pass": 64,
     "psycho_pass_(movie)": 72,
+    "psycho_pass_2": 20,
+    "psycho_pass_3": 42,
     "psycho_pass_3:_first_inspector": 9,
     "psycho_pass_providence": 41,
     "psycho_pass_series": 274,
@@ -16314,6 +17244,7 @@
     "read_or_die_series": 150,
     "real_drive": 75,
     "rebecca_sugar": 28,
+    "rebellion_(mv)": 5,
     "record_of_grancrest_war": 126,
     "record_of_lodoss_war": 60,
     "red_baron": 20,
@@ -16339,6 +17270,7 @@
     "rewrite_(game)": 35,
     "rewrite_(tv)": 64,
     "rg_veda": 21,
+    "richard_williams": 55,
     "rick_and_morty": 27,
     "ride_your_wave": 71,
     "riding_bean": 13,
@@ -16351,6 +17283,7 @@
     "rinne_no_lagrange": 21,
     "rinshi!!_ekoda-chan": 7,
     "rise_of_the_teenage_mutant_ninja_turtles": 225,
+    "rise_of_the_teenage_mutant_ninja_turtles_movie": 50,
     "rising_impact": 7,
     "river_city_girls_(game)": 28,
     "river_of_death": 6,
@@ -16362,6 +17295,7 @@
     "robokko_beeton": 9,
     "robot_carnival": 78,
     "robot_girls_z": 85,
+    "robot_girls_z_specials": 12,
     "robotics;notes": 79,
     "rock_and_rule": 7,
     "rockman_8": 9,
@@ -16399,17 +17333,21 @@
     "running_man": 19,
     "ruri_no_houseki": 197,
     "rurouni_kenshin": 177,
+    "rurouni_kenshin_2023": 67,
     "rurouni_kenshin_series": 223,
     "rusalka": 8,
     "ryan_larkin": 17,
     "ryman's_club": 28,
     "ryo_tanaka": 637,
     "ryosuke_nakamura": 8,
+    "ryota_aikei": 11,
+    "ryotaro_makihara": 41,
     "ryouma_ebata": 213,
     "ryouta_arima": 5,
     "ryu_nakayama": 97,
     "ryuichi_makino": 128,
     "ryuugajou_nanana_no_maizoukin": 13,
+    "ryuunosuke_murakami": 5,
     "ryuuou_no_oshigoto!": 16,
     "ryuusei_no_rockman": 64,
     "sabaku_no_kaizoku!_captain_kuppa": 7,
@@ -16425,7 +17363,9 @@
     "saenai_heroine_no_sodatekata": 36,
     "saenai_heroine_no_sodatekata_series": 89,
     "saihate_no_paladin": 23,
+    "saihate_no_paladin_season_2": 15,
     "saiki_kusuo_no_psi_nan": 6,
+    "saiki_kusuo_no_psi_nan_season_2": 5,
     "saiki_kusuo_no_psi_nan_series": 10,
     "saint_seiya_(1986)": 169,
     "saint_seiya_omega": 127,
@@ -16478,6 +17418,7 @@
     "satoshi_hirayama": 16,
     "satoshi_ishino": 44,
     "satoshi_iwataki": 51,
+    "satoshi_kimura": 31,
     "satoshi_kon": 45,
     "satoshi_tasaki": 5,
     "satoshi_urushihara": 95,
@@ -16507,12 +17448,14 @@
     "screencap": 101,
     "scryed": 177,
     "sd_gundam_sangokuden_brave_battle_warriors": 20,
+    "sebastien_laudenbach": 9,
     "seihantai_na_kimi_to_boku": 15,
     "seihou_tenshi_angel_links": 34,
     "seiichi_hayashi": 11,
     "seiichi_nakatani": 81,
     "seiji_muta": 36,
     "seijo_no_maryoku_wa_bannou_desu": 24,
+    "seijo_no_maryoku_wa_bannou_desu_season_2": 8,
     "seijo_no_maryoku_wa_bannou_desu_series": 27,
     "seijuushi_bismark": 52,
     "seikai_no_monshou": 46,
@@ -16565,6 +17508,7 @@
     "sesame_street": 10,
     "seto_no_hanayome": 16,
     "settei": 1973,
+    "setting_sun_(mv)": 5,
     "seung_eun_kim": 25,
     "seymour_kneitel": 5,
     "sf_shinseiki_lensman": 18,
@@ -16624,6 +17568,7 @@
     "shingeki_no_kyojin": 929,
     "shingeki_no_kyojin_(ova)": 11,
     "shingeki_no_kyojin_series": 986,
+    "shingeki_no_kyojin_the_final_season": 440,
     "shingetsutan_tsukihime": 11,
     "shingo_adachi": 60,
     "shingo_araki": 129,
@@ -16647,7 +17592,9 @@
     "shinpei_tomooka": 263,
     "shinryaku!?_ika_musume": 19,
     "shinryaku!_ika_musume": 47,
+    "shinryaku!_ika_musume_ova": 11,
     "shinsaku_sasaki": 33,
+    "shinsuke_terasawa": 5,
     "shintarou_douge": 41,
     "shinya_hasegawa": 99,
     "shinya_ohira": 436,
@@ -16657,9 +17604,11 @@
     "shiranpuri": 7,
     "shiro_seijo_to_kuro_bokushi": 12,
     "shirobako": 69,
+    "shirobako_the_movie": 13,
     "shiroi_suna_no_aquatope": 14,
     "shirokuma_cafe": 6,
     "shironeko_project": 32,
+    "shishi_yamazaki": 9,
     "shizue_kaneko": 6,
     "shizuka_hayashi": 89,
     "shoichi_masuo": 188,
@@ -16674,6 +17623,7 @@
     "shota_goshozono": 72,
     "shougo_furuya": 29,
     "shoujo_kageki_revue_starlight": 82,
+    "shoujo_kageki_revue_starlight_movie": 40,
     "shoujo_kageki_revue_starlight_series": 139,
     "shoujo_kakumei_utena": 83,
     "shouko_ikeda": 12,
@@ -16686,7 +17636,9 @@
     "shoushimin_series": 28,
     "shouwa_genroku_rakugo_shinjuu": 5,
     "show_by_rock!!": 39,
+    "show_by_rock!!_season_2": 41,
     "show_by_rock!!_series": 118,
+    "showtime_(mv)": 7,
     "shuffle!": 50,
     "shuffle!_series": 68,
     "shugo_chara": 179,
@@ -16696,6 +17648,7 @@
     "shukufuku_no_campanella": 10,
     "shunji_suzuki": 39,
     "shunkashuutou_daikousha:_haru_no_mai": 121,
+    "shunsuke_okubo": 80,
     "shuu_sugita": 295,
     "shuumatsu_no_izetta": 75,
     "shuumatsu_no_valkyrie": 43,
@@ -16704,6 +17657,7 @@
     "shy": 19,
     "silent_möbius": 29,
     "silver_spoon": 66,
+    "silver_spoon_season_2": 30,
     "simoun": 5,
     "sinbad:_legend_of_the_seven_seas": 33,
     "sinkin'_in_the_bathtub": 8,
@@ -16745,6 +17699,7 @@
     "sol_bianca_(1990)": 36,
     "sol_levante": 10,
     "solo_leveling": 411,
+    "song_of_life_(mv)": 5,
     "song_of_the_sea": 64,
     "song_of_the_south": 10,
     "sonic_cd": 71,
@@ -16755,6 +17710,7 @@
     "sonic_soldier_borgman": 36,
     "sonic_superstars": 14,
     "sonic_the_hedgehog": 561,
+    "sonic_the_hedgehog_ova": 39,
     "sonic_x": 267,
     "sonny_boy": 197,
     "sono_bisque_doll_wa_koi_wo_suru": 332,
@@ -16778,6 +17734,7 @@
     "sousei_no_onmyouji": 110,
     "soushin_shoujo_matoi": 42,
     "sousou_no_frieren": 597,
+    "sousou_no_frieren_season_2": 145,
     "sousou_no_frieren_series": 641,
     "space_adventure_cobra": 118,
     "space_adventure_cobra:_the_movie": 12,
@@ -16787,6 +17744,7 @@
     "sparks": 15292,
     "sparks_of_tomorrow": 97,
     "spectral_force": 5,
+    "speed_(mv)": 8,
     "speed_grapher": 22,
     "spice_and_wolf": 5,
     "spider-man": 132,
@@ -16807,12 +17765,16 @@
     "spy_kyoushitsu": 37,
     "spy_x_family": 331,
     "spy_x_family_code:_white": 61,
+    "spy_x_family_season_2": 16,
     "spy_x_family_series": 379,
     "star_driver": 321,
+    "star_driver_the_movie": 25,
     "star_ocean_series": 29,
     "star_twinkle_precure": 77,
     "star_wars": 397,
     "star_wars:_clone_wars_(2003)": 32,
+    "star_wars:_clone_wars_(2003)_season_1": 20,
+    "star_wars:_clone_wars_(2003)_season_2": 12,
     "star_wars_visions": 342,
     "starship_girl_yamamoto_yohko": 31,
     "starship_girl_yamamoto_yohko_(1999)": 55,
@@ -16826,6 +17788,7 @@
     "steve_bosustow": 6,
     "steven_e._gordon": 30,
     "steven_universe": 139,
+    "steven_universe_the_movie": 13,
     "stop!!_hibari-kun!": 17,
     "stop_motion": 42,
     "storyboard": 1897,
@@ -16842,6 +17805,7 @@
     "strike_witches": 33,
     "strike_witches:_road_to_berlin": 55,
     "strike_witches_2": 19,
+    "strike_witches_movie": 12,
     "subete_ga_f_ni_naru": 6,
     "sugar_apple_fairy_tale": 26,
     "sugar_sugar_rune": 11,
@@ -16907,10 +17871,12 @@
     "takaaki_sekizaki": 66,
     "takaaki_wada": 232,
     "takaaki_yamashita": 165,
+    "takahiko_abiru": 8,
     "takahiro_kagami": 129,
     "takahiro_kimura": 48,
     "takahiro_kishida": 327,
     "takahiro_komori": 118,
+    "takahiro_miura": 12,
     "takahiro_yoshimatsu": 14,
     "takami_akai": 11,
     "takamitsu_kondo": 98,
@@ -16918,6 +17884,7 @@
     "takarajima": 6,
     "takashi_hashimoto": 512,
     "takashi_kawaguchi": 99,
+    "takashi_nakamura": 168,
     "takashi_watabe": 5,
     "takashi_watanabe": 7,
     "takashi_yamamoto": 5,
@@ -16939,6 +17906,7 @@
     "takuya_saito_(production_i.g.)": 16,
     "takuya_saito_(trigger)": 11,
     "takuya_sato": 5,
+    "takuya_wada": 10,
     "takuya_yamamura": 15,
     "tales_from_earthsea": 57,
     "tales_of_asteria": 13,
@@ -16985,12 +17953,16 @@
     "tarzan": 42,
     "tatakau_shisho": 76,
     "tate_no_yuusha_no_nariagari": 105,
+    "tate_no_yuusha_no_nariagari_season_2": 40,
+    "tate_no_yuusha_no_nariagari_season_3": 69,
+    "tate_no_yuusha_no_nariagari_season_4": 35,
     "tate_no_yuusha_no_nariagari_series": 263,
     "tatoeba_last_dungeon_mae_no_mura_no_shounen_ga_joban_no_machi_de_kurasu_youna_monogatari": 9,
     "tatsu_no_ko_tarou": 9,
     "tatsufumi_ito": 40,
     "tatsunoko_fight": 6,
     "tatsuo_satou": 5,
+    "tatsuo_yamada": 199,
     "tatsuya_ishihara": 17,
     "tatsuya_oishi": 122,
     "tatsuya_suzuki": 41,
@@ -17000,6 +17972,7 @@
     "tattoon_master": 7,
     "tearmoon_teikoku_monogatari": 8,
     "tears_to_tiara": 102,
+    "ted_berman": 21,
     "ted_kierscey": 6,
     "ted_sears": 5,
     "teen_titans": 33,
@@ -17019,6 +17992,7 @@
     "tenchi_in_tokyo": 24,
     "tenchi_muyo": 226,
     "tenchi_muyo_in_love": 20,
+    "tenchi_muyo_in_love_2": 11,
     "tengen_toppa_gurren_lagann": 441,
     "tengen_toppa_gurren_lagann_series": 601,
     "tengoku_daimakyou": 367,
@@ -17038,6 +18012,7 @@
     "teppen!!!!!!!!!!!!!!!": 8,
     "terminator_zero": 16,
     "terraformars": 60,
+    "terraformars_ova": 11,
     "terraformars_series": 66,
     "teruaki_murakami": 9,
     "terumi_nishii": 26,
@@ -17046,6 +18021,7 @@
     "tetsujin_28-go_(2004)": 44,
     "tetsujin_28-go_series": 107,
     "tetsunabe_no_jan!": 38,
+    "tetsuo_yajima": 11,
     "tetsuro_araki": 5,
     "tetsuwan_atom": 192,
     "tetsuwan_atom_(1963)": 12,
@@ -17061,6 +18037,7 @@
     "the_adventures_of_ichabod_and_mr._toad": 69,
     "the_amazing_world_of_gumball": 17,
     "the_ancient_magus'_bride": 26,
+    "the_ancient_magus'_bride_season_2": 55,
     "the_ancient_magus'_bride_series": 95,
     "the_anthem_of_the_heart": 51,
     "the_aristocats": 22,
@@ -17072,6 +18049,9 @@
     "the_big_o": 53,
     "the_black_cauldron": 35,
     "the_boondocks": 42,
+    "the_boondocks_season_2": 6,
+    "the_boondocks_season_3": 22,
+    "the_boondocks_season_4": 11,
     "the_boxer": 5,
     "the_boy_and_the_heron": 124,
     "the_brave_express_might_gaine": 60,
@@ -17086,6 +18066,7 @@
     "the_cuphead_show": 8,
     "the_dagger_of_kamui": 90,
     "the_dangers_in_my_heart": 53,
+    "the_dangers_in_my_heart_season_2": 8,
     "the_dangers_in_my_heart_series": 8,
     "the_diary_of_anne_frank": 30,
     "the_disappearance_of_haruhi_suzumiya": 42,
@@ -17127,15 +18108,23 @@
     "the_jungle_book": 107,
     "the_king's_avatar": 88,
     "the_king's_avatar_(2018)": 15,
+    "the_king's_avatar_2": 37,
+    "the_king's_avatar_3": 16,
+    "the_king's_avatar_movie": 39,
     "the_king's_avatar_series": 137,
+    "the_king's_avatar_specials": 27,
     "the_king_of_braves_gaogaigar": 139,
     "the_king_of_braves_gaogaigar_final": 70,
     "the_king_of_fighters_xv": 11,
     "the_land_before_time": 8,
     "the_legend_of_hei": 401,
+    "the_legend_of_hei_movie": 138,
+    "the_legend_of_hei_season_1": 42,
+    "the_legend_of_hei_season_2": 33,
     "the_legend_of_korra": 360,
     "the_legend_of_the_legendary_heroes": 77,
     "the_legend_of_vox_machina": 37,
+    "the_legend_of_vox_machina_season_1": 35,
     "the_legend_of_zelda": 5,
     "the_lion_king": 41,
     "the_lion_king_series": 59,
@@ -17166,6 +18155,7 @@
     "the_princess_and_the_frog": 63,
     "the_princess_and_the_goblin": 12,
     "the_promised_neverland": 48,
+    "the_promised_neverland_season_2": 23,
     "the_promised_neverland_series": 78,
     "the_real_ghostbusters": 19,
     "the_red_turtle": 31,
@@ -17217,6 +18207,7 @@
     "tian_guan_ci_fu_series": 37,
     "tide-line_blue": 9,
     "tiger_&_bunny": 49,
+    "tiger_&_bunny_2": 7,
     "tiger_&_bunny_series": 95,
     "tiger_mask": 40,
     "tiger_mask_series": 230,
@@ -17245,7 +18236,9 @@
     "to_be_heroine": 77,
     "to_heart": 35,
     "to_heart_2": 12,
+    "to_heart_2_ova": 6,
     "to_heart_series": 90,
+    "to_heart_specials": 30,
     "to_love_ru": 70,
     "to_love_ru_(ova)": 50,
     "to_love_ru_darkness": 39,
@@ -17292,6 +18285,7 @@
     "tom_sawyer_no_bouken": 19,
     "tom_sito": 10,
     "tomb_raider:_the_legend_of_lara_croft": 52,
+    "tomb_raider:_the_legend_of_lara_croft_season_2": 21,
     "tomb_raider_series": 55,
     "tomo-chan_wa_onnanoko!": 14,
     "tomoe_aratani": 13,
@@ -17324,6 +18318,7 @@
     "toshiharu_murata": 20,
     "toshihiko_masuda": 50,
     "toshihiro_kawamoto": 51,
+    "toshihisa_kaiya": 25,
     "toshihito_hirooka": 6,
     "toshimasa_suzuki": 8,
     "toshimitsu_kobayashi": 14,
@@ -17354,6 +18349,7 @@
     "toward_the_terra_(tv)": 12,
     "toward_the_terra_series": 25,
     "tower_of_god": 21,
+    "tower_of_god_season_2": 10,
     "tower_of_god_series": 32,
     "toy_story": 16,
     "toy_story_that_time_forgot": 10,
@@ -17379,6 +18375,7 @@
     "trombone_trouble": 12,
     "tsubasa_chronicle": 33,
     "tsue_to_tsurugi_no_wistoria": 119,
+    "tsue_to_tsurugi_no_wistoria_season_2": 67,
     "tsue_to_tsurugi_no_wistoria_series": 161,
     "tsugumomo": 17,
     "tsuide_ni_tonchinkan": 11,
@@ -17387,6 +18384,7 @@
     "tsukasa_tannai": 46,
     "tsuki_ga_kirei": 17,
     "tsuki_ga_michibiku_isekai_douchuu": 17,
+    "tsuki_ga_michibiku_isekai_douchuu_season_2": 104,
     "tsuki_ga_michibiku_isekai_douchuu_series": 120,
     "tsuki_to_laika_to_nosferatu": 5,
     "tsukihime": 20,
@@ -17400,6 +18398,7 @@
     "tsutomu_shibayama": 38,
     "tsutomu_suzuki": 7,
     "turn_a_gundam": 240,
+    "twilight_(mv)": 7,
     "twilight_q": 9,
     "twin_angel_break": 6,
     "twin_angels": 18,
@@ -17408,6 +18407,7 @@
     "ubel_blatt": 5,
     "uchi_no_maid_ga_uzasugiru!": 55,
     "uchouten_kazoku": 56,
+    "uchouten_kazoku_2": 9,
     "uchouten_kazoku_series": 65,
     "uchuu_kaizoku_captain_harlock": 55,
     "uchuu_kaizoku_mito_no_daibouken": 102,
@@ -17428,6 +18428,8 @@
     "ultraman_(series)": 37,
     "uma_musume_cinderella_gray": 85,
     "uma_musume_pretty_derby": 146,
+    "uma_musume_pretty_derby_season_2": 46,
+    "uma_musume_pretty_derby_season_3": 78,
     "uma_musume_pretty_derby_series": 360,
     "uma_musume_series": 439,
     "umi_ga_kikoeru": 31,
@@ -17438,6 +18440,7 @@
     "undead_unluck": 295,
     "under_ninja": 9,
     "under_the_dog": 41,
+    "underdog_(mv)": 10,
     "unico": 27,
     "unnamed_memory": 21,
     "upotte!!": 6,
@@ -17455,6 +18458,7 @@
     "ushio_to_tora": 60,
     "uta_no_prince-sama_series": 10,
     "utawarerumono": 63,
+    "utawarerumono_ova": 9,
     "utawarerumono_series": 207,
     "uzaki-chan_wa_asobitai": 8,
     "uzumaki": 5,
@@ -17473,12 +18477,16 @@
     "variable_geo": 30,
     "vassalord": 11,
     "vehicle": 9157,
+    "veil_(music_video)": 7,
     "video_girl_ai": 19,
+    "viking_(mv)": 8,
     "vinland_saga": 100,
+    "vinland_saga_season_2": 36,
     "vinland_saga_series": 136,
     "violence_jack": 25,
     "violet_evergarden": 138,
     "violet_evergarden_series": 208,
+    "violet_evergarden_the_movie": 38,
     "virgil_ross": 103,
     "virtua_fighter": 45,
     "virus_buster_serge": 74,
@@ -17530,6 +18538,7 @@
     "wild_arms_3": 8,
     "wild_arms_series": 33,
     "wild_knights_gulkeeva": 29,
+    "wilderness": 5,
     "will_finn": 18,
     "willard_bowsky": 16,
     "wind": 12493,
@@ -17609,9 +18618,11 @@
     "yankee_reppuu-tai": 12,
     "yano-kun_no_futsuu_no_hibi": 7,
     "yasei_no_last_boss_ga_arawareta!": 21,
+    "yasei_no_last_boss_ga_arawareta!_2nd_season": 20,
     "yasei_no_last_boss_ga_arawareta!_series": 39,
     "yasuhiro_aoki": 107,
     "yasuhiro_irie": 80,
+    "yasuhiro_kimura": 8,
     "yasuhiro_nakura": 47,
     "yasuhiro_takemoto": 17,
     "yasuhiro_yamaguchi": 14,
@@ -17633,6 +18644,7 @@
     "yes!_precure_5_gogo!": 106,
     "yesterday_wo_utatte": 81,
     "yofukashi_no_uta": 40,
+    "yofukashi_no_uta_season_2": 15,
     "yoh_yoshinari": 586,
     "yoichi_kotabe": 62,
     "yojiro_arai": 9,
@@ -17659,6 +18671,7 @@
     "yoshihito_hishinuma": 20,
     "yoshiji_kigami": 273,
     "yoshikazu_yasuhiko": 336,
+    "yoshiki_yamakawa": 5,
     "yoshimi_itazu": 54,
     "yoshimichi_kameda": 321,
     "yoshimitsu_ohashi": 19,
@@ -17668,6 +18681,7 @@
     "yoshitoshi_shinomiya": 23,
     "yoshiyuki_fujiwara": 5,
     "yoshiyuki_ito": 160,
+    "yoshiyuki_kishi": 15,
     "yoshiyuki_momose": 127,
     "yoshiyuki_sadamoto": 42,
     "yoshiyuki_tokinaga": 13,
@@ -17678,7 +18692,10 @@
     "you're_under_arrest": 236,
     "you're_under_arrest:_the_movie": 10,
     "you're_under_arrest_(tv)": 47,
+    "you're_under_arrest_ova": 178,
     "youjo_senki": 53,
+    "youjo_senki_movie": 40,
+    "youjo_senki_season_2": 47,
     "youjo_senki_series": 112,
     "youkai_ningen_bem_(2006)": 9,
     "youkai_ningen_bem_series": 67,
@@ -17711,6 +18728,7 @@
     "yu_yu_hakusho": 412,
     "yu_yu_hakusho_series": 370,
     "yubisaki_to_renren": 83,
+    "yuichi_itou": 16,
     "yuichi_nakazawa": 56,
     "yuichiro_hayashi": 31,
     "yuichiro_sueyoshi": 101,
@@ -17742,8 +18760,10 @@
     "yuriko_chiba": 73,
     "yuriko_ishii": 31,
     "yuru_camp": 25,
+    "yuru_camp_season_3": 10,
     "yuruyuri": 127,
     "yusuke_yoshigaki": 76,
+    "yuta_murano": 20,
     "yutaka_minowa": 22,
     "yutaka_nakamura": 486,
     "yutaro_kubo": 45,
@@ -17752,14 +18772,17 @@
     "yuuhei_murota": 13,
     "yuuki_bakuhatsu_bang_bravern": 83,
     "yuuki_igarashi": 85,
+    "yuuki_yase": 12,
     "yuuki_yuuna_wa_yuusha_de_aru": 59,
     "yuukoku_no_moriarty": 23,
     "yuusha_kei_ni_shosu:_choubatsu_yuusha_9004-tai_keimu_kiroku": 216,
     "yuusha_no_kuzu": 8,
     "yuusha_raideen": 79,
     "yuusuke_matsuo": 252,
+    "yuusuke_yamamoto_(nara)": 35,
     "yuya_takahashi": 168,
     "yuyushiki": 89,
+    "yuyushiki_ova": 7,
     "yuzo_aoki": 51,
     "z/x:_ignition": 7,
     "zankyou_no_terror": 29,
@@ -18033,6 +19056,6 @@
       "ja": "風"
     }
   },
-  "updated": "2026-10-27",
+  "updated": "2026-10-30",
   "v": 1
 }
