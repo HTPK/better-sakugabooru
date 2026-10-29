@@ -1,6 +1,5 @@
 name: build-dict
 
-# Copy to .github/workflows/build-dict.yml at the repository root.
 # Rebuilds dict/dist/dict.json whenever the hand-edited or generated data changes.
 # Generation against Wikidata is NOT run here (it takes hours and
 # hits third-party APIs); run dict/scripts/gen_*.py locally and commit dict/data/.

@@ -1,4 +1,5 @@
 """Build dist/dict.json, REVIEW.md and COVERAGE.md from data/*.json."""
+import json
 import re
 import sys
 from datetime import date
@@ -58,12 +59,48 @@ def derive_variants(settled, counts, existing):
     return out
 
 
+def _load_tag_counts(root):
+    """Tag counts as {kind: [{name, count}]}. Local cache/tags.json when present,
+    else the committed data/counts.json (so CI builds match local ones)."""
+    cache = load_json(root / "cache" / "tags.json")
+    if cache:
+        return cache, "cache/tags.json"
+    stored = load_json(root / "data" / "counts.json")
+    return ({k: [{"name": n, "count": c} for n, c in v.items()] for k, v in stored.items()},
+            "data/counts.json" if stored else "none")
+
+
+def _export_counts(root, tags_cache, result, overrides):
+    """Write data/counts.json: only the counts build() can look at (count >= MIN_COUNT,
+    _series copyright names, translated tags, override keys), sorted for stable diffs."""
+    out = {}
+    for t in TYPES:
+        kind = TAG_KIND[t]
+        keep = {}
+        for x in tags_cache.get(kind, []):
+            n, c = x["name"], x["count"]
+            if (c >= MIN_COUNT or n in result[t] or n in overrides
+                    or (t == "copyrights" and n.endswith(SERIES_SUFFIX))):
+                keep[n] = c
+        out[kind] = dict(sorted(keep.items()))
+    path = root / "data" / "counts.json"
+    lines = ["{"]
+    for i, (kind, m) in enumerate(out.items()):
+        lines.append(f"  {json.dumps(kind)}: {{")
+        items = [f"    {json.dumps(n, ensure_ascii=False)}: {c}" for n, c in m.items()]
+        lines.append(",\n".join(items))
+        lines.append("  }" + ("," if i < len(out) - 1 else ""))
+    lines.append("}")
+    path.write_text("\n".join(lines) + "\n", encoding="utf-8", newline="\n")
+
+
 def build(root=ROOT, today=None):
     root = Path(root)
     data = {t: load_json(root / "data" / f"{t}.json") for t in TYPES}
     overrides = load_json(root / "data" / "overrides.json")
-    tags_cache = load_json(root / "cache" / "tags.json")
+    tags_cache, source = _load_tag_counts(root)
     have_cache = bool(tags_cache)
+    print(f"tag counts from {source}")
 
     result = {t: {} for t in TYPES}
     entry_counts = {t: {} for t in TYPES}
@@ -144,6 +181,8 @@ def build(root=ROOT, today=None):
         "counts": dict(sorted(counts.items())),
     }
     save_json(root / "dist" / "dict.json", dist)
+    if source == "cache/tags.json":
+        _export_counts(root, tags_cache, result, overrides)
 
     # REVIEW.md
     review.sort(key=lambda r: -(r[2].get("count") or 0))

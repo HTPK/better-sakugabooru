@@ -144,3 +144,41 @@ def test_coverage(tmp_path):
     txt = (tmp_path / "COVERAGE.md").read_text(encoding="utf-8")
     assert "1 / 2" in txt  # unique, count>=5 only
     assert "30 / 40" in txt
+
+
+def _ci_fixture(tmp_path):
+    tmp_path.mkdir()
+    tags = {"artist": [{"name": "a_b", "count": 50}, {"name": "tiny", "count": 2}],
+            "copyright": [{"name": "show", "count": 100}, {"name": "show_season_2", "count": 9},
+                          {"name": "show_series", "count": 1}, {"name": "other", "count": 3}],
+            "general": [{"name": "fx", "count": 7}], "character": [{"name": "c", "count": 99}]}
+    return mk(tmp_path,
+              artists={"a_b": {"ja": "あ", "count": 10, "needs_review": False}},
+              copyrights={"show": {"ja": "番組", "count": 100, "needs_review": False},
+                          "other": {"ja": "他", "count": 3, "needs_review": False}},
+              general={"fx": {"ja": "効果", "count": 7, "needs_review": False}},
+              tags=tags)
+
+
+def test_ci_build_matches_local_build(tmp_path):
+    import shutil
+    local = _ci_fixture(tmp_path / "local")
+    build.build(local, today=date(2026, 1, 1))
+    assert (local / "data" / "counts.json").exists()
+    ci = tmp_path / "ci"
+    shutil.copytree(local / "data", ci / "data")
+    build.build(ci, today=date(2026, 1, 1))
+    for f in ["dist/dict.json", "REVIEW.md", "COVERAGE.md"]:
+        assert (local / f).read_bytes() == (ci / f).read_bytes(), f
+    d = out(ci)
+    assert d["copyrights"]["show_series"]["ja"] == "番組 シリーズ"
+    assert d["copyrights"]["show_season_2"]["ja"] == "番組 第2期"
+
+
+def test_counts_json_is_pruned_and_sorted(tmp_path):
+    local = _ci_fixture(tmp_path / "local")
+    build.build(local, today=date(2026, 1, 1))
+    c = json.loads((local / "data" / "counts.json").read_text(encoding="utf-8"))
+    assert "tiny" not in c["artist"] and "character" not in c
+    assert list(c["copyright"]) == sorted(c["copyright"])
+    assert "show_series" in c["copyright"] and "other" in c["copyright"]
