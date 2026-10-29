@@ -34,6 +34,7 @@ jobs:
       - name: Build dict/dist/dict.json
         env:
           PYTHONUTF8: "1"
+          TZ: "Asia/Tokyo"  # the "updated" stamp must match local (JST) builds
         run: python scripts/build.py
       - name: Commit dist if changed
         run: |
