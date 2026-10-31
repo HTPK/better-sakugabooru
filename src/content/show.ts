@@ -2,7 +2,8 @@ import type { Dict, TagType } from '../dict'
 import { lookup } from '../dict'
 import type { Settings } from '../settings'
 import { h, type Child } from './render'
-import { jaFor, sidebarTag, sidebarType, spaced, untranslated } from './list'
+import { jaFor, sidebarTag, sidebarType, spaced, tagName, untranslated } from './list'
+import { STRINGS, type Lang, type Strings } from '../i18n'
 import { extractJsonObjects } from './pagedata'
 import { buildPlayer, formatBytes, formatFps, readSetup } from './player'
 import showCss from './show.css?inline'
@@ -17,16 +18,22 @@ const NOISE = new Set(['animated'])
 const TAG_TYPES: readonly TagType[] = ['artist', 'copyright', 'general', 'character', 'meta', 'circle', 'faults']
 
 /** Aside group order and headings (types not listed fall into 技法 chips' neighbour groups below). */
-const GROUPS: ReadonlyArray<{ type: TagType; label: string; chips: boolean }> = [
-  { type: 'copyright', label: '作品', chips: false },
-  { type: 'artist', label: '作画者', chips: false },
-  { type: 'character', label: 'キャラクター', chips: false },
-  { type: 'general', label: '技法', chips: true },
-  { type: 'meta', label: 'メタ', chips: true },
+const GROUPS: ReadonlyArray<{ type: TagType; label: keyof Strings; chips: boolean }> = [
+  { type: 'copyright', label: 'groupCopyright', chips: false },
+  { type: 'artist', label: 'groupArtist', chips: false },
+  { type: 'character', label: 'groupCharacter', chips: false },
+  { type: 'general', label: 'groupTech', chips: true },
+  { type: 'meta', label: 'groupMeta', chips: true },
 ]
 
 const RATINGS: Record<string, string> = { s: 'Safe', q: 'Questionable', e: 'Explicit' }
-const STATUSES: Record<string, string> = { active: '承認済み', pending: '承認待ち', flagged: 'フラグ', deleted: '削除済み' }
+const STATUSES: Record<string, keyof Strings> = { active: 'statusActive', pending: 'statusPending', flagged: 'statusFlagged', deleted: 'statusDeleted' }
+
+/** Joiners that differ by language: title parts, artists in a title, techniques in the lead, lead segments. */
+const SEP: Record<Lang, { cp: string; artists: string; techs: string; lead: string }> = {
+  ja: { cp: '　', artists: '、', techs: '・', lead: '　' },
+  en: { cp: ' / ', artists: ', ', techs: ', ', lead: ' · ' },
+}
 
 const RELATED_HEADINGS = new Set(['related posts', '関連する投稿'])
 const PREV_TEXTS = new Set(['previous', 'prev', '前', '前の投稿'])
@@ -144,36 +151,38 @@ function postId(doc: Document, post: ShowPost | null): string | null {
   return v && /^\d+$/.test(v) ? v : null
 }
 
-function namePart(doc: Document, dict: Dict, s: Settings, t: Tag): Child[] {
-  const ja = jaFor(dict, t.tag, t.type, s.translateTags)
+function namePart(doc: Document, dict: Dict, s: Settings, t: Tag, lang: Lang): Child[] {
+  const { ja, display } = tagName(dict, t.tag, t.type, s, lang)
+  if (lang === 'en') return [display]
   if (ja) return [ja]
   return s.translateTags ? untranslated(doc, t.tag) : [t.tag]
 }
 
-function title(doc: Document, dict: Dict, s: Settings, tags: Tag[]): HTMLElement {
+function title(doc: Document, dict: Dict, s: Settings, tags: Tag[], lang: Lang): HTMLElement {
   const h1 = h(doc, 'h1')
+  const sep = SEP[lang]
   const cps = tags.filter((t) => t.type === 'copyright')
   const cp = cps.find((t) => !t.tag.endsWith('_series')) ?? cps[0]
-  if (cp) h1.append(...(namePart(doc, dict, s, cp) as Array<Node | string>))
+  if (cp) h1.append(...(namePart(doc, dict, s, cp, lang) as Array<Node | string>))
   const artists = tags.filter((t) => t.type === 'artist')
-  if (cp && artists.length) h1.append('　')
+  if (cp && artists.length) h1.append(sep.cp)
   artists.forEach((t, i) => {
-    if (i > 0) h1.append('、')
-    h1.append(...(namePart(doc, dict, s, t) as Array<Node | string>))
+    if (i > 0) h1.append(sep.artists)
+    h1.append(...(namePart(doc, dict, s, t, lang) as Array<Node | string>))
   })
   return h1
 }
 
 /** `{source}　{up to three general tags}`; translated tags first, site order otherwise. */
-function lead(dict: Dict, s: Settings, tags: Tag[], source: string): string {
+function lead(dict: Dict, s: Settings, tags: Tag[], source: string, lang: Lang): string {
   const general = tags.filter((t) => t.type === 'general' && !NOISE.has(t.tag))
-  const named = general.map((t) => ({ t, ja: jaFor(dict, t.tag, 'general', s.translateTags) }))
+  const named = general.map((t) => ({ t, ja: tagName(dict, t.tag, 'general', s, lang).ja }))
   const ordered = [...named.filter((n) => n.ja), ...named.filter((n) => !n.ja)]
   const techs = ordered
     .slice(0, LEAD_LIMIT)
     .map((n) => n.ja ?? spaced(n.t.tag))
-    .join('・')
-  return [source, techs].filter(Boolean).join('　')
+    .join(SEP[lang].techs)
+  return [source, techs].filter(Boolean).join(SEP[lang].lead)
 }
 
 /** Sidebar lists whose direct items link to other posts; the one under a related-posts heading wins. */
@@ -189,34 +198,42 @@ function relatedList(doc: Document): Element | null {
 }
 
 /** Previous/Next from the site's related-posts block (either locale), then 一覧へ戻る. */
-function bandNav(doc: Document): HTMLElement {
+function bandNav(doc: Document, lang: Lang): HTMLElement {
+  const t = STRINGS[lang]
   const ul = relatedList(doc)
   const anchors = ul ? Array.from(ul.querySelectorAll(':scope > li > a[href^="/post/show/"]')) : []
   const links: HTMLElement[] = []
-  for (const [texts, ja] of [
-    [PREV_TEXTS, '前の投稿'],
-    [NEXT_TEXTS, '次の投稿'],
+  for (const [texts, label] of [
+    [PREV_TEXTS, t.prevPost],
+    [NEXT_TEXTS, t.nextPost],
   ] as const) {
     const a = anchors.find((x) => texts.has(norm(x.textContent)))
-    if (a) links.push(h(doc, 'a', { class: 'bsb-show-step', href: a.getAttribute('href') ?? undefined }, ja))
+    if (a) links.push(h(doc, 'a', { class: 'bsb-show-step', href: a.getAttribute('href') ?? undefined }, label))
   }
-  links.push(h(doc, 'a', { class: 'bsb-show-step bsb-show-back', href: '/post' }, '一覧へ戻る'))
-  return h(doc, 'nav', { class: 'bsb-show-nav', 'aria-label': '前後の投稿' }, ...links)
+  links.push(h(doc, 'a', { class: 'bsb-show-step bsb-show-back', href: '/post' }, t.backToList))
+  return h(doc, 'nav', { class: 'bsb-show-nav', 'aria-label': t.navLabel }, ...links)
 }
 
 /**
  * Title block at the top of the right column (breadcrumb, h1, lead, prev/next/back). It used to be a
  * full-width band above the video, which pushed the player below the fold.
  */
-function head(doc: Document, dict: Dict, s: Settings, tags: Tag[], id: string | null, post: ShowPost | null): HTMLElement {
-  const leadText = lead(dict, s, tags, post?.source ?? '')
-  const crumb = h(doc, 'span', { class: 'bsb-crumb' }, h(doc, 'a', { href: '/post' }, 'POSTS'), id && `　/　#${id}`)
+function head(doc: Document, dict: Dict, s: Settings, tags: Tag[], id: string | null, post: ShowPost | null, lang: Lang): HTMLElement {
+  const leadText = lead(dict, s, tags, post?.source ?? '', lang)
+  const t = STRINGS[lang]
+  const crumb = h(
+    doc,
+    'span',
+    { class: 'bsb-crumb' },
+    h(doc, 'a', { href: '/post' }, t.postsDeco || t.posts),
+    id && (lang === 'ja' ? `　/　#${id}` : ` / #${id}`),
+  )
   return h(
     doc,
     'section',
     { class: 'bsb-show-head' },
-    h(doc, 'div', { class: 'bsb-show-titles' }, crumb, title(doc, dict, s, tags), leadText && h(doc, 'p', { class: 'bsb-lead' }, leadText)),
-    bandNav(doc),
+    h(doc, 'div', { class: 'bsb-show-titles' }, crumb, title(doc, dict, s, tags, lang), leadText && h(doc, 'p', { class: 'bsb-lead' }, leadText)),
+    bandNav(doc, lang),
   )
 }
 
@@ -226,7 +243,8 @@ const POOL_NOTICE = /^pool\d+$/
  * The site's pool notices ("This post is #31 in the X pool. « Previous | Next »") sit above the video.
  * They become compact rows in the right column; the originals stay in the DOM (hidden) for site scripts.
  */
-function pools(doc: Document, view: HTMLElement): HTMLElement | null {
+function pools(doc: Document, view: HTMLElement, lang: Lang): HTMLElement | null {
+  const t = STRINGS[lang]
   const notices = Array.from(view.querySelectorAll<HTMLElement>(':scope > .status-notice')).filter((n) => POOL_NOTICE.test(n.id))
   const rows: HTMLElement[] = []
   for (const n of notices) {
@@ -246,12 +264,12 @@ function pools(doc: Document, view: HTMLElement): HTMLElement | null {
         { class: 'bsb-pool' },
         h(doc, 'a', { class: 'bsb-pool-name', href: `/pool/show/${poolId}` }, (name.textContent ?? '').trim()),
         seq && h(doc, 'span', { class: 'bsb-pool-seq bsb-en' }, seq),
-        h(doc, 'span', { class: 'bsb-pool-steps' }, step(prev, '前'), step(next, '次')),
+        h(doc, 'span', { class: 'bsb-pool-steps' }, step(prev, t.poolPrev), step(next, t.poolNext)),
       ),
     )
     n.classList.add('bsb-hide')
   }
-  return rows.length ? h(doc, 'section', { class: 'bsb-show-pools', 'aria-label': 'プール' }, h(doc, 'div', { class: 'bsb-pool-head' }, 'プール'), ...rows) : null
+  return rows.length ? h(doc, 'section', { class: 'bsb-show-pools', 'aria-label': t.pool }, h(doc, 'div', { class: 'bsb-pool-head' }, t.pool), ...rows) : null
 }
 
 const FIT_AIR = 16
@@ -303,16 +321,17 @@ function forward(doc: Document, cls: string, label: string, target: HTMLElement 
 const isShown = (el: HTMLElement | null) => !!el && el.style.display !== 'none'
 
 /** お気に入り pill: forwards to the site's add (or, once favourited, remove) link and follows its state. */
-function favButton(doc: Document): HTMLElement | null {
+function favButton(doc: Document, lang: Lang): HTMLElement | null {
+  const t = STRINGS[lang]
   const add = doc.getElementById('add-to-favs')
   const remove = doc.getElementById('remove-from-favs')
   const addA = add?.querySelector<HTMLAnchorElement>('a') ?? null
   const remA = remove?.querySelector<HTMLAnchorElement>('a') ?? null
   if (!addA) return null
-  const b = h(doc, 'button', { type: 'button', class: 'bsb-act bsb-fav bsb-pill' }, 'お気に入りに追加')
+  const b = h(doc, 'button', { type: 'button', class: 'bsb-act bsb-fav bsb-pill' }, t.addFav)
   const favd = () => !!remA && isShown(remove) && !isShown(add)
   const sync = () => {
-    b.textContent = favd() ? 'お気に入りから削除' : 'お気に入りに追加'
+    b.textContent = favd() ? t.removeFav : t.addFav
   }
   b.addEventListener('click', () => (favd() ? remA! : addA).click())
   const View = doc.defaultView?.MutationObserver
@@ -324,7 +343,8 @@ function favButton(doc: Document): HTMLElement | null {
   return b
 }
 
-function scoreRow(doc: Document, post: ShowPost | null, video: HTMLVideoElement | null, fps: number | null): HTMLElement {
+function scoreRow(doc: Document, post: ShowPost | null, video: HTMLVideoElement | null, fps: number | null, lang: Lang): HTMLElement {
+  const t = STRINGS[lang]
   const row = h(doc, 'div', { class: 'bsb-score-row' })
   const scoreSpan = doc.querySelector<HTMLElement>('#stats [id^="post-score-"]')
   if (scoreSpan) row.append(h(doc, 'span', { class: 'bsb-score bsb-en' }, scoreSpan, ' ', h(doc, 'span', { class: 'bsb-score-unit' }, 'pt')))
@@ -336,10 +356,10 @@ function scoreRow(doc: Document, post: ShowPost | null, video: HTMLVideoElement 
   const hist = optionLink(doc, (a) => (a.getAttribute('href') ?? '').startsWith('/history?search=post'))
   row.append(
     ...([
-      favButton(doc),
-      forward(doc, '', 'タグを編集', edit),
-      forward(doc, '', 'ノートを追加', note),
-      hist && h(doc, 'a', { class: 'bsb-act', href: hist.getAttribute('href') ?? undefined }, '履歴'),
+      favButton(doc, lang),
+      forward(doc, '', t.editTags, edit),
+      forward(doc, '', t.addNote, note),
+      hist && h(doc, 'a', { class: 'bsb-act', href: hist.getAttribute('href') ?? undefined }, t.history),
     ].filter(Boolean) as HTMLElement[]),
   )
 
@@ -367,6 +387,7 @@ function player(
   doc: Document,
   right: Element,
   post: ShowPost | null,
+  lang: Lang,
 ): { block: HTMLElement; screen: HTMLElement; video: HTMLVideoElement | null; fps: number | null; ratio: number | null } | null {
   const video = right.querySelector('video')
   if (!video) return null
@@ -379,15 +400,19 @@ function player(
   if (w > 0 && ht > 0) screen.style.aspectRatio = `${w} / ${ht}`
   target.before(screen)
   screen.append(target)
-  const row = buildPlayer(doc, {
-    video,
-    screen,
-    rates: conf.rates,
-    fps: conf.fps,
-    fpsKnown: conf.fpsKnown,
-    fileUrl: post?.fileUrl ?? undefined,
-    fileSize: post?.fileSize ?? undefined,
-  })
+  const row = buildPlayer(
+    doc,
+    {
+      video,
+      screen,
+      rates: conf.rates,
+      fps: conf.fps,
+      fpsKnown: conf.fpsKnown,
+      fileUrl: post?.fileUrl ?? undefined,
+      fileSize: post?.fileSize ?? undefined,
+    },
+    lang,
+  )
   return {
     block: h(doc, 'div', { class: 'bsb-player' }, screen, row),
     screen,
@@ -397,12 +422,13 @@ function player(
   }
 }
 
-function comments(doc: Document): void {
+function comments(doc: Document, lang: Lang): void {
+  const t = STRINGS[lang]
   const box = doc.getElementById('comments')
   if (!box) return
   const list = Array.from(box.querySelectorAll('.comment'))
   for (const c of list) c.classList.add('bsb-comment')
-  const h2 = h(doc, 'h2', null, 'コメント', list.length > 0 && ' ', list.length > 0 && h(doc, 'span', { class: 'bsb-comment-count bsb-en' }, String(list.length)))
+  const h2 = h(doc, 'h2', null, t.comments, list.length > 0 && ' ', list.length > 0 && h(doc, 'span', { class: 'bsb-comment-count bsb-en' }, String(list.length)))
   const sec = h(doc, 'section', { class: 'bsb-comments' }, h2)
   box.before(sec)
   sec.append(box)
@@ -412,20 +438,26 @@ function comments(doc: Document): void {
   const ta = form.querySelector('textarea')
   if (ta) {
     if (!ta.id) ta.id = 'bsb-comment-text'
-    ta.before(h(doc, 'label', { class: 'bsb-comment-label', for: ta.id }, 'コメントを書く'))
+    ta.before(h(doc, 'label', { class: 'bsb-comment-label', for: ta.id }, t.writeComment))
   }
   const submit = form.querySelector<HTMLInputElement>('input[type="submit"]')
   if (submit) {
-    submit.value = 'コメントを投稿'
-    if (submit.hasAttribute('data-disable-with')) submit.setAttribute('data-disable-with', 'コメントを投稿')
+    submit.value = t.submitComment
+    if (submit.hasAttribute('data-disable-with')) submit.setAttribute('data-disable-with', t.submitComment)
   }
 }
 
-function tagEntry(doc: Document, dict: Dict, s: Settings, t: Tag, chip: boolean): HTMLElement {
+function tagEntry(doc: Document, dict: Dict, s: Settings, t: Tag, chip: boolean, lang: Lang): HTMLElement {
   const href = `/post?tags=${encodeURIComponent(t.tag)}`
-  if (chip && NOISE.has(t.tag)) return h(doc, 'a', { class: 'bsb-chip bsb-chip-noise bsb-en', href, 'data-type': t.type }, t.tag)
-  const ja = jaFor(dict, t.tag, t.type, s.translateTags)
-  const name = h(doc, 'span', { class: 'bsb-tag-name' }, ...(ja ? [ja] : s.translateTags ? [t.tag, untranslatedMark(doc, t.tag)] : [t.tag]))
+  const en = lang === 'en'
+  if (chip && NOISE.has(t.tag)) return h(doc, 'a', { class: 'bsb-chip bsb-chip-noise bsb-en', href, 'data-type': t.type }, en ? spaced(t.tag) : t.tag)
+  const ja = tagName(dict, t.tag, t.type, s, lang).ja
+  const name = h(
+    doc,
+    'span',
+    { class: 'bsb-tag-name' },
+    ...(en ? [spaced(t.tag)] : ja ? [ja] : s.translateTags ? [t.tag, untranslatedMark(doc, t.tag)] : [t.tag]),
+  )
   const romaji = ja && s.showRomaji ? h(doc, 'span', { class: 'bsb-tag-romaji bsb-en' }, t.tag) : null
   if (chip) return h(doc, 'a', { class: 'bsb-chip', href, 'data-type': t.type }, name, romaji && ' ', romaji)
   const kana = ja && t.type === 'artist' ? lookup(dict, t.tag, 'artist').kana : undefined
@@ -436,8 +468,8 @@ function tagEntry(doc: Document, dict: Dict, s: Settings, t: Tag, chip: boolean)
   const wiki = h(
     doc,
     'a',
-    { class: 'bsb-wiki', href: wikiUrl(ja), target: '_blank', rel: 'noopener noreferrer', title: `作画@wiki で「${ja}」を開く` },
-    '作画wiki',
+    { class: 'bsb-wiki', href: wikiUrl(ja), target: '_blank', rel: 'noopener noreferrer', title: STRINGS[lang].wikiTitle(ja) },
+    STRINGS[lang].wiki,
   )
   return h(doc, 'div', { class: 'bsb-tag-row' }, row, wiki)
 }
@@ -446,14 +478,14 @@ export function wikiUrl(name: string): string {
   return `${WIKI_BASE}${encodeURIComponent(name)}`
 }
 
-function tagPanel(doc: Document, dict: Dict, s: Settings, tags: Tag[]): HTMLElement | null {
+function tagPanel(doc: Document, dict: Dict, s: Settings, tags: Tag[], lang: Lang): HTMLElement | null {
   const groups: HTMLElement[] = []
   const placed = new Set<TagType>()
   const group = (type: string, label: string, chips: boolean, list: Tag[]) => {
     if (!list.length) return
     // Noise chips (animated) go last, the rest keep site order.
     const ordered = [...list.filter((t) => !NOISE.has(t.tag)), ...list.filter((t) => NOISE.has(t.tag))]
-    const entries = ordered.map((t) => tagEntry(doc, dict, s, t, chips))
+    const entries = ordered.map((t) => tagEntry(doc, dict, s, t, chips, lang))
     groups.push(
       h(
         doc,
@@ -466,67 +498,70 @@ function tagPanel(doc: Document, dict: Dict, s: Settings, tags: Tag[]): HTMLElem
   }
   for (const g of GROUPS) {
     placed.add(g.type)
-    group(g.type, g.label, g.chips, tags.filter((t) => t.type === g.type))
+    group(g.type, STRINGS[lang][g.label] as string, g.chips, tags.filter((t) => t.type === g.type))
   }
   // circle / faults etc.: chips under a generic heading rather than dropping them.
-  group('other', 'その他', true, tags.filter((t) => !placed.has(t.type)))
+  group('other', STRINGS[lang].groupOther, true, tags.filter((t) => !placed.has(t.type)))
   return groups.length ? h(doc, 'div', { class: 'bsb-tag-panel' }, ...groups) : null
 }
 
-function dateText(epochSec: number): string {
+function dateText(epochSec: number, lang: Lang = 'ja'): string {
   const d = new Date(epochSec * 1000)
+  if (lang === 'en') return new Intl.DateTimeFormat('en-US', { dateStyle: 'medium', timeStyle: 'short' }).format(d)
   return `${d.getFullYear()}/${pad2(d.getMonth() + 1)}/${pad2(d.getDate())} ${pad2(d.getHours())}:${pad2(d.getMinutes())}`
 }
 
 /** 親子 from the post JSON; the child count only when the status notice actually lists the children. */
-function family(doc: Document, post: ShowPost, id: string | null): Child[] {
+function family(doc: Document, post: ShowPost, id: string | null, lang: Lang): Child[] {
+  const t = STRINGS[lang]
   const out: Child[] = []
-  if (post.parentId != null) out.push(h(doc, 'a', { href: `/post/show/${post.parentId}` }, '親投稿あり'))
+  if (post.parentId != null) out.push(h(doc, 'a', { href: `/post/show/${post.parentId}` }, t.factParent))
   if (post.hasChildren) {
-    if (out.length) out.push('　')
+    if (out.length) out.push(lang === 'ja' ? '　' : ', ')
     const notice = Array.from(doc.querySelectorAll('.status-notice')).find((n) =>
       Array.from(n.querySelectorAll('a')).some((a) => /parent(%3A|:)/i.test(a.getAttribute('href') ?? '') && (!id || (a.getAttribute('href') ?? '').endsWith(id))),
     )
     const n = notice ? notice.querySelectorAll('a[href^="/post/show/"]').length : 0
     const href = id ? `/post?tags=${encodeURIComponent(`parent:${id}`)}` : undefined
-    out.push(h(doc, 'a', { href }, n > 0 ? '子投稿 ' : '子投稿あり', n > 0 && h(doc, 'span', { class: 'bsb-en' }, String(n))))
+    out.push(h(doc, 'a', { href }, n > 0 ? t.factChild : t.factChildAny, n > 0 && h(doc, 'span', { class: 'bsb-en' }, String(n))))
   }
   return out
 }
 
-function facts(doc: Document, post: ShowPost | null, id: string | null): HTMLElement | null {
+function facts(doc: Document, post: ShowPost | null, id: string | null, lang: Lang): HTMLElement | null {
   if (!post) return null
+  const t = STRINGS[lang]
   const rows: Array<[string, Child]> = []
   if (post.author) {
     const href = post.creatorId != null ? `/user/show/${post.creatorId}` : undefined
-    rows.push(['投稿者', href ? h(doc, 'a', { href }, post.author) : h(doc, 'span', null, post.author)])
+    rows.push([t.factUploader, href ? h(doc, 'a', { href }, post.author) : h(doc, 'span', null, post.author)])
   }
-  if (post.createdAt != null) rows.push(['投稿日', h(doc, 'span', { class: 'bsb-en' }, dateText(post.createdAt))])
+  if (post.createdAt != null) rows.push([t.factPosted, h(doc, 'span', { class: 'bsb-en' }, dateText(post.createdAt, lang))])
   if (post.source) {
     const isUrl = /^https?:\/\//i.test(post.source)
     rows.push([
-      '出典',
+      t.factSource,
       isUrl ? h(doc, 'a', { href: post.source, target: '_blank', rel: 'noopener noreferrer' }, post.source) : h(doc, 'span', null, post.source),
     ])
   }
   const rating = post.rating && own(RATINGS, post.rating)
-  if (rating) rows.push(['レーティング', h(doc, 'span', null, rating)])
+  if (rating) rows.push([t.factRating, h(doc, 'span', null, rating)])
   if (post.width && post.height) {
     const size = `${post.width} x ${post.height}` + (post.fileSize ? `　${formatBytes(post.fileSize)}` : '')
-    rows.push(['サイズ', h(doc, 'span', { class: 'bsb-en' }, size)])
+    rows.push([t.factSize, h(doc, 'span', { class: 'bsb-en' }, size)])
   }
-  const status = post.status && own(STATUSES, post.status)
-  if (status) rows.push(['状態', h(doc, 'span', null, status)])
-  const fam = family(doc, post, id)
-  if (fam.length) rows.push(['親子', h(doc, 'span', null, ...fam)])
+  const statusKey = post.status && own(STATUSES, post.status)
+  if (statusKey) rows.push([t.factStatus, h(doc, 'span', null, t[statusKey] as string)])
+  const fam = family(doc, post, id, lang)
+  if (fam.length) rows.push([t.factFamily, h(doc, 'span', null, ...fam)])
   if (!rows.length) return null
   const grid = h(doc, 'div', { class: 'bsb-show-facts' })
   for (const [label, value] of rows) grid.append(h(doc, 'span', { class: 'bsb-fact-label' }, label), value as Node)
   return grid
 }
 
-function proposeNote(doc: Document, dict: Dict, s: Settings, tags: Tag[]): HTMLElement | null {
-  if (!s.translateTags) return null
+function proposeNote(doc: Document, dict: Dict, s: Settings, tags: Tag[], lang: Lang): HTMLElement | null {
+  if (!s.translateTags || lang === 'en') return null
   const missing = tags
     .filter((t) => !NOISE.has(t.tag) && !jaFor(dict, t.tag, t.type, true))
     .map((t) => t.tag)
@@ -538,13 +573,13 @@ function proposeNote(doc: Document, dict: Dict, s: Settings, tags: Tag[]): HTMLE
     doc,
     'p',
     { class: 'bsb-show-note' },
-    '訳が違う、または足りないタグがあれば ',
-    h(doc, 'a', { class: 'bsb-propose', href, target: '_blank', rel: 'noopener' }, '訳を提案する'),
+    STRINGS[lang].proposeNoteLead,
+    h(doc, 'a', { class: 'bsb-propose', href, target: '_blank', rel: 'noopener' }, STRINGS[lang].propose),
   )
 }
 
 /** True on a show page (also when already rendered: idempotent no-op); false otherwise. */
-export function renderShow(doc: Document, dict: Dict, settings: Settings): boolean {
+export function renderShow(doc: Document, dict: Dict, settings: Settings, lang: Lang = 'ja'): boolean {
   const view = doc.getElementById('post-view')
   const body = doc.body
   if (!view || !body) return false
@@ -563,29 +598,29 @@ export function renderShow(doc: Document, dict: Dict, settings: Settings): boole
   view.append(h(doc, 'div', { class: 'bsb-show-body' }, main, side))
 
   const right = doc.getElementById('right-col')
-  const p = right ? player(doc, right, post) : null
+  const p = right ? player(doc, right, post, lang) : null
   if (p) main.append(p.block)
   // The video's aspect ratio lets CSS cap its width so the whole player fits the viewport height.
   if (p?.ratio) view.style.setProperty('--bsb-ar-num', String(Math.round(p.ratio * 10000) / 10000))
-  const poolBlock = pools(doc, view)
+  const poolBlock = pools(doc, view, lang)
   // Other site notices (parent/child, pending, …) move under the controls instead of above the video.
   for (const n of Array.from(view.querySelectorAll(':scope > .status-notice'))) if (!POOL_NOTICE.test(n.id)) main.append(n)
-  main.append(scoreRow(doc, post, p?.video ?? null, p?.fps ?? null))
+  main.append(scoreRow(doc, post, p?.video ?? null, p?.fps ?? null, lang))
   if (right) {
     main.append(right)
     // The site's "Edit | Respond" tab strip: our score row carries both actions now.
     const tabs = right.querySelector('h4 .js-posts-show-comments-tab')?.closest('h4')
     tabs?.classList.add('bsb-hide')
   }
-  comments(doc)
+  comments(doc, lang)
 
   side.append(
     ...([
-      head(doc, dict, settings, tags, id, post),
+      head(doc, dict, settings, tags, id, post, lang),
       poolBlock,
-      tagPanel(doc, dict, settings, tags),
-      facts(doc, post, id),
-      proposeNote(doc, dict, settings, tags),
+      tagPanel(doc, dict, settings, tags, lang),
+      facts(doc, post, id, lang),
+      proposeNote(doc, dict, settings, tags, lang),
     ].filter(Boolean) as HTMLElement[]),
   )
   // The site sidebar (search, tags, stats, options) stays in the DOM for its scripts; ours replaces it.

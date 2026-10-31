@@ -1,4 +1,5 @@
 import { h } from './render'
+import { STRINGS, type Lang } from '../i18n'
 
 /** Fallbacks used only when the page's data-setup does not say (never shown as page data). */
 const DEFAULT_RATES = [0.25, 0.5, 1]
@@ -105,41 +106,42 @@ const button = (doc: Document, cls: string, text: string | null, attrs: Record<s
  * Our control row under the site's video. It drives the HTMLVideoElement directly; video.js keeps
  * owning the element (its own control bar is hidden by CSS).
  */
-export function buildPlayer(doc: Document, o: PlayerOptions): HTMLElement {
+export function buildPlayer(doc: Document, o: PlayerOptions, lang: Lang = 'ja'): HTMLElement {
   const v = o.video
-  const play = button(doc, 'bsb-play bsb-round', null, { 'aria-label': '再生' })
+  const t = STRINGS[lang]
+  const play = button(doc, 'bsb-play bsb-round', null, { 'aria-label': t.play })
   const cur = h(doc, 'b', { class: 'bsb-time-cur' }, formatTime(0))
   const total = h(doc, 'span', { class: 'bsb-time-total' }, formatTime(NaN))
   const time = h(doc, 'span', { class: 'bsb-time' }, cur, ' / ', total)
   const frameCur = h(doc, 'b', { class: 'bsb-frame-cur' }, '1')
   const frameTotal = h(doc, 'span', { class: 'bsb-frame-total' }, FRAME_UNKNOWN)
   const frame = o.fpsKnown
-    ? h(doc, 'span', { class: 'bsb-frame', title: `コマ番号 (${formatFps(o.fps)} fps)` }, frameCur, ' / ', frameTotal, ' f')
+    ? h(doc, 'span', { class: 'bsb-frame', title: t.frameTitle(formatFps(o.fps)) }, frameCur, ' / ', frameTotal, ' f')
     : null
   const fill = h(doc, 'div', { class: 'bsb-progress-fill' })
-  const bar = h(doc, 'div', { class: 'bsb-progress', role: 'slider', 'aria-label': '再生位置', 'aria-valuemin': '0', tabindex: '0' }, fill)
+  const bar = h(doc, 'div', { class: 'bsb-progress', role: 'slider', 'aria-label': t.progress, 'aria-valuemin': '0', tabindex: '0' }, fill)
   const speeds = o.rates.map((r) => button(doc, '', `${r}x`, { 'data-rate': String(r) }))
-  const speed = h(doc, 'span', { class: 'bsb-speed', role: 'group', 'aria-label': '再生速度' }, ...speeds)
-  const back = button(doc, 'bsb-step', '‹ 1f', { 'aria-label': '1 フレーム戻る' })
-  const fwd = button(doc, 'bsb-step', '1f ›', { 'aria-label': '1 フレーム進む' })
-  const loop = button(doc, 'bsb-loop', 'ループ')
-  const mute = button(doc, 'bsb-mute', 'ミュート')
+  const speed = h(doc, 'span', { class: 'bsb-speed', role: 'group', 'aria-label': t.speed }, ...speeds)
+  const back = button(doc, 'bsb-step', '‹ 1f', { 'aria-label': t.frameBack })
+  const fwd = button(doc, 'bsb-step', '1f ›', { 'aria-label': t.frameFwd })
+  const loop = button(doc, 'bsb-loop', t.loop)
+  const mute = button(doc, 'bsb-mute', t.mute)
   // file_url comes from the page; only an http(s) URL becomes a link.
   const save = o.fileUrl && /^https?:\/\//i.test(o.fileUrl)
     ? h(
         doc,
         'a',
         { class: 'bsb-save', href: o.fileUrl, download: '' },
-        'mp4 を保存',
+        t.saveMp4,
         positive(o.fileSize) && ' ',
         positive(o.fileSize) && h(doc, 'span', { class: 'bsb-en' }, formatBytes(o.fileSize)),
       )
     : null
-  const full = button(doc, 'bsb-fullscreen', '全画面')
+  const full = button(doc, 'bsb-fullscreen', t.fullscreen)
 
   const syncPlay = () => {
     play.replaceChildren(icon(doc, v.paused ? ICON_PLAY : ICON_PAUSE))
-    play.setAttribute('aria-label', v.paused ? '再生' : '一時停止')
+    play.setAttribute('aria-label', v.paused ? t.play : t.pause)
   }
   const syncTime = () => {
     const d = v.duration
@@ -162,7 +164,7 @@ export function buildPlayer(doc: Document, o: PlayerOptions): HTMLElement {
   }
   const syncLoop = () => loop.setAttribute('aria-pressed', String(v.loop))
   const syncMute = () => {
-    mute.textContent = v.muted ? 'ミュート解除' : 'ミュート'
+    mute.textContent = v.muted ? t.unmute : t.mute
   }
 
   const toggle = () => {

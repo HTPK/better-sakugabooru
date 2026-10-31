@@ -278,3 +278,23 @@ describe('buildPlayer', () => {
     expect(row.querySelector('a.bsb-save')).toBeNull()
   })
 })
+
+describe('buildPlayer in English', () => {
+  it('uses English labels, titles and aria-labels with no Japanese', () => {
+    const doc = new JSDOM(`<div id="s"><video></video></div>`).window.document
+    const video = doc.querySelector('video')!
+    fakeMedia(video)
+    const row = buildPlayer(doc, { video, screen: doc.getElementById('s')!, rates: [1], fps: 24, fpsKnown: true, fileUrl: 'https://x/a.mp4', fileSize: 1048576 }, 'en')
+    expect(row.querySelector('.bsb-play')!.getAttribute('aria-label')).toBe('Play')
+    expect(row.querySelector('.bsb-loop')!.textContent).toBe('Loop')
+    expect(row.querySelector('.bsb-mute')!.textContent).toBe('Mute')
+    expect(row.querySelector('.bsb-save')!.textContent).toBe('Save mp4 1.0 MB')
+    expect(row.querySelector('.bsb-fullscreen')!.textContent).toBe('Fullscreen')
+    expect(row.querySelector('.bsb-frame')!.getAttribute('title')).toBe('Frame number (24 fps)')
+    row.querySelector<HTMLButtonElement>('.bsb-mute')!.click()
+    expect(row.querySelector('.bsb-mute')!.textContent).toBe('Unmute')
+    for (const e of Array.from(row.querySelectorAll('*'))) {
+      for (const a of ['title', 'aria-label']) expect(e.getAttribute(a) ?? '').not.toMatch(/[぀-ヿ一-鿿]/)
+    }
+  })
+})

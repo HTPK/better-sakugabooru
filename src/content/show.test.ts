@@ -403,3 +403,113 @@ describe('renderShow pool notices (post in two pools)', () => {
     expect(side.slice(0, 3)).toEqual(['bsb-show-head', 'bsb-show-pools', 'bsb-tag-panel'])
   })
 })
+
+describe.each(CASES)('renderShow in English mode ($name locale)', ({ html }) => {
+  const JP = /[぀-ヿ一-鿿]/
+  const post = postJson(html)
+  const run = (patch: Partial<Settings> = {}) => {
+    const doc = load(html)
+    const res = renderShow(doc, dict, { ...DEFAULTS, translateTags: true, showRomaji: true, ...patch }, 'en')
+    return { doc, res }
+  }
+  const spacedTag = (t: string) => t.replace(/_/g, ' ')
+
+  it('nav, score row actions, comments and facts labels are English', () => {
+    const { doc } = run()
+    expect(Array.from(doc.querySelectorAll('.bsb-show-head .bsb-show-nav a')).map((a) => a.textContent)).toEqual(['Prev', 'Next', 'Back to list'])
+    expect(doc.querySelector('.bsb-show-nav')!.getAttribute('aria-label')).toBe('Previous and next posts')
+    expect(Array.from(doc.querySelectorAll('.bsb-score-row .bsb-act')).map((b) => txt(b))).toEqual(['Add to favorites', 'Edit tags', 'History'])
+    expect(doc.querySelector('.bsb-comments h2')!.firstChild!.textContent).toBe('Comments')
+    expect(doc.querySelector('label.bsb-comment-label')!.textContent).toBe('Write a comment')
+    expect(doc.querySelector<HTMLInputElement>('.bsb-comment-form input[type="submit"]')!.value).toBe('Post comment')
+    const labels = Array.from(doc.querySelectorAll('.bsb-fact-label')).map((e) => e.textContent)
+    expect(labels).toEqual(expect.arrayContaining(['Uploader', 'Posted', 'Source', 'Rating', 'Size', 'Status']))
+    expect(doc.querySelector('.bsb-crumb')!.textContent).toBe('Posts / #318817')
+  })
+
+  it('formats the posted date with en-US medium date + short time; ja stays numeric', () => {
+    const { doc } = run()
+    const label = Array.from(doc.querySelectorAll('.bsb-show-facts > span.bsb-fact-label')).find((e) => e.textContent === 'Posted')!
+    const expected = new Intl.DateTimeFormat('en-US', { dateStyle: 'medium', timeStyle: 'short' }).format(new Date(post.created_at * 1000))
+    expect(label.nextElementSibling!.textContent).toBe(expected)
+    const ja = load(html)
+    renderShow(ja, dict, DEFAULTS)
+    expect(ja.querySelector('.bsb-show-facts .bsb-en')!.textContent).toMatch(/^\d{4}\/\d{2}\/\d{2} \d{2}:\d{2}$/)
+  })
+
+  it('tag panel shows spaced raw tags with no kana, wiki, untranslated mark or romaji', () => {
+    const { doc } = run()
+    const names = Array.from(doc.querySelectorAll('.bsb-tag-name'))
+    expect(names.length).toBeGreaterThan(3)
+    for (const n of names) {
+      const href = n.closest('a')!.getAttribute('href')!
+      const tag = decodeURIComponent(href.split('tags=')[1])
+      expect(n.textContent).toBe(spacedTag(tag))
+    }
+    for (const sel of ['.bsb-tag-kana', '.bsb-wiki', '.bsb-untranslated', '.bsb-tag-romaji', '.bsb-show-note', '.bsb-propose']) {
+      expect(doc.querySelector(sel), sel).toBeNull()
+    }
+    expect(Array.from(doc.querySelectorAll('.bsb-tag-head')).map((e) => e.textContent)).toEqual(expect.arrayContaining(['Works', 'Artists', 'Techniques']))
+  })
+
+  it('title and lead use spaced tags', () => {
+    const { doc } = run()
+    expect(doc.querySelector('.bsb-show-head h1')!.textContent).toBe('my hero academia / shuu sugita')
+    const lead = doc.querySelector('.bsb-show-head .bsb-lead')!.textContent!
+    expect(lead.startsWith(post.source.trim())).toBe(true)
+    expect(lead).toContain('black and white')
+    expect(lead).not.toContain('_')
+  })
+
+  it('player controls are English and ASCII', () => {
+    const { doc } = run()
+    const row = doc.querySelector('.bsb-player-row')!
+    expect(Array.from(row.querySelectorAll('.bsb-loop, .bsb-mute, .bsb-save, .bsb-fullscreen')).map((e) => e.textContent!.replace(/\s*[\d.]+ MB$/, ''))).toEqual([
+      'Loop',
+      'Mute',
+      'Save mp4',
+      'Fullscreen',
+    ])
+    for (const e of Array.from(row.querySelectorAll('*'))) {
+      for (const a of ['title', 'aria-label']) if (e.hasAttribute(a)) expect(e.getAttribute(a), `${e.className} ${a}`).not.toMatch(JP)
+    }
+  })
+
+  it('adds no Japanese text or attributes under #post-view', () => {
+    const raw = load(html)
+    const known = new Set<string>()
+    const rw = raw.createTreeWalker(raw.getElementById('post-view')!, 1 | 4)
+    for (let n = rw.currentNode as Node | null; n; n = rw.nextNode()) {
+      if (n.nodeType === 3) known.add((n.textContent ?? '').trim())
+      else for (const a of Array.from((n as Element).attributes)) known.add(a.value.trim())
+    }
+    const { doc } = run()
+    const bad: string[] = []
+    const w = doc.createTreeWalker(doc.getElementById('post-view')!, 1 | 4)
+    for (let n = w.currentNode as Node | null; n; n = w.nextNode()) {
+      if (n.nodeType === 3) {
+        const t = (n.textContent ?? '').trim()
+        if (n.parentElement!.closest('script, style')) continue
+        if (JP.test(t) && !known.has(t)) bad.push(t)
+      } else {
+        const el = n as Element
+        if (el.closest('script, style')) continue
+        for (const a of Array.from(el.attributes)) if (JP.test(a.value) && !known.has(a.value.trim())) bad.push(`${a.name}=${a.value}`)
+      }
+    }
+    expect(bad).toEqual([])
+  })
+})
+
+describe('renderShow pool notices in English mode', () => {
+  it('labels the pool block and steps in English', () => {
+    const doc = new JSDOM(fixture('post-show-pool-25197-2026-10-13.html'), { url: 'https://www.sakugabooru.com/post/show/25197' }).window.document
+    renderShow(doc, dict, DEFAULTS, 'en')
+    const sec = doc.querySelector('.bsb-show-pools')!
+    expect(sec.getAttribute('aria-label')).toBe('Pool')
+    expect(sec.querySelector('.bsb-pool-head')!.textContent).toBe('Pool')
+    const steps = Array.from(sec.querySelectorAll('.bsb-pool')).map((r) => Array.from(r.querySelectorAll('.bsb-pool-step')).map((s) => s.textContent))
+    expect(steps.length).toBeGreaterThan(0)
+    for (const s of steps) expect(s).toEqual(['Prev', 'Next'])
+  })
+})
