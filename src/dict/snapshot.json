@@ -150,6 +150,10 @@
       "ja": "小笠原篤",
       "kana": "おがさわら あつし"
     },
+    "atsushi_saito": {
+      "ja": "斎藤敦史",
+      "kana": "さいとう あつし"
+    },
     "atsushi_shigeta": {
       "ja": "重田敦司"
     },
@@ -524,6 +528,10 @@
       "ja": "小原秀一",
       "kana": "おはら ひでかず"
     },
+    "hideki_hamasu": {
+      "ja": "濱洲英喜",
+      "kana": "はます ひでき"
+    },
     "hideki_inoue": {
       "ja": "井上英紀"
     },
@@ -894,9 +902,17 @@
     "jun_yamazaki": {
       "ja": "山崎淳"
     },
+    "junichi_hayama": {
+      "ja": "羽山淳一",
+      "kana": "はやま じゅんいち"
+    },
     "junichi_sato": {
       "ja": "佐藤順一",
       "kana": "さとう じゅんいち"
+    },
+    "junichi_takaoka": {
+      "ja": "高岡淳一",
+      "kana": "たかおか じゅんいち"
     },
     "junichiro_taniguchi": {
       "ja": "谷口淳一郎",
@@ -1136,6 +1152,14 @@
       "ja": "上野ケン",
       "kana": "うえの けん"
     },
+    "ken_yamamoto": {
+      "ja": "山本健",
+      "kana": "やまもと けん"
+    },
+    "kengo_saito": {
+      "ja": "斉藤健吾",
+      "kana": "さいとう けんご"
+    },
     "kenichi_konishi": {
       "ja": "小西賢一",
       "kana": "こにし けんいち"
@@ -1144,6 +1168,14 @@
       "ja": "沓名健一",
       "kana": "くつな けんいち"
     },
+    "kenichi_ohki": {
+      "ja": "大木賢一",
+      "kana": "おおき けんいち"
+    },
+    "kenichi_ohnuki": {
+      "ja": "大貫健一",
+      "kana": "おおぬき けんいち"
+    },
     "kenichi_tsuchiya": {
       "ja": "土屋堅一",
       "kana": "つちや けんいち"
@@ -1151,6 +1183,10 @@
     "kenichi_yoshida": {
       "ja": "吉田健一",
       "kana": "よしだ けんいち"
+    },
+    "kenichiro_katsura": {
+      "ja": "桂憲一郎",
+      "kana": "かつら けんいちろう"
     },
     "kevin_lima": {
       "ja": "ケヴィン・リマ"
@@ -1205,6 +1241,10 @@
     "kouichi_arai": {
       "ja": "新井浩一",
       "kana": "あらい こういち"
+    },
+    "kouichi_motomura": {
+      "ja": "本村晃一",
+      "kana": "もとむら こういち"
     },
     "kouichi_sugitani": {
       "ja": "杉谷光一",
@@ -1469,6 +1509,10 @@
       "ja": "田中将賀",
       "kana": "たなか まさよし"
     },
+    "masayuki": {
+      "ja": "摩砂雪",
+      "kana": "まさゆき"
+    },
     "masayuki_kouda": {
       "ja": "甲田正行",
       "kana": "こうだ まさゆき"
@@ -1485,6 +1529,10 @@
     },
     "max_fleischer": {
       "ja": "マックス・フライシャー"
+    },
+    "mebae": {
+      "ja": "mebae",
+      "kana": "めばえ"
     },
     "megumi_ishitani": {
       "ja": "石谷恵"
@@ -1649,6 +1697,10 @@
     "narumi_kakinouchi": {
       "ja": "垣野内成美",
       "kana": "かきのうち なるみ"
+    },
+    "nekomataya": {
+      "ja": "ねこまたや",
+      "kana": "ねこまたや"
     },
     "noboru_koizumi": {
       "ja": "小泉昇",
@@ -2180,6 +2232,10 @@
     "sunghoo_park": {
       "ja": "朴性厚",
       "kana": "ぱく・そんふ"
+    },
+    "sushio": {
+      "ja": "すしお",
+      "kana": "すしお"
     },
     "susumu_mitsunaka": {
       "ja": "満仲勧"
@@ -14447,6 +14503,7 @@
     "atsushi_ikariya": 270,
     "atsushi_nishigori": 87,
     "atsushi_ogasawara": 9,
+    "atsushi_saito": 57,
     "atsushi_shigeta": 206,
     "atsushi_takeuchi": 32,
     "atsushi_tamura": 65,
@@ -15645,6 +15702,7 @@
     "hideaki_maniwa": 43,
     "hidehiro_asama": 5,
     "hidekazu_ohara": 46,
+    "hideki_hamasu": 166,
     "hideki_inoue": 7,
     "hideki_tachibana": 9,
     "hideki_takahashi": 147,
@@ -15945,7 +16003,9 @@
     "jungle_kurobe": 9,
     "jungle_taitei": 38,
     "jungle_taitei_(1989)": 7,
+    "junichi_hayama": 94,
     "junichi_sato": 14,
+    "junichi_takaoka": 19,
     "junichiro_taniguchi": 14,
     "junkers_come_here": 52,
     "junkers_come_here_(pilot_film)": 16,
@@ -16111,10 +16171,15 @@
     "ken_takahashi": 61,
     "ken_takahashi_(2)": 46,
     "ken_ueno": 55,
+    "ken_yamamoto": 151,
+    "kengo_saito": 72,
     "kenichi_konishi": 70,
     "kenichi_kutsuna": 130,
+    "kenichi_ohki": 125,
+    "kenichi_ohnuki": 10,
     "kenichi_tsuchiya": 60,
     "kenichi_yoshida": 107,
+    "kenichiro_katsura": 48,
     "kenja_no_mago": 20,
     "kenzen_robo_daimidaler": 61,
     "kero_kero_chime": 13,
@@ -16234,6 +16299,7 @@
     "kouchuu_ouja_mushiking:_mori_no_tami_no_densetsu": 39,
     "koufuku_graffiti": 41,
     "kouichi_arai": 134,
+    "kouichi_motomura": 8,
     "kouichi_sugitani": 10,
     "kouichi_taguchi": 8,
     "kouichi_tsunoda": 9,
@@ -16577,6 +16643,7 @@
     "masaya_fujimori": 64,
     "masayoshi_nishida": 25,
     "masayoshi_tanaka": 103,
+    "masayuki": 110,
     "masayuki_kouda": 56,
     "masayuki_kunihiro": 239,
     "masayuki_sato": 39,
@@ -16604,6 +16671,7 @@
     "mazinger_z": 58,
     "mazinger_z:_infinity": 5,
     "mazinkaiser": 143,
+    "mebae": 15,
     "mebius_dust": 18,
     "mecha": 17808,
     "mecha-ude": 29,
@@ -16866,6 +16934,7 @@
     "negaposi_angler": 28,
     "negima": 158,
     "negima!?": 83,
+    "nekomataya": 21,
     "neo_angelique_abyss": 10,
     "neo_human_casshern": 11,
     "neo_ranga": 84,
@@ -17844,6 +17913,7 @@
     "superman_the_animated_series": 25,
     "surveillance_kanshisha": 18,
     "survival_series": 8,
+    "sushio": 330,
     "susumu_mitsunaka": 6,
     "suzume_no_tojimari": 107,
     "sword_art_online": 116,
@@ -19056,6 +19126,6 @@
       "ja": "風"
     }
   },
-  "updated": "2026-10-30",
+  "updated": "2026-11-01",
   "v": 1
 }

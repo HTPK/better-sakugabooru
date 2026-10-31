@@ -6,6 +6,9 @@ needs_review entries (excluded from dist). Fix via data/overrides.json.
 |---|---|---|---|
 | primal | プライマル | wikidata:Q70106936 | 178 |
 | jem | ジェム | wikidata:Q2468339 | 113 |
+| yuki_kikuchi | きくちゆうき | wikidata:Q89449258 | 79 |
+| wataru_uekusa | 植草航 | wikidata:Q21699139 | 76 |
+| shinya_yamamoto | 山本晋也 | wikidata:Q11469113 | 68 |
 | makoto_nakamura | 中村誠 | wikidata:Q6739958 | 61 |
 | yuki_suzuki | 鈴木幸江 | wikidata:Q137637708 | 61 |
 | ryan_white | ライアン・ホワイト | wikidata:Q30122901 | 37 |
@@ -15,6 +18,7 @@ needs_review entries (excluded from dist). Fix via data/overrides.json.
 | atsushi_mori | 森敦司 | wikidata:Q11539720 | 32 |
 | john_mcdermott | ジョン・マクダーモット | wikidata:Q60675849 | 31 |
 | judge_whitaker | ジャッジ・ウィッテカー | wikidata:Q3187955 | 31 |
+| tomomi_sato | 佐藤智美 | wikidata:Q11384119 | 30 |
 | kyung_mi_lee | イ・ギョンミ | wikidata:Q18815676 | 29 |
 | yang_xiao | 肖央 | wikidata:Q97352332 | 28 |
 | joe_johnston | ジョー・ジョンストン | wikidata:Q352948 | 26 |
@@ -37,9 +41,12 @@ needs_review entries (excluded from dist). Fix via data/overrides.json.
 | 1001_nights_(1998) | 千夜一夜物語 (1998) | wikidata:Q3478808 | 11 |
 | ben_thomas | トーマス・ベントレー | wikidata:Q7787584 | 10 |
 | harold_walker | ハル・ウォーカー | wikidata:Q1570158 | 10 |
+| yusuke_murata | 村田雄介 | wikidata:Q2602377 | 10 |
 | borge_ring | ボルゲ・リング | wikidata:Q12304852 | 9 |
+| hiromi_suzuki | 鈴木博美 | wikidata:Q5770546 | 9 |
 | tatsuya_mori | 森達也 | wikidata:Q4302696 | 9 |
 | a_better_tomorrow | 男たちの挽歌 | wikidata:Q641346 | 9 |
+| masashi_kishimoto | 岸本斉史 | wikidata:Q1993 | 8 |
 | blossom | ブロッサム | wikidata:Q885450 | 8 |
 | piece_(mv) | Piece | wikidata:Q626358 | 8 |
 | the_future_(mv) | ザ・フューチャー | wikidata:Q442353 | 8 |
@@ -63,6 +70,8 @@ needs_review entries (excluded from dist). Fix via data/overrides.json.
 | daisuke_ito | 伊藤大輔 | wikidata:Q171601 | 5 |
 | elinor_blake | エイプリル・マーチ | wikidata:Q2468088 | 5 |
 | junha_kim | キム・ジュンハン | wikidata:Q47600523 | 5 |
+| kenichi_chikanaga | 近永健一 | wikidata:Q11638449 | 5 |
+| kentaro_miura | 三浦建太郎 | wikidata:Q715725 | 5 |
 | makoto_itou | 伊藤誠 | wikidata:Q11380430 | 5 |
 | dreamland | クライシス | wikidata:Q65119650 | 5 |
 | instinct | インスティンクト -異常犯罪捜査- | wikidata:Q30607999 | 5 |

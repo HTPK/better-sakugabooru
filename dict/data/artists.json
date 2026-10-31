@@ -1025,9 +1025,11 @@
     "src": "wikidata:Q4817821"
   },
   "atsushi_saito": {
-    "ja": null,
-    "needs_review": true,
-    "src": "wikidata:none"
+    "count": 57,
+    "ja": "斎藤敦史",
+    "kana": "さいとう あつし",
+    "needs_review": false,
+    "src": "wikidata:Q140161241"
   },
   "atsushi_sekiguchi": {
     "ja": null,
@@ -3910,9 +3912,11 @@
     "src": "wikidata:Q11459258"
   },
   "hideki_hamasu": {
-    "ja": null,
-    "needs_review": true,
-    "src": "wikidata:none"
+    "count": 166,
+    "ja": "濱洲英喜",
+    "kana": "はます ひでき",
+    "needs_review": false,
+    "src": "wikidata:Q20042328"
   },
   "hideki_hamazaki": {
     "ja": null,
@@ -4350,9 +4354,11 @@
     "src": "wikidata:none"
   },
   "hiromi_suzuki": {
-    "ja": null,
+    "count": 9,
+    "ja": "鈴木博美",
+    "kana": "すずき ひろみ",
     "needs_review": true,
-    "src": "wikidata:none"
+    "src": "wikidata:Q5770546"
   },
   "hiromitsu_hagiwara": {
     "ja": null,
@@ -6035,9 +6041,11 @@
     "src": "wikidata:Q47600523"
   },
   "junichi_hayama": {
-    "ja": null,
-    "needs_review": true,
-    "src": "wikidata:none"
+    "count": 94,
+    "ja": "羽山淳一",
+    "kana": "はやま じゅんいち",
+    "needs_review": false,
+    "src": "wikidata:Q11610086"
   },
   "junichi_sato": {
     "count": 14,
@@ -6047,9 +6055,11 @@
     "src": "wikidata:Q142052"
   },
   "junichi_takaoka": {
-    "ja": null,
-    "needs_review": true,
-    "src": "wikidata:none"
+    "count": 19,
+    "ja": "高岡淳一",
+    "kana": "たかおか じゅんいち",
+    "needs_review": false,
+    "src": "wikidata:Q11669527"
   },
   "junichiro_taniguchi": {
     "count": 14,
@@ -7201,9 +7211,11 @@
     "src": "wikidata:none"
   },
   "ken_yamamoto": {
-    "ja": null,
-    "needs_review": true,
-    "src": "wikidata:none"
+    "count": 151,
+    "ja": "山本健",
+    "kana": "やまもと けん",
+    "needs_review": false,
+    "src": "wikidata:Q140078523"
   },
   "kengo_matsumoto": {
     "ja": null,
@@ -7211,9 +7223,11 @@
     "src": "wikidata:none"
   },
   "kengo_saito": {
-    "ja": null,
-    "needs_review": true,
-    "src": "wikidata:none"
+    "count": 72,
+    "ja": "斉藤健吾",
+    "kana": "さいとう けんご",
+    "needs_review": false,
+    "src": "wikidata:Q109598882"
   },
   "kengo_takehana": {
     "ja": null,
@@ -7221,9 +7235,11 @@
     "src": "wikidata:none"
   },
   "kenichi_chikanaga": {
-    "ja": null,
+    "count": 5,
+    "ja": "近永健一",
+    "kana": "ちかなが けんいち",
     "needs_review": true,
-    "src": "wikidata:none"
+    "src": "wikidata:Q11638449"
   },
   "kenichi_fujisawa": {
     "ja": null,
@@ -7250,14 +7266,18 @@
     "src": "wikidata:Q62085477"
   },
   "kenichi_ohki": {
-    "ja": null,
-    "needs_review": true,
-    "src": "wikidata:none"
+    "count": 125,
+    "ja": "大木賢一",
+    "kana": "おおき けんいち",
+    "needs_review": false,
+    "src": "wikidata:Q17686158"
   },
   "kenichi_ohnuki": {
-    "ja": null,
-    "needs_review": true,
-    "src": "wikidata:none"
+    "count": 10,
+    "ja": "大貫健一",
+    "kana": "おおぬき けんいち",
+    "needs_review": false,
+    "src": "wikidata:Q11439211"
   },
   "kenichi_shimizu": {
     "ja": null,
@@ -7299,9 +7319,11 @@
     "src": "wikidata:none"
   },
   "kenichiro_katsura": {
-    "ja": null,
-    "needs_review": true,
-    "src": "wikidata:none"
+    "count": 48,
+    "ja": "桂憲一郎",
+    "kana": "かつら けんいちろう",
+    "needs_review": false,
+    "src": "wikidata:Q11536688"
   },
   "kenji_hachizaki": {
     "ja": null,
@@ -7404,9 +7426,11 @@
     "src": "wikidata:none"
   },
   "kentaro_miura": {
-    "ja": null,
+    "count": 5,
+    "ja": "三浦建太郎",
+    "kana": "みうら けんたろう",
     "needs_review": true,
-    "src": "wikidata:none"
+    "src": "wikidata:Q715725"
   },
   "kentaro_shibuya": {
     "ja": null,
@@ -7810,9 +7834,11 @@
     "src": "wikidata:none"
   },
   "kouichi_motomura": {
-    "ja": null,
-    "needs_review": true,
-    "src": "wikidata:none"
+    "count": 8,
+    "ja": "本村晃一",
+    "kana": "もとむら こういち",
+    "needs_review": false,
+    "src": "wikidata:Q130320164"
   },
   "kouichi_shimoda": {
     "ja": null,
@@ -9223,9 +9249,11 @@
     "src": "wikidata:none"
   },
   "masashi_kishimoto": {
-    "ja": null,
+    "count": 8,
+    "ja": "岸本斉史",
+    "kana": "きしもと まさし",
     "needs_review": true,
-    "src": "wikidata:none"
+    "src": "wikidata:Q1993"
   },
   "masashi_kudo": {
     "count": 45,
@@ -9348,6 +9376,13 @@
     "ja": null,
     "needs_review": true,
     "src": "wikidata:none"
+  },
+  "masayuki": {
+    "count": 110,
+    "ja": "摩砂雪",
+    "kana": "まさゆき",
+    "needs_review": false,
+    "src": "wikidata:Q9188927"
   },
   "masayuki_kobayashi": {
     "ja": null,
@@ -9485,6 +9520,13 @@
     "ja": null,
     "needs_review": true,
     "src": "wikidata:none"
+  },
+  "mebae": {
+    "count": 15,
+    "ja": "mebae",
+    "kana": "めばえ",
+    "needs_review": false,
+    "src": "wikidata:Q11232892"
   },
   "megumi_ishitani": {
     "count": 10,
@@ -10532,6 +10574,13 @@
     "ja": null,
     "needs_review": true,
     "src": "wikidata:none"
+  },
+  "nekomataya": {
+    "count": 21,
+    "ja": "ねこまたや",
+    "kana": "ねこまたや",
+    "needs_review": false,
+    "src": "wikidata:Q11275019"
   },
   "nezar_alsabbagh": {
     "ja": null,
@@ -13248,9 +13297,11 @@
     "src": "wikidata:none"
   },
   "shinya_yamamoto": {
-    "ja": null,
+    "count": 68,
+    "ja": "山本晋也",
+    "kana": "やまもと しんや",
     "needs_review": true,
-    "src": "wikidata:none"
+    "src": "wikidata:Q11469113"
   },
   "shiori_araki": {
     "ja": null,
@@ -13888,6 +13939,13 @@
     "kana": "ぱく・そんふ",
     "needs_review": false,
     "src": "wikidata:Q99916671"
+  },
+  "sushio": {
+    "count": 330,
+    "ja": "すしお",
+    "kana": "すしお",
+    "needs_review": false,
+    "src": "wikidata:Q11269657"
   },
   "susumu_matsunaga": {
     "ja": null,
@@ -15454,9 +15512,11 @@
     "src": "wikidata:none"
   },
   "tomomi_sato": {
-    "ja": null,
+    "count": 30,
+    "ja": "佐藤智美",
+    "kana": "さとう ともみ",
     "needs_review": true,
-    "src": "wikidata:none"
+    "src": "wikidata:Q11384119"
   },
   "tomonori_kogawa": {
     "count": 54,
@@ -16201,9 +16261,11 @@
     "src": "wikidata:none"
   },
   "wataru_uekusa": {
-    "ja": null,
+    "count": 76,
+    "ja": "植草航",
+    "kana": "うえくさ わたる",
     "needs_review": true,
-    "src": "wikidata:none"
+    "src": "wikidata:Q21699139"
   },
   "wataru_yamamoto": {
     "ja": null,
@@ -17398,9 +17460,11 @@
     "src": "wikidata:none"
   },
   "yuki_kikuchi": {
-    "ja": null,
+    "count": 79,
+    "ja": "きくちゆうき",
+    "kana": "きくち ゆうき",
     "needs_review": true,
-    "src": "wikidata:none"
+    "src": "wikidata:Q89449258"
   },
   "yuki_komatsu": {
     "ja": null,
@@ -17735,9 +17799,11 @@
     "src": "wikidata:none"
   },
   "yusuke_murata": {
-    "ja": null,
+    "count": 10,
+    "ja": "村田雄介",
+    "kana": "むらた ゆうすけ",
     "needs_review": true,
-    "src": "wikidata:none"
+    "src": "wikidata:Q2602377"
   },
   "yusuke_oshida": {
     "ja": null,
