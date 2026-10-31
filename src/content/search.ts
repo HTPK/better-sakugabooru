@@ -123,7 +123,7 @@ export function attachSearch(doc: Document, dict: Dict, settings: Settings, lang
           h(doc, 'span', { class: 'bsb-sg-ja' }, lang === 'en' ? spaced(s.tag) : s.ja),
           hasCount(dict, s.tag) ? h(doc, 'span', { class: 'bsb-sg-count' }, String(s.count)) : null,
           lang === 'en' ? null : h(doc, 'span', { class: 'bsb-sg-romaji' }, spaced(s.tag)),
-          s.kana ? h(doc, 'span', { class: 'bsb-sg-kana' }, s.kana) : null,
+          s.kana && lang !== 'en' ? h(doc, 'span', { class: 'bsb-sg-kana' }, s.kana) : null,
         ),
       ),
     )

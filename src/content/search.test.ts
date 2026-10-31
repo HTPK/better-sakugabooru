@@ -217,6 +217,7 @@ describe('attachSearch', () => {
     expect(rows()[0].dataset.tag).toBe('yoshinori_kanada')
     expect(rows()[0].querySelector('.bsb-sg-ja')!.textContent).toBe('yoshinori kanada')
     expect(rows()[0].querySelector('.bsb-sg-romaji')).toBeNull()
+    expect(rows()[0].querySelector('.bsb-sg-kana')).toBeNull()
     type('kanada')
     expect(rows().map((x) => x.dataset.tag)).toContain('yoshinori_kanada')
   })
