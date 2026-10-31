@@ -1,5 +1,5 @@
 import type { Settings } from '../settings'
-import { detectLang, type Lang } from '../i18n'
+import { detectLang, STRINGS, type Lang } from '../i18n'
 import { h } from './render'
 import headerCss from './header.css?inline'
 
@@ -31,8 +31,6 @@ const MENU_SITE_JA: Record<string, string> = {
 /** Exact top-level labels of either locale mapped to ours. */
 const MENU_JA: Record<string, string> = { ...MENU_SITE_JA, ...MENU_EN }
 const UPLOAD_LABELS = new Set(['Upload', 'アップロード'])
-const UPLOAD_JA = '動画を投稿'
-const SEARCH_JA = '検索'
 
 function injectHeaderStyle(doc: Document): void {
   if (doc.getElementById('bsb-header')) return
@@ -53,7 +51,7 @@ function localeHref(doc: Document, locale: 'ja' | 'en'): string {
   return u.pathname + u.search + u.hash
 }
 
-function langSwitch(doc: Document, served: 'ja' | 'en'): HTMLElement {
+function langSwitch(doc: Document, served: 'ja' | 'en', label: string): HTMLElement {
   const link = (locale: 'ja' | 'en', label: string) =>
     h(
       doc,
@@ -61,42 +59,43 @@ function langSwitch(doc: Document, served: 'ja' | 'en'): HTMLElement {
       { href: localeHref(doc, locale), lang: locale, class: served === locale ? 'bsb-current' : undefined },
       label,
     )
-  return h(doc, 'nav', { class: 'bsb-lang', 'aria-label': '表示言語' }, link('ja', 'JP'), h(doc, 'span', { class: 'bsb-lang-sep' }, '|'), link('en', 'EN'))
+  return h(doc, 'nav', { class: 'bsb-lang', 'aria-label': label }, link('ja', 'JP'), h(doc, 'span', { class: 'bsb-lang-sep' }, '|'), link('en', 'EN'))
 }
 
-function searchForm(header: Element): HTMLFormElement | null {
+function searchForm(header: Element, lang: Lang): HTMLFormElement | null {
+  const t = STRINGS[lang]
   const form = Array.from(header.querySelectorAll('form')).find((f) => f.querySelector('input[name="tags"]'))
   if (!form) return null
   const box = form.closest('ul.search-box')
   form.classList.add('bsb-search-form')
   const input = form.querySelector<HTMLInputElement>('input[name="tags"]')
-  if (input && !input.placeholder) input.placeholder = '作画者・作品・技法を日本語で'
+  if (input && !input.placeholder) input.placeholder = t.searchPlaceholder
+  if (input && lang === 'en') input.setAttribute('aria-label', t.search)
   const submit = form.querySelector<HTMLElement>('input[type="submit"], button[type="submit"], button:not([type])')
   if (submit) {
     submit.classList.add('bsb-primary', 'bsb-pill')
     // Our search pill, whatever the site called it ("Search Posts" / "投稿を検索").
     // tagName, not instanceof: the document may come from another realm (iframe, jsdom).
     if (submit.tagName === 'INPUT') {
-      ;(submit as HTMLInputElement).value = SEARCH_JA
-      if (submit.hasAttribute('data-disable-with')) submit.setAttribute('data-disable-with', SEARCH_JA)
-    } else submit.textContent = SEARCH_JA
+      ;(submit as HTMLInputElement).value = t.search
+      if (submit.hasAttribute('data-disable-with')) submit.setAttribute('data-disable-with', t.search)
+    } else submit.textContent = t.search
   }
   // The dropdown panel that held the form is now empty; hide it rather than remove it.
   if (box) box.classList.add('bsb-hide')
   return form
 }
 
-function uploadLink(header: Element): HTMLAnchorElement | null {
+function uploadLink(header: Element, lang: Lang): HTMLAnchorElement | null {
   const a = header.querySelector<HTMLAnchorElement>('a[href="/post/upload"]')
   if (!a) return null
   const li = a.parentElement?.tagName === 'LI' ? a.parentElement : null
   a.classList.add('bsb-pill', 'bsb-upload')
-  if (UPLOAD_LABELS.has(a.textContent?.trim() ?? '')) a.textContent = UPLOAD_JA
+  if (UPLOAD_LABELS.has(a.textContent?.trim() ?? '')) a.textContent = STRINGS[lang].upload
   if (li && li.children.length === 1) li.classList.add('bsb-hide')
   return a
 }
 
-const MORE_JA = 'その他'
 /** Site menu items folded under our その他 dropdown, by the site's li class. */
 const FOLDED = ['blog', 'patreon', 'static']
 
@@ -105,7 +104,7 @@ const FOLDED = ['blog', 'patreon', 'static']
  * hides the site's language item (our JP|EN replaces it), and returns the account li, detached,
  * so the caller can put it at the right end of the bar.
  */
-function reshapeMenu(doc: Document, menu: Element): HTMLLIElement | null {
+function reshapeMenu(doc: Document, menu: Element, moreLabel: string): HTMLLIElement | null {
   const ul = menu.querySelector(':scope > ul')
   if (!ul) return null
   const item = (cls: string) => ul.querySelector<HTMLLIElement>(`:scope > li.${cls}`)
@@ -117,7 +116,7 @@ function reshapeMenu(doc: Document, menu: Element): HTMLLIElement | null {
       doc,
       'li',
       { class: 'bsb-menu-more' },
-      h(doc, 'a', { href: '#', class: 'bsb-menu-more-toggle', 'aria-haspopup': 'true' }, MORE_JA),
+      h(doc, 'a', { href: '#', class: 'bsb-menu-more-toggle', 'aria-haspopup': 'true' }, moreLabel),
       panel,
     )
     more.querySelector('a')!.addEventListener('click', (e) => e.preventDefault())
@@ -129,14 +128,15 @@ function reshapeMenu(doc: Document, menu: Element): HTMLLIElement | null {
   return account
 }
 
-export function renderHeader(doc: Document, _settings: Settings, _lang: Lang = 'ja'): void {
+export function renderHeader(doc: Document, _settings: Settings, lang: Lang = 'ja'): void {
   const header = doc.getElementById('header')
   if (!header || header.hasAttribute('data-bsb-done')) return
   header.setAttribute('data-bsb-done', '')
   injectHeaderStyle(doc)
 
   const menu = doc.getElementById('main-menu')
-  const served = detectLang(doc)
+  const served = lang === 'en' ? 'en' : detectLang(doc)
+  const t = STRINGS[lang]
 
   header.classList.add('bsb-header')
   doc.getElementById('title')?.classList.add('bsb-hide')
@@ -144,19 +144,21 @@ export function renderHeader(doc: Document, _settings: Settings, _lang: Lang = '
   const bar = h(doc, 'div', { class: 'bsb-bar' }, h(doc, 'a', { class: 'bsb-logo', href: '/post' }, 'sakugabooru'))
   const end = h(doc, 'div', { class: 'bsb-bar-end' })
   // Pull the form and upload link before the menu moves, so lookups stay inside #header.
-  const form = searchForm(header)
-  const upload = uploadLink(header)
+  const form = searchForm(header, lang)
+  const upload = uploadLink(header, lang)
   let account: HTMLLIElement | null = null
   if (menu) {
-    for (const a of topLinks(menu)) {
-      const t = a.textContent?.trim() ?? ''
-      if (Object.hasOwn(MENU_JA, t)) a.textContent = MENU_JA[t]
+    if (lang === 'ja') {
+      for (const a of topLinks(menu)) {
+        const label = a.textContent?.trim() ?? ''
+        if (Object.hasOwn(MENU_JA, label)) a.textContent = MENU_JA[label]
+      }
     }
-    account = reshapeMenu(doc, menu)
+    account = reshapeMenu(doc, menu, t.menuMore)
     bar.append(menu)
   }
   if (form) end.append(form)
-  end.append(langSwitch(doc, served))
+  end.append(langSwitch(doc, served, t.langSwitchLabel))
   if (upload) end.append(upload)
   if (account) end.append(h(doc, 'ul', { class: 'bsb-account' }, account))
   bar.append(end)

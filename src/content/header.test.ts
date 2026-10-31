@@ -146,6 +146,35 @@ describe.each(CASES)('renderHeader on $name', ({ html, url, served }) => {
   })
 })
 
+describe('renderHeader in EN mode', () => {
+  const run = () => {
+    const doc = load(CASES[0].html, CASES[0].url)
+    renderHeader(doc, DEFAULTS, 'en')
+    return doc
+  }
+  it('keeps the site English menu labels', () => {
+    const doc = run()
+    const top = Array.from(
+      doc.querySelectorAll('#main-menu > ul > li:not(.bsb-hide) > a:first-child, .bsb-account > li > a:first-child'),
+    ).map((a) => a.textContent)
+    expect(top).toEqual(expect.arrayContaining(['Posts', 'Comments', 'Notes', 'Artists', 'Tags', 'Pools', 'Wiki', 'Forum', 'Help', 'My Account', 'More']))
+    expect(top.join('')).not.toMatch(/[぀-ヿ一-鿿]/)
+  })
+  it('uses English upload, search and aria labels', () => {
+    const doc = run()
+    expect(doc.querySelector('.bsb-bar a.bsb-upload')!.textContent).toBe('Upload')
+    const form = doc.querySelector<HTMLFormElement>('.bsb-search-form')!
+    expect(form.querySelector<HTMLInputElement>('input[type="submit"]')!.value).toBe('Search')
+    expect(form.querySelector('input[name="tags"]')!.getAttribute('aria-label')).toBe('Search')
+    expect(doc.querySelector('nav.bsb-lang')!.getAttribute('aria-label')).toBe('Language')
+    expect(doc.querySelector('nav.bsb-lang a.bsb-current')!.textContent).toBe('EN')
+    const text = Array.from(doc.querySelectorAll('.bsb-bar [placeholder], .bsb-bar [aria-label]'))
+      .map((e) => `${e.getAttribute('placeholder') ?? ''}${e.getAttribute('aria-label') ?? ''}`)
+      .join('')
+    expect(text).not.toMatch(/[぀-ヿ一-鿿]/)
+  })
+})
+
 describe('renderHeader on a Japanese page', () => {
   it('trusts html lang=ja for the current-language marker', () => {
     const doc = load(CASES[0].html, CASES[0].url)
