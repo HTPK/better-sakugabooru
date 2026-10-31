@@ -58,15 +58,6 @@ export function untranslated(doc: Document, tag: string): Node[] {
   return [h(doc, 'span', { class: 'bsb-raw' }, tag), untranslatedMark(doc, tag)]
 }
 
-function pad2(n: number): string {
-  return String(n).padStart(2, '0')
-}
-
-function shortDate(epochSec: number): string {
-  const d = new Date(epochSec * 1000)
-  return `${pad2(d.getMonth() + 1)}/${pad2(d.getDate())}`
-}
-
 interface Ctx {
   doc: Document
   dict: Dict
@@ -123,7 +114,6 @@ function metaRow(ctx: Ctx, post: Post): HTMLElement {
     'div',
     { class: 'bsb-row bsb-meta bsb-en' },
     h(doc, 'span', { class: 'bsb-score' }, `${post.score} pt`),
-    h(doc, 'span', { class: 'bsb-date' }, shortDate(post.createdAt)),
   )
 }
 

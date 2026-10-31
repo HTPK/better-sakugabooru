@@ -105,12 +105,12 @@ describe('renderList', () => {
     }
   })
 
-  it('shows score and zero-padded local date', () => {
+  it('shows the score only (no posting date)', () => {
     const { doc } = run()
     const meta = cards(doc)[0].querySelector('.bsb-meta')!
     const spans = meta.querySelectorAll('span')
+    expect(spans).toHaveLength(1)
     expect(spans[0].textContent).toBe('9 pt')
-    expect(spans[1].textContent).toMatch(/^\d{2}\/\d{2}$/)
   })
 
   it('follows thumbSize for data-cols', () => {
@@ -558,8 +558,9 @@ describe('renderList in English mode', () => {
     expect(doc.querySelector('.sidebar')!.textContent).not.toMatch(JP)
   })
 
-  it('shortDate stays numeric (locale neutral)', () => {
+  it('cards show the score but no posting date', () => {
     const doc = runEn()
-    expect(doc.querySelector('.bsb-date')!.textContent).toMatch(/^\d\d\/\d\d$/)
+    expect(doc.querySelector('.bsb-score')!.textContent).toMatch(/^\d+ pt$/)
+    expect(doc.querySelector('.bsb-date')).toBeNull()
   })
 })
