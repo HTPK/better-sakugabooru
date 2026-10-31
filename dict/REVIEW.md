@@ -10,7 +10,6 @@ needs_review entries (excluded from dist). Fix via data/overrides.json.
 | wataru_uekusa | 植草航 | wikidata:Q21699139 | 76 |
 | shinya_yamamoto | 山本晋也 | wikidata:Q11469113 | 68 |
 | makoto_nakamura | 中村誠 | wikidata:Q6739958 | 61 |
-| yuki_suzuki | 鈴木幸江 | wikidata:Q137637708 | 61 |
 | ryan_white | ライアン・ホワイト | wikidata:Q30122901 | 37 |
 | the_lovers | タイム・ラヴァーズ　時空を繋ぐ指輪の物語 | wikidata:Q172260 | 37 |
 | akira_iwamoto | 岩本晶 | wikidata:Q11475115 | 36 |

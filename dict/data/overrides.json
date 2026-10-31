@@ -5,6 +5,13 @@
     "src": "wikidata:Q159851",
     "type": "copyright"
   },
+  "10+10": {
+    "count": 79,
+    "ja": "10＋10",
+    "needs_review": false,
+    "src": "atwiki:2147",
+    "type": "artist"
+  },
   "101_dalmatians": {
     "ja": "101匹わんちゃん",
     "needs_review": false,
@@ -53,11 +60,123 @@
     "src": "manual",
     "type": "copyright"
   },
+  "aito_ohashi": {
+    "count": 203,
+    "ja": "大橋藍人",
+    "kana": "おおはし あいと",
+    "needs_review": false,
+    "src": "atwiki:1909",
+    "type": "artist"
+  },
+  "akiharu_ishii": {
+    "count": 14,
+    "ja": "石井明治",
+    "kana": "いしい あきはる",
+    "needs_review": false,
+    "src": "atwiki:1726",
+    "type": "artist"
+  },
+  "akihiro_okuzawa": {
+    "count": 30,
+    "ja": "奥澤明裕",
+    "kana": "おくざわ あきひろ",
+    "needs_review": false,
+    "src": "atwiki:1429",
+    "type": "artist"
+  },
+  "akihiro_tamagawa": {
+    "count": 42,
+    "ja": "玉川明洋",
+    "kana": "たまがわ あきひろ",
+    "needs_review": false,
+    "src": "atwiki:1184",
+    "type": "artist"
+  },
+  "akihiro_tsuda": {
+    "count": 13,
+    "ja": "津田昭宏",
+    "kana": "つだ あきひろ",
+    "needs_review": false,
+    "src": "atwiki:1427",
+    "type": "artist"
+  },
+  "akihito_sudou": {
+    "count": 41,
+    "ja": "須藤瑛仁",
+    "kana": "すどう あきひと",
+    "needs_review": false,
+    "src": "atwiki:2221",
+    "type": "artist"
+  },
+  "akiko_kudo": {
+    "count": 35,
+    "ja": "工藤晃子",
+    "kana": "くどう あきこ",
+    "needs_review": false,
+    "src": "atwiki:2158",
+    "type": "artist"
+  },
+  "akiko_takase": {
+    "count": 21,
+    "ja": "高瀬亜貴子",
+    "kana": "たかせ あきこ",
+    "needs_review": false,
+    "src": "atwiki:1926",
+    "type": "artist"
+  },
+  "akiko_toyoda": {
+    "count": 34,
+    "ja": "豊田暁子",
+    "kana": "とよだ あきこ",
+    "needs_review": false,
+    "src": "atwiki:1826",
+    "type": "artist"
+  },
+  "akiko_yamaguchi": {
+    "count": 21,
+    "ja": "山口明子",
+    "kana": "やまぐち あきこ",
+    "needs_review": false,
+    "src": "atwiki:1194",
+    "type": "artist"
+  },
   "akira": {
     "ja": "AKIRA",
     "needs_review": false,
     "src": "wikidata:Q1905968",
     "type": "copyright"
+  },
+  "akira_hamaguchi": {
+    "count": 304,
+    "ja": "濱口明",
+    "kana": "はまぐち あきら",
+    "needs_review": false,
+    "src": "atwiki:1543",
+    "type": "artist"
+  },
+  "akira_kikuchi": {
+    "count": 109,
+    "ja": "菊池晃",
+    "kana": "きくち あきら",
+    "needs_review": false,
+    "src": "atwiki:1138",
+    "type": "artist"
+  },
+  "akira_matsui": {
+    "count": 37,
+    "ja": "松井章",
+    "kana": "まつい あきら",
+    "needs_review": false,
+    "src": "atwiki:1596",
+    "type": "artist"
+  },
+  "akira_takata": {
+    "count": 14,
+    "ja": "高田晃",
+    "kana": "たかた あきら",
+    "needs_review": false,
+    "src": "atwiki:803",
+    "type": "artist"
   },
   "aladdin": {
     "ja": "アラジン",
@@ -229,6 +348,14 @@
     "src": "manual",
     "type": "copyright"
   },
+  "arifumi_imai": {
+    "count": 251,
+    "ja": "今井有文",
+    "kana": "いまい ありふみ",
+    "needs_review": false,
+    "src": "atwiki:1669",
+    "type": "artist"
+  },
   "arknights_tv_series": {
     "ja": "アークナイツ シリーズ",
     "needs_review": false,
@@ -272,6 +399,46 @@
     "src": "manual",
     "type": "copyright"
   },
+  "atsuki_shimizu": {
+    "count": 88,
+    "ja": "清水厚貴",
+    "kana": "しみず あつき",
+    "needs_review": false,
+    "src": "atwiki:1410",
+    "type": "artist"
+  },
+  "atsuko_inoue": {
+    "count": 89,
+    "ja": "井上敦子",
+    "kana": "いのうえ あつこ",
+    "needs_review": false,
+    "src": "atwiki:560",
+    "type": "artist"
+  },
+  "atsuko_nozaki": {
+    "count": 91,
+    "ja": "野崎温子",
+    "kana": "のざき あつこ",
+    "needs_review": false,
+    "src": "atwiki:718",
+    "type": "artist"
+  },
+  "atsuko_otani": {
+    "count": 32,
+    "ja": "大谷敦子",
+    "kana": "おおたに あつこ",
+    "needs_review": false,
+    "src": "atwiki:1458",
+    "type": "artist"
+  },
+  "atsushi_hasebe": {
+    "count": 21,
+    "ja": "長谷部敦志",
+    "kana": "はせべ あつし",
+    "needs_review": false,
+    "src": "atwiki:1643",
+    "type": "artist"
+  },
   "atsushi_ikariya": {
     "count": 0,
     "ja": "碇谷敦",
@@ -280,19 +447,27 @@
     "src": "manual",
     "type": "artist"
   },
+  "atsushi_sekiguchi": {
+    "count": 27,
+    "ja": "関口淳",
+    "kana": "せきぐち あつし",
+    "needs_review": false,
+    "src": "atwiki:1472",
+    "type": "artist"
+  },
   "atsushi_yano": {
     "ja": "矢野篤",
+    "kana": "やの あつし",
     "needs_review": false,
-    "type": "artist",
     "src": "wikidata:Q11584421",
-    "kana": "やの あつし"
+    "type": "artist"
   },
   "atsuya_uki": {
     "ja": "宇木敦哉",
+    "kana": "うき あつや",
     "needs_review": false,
-    "type": "artist",
     "src": "wikidata:Q11449435",
-    "kana": "うき あつや"
+    "type": "artist"
   },
   "avatar:_the_last_airbender": {
     "ja": "アバター 伝説の少年アン",
@@ -309,8 +484,32 @@
   "awake_(mv)": {
     "ja": "AWAKE",
     "needs_review": false,
-    "type": "copyright",
-    "src": "manual:research-2026-10-30"
+    "src": "manual:research-2026-10-30",
+    "type": "copyright"
+  },
+  "aya_suzuki": {
+    "count": 42,
+    "ja": "鈴木亜矢",
+    "kana": "すずき あや",
+    "needs_review": false,
+    "src": "atwiki:1583",
+    "type": "artist"
+  },
+  "ayaka_minoshima": {
+    "count": 60,
+    "ja": "簑島綾香",
+    "kana": "みのしま あやか",
+    "needs_review": false,
+    "src": "atwiki:2241",
+    "type": "artist"
+  },
+  "ayako_hata": {
+    "count": 77,
+    "ja": "秦綾子",
+    "kana": "はた あやこ",
+    "needs_review": false,
+    "src": "atwiki:536",
+    "type": "artist"
   },
   "azumanga_daioh": {
     "ja": "あずまんが大王",
@@ -347,6 +546,13 @@
     "needs_review": false,
     "src": "wikidata:Q102109929",
     "type": "copyright"
+  },
+  "bahi_jd": {
+    "count": 219,
+    "ja": "Bahi JD",
+    "needs_review": false,
+    "src": "atwiki:1719",
+    "type": "artist"
   },
   "bakemonogatari": {
     "ja": "化物語",
@@ -507,8 +713,8 @@
   "black_dynamite": {
     "ja": "ブラック・ダイナマイト",
     "needs_review": false,
-    "type": "copyright",
-    "src": "wikidata:Q4920709"
+    "src": "wikidata:Q4920709",
+    "type": "copyright"
   },
   "black_jack": {
     "ja": "ブラック・ジャック",
@@ -561,8 +767,8 @@
   "bob_carlson": {
     "ja": "ボブ・カールソン",
     "needs_review": false,
-    "type": "artist",
-    "src": "manual:research-2026-10-30"
+    "src": "manual:research-2026-10-30",
+    "type": "artist"
   },
   "bofuri_series": {
     "ja": "痛いのは嫌なので防御力に極振りしたいと思います。",
@@ -663,8 +869,8 @@
   "carnage": {
     "ja": "Carnage",
     "needs_review": false,
-    "type": "copyright",
-    "src": "manual:research-2026-10-30"
+    "src": "manual:research-2026-10-30",
+    "type": "copyright"
   },
   "castlevania": {
     "ja": "悪魔城ドラキュラ -キャッスルヴァニア-",
@@ -684,6 +890,14 @@
     "src": "wikidata:Q277377",
     "type": "copyright"
   },
+  "cedric_herole": {
+    "count": 69,
+    "ja": "セドリック・エロール",
+    "kana": "せどりっく えろーる",
+    "needs_review": false,
+    "src": "atwiki:1939",
+    "type": "artist"
+  },
   "chibi_maruko-chan": {
     "ja": "ちびまる子ちゃん",
     "needs_review": false,
@@ -696,17 +910,41 @@
     "src": "wikidata:Q270940",
     "type": "copyright"
   },
+  "chiharu_sato": {
+    "count": 27,
+    "ja": "佐藤千春",
+    "kana": "さとう ちはる",
+    "needs_review": false,
+    "src": "atwiki:1587",
+    "type": "artist"
+  },
   "chiikawa": {
     "ja": "ちいかわ",
     "needs_review": false,
     "src": "wikidata:Q116699251",
     "type": "copyright"
   },
+  "china_(animator)": {
+    "count": 136,
+    "ja": "ちな",
+    "kana": "ちな",
+    "needs_review": false,
+    "src": "atwiki:1868",
+    "type": "artist"
+  },
+  "chiyoko_ueno": {
+    "count": 35,
+    "ja": "植野千世子",
+    "kana": "うえの ちよこ",
+    "needs_review": false,
+    "src": "atwiki:659",
+    "type": "artist"
+  },
   "chronicle": {
     "ja": "CHRONICLE",
     "needs_review": false,
-    "type": "copyright",
-    "src": "manual:research-2026-10-30"
+    "src": "manual:research-2026-10-30",
+    "type": "copyright"
   },
   "cinderella": {
     "ja": "シンデレラ",
@@ -759,8 +997,8 @@
   "clone": {
     "ja": "Clone",
     "needs_review": false,
-    "type": "copyright",
-    "src": "manual:research-2026-10-30"
+    "src": "manual:research-2026-10-30",
+    "type": "copyright"
   },
   "clover": {
     "ja": "CLOVER",
@@ -828,6 +1066,13 @@
     "src": "wikidata:Q18149495",
     "type": "copyright"
   },
+  "curie_lu": {
+    "count": 58,
+    "ja": "Curie Lu",
+    "needs_review": false,
+    "src": "atwiki:2229",
+    "type": "artist"
+  },
   "cutey_honey_series": {
     "ja": "キューティーハニー シリーズ",
     "needs_review": false,
@@ -839,6 +1084,38 @@
     "needs_review": false,
     "src": "wikidata:Q107102611",
     "type": "copyright"
+  },
+  "daiki_harashina": {
+    "count": 84,
+    "ja": "原科大樹",
+    "kana": "はらしな だいき",
+    "needs_review": false,
+    "src": "atwiki:2153",
+    "type": "artist"
+  },
+  "daisuke_hatsumi": {
+    "count": 16,
+    "ja": "初見大輔",
+    "kana": "はつみ だいすけ",
+    "needs_review": false,
+    "src": "atwiki:2008",
+    "type": "artist"
+  },
+  "daisuke_mataga": {
+    "count": 93,
+    "ja": "又賀大介",
+    "kana": "またが だいすけ",
+    "needs_review": false,
+    "src": "atwiki:592",
+    "type": "artist"
+  },
+  "daisuke_tsumagari": {
+    "count": 43,
+    "ja": "津曲大介",
+    "kana": "つまがり だいすけ",
+    "needs_review": false,
+    "src": "atwiki:2271",
+    "type": "artist"
   },
   "dancougar_series": {
     "ja": "ダンクーガ シリーズ",
@@ -972,6 +1249,13 @@
     "src": "wikidata:Q1059405",
     "type": "copyright"
   },
+  "dorian_coulon": {
+    "count": 91,
+    "ja": "Dorian COULON",
+    "needs_review": false,
+    "src": "atwiki:2127",
+    "type": "artist"
+  },
   "dororo": {
     "ja": "どろろ",
     "needs_review": false,
@@ -1066,6 +1350,14 @@
     "src": "wikidata:Q5018393",
     "type": "copyright"
   },
+  "ei_inoue": {
+    "count": 52,
+    "ja": "井上鋭",
+    "kana": "いのうえ えい",
+    "needs_review": false,
+    "src": "atwiki:224",
+    "type": "artist"
+  },
   "eiji_komatsu": {
     "count": 0,
     "ja": "小松英司",
@@ -1076,10 +1368,10 @@
   },
   "eisaku_kawanami": {
     "ja": "河浪栄作",
+    "kana": "かわなみ えいさく",
     "needs_review": false,
-    "type": "artist",
     "src": "wikidata:Q56253200",
-    "kana": "かわなみ えいさく"
+    "type": "artist"
   },
   "eldoran_series": {
     "ja": "エルドランシリーズ",
@@ -1120,8 +1412,16 @@
   "end_of_summer_(mv)": {
     "ja": "夏の終わり",
     "needs_review": false,
-    "type": "copyright",
-    "src": "manual:research-2026-10-30"
+    "src": "manual:research-2026-10-30",
+    "type": "copyright"
+  },
+  "enishi_oshima": {
+    "count": 175,
+    "ja": "大島縁",
+    "kana": "おおしま えにし",
+    "needs_review": false,
+    "src": "atwiki:1632",
+    "type": "artist"
   },
   "ensemble_stars!": {
     "ja": "あんさんぶるスターズ!",
@@ -1129,11 +1429,43 @@
     "src": "wikidata:Q140056987",
     "type": "copyright"
   },
+  "eri_irei": {
+    "count": 100,
+    "ja": "伊礼えり",
+    "kana": "いれい えり",
+    "needs_review": false,
+    "src": "atwiki:2016",
+    "type": "artist"
+  },
+  "eri_taguchi": {
+    "count": 64,
+    "ja": "田口愛梨",
+    "kana": "たぐち えり",
+    "needs_review": false,
+    "src": "atwiki:2057",
+    "type": "artist"
+  },
+  "erkin_kawabata": {
+    "count": 15,
+    "ja": "川畑えるきん",
+    "kana": "かわばた えるきん",
+    "needs_review": false,
+    "src": "atwiki:583",
+    "type": "artist"
+  },
   "escaflowne_(movie)": {
     "ja": "エスカフローネ",
     "needs_review": false,
     "src": "wikidata:Q2303163",
     "type": "copyright"
+  },
+  "etsuko_kawano": {
+    "count": 50,
+    "ja": "河野悦子",
+    "kana": "かわの えつこ",
+    "needs_review": false,
+    "src": "atwiki:2134",
+    "type": "artist"
   },
   "eureka_seven_series": {
     "ja": "エウレカセブン シリーズ",
@@ -1219,6 +1551,14 @@
     "src": "wikidata:Q76450209",
     "type": "copyright"
   },
+  "fujio_suzuki": {
+    "count": 195,
+    "ja": "鈴木藤雄",
+    "kana": "すずき ふじお",
+    "needs_review": false,
+    "src": "atwiki:571",
+    "type": "artist"
+  },
   "fullmetal_alchemist_2:_curse_of_the_crimson_elixir_(video_game)": {
     "ja": "鋼の錬金術師2 赤きエリクシルの悪魔",
     "needs_review": false,
@@ -1227,17 +1567,33 @@
   },
   "fuminori_kizaki": {
     "ja": "木﨑文智",
+    "kana": "きざき ふみのり",
     "needs_review": false,
-    "type": "artist",
     "src": "wikidata:Q3090837",
-    "kana": "きざき ふみのり"
+    "type": "artist"
+  },
+  "fumiyuki_uehara": {
+    "count": 20,
+    "ja": "上原史之",
+    "kana": "うえはら ふみゆき",
+    "needs_review": false,
+    "src": "atwiki:1829",
+    "type": "artist"
   },
   "futoshi_higashide": {
     "ja": "東出太",
+    "kana": "ひがしで ふとし",
     "needs_review": false,
-    "type": "artist",
     "src": "wikidata:Q90406243",
-    "kana": "ひがしで ふとし"
+    "type": "artist"
+  },
+  "futoshi_suzuki": {
+    "count": 108,
+    "ja": "鈴木大",
+    "kana": "すずき ふとし",
+    "needs_review": false,
+    "src": "atwiki:1508",
+    "type": "artist"
   },
   "galaxy_express_999_(tv)": {
     "ja": "銀河鉄道999",
@@ -1266,8 +1622,8 @@
   "gary_goldman": {
     "ja": "ゲイリー・ゴールドマン",
     "needs_review": false,
-    "type": "artist",
-    "src": "wikidata:Q667959"
+    "src": "wikidata:Q667959",
+    "type": "artist"
   },
   "gatchaman_series": {
     "ja": "ガッチャマンシリーズ",
@@ -1280,6 +1636,14 @@
     "needs_review": false,
     "src": "wikidata:Q125699331",
     "type": "copyright"
+  },
+  "genki_matsumoto": {
+    "count": 76,
+    "ja": "松本元気",
+    "kana": "まつもと げんき",
+    "needs_review": false,
+    "src": "atwiki:1419",
+    "type": "artist"
   },
   "ghost_in_the_shell": {
     "ja": "GHOST IN THE SHELL / 攻殻機動隊",
@@ -1308,8 +1672,8 @@
   "gift": {
     "ja": "Gift",
     "needs_review": false,
-    "type": "copyright",
-    "src": "manual:research-2026-10-30"
+    "src": "manual:research-2026-10-30",
+    "type": "copyright"
   },
   "ginga_hyoryu_vifam_(tv)": {
     "ja": "銀河漂流バイファム (TV)",
@@ -1320,14 +1684,22 @@
   "girl": {
     "ja": "GIRL",
     "needs_review": false,
-    "type": "copyright",
-    "src": "manual:research-2026-10-30"
+    "src": "manual:research-2026-10-30",
+    "type": "copyright"
   },
   "gnosia": {
     "ja": "グノーシア",
     "needs_review": false,
     "src": "wikidata:Q131367609",
     "type": "copyright"
+  },
+  "go_kimura": {
+    "count": 41,
+    "ja": "木村豪",
+    "kana": "きむら ごう",
+    "needs_review": false,
+    "src": "atwiki:349",
+    "type": "artist"
   },
   "gochiusa_series": {
     "ja": "ご注文はうさぎですか?",
@@ -1353,6 +1725,14 @@
     "src": "wikidata:Q135684110",
     "type": "copyright"
   },
+  "gosei_oda": {
+    "count": 97,
+    "ja": "小田剛生",
+    "kana": "おだ ごうせい",
+    "needs_review": false,
+    "src": "atwiki:1178",
+    "type": "artist"
+  },
   "gotcha!": {
     "ja": "GOTCHA!",
     "needs_review": false,
@@ -1362,8 +1742,8 @@
   "greatest": {
     "ja": "GREATEST",
     "needs_review": false,
-    "type": "copyright",
-    "src": "manual:research-2026-10-30"
+    "src": "manual:research-2026-10-30",
+    "type": "copyright"
   },
   "greed": {
     "ja": "GREED",
@@ -1439,23 +1819,39 @@
     "src": "wikidata:Q21682689",
     "type": "copyright"
   },
+  "hajime_nihira": {
+    "count": 42,
+    "ja": "仁平肇",
+    "kana": "にひら はじめ",
+    "needs_review": false,
+    "src": "atwiki:2247",
+    "type": "artist"
+  },
   "hakuoki": {
     "ja": "薄桜鬼",
     "needs_review": false,
     "src": "wikidata:Q115775247",
     "type": "copyright"
   },
+  "hakuyu_go": {
+    "count": 112,
+    "ja": "伍柏諭",
+    "kana": "ご はくゆ",
+    "needs_review": false,
+    "src": "atwiki:1878",
+    "type": "artist"
+  },
   "hal_ambro": {
     "ja": "ハル・アンブロ",
     "needs_review": false,
-    "type": "artist",
-    "src": "wikidata:Q3125876"
+    "src": "wikidata:Q3125876",
+    "type": "artist"
   },
   "ham_luske": {
     "ja": "ハミルトン・ラスク",
     "needs_review": false,
-    "type": "artist",
-    "src": "wikidata:Q926614"
+    "src": "wikidata:Q926614",
+    "type": "artist"
   },
   "hamefura_series": {
     "ja": "乙女ゲームの破滅フラグしかない悪役令嬢に転生してしまった…",
@@ -1466,8 +1862,8 @@
   "hammerhead": {
     "ja": "ハンマーヘッド",
     "needs_review": false,
-    "type": "copyright",
-    "src": "manual:research-2026-10-30"
+    "src": "manual:research-2026-10-30",
+    "type": "copyright"
   },
   "hana_yori_dango": {
     "ja": "花より男子",
@@ -1483,10 +1879,58 @@
   },
   "haruka_fujita": {
     "ja": "藤田春香",
+    "kana": "ふじた はるか",
     "needs_review": false,
-    "type": "artist",
     "src": "wikidata:Q117862993",
-    "kana": "ふじた はるか"
+    "type": "artist"
+  },
+  "haruka_iida": {
+    "count": 79,
+    "ja": "飯田遥",
+    "kana": "いいだ はるか",
+    "needs_review": false,
+    "src": "atwiki:2214",
+    "type": "artist"
+  },
+  "harumi_yamazaki": {
+    "count": 40,
+    "ja": "山崎晴美",
+    "kana": "やまざき はるみ",
+    "needs_review": false,
+    "src": "atwiki:2199",
+    "type": "artist"
+  },
+  "haruyoshi_nomura": {
+    "count": 62,
+    "ja": "野村治嘉",
+    "kana": "のむら はるよし",
+    "needs_review": false,
+    "src": "atwiki:2253",
+    "type": "artist"
+  },
+  "hayate_nakamura": {
+    "count": 122,
+    "ja": "中村颯",
+    "kana": "なかむら はやて",
+    "needs_review": false,
+    "src": "atwiki:1834",
+    "type": "artist"
+  },
+  "hayato_kurosaki": {
+    "count": 256,
+    "ja": "黒崎隼人",
+    "kana": "くろさき はやと",
+    "needs_review": false,
+    "src": "atwiki:2144",
+    "type": "artist"
+  },
+  "hayato_nishimaki": {
+    "count": 26,
+    "ja": "西牧勇人",
+    "kana": "にしまき はやと",
+    "needs_review": false,
+    "src": "atwiki:2064",
+    "type": "artist"
   },
   "heavy_metal_l-gaim_(tv)": {
     "ja": "重戦機エルガイム (TV)",
@@ -1518,6 +1962,78 @@
     "src": "wikidata:Q1321785",
     "type": "copyright"
   },
+  "hideaki_yoshio": {
+    "count": 42,
+    "ja": "芳尾英明",
+    "kana": "よしお ひであき",
+    "needs_review": false,
+    "src": "atwiki:1755",
+    "type": "artist"
+  },
+  "hidehiko_sawada": {
+    "count": 116,
+    "ja": "澤田英彦",
+    "kana": "さわだ ひでひこ",
+    "needs_review": false,
+    "src": "atwiki:1350",
+    "type": "artist"
+  },
+  "hidekazu_ebina": {
+    "count": 113,
+    "ja": "蛯名秀和",
+    "kana": "えびな ひでかず",
+    "needs_review": false,
+    "src": "atwiki:1745",
+    "type": "artist"
+  },
+  "hideki_kakita": {
+    "count": 321,
+    "ja": "柿田英樹",
+    "kana": "かきた ひでき",
+    "needs_review": false,
+    "src": "atwiki:295",
+    "type": "artist"
+  },
+  "hideki_nagamachi": {
+    "count": 25,
+    "ja": "長町英樹",
+    "kana": "ながまち ひでき",
+    "needs_review": false,
+    "src": "atwiki:791",
+    "type": "artist"
+  },
+  "hideki_nakagawa": {
+    "count": 28,
+    "ja": "中川英樹",
+    "kana": "なかがわ ひでき",
+    "needs_review": false,
+    "src": "atwiki:1675",
+    "type": "artist"
+  },
+  "hidenori_fukuoka": {
+    "count": 111,
+    "ja": "福岡英典",
+    "kana": "ふくおか ひでのり",
+    "needs_review": false,
+    "src": "atwiki:604",
+    "type": "artist"
+  },
+  "hideo_furusawa": {
+    "count": 19,
+    "ja": "古沢日出男",
+    "kana": "ふるさわ ひでお",
+    "needs_review": false,
+    "src": "atwiki:1065",
+    "type": "artist"
+  },
+  "hidetsugu_ito": {
+    "count": 278,
+    "ja": "伊藤秀次",
+    "kana": "いとう ひでつぐ",
+    "needs_review": false,
+    "src": "atwiki:392",
+    "type": "artist"
+  },
   "highschool_dxd_series": {
     "ja": "ハイスクールD×D シリーズ",
     "needs_review": false,
@@ -1536,33 +2052,233 @@
     "src": "wikidata:Q123334196",
     "type": "copyright"
   },
+  "hiroaki_arai": {
+    "count": 63,
+    "ja": "新井博慧",
+    "kana": "あらい ひろあき",
+    "needs_review": false,
+    "src": "atwiki:2269",
+    "type": "artist"
+  },
+  "hirofumi_okita": {
+    "count": 121,
+    "ja": "沖田博文",
+    "kana": "おきた ひろふみ",
+    "needs_review": false,
+    "src": "atwiki:1751",
+    "type": "artist"
+  },
+  "hiroki_morimune": {
+    "count": 46,
+    "ja": "森宗弘樹",
+    "kana": "もりむね ひろき",
+    "needs_review": false,
+    "src": "atwiki:1529",
+    "type": "artist"
+  },
+  "hiroki_mutaguchi": {
+    "count": 89,
+    "ja": "牟田口裕基",
+    "kana": "むたぐち ひろき",
+    "needs_review": false,
+    "src": "atwiki:712",
+    "type": "artist"
+  },
+  "hiroki_takagi": {
+    "count": 21,
+    "ja": "高木弘樹",
+    "kana": "たかぎ ひろき",
+    "needs_review": false,
+    "src": "atwiki:734",
+    "type": "artist"
+  },
+  "hiroko_minowa": {
+    "count": 27,
+    "ja": "箕輪博子",
+    "kana": "みのわ ひろこ",
+    "needs_review": false,
+    "src": "atwiki:1851",
+    "type": "artist"
+  },
+  "hiromi_ishigami": {
+    "count": 122,
+    "ja": "石上ひろ美",
+    "kana": "いしがみ ひろみ",
+    "needs_review": false,
+    "src": "atwiki:1540",
+    "type": "artist"
+  },
+  "hiromi_nakagawa": {
+    "count": 19,
+    "ja": "中川洋未",
+    "kana": "なかがわ ひろみ",
+    "needs_review": false,
+    "src": "atwiki:1846",
+    "type": "artist"
+  },
+  "hiromitsu_hagiwara": {
+    "count": 15,
+    "ja": "萩原弘光",
+    "kana": "はぎわら ひろみつ",
+    "needs_review": false,
+    "src": "atwiki:1069",
+    "type": "artist"
+  },
+  "hiromitsu_seki": {
+    "count": 62,
+    "ja": "関弘光",
+    "kana": "せき ひろみつ",
+    "needs_review": false,
+    "src": "atwiki:1696",
+    "type": "artist"
+  },
+  "hironori_tanaka": {
+    "count": 1195,
+    "ja": "田中宏紀",
+    "kana": "たなか ひろのり",
+    "needs_review": false,
+    "src": "atwiki:711",
+    "type": "artist"
+  },
+  "hiroomi_yamakawa": {
+    "count": 29,
+    "ja": "山川浩臣",
+    "kana": "やまかわ ひろおみ",
+    "needs_review": false,
+    "src": "atwiki:1417",
+    "type": "artist"
+  },
+  "hiroshi_arisawa": {
+    "count": 208,
+    "ja": "有澤寛",
+    "kana": "ありさわ ひろし",
+    "needs_review": false,
+    "src": "atwiki:948",
+    "type": "artist"
+  },
+  "hiroshi_ishiyama": {
+    "count": 26,
+    "ja": "石山寛",
+    "kana": "いしやま ひろし",
+    "needs_review": false,
+    "src": "atwiki:802",
+    "type": "artist"
+  },
+  "hiroshi_kawaguchi": {
+    "count": 20,
+    "ja": "川口博史",
+    "kana": "かわぐち ひろし",
+    "needs_review": false,
+    "src": "atwiki:1644",
+    "type": "artist"
+  },
+  "hiroshi_matsuda": {
+    "count": 34,
+    "ja": "松田寛",
+    "kana": "まつだ ひろし",
+    "needs_review": false,
+    "src": "atwiki:1280",
+    "type": "artist"
+  },
+  "hiroshi_okubo": {
+    "count": 104,
+    "ja": "大久保宏",
+    "kana": "おおくぼ ひろし",
+    "needs_review": false,
+    "src": "atwiki:56",
+    "type": "artist"
+  },
   "hiroshi_shimizu": {
     "ja": "清水洋",
+    "kana": "しみず ひろし",
     "needs_review": false,
-    "type": "artist",
     "src": "manual:research-2026-10-30",
-    "kana": "しみず ひろし"
+    "type": "artist"
+  },
+  "hiroshi_tatezaki": {
+    "count": 90,
+    "ja": "舘崎大",
+    "kana": "たてざき ひろし",
+    "needs_review": false,
+    "src": "atwiki:1740",
+    "type": "artist"
+  },
+  "hiroshi_tomioka": {
+    "count": 257,
+    "ja": "冨岡寛",
+    "kana": "とみおか ひろし",
+    "needs_review": false,
+    "src": "atwiki:799",
+    "type": "artist"
+  },
+  "hiroto_nagata": {
+    "count": 71,
+    "ja": "長田寛人",
+    "kana": "ながた ひろと",
+    "needs_review": false,
+    "src": "atwiki:2063",
+    "type": "artist"
   },
   "hirotsugu_kawasaki": {
     "ja": "川崎博嗣",
+    "kana": "かわさき ひろつぐ",
     "needs_review": false,
-    "type": "artist",
     "src": "wikidata:Q30924702",
-    "kana": "かわさき ひろつぐ"
+    "type": "artist"
   },
   "hiroyasu_ishida": {
     "ja": "石田祐康",
+    "kana": "いしだ ひろやす",
     "needs_review": false,
-    "type": "artist",
     "src": "wikidata:Q11587052",
-    "kana": "いしだ ひろやす"
+    "type": "artist"
+  },
+  "hiroyasu_oda": {
+    "count": 83,
+    "ja": "小田裕康",
+    "kana": "おだ ひろやす",
+    "needs_review": false,
+    "src": "atwiki:507",
+    "type": "artist"
+  },
+  "hiroyuki_okuno": {
+    "count": 25,
+    "ja": "奥野浩行",
+    "kana": "おくの ひろゆき",
+    "needs_review": false,
+    "src": "atwiki:242",
+    "type": "artist"
+  },
+  "hiroyuki_ookaji": {
+    "count": 115,
+    "ja": "大梶博之",
+    "kana": "おおかじ ひろゆき",
+    "needs_review": false,
+    "src": "atwiki:2184",
+    "type": "artist"
+  },
+  "hiroyuki_sasaki": {
+    "count": 18,
+    "ja": "佐々木啓之",
+    "kana": "ささき ひろゆき",
+    "needs_review": false,
+    "src": "atwiki:473",
+    "type": "artist"
   },
   "hiroyuki_takashima": {
     "ja": "高嶋宏之",
+    "kana": "たかしま ひろゆき",
     "needs_review": false,
-    "type": "artist",
     "src": "manual:research-2026-10-30",
-    "kana": "たかしま ひろゆき"
+    "type": "artist"
+  },
+  "hiroyuki_terao": {
+    "count": 38,
+    "ja": "寺尾洋之",
+    "kana": "てらお ひろゆき",
+    "needs_review": false,
+    "src": "atwiki:1015",
+    "type": "artist"
   },
   "his_and_her_circumstances": {
     "ja": "彼氏彼女の事情",
@@ -1572,16 +2288,48 @@
   },
   "hisashi_saito": {
     "ja": "斎藤久",
+    "kana": "さいとう ひさし",
     "needs_review": false,
-    "type": "artist",
     "src": "wikidata:Q11500443",
-    "kana": "さいとう ひさし"
+    "type": "artist"
+  },
+  "hitomi_kariya": {
+    "count": 51,
+    "ja": "刈谷仁美",
+    "kana": "かりや ひとみ",
+    "needs_review": false,
+    "src": "atwiki:2227",
+    "type": "artist"
+  },
+  "hitomi_odashima": {
+    "count": 13,
+    "ja": "小田嶋瞳",
+    "kana": "おだしま ひとみ",
+    "needs_review": false,
+    "src": "atwiki:1222",
+    "type": "artist"
   },
   "hitori_no_shita_the_outcast_series": {
     "ja": "一人之下 the outcast シリーズ",
     "needs_review": false,
     "src": "manual",
     "type": "copyright"
+  },
+  "hitoshi_ueda": {
+    "count": 25,
+    "ja": "植田均",
+    "kana": "うえだ ひとし",
+    "needs_review": false,
+    "src": "atwiki:531",
+    "type": "artist"
+  },
+  "hokuto_sakiyama": {
+    "count": 80,
+    "ja": "崎山北斗",
+    "kana": "さきやま ほくと",
+    "needs_review": false,
+    "src": "atwiki:323",
+    "type": "artist"
   },
   "horimiya": {
     "ja": "ホリミヤ",
@@ -1604,8 +2352,8 @@
   "howl_(mv)": {
     "ja": "HOWL",
     "needs_review": false,
-    "type": "copyright",
-    "src": "manual:research-2026-10-30"
+    "src": "manual:research-2026-10-30",
+    "type": "copyright"
   },
   "hypinosis_microphone_series": {
     "ja": "ヒプノシスマイク シリーズ",
@@ -1618,6 +2366,14 @@
     "needs_review": false,
     "src": "wikidata:Q108086016",
     "type": "copyright"
+  },
+  "ichiro_uno": {
+    "count": 34,
+    "ja": "夘野一郎",
+    "kana": "うの いちろう",
+    "needs_review": false,
+    "src": "atwiki:1958",
+    "type": "artist"
   },
   "iczer_series": {
     "ja": "イクサーシリーズ",
@@ -1648,6 +2404,22 @@
     "needs_review": false,
     "src": "wikidata:Q708513",
     "type": "copyright"
+  },
+  "ikuo_kuwana": {
+    "count": 54,
+    "ja": "桑名郁朗",
+    "kana": "くわな いくお",
+    "needs_review": false,
+    "src": "atwiki:115",
+    "type": "artist"
+  },
+  "ikuo_yamakado": {
+    "count": 28,
+    "ja": "山門郁夫",
+    "kana": "やまかど いくお",
+    "needs_review": false,
+    "src": "atwiki:1369",
+    "type": "artist"
   },
   "inazuma_eleven": {
     "ja": "イナズマイレブン",
@@ -1688,14 +2460,14 @@
   "inochi_no_tabekata_(mv)": {
     "ja": "いのちの食べ方",
     "needs_review": false,
-    "type": "copyright",
-    "src": "manual:research-2026-10-30"
+    "src": "manual:research-2026-10-30",
+    "type": "copyright"
   },
   "insomnia_(mv)": {
     "ja": "インソムニア",
     "needs_review": false,
-    "type": "copyright",
-    "src": "manual:research-2026-10-30"
+    "src": "manual:research-2026-10-30",
+    "type": "copyright"
   },
   "inspector_gadget": {
     "ja": "ガジェット警部",
@@ -1721,6 +2493,14 @@
     "src": "manual",
     "type": "copyright"
   },
+  "iori_hisatake": {
+    "count": 52,
+    "ja": "久武伊織",
+    "kana": "ひさたけ いおり",
+    "needs_review": false,
+    "src": "atwiki:2270",
+    "type": "artist"
+  },
   "iron_man": {
     "ja": "アイアンマン",
     "needs_review": false,
@@ -1729,10 +2509,10 @@
   },
   "isao_hayashi": {
     "ja": "林勇雄",
+    "kana": "はやし いさお",
     "needs_review": false,
-    "type": "artist",
     "src": "manual:research-2026-10-30",
-    "kana": "はやし いさお"
+    "type": "artist"
   },
   "isekai_nonbiri_nouka_series": {
     "ja": "異世界のんびり農家 シリーズ",
@@ -1745,6 +2525,54 @@
     "needs_review": false,
     "src": "wikidata:Q131631118",
     "type": "copyright"
+  },
+  "issei_arakaki": {
+    "count": 31,
+    "ja": "新垣一成",
+    "kana": "あらかき いっせい",
+    "needs_review": false,
+    "src": "atwiki:1452",
+    "type": "artist"
+  },
+  "isuta_meister": {
+    "count": 183,
+    "ja": "椅子汰",
+    "kana": "いすた",
+    "needs_review": false,
+    "src": "atwiki:2007",
+    "type": "artist"
+  },
+  "itsuki_tsuchigami": {
+    "count": 145,
+    "ja": "土上いつき",
+    "kana": "つちがみ いつき",
+    "needs_review": false,
+    "src": "atwiki:1890",
+    "type": "artist"
+  },
+  "iwao_teraoka": {
+    "count": 42,
+    "ja": "寺岡巌",
+    "kana": "てらおか いわお",
+    "needs_review": false,
+    "src": "atwiki:395",
+    "type": "artist"
+  },
+  "izumi_murakami": {
+    "count": 70,
+    "ja": "村上泉",
+    "kana": "むらかみ いずみ",
+    "needs_review": false,
+    "src": "atwiki:1932",
+    "type": "artist"
+  },
+  "izumi_seguchi": {
+    "count": 54,
+    "ja": "瀬口泉",
+    "kana": "せぐち いずみ",
+    "needs_review": false,
+    "src": "atwiki:1636",
+    "type": "artist"
   },
   "japan_sinks_(2020)": {
     "ja": "日本沈没2020",
@@ -1770,6 +2598,30 @@
     "src": "wikidata:Q753729",
     "type": "copyright"
   },
+  "jin_oyama": {
+    "count": 63,
+    "ja": "大山神",
+    "kana": "おおやま じん",
+    "needs_review": false,
+    "src": "atwiki:2017",
+    "type": "artist"
+  },
+  "jiro_kanai": {
+    "count": 102,
+    "ja": "金井次郎",
+    "kana": "かない じろう",
+    "needs_review": false,
+    "src": "atwiki:1028",
+    "type": "artist"
+  },
+  "joji_oshima": {
+    "count": 15,
+    "ja": "大島城次",
+    "kana": "おおしま じょうじ",
+    "needs_review": false,
+    "src": "atwiki:1500",
+    "type": "artist"
+  },
   "jojo's_bizarre_adventure:_phantom_blood": {
     "ja": "ジョジョの奇妙な冒険 ファントムブラッド",
     "needs_review": false,
@@ -1788,18 +2640,65 @@
     "src": "wikidata:Q109914608",
     "type": "copyright"
   },
+  "julian_bentley": {
+    "count": 43,
+    "ja": "Julian Bentley",
+    "needs_review": false,
+    "src": "atwiki:2285",
+    "type": "artist"
+  },
+  "jun_arai": {
+    "count": 169,
+    "ja": "新井淳",
+    "kana": "あらい じゅん",
+    "needs_review": false,
+    "src": "atwiki:140",
+    "type": "artist"
+  },
   "jun_takagi": {
     "ja": "高木淳",
+    "kana": "たかぎ じゅん",
     "needs_review": false,
-    "type": "artist",
     "src": "wikidata:Q11670115",
-    "kana": "たかぎ じゅん"
+    "type": "artist"
+  },
+  "jun_uemura": {
+    "count": 43,
+    "ja": "植村淳",
+    "kana": "うえむら じゅん",
+    "needs_review": false,
+    "src": "atwiki:1372",
+    "type": "artist"
   },
   "junkers_come_here_(pilot_film)": {
     "ja": "ユンカース・カム・ヒア (パイロット版)",
     "needs_review": false,
     "src": "manual",
     "type": "copyright"
+  },
+  "junpei_mikuriya": {
+    "count": 21,
+    "ja": "御厨順平",
+    "kana": "みくりや じゅんぺい",
+    "needs_review": false,
+    "src": "atwiki:740",
+    "type": "artist"
+  },
+  "junpei_ogawa": {
+    "count": 223,
+    "ja": "小川純平",
+    "kana": "おがわ じゅんぺい",
+    "needs_review": false,
+    "src": "atwiki:1545",
+    "type": "artist"
+  },
+  "junpei_tatenaka": {
+    "count": 40,
+    "ja": "立中順平",
+    "kana": "たてなか じゅんぺい",
+    "needs_review": false,
+    "src": "atwiki:2222",
+    "type": "artist"
   },
   "k-on_series": {
     "ja": "けいおん! シリーズ",
@@ -1837,11 +2736,59 @@
     "src": "wikidata:Q62017594",
     "type": "copyright"
   },
+  "kai_ikarashi": {
+    "count": 202,
+    "ja": "五十嵐海",
+    "kana": "いからし かい",
+    "needs_review": false,
+    "src": "atwiki:1881",
+    "type": "artist"
+  },
+  "kai_shibata": {
+    "count": 117,
+    "ja": "柴田海",
+    "kana": "しばた かい",
+    "needs_review": false,
+    "src": "atwiki:1947",
+    "type": "artist"
+  },
   "kaiji_series": {
     "ja": "カイジ シリーズ",
     "needs_review": false,
     "src": "manual",
     "type": "copyright"
+  },
+  "kaito_tomioka": {
+    "count": 169,
+    "ja": "富岡海任",
+    "kana": "とみおか かいと",
+    "needs_review": false,
+    "src": "atwiki:2142",
+    "type": "artist"
+  },
+  "kana_ito": {
+    "count": 83,
+    "ja": "伊藤香奈",
+    "kana": "いとう かな",
+    "needs_review": false,
+    "src": "atwiki:2046",
+    "type": "artist"
+  },
+  "kanji_nishida": {
+    "count": 66,
+    "ja": "西田寛治",
+    "kana": "にしだ かんじ",
+    "needs_review": false,
+    "src": "atwiki:1590",
+    "type": "artist"
+  },
+  "kaori_inoue": {
+    "count": 14,
+    "ja": "井上香織",
+    "kana": "いのうえ かおり",
+    "needs_review": false,
+    "src": "atwiki:254",
+    "type": "artist"
   },
   "karaoke_iko!": {
     "ja": "カラオケ行こ!",
@@ -1855,6 +2802,70 @@
     "src": "wikidata:Q28693132",
     "type": "copyright"
   },
+  "kasumi_wada": {
+    "count": 22,
+    "ja": "和田佳純",
+    "kana": "わだ かすみ",
+    "needs_review": false,
+    "src": "atwiki:1589",
+    "type": "artist"
+  },
+  "katsuhiko_kitada": {
+    "count": 84,
+    "ja": "北田勝彦",
+    "kana": "きただ かつひこ",
+    "needs_review": false,
+    "src": "atwiki:1003",
+    "type": "artist"
+  },
+  "katsuhiro_takagi": {
+    "count": 47,
+    "ja": "高木勝弘",
+    "kana": "たかぎ かつひろ",
+    "needs_review": false,
+    "src": "atwiki:2245",
+    "type": "artist"
+  },
+  "katsumi_ishizuka": {
+    "count": 92,
+    "ja": "石塚勝海",
+    "kana": "いしづか かつみ",
+    "needs_review": false,
+    "src": "atwiki:2213",
+    "type": "artist"
+  },
+  "katsunori_kikuchi": {
+    "count": 83,
+    "ja": "菊地勝則",
+    "kana": "きくち かつのり",
+    "needs_review": false,
+    "src": "atwiki:1717",
+    "type": "artist"
+  },
+  "katsunori_shibata": {
+    "count": 65,
+    "ja": "柴田勝紀",
+    "kana": "しばた かつのり",
+    "needs_review": false,
+    "src": "atwiki:971",
+    "type": "artist"
+  },
+  "katsuya_kikuchi": {
+    "count": 15,
+    "ja": "菊池勝也",
+    "kana": "きくち かつや",
+    "needs_review": false,
+    "src": "atwiki:532",
+    "type": "artist"
+  },
+  "katsuya_yamada": {
+    "count": 103,
+    "ja": "山田勝哉",
+    "kana": "やまだ かつや",
+    "needs_review": false,
+    "src": "atwiki:1504",
+    "type": "artist"
+  },
   "katsuyoshi_nakatsuru": {
     "count": 0,
     "ja": "中鶴勝祥",
@@ -1866,8 +2877,31 @@
   "kay_nielsen": {
     "ja": "カイ・ニールセン",
     "needs_review": false,
-    "type": "artist",
-    "src": "wikidata:Q3107486"
+    "src": "wikidata:Q3107486",
+    "type": "artist"
+  },
+  "kay_yu": {
+    "count": 72,
+    "ja": "Kay Yu",
+    "needs_review": false,
+    "src": "atwiki:2162",
+    "type": "artist"
+  },
+  "kayoko_nabeta": {
+    "count": 15,
+    "ja": "鍋田香代子",
+    "kana": "なべた かよこ",
+    "needs_review": false,
+    "src": "atwiki:761",
+    "type": "artist"
+  },
+  "kazuaki_shimada": {
+    "count": 49,
+    "ja": "嶋田和晃",
+    "kana": "しまだ かずあき",
+    "needs_review": false,
+    "src": "atwiki:1698",
+    "type": "artist"
   },
   "kazuhiro_miwa": {
     "count": 0,
@@ -1877,12 +2911,236 @@
     "src": "manual",
     "type": "artist"
   },
+  "kazuhiro_ono": {
+    "count": 23,
+    "ja": "小野和寛",
+    "kana": "おの かずひろ",
+    "needs_review": false,
+    "src": "atwiki:779",
+    "type": "artist"
+  },
+  "kazuto_arai": {
+    "count": 184,
+    "ja": "荒井和人",
+    "kana": "あらい かずと",
+    "needs_review": false,
+    "src": "atwiki:1895",
+    "type": "artist"
+  },
   "kazuya_murata": {
     "ja": "村田和也",
+    "kana": "むらた かずや",
     "needs_review": false,
-    "type": "artist",
     "src": "wikidata:Q11523412",
-    "kana": "むらた かずや"
+    "type": "artist"
+  },
+  "kazuya_nakanishi": {
+    "count": 90,
+    "ja": "中西和也",
+    "kana": "なかにし かずや",
+    "needs_review": false,
+    "src": "atwiki:1879",
+    "type": "artist"
+  },
+  "kazuya_sakamoto": {
+    "count": 15,
+    "ja": "坂本一也",
+    "kana": "さかもと かずや",
+    "needs_review": false,
+    "src": "atwiki:797",
+    "type": "artist"
+  },
+  "kazuyuki_asaga": {
+    "count": 53,
+    "ja": "浅賀和行",
+    "kana": "あさが かずゆき",
+    "needs_review": false,
+    "src": "atwiki:1479",
+    "type": "artist"
+  },
+  "keiichiro_honjo": {
+    "count": 90,
+    "ja": "本城恵一朗",
+    "kana": "ほんじょう けいいちろう",
+    "needs_review": false,
+    "src": "atwiki:742",
+    "type": "artist"
+  },
+  "keiichiro_watanabe": {
+    "count": 100,
+    "ja": "渡邊啓一郎",
+    "kana": "わたなべ けいいちろう",
+    "needs_review": false,
+    "src": "atwiki:1870",
+    "type": "artist"
+  },
+  "keisuke_hiroe": {
+    "count": 48,
+    "ja": "廣江啓輔",
+    "kana": "ひろえ けいすけ",
+    "needs_review": false,
+    "src": "atwiki:1941",
+    "type": "artist"
+  },
+  "keisuke_kobayashi": {
+    "count": 252,
+    "ja": "小林恵祐",
+    "kana": "こばやし けいすけ",
+    "needs_review": false,
+    "src": "atwiki:1865",
+    "type": "artist"
+  },
+  "keisuke_kojima": {
+    "count": 105,
+    "ja": "小嶋慶祐",
+    "kana": "こじま けいすけ",
+    "needs_review": false,
+    "src": "atwiki:944",
+    "type": "artist"
+  },
+  "keisuke_masunaga": {
+    "count": 40,
+    "ja": "増永計介",
+    "kana": "ますなが けいすけ",
+    "needs_review": false,
+    "src": "atwiki:438",
+    "type": "artist"
+  },
+  "keisuke_watanabe": {
+    "count": 22,
+    "ja": "渡部圭祐",
+    "kana": "わたなべ けいすけ",
+    "needs_review": false,
+    "src": "atwiki:69",
+    "type": "artist"
+  },
+  "keita_nagahara": {
+    "count": 60,
+    "ja": "長原圭太",
+    "kana": "ながはら けいた",
+    "needs_review": false,
+    "src": "atwiki:2004",
+    "type": "artist"
+  },
+  "keito_oda": {
+    "count": 31,
+    "ja": "小田景門",
+    "kana": "おだ けいと",
+    "needs_review": false,
+    "src": "atwiki:2157",
+    "type": "artist"
+  },
+  "ken_seo": {
+    "count": 17,
+    "ja": "瀬尾健",
+    "kana": "せお けん",
+    "needs_review": false,
+    "src": "atwiki:2197",
+    "type": "artist"
+  },
+  "kengo_matsumoto": {
+    "count": 89,
+    "ja": "松本顕吾",
+    "kana": "まつもと けんご",
+    "needs_review": false,
+    "src": "atwiki:1715",
+    "type": "artist"
+  },
+  "kenichi_fujisawa": {
+    "count": 140,
+    "ja": "藤沢研一",
+    "kana": "ふじさわ けんいち",
+    "needs_review": false,
+    "src": "atwiki:1201",
+    "type": "artist"
+  },
+  "kenichi_takase": {
+    "count": 360,
+    "ja": "高瀬健一",
+    "kana": "たかせ けんいち",
+    "needs_review": false,
+    "src": "atwiki:1203",
+    "type": "artist"
+  },
+  "kenichi_yamada": {
+    "count": 30,
+    "ja": "山田憲一",
+    "kana": "やまだ けんいち",
+    "needs_review": false,
+    "src": "atwiki:1824",
+    "type": "artist"
+  },
+  "kenichi_yamaguchi": {
+    "count": 25,
+    "ja": "山口賢一",
+    "kana": "やまぐち けんいち",
+    "needs_review": false,
+    "src": "atwiki:499",
+    "type": "artist"
+  },
+  "kenichiro_aoki": {
+    "count": 271,
+    "ja": "青木健一郎",
+    "kana": "あおき けんいちろう",
+    "needs_review": false,
+    "src": "atwiki:2052",
+    "type": "artist"
+  },
+  "kenji_hachizaki": {
+    "count": 16,
+    "ja": "八崎健二",
+    "kana": "はちざき けんじ",
+    "needs_review": false,
+    "src": "atwiki:1091",
+    "type": "artist"
+  },
+  "kenji_kuroyanagi": {
+    "count": 167,
+    "ja": "黒柳賢治",
+    "kana": "くろやなぎ けんじ",
+    "needs_review": false,
+    "src": "atwiki:293",
+    "type": "artist"
+  },
+  "kenji_mizuhata": {
+    "count": 35,
+    "ja": "水畑健二",
+    "kana": "みずはた けんじ",
+    "needs_review": false,
+    "src": "atwiki:704",
+    "type": "artist"
+  },
+  "kenji_sawada": {
+    "count": 125,
+    "ja": "澤田謙治",
+    "kana": "さわだ けんじ",
+    "needs_review": false,
+    "src": "atwiki:1957",
+    "type": "artist"
+  },
+  "kenji_yokoyama": {
+    "count": 34,
+    "ja": "横山健次",
+    "kana": "よこやま けんじ",
+    "needs_review": false,
+    "src": "atwiki:1659",
+    "type": "artist"
+  },
+  "kenji_zenba": {
+    "count": 15,
+    "ja": "前場健次",
+    "kana": "ぜんば けんじ",
+    "needs_review": false,
+    "src": "atwiki:2232",
+    "type": "artist"
+  },
+  "kenta_yokoya": {
+    "count": 146,
+    "ja": "横屋健太",
+    "kana": "よこや けんた",
+    "needs_review": false,
+    "src": "atwiki:1894",
+    "type": "artist"
   },
   "keroro_gunsou": {
     "ja": "ケロロ軍曹",
@@ -1907,6 +3165,22 @@
     "needs_review": false,
     "src": "wikidata:Q21697406",
     "type": "copyright"
+  },
+  "kimiaki_mizuno": {
+    "count": 20,
+    "ja": "水野公彰",
+    "kana": "みずの きみあき",
+    "needs_review": false,
+    "src": "atwiki:2149",
+    "type": "artist"
+  },
+  "kiminori_ito": {
+    "count": 90,
+    "ja": "伊藤公規",
+    "kana": "いとう きみのり",
+    "needs_review": false,
+    "src": "atwiki:1885",
+    "type": "artist"
   },
   "king_of_prism_series": {
     "ja": "KING OF PRISM シリーズ",
@@ -1964,10 +3238,10 @@
   },
   "kiyotaka_oshiyama": {
     "ja": "押山清高",
+    "kana": "おしやま きよたか",
     "needs_review": false,
-    "type": "artist",
     "src": "wikidata:Q38276825",
-    "kana": "おしやま きよたか"
+    "type": "artist"
   },
   "knight_ramune_series": {
     "ja": "騎士ラムネ&40 シリーズ",
@@ -1987,11 +3261,51 @@
     "src": "wikidata:Q23925035",
     "type": "copyright"
   },
+  "kohei_hirota": {
+    "count": 79,
+    "ja": "廣田光平",
+    "kana": "ひろた こうへい",
+    "needs_review": false,
+    "src": "atwiki:2233",
+    "type": "artist"
+  },
+  "koichi_horikawa": {
+    "count": 138,
+    "ja": "堀川耕一",
+    "kana": "ほりかわ こういち",
+    "needs_review": false,
+    "src": "atwiki:684",
+    "type": "artist"
+  },
+  "koichi_kikuta": {
+    "count": 169,
+    "ja": "菊田幸一",
+    "kana": "きくた こういち",
+    "needs_review": false,
+    "src": "atwiki:47",
+    "type": "artist"
+  },
   "koihime_musou_series": {
     "ja": "恋姫†無双",
     "needs_review": false,
     "src": "wikidata:Q11492028",
     "type": "copyright"
+  },
+  "koji_ito": {
+    "count": 423,
+    "ja": "伊藤浩二",
+    "kana": "いとう こうじ",
+    "needs_review": false,
+    "src": "atwiki:1635",
+    "type": "artist"
+  },
+  "koji_yabuno": {
+    "count": 152,
+    "ja": "藪野浩二",
+    "kana": "やぶの こうじ",
+    "needs_review": false,
+    "src": "atwiki:65",
+    "type": "artist"
   },
   "kono_subarashii_sekai_ni_bakuen_wo!": {
     "ja": "この素晴らしい世界に爆焔を！",
@@ -2005,6 +3319,78 @@
     "src": "wikidata:Q112173539",
     "type": "copyright"
   },
+  "koudai_watanabe": {
+    "count": 230,
+    "ja": "渡邊巧大",
+    "kana": "わたなべ こうだい",
+    "needs_review": false,
+    "src": "atwiki:1528",
+    "type": "artist"
+  },
+  "kouichi_hashimoto": {
+    "count": 40,
+    "ja": "橋本浩一",
+    "kana": "はしもと こういち",
+    "needs_review": false,
+    "src": "atwiki:692",
+    "type": "artist"
+  },
+  "kouji_koizumi": {
+    "count": 33,
+    "ja": "古泉浩司",
+    "kana": "こいずみ こうじ",
+    "needs_review": false,
+    "src": "atwiki:2068",
+    "type": "artist"
+  },
+  "kouji_sugiura": {
+    "count": 176,
+    "ja": "杉浦幸次",
+    "kana": "すぎうら こうじ",
+    "needs_review": false,
+    "src": "atwiki:699",
+    "type": "artist"
+  },
+  "kouki_fujimoto": {
+    "count": 245,
+    "ja": "藤本航己",
+    "kana": "ふじもと こうき",
+    "needs_review": false,
+    "src": "atwiki:2062",
+    "type": "artist"
+  },
+  "kouki_shikiji": {
+    "count": 187,
+    "ja": "式地幸喜",
+    "kana": "しきじ こうき",
+    "needs_review": false,
+    "src": "atwiki:1686",
+    "type": "artist"
+  },
+  "kouta_michishita": {
+    "count": 27,
+    "ja": "道下康太",
+    "kana": "みちした こうた",
+    "needs_review": false,
+    "src": "atwiki:1490",
+    "type": "artist"
+  },
+  "kouta_mori": {
+    "count": 85,
+    "ja": "森公太",
+    "kana": "もり こうた",
+    "needs_review": false,
+    "src": "atwiki:2281",
+    "type": "artist"
+  },
+  "kouta_sugawa": {
+    "count": 51,
+    "ja": "須川康太",
+    "kana": "すがわ こうた",
+    "needs_review": false,
+    "src": "atwiki:1923",
+    "type": "artist"
+  },
   "kuma_kuma_kuma_bear": {
     "ja": "くまクマ熊ベアー",
     "needs_review": false,
@@ -2017,6 +3403,14 @@
     "src": "manual",
     "type": "copyright"
   },
+  "kumiko_kawana": {
+    "count": 42,
+    "ja": "川名久美子",
+    "kana": "かわな くみこ",
+    "needs_review": false,
+    "src": "atwiki:521",
+    "type": "artist"
+  },
   "kung_fu_panda": {
     "ja": "カンフー・パンダ",
     "needs_review": false,
@@ -2028,6 +3422,30 @@
     "needs_review": false,
     "src": "wikidata:Q2081372",
     "type": "copyright"
+  },
+  "kunihiro_abe": {
+    "count": 73,
+    "ja": "阿部邦博",
+    "kana": "あべ くにひろ",
+    "needs_review": false,
+    "src": "atwiki:694",
+    "type": "artist"
+  },
+  "kunihiro_hane": {
+    "count": 27,
+    "ja": "羽根邦広",
+    "kana": "はね くにひろ",
+    "needs_review": false,
+    "src": "atwiki:1802",
+    "type": "artist"
+  },
+  "kuniyuki_ishii": {
+    "count": 18,
+    "ja": "石井邦幸",
+    "kana": "いしい くにゆき",
+    "needs_review": false,
+    "src": "atwiki:1536",
+    "type": "artist"
   },
   "kurenai_(ova)": {
     "ja": "紅 (OVA)",
@@ -2049,6 +3467,14 @@
     "src": "wikidata:Q89894749",
     "type": "copyright"
   },
+  "kyota_washikita": {
+    "count": 22,
+    "ja": "鷲北恭太",
+    "kana": "わしきた きょうた",
+    "needs_review": false,
+    "src": "atwiki:589",
+    "type": "artist"
+  },
   "kyou_kara_ore_wa": {
     "ja": "今日から俺は!!",
     "needs_review": false,
@@ -2060,6 +3486,14 @@
     "needs_review": false,
     "src": "wikidata:Q132183441",
     "type": "copyright"
+  },
+  "kyoushirou_ezawa": {
+    "count": 17,
+    "ja": "江澤京詩郎",
+    "kana": "えざわ きょうしろう",
+    "needs_review": false,
+    "src": "atwiki:1908",
+    "type": "artist"
   },
   "kyoushoku_soukou_guyver_(1986)": {
     "ja": "強殖装甲ガイバー",
@@ -2100,8 +3534,8 @@
   "last_dance_(music_video)": {
     "ja": "ラストダンス",
     "needs_review": false,
-    "type": "copyright",
-    "src": "manual:research-2026-10-30"
+    "src": "manual:research-2026-10-30",
+    "type": "copyright"
   },
   "latale_series": {
     "ja": "ラテール シリーズ",
@@ -2190,8 +3624,8 @@
   "lucky_(pokemon_mv)": {
     "ja": "Lucky",
     "needs_review": false,
-    "type": "copyright",
-    "src": "manual:research-2026-10-30"
+    "src": "manual:research-2026-10-30",
+    "type": "copyright"
   },
   "lucky_star": {
     "ja": "らき☆すた",
@@ -2259,6 +3693,14 @@
     "src": "wikidata:Q6730997",
     "type": "copyright"
   },
+  "mai_toda": {
+    "count": 119,
+    "ja": "戸田麻衣",
+    "kana": "とだ まい",
+    "needs_review": false,
+    "src": "atwiki:1736",
+    "type": "artist"
+  },
   "major_(tv)": {
     "ja": "メジャー",
     "needs_review": false,
@@ -2277,6 +3719,30 @@
     "src": "wikidata:Q135855521",
     "type": "copyright"
   },
+  "mamoru_kurosawa": {
+    "count": 60,
+    "ja": "黒沢守",
+    "kana": "くろさわ まもる",
+    "needs_review": false,
+    "src": "atwiki:1193",
+    "type": "artist"
+  },
+  "mamoru_sasaki": {
+    "count": 29,
+    "ja": "佐々木守",
+    "kana": "ささき まもる",
+    "needs_review": false,
+    "src": "atwiki:1137",
+    "type": "artist"
+  },
+  "mariko_ishikawa": {
+    "count": 45,
+    "ja": "石川真理子",
+    "kana": "いしかわ まりこ",
+    "needs_review": false,
+    "src": "atwiki:2170",
+    "type": "artist"
+  },
   "marvel's_spider-man": {
     "ja": "マーベル スパイダーマン",
     "needs_review": false,
@@ -2289,26 +3755,138 @@
     "src": "wikidata:Q209170",
     "type": "copyright"
   },
+  "masaharu_tada": {
+    "count": 69,
+    "ja": "多田雅治",
+    "kana": "ただ まさはる",
+    "needs_review": false,
+    "src": "atwiki:977",
+    "type": "artist"
+  },
+  "masahiko_kubo": {
+    "count": 74,
+    "ja": "久保まさひこ",
+    "kana": "くぼ まさひこ",
+    "needs_review": false,
+    "src": "atwiki:864",
+    "type": "artist"
+  },
   "masahiko_ota": {
     "ja": "太田雅彦",
+    "kana": "おおた まさひこ",
     "needs_review": false,
-    "type": "artist",
     "src": "wikidata:Q11444460",
-    "kana": "おおた まさひこ"
+    "type": "artist"
   },
   "masahiro_ando": {
     "ja": "安藤真裕",
+    "kana": "あんどう まさひろ",
     "needs_review": false,
-    "type": "artist",
     "src": "wikidata:Q9128134",
-    "kana": "あんどう まさひろ"
+    "type": "artist"
   },
   "masahiro_ando_(1958)": {
     "ja": "安藤正浩",
+    "kana": "あんどう まさひろ",
     "needs_review": false,
-    "type": "artist",
     "src": "manual:research-2026-10-30",
-    "kana": "あんどう まさひろ"
+    "type": "artist"
+  },
+  "masahiro_koyama": {
+    "count": 35,
+    "ja": "児山昌弘",
+    "kana": "こやま まさひろ",
+    "needs_review": false,
+    "src": "atwiki:790",
+    "type": "artist"
+  },
+  "masahiro_kurio": {
+    "count": 14,
+    "ja": "栗尾昌宏",
+    "kana": "くりお まさひろ",
+    "needs_review": false,
+    "src": "atwiki:469",
+    "type": "artist"
+  },
+  "masahiro_sato": {
+    "count": 239,
+    "ja": "佐藤雅弘",
+    "kana": "さとう まさひろ",
+    "needs_review": false,
+    "src": "atwiki:614",
+    "type": "artist"
+  },
+  "masahiro_shimanuki": {
+    "count": 107,
+    "ja": "島貫正弘",
+    "kana": "しまぬき まさひろ",
+    "needs_review": false,
+    "src": "atwiki:1880",
+    "type": "artist"
+  },
+  "masakazu_sunagawa": {
+    "count": 73,
+    "ja": "砂川正和",
+    "kana": "すながわ まさかず",
+    "needs_review": false,
+    "src": "atwiki:334",
+    "type": "artist"
+  },
+  "masami_abe": {
+    "count": 178,
+    "ja": "阿部正実",
+    "kana": "あべ まさみ",
+    "needs_review": false,
+    "src": "atwiki:464",
+    "type": "artist"
+  },
+  "masami_ozone": {
+    "count": 17,
+    "ja": "小曽根正美",
+    "kana": "おぞね まさみ",
+    "needs_review": false,
+    "src": "atwiki:1985",
+    "type": "artist"
+  },
+  "masaru_sakamoto": {
+    "count": 38,
+    "ja": "坂本勝",
+    "kana": "さかもと まさる",
+    "needs_review": false,
+    "src": "atwiki:1765",
+    "type": "artist"
+  },
+  "masaru_yonezawa": {
+    "count": 49,
+    "ja": "米澤優",
+    "kana": "よねざわ まさる",
+    "needs_review": false,
+    "src": "atwiki:1276",
+    "type": "artist"
+  },
+  "masayoshi_tano": {
+    "count": 85,
+    "ja": "田野雅祥",
+    "kana": "たの まさよし",
+    "needs_review": false,
+    "src": "atwiki:1814",
+    "type": "artist"
+  },
+  "masayuki_kobayashi": {
+    "count": 24,
+    "ja": "小林正之",
+    "kana": "こばやし まさゆき",
+    "needs_review": false,
+    "src": "atwiki:1498",
+    "type": "artist"
+  },
+  "masayuki_nonaka": {
+    "count": 358,
+    "ja": "野中正幸",
+    "kana": "のなか まさゆき",
+    "needs_review": false,
+    "src": "atwiki:1579",
+    "type": "artist"
   },
   "mashin_hero_wataru": {
     "ja": "魔神英雄伝ワタル",
@@ -2361,14 +3939,30 @@
   "mellow_(mv)": {
     "ja": "メロウ",
     "needs_review": false,
-    "type": "copyright",
-    "src": "manual:research-2026-10-30"
+    "src": "manual:research-2026-10-30",
+    "type": "copyright"
   },
   "memories": {
     "ja": "MEMORIES",
     "needs_review": false,
     "src": "wikidata:Q564403",
     "type": "copyright"
+  },
+  "michel_sugimoto": {
+    "count": 37,
+    "ja": "杉本ミッシェル",
+    "kana": "すぎもと みっしぇる",
+    "needs_review": false,
+    "src": "atwiki:1601",
+    "type": "artist"
+  },
+  "michiyo_suzuki": {
+    "count": 44,
+    "ja": "鈴木美千代",
+    "kana": "すずき みちよ",
+    "needs_review": false,
+    "src": "atwiki:520",
+    "type": "artist"
   },
   "mickey_mouse": {
     "ja": "ミッキーマウス",
@@ -2379,14 +3973,38 @@
   "miracle": {
     "ja": "Miracle",
     "needs_review": false,
-    "type": "copyright",
-    "src": "manual:research-2026-10-30"
+    "src": "manual:research-2026-10-30",
+    "type": "copyright"
   },
   "miracle_girls": {
     "ja": "ミラクル☆ガールズ",
     "needs_review": false,
     "src": "wikidata:Q125724813",
     "type": "copyright"
+  },
+  "mitsuko_baba": {
+    "count": 24,
+    "ja": "馬場充子",
+    "kana": "ばば みつこ",
+    "needs_review": false,
+    "src": "atwiki:301",
+    "type": "artist"
+  },
+  "mitsuteru_kubo": {
+    "count": 16,
+    "ja": "久保充照",
+    "kana": "くぼ みつてる",
+    "needs_review": false,
+    "src": "atwiki:1678",
+    "type": "artist"
+  },
+  "miwa_sasaki": {
+    "count": 18,
+    "ja": "佐々木美和",
+    "kana": "ささき みわ",
+    "needs_review": false,
+    "src": "atwiki:271",
+    "type": "artist"
   },
   "mix:_meisei_story_series": {
     "ja": "MIX MEISEI STORY シリーズ",
@@ -2399,6 +4017,13 @@
     "needs_review": false,
     "src": "wikidata:Q130485965",
     "type": "copyright"
+  },
+  "moaang": {
+    "count": 149,
+    "ja": "Moaang",
+    "needs_review": false,
+    "src": "atwiki:2049",
+    "type": "artist"
   },
   "moana": {
     "ja": "モアナと伝説の海",
@@ -2487,8 +4112,16 @@
   "moon": {
     "ja": "MOON",
     "needs_review": false,
-    "type": "copyright",
-    "src": "manual:research-2026-10-30"
+    "src": "manual:research-2026-10-30",
+    "type": "copyright"
+  },
+  "morifumi_naka": {
+    "count": 35,
+    "ja": "仲盛文",
+    "kana": "なか もりふみ",
+    "needs_review": false,
+    "src": "atwiki:696",
+    "type": "artist"
   },
   "motorcity": {
     "ja": "モーターシティ",
@@ -2513,6 +4146,14 @@
     "needs_review": false,
     "src": "wikidata:Q537407",
     "type": "copyright"
+  },
+  "munetaka_abe": {
+    "count": 304,
+    "ja": "阿部宗孝",
+    "kana": "あべ むねたか",
+    "needs_review": false,
+    "src": "atwiki:667",
+    "type": "artist"
   },
   "munto_(tv)": {
     "ja": "空を見上げる少女の瞳に映る世界",
@@ -2546,12 +4187,99 @@
     "src": "wikidata:Q1418326",
     "type": "copyright"
   },
+  "myoun": {
+    "count": 104,
+    "ja": "MYOUN",
+    "needs_review": false,
+    "src": "atwiki:2050",
+    "type": "artist"
+  },
+  "nakaya_onsen": {
+    "count": 92,
+    "ja": "温泉中也",
+    "kana": "おんせん なかや",
+    "needs_review": false,
+    "src": "atwiki:1950",
+    "type": "artist"
+  },
+  "nao_naitou": {
+    "count": 39,
+    "ja": "内藤直",
+    "kana": "ないとう なお",
+    "needs_review": false,
+    "src": "atwiki:1034",
+    "type": "artist"
+  },
+  "naohiro_shintani": {
+    "count": 121,
+    "ja": "新谷直大",
+    "kana": "しんたに なおひろ",
+    "needs_review": false,
+    "src": "atwiki:1526",
+    "type": "artist"
+  },
+  "naoki_kobayashi": {
+    "count": 138,
+    "ja": "小林直樹",
+    "kana": "こばやし なおき",
+    "needs_review": false,
+    "src": "atwiki:1771",
+    "type": "artist"
+  },
+  "naoki_miyajima": {
+    "count": 60,
+    "ja": "宮島直樹",
+    "kana": "みやじま なおき",
+    "needs_review": false,
+    "src": "atwiki:1912",
+    "type": "artist"
+  },
   "naoki_takeda": {
     "ja": "竹田直樹",
+    "kana": "たけだ なおき",
     "needs_review": false,
-    "type": "artist",
     "src": "wikidata:Q118692747",
-    "kana": "たけだ なおき"
+    "type": "artist"
+  },
+  "naoki_yoshibe": {
+    "count": 116,
+    "ja": "吉邉尚希",
+    "kana": "よしべ なおき",
+    "needs_review": false,
+    "src": "atwiki:1612",
+    "type": "artist"
+  },
+  "naoto_nakamura": {
+    "count": 20,
+    "ja": "中村直人",
+    "kana": "なかむら なおと",
+    "needs_review": false,
+    "src": "atwiki:1584",
+    "type": "artist"
+  },
+  "naoto_uchida": {
+    "count": 42,
+    "ja": "内田直人",
+    "kana": "うちだ なおと",
+    "needs_review": false,
+    "src": "atwiki:2210",
+    "type": "artist"
+  },
+  "naoya_morotomi": {
+    "count": 50,
+    "ja": "諸冨直也",
+    "kana": "もろとみ なおや",
+    "needs_review": false,
+    "src": "atwiki:2257",
+    "type": "artist"
+  },
+  "naoya_wada": {
+    "count": 45,
+    "ja": "和田直也",
+    "kana": "わだ なおや",
+    "needs_review": false,
+    "src": "atwiki:2251",
+    "type": "artist"
   },
   "naruto": {
     "count": 0,
@@ -2591,6 +4319,14 @@
     "src": "wikidata:Q17214811",
     "type": "copyright"
   },
+  "nichika_oono": {
+    "count": 24,
+    "ja": "大野仁愛",
+    "kana": "おおの にちか",
+    "needs_review": false,
+    "src": "atwiki:2066",
+    "type": "artist"
+  },
   "nightmare": {
     "ja": "ニワトリ男と赤い首",
     "needs_review": false,
@@ -2603,6 +4339,14 @@
     "src": "wikidata:Q111165179",
     "type": "copyright"
   },
+  "nishiki_itaoka": {
+    "count": 311,
+    "ja": "板岡錦",
+    "kana": "いたおか にしき",
+    "needs_review": false,
+    "src": "atwiki:1699",
+    "type": "artist"
+  },
   "nobuaki_nagano": {
     "count": 0,
     "ja": "長野伸明",
@@ -2611,18 +4355,105 @@
     "src": "manual",
     "type": "artist"
   },
+  "nobuhiko_genma": {
+    "count": 51,
+    "ja": "玄馬宣彦",
+    "kana": "げんま のぶひこ",
+    "needs_review": false,
+    "src": "atwiki:1235",
+    "type": "artist"
+  },
+  "nobumasa_shinkawa": {
+    "count": 23,
+    "ja": "新川信正",
+    "kana": "しんかわ のぶまさ",
+    "needs_review": false,
+    "src": "atwiki:1506",
+    "type": "artist"
+  },
   "nobuo_tomizawa": {
     "ja": "富沢信雄",
+    "kana": "とみざわ のぶお",
     "needs_review": false,
-    "type": "artist",
     "src": "wikidata:Q7804383",
-    "kana": "とみざわ のぶお"
+    "type": "artist"
+  },
+  "nobuyuki_mitani": {
+    "count": 62,
+    "ja": "三谷暢之",
+    "kana": "みたに のぶゆき",
+    "needs_review": false,
+    "src": "atwiki:1749",
+    "type": "artist"
+  },
+  "noh_gil-bo": {
+    "count": 22,
+    "ja": "No Gill Bo",
+    "needs_review": false,
+    "src": "atwiki:1426",
+    "type": "artist"
   },
   "non_non_biyori_series": {
     "ja": "のんのんびより シリーズ",
     "needs_review": false,
     "src": "manual",
     "type": "copyright"
+  },
+  "norifumi_kugai": {
+    "count": 140,
+    "ja": "久貝典史",
+    "kana": "くがい のりふみ",
+    "needs_review": false,
+    "src": "atwiki:1782",
+    "type": "artist"
+  },
+  "norikatsu_nakano": {
+    "count": 60,
+    "ja": "中野典克",
+    "kana": "なかの のりかつ",
+    "needs_review": false,
+    "src": "atwiki:2273",
+    "type": "artist"
+  },
+  "noriko_morishima": {
+    "count": 25,
+    "ja": "森島範子",
+    "kana": "もりしま のりこ",
+    "needs_review": false,
+    "src": "atwiki:1986",
+    "type": "artist"
+  },
+  "norimitsu_suzuki": {
+    "count": 285,
+    "ja": "鈴木典光",
+    "kana": "すずき のりみつ",
+    "needs_review": false,
+    "src": "atwiki:73",
+    "type": "artist"
+  },
+  "norimoto_tokura": {
+    "count": 157,
+    "ja": "戸倉紀元",
+    "kana": "とくら のりもと",
+    "needs_review": false,
+    "src": "atwiki:557",
+    "type": "artist"
+  },
+  "noriyuki_imaoka": {
+    "count": 66,
+    "ja": "今岡律之",
+    "kana": "いまおか のりゆき",
+    "needs_review": false,
+    "src": "atwiki:1789",
+    "type": "artist"
+  },
+  "nozomu_abe": {
+    "count": 615,
+    "ja": "阿部望",
+    "kana": "あべ のぞむ",
+    "needs_review": false,
+    "src": "atwiki:853",
+    "type": "artist"
   },
   "occultic;nine": {
     "ja": "Occultic;Nine -オカルティック・ナイン-",
@@ -2679,22 +4510,22 @@
   "orion_(mv)": {
     "ja": "オリオン",
     "needs_review": false,
-    "type": "copyright",
-    "src": "manual:research-2026-10-30"
+    "src": "manual:research-2026-10-30",
+    "type": "copyright"
   },
   "osamu_kobayashi": {
     "ja": "小林治",
+    "kana": "こばやし おさむ",
     "needs_review": false,
-    "type": "artist",
     "src": "wikidata:Q3356918",
-    "kana": "こばやし おさむ"
+    "type": "artist"
   },
   "osamu_kobayashi_(ajia_dou)": {
     "ja": "小林治 (亜細亜堂)",
+    "kana": "こばやし おさむ",
     "needs_review": false,
-    "type": "artist",
     "src": "wikidata:Q3356916",
-    "kana": "こばやし おさむ"
+    "type": "artist"
   },
   "oshi_no_ko": {
     "ja": "【推しの子】",
@@ -2723,8 +4554,8 @@
   "outsider": {
     "ja": "アウトサイダー",
     "needs_review": false,
-    "type": "copyright",
-    "src": "manual:research-2026-10-30"
+    "src": "manual:research-2026-10-30",
+    "type": "copyright"
   },
   "overdrive": {
     "ja": "Over Drive",
@@ -2925,8 +4756,8 @@
   "promise_(mv)": {
     "ja": "約束",
     "needs_review": false,
-    "type": "copyright",
-    "src": "manual:research-2026-10-30"
+    "src": "manual:research-2026-10-30",
+    "type": "copyright"
   },
   "psychic_force_(ova)": {
     "ja": "サイキックフォース (OVA)",
@@ -3003,8 +4834,8 @@
   "rebellion_(mv)": {
     "ja": "リベリオン",
     "needs_review": false,
-    "type": "copyright",
-    "src": "manual:research-2026-10-30"
+    "src": "manual:research-2026-10-30",
+    "type": "copyright"
   },
   "red_baron": {
     "ja": "レッドバロン",
@@ -3023,6 +4854,14 @@
     "needs_review": false,
     "src": "wikidata:Q1207954",
     "type": "copyright"
+  },
+  "ren_onodera": {
+    "count": 50,
+    "ja": "小野寺蓮",
+    "kana": "おのでら れん",
+    "needs_review": false,
+    "src": "atwiki:2126",
+    "type": "artist"
   },
   "resonance_solstice_(game)": {
     "ja": "レゾナンス:無限号列車",
@@ -3057,8 +4896,32 @@
   "richard_williams": {
     "ja": "リチャード・ウィリアムズ",
     "needs_review": false,
-    "type": "artist",
-    "src": "wikidata:Q1999598"
+    "src": "wikidata:Q1999598",
+    "type": "artist"
+  },
+  "rie_sezaki": {
+    "count": 14,
+    "ja": "瀬崎利恵",
+    "kana": "せざき りえ",
+    "needs_review": false,
+    "src": "atwiki:1800",
+    "type": "artist"
+  },
+  "riki_matsuura": {
+    "count": 147,
+    "ja": "松浦力",
+    "kana": "まつうら りき",
+    "needs_review": false,
+    "src": "atwiki:2176",
+    "type": "artist"
+  },
+  "ripa": {
+    "count": 40,
+    "ja": "りぱ",
+    "kana": "りぱ",
+    "needs_review": false,
+    "src": "atwiki:1883",
+    "type": "artist"
   },
   "river_city_girls_(game)": {
     "ja": "熱血硬派くにおくん外伝 リバーシティガールズ",
@@ -3108,6 +4971,13 @@
     "src": "wikidata:Q304290",
     "type": "copyright"
   },
+  "rui": {
+    "count": 28,
+    "ja": "rui",
+    "needs_review": false,
+    "src": "atwiki:2250",
+    "type": "artist"
+  },
   "running_man": {
     "ja": "走る男",
     "needs_review": false,
@@ -3132,32 +5002,160 @@
     "src": "wikidata:Q1215176",
     "type": "copyright"
   },
+  "ryo-timo": {
+    "count": 137,
+    "ja": "りょーちも",
+    "kana": "りょーちも",
+    "needs_review": false,
+    "src": "atwiki:62",
+    "type": "artist"
+  },
+  "ryo_araki": {
+    "count": 244,
+    "ja": "荒木涼",
+    "kana": "あらき りょう",
+    "needs_review": false,
+    "src": "atwiki:1724",
+    "type": "artist"
+  },
+  "ryo_imamura": {
+    "count": 207,
+    "ja": "今村亮",
+    "kana": "いまむら りょう",
+    "needs_review": false,
+    "src": "atwiki:794",
+    "type": "artist"
+  },
+  "ryo_komori": {
+    "count": 15,
+    "ja": "小森良",
+    "kana": "こもり りょう",
+    "needs_review": false,
+    "src": "atwiki:775",
+    "type": "artist"
+  },
+  "ryo_onishi": {
+    "count": 258,
+    "ja": "大西亮",
+    "kana": "おおにし りょう",
+    "needs_review": false,
+    "src": "atwiki:1038",
+    "type": "artist"
+  },
+  "ryoji_nakamori": {
+    "count": 68,
+    "ja": "中森良治",
+    "kana": "なかもり りょうじ",
+    "needs_review": false,
+    "src": "atwiki:238",
+    "type": "artist"
+  },
+  "ryosuke_nishii": {
+    "count": 145,
+    "ja": "西井涼輔",
+    "kana": "にしい りょうすけ",
+    "needs_review": false,
+    "src": "atwiki:1620",
+    "type": "artist"
+  },
   "ryota_aikei": {
     "ja": "愛敬亮太",
+    "kana": "あいけい りょうた",
     "needs_review": false,
-    "type": "artist",
     "src": "wikidata:Q140279246",
-    "kana": "あいけい りょうた"
+    "type": "artist"
+  },
+  "ryota_furukawa": {
+    "count": 54,
+    "ja": "古川良太",
+    "kana": "ふるかわ りょうた",
+    "needs_review": false,
+    "src": "atwiki:962",
+    "type": "artist"
   },
   "ryotaro_makihara": {
     "ja": "牧原亮太郎",
+    "kana": "まきはら りょうたろう",
     "needs_review": false,
-    "type": "artist",
     "src": "wikidata:Q22131383",
-    "kana": "まきはら りょうたろう"
+    "type": "artist"
+  },
+  "ryouhei_muta": {
+    "count": 19,
+    "ja": "牟田亮平",
+    "kana": "むた りょうへい",
+    "needs_review": false,
+    "src": "atwiki:2211",
+    "type": "artist"
+  },
+  "ryouji_masuyama": {
+    "count": 26,
+    "ja": "益山亮司",
+    "kana": "ますやま りょうじ",
+    "needs_review": false,
+    "src": "atwiki:650",
+    "type": "artist"
+  },
+  "ryuji_shiromae": {
+    "count": 23,
+    "ja": "城前龍治",
+    "kana": "しろまえ りゅうじ",
+    "needs_review": false,
+    "src": "atwiki:728",
+    "type": "artist"
+  },
+  "ryuuki_hashimoto": {
+    "count": 92,
+    "ja": "橋本隆希",
+    "kana": "はしもと りゅうき",
+    "needs_review": false,
+    "src": "atwiki:2054",
+    "type": "artist"
   },
   "ryuunosuke_murakami": {
     "ja": "村上竜之介",
+    "kana": "むらかみ りゅうのすけ",
     "needs_review": false,
-    "type": "artist",
     "src": "manual:research-2026-10-30",
-    "kana": "むらかみ りゅうのすけ"
+    "type": "artist"
+  },
+  "ryuuta_ura": {
+    "count": 27,
+    "ja": "宇良隆太",
+    "kana": "うら りゅうた",
+    "needs_review": false,
+    "src": "atwiki:1892",
+    "type": "artist"
+  },
+  "ryuuta_yanagi": {
+    "count": 108,
+    "ja": "柳隆太",
+    "kana": "やなぎ りゅうた",
+    "needs_review": false,
+    "src": "atwiki:1597",
+    "type": "artist"
+  },
+  "sachiko_sugino": {
+    "count": 27,
+    "ja": "杉野左秩子",
+    "kana": "すぎの さちこ",
+    "needs_review": false,
+    "src": "atwiki:1098",
+    "type": "artist"
   },
   "saiyuuki": {
     "ja": "西遊記",
     "needs_review": false,
     "src": "wikidata:Q2626114",
     "type": "copyright"
+  },
+  "sakiko_uda": {
+    "count": 165,
+    "ja": "宇田早輝子",
+    "kana": "うだ さきこ",
+    "needs_review": false,
+    "src": "atwiki:1907",
+    "type": "artist"
   },
   "sakura_taisen_series": {
     "ja": "サクラ大戦",
@@ -3189,12 +5187,67 @@
     "src": "wikidata:Q10865607",
     "type": "copyright"
   },
+  "sara_moroyuki": {
+    "count": 27,
+    "ja": "もろゆき沙羅",
+    "kana": "もろゆき さら",
+    "needs_review": false,
+    "src": "atwiki:1763",
+    "type": "artist"
+  },
+  "satomi_watanabe": {
+    "count": 23,
+    "ja": "渡部里美",
+    "kana": "わたなべ さとみ",
+    "needs_review": false,
+    "src": "atwiki:1808",
+    "type": "artist"
+  },
+  "satoru_nakaya": {
+    "count": 20,
+    "ja": "中屋了",
+    "kana": "なかや さとる",
+    "needs_review": false,
+    "src": "atwiki:1079",
+    "type": "artist"
+  },
+  "satoshi_kadowaki": {
+    "count": 19,
+    "ja": "門脇聡",
+    "kana": "かどわき さとし",
+    "needs_review": false,
+    "src": "atwiki:832",
+    "type": "artist"
+  },
   "satoshi_kimura": {
     "ja": "木村智",
+    "kana": "きむら さとし",
     "needs_review": false,
-    "type": "artist",
     "src": "manual:research-2026-10-30",
-    "kana": "きむら さとし"
+    "type": "artist"
+  },
+  "satoshi_sakai": {
+    "count": 452,
+    "ja": "酒井智史",
+    "kana": "さかい さとし",
+    "needs_review": false,
+    "src": "atwiki:2185",
+    "type": "artist"
+  },
+  "satoshi_shigeta": {
+    "count": 171,
+    "ja": "重田智",
+    "kana": "しげた さとし",
+    "needs_review": false,
+    "src": "atwiki:177",
+    "type": "artist"
+  },
+  "saucelot": {
+    "count": 29,
+    "ja": "Saucelot",
+    "needs_review": false,
+    "src": "atwiki:2237",
+    "type": "artist"
   },
   "sayonara_lara_(mv)": {
     "ja": "さよならララ (MV)",
@@ -3223,14 +5276,54 @@
   "sebastien_laudenbach": {
     "ja": "セバスチャン・ローデンバック",
     "needs_review": false,
-    "type": "artist",
-    "src": "wikidata:Q16028622"
+    "src": "wikidata:Q16028622",
+    "type": "artist"
+  },
+  "seiichi_akitake": {
+    "count": 23,
+    "ja": "秋竹斉一",
+    "kana": "あきたけ せいいち",
+    "needs_review": false,
+    "src": "atwiki:753",
+    "type": "artist"
+  },
+  "seiichi_hashimoto": {
+    "count": 20,
+    "ja": "橋本誠一",
+    "kana": "はしもと せいいち",
+    "needs_review": false,
+    "src": "atwiki:681",
+    "type": "artist"
+  },
+  "seiko_asai": {
+    "count": 111,
+    "ja": "朝井聖子",
+    "kana": "あさい せいこ",
+    "needs_review": false,
+    "src": "atwiki:1649",
+    "type": "artist"
+  },
+  "seimei_maeda": {
+    "count": 20,
+    "ja": "前田清明",
+    "kana": "まえだ せいめい",
+    "needs_review": false,
+    "src": "atwiki:586",
+    "type": "artist"
   },
   "seishun_buta_yarou_wa_bunny_girl_senpai_no_yume_wo_minai_series": {
     "ja": "青春ブタ野郎シリーズ",
     "needs_review": false,
     "src": "wikidata:Q133251942",
     "type": "copyright"
+  },
+  "sejoon_kim": {
+    "count": 211,
+    "ja": "金世俊",
+    "kana": "きむ せじゅん",
+    "needs_review": false,
+    "src": "atwiki:744",
+    "type": "artist"
   },
   "sengoku_majin_goshogun_(1982)": {
     "ja": "戦国魔神ゴーショーグン (1982)",
@@ -3253,8 +5346,8 @@
   "setting_sun_(mv)": {
     "ja": "斜陽",
     "needs_review": false,
-    "type": "copyright",
-    "src": "manual:research-2026-10-30"
+    "src": "manual:research-2026-10-30",
+    "type": "copyright"
   },
   "shadow_skill_(tv)": {
     "ja": "SHADOW SKILL",
@@ -3310,11 +5403,59 @@
     "src": "wikidata:Q27467421",
     "type": "copyright"
   },
+  "shie_kobori": {
+    "count": 29,
+    "ja": "小堀史絵",
+    "kana": "こぼり しえ",
+    "needs_review": false,
+    "src": "atwiki:2255",
+    "type": "artist"
+  },
+  "shigeki_kuhara": {
+    "count": 119,
+    "ja": "工原しげき",
+    "kana": "くはら しげき",
+    "needs_review": false,
+    "src": "atwiki:698",
+    "type": "artist"
+  },
+  "shigeki_sunada": {
+    "count": 32,
+    "ja": "砂田茂樹",
+    "kana": "すなだ しげき",
+    "needs_review": false,
+    "src": "atwiki:1283",
+    "type": "artist"
+  },
+  "shigeyuki_suga": {
+    "count": 58,
+    "ja": "須賀重行",
+    "kana": "すが しげゆき",
+    "needs_review": false,
+    "src": "atwiki:812",
+    "type": "artist"
+  },
+  "shin_matsuo": {
+    "count": 155,
+    "ja": "松尾慎",
+    "kana": "まつお しん",
+    "needs_review": false,
+    "src": "atwiki:234",
+    "type": "artist"
+  },
   "shin_megami_tensei:_devil_children": {
     "ja": "真・女神転生デビチル",
     "needs_review": false,
     "src": "wikidata:Q16549370",
     "type": "copyright"
+  },
+  "shin_ogasawara": {
+    "count": 76,
+    "ja": "小笠原真",
+    "kana": "おがさわら しん",
+    "needs_review": false,
+    "src": "atwiki:1836",
+    "type": "artist"
   },
   "shingeki_no_kyojin_(ova)": {
     "ja": "進撃の巨人 (OVA)",
@@ -3322,19 +5463,155 @@
     "src": "wikidata:Q22126305",
     "type": "copyright"
   },
+  "shingo_abe": {
+    "count": 143,
+    "ja": "阿部慎吾",
+    "kana": "あべ しんご",
+    "needs_review": false,
+    "src": "atwiki:822",
+    "type": "artist"
+  },
+  "shingo_fujii": {
+    "count": 155,
+    "ja": "藤井慎吾",
+    "kana": "ふじい しんご",
+    "needs_review": false,
+    "src": "atwiki:757",
+    "type": "artist"
+  },
+  "shingo_ogiso": {
+    "count": 62,
+    "ja": "小木曽伸吾",
+    "kana": "おぎそ しんご",
+    "needs_review": false,
+    "src": "atwiki:315",
+    "type": "artist"
+  },
+  "shingo_takenaka": {
+    "count": 60,
+    "ja": "竹中真吾",
+    "kana": "たけなか しんご",
+    "needs_review": false,
+    "src": "atwiki:1670",
+    "type": "artist"
+  },
+  "shingo_tamagawa": {
+    "count": 27,
+    "ja": "玉川真吾",
+    "kana": "たまがわ しんご",
+    "needs_review": false,
+    "src": "atwiki:1565",
+    "type": "artist"
+  },
+  "shingo_tamaki": {
+    "count": 138,
+    "ja": "玉木慎吾",
+    "kana": "たまき しんご",
+    "needs_review": false,
+    "src": "atwiki:814",
+    "type": "artist"
+  },
+  "shinichi_kurita": {
+    "count": 129,
+    "ja": "栗田新一",
+    "kana": "くりた しんいち",
+    "needs_review": false,
+    "src": "atwiki:782",
+    "type": "artist"
+  },
+  "shinji_suetomi": {
+    "count": 79,
+    "ja": "末冨慎治",
+    "kana": "すえとみ しんじ",
+    "needs_review": false,
+    "src": "atwiki:477",
+    "type": "artist"
+  },
+  "shinjiro_mogi": {
+    "count": 16,
+    "ja": "茂木信二郎",
+    "kana": "もぎ しんじろう",
+    "needs_review": false,
+    "src": "atwiki:276",
+    "type": "artist"
+  },
+  "shinnosuke_tanaka": {
+    "count": 36,
+    "ja": "田中慎之介",
+    "kana": "たなか しんのすけ",
+    "needs_review": false,
+    "src": "atwiki:2224",
+    "type": "artist"
+  },
+  "shinpei_sawa": {
+    "count": 74,
+    "ja": "澤真平",
+    "kana": "さわ しんぺい",
+    "needs_review": false,
+    "src": "atwiki:1799",
+    "type": "artist"
+  },
+  "shinpei_wada": {
+    "count": 31,
+    "ja": "和田慎平",
+    "kana": "わだ しんぺい",
+    "needs_review": false,
+    "src": "atwiki:2026",
+    "type": "artist"
+  },
+  "shinsaku_kozuma": {
+    "count": 347,
+    "ja": "上妻晋作",
+    "kana": "こうづま しんさく",
+    "needs_review": false,
+    "src": "atwiki:850",
+    "type": "artist"
+  },
   "shinsuke_terasawa": {
     "ja": "寺沢伸介",
+    "kana": "てらさわ しんすけ",
     "needs_review": false,
-    "type": "artist",
     "src": "wikidata:Q111678563",
-    "kana": "てらさわ しんすけ"
+    "type": "artist"
+  },
+  "shinya_segawa": {
+    "count": 29,
+    "ja": "瀬川真矢",
+    "kana": "せがわ しんや",
+    "needs_review": false,
+    "src": "atwiki:1163",
+    "type": "artist"
   },
   "shishi_yamazaki": {
     "ja": "シシヤマザキ",
+    "kana": "しし やまざき",
     "needs_review": false,
-    "type": "artist",
     "src": "wikidata:Q60991144",
-    "kana": "しし やまざき"
+    "type": "artist"
+  },
+  "shogo_matsumoto": {
+    "count": 47,
+    "ja": "松本翔吾",
+    "kana": "まつもと しょうご",
+    "needs_review": false,
+    "src": "atwiki:2282",
+    "type": "artist"
+  },
+  "shohei_nishijima": {
+    "count": 120,
+    "ja": "西島翔平",
+    "kana": "にしじま しょうへい",
+    "needs_review": false,
+    "src": "atwiki:1924",
+    "type": "artist"
+  },
+  "shojuro_yamauchi": {
+    "count": 27,
+    "ja": "山内昇寿郎",
+    "kana": "やまうち しょうじゅろう",
+    "needs_review": false,
+    "src": "atwiki:1229",
+    "type": "artist"
   },
   "shoshimin_series": {
     "ja": "小市民シリーズ",
@@ -3342,24 +5619,160 @@
     "src": "wikidata:Q124256086",
     "type": "copyright"
   },
+  "shosuke_ishibashi": {
+    "count": 31,
+    "ja": "石橋翔祐",
+    "kana": "いしばし しょうすけ",
+    "needs_review": false,
+    "src": "atwiki:1899",
+    "type": "artist"
+  },
+  "shouko_nishigaki": {
+    "count": 34,
+    "ja": "西垣庄子",
+    "kana": "にしがき しょうこ",
+    "needs_review": false,
+    "src": "atwiki:1346",
+    "type": "artist"
+  },
   "shoushimin_series": {
     "ja": "小市民シリーズ",
     "needs_review": false,
     "src": "wikidata:Q124256086",
     "type": "copyright"
   },
+  "shouta_sannomiya": {
+    "count": 101,
+    "ja": "三宮昌太",
+    "kana": "さんのみや しょうた",
+    "needs_review": false,
+    "src": "atwiki:1761",
+    "type": "artist"
+  },
+  "shoutarou_tamemizu": {
+    "count": 60,
+    "ja": "為水翔太郎",
+    "kana": "ためみず しょうたろう",
+    "needs_review": false,
+    "src": "atwiki:2272",
+    "type": "artist"
+  },
   "showtime_(mv)": {
     "ja": "Showtime",
     "needs_review": false,
-    "type": "copyright",
-    "src": "manual:research-2026-10-30"
+    "src": "manual:research-2026-10-30",
+    "type": "copyright"
+  },
+  "shuhei_arita": {
+    "count": 14,
+    "ja": "有田周平",
+    "kana": "ありた しゅうへい",
+    "needs_review": false,
+    "src": "atwiki:1704",
+    "type": "artist"
+  },
+  "shuhei_fuchimoto": {
+    "count": 21,
+    "ja": "淵本宗平",
+    "kana": "ふちもと しゅうへい",
+    "needs_review": false,
+    "src": "atwiki:2226",
+    "type": "artist"
+  },
+  "shuhei_fukuda": {
+    "count": 44,
+    "ja": "福田周平",
+    "kana": "ふくだ しゅうへい",
+    "needs_review": false,
+    "src": "atwiki:2238",
+    "type": "artist"
+  },
+  "shuhei_handa": {
+    "count": 55,
+    "ja": "半田修平",
+    "kana": "はんだ しゅうへい",
+    "needs_review": false,
+    "src": "atwiki:1815",
+    "type": "artist"
+  },
+  "shuhei_yasuda": {
+    "count": 83,
+    "ja": "安田周平",
+    "kana": "やすだ しゅうへい",
+    "needs_review": false,
+    "src": "atwiki:1774",
+    "type": "artist"
+  },
+  "shuichi_kaneko": {
+    "count": 121,
+    "ja": "金子秀一",
+    "kana": "かねこ しゅういち",
+    "needs_review": false,
+    "src": "atwiki:379",
+    "type": "artist"
+  },
+  "shun": {
+    "count": 35,
+    "ja": "駿",
+    "kana": "しゅん",
+    "needs_review": false,
+    "src": "atwiki:2102",
+    "type": "artist"
+  },
+  "shun_enokido": {
+    "count": 211,
+    "ja": "榎戸駿",
+    "kana": "えのきど しゅん",
+    "needs_review": false,
+    "src": "atwiki:1767",
+    "type": "artist"
+  },
+  "shun_miyakawa": {
+    "count": 90,
+    "ja": "宮川駿",
+    "kana": "みやかわ しゅん",
+    "needs_review": false,
+    "src": "atwiki:2198",
+    "type": "artist"
+  },
+  "shunichi_ishimoto": {
+    "count": 55,
+    "ja": "石本峻一",
+    "kana": "いしもと しゅんいち",
+    "needs_review": false,
+    "src": "atwiki:2171",
+    "type": "artist"
+  },
+  "shunichiro_taniguchi": {
+    "count": 35,
+    "ja": "谷口俊一郎",
+    "kana": "たにぐち しゅんいちろう",
+    "needs_review": false,
+    "src": "atwiki:1872",
+    "type": "artist"
+  },
+  "shunsuke_aoki": {
+    "count": 80,
+    "ja": "青木駿介",
+    "kana": "あおき しゅんすけ",
+    "needs_review": false,
+    "src": "atwiki:1975",
+    "type": "artist"
   },
   "shunsuke_okubo": {
     "ja": "大久保俊介",
+    "kana": "おおくぼ しゅんすけ",
     "needs_review": false,
-    "type": "artist",
     "src": "manual:research-2026-10-30",
-    "kana": "おおくぼ しゅんすけ"
+    "type": "artist"
+  },
+  "shunsuke_takarai": {
+    "count": 60,
+    "ja": "宝井俊介",
+    "kana": "たからい しゅんすけ",
+    "needs_review": false,
+    "src": "atwiki:2231",
+    "type": "artist"
   },
   "shuu_sugita": {
     "count": 0,
@@ -3367,6 +5780,14 @@
     "kana": "すぎた しゅう",
     "needs_review": false,
     "src": "manual",
+    "type": "artist"
+  },
+  "shuuto_enomoto": {
+    "count": 131,
+    "ja": "榎本柊斗",
+    "kana": "えのもと しゅうと",
+    "needs_review": false,
+    "src": "atwiki:2103",
     "type": "artist"
   },
   "sister_princess": {
@@ -3411,11 +5832,19 @@
     "src": "wikidata:Q215617",
     "type": "copyright"
   },
+  "soichiro_matsuda": {
+    "count": 243,
+    "ja": "松田宗一郎",
+    "kana": "まつだ そういちろう",
+    "needs_review": false,
+    "src": "atwiki:226",
+    "type": "artist"
+  },
   "song_of_life_(mv)": {
     "ja": "人生讃歌",
     "needs_review": false,
-    "type": "copyright",
-    "src": "manual:research-2026-10-30"
+    "src": "manual:research-2026-10-30",
+    "type": "copyright"
   },
   "sonic_the_hedgehog": {
     "ja": "ソニック・ザ・ヘッジホッグ",
@@ -3435,6 +5864,38 @@
     "src": "manual",
     "type": "copyright"
   },
+  "sorato_shimizu": {
+    "count": 35,
+    "ja": "清水空翔",
+    "kana": "しみず そらと",
+    "needs_review": false,
+    "src": "atwiki:1364",
+    "type": "artist"
+  },
+  "sota_shigetsugu": {
+    "count": 112,
+    "ja": "重次創太",
+    "kana": "しげつぐ そうた",
+    "needs_review": false,
+    "src": "atwiki:2174",
+    "type": "artist"
+  },
+  "sou_miyazaki": {
+    "count": 97,
+    "ja": "宮崎創",
+    "kana": "みやざき そう",
+    "needs_review": false,
+    "src": "atwiki:2065",
+    "type": "artist"
+  },
+  "souta_yamazaki": {
+    "count": 169,
+    "ja": "山崎爽太",
+    "kana": "やまざき そうた",
+    "needs_review": false,
+    "src": "atwiki:2152",
+    "type": "artist"
+  },
   "space_adventure_cobra": {
     "ja": "スペースコブラ",
     "needs_review": false,
@@ -3444,8 +5905,8 @@
   "speed_(mv)": {
     "ja": "SPEED",
     "needs_review": false,
-    "type": "copyright",
-    "src": "manual:research-2026-10-30"
+    "src": "manual:research-2026-10-30",
+    "type": "copyright"
   },
   "spider-man": {
     "ja": "スパイダーマン",
@@ -3531,6 +5992,14 @@
     "src": "wikidata:Q859249",
     "type": "copyright"
   },
+  "sunao_chikaoka": {
+    "count": 39,
+    "ja": "近岡直",
+    "kana": "ちかおか すなお",
+    "needs_review": false,
+    "src": "atwiki:1004",
+    "type": "artist"
+  },
   "supergirl_(mv)": {
     "ja": "Supergirl",
     "needs_review": false,
@@ -3561,11 +6030,99 @@
     "src": "manual",
     "type": "copyright"
   },
+  "susumu_nishizawa": {
+    "count": 72,
+    "ja": "西澤晋",
+    "kana": "にしざわ すすむ",
+    "needs_review": false,
+    "src": "atwiki:1027",
+    "type": "artist"
+  },
+  "susumu_yamaguchi": {
+    "count": 145,
+    "ja": "山口晋",
+    "kana": "やまぐち すすむ",
+    "needs_review": false,
+    "src": "atwiki:80",
+    "type": "artist"
+  },
+  "sute": {
+    "count": 27,
+    "ja": "すて",
+    "kana": "すて",
+    "needs_review": false,
+    "src": "atwiki:2177",
+    "type": "artist"
+  },
   "sword_art_online_alicization_series": {
     "ja": "ソードアート・オンライン アリシゼーション シリーズ",
     "needs_review": false,
     "src": "manual",
     "type": "copyright"
+  },
+  "tadaaki_miyata": {
+    "count": 95,
+    "ja": "宮田忠明",
+    "kana": "みやた ただあき",
+    "needs_review": false,
+    "src": "atwiki:777",
+    "type": "artist"
+  },
+  "tadakatsu_yoshida": {
+    "count": 75,
+    "ja": "吉田忠勝",
+    "kana": "よしだ ただかつ",
+    "needs_review": false,
+    "src": "atwiki:1343",
+    "type": "artist"
+  },
+  "tadashi_fukuda": {
+    "count": 22,
+    "ja": "福田忠",
+    "kana": "ふくだ ただし",
+    "needs_review": false,
+    "src": "atwiki:1449",
+    "type": "artist"
+  },
+  "tadashi_matsuzaki": {
+    "count": 24,
+    "ja": "松崎正",
+    "kana": "まつざき ただし",
+    "needs_review": false,
+    "src": "atwiki:771",
+    "type": "artist"
+  },
+  "tadashi_oppata": {
+    "count": 76,
+    "ja": "乙幡忠志",
+    "kana": "おっぱた ただし",
+    "needs_review": false,
+    "src": "atwiki:198",
+    "type": "artist"
+  },
+  "tadashi_sakazaki": {
+    "count": 32,
+    "ja": "坂崎忠",
+    "kana": "さかざき ただし",
+    "needs_review": false,
+    "src": "atwiki:335",
+    "type": "artist"
+  },
+  "taiki_imamura": {
+    "count": 29,
+    "ja": "今村大樹",
+    "kana": "いまむら たいき",
+    "needs_review": false,
+    "src": "atwiki:1499",
+    "type": "artist"
+  },
+  "taiki_konno": {
+    "count": 43,
+    "ja": "紺野大樹",
+    "kana": "こんの たいき",
+    "needs_review": false,
+    "src": "atwiki:1984",
+    "type": "artist"
   },
   "tailenders": {
     "ja": "TAILENDERS",
@@ -3573,33 +6130,217 @@
     "src": "wikidata:Q4050662",
     "type": "copyright"
   },
+  "taishi_kawakami": {
+    "count": 22,
+    "ja": "川上大志",
+    "kana": "かわかみ たいし",
+    "needs_review": false,
+    "src": "atwiki:2067",
+    "type": "artist"
+  },
+  "takafumi_torii": {
+    "count": 284,
+    "ja": "鳥居貴史",
+    "kana": "とりい たかふみ",
+    "needs_review": false,
+    "src": "atwiki:1555",
+    "type": "artist"
+  },
   "takahiko_abiru": {
     "ja": "阿比留隆彦",
+    "kana": "あびる たかひこ",
     "needs_review": false,
-    "type": "artist",
     "src": "wikidata:Q133859517",
-    "kana": "あびる たかひこ"
+    "type": "artist"
+  },
+  "takahiro_chiba": {
+    "count": 178,
+    "ja": "千葉崇洋",
+    "kana": "ちば たかひろ",
+    "needs_review": false,
+    "src": "atwiki:367",
+    "type": "artist"
   },
   "takahiro_miura": {
     "ja": "三浦貴博",
+    "kana": "みうら たかひろ",
     "needs_review": false,
-    "type": "artist",
     "src": "wikidata:Q26043719",
-    "kana": "みうら たかひろ"
+    "type": "artist"
+  },
+  "takahiro_sasaki": {
+    "count": 15,
+    "ja": "佐々木貴宏",
+    "kana": "ささき たかひろ",
+    "needs_review": false,
+    "src": "atwiki:1078",
+    "type": "artist"
+  },
+  "takahiro_shikama": {
+    "count": 173,
+    "ja": "鹿間貴裕",
+    "kana": "しかま たかひろ",
+    "needs_review": false,
+    "src": "atwiki:1355",
+    "type": "artist"
+  },
+  "takahiro_tanaka": {
+    "count": 21,
+    "ja": "田中孝弘",
+    "kana": "たなか たかひろ",
+    "needs_review": false,
+    "src": "atwiki:616",
+    "type": "artist"
+  },
+  "takahito_sakazume": {
+    "count": 269,
+    "ja": "坂詰嵩仁",
+    "kana": "さかづめ たかひと",
+    "needs_review": false,
+    "src": "atwiki:1684",
+    "type": "artist"
+  },
+  "takashi_kojima": {
+    "count": 390,
+    "ja": "小島崇史",
+    "kana": "こじま たかし",
+    "needs_review": false,
+    "src": "atwiki:1497",
+    "type": "artist"
+  },
+  "takashi_mukouda": {
+    "count": 193,
+    "ja": "向田隆",
+    "kana": "むこうだ たかし",
+    "needs_review": false,
+    "src": "atwiki:380",
+    "type": "artist"
   },
   "takashi_nakamura": {
     "ja": "なかむらたかし",
+    "kana": "なかむら たかし",
     "needs_review": false,
-    "type": "artist",
     "src": "wikidata:Q7677360",
-    "kana": "なかむら たかし"
+    "type": "artist"
+  },
+  "takashi_sogabe": {
+    "count": 20,
+    "ja": "曽我部孝",
+    "kana": "そがべ たかし",
+    "needs_review": false,
+    "src": "atwiki:1645",
+    "type": "artist"
+  },
+  "takashi_tomioka": {
+    "count": 218,
+    "ja": "富岡隆司",
+    "kana": "とみおか たかし",
+    "needs_review": false,
+    "src": "atwiki:280",
+    "type": "artist"
+  },
+  "takashi_umeda": {
+    "count": 56,
+    "ja": "梅田貴嗣",
+    "kana": "うめだ たかし",
+    "needs_review": false,
+    "src": "atwiki:2036",
+    "type": "artist"
+  },
+  "takayuki_hamada": {
+    "count": 98,
+    "ja": "濱田高行",
+    "kana": "はまだ たかゆき",
+    "needs_review": false,
+    "src": "atwiki:863",
+    "type": "artist"
+  },
+  "takayuki_kitagawa": {
+    "count": 78,
+    "ja": "北川隆之",
+    "kana": "きたがわ たかゆき",
+    "needs_review": false,
+    "src": "atwiki:1680",
+    "type": "artist"
+  },
+  "takayuki_uchida": {
+    "count": 39,
+    "ja": "内田孝行",
+    "kana": "うちだ たかゆき",
+    "needs_review": false,
+    "src": "atwiki:1005",
+    "type": "artist"
+  },
+  "takeshi_maenami": {
+    "count": 279,
+    "ja": "前並武志",
+    "kana": "まえなみ たけし",
+    "needs_review": false,
+    "src": "atwiki:2051",
+    "type": "artist"
+  },
+  "takeshi_morita": {
+    "count": 278,
+    "ja": "森田岳士",
+    "kana": "もりた たけし",
+    "needs_review": false,
+    "src": "atwiki:1172",
+    "type": "artist"
+  },
+  "takeshi_otani": {
+    "count": 31,
+    "ja": "大谷猛",
+    "kana": "おおたに たけし",
+    "needs_review": false,
+    "src": "atwiki:1390",
+    "type": "artist"
+  },
+  "takuma_ebisu": {
+    "count": 88,
+    "ja": "胡拓磨",
+    "kana": "えびす たくま",
+    "needs_review": false,
+    "src": "atwiki:1819",
+    "type": "artist"
+  },
+  "takumi_sunakohara": {
+    "count": 57,
+    "ja": "砂小原巧",
+    "kana": "すなこはら たくみ",
+    "needs_review": false,
+    "src": "atwiki:1927",
+    "type": "artist"
+  },
+  "takuo_noda": {
+    "count": 33,
+    "ja": "野田卓雄",
+    "kana": "のだ たくお",
+    "needs_review": false,
+    "src": "atwiki:372",
+    "type": "artist"
+  },
+  "takushi_koide": {
+    "count": 62,
+    "ja": "小出卓史",
+    "kana": "こいで たくし",
+    "needs_review": false,
+    "src": "atwiki:2025",
+    "type": "artist"
+  },
+  "takuya_suzuki": {
+    "count": 61,
+    "ja": "鈴木卓也",
+    "kana": "すずき たくや",
+    "needs_review": false,
+    "src": "atwiki:388",
+    "type": "artist"
   },
   "takuya_wada": {
     "ja": "和田卓也",
+    "kana": "わだ たくや",
     "needs_review": false,
-    "type": "artist",
     "src": "wikidata:Q11417935",
-    "kana": "わだ たくや"
+    "type": "artist"
   },
   "talesweaver": {
     "ja": "テイルズウィーバー",
@@ -3655,12 +6396,60 @@
     "src": "wikidata:Q208696",
     "type": "copyright"
   },
+  "tatsunori_sakamoto": {
+    "count": 15,
+    "ja": "坂本龍典",
+    "kana": "さかもと たつのり",
+    "needs_review": false,
+    "src": "atwiki:1113",
+    "type": "artist"
+  },
   "tatsuo_yamada": {
     "ja": "山田起生",
+    "kana": "やまだ たつお",
     "needs_review": false,
-    "type": "artist",
     "src": "manual:research-2026-10-30",
-    "kana": "やまだ たつお"
+    "type": "artist"
+  },
+  "tatsurou_kawano": {
+    "count": 85,
+    "ja": "川野達朗",
+    "kana": "かわの たつろう",
+    "needs_review": false,
+    "src": "atwiki:1566",
+    "type": "artist"
+  },
+  "tatsuya_koyanagi": {
+    "count": 97,
+    "ja": "小柳達也",
+    "kana": "こやなぎ たつや",
+    "needs_review": false,
+    "src": "atwiki:1772",
+    "type": "artist"
+  },
+  "tatsuya_miki": {
+    "count": 195,
+    "ja": "三木達也",
+    "kana": "みき たつや",
+    "needs_review": false,
+    "src": "atwiki:1673",
+    "type": "artist"
+  },
+  "tatsuya_satou": {
+    "count": 237,
+    "ja": "佐藤達也",
+    "kana": "さとう たつや",
+    "needs_review": false,
+    "src": "atwiki:1534",
+    "type": "artist"
+  },
+  "tatsuya_tomaru": {
+    "count": 27,
+    "ja": "外丸達也",
+    "kana": "とまる たつや",
+    "needs_review": false,
+    "src": "atwiki:643",
+    "type": "artist"
   },
   "tearmoon_teikoku_monogatari": {
     "ja": "ティアムーン帝国物語",
@@ -3671,14 +6460,22 @@
   "ted_berman": {
     "ja": "テッド・バーマン",
     "needs_review": false,
-    "type": "artist",
-    "src": "wikidata:Q3517016"
+    "src": "wikidata:Q3517016",
+    "type": "artist"
   },
   "teenage_mutant_ninja_turtles": {
     "ja": "ティーンエイジ・ミュータント・ニンジャ・タートルズ",
     "needs_review": false,
     "src": "wikidata:Q98713259",
     "type": "copyright"
+  },
+  "teiichi_takiguchi": {
+    "count": 32,
+    "ja": "滝口禎一",
+    "kana": "たきぐち ていいち",
+    "needs_review": false,
+    "src": "atwiki:691",
+    "type": "artist"
   },
   "telepathy_shoujo_ran": {
     "ja": "テレパシー少女 蘭",
@@ -3698,6 +6495,14 @@
     "src": "manual",
     "type": "copyright"
   },
+  "teruaki_tokumaru": {
+    "count": 161,
+    "ja": "徳丸輝明",
+    "kana": "とくまる てるあき",
+    "needs_review": false,
+    "src": "atwiki:951",
+    "type": "artist"
+  },
   "tetsujin_28-go_(1980)": {
     "ja": "鉄人28号",
     "needs_review": false,
@@ -3706,16 +6511,40 @@
   },
   "tetsuo_yajima": {
     "ja": "矢嶋哲生",
+    "kana": "やじま てつお",
     "needs_review": false,
-    "type": "artist",
     "src": "wikidata:Q17221483",
-    "kana": "やじま てつお"
+    "type": "artist"
+  },
+  "tetsuro_moronuki": {
+    "count": 32,
+    "ja": "諸貫哲朗",
+    "kana": "もろぬき てつろう",
+    "needs_review": false,
+    "src": "atwiki:1392",
+    "type": "artist"
   },
   "tetsuwan_atom_(2003)": {
     "ja": "ASTRO BOY 鉄腕アトム",
     "needs_review": false,
     "src": "wikidata:Q3391330",
     "type": "copyright"
+  },
+  "tetsuya_ishikawa": {
+    "count": 361,
+    "ja": "石川哲也",
+    "kana": "いしかわ てつや",
+    "needs_review": false,
+    "src": "atwiki:778",
+    "type": "artist"
+  },
+  "tetsuya_wakano": {
+    "count": 18,
+    "ja": "若野哲也",
+    "kana": "わかの てつや",
+    "needs_review": false,
+    "src": "atwiki:1029",
+    "type": "artist"
   },
   "the_boxer": {
     "ja": "ザ・ボクサー",
@@ -3915,11 +6744,90 @@
     "src": "wikidata:Q11321091",
     "type": "copyright"
   },
+  "tomato": {
+    "count": 72,
+    "ja": "TOMATO",
+    "needs_review": false,
+    "src": "atwiki:2181",
+    "type": "artist"
+  },
   "tomb_raider_series": {
     "ja": "トゥームレイダー",
     "needs_review": false,
     "src": "manual",
     "type": "copyright"
+  },
+  "tomoaki_takase": {
+    "count": 66,
+    "ja": "高瀬智章",
+    "kana": "たかせ ともあき",
+    "needs_review": false,
+    "src": "atwiki:1467",
+    "type": "artist"
+  },
+  "tomohiro_kishi": {
+    "count": 27,
+    "ja": "岸友洋",
+    "kana": "きし ともひろ",
+    "needs_review": false,
+    "src": "atwiki:1820",
+    "type": "artist"
+  },
+  "tomohiro_shinoda": {
+    "count": 97,
+    "ja": "篠田知宏",
+    "kana": "しのだ ともひろ",
+    "needs_review": false,
+    "src": "atwiki:1602",
+    "type": "artist"
+  },
+  "tomohiro_takayama": {
+    "count": 15,
+    "ja": "高山朋浩",
+    "kana": "たかやま ともひろ",
+    "needs_review": false,
+    "src": "atwiki:671",
+    "type": "artist"
+  },
+  "tomohisa_shimoyama": {
+    "count": 25,
+    "ja": "霜山朋久",
+    "kana": "しもやま ともひさ",
+    "needs_review": false,
+    "src": "atwiki:1227",
+    "type": "artist"
+  },
+  "tomokatsu_nagasaku": {
+    "count": 114,
+    "ja": "永作友克",
+    "kana": "ながさく ともかつ",
+    "needs_review": false,
+    "src": "atwiki:1864",
+    "type": "artist"
+  },
+  "tomosato_hosokawa": {
+    "count": 28,
+    "ja": "細川智悟",
+    "kana": "ほそかわ ともさと",
+    "needs_review": false,
+    "src": "atwiki:1611",
+    "type": "artist"
+  },
+  "tomoyasu_kudo": {
+    "count": 27,
+    "ja": "工藤友靖",
+    "kana": "くどう ともやす",
+    "needs_review": false,
+    "src": "atwiki:2168",
+    "type": "artist"
+  },
+  "tomoyuki_niho": {
+    "count": 89,
+    "ja": "仁保知行",
+    "kana": "にほ ともゆき",
+    "needs_review": false,
+    "src": "atwiki:721",
+    "type": "artist"
   },
   "tonikaku_kawaii_series": {
     "ja": "トニカクカワイイ",
@@ -3927,12 +6835,60 @@
     "src": "wikidata:Q98803646",
     "type": "copyright"
   },
+  "toru_iwazawa": {
+    "count": 208,
+    "ja": "岩澤亨",
+    "kana": "いわさわ とおる",
+    "needs_review": false,
+    "src": "atwiki:2013",
+    "type": "artist"
+  },
+  "toshiaki_hontani": {
+    "count": 49,
+    "ja": "本谷利明",
+    "kana": "ほんたに としあき",
+    "needs_review": false,
+    "src": "atwiki:620",
+    "type": "artist"
+  },
+  "toshiaki_tetsura": {
+    "count": 52,
+    "ja": "鉄羅紀明",
+    "kana": "てつら としあき",
+    "needs_review": false,
+    "src": "atwiki:987",
+    "type": "artist"
+  },
+  "toshiharu_sugie": {
+    "count": 481,
+    "ja": "杉江敏治",
+    "kana": "すぎえ としはる",
+    "needs_review": false,
+    "src": "atwiki:1059",
+    "type": "artist"
+  },
   "toshihisa_kaiya": {
     "ja": "海谷敏久",
+    "kana": "かいや としひさ",
     "needs_review": false,
-    "type": "artist",
     "src": "manual:research-2026-10-30",
-    "kana": "かいや としひさ"
+    "type": "artist"
+  },
+  "toshio_kobayashi_(snipes)": {
+    "count": 48,
+    "ja": "小林冬至生",
+    "kana": "こばやし としお",
+    "needs_review": false,
+    "src": "atwiki:697",
+    "type": "artist"
+  },
+  "toshiya_kouno": {
+    "count": 52,
+    "ja": "河野敏弥",
+    "kana": "こうの としや",
+    "needs_review": false,
+    "src": "atwiki:2183",
+    "type": "artist"
   },
   "touch": {
     "ja": "タッチ",
@@ -3945,6 +6901,22 @@
     "needs_review": false,
     "src": "wikidata:Q139147902",
     "type": "copyright"
+  },
+  "toya_oshima": {
+    "count": 107,
+    "ja": "大島塔也",
+    "kana": "おおしま とうや",
+    "needs_review": false,
+    "src": "atwiki:1877",
+    "type": "artist"
+  },
+  "toyoaki_emura": {
+    "count": 49,
+    "ja": "江村豊秋",
+    "kana": "えむら とよあき",
+    "needs_review": false,
+    "src": "atwiki:1225",
+    "type": "artist"
   },
   "transformers_series": {
     "ja": "トランスフォーマー",
@@ -3976,11 +6948,43 @@
     "src": "wikidata:Q1193720",
     "type": "copyright"
   },
+  "tsurugi_kato": {
+    "count": 310,
+    "ja": "加藤剣",
+    "kana": "かとう つるぎ",
+    "needs_review": false,
+    "src": "atwiki:221",
+    "type": "artist"
+  },
+  "tsutomu_awada": {
+    "count": 44,
+    "ja": "粟田務",
+    "kana": "あわだ つとむ",
+    "needs_review": false,
+    "src": "atwiki:1845",
+    "type": "artist"
+  },
+  "tsutomu_miyazawa": {
+    "count": 28,
+    "ja": "宮澤努",
+    "kana": "みやざわ つとむ",
+    "needs_review": false,
+    "src": "atwiki:1096",
+    "type": "artist"
+  },
+  "tsutomu_oshiro": {
+    "count": 409,
+    "ja": "大城勉",
+    "kana": "おおしろ つとむ",
+    "needs_review": false,
+    "src": "atwiki:459",
+    "type": "artist"
+  },
   "twilight_(mv)": {
     "ja": "Twilight",
     "needs_review": false,
-    "type": "copyright",
-    "src": "manual:research-2026-10-30"
+    "src": "manual:research-2026-10-30",
+    "type": "copyright"
   },
   "uchuu_senshi_baldios_(movie)": {
     "ja": "宇宙戦士バルディオス (映画)",
@@ -4009,8 +7013,8 @@
   "underdog_(mv)": {
     "ja": "Underdog",
     "needs_review": false,
-    "type": "copyright",
-    "src": "manual:research-2026-10-30"
+    "src": "manual:research-2026-10-30",
+    "type": "copyright"
   },
   "urusei_yatsura_(1985)": {
     "ja": "うる星やつら (1985)",
@@ -4063,8 +7067,15 @@
   "veil_(music_video)": {
     "ja": "veil",
     "needs_review": false,
-    "type": "copyright",
-    "src": "manual:research-2026-10-30"
+    "src": "manual:research-2026-10-30",
+    "type": "copyright"
+  },
+  "vercreek": {
+    "count": 128,
+    "ja": "Vercreek",
+    "needs_review": false,
+    "src": "atwiki:2135",
+    "type": "artist"
   },
   "video_girl_ai": {
     "ja": "電影少女",
@@ -4075,8 +7086,15 @@
   "viking_(mv)": {
     "ja": "Viking",
     "needs_review": false,
-    "type": "copyright",
-    "src": "manual:research-2026-10-30"
+    "src": "manual:research-2026-10-30",
+    "type": "copyright"
+  },
+  "vincent_chansard": {
+    "count": 281,
+    "ja": "Chansard Vincent",
+    "needs_review": false,
+    "src": "atwiki:2148",
+    "type": "artist"
   },
   "vinland_saga": {
     "ja": "ヴィンランド・サガ",
@@ -4135,8 +7153,16 @@
   "wilderness": {
     "ja": "WILDERNESS",
     "needs_review": false,
-    "type": "copyright",
-    "src": "manual:research-2026-10-30"
+    "src": "manual:research-2026-10-30",
+    "type": "copyright"
+  },
+  "william_lee": {
+    "count": 102,
+    "ja": "ウィリアム・リー",
+    "kana": "うぃりあむ りー",
+    "needs_review": false,
+    "src": "atwiki:2166",
+    "type": "artist"
   },
   "winnie_the_pooh": {
     "ja": "くまのプーさん",
@@ -4240,18 +7266,114 @@
     "src": "manual",
     "type": "copyright"
   },
+  "yasuhiko_akiyama": {
+    "count": 82,
+    "ja": "秋山泰彦",
+    "kana": "あきやま やすひこ",
+    "needs_review": false,
+    "src": "atwiki:1901",
+    "type": "artist"
+  },
   "yasuhiro_kimura": {
     "ja": "木村泰大",
+    "kana": "きむら やすひろ",
     "needs_review": false,
-    "type": "artist",
     "src": "wikidata:Q26043179",
-    "kana": "きむら やすひろ"
+    "type": "artist"
+  },
+  "yasunori_miyazawa": {
+    "count": 358,
+    "ja": "宮沢康紀",
+    "kana": "みやざわ やすのり",
+    "needs_review": false,
+    "src": "atwiki:258",
+    "type": "artist"
+  },
+  "yasuo_muroi": {
+    "count": 27,
+    "ja": "室井康雄",
+    "kana": "むろい やすお",
+    "needs_review": false,
+    "src": "atwiki:534",
+    "type": "artist"
+  },
+  "yasutoshi_iwasaki": {
+    "count": 109,
+    "ja": "岩崎安利",
+    "kana": "いわさき やすとし",
+    "needs_review": false,
+    "src": "atwiki:2246",
+    "type": "artist"
+  },
+  "yasuyuki_ebara": {
+    "count": 100,
+    "ja": "江原康之",
+    "kana": "えばら やすゆき",
+    "needs_review": false,
+    "src": "atwiki:1012",
+    "type": "artist"
+  },
+  "yasuyuki_kai": {
+    "count": 117,
+    "ja": "甲斐泰之",
+    "kana": "かい やすゆき",
+    "needs_review": false,
+    "src": "atwiki:806",
+    "type": "artist"
   },
   "yatterman_series": {
     "ja": "ヤッターマン",
     "needs_review": false,
     "src": "manual",
     "type": "copyright"
+  },
+  "yohei_yaegashi": {
+    "count": 28,
+    "ja": "八重樫洋平",
+    "kana": "やえがし ようへい",
+    "needs_review": false,
+    "src": "atwiki:2277",
+    "type": "artist"
+  },
+  "yoko_sato": {
+    "count": 71,
+    "ja": "佐藤陽子",
+    "kana": "さとう ようこ",
+    "needs_review": false,
+    "src": "atwiki:175",
+    "type": "artist"
+  },
+  "yong-ce_tu": {
+    "count": 268,
+    "ja": "涂泳策",
+    "kana": "とぅ よんつぇ",
+    "needs_review": false,
+    "src": "atwiki:1955",
+    "type": "artist"
+  },
+  "yooto": {
+    "count": 131,
+    "ja": "よーと",
+    "kana": "よーと",
+    "needs_review": false,
+    "src": "atwiki:2180",
+    "type": "artist"
+  },
+  "yoshiharu_shimizu": {
+    "count": 15,
+    "ja": "清水義治",
+    "kana": "しみず よしはる",
+    "needs_review": false,
+    "src": "atwiki:1093",
+    "type": "artist"
+  },
+  "yoshihide_ideue": {
+    "count": 36,
+    "ja": "井手上義英",
+    "kana": "いでうえ よしひで",
+    "needs_review": false,
+    "src": "atwiki:2160",
+    "type": "artist"
   },
   "yoshihiko_umakoshi": {
     "count": 0,
@@ -4261,12 +7383,68 @@
     "src": "manual",
     "type": "artist"
   },
+  "yoshihiro_kanno": {
+    "count": 392,
+    "ja": "菅野芳弘",
+    "kana": "かんの よしひろ",
+    "needs_review": false,
+    "src": "atwiki:1700",
+    "type": "artist"
+  },
+  "yoshihiro_kitano": {
+    "count": 55,
+    "ja": "北野義宏",
+    "kana": "きたの よしひろ",
+    "needs_review": false,
+    "src": "atwiki:1900",
+    "type": "artist"
+  },
+  "yoshikazu_tomita": {
+    "count": 363,
+    "ja": "冨田与四一",
+    "kana": "とみた よしかず",
+    "needs_review": false,
+    "src": "atwiki:375",
+    "type": "artist"
+  },
+  "yoshiki_nakakoji": {
+    "count": 114,
+    "ja": "中小路佳毅",
+    "kana": "なかこうじ よしき",
+    "needs_review": false,
+    "src": "atwiki:2266",
+    "type": "artist"
+  },
   "yoshiki_yamakawa": {
     "ja": "山川吉樹",
+    "kana": "やまかわ よしのぶ",
     "needs_review": false,
-    "type": "artist",
     "src": "wikidata:Q21019774",
-    "kana": "やまかわ よしのぶ"
+    "type": "artist"
+  },
+  "yoshikuni_ono": {
+    "count": 36,
+    "ja": "小野承國",
+    "kana": "おの よしくに",
+    "needs_review": false,
+    "src": "atwiki:1972",
+    "type": "artist"
+  },
+  "yoshinobu_ando": {
+    "count": 124,
+    "ja": "安藤義信",
+    "kana": "あんどう よしのぶ",
+    "needs_review": false,
+    "src": "atwiki:1420",
+    "type": "artist"
+  },
+  "yoshinobu_inano": {
+    "count": 97,
+    "ja": "稲野義信",
+    "kana": "いなの よしのぶ",
+    "needs_review": false,
+    "src": "atwiki:339",
+    "type": "artist"
   },
   "yoshinori_kanada": {
     "count": 926,
@@ -4276,18 +7454,34 @@
     "src": "manual:https://www.wikidata.org/wiki/Q919281",
     "type": "artist"
   },
+  "yoshitaka_yashima": {
+    "count": 14,
+    "ja": "八島善孝",
+    "kana": "やしま よしたか",
+    "needs_review": false,
+    "src": "atwiki:844",
+    "type": "artist"
+  },
   "yoshiyuki_kishi": {
     "ja": "岸義之",
+    "kana": "きし よしゆき",
     "needs_review": false,
-    "type": "artist",
     "src": "wikidata:Q11476012",
-    "kana": "きし よしゆき"
+    "type": "artist"
   },
   "you're_under_arrest_(tv)": {
     "ja": "逮捕しちゃうぞ (TV)",
     "needs_review": false,
     "src": "wikidata:Q3211899",
     "type": "copyright"
+  },
+  "youhei_sasaki": {
+    "count": 224,
+    "ja": "佐々木洋平",
+    "kana": "ささき ようへい",
+    "needs_review": false,
+    "src": "atwiki:282",
+    "type": "artist"
   },
   "youkai_ningen_bem_series": {
     "ja": "妖怪人間ベム シリーズ",
@@ -4331,12 +7525,116 @@
     "src": "manual",
     "type": "copyright"
   },
+  "yudai_iino": {
+    "count": 16,
+    "ja": "飯野雄大",
+    "kana": "いいの ゆうだい",
+    "needs_review": false,
+    "src": "atwiki:2151",
+    "type": "artist"
+  },
+  "yuga_toyama": {
+    "count": 32,
+    "ja": "遠山友賀",
+    "kana": "とおやま ゆうが",
+    "needs_review": false,
+    "src": "atwiki:2287",
+    "type": "artist"
+  },
   "yuichi_itou": {
     "ja": "伊東優一",
+    "kana": "いとう ゆういち",
     "needs_review": false,
-    "type": "artist",
     "src": "manual:research-2026-10-30",
-    "kana": "いとう ゆういち"
+    "type": "artist"
+  },
+  "yuichi_oka": {
+    "count": 63,
+    "ja": "岡勇一",
+    "kana": "おか ゆういち",
+    "needs_review": false,
+    "src": "atwiki:64",
+    "type": "artist"
+  },
+  "yuichiro_iida": {
+    "count": 59,
+    "ja": "飯田悠一郎",
+    "kana": "いいだ ゆういちろう",
+    "needs_review": false,
+    "src": "atwiki:2290",
+    "type": "artist"
+  },
+  "yuki_kawashima": {
+    "count": 18,
+    "ja": "河島裕樹",
+    "kana": "かわしま ゆうき",
+    "needs_review": false,
+    "src": "atwiki:1886",
+    "type": "artist"
+  },
+  "yuki_komatsu": {
+    "count": 93,
+    "ja": "小松勇輝",
+    "kana": "こまつ ゆうき",
+    "needs_review": false,
+    "src": "atwiki:1240",
+    "type": "artist"
+  },
+  "yuki_matsuguma": {
+    "count": 49,
+    "ja": "松隈勇樹",
+    "kana": "まつぐま ゆうき",
+    "needs_review": false,
+    "src": "atwiki:2159",
+    "type": "artist"
+  },
+  "yuki_sato": {
+    "count": 163,
+    "ja": "佐藤由紀",
+    "kana": "さとう ゆき",
+    "needs_review": false,
+    "src": "atwiki:2145",
+    "type": "artist"
+  },
+  "yuki_suzuki": {
+    "count": 61,
+    "ja": "鈴木悠起",
+    "kana": "すずき ゆうき",
+    "needs_review": false,
+    "src": "atwiki:2242",
+    "type": "artist"
+  },
+  "yuki_yonemori": {
+    "count": 40,
+    "ja": "米森雄紀",
+    "kana": "よねもり ゆうき",
+    "needs_review": false,
+    "src": "atwiki:1971",
+    "type": "artist"
+  },
+  "yukie_hiyamizu": {
+    "count": 17,
+    "ja": "冷水由紀絵",
+    "kana": "ひやみず ゆきえ",
+    "needs_review": false,
+    "src": "atwiki:798",
+    "type": "artist"
+  },
+  "yukina_kosaka": {
+    "count": 75,
+    "ja": "小坂結季奈",
+    "kana": "こさか ゆきな",
+    "needs_review": false,
+    "src": "atwiki:2110",
+    "type": "artist"
+  },
+  "yuko_yasaki": {
+    "count": 20,
+    "ja": "矢﨑優子",
+    "kana": "やさき ゆうこ",
+    "needs_review": false,
+    "src": "atwiki:635",
+    "type": "artist"
   },
   "yuri_seijin_naoko-san_(2010)": {
     "ja": "百合星人ナオコサン (2010)",
@@ -4350,26 +7648,114 @@
     "src": "wikidata:Q8061598",
     "type": "copyright"
   },
+  "yusuke_kawakami": {
+    "count": 87,
+    "ja": "川上雄介",
+    "kana": "かわかみ ゆうすけ",
+    "needs_review": false,
+    "src": "atwiki:2047",
+    "type": "artist"
+  },
   "yuta_murano": {
     "ja": "村野佑太",
+    "kana": "むらの ゆうた",
     "needs_review": false,
-    "type": "artist",
     "src": "wikidata:Q101200589",
-    "kana": "むらの ゆうた"
+    "type": "artist"
+  },
+  "yutaka_araki": {
+    "count": 83,
+    "ja": "荒木裕",
+    "kana": "あらき ゆたか",
+    "needs_review": false,
+    "src": "atwiki:1906",
+    "type": "artist"
+  },
+  "yuuga_tokuno": {
+    "count": 18,
+    "ja": "徳野悠我",
+    "kana": "とくの ゆうが",
+    "needs_review": false,
+    "src": "atwiki:1844",
+    "type": "artist"
+  },
+  "yuuichi_hamano": {
+    "count": 102,
+    "ja": "濱野裕一",
+    "kana": "はまの ゆういち",
+    "needs_review": false,
+    "src": "atwiki:1546",
+    "type": "artist"
+  },
+  "yuuichi_takahashi": {
+    "count": 99,
+    "ja": "高橋裕一",
+    "kana": "たかはし ゆういち",
+    "needs_review": false,
+    "src": "atwiki:615",
+    "type": "artist"
+  },
+  "yuukei_yamada": {
+    "count": 74,
+    "ja": "山田有慶",
+    "kana": "やまだ ゆうけい",
+    "needs_review": false,
+    "src": "atwiki:1921",
+    "type": "artist"
+  },
+  "yuuki_watanabe": {
+    "count": 103,
+    "ja": "渡邉祐記",
+    "kana": "わたなべ ゆうき",
+    "needs_review": false,
+    "src": "atwiki:1741",
+    "type": "artist"
   },
   "yuuki_yase": {
     "ja": "八瀬祐樹",
+    "kana": "やせ ゆうき",
     "needs_review": false,
-    "type": "artist",
     "src": "wikidata:Q98926219",
-    "kana": "やせ ゆうき"
+    "type": "artist"
+  },
+  "yuuko_sera": {
+    "count": 22,
+    "ja": "世良悠子",
+    "kana": "せら ゆうこ",
+    "needs_review": false,
+    "src": "atwiki:1701",
+    "type": "artist"
+  },
+  "yuusuke_tanaka": {
+    "count": 28,
+    "ja": "田中裕介",
+    "kana": "たなか ゆうすけ",
+    "needs_review": false,
+    "src": "atwiki:1226",
+    "type": "artist"
   },
   "yuusuke_yamamoto_(nara)": {
     "ja": "山本ゆうすけ",
+    "kana": "やまもと ゆうすけ",
     "needs_review": false,
-    "type": "artist",
     "src": "manual:research-2026-10-30",
-    "kana": "やまもと ゆうすけ"
+    "type": "artist"
+  },
+  "yuuta_kiso": {
+    "count": 230,
+    "ja": "木曽勇太",
+    "kana": "きそ ゆうた",
+    "needs_review": false,
+    "src": "atwiki:1552",
+    "type": "artist"
+  },
+  "yuuto_kaneko": {
+    "count": 119,
+    "ja": "金子雄人",
+    "kana": "かねこ ゆうと",
+    "needs_review": false,
+    "src": "atwiki:1882",
+    "type": "artist"
   },
   "zaregoto_series": {
     "ja": "戯言シリーズ",
