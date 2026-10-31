@@ -25,9 +25,9 @@ describe('settings', () => {
     expect({ ...defaultsFor('en'), forceJaLocale: true }).toEqual(DEFAULTS)
   })
 
-  it('first run on an English browser does not force the Japanese locale', async () => {
+  it('empty storage on an English browser still loads the Japanese defaults (upgrade-safe)', async () => {
     browserLang('en-US')
-    expect((await loadSettings()).forceJaLocale).toBe(false)
+    expect((await loadSettings()).forceJaLocale).toBe(true)
   })
 
   it('a stored forceJaLocale wins over the browser language', async () => {

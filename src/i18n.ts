@@ -14,7 +14,16 @@ export function detectLang(doc: Document): Lang {
   if (lang) return 'en'
   const menu = doc.getElementById('main-menu')
   const links = menu ? Array.from(menu.querySelectorAll<HTMLAnchorElement>(':scope > ul > li > a:first-child')) : []
-  if (!links.length) return 'en'
+  if (!links.length) {
+    // No menu (e.g. the front page): the locale cookie decides.
+    let cookie = ''
+    try {
+      cookie = doc.cookie
+    } catch {
+      /* cookies unavailable */
+    }
+    return /(?:^|;\s*)locale=ja(?:;|$)/.test(cookie) ? 'ja' : 'en'
+  }
   // Majority vote: some labels ("Wiki", "Patreon") are English in both locales.
   const count = (set: Set<string>) => links.filter((a) => set.has(a.textContent?.trim() ?? '')).length
   return count(SITE_MENU_EN) > count(SITE_MENU_JA) ? 'en' : 'ja'
@@ -58,6 +67,8 @@ export interface Strings {
   searchPlaceholder: string
   removeChip: (label: string) => string
   nameSep: string
+  /** Separator between short facts (full-width space in ja). */
+  wideSep: string
   bandSummary: (names: string, orderLead: string, perPage: number) => string
   sideLabel: string
   panelArtists: string
@@ -205,6 +216,7 @@ const ja: Strings = {
   searchPlaceholder: '作画者・作品・技法を日本語で',
   removeChip: (label) => `${label} を外す`,
   nameSep: '・',
+  wideSep: '　',
   bandSummary: (names, orderLead, perPage) => `${names ? `${names}の` : ''}${orderLead}を 1 ページに ${perPage} 件`,
   sideLabel: 'タグ',
   panelArtists: '作画者',
@@ -289,8 +301,8 @@ const ja: Strings = {
   ppHoverHint: 'サムネに乗せると無音で再生',
   ppFront: 'トップページを新着一覧に',
   ppFrontHint: 'sakugabooru.com を開くと投稿一覧へ',
-  ppJaLocale: 'メニューを日本語に',
-  ppJaLocaleHint: 'サイト本体の日本語表示を常に使う',
+  ppJaLocale: '日本語モード',
+  ppJaLocaleHint: 'サイトの日本語表示とタグの日本語化。オフでサイトも拡張も英語に',
   ppFonts: 'Web フォント (Noto Sans JP) を読み込む',
   ppFontsHint: 'オフにすると端末のフォントで表示',
   ppList: '一覧の表示',
@@ -349,6 +361,7 @@ const en: Strings = {
   searchPlaceholder: 'Search artists, works, techniques',
   removeChip: (label) => `Remove ${label}`,
   nameSep: ', ',
+  wideSep: ' ',
   bandSummary: (names, orderLead, perPage) => `${names ? `${names}: ` : ''}${orderLead}, ${perPage} per page`,
   sideLabel: 'Tags',
   panelArtists: 'Artists',
@@ -433,8 +446,8 @@ const en: Strings = {
   ppHoverHint: 'Plays muted when you point at a thumbnail',
   ppFront: 'Front page shows newest posts',
   ppFrontHint: 'Opening sakugabooru.com goes to the post list',
-  ppJaLocale: 'Japanese site menus',
-  ppJaLocaleHint: "Always use the site's Japanese locale",
+  ppJaLocale: 'Japanese mode',
+  ppJaLocaleHint: 'Japanese site locale plus Japanese tag names. Off = all English',
   ppFonts: 'Load web fonts (Noto Sans JP)',
   ppFontsHint: 'Off uses your device fonts',
   ppList: 'List',

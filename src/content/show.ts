@@ -375,7 +375,7 @@ function scoreRow(doc: Document, post: ShowPost | null, video: HTMLVideoElement 
     return out
   }
   const sync = () => {
-    meta.textContent = parts().join('　')
+    meta.textContent = parts().join(t.wideSep)
   }
   if (video) for (const ev of ['loadedmetadata', 'durationchange']) video.addEventListener(ev, sync)
   sync()
@@ -547,7 +547,7 @@ function facts(doc: Document, post: ShowPost | null, id: string | null, lang: La
   const rating = post.rating && own(RATINGS, post.rating)
   if (rating) rows.push([t.factRating, h(doc, 'span', null, rating)])
   if (post.width && post.height) {
-    const size = `${post.width} x ${post.height}` + (post.fileSize ? `　${formatBytes(post.fileSize)}` : '')
+    const size = `${post.width} x ${post.height}` + (post.fileSize ? `${t.wideSep}${formatBytes(post.fileSize)}` : '')
     rows.push([t.factSize, h(doc, 'span', { class: 'bsb-en' }, size)])
   }
   const statusKey = post.status && own(STATUSES, post.status)

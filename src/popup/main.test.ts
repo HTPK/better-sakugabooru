@@ -180,7 +180,7 @@ describe('popup', () => {
     expect($('#pp-dict-count').textContent).toBe(n.toLocaleString('en-US'))
     expect($('#pp-dict-date').textContent).toBe('[not fetched]')
     expect($('#pp-tech-dec').getAttribute('aria-label')).toBe('Fewer')
-    const jp = /[぀-ヿ一-鿿]/
+    const jp = /[　぀-ヿ一-鿿]/
     const bad = Array.from(document.querySelectorAll('.pp *'))
       .flatMap((el) => [
         ...Array.from(el.childNodes).filter((c) => c.nodeType === 3).map((c) => c.textContent ?? ''),

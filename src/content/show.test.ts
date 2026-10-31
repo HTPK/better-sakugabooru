@@ -405,7 +405,7 @@ describe('renderShow pool notices (post in two pools)', () => {
 })
 
 describe.each(CASES)('renderShow in English mode ($name locale)', ({ html }) => {
-  const JP = /[぀-ヿ一-鿿]/
+  const JP = /[　぀-ヿ一-鿿]/
   const post = postJson(html)
   const run = (patch: Partial<Settings> = {}) => {
     const doc = load(html)

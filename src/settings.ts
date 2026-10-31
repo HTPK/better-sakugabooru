@@ -1,4 +1,4 @@
-import { uiLang, type Lang } from './i18n'
+import type { Lang } from './i18n'
 
 export type Theme = 'light' | 'dark' | 'system'
 export interface Settings {
@@ -71,9 +71,9 @@ function sanitize(raw: unknown, base: Settings = DEFAULTS): Settings {
 export async function loadSettings(): Promise<Settings> {
   try {
     const r = await chrome.storage.sync.get(KEY)
-    // Only a first run (nothing stored) follows the browser language; stored settings are never touched.
-    const base = r[KEY] === undefined ? defaultsFor(uiLang(globalThis.navigator?.language)) : DEFAULTS
-    return sanitize(r[KEY], base)
+    // Nothing stored = plain (Japanese) defaults, so an upgrade never flips the mode. A fresh install is
+    // seeded from the browser language by the background onInstalled handler.
+    return sanitize(r[KEY])
   } catch {
     return { ...DEFAULTS }
   }

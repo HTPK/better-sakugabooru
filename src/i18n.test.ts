@@ -21,6 +21,19 @@ describe('detectLang', () => {
   it('defaults to en without a menu', () => {
     expect(detectLang(page([]))).toBe('en')
   })
+  it('falls back to the locale cookie without html[lang] and menu', () => {
+    const doc = new JSDOM('<!doctype html><html><body></body></html>', { url: 'https://www.sakugabooru.com/' }).window.document
+    expect(detectLang(doc)).toBe('en')
+    doc.cookie = 'locale=ja'
+    expect(detectLang(doc)).toBe('ja')
+    doc.cookie = 'locale=en'
+    expect(detectLang(doc)).toBe('en')
+  })
+  it('html[lang] and menu still win over the cookie', () => {
+    const doc = new JSDOM('<!doctype html><html lang="en"><body></body></html>', { url: 'https://www.sakugabooru.com/' }).window.document
+    doc.cookie = 'locale=ja'
+    expect(detectLang(doc)).toBe('en')
+  })
 })
 
 describe('uiLang', () => {
@@ -40,7 +53,7 @@ describe('STRINGS', () => {
     const bad: string[] = []
     for (const [k, v] of Object.entries(STRINGS.en)) {
       const sample = typeof v === 'function' ? (v as (...a: unknown[]) => string)(3, '2026/01/01') : v
-      if (/[぀-ヿ一-鿿]/.test(String(sample))) bad.push(k)
+      if (/[　぀-ヿ一-鿿]/.test(String(sample))) bad.push(k)
     }
     expect(bad).toEqual([])
   })

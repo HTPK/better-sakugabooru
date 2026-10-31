@@ -1,6 +1,9 @@
-import { ensureAlarm, handleAlarm, handleInstalled, handleMessage } from './handlers'
+import { ensureAlarm, handleAlarm, handleInstalled, handleMessage, seedSettingsOnInstalled } from './handlers'
 
-chrome.runtime.onInstalled.addListener(() => handleInstalled())
+chrome.runtime.onInstalled.addListener((details) => {
+  void seedSettingsOnInstalled(details).catch(() => {})
+  handleInstalled()
+})
 chrome.alarms.onAlarm.addListener((alarm) => handleAlarm(alarm))
 chrome.runtime.onMessage.addListener((msg, _sender, sendResponse) => handleMessage(msg, sendResponse))
 

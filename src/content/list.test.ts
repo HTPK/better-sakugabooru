@@ -510,7 +510,7 @@ describe('sidebar panels from synthetic sidebars', () => {
 })
 
 describe('renderList in English mode', () => {
-  const JP = /[぀-ヿ一-鿿]/
+  const JP = /[　぀-ヿ一-鿿]/
   const runEn = () => {
     const doc = load()
     renderList(doc, dict, { ...DEFAULTS, translateTags: true, showRomaji: true }, {}, 'en')
@@ -531,10 +531,12 @@ describe('renderList in English mode', () => {
     const row = Array.from(doc.querySelectorAll('.bsb-artists a')).find((a) => a.getAttribute('title') === 'shuuichiro_manabe')!
     expect(row.textContent).toBe('shuuichiro manabe')
     const unknown = Array.from(doc.querySelectorAll('.bsb-side-row')).find((a) => (a as HTMLElement).dataset.tag === 'artist_unknown')
-    if (unknown) expect(unknown.textContent).toContain('artist unknown')
+    expect(unknown).toBeDefined()
+    expect(unknown!.textContent).toContain('artist unknown')
     const more = doc.querySelector('.bsb-side-more')
-    if (more) expect(more.textContent).toMatch(/^\+\d+ more$/)
-    expect(doc.querySelector('.bsb-side-more[aria-expanded]')).toBe(more)
+    expect(more).not.toBeNull()
+    expect(more!.textContent).toMatch(/^\+\d+ more$/)
+    expect(more!.hasAttribute('aria-expanded')).toBe(true)
   })
 
   it('has no Japanese characters in the side panel, band or cards', () => {
