@@ -1,5 +1,6 @@
 import { buildReverseIndex, suggest, type Dict, type Suggestion } from '../dict'
 import type { Settings } from '../settings'
+import { spaced, type Lang } from '../i18n'
 import { h } from './render'
 import searchCss from './search.css?inline'
 
@@ -38,7 +39,7 @@ function hasCount(dict: Dict, tag: string): boolean {
  * For non-ASCII tokens it suppresses the site's own TagCompletionBox while our list is open;
  * for ASCII tokens it only adds a list when the dictionary has hits and never blocks the site.
  */
-export function attachSearch(doc: Document, dict: Dict, settings: Settings): () => void {
+export function attachSearch(doc: Document, dict: Dict, settings: Settings, lang: Lang = 'ja'): () => void {
   if (!settings.searchSuggest) return () => {}
   const win = doc.defaultView
   const inputs = Array.from(doc.querySelectorAll<HTMLInputElement>('input[name="tags"]'))
@@ -119,9 +120,9 @@ export function attachSearch(doc: Document, dict: Dict, settings: Settings): () 
             'data-tag': s.tag,
             'data-type': s.type,
           },
-          h(doc, 'span', { class: 'bsb-sg-ja' }, s.ja),
+          h(doc, 'span', { class: 'bsb-sg-ja' }, lang === 'en' ? spaced(s.tag) : s.ja),
           hasCount(dict, s.tag) ? h(doc, 'span', { class: 'bsb-sg-count' }, String(s.count)) : null,
-          h(doc, 'span', { class: 'bsb-sg-romaji' }, s.tag.replace(/_/g, ' ')),
+          lang === 'en' ? null : h(doc, 'span', { class: 'bsb-sg-romaji' }, spaced(s.tag)),
           s.kana ? h(doc, 'span', { class: 'bsb-sg-kana' }, s.kana) : null,
         ),
       ),

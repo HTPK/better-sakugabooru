@@ -211,6 +211,16 @@ describe('attachSearch', () => {
     }
   })
 
+  it('EN mode labels rows with the spaced tag and no romaji span; matching unchanged', () => {
+    detach = attachSearch(document, dict, DEFAULTS, 'en')
+    type('金田')
+    expect(rows()[0].dataset.tag).toBe('yoshinori_kanada')
+    expect(rows()[0].querySelector('.bsb-sg-ja')!.textContent).toBe('yoshinori kanada')
+    expect(rows()[0].querySelector('.bsb-sg-romaji')).toBeNull()
+    type('kanada')
+    expect(rows().map((x) => x.dataset.tag)).toContain('yoshinori_kanada')
+  })
+
   it('attaches nothing when searchSuggest is off', () => {
     detach = attachSearch(document, dict, { ...DEFAULTS, searchSuggest: false })
     type('かなだ')
