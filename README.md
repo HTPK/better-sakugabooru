@@ -1,5 +1,7 @@
 # SakuView for Sakugabooru
 
+**English:** a Chrome extension (Manifest V3) that modernizes [Sakugabooru](https://www.sakugabooru.com/): a denser post list with per-page artist / work / technique panels, hover playback, a frame-stepping player that fits one screen, light and dark themes, and a settings popup. Japanese users also get Japanese tag names and Japanese search completion. Install from the [Chrome Web Store](https://chromewebstore.google.com/detail/sakuview-for-sakugabooru/lenbajkilclneoiohkfaggghafjadhog). The extension follows the language the site serves: use the JP | EN switch in the header. In EN mode tags keep their original names and no dictionary features are shown. Unofficial; not affiliated with Sakugabooru.
+
 [Sakugabooru](https://www.sakugabooru.com/) を日本語で見やすくする Chrome 拡張 (Manifest V3) です。非公式のツールで、Sakugabooru 運営とは無関係です。
 
 - 作画者・作品・技法のタグを日本語で表示 (辞書に無いものは「未訳」マーク付きで原文のまま)
@@ -13,7 +15,7 @@
 ### A. zip を読み込む (開発者モード)
 
 1. エクスプローラーでこのフォルダの `release` フォルダを開きます。
-2. `sakuview-1.0.2.zip` を右クリックして「すべて展開」を選び、展開します (できたフォルダの直下に `manifest.json` があればOK)。
+2. `sakuview-1.1.0.zip` を右クリックして「すべて展開」を選び、展開します (できたフォルダの直下に `manifest.json` があればOK)。
 3. Chrome のアドレスバーに `chrome://extensions` と入力して Enter。
 4. 右上の「デベロッパー モード」をオンにします。
 5. 左上の「パッケージ化されていない拡張機能を読み込む」を押し、手順 2 で展開したフォルダを選びます。

@@ -45,7 +45,51 @@ Sakugabooru (sakugabooru.com) を日本語で見やすくする拡張機能で�
 
 ## 言語
 
-日本語
+日本語、英語 (1.1.0 から。ダッシュボードの「ストアの掲載情報」で言語を追加し、下の英語版を貼る)
+
+## 英語版の掲載文 (ストアの言語「English」用)
+
+### 短い説明 (manifest の `_locales/en` から自動、132 字以内)
+
+Sakugabooru, modernized. Japanese tag names and search for Japanese users; a cleaner list and player for everyone.
+
+### 説明
+
+SakuView modernizes Sakugabooru (sakugabooru.com). It is an unofficial tool for sakuga fans and is not affiliated with the site.
+
+■ Post list
+・Side panels list the artists, works and techniques of the posts on screen, sorted by count. Hover a name to highlight its cards
+・Click a work or technique on a card to open that tag's list
+・24 / 40 / 60 / 100 posts per page
+・Hover a thumbnail to play it muted
+
+■ Post page
+・The video and its controls fit one screen; the title and prev / next buttons sit in the right column
+・Custom controls: playback speed, frame step forward / back with frame numbers, loop, save mp4, fullscreen
+・Posts in a pool get prev / next links inside the pool
+
+■ Also
+・Light / dark themes (follow the OS or pick one)
+・The front page goes straight to the newest posts (can be turned off)
+・Turn features on or off from the toolbar icon
+
+■ Language
+The extension follows the language the site serves: use the JP | EN switch in the header. In Japanese mode, artist, work and technique tags are shown in Japanese (from an open dictionary on GitHub, updated daily) and the search box completes Japanese input to English tags. In English mode tags keep their original names.
+
+■ Privacy
+No personal data or browsing history is collected. See https://github.com/HTPK/better-sakugabooru/blob/main/PRIVACY.md
+
+### 権限が必要な理由 (英語)
+
+| 権限 | 貼る文 |
+|---|---|
+| `storage` | Stores the user's settings and a cache of the downloaded tag dictionary. |
+| `alarms` | Refreshes the tag dictionary once a day. |
+| host `https://www.sakugabooru.com/*` | Rewrites the display of sakugabooru.com pages. Only this site is modified; the tag dictionary (JSON) is downloaded once a day from the public CDN cdn.jsdelivr.net. |
+
+### 単一用途の説明 (英語)
+
+Make Sakugabooru (sakugabooru.com) easier to browse: a denser post list, a better video player, and Japanese tag names and search completion for Japanese users.
 
 ## 画像 (`store/assets/`)
 
@@ -73,7 +117,7 @@ Sakugabooru (sakugabooru.com) のページを日本語で読みやすく表示�
 |---|---|
 | `storage` | 利用者の設定と、取得したタグ辞書のキャッシュを保存するために使います。 |
 | `alarms` | タグ辞書を 1 日 1 回自動で更新するために使います。 |
-| ホスト権限 `https://www.sakugabooru.com/*` | sakugabooru.com のページの表示を書き換えるために使います。他のサイトにはアクセスしません。 |
+| ホスト権限 `https://www.sakugabooru.com/*` | sakugabooru.com のページの表示を書き換えるために使います。ページの書き換えはこのサイトだけです (タグ辞書の JSON は公開 CDN の cdn.jsdelivr.net から 1 日 1 回取得します)。 |
 
 ### リモートコード
 

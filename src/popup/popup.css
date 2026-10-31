@@ -230,6 +230,14 @@ html[data-bsb-theme="dark"] .pp-stepper button {
   line-height: 1.5;
   min-width: 0;
 }
+/* English copy is longer than the Japanese: give the dictionary line the full row, buttons below. */
+html[lang='en'] .pp-foot {
+  flex-wrap: wrap;
+  row-gap: 8px;
+}
+html[lang='en'] .pp-dict {
+  flex-basis: 100%;
+}
 .pp-faint {
   color: var(--bsb-faint);
 }
