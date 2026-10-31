@@ -3,6 +3,7 @@ import './popup.css'
 import { DEFAULTS, loadSettings, saveSettings, type Settings, type Theme } from '../settings'
 import { validateDict, type Dict } from '../dict'
 import { resolveTheme } from '../content/theme'
+import { STRINGS, uiLang, type Lang } from '../i18n'
 import snapshot from '../dict/snapshot.json'
 
 export interface PopupDeps {
@@ -10,6 +11,7 @@ export interface PopupDeps {
   save: (patch: Partial<Settings>) => Promise<void>
   sendMessage: (msg: unknown) => Promise<unknown>
   getStorage: (keys: string[]) => Promise<Record<string, unknown>>
+  uiLanguage?: string
 }
 
 const DARK_QUERY = '(prefers-color-scheme: dark)'
@@ -63,9 +65,36 @@ function version(): string {
   }
 }
 
+export function applyPopupStrings(doc: Document, lang: Lang): void {
+  const s = STRINGS[lang]
+  const str = (key: string): string | null => {
+    const v = (s as unknown as Record<string, unknown>)[key]
+    return typeof v === 'string' ? v : null
+  }
+  doc.querySelectorAll<HTMLElement>('[data-i18n]').forEach((el) => {
+    const v = str(el.dataset.i18n!)
+    if (v !== null) el.textContent = v
+  })
+  doc.querySelectorAll<HTMLElement>('[data-i18n-cols]').forEach((el) => {
+    el.textContent = s.ppCols(Number(el.dataset.i18nCols))
+  })
+  doc.querySelectorAll<HTMLElement>('[data-i18n-attr]').forEach((el) => {
+    for (const pair of el.dataset.i18nAttr!.split(';')) {
+      const [attr, key] = pair.split(':')
+      const v = attr && key ? str(key.trim()) : null
+      if (v !== null) el.setAttribute(attr.trim(), v)
+    }
+  })
+}
+
 export async function initPopup(doc: Document, deps: Partial<PopupDeps> = {}): Promise<void> {
   const d: PopupDeps = { ...defaultDeps, ...deps }
+  const lang = uiLang(d.uiLanguage ?? globalThis.navigator?.language)
+  const s = STRINGS[lang]
+  const locale = lang === 'ja' ? 'ja-JP' : 'en-US'
   const root = doc.documentElement
+  root.setAttribute('lang', lang)
+  applyPopupStrings(doc, lang)
   const mql = doc.defaultView?.matchMedia?.(DARK_QUERY) ?? null
   let theme: Theme = DEFAULTS.theme
   const applyTheme = () => root.setAttribute('data-bsb-theme', resolveTheme(theme, mql?.matches ?? false))
@@ -156,8 +185,8 @@ export async function initPopup(doc: Document, deps: Partial<PopupDeps> = {}): P
       // storage unavailable: fall back to the bundled snapshot
     }
     const stored = validateDict(r.dict) ? r.dict : null
-    if (countEl) countEl.textContent = entryCount(stored ?? (snapshot as Dict)).toLocaleString('ja-JP')
-    if (dateEl) dateEl.textContent = dictDate(stored, r.dictFetchedAt) ?? '[未取得]'
+    if (countEl) countEl.textContent = entryCount(stored ?? (snapshot as Dict)).toLocaleString(locale)
+    if (dateEl) dateEl.textContent = dictDate(stored, r.dictFetchedAt) ?? s.ppNotFetched
     showError(typeof r.dictLastError === 'string' && r.dictLastError ? r.dictLastError : null)
   }
   await renderFooter()
@@ -168,7 +197,7 @@ export async function initPopup(doc: Document, deps: Partial<PopupDeps> = {}): P
     refreshBtn.addEventListener('click', async () => {
       if (refreshBtn.disabled) return
       refreshBtn.disabled = true
-      refreshBtn.textContent = '更新中…'
+      refreshBtn.textContent = s.ppRefreshing
       let res: unknown
       try {
         res = await d.sendMessage({ type: 'bsb:refresh-now' })
@@ -177,7 +206,7 @@ export async function initPopup(doc: Document, deps: Partial<PopupDeps> = {}): P
       }
       await renderFooter()
       const r = res as { ok?: unknown; error?: unknown } | undefined
-      if (!r || r.ok !== true) showError(typeof r?.error === 'string' && r.error ? r.error : '更新に失敗しました')
+      if (!r || r.ok !== true) showError(typeof r?.error === 'string' && r.error ? r.error : s.ppRefreshFailed)
       refreshBtn.textContent = idle
       refreshBtn.disabled = false
     })

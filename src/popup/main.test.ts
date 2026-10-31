@@ -24,6 +24,7 @@ function deps(over: Partial<PopupDeps> = {}, settings: Partial<Settings> = {}, s
     save,
     sendMessage,
     getStorage: async () => storage,
+    uiLanguage: 'ja-JP',
     ...over,
   }
   return { d, save: (over.save as typeof save) ?? save, sendMessage: (over.sendMessage as typeof sendMessage) ?? sendMessage }
@@ -160,6 +161,56 @@ describe('popup', () => {
     await flush()
     expect($('#pp-dict-count').textContent).toBe('6')
     expect($('#pp-dict-date').textContent).toBe('2026/09/30')
+  })
+
+  it('en UI language translates every visible string', async () => {
+    const { d } = deps()
+    await initPopup(document, { ...d, uiLanguage: 'en-US' })
+    expect(document.documentElement.getAttribute('lang')).toBe('en')
+    expect($('.pp-sub').textContent).toBe('Settings')
+    expect(Array.from(document.querySelectorAll('[data-seg="theme"] button')).map((b) => b.textContent)).toEqual([
+      'Light',
+      'Dark',
+      'Follow OS',
+    ])
+    expect($('#pp-refresh').textContent).toBe('Refresh now')
+    expect($('[data-seg="thumbSize"] button[data-value="small"]').textContent).toBe('Small 8 cols')
+    const n =
+      Object.keys(snapshot.artists).length + Object.keys(snapshot.copyrights).length + Object.keys(snapshot.general).length
+    expect($('#pp-dict-count').textContent).toBe(n.toLocaleString('en-US'))
+    expect($('#pp-dict-date').textContent).toBe('[not fetched]')
+    expect($('#pp-tech-dec').getAttribute('aria-label')).toBe('Fewer')
+    const jp = /[぀-ヿ一-鿿]/
+    const bad = Array.from(document.querySelectorAll('.pp *'))
+      .flatMap((el) => [
+        ...Array.from(el.childNodes).filter((c) => c.nodeType === 3).map((c) => c.textContent ?? ''),
+        ...Array.from(el.attributes).map((a) => a.value),
+      ])
+      .filter((t) => jp.test(t))
+    expect(bad).toEqual([])
+  })
+
+  it('en refresh button shows English progress text', async () => {
+    const { d } = deps({ sendMessage: async () => ({ ok: false }) })
+    await initPopup(document, { ...d, uiLanguage: 'en' })
+    const btn = $<HTMLButtonElement>('#pp-refresh')
+    btn.click()
+    expect(btn.textContent).toBe('Refreshing…')
+    await flush()
+    await flush()
+    expect($('#pp-dict-error').textContent).toBe('Refresh failed')
+    expect(btn.textContent).toBe('Refresh now')
+  })
+
+  it('ja UI language leaves the HTML text unchanged', async () => {
+    const before = document.body.innerHTML
+    const { d } = deps()
+    await initPopup(document, { ...d, uiLanguage: 'ja-JP' })
+    expect(document.documentElement.getAttribute('lang')).toBe('ja')
+    expect($('.pp-sub').textContent).toBe('設定')
+    expect($('[data-seg="thumbSize"] button[data-value="small"]').textContent).toBe('小 8列')
+    expect($('.pp-dict > span').textContent).toBe('辞書 ' + $('#pp-dict-count').textContent + ' 語　更新 [未取得]')
+    expect(before).toContain('data-i18n')
   })
 
   it('suggestion link opens the dict repo issue form in a new tab', () => {
