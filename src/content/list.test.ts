@@ -2,7 +2,7 @@ import { describe, it, expect, vi } from 'vitest'
 import { readFileSync } from 'node:fs'
 import { resolve } from 'node:path'
 import { JSDOM } from 'jsdom'
-import { renderList, injectListStyle } from './list'
+import { renderList, injectListStyle, tagName } from './list'
 import { DEFAULTS, type Settings } from '../settings'
 import { parsePosts } from './pagedata'
 import type { Dict } from '../dict'
@@ -506,5 +506,58 @@ describe('sidebar panels from synthetic sidebars', () => {
       ['effects', '7'],
       ['smears', '3'],
     ])
+  })
+})
+
+describe('renderList in English mode', () => {
+  const JP = /[぀-ヿ一-鿿]/
+  const runEn = () => {
+    const doc = load()
+    renderList(doc, dict, { ...DEFAULTS, translateTags: true, showRomaji: true }, {}, 'en')
+    return doc
+  }
+
+  it('tagName never consults the dictionary in EN', () => {
+    const boom = new Proxy({}, { get: () => { throw new Error('dict touched') } }) as unknown as Dict
+    expect(tagName(boom, 'shuuichiro_manabe', 'artist', DEFAULTS, 'en')).toEqual({ ja: null, display: 'shuuichiro manabe' })
+    expect(tagName(dict, 'kabukyuu', 'artist', DEFAULTS, 'ja')).toEqual({ ja: 'スタブ作画者', display: 'スタブ作画者' })
+    expect(tagName(dict, 'zzz_unknown', 'artist', DEFAULTS, 'ja')).toEqual({ ja: null, display: 'zzz_unknown' })
+  })
+
+  it('draws English panels, names and no dictionary-only UI', () => {
+    const doc = runEn()
+    expect(Array.from(doc.querySelectorAll('.bsb-side-h')).map((e) => e.textContent)).toEqual(['Artists', 'Works', 'Techniques'])
+    expect(doc.querySelectorAll('.bsb-untranslated, .bsb-propose, .bsb-tag-romaji, .bsb-qchip-en, .bsb-romaji').length).toBe(0)
+    const row = Array.from(doc.querySelectorAll('.bsb-artists a')).find((a) => a.getAttribute('title') === 'shuuichiro_manabe')!
+    expect(row.textContent).toBe('shuuichiro manabe')
+    const unknown = Array.from(doc.querySelectorAll('.bsb-side-row')).find((a) => (a as HTMLElement).dataset.tag === 'artist_unknown')
+    if (unknown) expect(unknown.textContent).toContain('artist unknown')
+    const more = doc.querySelector('.bsb-side-more')
+    if (more) expect(more.textContent).toMatch(/^\+\d+ more$/)
+    expect(doc.querySelector('.bsb-side-more[aria-expanded]')).toBe(more)
+  })
+
+  it('has no Japanese characters in the side panel, band or cards', () => {
+    const doc = runEn()
+    for (const sel of ['#bsb-side, .bsb-side', '.bsb-band', '.bsb-grid']) {
+      for (const el of Array.from(doc.querySelectorAll<HTMLElement>(sel))) {
+        expect(el.textContent).not.toMatch(JP)
+        for (const e of Array.from(el.querySelectorAll('[title],[aria-label],[alt],[placeholder]'))) {
+          for (const a of ['title', 'aria-label', 'alt', 'placeholder']) expect(e.getAttribute(a) ?? '').not.toMatch(JP)
+        }
+      }
+    }
+    expect(doc.querySelector('aside.bsb-side')!.getAttribute('aria-label')).toBe('Tags')
+  })
+
+  it('keeps the site paginator text and sidebar headings in English', () => {
+    const doc = runEn()
+    expect(doc.querySelector('#paginator')!.textContent).not.toMatch(JP)
+    expect(doc.querySelector('.sidebar')!.textContent).not.toMatch(JP)
+  })
+
+  it('shortDate stays numeric (locale neutral)', () => {
+    const doc = runEn()
+    expect(doc.querySelector('.bsb-date')!.textContent).toMatch(/^\d\d\/\d\d$/)
   })
 })

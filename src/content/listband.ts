@@ -1,5 +1,6 @@
 import type { Dict, TagType } from '../dict'
 import type { Settings } from '../settings'
+import { STRINGS, type Lang } from '../i18n'
 import { jaFor, spaced } from './list'
 import { h } from './render'
 import bandCss from './listband.css?inline'
@@ -7,12 +8,11 @@ import bandCss from './listband.css?inline'
 const STYLE_ID = 'bsb-listband'
 const SITE_DEFAULT_PER_PAGE = 40
 const PER_PAGE: readonly Settings['perPage'][] = [24, 40, 60, 100]
-const PLACEHOLDER = '作画者・作品・技法を日本語で'
 type Order = 'new' | 'score' | 'random'
-const ORDERS: ReadonlyArray<{ order: Order; label: string; lead: string }> = [
-  { order: 'new', label: '新着', lead: '新着' },
-  { order: 'score', label: 'スコア', lead: 'スコア順' },
-  { order: 'random', label: 'ランダム', lead: 'ランダム' },
+const ORDERS: ReadonlyArray<{ order: Order; label: 'sortNew' | 'sortScore' | 'sortRandom'; lead: 'sortLeadNew' | 'sortLeadScore' | 'sortLeadRandom' }> = [
+  { order: 'new', label: 'sortNew', lead: 'sortLeadNew' },
+  { order: 'score', label: 'sortScore', lead: 'sortLeadScore' },
+  { order: 'random', label: 'sortRandom', lead: 'sortLeadRandom' },
 ]
 const LOOKUP_ORDER: readonly TagType[] = ['copyright', 'artist', 'general']
 
@@ -84,9 +84,9 @@ function jaAny(dict: Dict, tag: string, types: Record<string, TagType>, translat
   return null
 }
 
-function chip(doc: Document, tag: string, ja: string | null, romaji: boolean): HTMLElement {
+function chip(doc: Document, tag: string, ja: string | null, romaji: boolean, lang: Lang): HTMLElement {
   const label = ja ?? spaced(tag)
-  const x = h(doc, 'button', { type: 'button', class: 'bsb-qchip-x', 'aria-label': `${label} を外す` }, '×')
+  const x = h(doc, 'button', { type: 'button', class: 'bsb-qchip-x', 'aria-label': STRINGS[lang].removeChip(label) }, '×')
   return h(
     doc,
     'span',
@@ -97,14 +97,15 @@ function chip(doc: Document, tag: string, ja: string | null, romaji: boolean): H
   )
 }
 
-function searchForm(doc: Document, chips: HTMLElement[], keep: string[]): HTMLFormElement {
+function searchForm(doc: Document, chips: HTMLElement[], keep: string[], lang: Lang): HTMLFormElement {
+  const s = STRINGS[lang]
   const input = h(doc, 'input', {
     type: 'text',
     id: 'bsb-q',
     name: 'tags',
     class: 'bsb-qinput',
     autocomplete: 'off',
-    placeholder: PLACEHOLDER,
+    placeholder: s.searchPlaceholder,
   })
   const hidden = h(doc, 'input', { type: 'hidden', class: 'bsb-qhidden' })
   const box = h(doc, 'div', { class: 'bsb-qbox' }, ...chips, input)
@@ -112,10 +113,10 @@ function searchForm(doc: Document, chips: HTMLElement[], keep: string[]): HTMLFo
     doc,
     'form',
     { class: 'bsb-qform', method: 'get', action: '/post', role: 'search' },
-    h(doc, 'label', { class: 'bsb-sr', for: 'bsb-q' }, '検索'),
+    h(doc, 'label', { class: 'bsb-sr', for: 'bsb-q' }, s.search),
     box,
     hidden,
-    h(doc, 'button', { type: 'submit', class: 'bsb-qsubmit bsb-pill' }, '検索'),
+    h(doc, 'button', { type: 'submit', class: 'bsb-qsubmit bsb-pill' }, s.search),
   )
   box.addEventListener('click', (e) => {
     const x = (e.target as Element | null)?.closest('.bsb-qchip-x')
@@ -157,7 +158,9 @@ export function renderListBand(
   settings: Settings,
   actions: BandActions = {},
   types: Record<string, TagType> = {},
+  lang: Lang = 'ja',
 ): HTMLElement | null {
+  const s = STRINGS[lang]
   if (doc.querySelector('.bsb-listband')) return null
   const list = doc.getElementById('post-list-posts')
   const host = doc.getElementById('content') ?? list?.parentElement
@@ -169,12 +172,10 @@ export function renderListBand(
   const order = currentOrder(tokens)
   const tags = tokens.filter((t) => !isOrder(t))
   const keep = tokens.filter(isOrder)
-  const names = tags.map((t) => ({ tag: t, ja: jaAny(dict, t, types, settings.translateTags) }))
+  const names = tags.map((t) => ({ tag: t, ja: lang === 'en' ? null : jaAny(dict, t, types, settings.translateTags) }))
   const perPage = servedPerPage(url)
-  const orderLead = ORDERS.find((o) => o.order === order)?.lead ?? '新着'
-  const lead =
-    (names.length ? `${names.map((n) => n.ja ?? spaced(n.tag)).join('・')}の` : '') +
-    `${orderLead}を 1 ページに ${perPage} 件`
+  const orderLead = s[ORDERS.find((o) => o.order === order)?.lead ?? 'sortLeadNew']
+  const lead = s.bandSummary(names.map((n) => n.ja ?? spaced(n.tag)).join(s.nameSep), orderLead, perPage)
 
   const sortLinks = ORDERS.map((o) =>
     h(
@@ -185,7 +186,7 @@ export function renderListBand(
         class: o.order === order ? 'bsb-on' : undefined,
         'aria-current': o.order === order ? 'true' : undefined,
       },
-      o.label,
+      s[o.label],
     ),
   )
   const navigate = actions.navigate ?? ((u: string) => doc.defaultView?.location.assign(u))
@@ -211,14 +212,15 @@ export function renderListBand(
       doc,
       'div',
       { class: 'bsb-listband-title' },
-      h(doc, 'span', { class: 'bsb-en-title', lang: 'en' }, 'POSTS'),
-      h(doc, 'h1', null, '投稿一覧'),
+      s.postsDeco ? h(doc, 'span', { class: 'bsb-en-title', lang: 'en' }, s.postsDeco) : null,
+      h(doc, 'h1', null, s.posts),
       h(doc, 'span', { class: 'bsb-lead' }, lead),
       // Search sits at the right end of the title row, close to the header nav and the cursor's usual path.
       searchForm(
         doc,
-        names.map((n) => chip(doc, n.tag, n.ja, settings.showRomaji)),
+        names.map((n) => chip(doc, n.tag, n.ja, settings.showRomaji, lang)),
         keep,
+        lang,
       ),
     ),
     h(
@@ -229,8 +231,8 @@ export function renderListBand(
         doc,
         'div',
         { class: 'bsb-listopts' },
-        ...segment(doc, 'bsb-sort', '並び', sortLinks),
-        ...segment(doc, 'bsb-perpage bsb-en', '表示件数', perButtons),
+        ...segment(doc, 'bsb-sort', s.sort, sortLinks),
+        ...segment(doc, 'bsb-perpage bsb-en', s.perPage, perButtons),
       ),
     ),
   )

@@ -167,3 +167,33 @@ describe('url helpers', () => {
     expect(u.searchParams.has('page')).toBe(false)
   })
 })
+
+describe('renderListBand in English mode', () => {
+  const JP = /[぀-ヿ一-鿿]/
+  const doc = (url: string) => load('post-list-2026-10-12.html', url)
+  const en = (url: string) => {
+    const d = doc(url)
+    renderListBand(d, dict, { ...DEFAULTS, translateTags: true, showRomaji: true }, {}, {}, 'en')
+    return d
+  }
+
+  it('title is exactly Posts with no deco text, English labels', () => {
+    const b = band(en('https://www.sakugabooru.com/post'))
+    expect(b.querySelector('h1')!.textContent).toBe('Posts')
+    expect(b.querySelector('.bsb-en-title')).toBeNull()
+    expect(Array.from(b.querySelectorAll('.bsb-sort a')).map((a) => a.textContent)).toEqual(['Newest', 'Score', 'Random'])
+    expect(Array.from(b.querySelectorAll('.bsb-opt-label')).map((a) => a.textContent)).toEqual(['Sort', 'Per page'])
+    expect(b.querySelector<HTMLInputElement>('#bsb-q')!.placeholder).toBe('Search artists, works, techniques')
+    expect(b.textContent).not.toMatch(JP)
+  })
+
+  it('chips show the spaced tag, never the dictionary, no romaji line', () => {
+    const b = band(en('https://www.sakugabooru.com/post?tags=my_hero_academia'))
+    const chip = b.querySelector('.bsb-qchip')!
+    expect(chip.querySelector('.bsb-qchip-ja')!.textContent).toBe('my hero academia')
+    expect(chip.querySelector('.bsb-qchip-en')).toBeNull()
+    expect(chip.querySelector('.bsb-qchip-x')!.getAttribute('aria-label')).toBe('Remove my hero academia')
+    expect(b.querySelector('.bsb-lead')!.textContent).toContain('my hero academia')
+    expect(b.textContent).not.toMatch(JP)
+  })
+})

@@ -1,6 +1,6 @@
 import { lookup, type Dict, type TagType } from '../dict'
 import type { Settings } from '../settings'
-import { spaced } from '../i18n'
+import { spaced, STRINGS, type Lang } from '../i18n'
 import { isBlacklisted, parsePosts, readBlacklist, type Post } from './pagedata'
 import { h } from './render'
 import { renderListBand, type BandActions } from './listband'
@@ -8,9 +8,9 @@ import listCss from './list.css?inline'
 import { proposeUrl, untranslatedMark, UNTRANSLATED } from './propose'
 
 const ARTIST_UNKNOWN = 'artist_unknown'
-const ARTIST_UNKNOWN_JA = '作画者不明'
+const ARTIST_UNKNOWN_JA = STRINGS.ja.artistUnknown
 const SITE_DEFAULT_PER_PAGE = 40
-const ARTIST_SEP = '　'
+const ARTIST_SEP: Record<Lang, string> = { ja: '　', en: ', ' }
 const PROPOSE_LIMIT = 20
 /** Present on nearly every post; never worth a 技法 chip or a translation request. */
 const NOISE = new Set(['animated'])
@@ -36,6 +36,13 @@ export function jaFor(dict: Dict, tag: string, type: TagType, translate: boolean
   if (ja) return ja
   if (tag === ARTIST_UNKNOWN) return lookup(dict, tag, 'general').ja ?? ARTIST_UNKNOWN_JA
   return null
+}
+
+/** Display name of a tag. EN never consults the dictionary: the raw tag, spaced. */
+export function tagName(dict: Dict, tag: string, type: TagType, s: Settings, lang: Lang): { ja: string | null; display: string } {
+  if (lang === 'en') return { ja: null, display: spaced(tag) }
+  const ja = jaFor(dict, tag, type, s.translateTags)
+  return { ja, display: ja ?? tag }
 }
 
 function tagsOf(post: Post, types: Record<string, TagType>, type: TagType): string[] {
@@ -65,6 +72,7 @@ interface Ctx {
   dict: Dict
   settings: Settings
   types: Record<string, TagType>
+  lang: Lang
 }
 
 /** "作品 / 作画者" caption used for alt/title text. */
@@ -72,19 +80,19 @@ function captionText(ctx: Ctx, post: Post): string {
   const { dict, settings, types } = ctx
   const parts: string[] = []
   const cp = pickCopyright(post, types)
-  if (cp) parts.push(jaFor(dict, cp, 'copyright', settings.translateTags) ?? cp)
-  const artists = tagsOf(post, types, 'artist').map((t) => jaFor(dict, t, 'artist', settings.translateTags) ?? t)
-  if (artists.length) parts.push(artists.join('、'))
+  if (cp) parts.push(tagName(dict, cp, 'copyright', settings, ctx.lang).display)
+  const artists = tagsOf(post, types, 'artist').map((t) => tagName(dict, t, 'artist', settings, ctx.lang).display)
+  if (artists.length) parts.push(artists.join(STRINGS[ctx.lang].nameSep === '・' ? '、' : ', '))
   return parts.join(' / ')
 }
 
 function workRow(ctx: Ctx, post: Post): HTMLElement | null {
   const cp = pickCopyright(post, ctx.types)
   if (!cp) return null
-  const ja = jaFor(ctx.dict, cp, 'copyright', ctx.settings.translateTags)
-  const row = h(ctx.doc, 'div', { class: 'bsb-row bsb-work bsb-t-copyright', title: ja ?? cp })
+  const { ja, display } = tagName(ctx.dict, cp, 'copyright', ctx.settings, ctx.lang)
+  const row = h(ctx.doc, 'div', { class: 'bsb-row bsb-work bsb-t-copyright', title: ctx.lang === 'en' ? cp : (ja ?? cp) })
   const link = h(ctx.doc, 'a', { class: 'bsb-t-copyright', href: `/post?tags=${encodeURIComponent(cp)}` })
-  if (ja) link.textContent = ja
+  if (ja || ctx.lang === 'en') link.textContent = display
   else if (ctx.settings.translateTags) link.append(...untranslated(ctx.doc, cp))
   else link.textContent = cp
   row.append(link)
@@ -98,10 +106,10 @@ function artistRow(ctx: Ctx, post: Post): HTMLElement | null {
   const row = h(doc, 'div', { class: 'bsb-row bsb-artists' })
   // Mock: names only (raw tag as tooltip), separated by a full-width space.
   tags.forEach((tag, i) => {
-    if (i > 0) row.append(ARTIST_SEP)
-    const ja = jaFor(dict, tag, 'artist', settings.translateTags)
+    if (i > 0) row.append(ARTIST_SEP[ctx.lang])
+    const { ja, display } = tagName(dict, tag, 'artist', settings, ctx.lang)
     const href = `/post?tags=${encodeURIComponent(tag)}`
-    if (ja) row.append(h(doc, 'a', { href, class: 'bsb-t-artist', title: tag }, ja))
+    if (ja || ctx.lang === 'en') row.append(h(doc, 'a', { href, class: 'bsb-t-artist', title: tag }, display))
     else if (settings.translateTags) row.append(h(doc, 'a', { href, title: tag }, ...untranslated(doc, tag)))
     else row.append(h(doc, 'a', { href, class: 'bsb-t-artist' }, tag))
   })
@@ -128,7 +136,7 @@ function techRow(ctx: Ctx, post: Post): HTMLElement | null {
   const row = h(doc, 'div', { class: 'bsb-row bsb-tech' })
   for (const tag of tags.slice(0, limit)) {
     const href = `/post?tags=${encodeURIComponent(tag)}`
-    row.append(h(doc, 'a', { class: 'bsb-chip bsb-t-general', href, title: tag }, jaFor(dict, tag, 'general', settings.translateTags) ?? tag))
+    row.append(h(doc, 'a', { class: 'bsb-chip bsb-t-general', href, title: tag }, tagName(dict, tag, 'general', settings, ctx.lang).display))
   }
   const rest = tags.length - limit
   if (rest > 0) row.append(h(doc, 'span', { class: 'bsb-chip bsb-more' }, `+${rest}`))
@@ -223,10 +231,10 @@ function translateHeadings(doc: Document): void {
 }
 
 /** Groups and translates `#tag-sidebar` tag links in place (shared by list and show pages). */
-export function translateSidebar(doc: Document, dict: Dict, settings: Settings): void {
-  translateHeadings(doc)
+export function translateSidebar(doc: Document, dict: Dict, settings: Settings, lang: Lang = 'ja'): void {
+  if (lang === 'ja') translateHeadings(doc)
   groupSidebar(doc)
-  if (!settings.translateTags) return
+  if (!settings.translateTags || lang === 'en') return
   for (const li of Array.from(doc.querySelectorAll('#tag-sidebar li'))) {
     if (li.hasAttribute('data-bsb-done')) continue
     const type = sidebarType(li)
@@ -288,11 +296,10 @@ interface SideRow {
 }
 interface PanelSpec {
   type: 'artist' | 'copyright' | 'general'
-  title: string
+  title: 'panelArtists' | 'panelWorks' | 'panelTech'
   max: number
-  more: (n: number) => string
+  more: 'more' | 'moreArtists'
 }
-const FOLD_LABEL = '閉じる'
 const HL = 'bsb-hl'
 
 function tagOfTarget(target: EventTarget | null): string | null {
@@ -311,9 +318,9 @@ export function highlightCards(doc: Document, tag: string | null): void {
 }
 
 const PANELS: readonly PanelSpec[] = [
-  { type: 'artist', title: '作画者', max: 12, more: (n) => `ほか ${n} 名` },
-  { type: 'copyright', title: '作品', max: Infinity, more: (n) => `ほか ${n} 件` },
-  { type: 'general', title: '技法', max: 20, more: (n) => `ほか ${n} 件` },
+  { type: 'artist', title: 'panelArtists', max: 12, more: 'moreArtists' },
+  { type: 'copyright', title: 'panelWorks', max: Infinity, more: 'more' },
+  { type: 'general', title: 'panelTech', max: 20, more: 'more' },
 ]
 
 function siteRows(doc: Document, type: TagType): SideRow[] {
@@ -347,8 +354,8 @@ function pageRows(posts: Post[], types: Record<string, TagType>, type: TagType):
 
 function sideItem(ctx: Ctx, type: PanelSpec['type'], row: SideRow, chip: boolean): HTMLAnchorElement {
   const { doc, dict, settings } = ctx
-  const ja = jaFor(dict, row.tag, type, settings.translateTags)
-  const raw = !ja && settings.translateTags
+  const { ja, display } = tagName(dict, row.tag, type, settings, ctx.lang)
+  const raw = ctx.lang === 'ja' && !ja && settings.translateTags
   const cls = [chip ? 'bsb-side-chip' : 'bsb-side-row', raw ? 'bsb-side-raw' : `bsb-t-${type}`].join(' ')
   return h(
     doc,
@@ -358,7 +365,7 @@ function sideItem(ctx: Ctx, type: PanelSpec['type'], row: SideRow, chip: boolean
       doc,
       'span',
       { class: 'bsb-side-name' },
-      raw ? h(doc, 'span', { class: 'bsb-side-text' }, row.tag) : (ja ?? row.tag),
+      raw ? h(doc, 'span', { class: 'bsb-side-text' }, row.tag) : display,
       raw && untranslatedMark(doc, row.tag),
     ),
     chip ? ' ' : null,
@@ -367,11 +374,12 @@ function sideItem(ctx: Ctx, type: PanelSpec['type'], row: SideRow, chip: boolean
 }
 
 function buildSide(ctx: Ctx, posts: Post[]): HTMLElement {
-  const { doc, dict, settings } = ctx
-  const aside = h(doc, 'aside', { class: 'bsb-side', 'aria-label': 'タグ' })
+  const { doc, dict, settings, lang } = ctx
+  const s = STRINGS[lang]
+  const aside = h(doc, 'aside', { class: 'bsb-side', 'aria-label': STRINGS[ctx.lang].sideLabel })
   const missing = new Set<string>()
   const noteMissing = (tag: string, type: TagType) => {
-    if (settings.translateTags && !NOISE.has(tag) && !jaFor(dict, tag, type, true)) missing.add(tag)
+    if (lang === 'ja' && settings.translateTags && !NOISE.has(tag) && !jaFor(dict, tag, type, true)) missing.add(tag)
   }
   for (const spec of PANELS) {
     // The panels describe the posts on screen. The site's own list (its top-25 popular tags,
@@ -386,12 +394,12 @@ function buildSide(ctx: Ctx, posts: Post[]): HTMLElement {
     for (const el of folded) el.hidden = true
     const list = h(doc, 'div', { class: chip ? 'bsb-side-chips' : 'bsb-side-rows' }, ...items)
     if (folded.length) {
-      const more = h(doc, 'button', { type: 'button', class: 'bsb-side-more', 'aria-expanded': 'false' }, spec.more(folded.length))
+      const more = h(doc, 'button', { type: 'button', class: 'bsb-side-more', 'aria-expanded': 'false' }, s[spec.more](folded.length))
       more.addEventListener('click', () => {
         const open = more.getAttribute('aria-expanded') !== 'true'
         for (const el of folded) el.hidden = !open
         more.setAttribute('aria-expanded', String(open))
-        more.textContent = open ? FOLD_LABEL : spec.more(folded.length)
+        more.textContent = open ? s.less : s[spec.more](folded.length)
       })
       list.append(more)
     }
@@ -404,7 +412,7 @@ function buildSide(ctx: Ctx, posts: Post[]): HTMLElement {
           'data-type': spec.type,
           'data-source': fromPage.length ? 'page' : 'sidebar',
         },
-        h(doc, 'div', { class: 'bsb-side-h' }, spec.title),
+        h(doc, 'div', { class: 'bsb-side-h' }, s[spec.title]),
         list,
       ),
     )
@@ -426,8 +434,8 @@ function buildSide(ctx: Ctx, posts: Post[]): HTMLElement {
         doc,
         'p',
         { class: 'bsb-side-note' },
-        `赤い「${UNTRANSLATED}」は辞書にまだ無い語です (押すとその語の訳を提案できます)。`,
-        h(doc, 'a', { class: 'bsb-propose', href: proposeUrl(asked), target: '_blank', rel: 'noopener' }, '訳を提案する'),
+        s.proposeSideNote(UNTRANSLATED),
+        h(doc, 'a', { class: 'bsb-propose', href: proposeUrl(asked), target: '_blank', rel: 'noopener' }, s.propose),
       ),
     )
   }
@@ -450,14 +458,16 @@ function renderSide(ctx: Ctx, posts: Post[], list: Element): void {
   content.parentElement?.insertBefore(buildSide(ctx, posts), content)
 }
 
-const PAGER_LABELS: ReadonlyArray<[string, RegExp, string]> = [
-  ['.previous_page', /previous|前へ/i, '前へ'],
-  ['.next_page', /next|次へ/i, '次へ'],
+const PAGER_LABELS: ReadonlyArray<[string, RegExp, 'prev' | 'next']> = [
+  ['.previous_page', /previous|前へ/i, 'prev'],
+  ['.next_page', /next|次へ/i, 'next'],
 ]
 
 /** "← Previous" / "← 前へ" → 前へ, "Next →" / "次へ →" → 次へ (text nodes only; links keep their hrefs). */
-function translatePaginator(doc: Document): void {
-  for (const [sel, re, label] of PAGER_LABELS) {
+function translatePaginator(doc: Document, lang: Lang): void {
+  if (lang === 'en') return
+  for (const [sel, re, key] of PAGER_LABELS) {
+    const label = STRINGS[lang][key]
     for (const el of Array.from(doc.querySelectorAll(`#paginator ${sel}`))) {
       const walker = doc.createTreeWalker(el, 4)
       const nodes: Node[] = []
@@ -476,6 +486,7 @@ export function renderList(
   dict: Dict,
   settings: Settings,
   actions: BandActions = {},
+  lang: Lang = 'ja',
 ): { cards: number } {
   const list = doc.getElementById('post-list-posts')
   if (!list || list.hasAttribute('data-bsb-done')) return { cards: 0 }
@@ -483,9 +494,9 @@ export function renderList(
 
   doc.documentElement.classList.add('bsb-list')
   injectListStyle(doc)
-  const ctx: Ctx = { doc, dict, settings, types: tagTypes }
-  renderListBand(doc, dict, settings, actions, tagTypes)
-  translatePaginator(doc)
+  const ctx: Ctx = { doc, dict, settings, types: tagTypes, lang }
+  renderListBand(doc, dict, settings, actions, tagTypes, lang)
+  translatePaginator(doc, lang)
   const blacklist = readBlacklist(doc)
   const visible = posts.filter(
     (p) => !isBlacklisted(p, blacklist) && !doc.getElementById(`p${p.id}`)?.classList.contains('blacklisted'),
@@ -512,7 +523,7 @@ export function renderList(
     img.alt = text
   }
 
-  translateSidebar(doc, dict, settings)
+  translateSidebar(doc, dict, settings, lang)
   rewritePaginator(doc, settings.perPage)
   return { cards: visible.length }
 }
