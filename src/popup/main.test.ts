@@ -163,8 +163,8 @@ describe('popup', () => {
     expect($('#pp-dict-date').textContent).toBe('2026/09/30')
   })
 
-  it('en UI language translates every visible string', async () => {
-    const { d } = deps()
+  it('Japanese mode off translates every visible string', async () => {
+    const { d } = deps({}, { forceJaLocale: false })
     await initPopup(document, { ...d, uiLanguage: 'en-US' })
     expect(document.documentElement.getAttribute('lang')).toBe('en')
     expect($('.pp-sub').textContent).toBe('Settings')
@@ -191,7 +191,7 @@ describe('popup', () => {
   })
 
   it('en refresh button shows English progress text', async () => {
-    const { d } = deps({ sendMessage: async () => ({ ok: false }) })
+    const { d } = deps({ sendMessage: async () => ({ ok: false }) }, { forceJaLocale: false })
     await initPopup(document, { ...d, uiLanguage: 'en' })
     const btn = $<HTMLButtonElement>('#pp-refresh')
     btn.click()
@@ -200,6 +200,23 @@ describe('popup', () => {
     await flush()
     expect($('#pp-dict-error').textContent).toBe('Refresh failed')
     expect(btn.textContent).toBe('Refresh now')
+  })
+
+  it('follows the Japanese mode setting over the browser language, and switches live', async () => {
+    const { d, save } = deps({}, { forceJaLocale: true })
+    await initPopup(document, { ...d, uiLanguage: 'en-US' })
+    expect(document.documentElement.getAttribute('lang')).toBe('ja')
+    expect($('.pp-sub').textContent).toBe('設定')
+    const box = $<HTMLInputElement>('input[data-key="forceJaLocale"]')
+    box.checked = false
+    box.dispatchEvent(new Event('change'))
+    expect(save).toHaveBeenCalledWith({ forceJaLocale: false })
+    expect(document.documentElement.getAttribute('lang')).toBe('en')
+    expect($('.pp-sub').textContent).toBe('Settings')
+    expect($('#pp-refresh').textContent).toBe('Refresh now')
+    box.checked = true
+    box.dispatchEvent(new Event('change'))
+    expect($('.pp-sub').textContent).toBe('設定')
   })
 
   it('ja UI language leaves the HTML text unchanged', async () => {

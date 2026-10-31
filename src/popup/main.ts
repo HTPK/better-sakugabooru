@@ -89,12 +89,20 @@ export function applyPopupStrings(doc: Document, lang: Lang): void {
 
 export async function initPopup(doc: Document, deps: Partial<PopupDeps> = {}): Promise<void> {
   const d: PopupDeps = { ...defaultDeps, ...deps }
-  const lang = uiLang(d.uiLanguage ?? globalThis.navigator?.language)
-  const s = STRINGS[lang]
-  const locale = lang === 'ja' ? 'ja-JP' : 'en-US'
+  // Browser language is only the guess before settings load; the popup then follows the
+  // "Japanese mode" setting, the same switch the site's JP | EN link writes.
+  let lang: Lang = uiLang(d.uiLanguage ?? globalThis.navigator?.language)
+  let s = STRINGS[lang]
+  let locale = lang === 'ja' ? 'ja-JP' : 'en-US'
   const root = doc.documentElement
-  root.setAttribute('lang', lang)
-  applyPopupStrings(doc, lang)
+  const setLang = (next: Lang) => {
+    lang = next
+    s = STRINGS[lang]
+    locale = lang === 'ja' ? 'ja-JP' : 'en-US'
+    root.setAttribute('lang', lang)
+    applyPopupStrings(doc, lang)
+  }
+  setLang(lang)
   const mql = doc.defaultView?.matchMedia?.(DARK_QUERY) ?? null
   let theme: Theme = DEFAULTS.theme
   const applyTheme = () => root.setAttribute('data-bsb-theme', resolveTheme(theme, mql?.matches ?? false))
@@ -111,6 +119,7 @@ export async function initPopup(doc: Document, deps: Partial<PopupDeps> = {}): P
   const settings = await d.load()
   theme = settings.theme
   applyTheme()
+  setLang(settings.forceJaLocale ? 'ja' : 'en')
 
   const save = (patch: Partial<Settings>) => void d.save(patch).catch(() => {})
 
@@ -119,7 +128,13 @@ export async function initPopup(doc: Document, deps: Partial<PopupDeps> = {}): P
     const input = q<HTMLInputElement>(`input[data-key="${key}"]`)
     if (!input) continue
     input.checked = settings[key as BoolKey]
-    input.addEventListener('change', () => save({ [key]: input.checked }))
+    input.addEventListener('change', () => {
+      save({ [key]: input.checked })
+      if (key === 'forceJaLocale') {
+        setLang(input.checked ? 'ja' : 'en')
+        void renderFooter()
+      }
+    })
   }
 
   // Segmented buttons
@@ -193,7 +208,6 @@ export async function initPopup(doc: Document, deps: Partial<PopupDeps> = {}): P
 
   const refreshBtn = q<HTMLButtonElement>('#pp-refresh')
   if (refreshBtn) {
-    const idle = refreshBtn.textContent ?? ''
     refreshBtn.addEventListener('click', async () => {
       if (refreshBtn.disabled) return
       refreshBtn.disabled = true
@@ -207,7 +221,7 @@ export async function initPopup(doc: Document, deps: Partial<PopupDeps> = {}): P
       await renderFooter()
       const r = res as { ok?: unknown; error?: unknown } | undefined
       if (!r || r.ok !== true) showError(typeof r?.error === 'string' && r.error ? r.error : s.ppRefreshFailed)
-      refreshBtn.textContent = idle
+      refreshBtn.textContent = s.ppRefresh
       refreshBtn.disabled = false
     })
   }
