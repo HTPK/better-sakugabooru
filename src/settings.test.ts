@@ -1,16 +1,45 @@
 import { describe, it, expect } from 'vitest'
-import { DEFAULTS, loadSettings, saveSettings, onSettingsChange } from './settings'
+import { DEFAULTS, defaultsFor, loadSettings, saveSettings, onSettingsChange } from './settings'
+
+function browserLang(lang: string) {
+  Object.defineProperty(globalThis.navigator, 'language', { value: lang, configurable: true })
+}
 
 describe('settings', () => {
   it('returns defaults when storage is empty', async () => {
+    browserLang('ja-JP')
     expect(await loadSettings()).toEqual(DEFAULTS)
   })
 
   it('returns defaults when storage throws', async () => {
+    browserLang('ja-JP')
     chrome.storage.sync.get = (async () => {
       throw new Error('storage down')
     }) as never
     expect(await loadSettings()).toEqual(DEFAULTS)
+  })
+
+  it('defaultsFor only differs in forceJaLocale', () => {
+    expect(defaultsFor('ja').forceJaLocale).toBe(true)
+    expect(defaultsFor('en').forceJaLocale).toBe(false)
+    expect({ ...defaultsFor('en'), forceJaLocale: true }).toEqual(DEFAULTS)
+  })
+
+  it('first run on an English browser does not force the Japanese locale', async () => {
+    browserLang('en-US')
+    expect((await loadSettings()).forceJaLocale).toBe(false)
+  })
+
+  it('a stored forceJaLocale wins over the browser language', async () => {
+    browserLang('en-US')
+    await chrome.storage.sync.set({ settings: { forceJaLocale: true } })
+    expect((await loadSettings()).forceJaLocale).toBe(true)
+  })
+
+  it('stored settings missing forceJaLocale fall back to the static default', async () => {
+    browserLang('en-US')
+    await chrome.storage.sync.set({ settings: { theme: 'dark' } })
+    expect((await loadSettings()).forceJaLocale).toBe(true)
   })
 
   it('merges stored values over defaults', async () => {

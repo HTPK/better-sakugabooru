@@ -1,3 +1,5 @@
+import { uiLang, type Lang } from './i18n'
+
 export type Theme = 'light' | 'dark' | 'system'
 export interface Settings {
   theme: Theme
@@ -43,8 +45,13 @@ const ENUMS: Record<string, readonly unknown[]> = {
   thumbSize: ['small', 'medium', 'large'],
 }
 
-function sanitize(raw: unknown): Settings {
-  const out: Record<string, unknown> = { ...DEFAULTS }
+/** Defaults for a fresh install: only an English-UI browser stops forcing the Japanese site locale. */
+export function defaultsFor(lang: Lang): Settings {
+  return { ...DEFAULTS, forceJaLocale: lang === 'ja' }
+}
+
+function sanitize(raw: unknown, base: Settings = DEFAULTS): Settings {
+  const out: Record<string, unknown> = { ...base }
   if (raw && typeof raw === 'object') {
     for (const [k, def] of Object.entries(DEFAULTS)) {
       const v = (raw as Record<string, unknown>)[k]
@@ -64,7 +71,9 @@ function sanitize(raw: unknown): Settings {
 export async function loadSettings(): Promise<Settings> {
   try {
     const r = await chrome.storage.sync.get(KEY)
-    return sanitize(r[KEY])
+    // Only a first run (nothing stored) follows the browser language; stored settings are never touched.
+    const base = r[KEY] === undefined ? defaultsFor(uiLang(globalThis.navigator?.language)) : DEFAULTS
+    return sanitize(r[KEY], base)
   } catch {
     return { ...DEFAULTS }
   }

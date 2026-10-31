@@ -1,4 +1,5 @@
 import type { Settings } from '../settings'
+import { detectLang, type Lang } from '../i18n'
 import { h } from './render'
 import headerCss from './header.css?inline'
 
@@ -44,19 +45,6 @@ function injectHeaderStyle(doc: Document): void {
 function topLinks(menu: Element | null): HTMLAnchorElement[] {
   if (!menu) return []
   return Array.from(menu.querySelectorAll<HTMLAnchorElement>(':scope > ul > li > a:first-child'))
-}
-
-/** Which language the site served. The site omits html[lang], so English menu labels decide. */
-function servedLang(doc: Document, menu: Element | null): 'ja' | 'en' {
-  const lang = (doc.documentElement.getAttribute('lang') ?? '').toLowerCase()
-  if (lang.startsWith('ja')) return 'ja'
-  if (lang) return 'en'
-  const links = topLinks(menu)
-  if (!links.length) return 'en'
-  // Majority vote: some labels ("Wiki", "Patreon") are English in both locales.
-  const count = (table: Record<string, string>) =>
-    links.filter((a) => Object.hasOwn(table, a.textContent?.trim() ?? '')).length
-  return count(MENU_EN) > count(MENU_SITE_JA) ? 'en' : 'ja'
 }
 
 function localeHref(doc: Document, locale: 'ja' | 'en'): string {
@@ -141,14 +129,14 @@ function reshapeMenu(doc: Document, menu: Element): HTMLLIElement | null {
   return account
 }
 
-export function renderHeader(doc: Document, _settings: Settings): void {
+export function renderHeader(doc: Document, _settings: Settings, _lang: Lang = 'ja'): void {
   const header = doc.getElementById('header')
   if (!header || header.hasAttribute('data-bsb-done')) return
   header.setAttribute('data-bsb-done', '')
   injectHeaderStyle(doc)
 
   const menu = doc.getElementById('main-menu')
-  const served = servedLang(doc, menu)
+  const served = detectLang(doc)
 
   header.classList.add('bsb-header')
   doc.getElementById('title')?.classList.add('bsb-hide')

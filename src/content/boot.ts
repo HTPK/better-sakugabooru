@@ -1,5 +1,6 @@
 import { DEFAULTS, type Settings } from '../settings'
 import type { Dict } from '../dict'
+import { detectLang, type Lang } from '../i18n'
 import { attachProposeClick } from './propose'
 
 export interface ListActions {
@@ -18,12 +19,12 @@ export interface BootDeps {
   runEarly: (settings: Settings, win: Window) => boolean
   applyTheme: (settings: Settings, doc: Document) => void
   markReady: (doc: Document) => void
-  renderHeader: (doc: Document, settings: Settings) => void
+  renderHeader: (doc: Document, settings: Settings, lang: Lang) => void
   /** `actions` wires the band's per-page switch (save, then navigate). */
-  renderList: (doc: Document, dict: Dict, settings: Settings, actions: ListActions) => unknown
+  renderList: (doc: Document, dict: Dict, settings: Settings, actions: ListActions, lang: Lang) => unknown
   attachHoverPlay: (root: ParentNode, settings: Settings, win: Window) => unknown
-  renderShow: (doc: Document, dict: Dict, settings: Settings) => boolean
-  attachSearch: (doc: Document, dict: Dict, settings: Settings) => unknown
+  renderShow: (doc: Document, dict: Dict, settings: Settings, lang: Lang) => boolean
+  attachSearch: (doc: Document, dict: Dict, settings: Settings, lang: Lang) => unknown
   warn?: (...args: unknown[]) => void
   /** Defaults to `win.location.assign`; injectable because jsdom cannot navigate. */
   navigate?: (url: string) => void
@@ -113,16 +114,17 @@ export async function boot(d: BootDeps): Promise<void> {
         warn('[bsb]', name, err)
       }
     }
-    step('renderHeader', () => d.renderHeader(doc, settings))
+    const lang = detectLang(doc)
+    step('renderHeader', () => d.renderHeader(doc, settings, lang))
     step('attachProposeClick', () => attachProposeClick(doc, (url) => win.open(url, '_blank', 'noopener')))
     if (doc.getElementById('post-list-posts')) {
       const navigate = d.navigate ?? ((url: string) => win.location.assign(url))
       // Band and search box exist before attachSearch below, so its input gets the autocomplete.
-      step('renderList', () => d.renderList(doc, dict, settings, { saveSettings: d.saveSettings, navigate }))
+      step('renderList', () => d.renderList(doc, dict, settings, { saveSettings: d.saveSettings, navigate }, lang))
       step('attachHoverPlay', () => d.attachHoverPlay(doc, settings, win))
     }
-    if (doc.getElementById('post-view')) step('renderShow', () => d.renderShow(doc, dict, settings))
-    step('attachSearch', () => d.attachSearch(doc, dict, settings))
+    if (doc.getElementById('post-view')) step('renderShow', () => d.renderShow(doc, dict, settings, lang))
+    step('attachSearch', () => d.attachSearch(doc, dict, settings, lang))
   } catch (err) {
     warn('[bsb]', 'boot', err)
   } finally {

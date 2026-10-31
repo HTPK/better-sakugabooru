@@ -9,6 +9,8 @@ import type { Dict } from '../dict'
 const fixture = (name: string) => readFileSync(resolve(__dirname, '../../test/fixtures', name), 'utf8')
 const LIST = fixture('post-list-2026-10-12.html')
 const SHOW = fixture('post-show-318817-2026-10-12.html')
+const LIST_JA = fixture('post-list-ja-2026-10-12.html')
+const SHOW_JA = fixture('post-show-318817-ja-2026-10-12.html')
 const DICT: Dict = { v: 1, updated: 'test', artists: {}, copyrights: {}, general: {} }
 
 function load(html: string, url = 'https://www.sakugabooru.com/post') {
@@ -63,18 +65,21 @@ describe('boot', () => {
   })
 
   it('renders header, list, hover and search on a list page', async () => {
-    const { doc, win } = load(LIST)
+    const { doc, win } = load(LIST_JA)
     const { d } = deps(doc, win)
     await boot(d)
     expect(d.applyTheme).toHaveBeenCalledWith(DEFAULTS, doc)
-    expect(d.renderHeader).toHaveBeenCalledWith(doc, DEFAULTS)
-    expect(d.renderList).toHaveBeenCalledWith(doc, DICT, DEFAULTS, {
-      saveSettings: d.saveSettings,
-      navigate: expect.any(Function),
-    })
+    expect(d.renderHeader).toHaveBeenCalledWith(doc, DEFAULTS, 'ja')
+    expect(d.renderList).toHaveBeenCalledWith(
+      doc,
+      DICT,
+      DEFAULTS,
+      { saveSettings: d.saveSettings, navigate: expect.any(Function) },
+      'ja',
+    )
     expect(d.attachHoverPlay).toHaveBeenCalledWith(doc, DEFAULTS, win)
     expect(d.renderShow).not.toHaveBeenCalled()
-    expect(d.attachSearch).toHaveBeenCalledWith(doc, DICT, DEFAULTS)
+    expect(d.attachSearch).toHaveBeenCalledWith(doc, DICT, DEFAULTS, 'ja')
     // Search goes after the header so the moved input is positioned correctly.
     const order = (f: unknown) => vi.mocked(f as () => void).mock.invocationCallOrder[0]
     expect(order(d.attachSearch)).toBeGreaterThan(order(d.renderHeader))
@@ -95,14 +100,24 @@ describe('boot', () => {
   })
 
   it('renders the show page without list or hover', async () => {
-    const { doc, win } = load(SHOW, 'https://www.sakugabooru.com/post/show/318817')
+    const { doc, win } = load(SHOW_JA, 'https://www.sakugabooru.com/post/show/318817')
     const { d } = deps(doc, win)
     await boot(d)
-    expect(d.renderShow).toHaveBeenCalledWith(doc, DICT, DEFAULTS)
+    expect(d.renderShow).toHaveBeenCalledWith(doc, DICT, DEFAULTS, 'ja')
     expect(d.renderList).not.toHaveBeenCalled()
     expect(d.attachHoverPlay).not.toHaveBeenCalled()
     expect(d.renderHeader).toHaveBeenCalled()
     expect(d.attachSearch).toHaveBeenCalled()
+  })
+
+  it("passes 'en' to every renderer when the site is served in English", async () => {
+    const { doc, win } = load(LIST)
+    doc.documentElement.setAttribute('lang', 'en')
+    const { d } = deps(doc, win)
+    await boot(d)
+    expect(d.renderHeader).toHaveBeenCalledWith(doc, DEFAULTS, 'en')
+    expect(vi.mocked(d.renderList).mock.calls[0][4]).toBe('en')
+    expect(d.attachSearch).toHaveBeenCalledWith(doc, DICT, DEFAULTS, 'en')
   })
 
   it('a throwing step is logged and the rest still runs, ending ready', async () => {

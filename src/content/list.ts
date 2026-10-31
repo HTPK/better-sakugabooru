@@ -1,5 +1,6 @@
 import { lookup, type Dict, type TagType } from '../dict'
 import type { Settings } from '../settings'
+import { spaced } from '../i18n'
 import { isBlacklisted, parsePosts, readBlacklist, type Post } from './pagedata'
 import { h } from './render'
 import { renderListBand, type BandActions } from './listband'
@@ -26,7 +27,7 @@ export function injectListStyle(doc: Document): void {
   ;(doc.head ?? doc.documentElement).appendChild(el)
 }
 
-export const spaced = (tag: string) => tag.replace(/_/g, ' ')
+export { spaced }
 
 /** Japanese name or null. artist_unknown is stored as an override outside the artist map. */
 export function jaFor(dict: Dict, tag: string, type: TagType, translate: boolean): string | null {
