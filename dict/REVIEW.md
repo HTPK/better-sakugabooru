@@ -40,7 +40,6 @@ needs_review entries (excluded from dist). Fix via data/overrides.json.
 | 1001_nights_(1998) | 千夜一夜物語 (1998) | wikidata:Q3478808 | 11 |
 | ben_thomas | トーマス・ベントレー | wikidata:Q7787584 | 10 |
 | harold_walker | ハル・ウォーカー | wikidata:Q1570158 | 10 |
-| yusuke_murata | 村田雄介 | wikidata:Q2602377 | 10 |
 | borge_ring | ボルゲ・リング | wikidata:Q12304852 | 9 |
 | hiromi_suzuki | 鈴木博美 | wikidata:Q5770546 | 9 |
 | tatsuya_mori | 森達也 | wikidata:Q4302696 | 9 |
@@ -69,7 +68,6 @@ needs_review entries (excluded from dist). Fix via data/overrides.json.
 | daisuke_ito | 伊藤大輔 | wikidata:Q171601 | 5 |
 | elinor_blake | エイプリル・マーチ | wikidata:Q2468088 | 5 |
 | junha_kim | キム・ジュンハン | wikidata:Q47600523 | 5 |
-| kenichi_chikanaga | 近永健一 | wikidata:Q11638449 | 5 |
 | kentaro_miura | 三浦建太郎 | wikidata:Q715725 | 5 |
 | makoto_itou | 伊藤誠 | wikidata:Q11380430 | 5 |
 | dreamland | クライシス | wikidata:Q65119650 | 5 |
