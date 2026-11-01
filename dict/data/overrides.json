@@ -50,6 +50,22 @@
     "src": "staffdb:文豪ストレイドッグス|チェンソーマン|WIND BREAKER",
     "type": "artist"
   },
+  "ai_yukimura": {
+    "count": 6,
+    "ja": "雪村愛",
+    "kana": "ゆきむら あい",
+    "needs_review": false,
+    "src": "staffdb:Free!",
+    "type": "artist"
+  },
+  "aika_kawasaki": {
+    "count": 6,
+    "ja": "川崎愛香",
+    "kana": "かわさき あいか",
+    "needs_review": false,
+    "src": "staffdb:グレイプニル|SYNDUALITY Noir",
+    "type": "artist"
+  },
   "aikatsu!": {
     "ja": "アイカツ!",
     "needs_review": false,
@@ -116,6 +132,14 @@
     "src": "atwiki:1429",
     "type": "artist"
   },
+  "akihiro_sueda": {
+    "count": 8,
+    "ja": "末田晃大",
+    "kana": "すえだ あきひろ",
+    "needs_review": false,
+    "src": "staffdb:明日ちゃんのセーラー服|メルヘン・メドヘン",
+    "type": "artist"
+  },
   "akihiro_tamagawa": {
     "count": 42,
     "ja": "玉川明洋",
@@ -170,6 +194,14 @@
     "kana": "たかせ あきこ",
     "needs_review": false,
     "src": "atwiki:1926",
+    "type": "artist"
+  },
+  "akiko_takihara": {
+    "count": 5,
+    "ja": "瀧原晶子",
+    "kana": "たきはら あきこ",
+    "needs_review": false,
+    "src": "staffdb:星合の空",
     "type": "artist"
   },
   "akiko_toyoda": {
@@ -501,6 +533,22 @@
     "src": "staffdb:彼女、お借りします|凪のあすから|【推しの子】",
     "type": "artist"
   },
+  "asami_ishikado": {
+    "count": 7,
+    "ja": "石角安沙美",
+    "kana": "いしかど あさみ",
+    "needs_review": false,
+    "src": "staffdb:借りぐらしのアリエッティ|コクリコ坂から",
+    "type": "artist"
+  },
+  "asami_murakoshi": {
+    "count": 9,
+    "ja": "村越麻海",
+    "kana": "むらこし あさみ",
+    "needs_review": false,
+    "src": "staffdb:映像研には手を出すな!|きみの色",
+    "type": "artist"
+  },
   "asao_takahashi": {
     "count": 7,
     "ja": "高橋朝雄",
@@ -693,6 +741,14 @@
     "kana": "おおふさ あやか",
     "needs_review": false,
     "src": "staffdb:王様ランキング|真・侍伝YAIBA",
+    "type": "artist"
+  },
+  "ayaka_sato": {
+    "count": 9,
+    "ja": "佐藤綾花",
+    "kana": "さとう あやか",
+    "needs_review": false,
+    "src": "staffdb:チェンソーマン|葬送のフリーレン",
     "type": "artist"
   },
   "ayaka_tsuji": {
@@ -1357,6 +1413,14 @@
     "src": "atwiki:2008",
     "type": "artist"
   },
+  "daisuke_hiramaki": {
+    "count": 5,
+    "ja": "平牧大輔",
+    "kana": "ひらまき だいすけ",
+    "needs_review": false,
+    "src": "staffdb:ブラック★ロックシューター|【推しの子】",
+    "type": "artist"
+  },
   "daisuke_mataga": {
     "count": 93,
     "ja": "又賀大介",
@@ -1797,6 +1861,14 @@
     "src": "atwiki:2016",
     "type": "artist"
   },
+  "eri_kinoshita": {
+    "count": 8,
+    "ja": "木下絵李",
+    "kana": "きのした えり",
+    "needs_review": false,
+    "src": "staffdb:きみの色|きみと、波にのれたら",
+    "type": "artist"
+  },
   "eri_taguchi": {
     "count": 64,
     "ja": "田口愛梨",
@@ -1941,6 +2013,22 @@
     "src": "staffdb:甘々と稲妻|あの日見た花の名前を僕達はまだ知らない。|Dimension W",
     "type": "artist"
   },
+  "fumie_konno": {
+    "count": 7,
+    "ja": "今野史枝",
+    "kana": "こんの ふみえ",
+    "needs_review": false,
+    "src": "staffdb:借りぐらしのアリエッティ|コクリコ坂から|崖の上のポニョ",
+    "type": "artist"
+  },
+  "fumie_muroi": {
+    "count": 7,
+    "ja": "室井ふみえ",
+    "kana": "むろい ふみえ",
+    "needs_review": false,
+    "src": "staffdb:アイドルメモリーズ|マイマイ新子と千年の魔法",
+    "type": "artist"
+  },
   "fuminori_kizaki": {
     "ja": "木﨑文智",
     "kana": "きざき ふみのり",
@@ -1985,6 +2073,14 @@
     "kana": "すずき ふとし",
     "needs_review": false,
     "src": "atwiki:1508",
+    "type": "artist"
+  },
+  "gagame": {
+    "count": 8,
+    "ja": "ががめ",
+    "kana": "ががめ",
+    "needs_review": false,
+    "src": "staffdb:ひとりぼっちの○○生活|恋する小惑星",
     "type": "artist"
   },
   "galaxy_express_999_(tv)": {
@@ -2356,6 +2452,14 @@
     "src": "atwiki:2214",
     "type": "artist"
   },
+  "haruka_tanaka": {
+    "count": 8,
+    "ja": "田中春香",
+    "kana": "たなか はるか",
+    "needs_review": false,
+    "src": "staffdb:同級生|ローリング☆ガールズ|ささみさん@がんばらない",
+    "type": "artist"
+  },
   "harumi_yamazaki": {
     "count": 40,
     "ja": "山崎晴美",
@@ -2490,6 +2594,14 @@
     "src": "staffdb:機動戦士ガンダム 水星の魔女|春夏秋冬代行者 春の舞|異世界スーサイド・スクワッド",
     "type": "artist"
   },
+  "hideki_hashimoto": {
+    "count": 5,
+    "ja": "橋本英樹",
+    "kana": "はしもと ひでき",
+    "needs_review": false,
+    "src": "staffdb:バジリスク 〜甲賀忍法帖〜|ガイキング LEGEND OF DAIKU-MARYU|SAMURAI 7",
+    "type": "artist"
+  },
   "hideki_kakita": {
     "count": 321,
     "ja": "柿田英樹",
@@ -2544,6 +2656,14 @@
     "kana": "いとう ひでつぐ",
     "needs_review": false,
     "src": "atwiki:392",
+    "type": "artist"
+  },
+  "hideyuki_sugiura": {
+    "count": 7,
+    "ja": "杉浦英之",
+    "kana": "すぎうら ひでゆき",
+    "needs_review": false,
+    "src": "staffdb:薄暮|キルラキル",
     "type": "artist"
   },
   "highschool_dxd_series": {
@@ -2628,6 +2748,14 @@
     "src": "staffdb:ぼっち・ざ・ろっく！|NEW GAME!|ワンダーエッグ・プライオリティ",
     "type": "artist"
   },
+  "hiroki_kamomiya": {
+    "count": 8,
+    "ja": "鴨宮弘樹",
+    "kana": "かもみや ひろき",
+    "needs_review": false,
+    "src": "staffdb:ある魔女が死ぬまで|戦国妖狐|終末トレインどこへいく？",
+    "type": "artist"
+  },
   "hiroki_morimune": {
     "count": 46,
     "ja": "森宗弘樹",
@@ -2668,12 +2796,28 @@
     "src": "atwiki:1540",
     "type": "artist"
   },
+  "hiromi_makino": {
+    "count": 5,
+    "ja": "牧野博美",
+    "kana": "まきの ひろみ",
+    "needs_review": false,
+    "src": "staffdb:凪のあすから|SHIROBAKO",
+    "type": "artist"
+  },
   "hiromi_nakagawa": {
     "count": 19,
     "ja": "中川洋未",
     "kana": "なかがわ ひろみ",
     "needs_review": false,
     "src": "atwiki:1846",
+    "type": "artist"
+  },
+  "hiromi_sakamoto": {
+    "count": 5,
+    "ja": "坂本ひろみ",
+    "kana": "さかもと ひろみ",
+    "needs_review": false,
+    "src": "staffdb:Caligula -カリギュラ-",
     "type": "artist"
   },
   "hiromitsu_hagiwara": {
@@ -2955,6 +3099,14 @@
     "kana": "さいとう ひさし",
     "needs_review": false,
     "src": "wikidata:Q11500443",
+    "type": "artist"
+  },
+  "hisashi_yamamoto": {
+    "count": 9,
+    "ja": "山本尚志",
+    "kana": "やまもと ひさし",
+    "needs_review": false,
+    "src": "staffdb:天保異聞 妖奇士|HEROMAN|機動戦士ガンダム00",
     "type": "artist"
   },
   "hisaya_kuwabara": {
@@ -3246,12 +3398,28 @@
     "src": "atwiki:2007",
     "type": "artist"
   },
+  "itaru_saito": {
+    "count": 6,
+    "ja": "斉藤格",
+    "kana": "さいとう いたる",
+    "needs_review": false,
+    "src": "staffdb:巨神ゴーグ|宇宙戦士バルディオス",
+    "type": "artist"
+  },
   "itsuki_tsuchigami": {
     "count": 145,
     "ja": "土上いつき",
     "kana": "つちがみ いつき",
     "needs_review": false,
     "src": "atwiki:1890",
+    "type": "artist"
+  },
+  "itsuko_takeda": {
+    "count": 8,
+    "ja": "竹田逸子",
+    "kana": "たけだ いつこ",
+    "needs_review": false,
+    "src": "staffdb:ブラッククローバー|双星の陰陽師",
     "type": "artist"
   },
   "ittaku_koushou": {
@@ -3775,6 +3943,14 @@
     "src": "staffdb:ブレイブビーツ|機動戦士Gundam GQuuuuuuX|メタリックルージュ",
     "type": "artist"
   },
+  "kazuko_amano": {
+    "count": 5,
+    "ja": "天野和子",
+    "kana": "あまの かずこ",
+    "needs_review": false,
+    "src": "staffdb:凪のあすから|SHIROBAKO",
+    "type": "artist"
+  },
   "kazuma_nakao": {
     "count": 11,
     "ja": "中尾和麻",
@@ -3831,6 +4007,14 @@
     "src": "staffdb:86-エイティシックス-|戦翼のシグルドリーヴァ",
     "type": "artist"
   },
+  "kazuya_komai": {
+    "count": 9,
+    "ja": "駒井一也",
+    "kana": "こまい かずや",
+    "needs_review": false,
+    "src": "staffdb:天上天下",
+    "type": "artist"
+  },
   "kazuya_murata": {
     "ja": "村田和也",
     "kana": "むらた かずや",
@@ -3844,6 +4028,14 @@
     "kana": "なかにし かずや",
     "needs_review": false,
     "src": "atwiki:1879",
+    "type": "artist"
+  },
+  "kazuya_saito": {
+    "count": 9,
+    "ja": "斉藤和也",
+    "kana": "さいとう かずや",
+    "needs_review": false,
+    "src": "staffdb:ブギーポップは笑わない|BORUTO-ボルト- -NARUTO NEXT GENERATIONS-|探検ドリランド",
     "type": "artist"
   },
   "kazuya_sakamoto": {
@@ -3916,6 +4108,14 @@
     "kana": "ひろえ けいすけ",
     "needs_review": false,
     "src": "atwiki:1941",
+    "type": "artist"
+  },
+  "keisuke_katayama": {
+    "count": 6,
+    "ja": "片山敬介",
+    "kana": "かたやま けいすけ",
+    "needs_review": false,
+    "src": "staffdb:ひろがるスカイ!プリキュア|名探偵プリキュア!",
     "type": "artist"
   },
   "keisuke_kobayashi": {
@@ -4142,6 +4342,14 @@
     "src": "atwiki:704",
     "type": "artist"
   },
+  "kenji_ota": {
+    "count": 6,
+    "ja": "大田謙治",
+    "kana": "おおた けんじ",
+    "needs_review": false,
+    "src": "staffdb:けんぷファー|キラキラ☆プリキュアアラモード",
+    "type": "artist"
+  },
   "kenji_sawada": {
     "count": 125,
     "ja": "澤田謙治",
@@ -4271,6 +4479,14 @@
     "needs_review": false,
     "src": "wikidata:Q130544533",
     "type": "copyright"
+  },
+  "kinichiro_suzuki": {
+    "count": 5,
+    "ja": "鈴木欽一郎",
+    "kana": "すずき きんいちろう",
+    "needs_review": false,
+    "src": "staffdb:ファイトだ!!ピュー太|元祖天才バカボン|ジャングル黒べえ",
+    "type": "artist"
   },
   "kinnikuman": {
     "ja": "キン肉マン",
@@ -4455,6 +4671,14 @@
     "src": "atwiki:716",
     "type": "artist"
   },
+  "kota_moroishi": {
+    "count": 7,
+    "ja": "諸石康太",
+    "kana": "もろいし こうた",
+    "needs_review": false,
+    "src": "staffdb:異世界薬局|機動戦士ガンダムAGE",
+    "type": "artist"
+  },
   "kota_sera": {
     "count": 19,
     "ja": "世良コータ",
@@ -4635,6 +4859,14 @@
     "src": "staffdb:炎炎ノ消防隊|甲鉄城のカバネリ|ローリング☆ガールズ",
     "type": "artist"
   },
+  "kyoko_kotani": {
+    "count": 8,
+    "ja": "小谷杏子",
+    "kana": "こたに きょうこ",
+    "needs_review": false,
+    "src": "staffdb:機動戦士ガンダム 水星の魔女|クオリディア・コード",
+    "type": "artist"
+  },
   "kyoko_matsubara": {
     "count": 12,
     "ja": "松原京子",
@@ -4703,6 +4935,14 @@
     "kana": "まえだ きょうすけ",
     "needs_review": false,
     "src": "staffdb:あひるの空|ガーリッシュナンバー|異世界薬局",
+    "type": "artist"
+  },
+  "kyuto_kitada": {
+    "count": 7,
+    "ja": "北田久登",
+    "kana": "きただ きゅうと",
+    "needs_review": false,
+    "src": "staffdb:薬屋のひとりごと|機動戦士ガンダム 水星の魔女",
     "type": "artist"
   },
   "kyuuketsuki_sugu_shinu_series": {
@@ -4951,6 +5191,14 @@
     "src": "staffdb:超かぐや姫!|地獄楽|タコピーの原罪",
     "type": "artist"
   },
+  "makoto_itou": {
+    "count": 5,
+    "ja": "伊東誠",
+    "kana": "いとう まこと",
+    "needs_review": false,
+    "src": "staffdb:銀河漂流バイファム|機動戦士ガンダム|カムイの剣",
+    "type": "artist"
+  },
   "makoto_nakamura": {
     "count": 61,
     "ja": "中村誠",
@@ -4973,6 +5221,22 @@
     "kana": "やまだ まこと",
     "needs_review": false,
     "src": "atwiki:663",
+    "type": "artist"
+  },
+  "mami_horimoto": {
+    "count": 5,
+    "ja": "堀本真美",
+    "kana": "ほりもと まみ",
+    "needs_review": false,
+    "src": "staffdb:文豪ストレイドッグス|かつて魔法少女と悪は敵対していた。",
+    "type": "artist"
+  },
+  "mami_yamaguchi": {
+    "count": 5,
+    "ja": "山口真未",
+    "kana": "やまぐち まみ",
+    "needs_review": false,
+    "src": "staffdb:サマーウォーズ|心が叫びたがってるんだ。",
     "type": "artist"
   },
   "mamoru_hoshino": {
@@ -5015,6 +5279,14 @@
     "src": "staffdb:鋼の錬金術師|鋼の錬金術師 FULLMETAL ALCHEMIST|賭ケグルイ",
     "type": "artist"
   },
+  "manabu_imura": {
+    "count": 7,
+    "ja": "井村学",
+    "kana": "いむら まなぶ",
+    "needs_review": false,
+    "src": "staffdb:クオリディア・コード|SHIROBAKO",
+    "type": "artist"
+  },
   "manabu_nakatake": {
     "count": 6,
     "ja": "中武学",
@@ -5037,6 +5309,30 @@
     "kana": "ほんだ まなみ",
     "needs_review": false,
     "src": "staffdb:トラペジウム|ワンダーエッグ・プライオリティ",
+    "type": "artist"
+  },
+  "manami_sugimoto": {
+    "count": 9,
+    "ja": "杉本麻菜美",
+    "kana": "すぎもと まなみ",
+    "needs_review": false,
+    "src": "staffdb:BORUTO-ボルト- -NARUTO NEXT GENERATIONS-|海獣の子供",
+    "type": "artist"
+  },
+  "mari_tomita": {
+    "count": 6,
+    "ja": "冨田真理",
+    "kana": "とみた まり",
+    "needs_review": false,
+    "src": "staffdb:ぼっち・ざ・ろっく！|SHIROBAKO|逃げ上手の若君",
+    "type": "artist"
+  },
+  "mariko_iguchi": {
+    "count": 5,
+    "ja": "井口真理子",
+    "kana": "いぐち まりこ",
+    "needs_review": false,
+    "src": "staffdb:三者三葉|ワンダーエッグ・プライオリティ",
     "type": "artist"
   },
   "mariko_ishikawa": {
@@ -5123,6 +5419,14 @@
     "src": "atwiki:864",
     "type": "artist"
   },
+  "masahiko_maruyama": {
+    "count": 7,
+    "ja": "丸山匡彦",
+    "kana": "まるやま まさひこ",
+    "needs_review": false,
+    "src": "staffdb:ひろがるスカイ!プリキュア|うしおととら",
+    "type": "artist"
+  },
   "masahiko_ota": {
     "ja": "太田雅彦",
     "kana": "おおた まさひこ",
@@ -5142,6 +5446,14 @@
     "kana": "あんどう まさひろ",
     "needs_review": false,
     "src": "manual:research-2026-10-30",
+    "type": "artist"
+  },
+  "masahiro_emoto": {
+    "count": 7,
+    "ja": "江本正弘",
+    "kana": "えもと まさひろ",
+    "needs_review": false,
+    "src": "staffdb:千年女優|REDLINE|serial experiments lain",
     "type": "artist"
   },
   "masahiro_koyama": {
@@ -5312,6 +5624,14 @@
     "src": "atwiki:1276",
     "type": "artist"
   },
+  "masashi_ito": {
+    "count": 5,
+    "ja": "伊藤正士",
+    "kana": "いとう まさし",
+    "needs_review": false,
+    "src": "staffdb:光が死んだ夏|勇気爆発バーンブレイバーン",
+    "type": "artist"
+  },
   "masashi_kano": {
     "count": 26,
     "ja": "狩野正志",
@@ -5368,6 +5688,14 @@
     "src": "staffdb:明日ちゃんのセーラー服|けいおん!|スーパーカブ",
     "type": "artist"
   },
+  "masaya_makita": {
+    "count": 7,
+    "ja": "牧田昌也",
+    "kana": "まきた まさや",
+    "needs_review": false,
+    "src": "staffdb:中二病でも恋がしたい！|Free!|氷菓",
+    "type": "artist"
+  },
   "masaya_sekizaki": {
     "count": 28,
     "ja": "関崎昌也",
@@ -5398,6 +5726,14 @@
     "kana": "みずたに まさゆき",
     "needs_review": false,
     "src": "staffdb:マーベル フューチャー・アベンジャーズ|ノー・ガンズ・ライフ|ワンパンマン",
+    "type": "artist"
+  },
+  "masayuki_nomoto": {
+    "count": 8,
+    "ja": "野本正幸",
+    "kana": "のもと まさゆき",
+    "needs_review": false,
+    "src": "staffdb:2.43 清陰高校男子バレー部|Fairy蘭丸〜あなたの心お助けします〜|彼女、お借りします",
     "type": "artist"
   },
   "masayuki_nonaka": {
@@ -5472,6 +5808,14 @@
     "src": "wikidata:Q516385",
     "type": "copyright"
   },
+  "megumi_tomita": {
+    "count": 5,
+    "ja": "富田恵美",
+    "kana": "とみた めぐみ",
+    "needs_review": false,
+    "src": "staffdb:終わりのセラフ|進撃の巨人",
+    "type": "artist"
+  },
   "mellow_(mv)": {
     "ja": "メロウ",
     "needs_review": false,
@@ -5522,12 +5866,28 @@
     "src": "manual",
     "type": "copyright"
   },
+  "mifumi_tomita": {
+    "count": 6,
+    "ja": "富田美文",
+    "kana": "とみた みふみ",
+    "needs_review": false,
+    "src": "staffdb:ブラッククローバー",
+    "type": "artist"
+  },
   "miho_kato": {
     "count": 16,
     "ja": "加藤美穂",
     "kana": "かとう みほ",
     "needs_review": false,
     "src": "staffdb:終わりのセラフ|進撃の巨人",
+    "type": "artist"
+  },
+  "miki_harashima": {
+    "count": 7,
+    "ja": "原島未来",
+    "kana": "はらしま みき",
+    "needs_review": false,
+    "src": "staffdb:負けヒロインが多すぎる！",
     "type": "artist"
   },
   "miki_komuro": {
@@ -5606,12 +5966,28 @@
     "src": "atwiki:672",
     "type": "artist"
   },
+  "misuzu_kurata": {
+    "count": 7,
+    "ja": "倉田美鈴",
+    "kana": "くらた みすず",
+    "needs_review": false,
+    "src": "staffdb:ホーホケキョ となりの山田くん|千と千尋の神隠し",
+    "type": "artist"
+  },
   "mitsuaki_takabe": {
     "count": 24,
     "ja": "高部光章",
     "kana": "たかべ みつあき",
     "needs_review": false,
     "src": "staffdb:甲鉄城のカバネリ|ローリング☆ガールズ|進撃の巨人",
+    "type": "artist"
+  },
+  "mitsuhiro_oosako": {
+    "count": 7,
+    "ja": "大迫光紘",
+    "kana": "おおさこ みつひろ",
+    "needs_review": false,
+    "src": "staffdb:光が死んだ夏|可愛いだけじゃない式守さん",
     "type": "artist"
   },
   "mitsuhiro_yoneda": {
@@ -5660,12 +6036,36 @@
     "src": "manual",
     "type": "copyright"
   },
+  "miyako_mitsumi": {
+    "count": 8,
+    "ja": "三住宮古",
+    "kana": "みつみ みやこ",
+    "needs_review": false,
+    "src": "staffdb:地球外少年少女|ワンダーエッグ・プライオリティ",
+    "type": "artist"
+  },
+  "miyako_shishikai": {
+    "count": 5,
+    "ja": "完甘美也子",
+    "kana": "ししかい みやこ",
+    "needs_review": false,
+    "src": "staffdb:ヒーリングっど♥プリキュア|HUGっと!プリキュア|キラキラ☆プリキュアアラモード",
+    "type": "artist"
+  },
   "miyaso": {
     "count": 34,
     "ja": "みやそ",
     "kana": "みやそ",
     "needs_review": false,
     "src": "staffdb:王様ランキング|ワンダーエッグ・プライオリティ",
+    "type": "artist"
+  },
+  "miyuki_nakamura": {
+    "count": 6,
+    "ja": "中村深雪",
+    "kana": "なかむら みゆき",
+    "needs_review": false,
+    "src": "staffdb:青の6号|ジョーカー・ゲーム|魔法使いTai!",
     "type": "artist"
   },
   "mlb_tokyo_series": {
@@ -5985,6 +6385,14 @@
     "src": "atwiki:1175",
     "type": "artist"
   },
+  "naoto_abe": {
+    "count": 8,
+    "ja": "阿部尚人",
+    "kana": "あべ なおと",
+    "needs_review": false,
+    "src": "staffdb:ガチアクタ|HEROMAN|少女☆歌劇 レヴュースタァライト",
+    "type": "artist"
+  },
   "naoto_nakamura": {
     "count": 20,
     "ja": "中村直人",
@@ -6077,6 +6485,22 @@
     "kana": "やまだ なつき",
     "needs_review": false,
     "src": "staffdb:超かぐや姫!|ペンギン・ハイウェイ|タコピーの原罪",
+    "type": "artist"
+  },
+  "natsuki_yokoyama": {
+    "count": 6,
+    "ja": "横山なつき",
+    "kana": "よこやま なつき",
+    "needs_review": false,
+    "src": "staffdb:ダンタリアンの書架|同級生|波打際のむろみさん",
+    "type": "artist"
+  },
+  "natsuko_shimizu": {
+    "count": 9,
+    "ja": "清水奈津子",
+    "kana": "しみず なつこ",
+    "needs_review": false,
+    "src": "staffdb:鬼滅の刃|ボールルームへようこそ",
     "type": "artist"
   },
   "needy_girl_overdose_(tv)": {
@@ -6423,6 +6847,14 @@
     "src": "staffdb:爆転シュート ベイブレード|ガールズ&パンツァー|ガールズ＆パンツァー 劇場版",
     "type": "artist"
   },
+  "osamu_tsuruyama": {
+    "count": 9,
+    "ja": "鶴山修",
+    "kana": "つるやま おさむ",
+    "needs_review": false,
+    "src": "staffdb:戦国魔神ゴーショーグン|戦国魔神ゴーショーグン",
+    "type": "artist"
+  },
   "osamu_yamane": {
     "count": 265,
     "ja": "山根宰",
@@ -6562,6 +6994,14 @@
     "needs_review": false,
     "src": "manual",
     "type": "copyright"
+  },
+  "piezou": {
+    "count": 9,
+    "ja": "ぴえぞう",
+    "kana": "ぴえぞう",
+    "needs_review": false,
+    "src": "staffdb:超かぐや姫!|ワールド イズ ダンシング",
+    "type": "artist"
   },
   "pink_panther": {
     "ja": "ピンク・パンサー",
@@ -6767,6 +7207,22 @@
     "src": "wikidata:Q1207954",
     "type": "copyright"
   },
+  "rei_kuroe": {
+    "count": 7,
+    "ja": "黒絵レイ",
+    "kana": "くろえ れい",
+    "needs_review": false,
+    "src": "staffdb:怪獣8号|NEEDY GIRL OVERDOSE",
+    "type": "artist"
+  },
+  "reiji_sakagami": {
+    "count": 7,
+    "ja": "坂上怜司",
+    "kana": "さかがみ れいじ",
+    "needs_review": false,
+    "src": "staffdb:境界戦機 極鋼ノ装鬼|機動戦士ガンダム 鉄血のオルフェンズ",
+    "type": "artist"
+  },
   "ren_onodera": {
     "count": 50,
     "ja": "小野寺蓮",
@@ -6938,6 +7394,14 @@
     "src": "atwiki:2250",
     "type": "artist"
   },
+  "runa_harano": {
+    "count": 5,
+    "ja": "原野瑠奈",
+    "kana": "はらの るな",
+    "needs_review": false,
+    "src": "staffdb:葬送のフリーレン",
+    "type": "artist"
+  },
   "running_man": {
     "ja": "走る男",
     "needs_review": false,
@@ -7088,6 +7552,22 @@
     "src": "atwiki:650",
     "type": "artist"
   },
+  "ryousuke_kimiya": {
+    "count": 9,
+    "ja": "木宮亮介",
+    "kana": "きみや りょうすけ",
+    "needs_review": false,
+    "src": "staffdb:アカメが斬る!|戦国妖狐",
+    "type": "artist"
+  },
+  "ryousuke_shioya": {
+    "count": 5,
+    "ja": "塩谷亮介",
+    "kana": "しおや りょうすけ",
+    "needs_review": false,
+    "src": "staffdb:エロマンガ先生",
+    "type": "artist"
+  },
   "ryuji_shiromae": {
     "count": 23,
     "ja": "城前龍治",
@@ -7143,6 +7623,22 @@
     "src": "atwiki:1098",
     "type": "artist"
   },
+  "sadaki_oshima": {
+    "count": 5,
+    "ja": "大島貞生",
+    "kana": "おおしま さだき",
+    "needs_review": false,
+    "src": "staffdb:映像研には手を出すな!|ボールルームへようこそ",
+    "type": "artist"
+  },
+  "sadami_morikawa": {
+    "count": 8,
+    "ja": "森川定美",
+    "kana": "もりかわ さだみ",
+    "needs_review": false,
+    "src": "staffdb:ジョジョの奇妙な冒険|機動戦士Ζガンダム|超時空要塞マクロス",
+    "type": "artist"
+  },
   "sadatoshi_matsuzaka": {
     "count": 10,
     "ja": "松坂定俊",
@@ -7193,6 +7689,22 @@
     "src": "wikidata:Q845462",
     "type": "copyright"
   },
+  "sana_komatsu": {
+    "count": 6,
+    "ja": "小松沙奈",
+    "kana": "こまつ さな",
+    "needs_review": false,
+    "src": "staffdb:リコリス・リコイル|オーバーテイク!",
+    "type": "artist"
+  },
+  "sana_suzuki": {
+    "count": 7,
+    "ja": "鈴木沙奈",
+    "kana": "すずき さな",
+    "needs_review": false,
+    "src": "staffdb:響け!ユーフォニアム|映画 聲の形|ヴァイオレット・エヴァーガーデン",
+    "type": "artist"
+  },
   "sand_land:_the_series": {
     "ja": "SAND LAND: THE SERIES",
     "needs_review": false,
@@ -7233,6 +7745,14 @@
     "kana": "わたなべ さとみ",
     "needs_review": false,
     "src": "atwiki:1808",
+    "type": "artist"
+  },
+  "satoru_fujimoto": {
+    "count": 9,
+    "ja": "藤本悟",
+    "kana": "ふじもと さとる",
+    "needs_review": false,
+    "src": "staffdb:ふしぎ星の☆ふたご姫|ふしぎ星の☆ふたご姫 Gyu!",
     "type": "artist"
   },
   "satoru_iida": {
@@ -7405,6 +7925,14 @@
     "kana": "はしもと せいいち",
     "needs_review": false,
     "src": "atwiki:681",
+    "type": "artist"
+  },
+  "seiji_masuda": {
+    "count": 6,
+    "ja": "増田誠治",
+    "kana": "ますだ せいじ",
+    "needs_review": false,
+    "src": "staffdb:ハピネスチャージプリキュア!|魔法つかいプリキュア!|名探偵プリキュア!",
     "type": "artist"
   },
   "seiko_asai": {
@@ -7671,6 +8199,14 @@
     "src": "atwiki:782",
     "type": "artist"
   },
+  "shinichi_nozaki": {
+    "count": 5,
+    "ja": "野崎真一",
+    "kana": "のざき しんいち",
+    "needs_review": false,
+    "src": "staffdb:地獄楽|機動戦士ガンダム 水星の魔女",
+    "type": "artist"
+  },
   "shinichi_yokota": {
     "count": 11,
     "ja": "横田晋一",
@@ -7693,6 +8229,14 @@
     "kana": "いただき しんじ",
     "needs_review": false,
     "src": "atwiki:1607",
+    "type": "artist"
+  },
+  "shinji_morohashi": {
+    "count": 6,
+    "ja": "諸橋伸司",
+    "kana": "もろはし しんじ",
+    "needs_review": false,
+    "src": "staffdb:あんみつ姫|おもひでぽろぽろ|紅の豚",
     "type": "artist"
   },
   "shinji_seya": {
@@ -7828,6 +8372,14 @@
     "kana": "やまもと しんや",
     "needs_review": false,
     "src": "staffdb:ガンダムビルドダイバーズ|機動戦士ガンダム 鉄血のオルフェンズ|機動戦士ガンダムAGE",
+    "type": "artist"
+  },
+  "shiori_tanaka": {
+    "count": 8,
+    "ja": "田中詩織",
+    "kana": "たなか しおり",
+    "needs_review": false,
+    "src": "staffdb:ダーリン・イン・ザ・フランキス|炎炎ノ消防隊|アンデッドアンラック",
     "type": "artist"
   },
   "shiori_tani": {
@@ -8530,6 +9082,14 @@
     "src": "staffdb:鋼の錬金術師|ギルティクラウン|甲鉄城のカバネリ",
     "type": "artist"
   },
+  "takaaki_izumo": {
+    "count": 7,
+    "ja": "出雲誉明",
+    "kana": "いずも たかあき",
+    "needs_review": false,
+    "src": "staffdb:HEROMAN|STAR DRIVER 輝きのタクト",
+    "type": "artist"
+  },
   "takafumi_hori": {
     "count": 227,
     "ja": "堀剛史",
@@ -8544,6 +9104,14 @@
     "kana": "とりい たかふみ",
     "needs_review": false,
     "src": "atwiki:1555",
+    "type": "artist"
+  },
+  "takaharu_arahira": {
+    "count": 8,
+    "ja": "荒平隆晴",
+    "kana": "あらひら たかはる",
+    "needs_review": false,
+    "src": "staffdb:Do It Yourself!! -どぅー・いっと・ゆあせるふ-|逃げ上手の若君",
     "type": "artist"
   },
   "takahiko_abiru": {
@@ -8630,6 +9198,14 @@
     "kana": "さかづめ たかひと",
     "needs_review": false,
     "src": "atwiki:1684",
+    "type": "artist"
+  },
+  "takao_hashina": {
+    "count": 7,
+    "ja": "端名貴勇",
+    "kana": "はしな たかお",
+    "needs_review": false,
+    "src": "staffdb:魔女っ子メグちゃん",
     "type": "artist"
   },
   "takao_maki": {
@@ -8735,6 +9311,14 @@
     "src": "staffdb:機動戦士ガンダム 閃光のハサウェイ|ワンパンマン",
     "type": "artist"
   },
+  "takayuki_gorai": {
+    "count": 6,
+    "ja": "牛来隆行",
+    "kana": "ごらい たかゆき",
+    "needs_review": false,
+    "src": "staffdb:青の6号|名探偵プリキュア!",
+    "type": "artist"
+  },
   "takayuki_hamada": {
     "count": 98,
     "ja": "濱田高行",
@@ -8797,6 +9381,14 @@
     "kana": "つくま たけのり",
     "needs_review": false,
     "src": "atwiki:343",
+    "type": "artist"
+  },
+  "takeru_ishizuka": {
+    "count": 5,
+    "ja": "石塚健",
+    "kana": "いしづか たける",
+    "needs_review": false,
+    "src": "staffdb:NOBLESSE -ノブレス-|天国大魔境",
     "type": "artist"
   },
   "takeru_nakashima": {
@@ -8893,6 +9485,14 @@
     "kana": "こいで たくし",
     "needs_review": false,
     "src": "atwiki:2025",
+    "type": "artist"
+  },
+  "takuya_kawai": {
+    "count": 7,
+    "ja": "河合拓也",
+    "kana": "かわい たくや",
+    "needs_review": false,
+    "src": "staffdb:Occultic;Nine -オカルティック・ナイン-|四月は君の嘘",
     "type": "artist"
   },
   "takuya_matsumura": {
@@ -8996,6 +9596,14 @@
     "src": "wikidata:Q208696",
     "type": "copyright"
   },
+  "tatsunori_inatsu": {
+    "count": 5,
+    "ja": "稲津辰宣",
+    "kana": "いなつ たつのり",
+    "needs_review": false,
+    "src": "staffdb:あかね噺|舟を編む",
+    "type": "artist"
+  },
   "tatsunori_sakamoto": {
     "count": 15,
     "ja": "坂本龍典",
@@ -9049,6 +9657,14 @@
     "kana": "むらかみ たつや",
     "needs_review": false,
     "src": "staffdb:アオのハコ|甲鉄城のカバネリ|劇場版 SPY×FAMILY CODE: White",
+    "type": "artist"
+  },
+  "tatsuya_oka": {
+    "count": 8,
+    "ja": "岡辰也",
+    "kana": "おか たつや",
+    "needs_review": false,
+    "src": "staffdb:電脳コイル|ラーゼフォン|スペース☆ダンディ",
     "type": "artist"
   },
   "tatsuya_satou": {
@@ -9525,6 +10141,22 @@
     "src": "staffdb:ぼっち・ざ・ろっく！|魔術士オーフェンはぐれ旅|逃げ上手の若君",
     "type": "artist"
   },
+  "tomoko_miura": {
+    "count": 6,
+    "ja": "三浦智子",
+    "kana": "みうら ともこ",
+    "needs_review": false,
+    "src": "staffdb:借りぐらしのアリエッティ|コクリコ坂から",
+    "type": "artist"
+  },
+  "tomoko_sudo": {
+    "count": 9,
+    "ja": "須藤智子",
+    "kana": "すどう ともこ",
+    "needs_review": false,
+    "src": "staffdb:灰と幻想のグリムガル|ローリング☆ガールズ|世紀末オカルト学院",
+    "type": "artist"
+  },
   "tomomi_kamiya": {
     "count": 10,
     "ja": "神谷友美",
@@ -9539,6 +10171,14 @@
     "kana": "かわつま ともみ",
     "needs_review": false,
     "src": "atwiki:1828",
+    "type": "artist"
+  },
+  "tomonori_ota": {
+    "count": 5,
+    "ja": "太田悌記",
+    "kana": "おおた とものり",
+    "needs_review": false,
+    "src": "staffdb:無職転生 〜異世界行ったら本気だす〜|ヴィンランド・サガ",
     "type": "artist"
   },
   "tomonori_tsuchiya": {
@@ -9651,6 +10291,14 @@
     "src": "atwiki:1977",
     "type": "artist"
   },
+  "toshihiro_kikuchi": {
+    "count": 5,
+    "ja": "菊池聡延",
+    "kana": "きくち としひろ",
+    "needs_review": false,
+    "src": "staffdb:千年女優|劇場版 PSYCHO-PASS サイコパス",
+    "type": "artist"
+  },
   "toshihisa_kaiya": {
     "ja": "海谷敏久",
     "kana": "かいや としひさ",
@@ -9690,12 +10338,28 @@
     "src": "atwiki:2183",
     "type": "artist"
   },
+  "toshiya_niidome": {
+    "count": 5,
+    "ja": "新留俊哉",
+    "kana": "にいどめ としや",
+    "needs_review": false,
+    "src": "staffdb:魔女の宅急便|図書館戦争|PERFECT BLUE",
+    "type": "artist"
+  },
   "toshiyasu_okada": {
     "count": 130,
     "ja": "岡田敏靖",
     "kana": "おかだ としやす",
     "needs_review": false,
     "src": "staffdb:火垂るの墓|ニルスのふしぎな旅",
+    "type": "artist"
+  },
+  "toshiyuki_komaru": {
+    "count": 9,
+    "ja": "小丸敏之",
+    "kana": "こまる としゆき",
+    "needs_review": false,
+    "src": "staffdb:ももへの手紙|妄想代理人",
     "type": "artist"
   },
   "toshiyuki_yahagi": {
@@ -9757,6 +10421,14 @@
     "needs_review": false,
     "src": "wikidata:Q65040519",
     "type": "copyright"
+  },
+  "tsubasa_hatashima": {
+    "count": 7,
+    "ja": "畑島つばさ",
+    "kana": "はたしま つばさ",
+    "needs_review": false,
+    "src": "staffdb:ヴァニタスの手記|黄泉のツガイ",
+    "type": "artist"
   },
   "tsuguyuki_kubo": {
     "count": 34,
@@ -9882,6 +10554,14 @@
     "src": "wikidata:Q3216881",
     "type": "copyright"
   },
+  "ushio_tazawa": {
+    "count": 6,
+    "ja": "田澤潮",
+    "kana": "たざわ うしお",
+    "needs_review": false,
+    "src": "staffdb:はねバド!|君の名は。",
+    "type": "artist"
+  },
   "uta_no_prince-sama_series": {
     "ja": "うたの☆プリンスさまっ♪",
     "needs_review": false,
@@ -9986,6 +10666,14 @@
     "kana": "わしお",
     "needs_review": false,
     "src": "staffdb:映像研には手を出すな!|進撃の巨人",
+    "type": "artist"
+  },
+  "wataru_yamamoto": {
+    "count": 9,
+    "ja": "山本航",
+    "kana": "やまもと わたる",
+    "needs_review": false,
+    "src": "staffdb:アクダマドライブ|ドラゴノーツ -ザ・レゾナンス-",
     "type": "artist"
   },
   "where_the_wind_blows_(mv)": {
@@ -10483,6 +11171,14 @@
     "src": "atwiki:1976",
     "type": "artist"
   },
+  "yousuke_yutani": {
+    "count": 6,
+    "ja": "油谷陽介",
+    "kana": "ゆたに ようすけ",
+    "needs_review": false,
+    "src": "staffdb:ブレンド・S|スロウスタート|SPY×FAMILY",
+    "type": "artist"
+  },
   "yu-gi-oh!_gx": {
     "ja": "遊☆戯☆王デュエルモンスターズGX",
     "needs_review": false,
@@ -10554,6 +11250,14 @@
     "kana": "いいだ ゆういちろう",
     "needs_review": false,
     "src": "atwiki:2290",
+    "type": "artist"
+  },
+  "yuichiro_komuro": {
+    "count": 9,
+    "ja": "小室裕一郎",
+    "kana": "こむろ ゆういちろう",
+    "needs_review": false,
+    "src": "staffdb:ぼっち・ざ・ろっく！|エロマンガ先生|約束のネバーランド",
     "type": "artist"
   },
   "yuitsu_kusakabe": {
@@ -10644,6 +11348,14 @@
     "src": "staffdb:悪役令嬢転生おじさん|ブレイブビーツ|異世界魔王と召喚少女の奴隷魔術",
     "type": "artist"
   },
+  "yuki_nakano": {
+    "count": 7,
+    "ja": "中野裕紀",
+    "kana": "なかの ゆうき",
+    "needs_review": false,
+    "src": "staffdb:くまクマ熊ベアー|NEW GAME!",
+    "type": "artist"
+  },
   "yuki_sato": {
     "count": 163,
     "ja": "佐藤由紀",
@@ -10708,6 +11420,30 @@
     "src": "staffdb:アクダマドライブ|ホリミヤ|PERSONA5 the Animation",
     "type": "artist"
   },
+  "yuko_fuji": {
+    "count": 5,
+    "ja": "藤優子",
+    "kana": "ふじ ゆうこ",
+    "needs_review": false,
+    "src": "staffdb:メイドインアビス|天国大魔境",
+    "type": "artist"
+  },
+  "yuko_hirasawa": {
+    "count": 7,
+    "ja": "平沢祐子",
+    "kana": "ひらさわ ゆうこ",
+    "needs_review": false,
+    "src": "staffdb:鋼の錬金術師|お伽草子|スクラップド・プリンセス",
+    "type": "artist"
+  },
+  "yuko_matsui": {
+    "count": 5,
+    "ja": "松井祐子",
+    "kana": "まつい ゆうこ",
+    "needs_review": false,
+    "src": "staffdb:BORUTO-ボルト- -NARUTO NEXT GENERATIONS-|きみと、波にのれたら",
+    "type": "artist"
+  },
   "yuko_yasaki": {
     "count": 20,
     "ja": "矢﨑優子",
@@ -10768,6 +11504,14 @@
     "src": "staffdb:ブラッククローバー|炎炎ノ消防隊|らんま1/2",
     "type": "artist"
   },
+  "yusuke_inoue": {
+    "count": 6,
+    "ja": "井上裕亮",
+    "kana": "いのうえ ゆうすけ",
+    "needs_review": false,
+    "src": "staffdb:クロムクロ|SHIROBAKO|スキップとローファー",
+    "type": "artist"
+  },
   "yusuke_kawakami": {
     "count": 87,
     "ja": "川上雄介",
@@ -10805,6 +11549,22 @@
     "kana": "かもがわ ゆたか",
     "needs_review": false,
     "src": "staffdb:純潔のマリア|機動戦士ガンダムSEED|セイクリッドセブン",
+    "type": "artist"
+  },
+  "yutaro_suzuki": {
+    "count": 6,
+    "ja": "鈴木優太郎",
+    "kana": "すずき ゆうたろう",
+    "needs_review": false,
+    "src": "staffdb:フリップフラッパーズ|風都探偵",
+    "type": "artist"
+  },
+  "yuu_okagaki": {
+    "count": 8,
+    "ja": "岡垣優",
+    "kana": "おかがき ゆう",
+    "needs_review": false,
+    "src": "staffdb:まちカドまぞく|装神少女まとい",
     "type": "artist"
   },
   "yuu_yoshiyama": {
@@ -10901,6 +11661,14 @@
     "kana": "もりした ゆうき",
     "needs_review": false,
     "src": "atwiki:1517",
+    "type": "artist"
+  },
+  "yuuki_terano": {
+    "count": 7,
+    "ja": "寺野勇樹",
+    "kana": "てらの ゆうき",
+    "needs_review": false,
+    "src": "staffdb:ベイブレードバースト|NOBLESSE -ノブレス-|天国大魔境",
     "type": "artist"
   },
   "yuuki_watanabe": {

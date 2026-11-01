@@ -65,7 +65,6 @@ needs_review entries (excluded from dist). Fix via data/overrides.json.
 | elinor_blake | エイプリル・マーチ | wikidata:Q2468088 | 5 |
 | junha_kim | キム・ジュンハン | wikidata:Q47600523 | 5 |
 | kentaro_miura | 三浦建太郎 | wikidata:Q715725 | 5 |
-| makoto_itou | 伊藤誠 | wikidata:Q11380430 | 5 |
 | dreamland | クライシス | wikidata:Q65119650 | 5 |
 | instinct | インスティンクト -異常犯罪捜査- | wikidata:Q30607999 | 5 |
 | musician_(mv) | 音楽家 | wikidata:Q6942591 | 5 |
