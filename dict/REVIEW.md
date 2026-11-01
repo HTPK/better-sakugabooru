@@ -8,8 +8,6 @@ needs_review entries (excluded from dist). Fix via data/overrides.json.
 | jem | ジェム | wikidata:Q2468339 | 113 |
 | yuki_kikuchi | きくちゆうき | wikidata:Q89449258 | 79 |
 | wataru_uekusa | 植草航 | wikidata:Q21699139 | 76 |
-| shinya_yamamoto | 山本晋也 | wikidata:Q11469113 | 68 |
-| makoto_nakamura | 中村誠 | wikidata:Q6739958 | 61 |
 | ryan_white | ライアン・ホワイト | wikidata:Q30122901 | 37 |
 | the_lovers | タイム・ラヴァーズ　時空を繋ぐ指輪の物語 | wikidata:Q172260 | 37 |
 | akira_iwamoto | 岩本晶 | wikidata:Q11475115 | 36 |
@@ -21,7 +19,6 @@ needs_review entries (excluded from dist). Fix via data/overrides.json.
 | kyung_mi_lee | イ・ギョンミ | wikidata:Q18815676 | 29 |
 | yang_xiao | 肖央 | wikidata:Q97352332 | 28 |
 | joe_johnston | ジョー・ジョンストン | wikidata:Q352948 | 26 |
-| osamu_sato | 佐藤吏 | wikidata:Q11383814 | 25 |
 | paul_smith | ポール・スミス | wikidata:Q3371503 | 25 |
 | yuji_suzuki | ガッツ石松 | wikidata:Q745408 | 24 |
 | bruce_w._smith | ブルース・W・スミス | wikidata:Q2926483 | 21 |
@@ -33,7 +30,6 @@ needs_review entries (excluded from dist). Fix via data/overrides.json.
 | monster_(mv) | MONSTER | wikidata:Q100944081 | 14 |
 | chen_lu | ジャッキー・チェン | wikidata:Q36970 | 13 |
 | sophie_li | ソフィー・リネンバウム | wikidata:Q27056735 | 13 |
-| takayoshi_watanabe | 渡邊孝好 | wikidata:Q11562694 | 13 |
 | wei_jiang | 姜文 | wikidata:Q716069 | 13 |
 | eddsworld | Eddsworld | wikidata:Q2614759 | 13 |
 | joseph_coleman | ジョー・デ・グラフト | wikidata:Q6213139 | 11 |

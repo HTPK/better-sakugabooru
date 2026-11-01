@@ -19,9 +19,21 @@
     "ai_kikuchi": {
       "ja": "菊池愛"
     },
+    "ai_takashi": {
+      "ja": "高士亜衣",
+      "kana": "たかし あい"
+    },
     "aito_ohashi": {
       "ja": "大橋藍人",
       "kana": "おおはし あいと"
+    },
+    "akane_takeda": {
+      "ja": "竹田茜",
+      "kana": "たけだ あかね"
+    },
+    "akari_ranzaki": {
+      "ja": "藍崎灯",
+      "kana": "らんざき あかり"
     },
     "akemi_hayashi": {
       "ja": "林明美",
@@ -34,6 +46,10 @@
     "akiharu_ishii": {
       "ja": "石井明治",
       "kana": "いしい あきはる"
+    },
+    "akihiko_uda": {
+      "ja": "宇田明彦",
+      "kana": "うだ あきひこ"
     },
     "akihiko_yamashita": {
       "ja": "山下明彦",
@@ -62,6 +78,10 @@
     "akiko_asaki": {
       "ja": "朝来昭子",
       "kana": "あさき あきこ"
+    },
+    "akiko_itagaki": {
+      "ja": "板垣彰子",
+      "kana": "いたがき あきこ"
     },
     "akiko_kudo": {
       "ja": "工藤晃子",
@@ -141,9 +161,21 @@
       "ja": "高田晃",
       "kana": "たかた あきら"
     },
+    "akira_teramoto": {
+      "ja": "寺本彰",
+      "kana": "てらもと あきら"
+    },
+    "akito_takahashi": {
+      "ja": "髙橋陽斗",
+      "kana": "たかはし あきと"
+    },
     "akitoshi_yokoyama": {
       "ja": "横山彰利",
       "kana": "よこやま あきとし"
+    },
+    "akiyo_okuda": {
+      "ja": "奥田明世",
+      "kana": "おくだ あきよ"
     },
     "akiyuki_shinbo": {
       "ja": "新房昭之",
@@ -169,6 +201,10 @@
     "anthony_derosa": {
       "ja": "アンソニー・デローザ"
     },
+    "arata_oogushi": {
+      "ja": "大串新",
+      "kana": "おおぐし あらた"
+    },
     "arifumi_imai": {
       "ja": "今井有文",
       "kana": "いまい ありふみ"
@@ -189,13 +225,25 @@
     "artist_unknown": {
       "ja": "作画者不明"
     },
+    "asaka_yokoyama": {
+      "ja": "横山麻華",
+      "kana": "よこやま あさか"
+    },
     "asako_nishida": {
       "ja": "西田亜沙子",
       "kana": "にしだ あさこ"
     },
+    "asami_hayakawa": {
+      "ja": "早川麻美",
+      "kana": "はやかわ あさみ"
+    },
     "asao_takahashi": {
       "ja": "高橋朝雄",
       "kana": "たかはし あさお"
+    },
+    "asuka_suzuki": {
+      "ja": "鈴木明日香",
+      "kana": "すずき あすか"
     },
     "atsuki_shimizu": {
       "ja": "清水厚貴",
@@ -291,9 +339,17 @@
       "ja": "矢野篤",
       "kana": "やの あつし"
     },
+    "atsushi_yonezawa": {
+      "ja": "米澤篤",
+      "kana": "よねざわ あつし"
+    },
     "atsuya_uki": {
       "ja": "宇木敦哉",
       "kana": "うき あつや"
+    },
+    "awoi_otani": {
+      "ja": "大谷藍生",
+      "kana": "おおたに あおい"
     },
     "aya_suzuki": {
       "ja": "鈴木亜矢",
@@ -303,9 +359,21 @@
       "ja": "髙野綾",
       "kana": "たかの あや"
     },
+    "ayaka_hozumi": {
+      "ja": "穂積彩夏",
+      "kana": "ほづみ あやか"
+    },
     "ayaka_minoshima": {
       "ja": "簑島綾香",
       "kana": "みのしま あやか"
+    },
+    "ayaka_ofusa": {
+      "ja": "大房彩花",
+      "kana": "おおふさ あやか"
+    },
+    "ayaka_tsuji": {
+      "ja": "辻彩夏",
+      "kana": "つじ あやか"
     },
     "ayako_hata": {
       "ja": "秦綾子",
@@ -463,9 +531,21 @@
     "cy_young": {
       "ja": "サイ・ヤング"
     },
+    "daichi_nakashima": {
+      "ja": "中島大智",
+      "kana": "なかしま だいち"
+    },
     "daiki_harashina": {
       "ja": "原科大樹",
       "kana": "はらしな だいき"
+    },
+    "daiki_kato": {
+      "ja": "加藤大輝",
+      "kana": "かとう だいき"
+    },
+    "daiki_tanaka": {
+      "ja": "田中大喜",
+      "kana": "たなか だいき"
     },
     "daikichirou_kusube": {
       "ja": "楠部大吉郎",
@@ -482,9 +562,21 @@
     "daisuke_sakou": {
       "ja": "酒向大輔"
     },
+    "daisuke_shibukawa": {
+      "ja": "澁川大祐",
+      "kana": "しぶかわ だいすけ"
+    },
+    "daisuke_tokudo": {
+      "ja": "徳土大介",
+      "kana": "とくど だいすけ"
+    },
     "daisuke_tsumagari": {
       "ja": "津曲大介",
       "kana": "つまがり だいすけ"
+    },
+    "daizo_takeuchi": {
+      "ja": "竹内大三",
+      "kana": "たけうち だいぞう"
     },
     "dale_baer": {
       "ja": "デール・ベアー"
@@ -537,13 +629,25 @@
     "ed_love": {
       "ja": "エド・ラブ"
     },
+    "edo_haruma": {
+      "ja": "江戸春馬",
+      "kana": "えど はるま"
+    },
     "ei_inoue": {
       "ja": "井上鋭",
       "kana": "いのうえ えい"
     },
+    "eiichi_tominaga": {
+      "ja": "冨永詠一",
+      "kana": "とみなが えいいち"
+    },
     "eiji_abiko": {
       "ja": "安彦英二",
       "kana": "あびこ えいじ"
+    },
+    "eiji_ishimoto": {
+      "ja": "石本英治",
+      "kana": "いしもと えいじ"
     },
     "eiji_komatsu": {
       "ja": "小松英司",
@@ -568,8 +672,28 @@
       "ja": "河浪栄作",
       "kana": "かわなみ えいさく"
     },
+    "eisuke_shirai": {
+      "ja": "白井英介",
+      "kana": "しらい えいすけ"
+    },
+    "eita_toyoshima": {
+      "ja": "豊島英太",
+      "kana": "とよしま えいた"
+    },
     "emery_hawkins": {
       "ja": "エメリー・ホーキンズ"
+    },
+    "emi_hiraoka": {
+      "ja": "ひらおかえみ",
+      "kana": "ひらおか えみ"
+    },
+    "emi_ota": {
+      "ja": "太田衣美",
+      "kana": "おおた えみ"
+    },
+    "emiko_shimura": {
+      "ja": "志村恵美子",
+      "kana": "しむら えみこ"
     },
     "enishi_oshima": {
       "ja": "大島縁",
@@ -631,9 +755,17 @@
       "ja": "鈴木藤雄",
       "kana": "すずき ふじお"
     },
+    "fumiaki_kouta": {
+      "ja": "光田史亮",
+      "kana": "こうた ふみあき"
+    },
     "fuminori_kizaki": {
       "ja": "木﨑文智",
       "kana": "きざき ふみのり"
+    },
+    "fuminori_tsukita": {
+      "ja": "月田文律",
+      "kana": "つきた ふみのり"
     },
     "fumio_iida": {
       "ja": "SUEZEN"
@@ -654,6 +786,10 @@
       "ja": "西屋太志",
       "kana": "にしや ふとし"
     },
+    "futoshi_oonami": {
+      "ja": "大浪太",
+      "kana": "おおなみ ふとし"
+    },
     "futoshi_suzuki": {
       "ja": "鈴木大",
       "kana": "すずき ふとし"
@@ -666,6 +802,10 @@
     },
     "gen'ichirou_abe": {
       "ja": "阿部厳一朗"
+    },
+    "gen_asano": {
+      "ja": "浅野元",
+      "kana": "あさの げん"
     },
     "gen_satou": {
       "ja": "佐藤元",
@@ -737,6 +877,14 @@
       "ja": "亀垣一",
       "kana": "かめがき はじめ"
     },
+    "hajime_mitsuda": {
+      "ja": "満田一",
+      "kana": "みつだ はじめ"
+    },
+    "hajime_nakagawa": {
+      "ja": "中川肇",
+      "kana": "なかがわ はじめ"
+    },
     "hajime_nihira": {
       "ja": "仁平肇",
       "kana": "にひら はじめ"
@@ -753,6 +901,18 @@
     },
     "ham_luske": {
       "ja": "ハミルトン・ラスク"
+    },
+    "hana_okutani": {
+      "ja": "奥谷花奈",
+      "kana": "おくたに はな"
+    },
+    "hanako_ueda": {
+      "ja": "上田華子",
+      "kana": "うえだ はなこ"
+    },
+    "hanyu": {
+      "ja": "ハニュー",
+      "kana": "はにゅー"
     },
     "haruhiko_mikimoto": {
       "ja": "美樹本晴彦",
@@ -797,6 +957,14 @@
       "ja": "中村颯",
       "kana": "なかむら はやて"
     },
+    "hayate_sato": {
+      "ja": "佐藤颯",
+      "kana": "さとう はやて"
+    },
+    "hayato_kakita": {
+      "ja": "柿木田隼人",
+      "kana": "かきた はやと"
+    },
     "hayato_kurosaki": {
       "ja": "黒崎隼人",
       "kana": "くろさき はやと"
@@ -810,6 +978,10 @@
     },
     "hicks_lokey": {
       "ja": "ヒックス・ローキー"
+    },
+    "hideaki_abe": {
+      "ja": "阿部英明",
+      "kana": "あべ ひであき"
     },
     "hideaki_anno": {
       "ja": "庵野秀明"
@@ -840,6 +1012,10 @@
       "ja": "濱洲英喜",
       "kana": "はます ひでき"
     },
+    "hideki_hamazaki": {
+      "ja": "濱崎秀樹",
+      "kana": "はまざき ひでき"
+    },
     "hideki_inoue": {
       "ja": "井上英紀"
     },
@@ -869,6 +1045,10 @@
     "hidenori_fukuoka": {
       "ja": "福岡英典",
       "kana": "ふくおか ひでのり"
+    },
+    "hidenori_makino": {
+      "ja": "牧野秀則",
+      "kana": "まきの ひでのり"
     },
     "hidenori_matsubara": {
       "ja": "松原秀典",
@@ -910,6 +1090,10 @@
       "ja": "本橋秀之",
       "kana": "もとはし ひでゆき"
     },
+    "hikaru_miyazaki": {
+      "ja": "宮崎輝",
+      "kana": "みやざき ひかる"
+    },
     "hiraku_kaneko": {
       "ja": "金子ひらく",
       "kana": "かねこ ひらく"
@@ -925,9 +1109,25 @@
     "hiroaki_karasu": {
       "ja": "烏宏明"
     },
+    "hiroaki_nakamichi": {
+      "ja": "中道紘彬",
+      "kana": "なかみち ひろあき"
+    },
+    "hiroaki_otsuji": {
+      "ja": "尾辻浩晃",
+      "kana": "おつじ ひろあき"
+    },
     "hiroaki_satou": {
       "ja": "佐藤博暉",
       "kana": "さとう ひろあき"
+    },
+    "hiroaki_takagi": {
+      "ja": "髙木啓明",
+      "kana": "たかぎ ひろあき"
+    },
+    "hirofumi_masuda": {
+      "ja": "桝田浩史",
+      "kana": "ますだ ひろふみ"
     },
     "hirofumi_okita": {
       "ja": "沖田博文",
@@ -936,6 +1136,10 @@
     "hirofumi_suzuki": {
       "ja": "鈴木博文",
       "kana": "すずき ひろふみ"
+    },
+    "hirohiko_sukegawa": {
+      "ja": "助川裕彦",
+      "kana": "すけがわ ひろひこ"
     },
     "hirokazu_hisayuki": {
       "ja": "久行宏和",
@@ -1040,6 +1244,10 @@
       "ja": "石山寛",
       "kana": "いしやま ひろし"
     },
+    "hiroshi_karata": {
+      "ja": "唐田洋",
+      "kana": "からた ひろし"
+    },
     "hiroshi_kawaguchi": {
       "ja": "川口博史",
       "kana": "かわぐち ひろし"
@@ -1076,6 +1284,10 @@
       "ja": "竹内浩志",
       "kana": "たけうち ひろし"
     },
+    "hiroshi_tanabe": {
+      "ja": "田邊博",
+      "kana": "たなべ ひろし"
+    },
     "hiroshi_tatezaki": {
       "ja": "舘崎大",
       "kana": "たてざき ひろし"
@@ -1091,6 +1303,10 @@
       "ja": "矢向宏志",
       "kana": "やこう ひろし"
     },
+    "hiroshi_yoneda": {
+      "ja": "米田紘",
+      "kana": "よねだ ひろし"
+    },
     "hirotaka_kato": {
       "ja": "加藤寛崇",
       "kana": "かとう ひろたか"
@@ -1098,6 +1314,14 @@
     "hirotaka_marufuji": {
       "ja": "丸藤広貴",
       "kana": "まるふじ ひろたか"
+    },
+    "hirotaka_tokuda": {
+      "ja": "徳田大貴",
+      "kana": "とくだ ひろたか"
+    },
+    "hiroto_kato": {
+      "ja": "加藤洋人",
+      "kana": "かとう ひろと"
     },
     "hiroto_nagata": {
       "ja": "長田寛人",
@@ -1143,6 +1367,10 @@
       "ja": "春日井浩之",
       "kana": "かすがい ひろゆき"
     },
+    "hiroyuki_kawano": {
+      "ja": "河野宏之",
+      "kana": "かわの ひろゆき"
+    },
     "hiroyuki_kitakubo": {
       "ja": "北久保弘之",
       "kana": "きたくぼ ひろゆき"
@@ -1150,6 +1378,10 @@
     "hiroyuki_kitazume": {
       "ja": "北爪宏幸",
       "kana": "きたづめ ひろゆき"
+    },
+    "hiroyuki_kobashi": {
+      "ja": "小橋弘侑",
+      "kana": "こばし ひろゆき"
     },
     "hiroyuki_morita": {
       "ja": "森田宏幸",
@@ -1175,9 +1407,17 @@
       "ja": "大梶博之",
       "kana": "おおかじ ひろゆき"
     },
+    "hiroyuki_saita": {
+      "ja": "齊田博之",
+      "kana": "さいた ひろゆき"
+    },
     "hiroyuki_sasaki": {
       "ja": "佐々木啓之",
       "kana": "ささき ひろゆき"
+    },
+    "hiroyuki_sugawara": {
+      "ja": "菅原裕幸",
+      "kana": "すがわら ひろゆき"
     },
     "hiroyuki_taiga": {
       "ja": "大河広行"
@@ -1197,6 +1437,10 @@
     "hiroyuki_yamashita": {
       "ja": "山下宏幸",
       "kana": "やました ひろゆき"
+    },
+    "hisao_dendo": {
+      "ja": "田頭悠郎",
+      "kana": "でんどう ひさお"
     },
     "hisao_yokobori": {
       "ja": "横堀久雄"
@@ -1233,6 +1477,10 @@
       "ja": "坂口尚",
       "kana": "さかぐち ひさし"
     },
+    "hisaya_kuwabara": {
+      "ja": "桑原寿弥",
+      "kana": "くわばら ひさや"
+    },
     "hisayuki_tabata": {
       "ja": "田畑壽之"
     },
@@ -1250,6 +1498,14 @@
     "hitomi_tsuruta": {
       "ja": "鶴田仁美"
     },
+    "hitoshi_haga": {
+      "ja": "垪和等",
+      "kana": "はが ひとし"
+    },
+    "hitoshi_inaba": {
+      "ja": "稲葉仁",
+      "kana": "いなば ひとし"
+    },
     "hitoshi_ueda": {
       "ja": "植田均",
       "kana": "うえだ ひとし"
@@ -1260,6 +1516,10 @@
     },
     "honami_yano": {
       "ja": "矢野ほなみ"
+    },
+    "honoka_yokoyama": {
+      "ja": "横山穂乃花",
+      "kana": "よこやま ほのか"
     },
     "hugh_fraser": {
       "ja": "ヒュー・フレイザー"
@@ -1279,6 +1539,10 @@
     "ikuko_itoh": {
       "ja": "伊藤郁子",
       "kana": "いとう いくこ"
+    },
+    "ikuo_fudanoki": {
+      "ja": "札ノ木幾夫",
+      "kana": "ふだのき いくお"
     },
     "ikuo_geso": {
       "ja": "げそいくお"
@@ -1325,6 +1589,10 @@
       "ja": "土上いつき",
       "kana": "つちがみ いつき"
     },
+    "ittaku_koushou": {
+      "ja": "胡椒一択",
+      "kana": "こしょう いったく"
+    },
     "iwao_teraoka": {
       "ja": "寺岡巌",
       "kana": "てらおか いわお"
@@ -1358,6 +1626,10 @@
     },
     "jerry_hathcock": {
       "ja": "ジェリー・ハッチコック"
+    },
+    "jikou_abe": {
+      "ja": "阿部慈光",
+      "kana": "あべ じこう"
     },
     "jim_algar": {
       "ja": "ジェームズ・アルガー"
@@ -1399,6 +1671,10 @@
     "josh_meador": {
       "ja": "ジョシュア・メダー",
       "kana": "じょしゅあ・みーだー"
+    },
+    "joutarou_naitou": {
+      "ja": "内藤丈太朗",
+      "kana": "ないとう じょうたろう"
     },
     "julian_bentley": {
       "ja": "Julian Bentley"
@@ -1445,6 +1721,10 @@
       "ja": "谷口淳一郎",
       "kana": "たにぐち じゅんいちろう"
     },
+    "junpei_fukuchi": {
+      "ja": "福地純平",
+      "kana": "ふくち じゅんぺい"
+    },
     "junpei_mikuriya": {
       "ja": "御厨順平",
       "kana": "みくりや じゅんぺい"
@@ -1456,6 +1736,10 @@
     "junpei_tatenaka": {
       "ja": "立中順平",
       "kana": "たてなか じゅんぺい"
+    },
+    "jura": {
+      "ja": "じゅら",
+      "kana": "じゅら"
     },
     "kai_ikarashi": {
       "ja": "五十嵐海",
@@ -1476,6 +1760,10 @@
       "ja": "茂木海渡",
       "kana": "もぎ かいと"
     },
+    "kaito_senkoji": {
+      "ja": "千光士海登",
+      "kana": "せんこうじ かいと"
+    },
     "kaito_tomioka": {
       "ja": "富岡海任",
       "kana": "とみおか かいと"
@@ -1492,9 +1780,17 @@
       "ja": "宮井加奈",
       "kana": "みやい かな"
     },
+    "kanako_higashi": {
+      "ja": "東可楠子",
+      "kana": "ひがし かなこ"
+    },
     "kanako_maru": {
       "ja": "丸加奈子",
       "kana": "まる かなこ"
+    },
+    "kanako_yoshida": {
+      "ja": "吉田奏子",
+      "kana": "よしだ かなこ"
     },
     "kanami_sekiguchi": {
       "ja": "関口可奈味",
@@ -1517,6 +1813,10 @@
     "kaori_inoue": {
       "ja": "井上香織",
       "kana": "いのうえ かおり"
+    },
+    "kaoru_tanimoto": {
+      "ja": "谷本馨",
+      "kana": "たにもと かおる"
     },
     "kasumi_wada": {
       "ja": "和田佳純",
@@ -1566,6 +1866,10 @@
       "ja": "柴田勝紀",
       "kana": "しばた かつのり"
     },
+    "katsutoshi_nakamura": {
+      "ja": "中村勝利",
+      "kana": "なかむら かつとし"
+    },
     "katsutoshi_tsunoda": {
       "ja": "津野田勝敏",
       "kana": "つのだ かつとし"
@@ -1588,6 +1892,10 @@
     "katsuya_yamada": {
       "ja": "山田勝哉",
       "kana": "やまだ かつや"
+    },
+    "katsuya_yoshii": {
+      "ja": "吉井勝也",
+      "kana": "よしい かつや"
     },
     "katsuyoshi_nakatsuru": {
       "ja": "中鶴勝祥",
@@ -1650,6 +1958,14 @@
       "ja": "中村和久",
       "kana": "なかむら かずひさ"
     },
+    "kazuki_ito": {
+      "ja": "伊藤一樹",
+      "kana": "いとう かずき"
+    },
+    "kazuki_kuramoto": {
+      "ja": "倉本和希",
+      "kana": "くらもと かずき"
+    },
     "kazuko_nakamura": {
       "ja": "中村和子",
       "kana": "なかむら かずこ"
@@ -1657,6 +1973,10 @@
     "kazuko_tadano": {
       "ja": "只野和子",
       "kana": "ただの かずこ"
+    },
+    "kazuma_nakao": {
+      "ja": "中尾和麻",
+      "kana": "なかお かずま"
     },
     "kazumi_ikeda": {
       "ja": "池田和美",
@@ -1669,6 +1989,10 @@
     "kazumi_satou": {
       "ja": "佐藤和巳",
       "kana": "さとう かずみ"
+    },
+    "kazunori_akiyama": {
+      "ja": "秋山一則",
+      "kana": "あきやま かずのり"
     },
     "kazunori_iwakura": {
       "ja": "岩倉和憲",
@@ -1684,6 +2008,10 @@
     "kazuo_komatsubara": {
       "ja": "小松原一男",
       "kana": "こまつばら かずお"
+    },
+    "kazuo_nakamura": {
+      "ja": "中村一夫",
+      "kana": "なかむら かずお"
     },
     "kazuo_yamazaki": {
       "ja": "やまざきかずお",
@@ -1706,6 +2034,14 @@
     "kazuto_nakazawa": {
       "ja": "中澤一登",
       "kana": "なかざわ かずと"
+    },
+    "kazutoshi_inoue": {
+      "ja": "井上和俊",
+      "kana": "いのうえ かずとし"
+    },
+    "kazutoshi_makino": {
+      "ja": "牧野和俊",
+      "kana": "まきの かずとし"
     },
     "kazuya_kuroda": {
       "ja": "黒田和也",
@@ -1732,6 +2068,10 @@
     "kazuya_tsurumaki": {
       "ja": "鶴巻和哉",
       "kana": "つるまき かずや"
+    },
+    "kazuyoshi_onoda": {
+      "ja": "小野田和由",
+      "kana": "おのだ かずよし"
     },
     "kazuyoshi_yaginuma": {
       "ja": "柳沼和良"
@@ -1770,8 +2110,20 @@
       "ja": "後藤圭二",
       "kana": "ごとう けいじ"
     },
+    "keika_ushimaru": {
+      "ja": "牛丸圭華",
+      "kana": "うしまる けいか"
+    },
+    "keiko_iwata": {
+      "ja": "岩田景子",
+      "kana": "いわた けいこ"
+    },
     "keiko_kurosawa": {
       "ja": "黒澤桂子"
+    },
+    "keiko_shimizu": {
+      "ja": "清水恵子",
+      "kana": "しみず けいこ"
     },
     "keisuke_hiroe": {
       "ja": "廣江啓輔",
@@ -1793,6 +2145,14 @@
       "ja": "森下圭介",
       "kana": "もりした けいすけ"
     },
+    "keisuke_okura": {
+      "ja": "大倉啓右",
+      "kana": "おおくら けいすけ"
+    },
+    "keisuke_toyoda": {
+      "ja": "豊田桂祐",
+      "kana": "とよだ けいすけ"
+    },
     "keisuke_watabe": {
       "ja": "渡部圭祐",
       "kana": "わたべ けいすけ"
@@ -1809,6 +2169,10 @@
       "ja": "長坂慶太",
       "kana": "ながさか けいた"
     },
+    "keita_shimizu": {
+      "ja": "清水慶太",
+      "kana": "しみず けいた"
+    },
     "keito_oda": {
       "ja": "小田景門",
       "kana": "おだ けいと"
@@ -1819,6 +2183,10 @@
     },
     "ken_harris": {
       "ja": "ケン・ハリス"
+    },
+    "ken_imaizumi": {
+      "ja": "今泉健",
+      "kana": "いまいずみ けん"
     },
     "ken_o'brien": {
       "ja": "ケン・オブライエン"
@@ -1866,6 +2234,10 @@
       "ja": "藤沢研一",
       "kana": "ふじさわ けんいち"
     },
+    "kenichi_kangawa": {
+      "ja": "寒川顕一",
+      "kana": "かんがわ けんいち"
+    },
     "kenichi_konishi": {
       "ja": "小西賢一",
       "kana": "こにし けんいち"
@@ -1881,6 +2253,10 @@
     "kenichi_ohnuki": {
       "ja": "大貫健一",
       "kana": "おおぬき けんいち"
+    },
+    "kenichi_shimizu": {
+      "ja": "清水健一",
+      "kana": "しみず けんいち"
     },
     "kenichi_takase": {
       "ja": "高瀬健一",
@@ -1918,9 +2294,21 @@
       "ja": "服部憲知",
       "kana": "はっとり けんじ"
     },
+    "kenji_hayama": {
+      "ja": "羽山賢二",
+      "kana": "はやま けんじ"
+    },
+    "kenji_irie": {
+      "ja": "入江健司",
+      "kana": "いりえ けんじ"
+    },
     "kenji_kuroyanagi": {
       "ja": "黒柳賢治",
       "kana": "くろやなぎ けんじ"
+    },
+    "kenji_mima": {
+      "ja": "美馬健二",
+      "kana": "みま けんじ"
     },
     "kenji_mizuhata": {
       "ja": "水畑健二",
@@ -1938,6 +2326,14 @@
       "ja": "前場健次",
       "kana": "ぜんば けんじ"
     },
+    "kenro_tokuda": {
+      "ja": "徳田賢朗",
+      "kana": "とくだ けんろう"
+    },
+    "kenta_mimuro": {
+      "ja": "三室健太",
+      "kana": "みむろ けんた"
+    },
     "kenta_yokoya": {
       "ja": "横屋健太",
       "kana": "よこや けんた"
@@ -1946,8 +2342,16 @@
       "ja": "戸谷賢都",
       "kana": "とや けんと"
     },
+    "kerorira": {
+      "ja": "けろりら",
+      "kana": "けろりら"
+    },
     "kevin_lima": {
       "ja": "ケヴィン・リマ"
+    },
+    "kikuchi_jouji": {
+      "ja": "菊池城二",
+      "kana": "きくち じょうじ"
     },
     "kikuko_sadakata": {
       "ja": "貞方希久子",
@@ -1965,6 +2369,10 @@
       "ja": "伊藤公規",
       "kana": "いとう きみのり"
     },
+    "kirara_aya": {
+      "ja": "綾きらら",
+      "kana": "あや きらら"
+    },
     "kitaro_kousaka": {
       "ja": "高坂希太郎",
       "kana": "こうさか きたろう"
@@ -1973,12 +2381,20 @@
       "ja": "押山清高",
       "kana": "おしやま きよたか"
     },
+    "kiyotaka_takezawa": {
+      "ja": "竹澤清貴",
+      "kana": "たけざわ きよたか"
+    },
     "kohei_ashiya": {
       "ja": "芦谷耕平"
     },
     "kohei_hirota": {
       "ja": "廣田光平",
       "kana": "ひろた こうへい"
+    },
+    "kohei_kobayashi": {
+      "ja": "小林宏平",
+      "kana": "こばやし こうへい"
     },
     "koichi_horikawa": {
       "ja": "堀川耕一",
@@ -2012,6 +2428,10 @@
       "ja": "岩木孝司",
       "kana": "いわき こうじ"
     },
+    "koji_kurahashi": {
+      "ja": "倉橋孝治",
+      "kana": "くらはし こうじ"
+    },
     "koji_morimoto": {
       "ja": "森本晃司",
       "kana": "もりもと こうじ"
@@ -2028,9 +2448,17 @@
       "ja": "山村浩二",
       "kana": "やまむら こうじ"
     },
+    "kosuke_kato": {
+      "ja": "加藤滉介",
+      "kana": "かとう こうすけ"
+    },
     "kosuke_murayama": {
       "ja": "村山公輔",
       "kana": "むらやま こうすけ"
+    },
+    "kota_sera": {
+      "ja": "世良コータ",
+      "kana": "せら こーた"
     },
     "kou_yoshinari": {
       "ja": "吉成鋼",
@@ -2063,6 +2491,10 @@
     "kouichi_tsunoda": {
       "ja": "角田紘一",
       "kana": "つのだ こういち"
+    },
+    "kouji_hisaki": {
+      "ja": "久木晃嗣",
+      "kana": "ひさき こうじ"
     },
     "kouji_koizumi": {
       "ja": "古泉浩司",
@@ -2131,6 +2563,10 @@
     "kwang_il_han": {
       "ja": "クァン・イルハン"
     },
+    "kyohei_tezuka": {
+      "ja": "手塚響平",
+      "kana": "てづか きょうへい"
+    },
     "kyoji_asano": {
       "ja": "浅野恭司",
       "kana": "あさの きょうじ"
@@ -2147,9 +2583,17 @@
       "ja": "鷲北恭太",
       "kana": "わしきた きょうた"
     },
+    "kyouhei_hanagata": {
+      "ja": "花形恭平",
+      "kana": "はながた きょうへい"
+    },
     "kyoushirou_ezawa": {
       "ja": "江澤京詩郎",
       "kana": "えざわ きょうしろう"
+    },
+    "kyousuke_maeda": {
+      "ja": "前田恭佑",
+      "kana": "まえだ きょうすけ"
     },
     "kyuuta_sakai": {
       "ja": "坂井久太",
@@ -2176,6 +2620,10 @@
       "ja": "戸田麻衣",
       "kana": "とだ まい"
     },
+    "mai_watanabe": {
+      "ja": "渡辺舞",
+      "kana": "わたなべ まい"
+    },
     "mai_yoneyama": {
       "ja": "米山舞",
       "kana": "よねやま まい"
@@ -2194,12 +2642,24 @@
       "ja": "二木真希子",
       "kana": "ふたき まきこ"
     },
+    "makiko_suzuki": {
+      "ja": "鈴木麻紀子",
+      "kana": "すずき まきこ"
+    },
+    "makoto_ando": {
+      "ja": "安藤誠",
+      "kana": "あんどう まこと"
+    },
     "makoto_iino": {
       "ja": "飯野誠"
     },
     "makoto_nagasawa": {
       "ja": "永沢まこと",
       "kana": "ながさわ まこと"
+    },
+    "makoto_nakamura": {
+      "ja": "中村誠",
+      "kana": "なかむら まこと"
     },
     "makoto_takahoko": {
       "ja": "高鉾誠",
@@ -2208,6 +2668,10 @@
     "makoto_yamada": {
       "ja": "山田誠",
       "kana": "やまだ まこと"
+    },
+    "mamoru_hoshino": {
+      "ja": "星野守",
+      "kana": "ほしの まもる"
     },
     "mamoru_hosoda": {
       "ja": "細田守",
@@ -2225,6 +2689,14 @@
       "ja": "横田守",
       "kana": "よこた まもる"
     },
+    "mana_uetake": {
+      "ja": "植竹茉奈",
+      "kana": "うえたけ まな"
+    },
+    "manabu_akita": {
+      "ja": "秋田学",
+      "kana": "あきた まなぶ"
+    },
     "manabu_nakatake": {
       "ja": "中武学",
       "kana": "なかたけ まなぶ"
@@ -2236,6 +2708,14 @@
     "manabu_oohashi": {
       "ja": "大橋学",
       "kana": "おおはし まなぶ"
+    },
+    "manabu_tanzawa": {
+      "ja": "丹澤学",
+      "kana": "たんざわ まなぶ"
+    },
+    "manami_honda": {
+      "ja": "本田舞波",
+      "kana": "ほんだ まなみ"
     },
     "marc_davis": {
       "ja": "マーク・デイヴィス"
@@ -2259,6 +2739,10 @@
       "ja": "川元まり子",
       "kana": "かわもと まりこ"
     },
+    "mariko_matsuo": {
+      "ja": "松尾真理子",
+      "kana": "まつお まりこ"
+    },
     "mariko_oka": {
       "ja": "岡真里子",
       "kana": "おか まりこ"
@@ -2279,9 +2763,21 @@
     "masaaki_takiyama": {
       "ja": "滝山真哲"
     },
+    "masaaki_tanaka": {
+      "ja": "田中正晃",
+      "kana": "たなか まさあき"
+    },
+    "masaaki_yamano": {
+      "ja": "山野雅明",
+      "kana": "やまの まさあき"
+    },
     "masaaki_yuasa": {
       "ja": "湯浅政明",
       "kana": "ゆあさ まさあき"
+    },
+    "masaharu_koyama": {
+      "ja": "小山将治",
+      "kana": "こやま まさはる"
     },
     "masaharu_tada": {
       "ja": "多田雅治",
@@ -2350,6 +2846,18 @@
       "ja": "島貫正弘",
       "kana": "しまぬき まさひろ"
     },
+    "masahiro_tokumaru": {
+      "ja": "徳丸昌大",
+      "kana": "とくまる まさひろ"
+    },
+    "masahiro_tomaru": {
+      "ja": "戸丸昌洋",
+      "kana": "とまる まさひろ"
+    },
+    "masahito_kunimatsu": {
+      "ja": "國松聖士",
+      "kana": "くにまつ まさひと"
+    },
     "masahito_sawada": {
       "ja": "沢田正人",
       "kana": "さわだ まさひと"
@@ -2357,6 +2865,10 @@
     "masahito_yamashita": {
       "ja": "山下将仁",
       "kana": "やました まさひと"
+    },
+    "masaho_hori": {
+      "ja": "堀雅歩",
+      "kana": "ほり まさほ"
     },
     "masakatsu_sasaki": {
       "ja": "佐々木政勝",
@@ -2411,9 +2923,21 @@
       "ja": "須田正己",
       "kana": "すだ まさみ"
     },
+    "masamichi_ishiyama": {
+      "ja": "石山正修",
+      "kana": "いしやま まさみち"
+    },
+    "masanobu_hiraoka": {
+      "ja": "平岡政展",
+      "kana": "ひらおか まさのぶ"
+    },
     "masanori_nishii": {
       "ja": "西井正典",
       "kana": "にしい まさのり"
+    },
+    "masanori_osawa": {
+      "ja": "大沢正典",
+      "kana": "おおさわ まさのり"
     },
     "masanori_shino": {
       "ja": "筱雅律"
@@ -2428,6 +2952,14 @@
     },
     "masaru_kimura": {
       "ja": "木村豪"
+    },
+    "masaru_matsuse": {
+      "ja": "松瀬勝",
+      "kana": "まつせ まさる"
+    },
+    "masaru_obata": {
+      "ja": "小畑賢",
+      "kana": "おばた まさる"
     },
     "masaru_oshiro": {
       "ja": "大城勝",
@@ -2449,6 +2981,10 @@
       "ja": "石浜真史",
       "kana": "いしはま まさし"
     },
+    "masashi_kano": {
+      "ja": "狩野正志",
+      "kana": "かのう まさし"
+    },
     "masashi_kudo": {
       "ja": "工藤昌史",
       "kana": "くどう まさし"
@@ -2457,12 +2993,32 @@
       "ja": "奥村正志",
       "kana": "おくむら まさし"
     },
+    "masataka_akai": {
+      "ja": "赤井方尚",
+      "kana": "あかい まさたか"
+    },
     "masataka_hisata": {
       "ja": "久田正高",
       "kana": "ひさた まさたか"
     },
     "masato_anno": {
       "ja": "安野将人"
+    },
+    "masato_hagiwara": {
+      "ja": "萩原正人",
+      "kana": "はぎわら まさと"
+    },
+    "masato_kudo": {
+      "ja": "工藤雅人",
+      "kana": "くどう まさと"
+    },
+    "masato_nagamori": {
+      "ja": "永森雅人",
+      "kana": "ながもり まさと"
+    },
+    "masatoshi_tsuji": {
+      "ja": "辻雅俊",
+      "kana": "つじ まさとし"
     },
     "masatsugu_arakawa": {
       "ja": "荒川真嗣",
@@ -2471,6 +3027,10 @@
     "masaya_fujimori": {
       "ja": "藤森雅也",
       "kana": "ふじもり まさや"
+    },
+    "masaya_sekizaki": {
+      "ja": "関崎昌也",
+      "kana": "せきざき まさや"
     },
     "masayoshi_nishida": {
       "ja": "西田正義"
@@ -2498,6 +3058,10 @@
     "masayuki_kunihiro": {
       "ja": "國弘昌之"
     },
+    "masayuki_mizutani": {
+      "ja": "水谷正之",
+      "kana": "みずたに まさゆき"
+    },
     "masayuki_nonaka": {
       "ja": "野中正幸",
       "kana": "のなか まさゆき"
@@ -2509,8 +3073,16 @@
     "masayuki_yoshihara": {
       "ja": "吉原正行"
     },
+    "masumi_yoshida": {
+      "ja": "吉田ますみ",
+      "kana": "よしだ ますみ"
+    },
     "max_fleischer": {
       "ja": "マックス・フライシャー"
+    },
+    "mayumi_nakamura": {
+      "ja": "中村真由美",
+      "kana": "なかむら まゆみ"
     },
     "mebae": {
       "ja": "mebae",
@@ -2541,6 +3113,10 @@
       "ja": "姫野美智",
       "kana": "ひめの みち"
     },
+    "michiaki_sugimoto": {
+      "ja": "杉本道明",
+      "kana": "すぎもと みちあき"
+    },
     "michinori_chiba": {
       "ja": "千葉道徳",
       "kana": "ちば みちのり"
@@ -2557,6 +3133,10 @@
       "ja": "麻宮騎亜",
       "kana": "あさみや きあ"
     },
+    "michiyo_sakurai": {
+      "ja": "桜井美知代",
+      "kana": "さくらい みちよ"
+    },
     "michiyo_suzuki": {
       "ja": "鈴木美千代",
       "kana": "すずき みちよ"
@@ -2564,9 +3144,21 @@
     "mieko_hosoi": {
       "ja": "細居美恵子"
     },
+    "miho_kato": {
+      "ja": "加藤美穂",
+      "kana": "かとう みほ"
+    },
     "miho_shimogasa": {
       "ja": "下笠美穂",
       "kana": "しもがさ みほ"
+    },
+    "miki_komuro": {
+      "ja": "小室未来",
+      "kana": "こむろ みき"
+    },
+    "mikio_fujihara": {
+      "ja": "藤原未来夫",
+      "kana": "ふじはら みきお"
     },
     "milt_kahl": {
       "ja": "ミルト・カール"
@@ -2575,9 +3167,25 @@
       "ja": "小長井美南",
       "kana": "こながい みなみ"
     },
+    "minami_seki": {
+      "ja": "関みなみ",
+      "kana": "せき みなみ"
+    },
+    "minori_homura": {
+      "ja": "保村成",
+      "kana": "ほむら みのり"
+    },
     "minoru_maeda": {
       "ja": "前田実",
       "kana": "まえだ みのる"
+    },
+    "minoru_ohashi": {
+      "ja": "大橋実",
+      "kana": "おおはし みのる"
+    },
+    "minoru_ota": {
+      "ja": "太田稔",
+      "kana": "おおた みのる"
     },
     "mirai_mizue": {
       "ja": "水江未来",
@@ -2586,6 +3194,10 @@
     "misao_abe": {
       "ja": "阿部美佐緒",
       "kana": "あべ みさお"
+    },
+    "mitsuaki_takabe": {
+      "ja": "高部光章",
+      "kana": "たかべ みつあき"
     },
     "mitsuhiro_yoneda": {
       "ja": "米田光宏",
@@ -2602,6 +3214,10 @@
     "mitsuru_aoyama": {
       "ja": "青山充",
       "kana": "あおやま みつる"
+    },
+    "mitsuru_chiba": {
+      "ja": "千葉充",
+      "kana": "ちば みつる"
     },
     "mitsuru_ishihara": {
       "ja": "石原満",
@@ -2622,6 +3238,10 @@
     "miyako_yatsu": {
       "ja": "谷津美弥子",
       "kana": "やつ みやこ"
+    },
+    "miyaso": {
+      "ja": "みやそ",
+      "kana": "みやそ"
     },
     "mizuki_takahashi": {
       "ja": "髙橋瑞紀",
@@ -2657,6 +3277,10 @@
       "ja": "天衝",
       "kana": "てんしょう"
     },
+    "motoko_shikama": {
+      "ja": "鹿間元子",
+      "kana": "しかま もとこ"
+    },
     "motonobu_hori": {
       "ja": "堀元宣"
     },
@@ -2685,6 +3309,10 @@
       "ja": "内藤直",
       "kana": "ないとう なお"
     },
+    "naofumi_hashimoto": {
+      "ja": "橋本尚典",
+      "kana": "はしもと なおふみ"
+    },
     "naohiro_osugi": {
       "ja": "大杉尚広"
     },
@@ -2695,6 +3323,14 @@
     "naohito_takahashi": {
       "ja": "高橋ナオヒト",
       "kana": "たかはし なおひと"
+    },
+    "naoki_arakawa": {
+      "ja": "荒川直樹",
+      "kana": "あらかわ なおき"
+    },
+    "naoki_chigira": {
+      "ja": "千装直樹",
+      "kana": "ちぎら なおき"
     },
     "naoki_kobayashi": {
       "ja": "小林直樹",
@@ -2707,6 +3343,10 @@
       "ja": "宮島直樹",
       "kana": "みやじま なおき"
     },
+    "naoki_okada": {
+      "ja": "岡田直樹",
+      "kana": "おかだ なおき"
+    },
     "naoki_takeda": {
       "ja": "竹田直樹",
       "kana": "たけだ なおき"
@@ -2718,6 +3358,14 @@
     "naoki_yoshibe": {
       "ja": "吉邉尚希",
       "kana": "よしべ なおき"
+    },
+    "naoko_kawahara": {
+      "ja": "河原奈緒子",
+      "kana": "かわはら なおこ"
+    },
+    "naoko_kouda": {
+      "ja": "幸田直子",
+      "kana": "こうだ なおこ"
     },
     "naoko_yamada": {
       "ja": "山田尚子",
@@ -2747,6 +3395,14 @@
       "ja": "諸冨直也",
       "kana": "もろとみ なおや"
     },
+    "naoya_nakayama": {
+      "ja": "中山直哉",
+      "kana": "なかやま なおや"
+    },
+    "naoya_takahashi": {
+      "ja": "髙橋尚矢",
+      "kana": "たかはし なおや"
+    },
     "naoya_wada": {
       "ja": "和田直也",
       "kana": "わだ なおや"
@@ -2774,9 +3430,25 @@
       "ja": "龍輪直征",
       "kana": "たつわ なおゆき"
     },
+    "narihito_sekikawa": {
+      "ja": "関川成人",
+      "kana": "せきかわ なりひと"
+    },
+    "naru_hosoma": {
+      "ja": "細間菜瑠",
+      "kana": "ほそま なる"
+    },
     "narumi_kakinouchi": {
       "ja": "垣野内成美",
       "kana": "かきのうち なるみ"
+    },
+    "natsuho_iwaida": {
+      "ja": "岩井田夏帆",
+      "kana": "いわいだ なつほ"
+    },
+    "natsuki_yamada": {
+      "ja": "山田奈月",
+      "kana": "やまだ なつき"
     },
     "nekomataya": {
       "ja": "ねこまたや",
@@ -2797,13 +3469,25 @@
     "noboru_takano": {
       "ja": "高野登"
     },
+    "nobuaki_maruki": {
+      "ja": "丸木宣明",
+      "kana": "まるき のぶあき"
+    },
     "nobuaki_nagano": {
       "ja": "長野伸明",
       "kana": "ながの のぶあき"
     },
+    "nobuhide_kariya": {
+      "ja": "刈谷暢秀",
+      "kana": "かりや のぶひで"
+    },
     "nobuhiko_genma": {
       "ja": "玄馬宣彦",
       "kana": "げんま のぶひこ"
+    },
+    "nobuhiko_kawakami": {
+      "ja": "川上暢彦",
+      "kana": "かわかみ のぶひこ"
     },
     "nobuhiro_arai": {
       "ja": "新井伸浩",
@@ -2813,9 +3497,17 @@
       "ja": "新川信正",
       "kana": "しんかわ のぶまさ"
     },
+    "nobunori_niwa": {
+      "ja": "丹羽信礼",
+      "kana": "にわ のぶのり"
+    },
     "nobuo_tomizawa": {
       "ja": "富沢信雄",
       "kana": "とみざわ のぶお"
+    },
+    "nobutaka_masuda": {
+      "ja": "増田伸孝",
+      "kana": "ますだ のぶたか"
     },
     "nobutake_ito": {
       "ja": "伊東伸高"
@@ -2837,6 +3529,10 @@
     "nobuyoshi_sasakado": {
       "ja": "佐々門信芳",
       "kana": "ささかど のぶよし"
+    },
+    "nobuyuki_matsuo": {
+      "ja": "松尾信之",
+      "kana": "まつお のぶゆき"
     },
     "nobuyuki_mitani": {
       "ja": "三谷暢之",
@@ -2860,6 +3556,10 @@
     "noriko_morishima": {
       "ja": "森島範子",
       "kana": "もりしま のりこ"
+    },
+    "noriko_moritomo": {
+      "ja": "森友典子",
+      "kana": "もりとも のりこ"
     },
     "noriko_onishi": {
       "ja": "大西紀子",
@@ -2897,12 +3597,20 @@
       "ja": "今岡律之",
       "kana": "いまおか のりゆき"
     },
+    "noriyuki_kitanohara": {
+      "ja": "北之原孝將",
+      "kana": "きたのはら のりゆき"
+    },
     "norm_ferguson": {
       "ja": "ノーム・ファーガソン"
     },
     "norm_mccabe": {
       "ja": "ノーム・マッケイブ",
       "kana": "のーまん・まっけいぶ"
+    },
+    "nozomi_beniya": {
+      "ja": "紅谷希",
+      "kana": "べにや のぞみ"
     },
     "nozomi_fujii": {
       "ja": "藤井望"
@@ -2914,6 +3622,10 @@
     "nozomu_shishido": {
       "ja": "宍戸望",
       "kana": "ししど のぞむ"
+    },
+    "odashi": {
+      "ja": "おだし",
+      "kana": "おだし"
     },
     "ollie_johnston": {
       "ja": "オリー・ジョンストン",
@@ -2939,6 +3651,10 @@
       "ja": "坂田理",
       "kana": "さかた おさむ"
     },
+    "osamu_sato": {
+      "ja": "佐藤修",
+      "kana": "さとう おさむ"
+    },
     "osamu_tanabe": {
       "ja": "田辺修",
       "kana": "たなべ おさむ"
@@ -2946,6 +3662,10 @@
     "osamu_tezuka": {
       "ja": "手塚治虫",
       "kana": "てづか おさむ"
+    },
+    "osamu_yamane": {
+      "ja": "山根宰",
+      "kana": "やまね おさむ"
     },
     "pete_burness": {
       "ja": "ピーター・バーネス"
@@ -2968,6 +3688,10 @@
     },
     "ralph_bakshi": {
       "ja": "ラルフ・バクシ"
+    },
+    "ran_kamezawa": {
+      "ja": "亀澤蘭",
+      "kana": "かめざわ らん"
     },
     "randy_cartwright": {
       "ja": "ランディ・カートライト"
@@ -2996,8 +3720,16 @@
       "ja": "小野寺蓮",
       "kana": "おのでら れん"
     },
+    "rena_igawa": {
+      "ja": "井川麗奈",
+      "kana": "いがわ れな"
+    },
     "richard_williams": {
       "ja": "リチャード・ウィリアムズ"
+    },
+    "rie_ishige": {
+      "ja": "石毛理恵",
+      "kana": "いしげ りえ"
     },
     "rie_matsumoto": {
       "ja": "松本理恵",
@@ -3015,9 +3747,21 @@
       "ja": "山根理宏",
       "kana": "やまね りひろ"
     },
+    "rika_ota": {
+      "ja": "太田里香",
+      "kana": "おおた りか"
+    },
     "riki_matsuura": {
       "ja": "松浦力",
       "kana": "まつうら りき"
+    },
+    "rin_ogawa": {
+      "ja": "小川隣",
+      "kana": "おがわ りん"
+    },
+    "rio": {
+      "ja": "りお",
+      "kana": "りお"
     },
     "ripa": {
       "ja": "りぱ",
@@ -3067,6 +3811,10 @@
       "ja": "小森良",
       "kana": "こもり りょう"
     },
+    "ryo_miyagi": {
+      "ja": "宮城良",
+      "kana": "みやぎ りょう"
+    },
     "ryo_onishi": {
       "ja": "大西亮",
       "kana": "おおにし りょう"
@@ -3079,6 +3827,10 @@
       "ja": "中森良治",
       "kana": "なかもり りょうじ"
     },
+    "ryonosuke_kuroki": {
+      "ja": "黒木涼之介",
+      "kana": "くろき りょうのすけ"
+    },
     "ryosuke_nakamura": {
       "ja": "中村亮介",
       "kana": "なかむら りょうすけ"
@@ -3086,6 +3838,10 @@
     "ryosuke_nishii": {
       "ja": "西井涼輔",
       "kana": "にしい りょうすけ"
+    },
+    "ryosuke_tsuchiya": {
+      "ja": "土屋亮介",
+      "kana": "つちや りょうすけ"
     },
     "ryota_aikei": {
       "ja": "愛敬亮太",
@@ -3145,6 +3901,10 @@
       "ja": "柳隆太",
       "kana": "やなぎ りゅうた"
     },
+    "sachiko_fukuda": {
+      "ja": "福田さちこ",
+      "kana": "ふくだ さちこ"
+    },
     "sachiko_kamimura": {
       "ja": "神村幸子",
       "kana": "かみむら さちこ"
@@ -3161,12 +3921,24 @@
       "ja": "月岡貞夫",
       "kana": "つきおか さだお"
     },
+    "sadatoshi_matsuzaka": {
+      "ja": "松坂定俊",
+      "kana": "まつざか さだとし"
+    },
+    "saki_hasegawa": {
+      "ja": "長谷川早紀",
+      "kana": "はせがわ さき"
+    },
     "saki_takahashi": {
       "ja": "高橋沙妃"
     },
     "sakiko_uda": {
       "ja": "宇田早輝子",
       "kana": "うだ さきこ"
+    },
+    "sakura_watabe": {
+      "ja": "渡部さくら",
+      "kana": "わたべ さくら"
     },
     "sanae_shimada": {
       "ja": "嶋田真恵",
@@ -3194,6 +3966,10 @@
       "ja": "渡部里美",
       "kana": "わたなべ さとみ"
     },
+    "satoru_iida": {
+      "ja": "飯田悟",
+      "kana": "いいだ さとる"
+    },
     "satoru_iriyoshi": {
       "ja": "入好さとる",
       "kana": "いりよし さとる"
@@ -3210,6 +3986,14 @@
       "ja": "うつのみや理",
       "kana": "うつのみや さとる"
     },
+    "satoshi_furuhashi": {
+      "ja": "古橋聡",
+      "kana": "ふるはし さとし"
+    },
+    "satoshi_harayama": {
+      "ja": "原山智",
+      "kana": "はらやま さとし"
+    },
     "satoshi_hattori": {
       "ja": "服部聡志",
       "kana": "はっとり さとし"
@@ -3217,6 +4001,10 @@
     "satoshi_hirayama": {
       "ja": "平山智",
       "kana": "ひらやま さとし"
+    },
+    "satoshi_horisawa": {
+      "ja": "堀澤聡志",
+      "kana": "ほりさわ さとし"
     },
     "satoshi_ishino": {
       "ja": "石野聡",
@@ -3237,6 +4025,10 @@
     "satoshi_kon": {
       "ja": "今敏",
       "kana": "こん さとし"
+    },
+    "satoshi_mori": {
+      "ja": "森賢",
+      "kana": "もり さとし"
     },
     "satoshi_nagura": {
       "ja": "名倉智史",
@@ -3267,6 +4059,10 @@
     },
     "saucelot": {
       "ja": "Saucelot"
+    },
+    "sawako_miyamoto": {
+      "ja": "宮本佐和子",
+      "kana": "みやもと さわこ"
     },
     "sawako_yamamoto": {
       "ja": "山本佐和子",
@@ -3313,6 +4109,10 @@
     "seimei_maeda": {
       "ja": "前田清明",
       "kana": "まえだ せいめい"
+    },
+    "seishiro_nagaya": {
+      "ja": "長屋誠志郎",
+      "kana": "ながや せいしろう"
     },
     "seiya_numata": {
       "ja": "沼田誠也",
@@ -3369,6 +4169,10 @@
     "shigeo_akahori": {
       "ja": "赤堀重雄"
     },
+    "shigeo_matoba": {
+      "ja": "的場茂夫",
+      "kana": "まとば しげお"
+    },
     "shigeru_fujita": {
       "ja": "藤田しげる",
       "kana": "ふじた しげる"
@@ -3415,6 +4219,10 @@
     },
     "shin_wakabayashi": {
       "ja": "若林信"
+    },
+    "shinga_nakamura": {
+      "ja": "中村真我",
+      "kana": "なかむら しんが"
     },
     "shingo_abe": {
       "ja": "阿部慎吾",
@@ -3467,6 +4275,10 @@
       "ja": "横田晋一",
       "kana": "よこた しんいち"
     },
+    "shinichiro_yamada": {
+      "ja": "山田伸一郎",
+      "kana": "やまだ しんいちろう"
+    },
     "shinji_hashimoto": {
       "ja": "橋本晋治",
       "kana": "はしもと しんじ"
@@ -3499,15 +4311,27 @@
       "ja": "茂木信二郎",
       "kana": "もぎ しんじろう"
     },
+    "shinnosuke_ota": {
+      "ja": "太田慎之介",
+      "kana": "おおた しんのすけ"
+    },
     "shinnosuke_tanaka": {
       "ja": "田中慎之介",
       "kana": "たなか しんのすけ"
+    },
+    "shinobu_nishioka": {
+      "ja": "西岡忍",
+      "kana": "にしおか しのぶ"
     },
     "shinobu_yoshioka": {
       "ja": "吉岡忍"
     },
     "shinpei_aoki": {
       "ja": "青木慎平"
+    },
+    "shinpei_kamata": {
+      "ja": "鎌田晋平",
+      "kana": "かまた しんぺい"
     },
     "shinpei_kobayashi": {
       "ja": "小林真平"
@@ -3548,6 +4372,18 @@
       "ja": "長谷川眞也",
       "kana": "はせがわ しんや"
     },
+    "shinya_ito": {
+      "ja": "伊藤進也",
+      "kana": "いとう しんや"
+    },
+    "shinya_kaneko": {
+      "ja": "兼子慎哉",
+      "kana": "かねこ しんや"
+    },
+    "shinya_kusumegi": {
+      "ja": "久壽米木信弥",
+      "kana": "くすめぎ しんや"
+    },
     "shinya_ohira": {
       "ja": "大平晋也",
       "kana": "おおひら しんや"
@@ -3564,6 +4400,14 @@
       "ja": "高橋信也",
       "kana": "たかはし しんや"
     },
+    "shinya_yamamoto": {
+      "ja": "山本真也",
+      "kana": "やまもと しんや"
+    },
+    "shiori_tani": {
+      "ja": "谷紫織",
+      "kana": "たに しおり"
+    },
     "shishi_yamazaki": {
       "ja": "シシヤマザキ",
       "kana": "しし やまざき"
@@ -3575,6 +4419,14 @@
     "shizuka_hayashi": {
       "ja": "林静香",
       "kana": "はやし しずか"
+    },
+    "sho_oi": {
+      "ja": "大井翔",
+      "kana": "おおい しょう"
+    },
+    "sho_yamamoto": {
+      "ja": "山本翔",
+      "kana": "やまもと しょう"
     },
     "shogo_matsumoto": {
       "ja": "松本翔吾",
@@ -3605,6 +4457,10 @@
     },
     "shougo_furuya": {
       "ja": "古屋勝悟"
+    },
+    "shouichi": {
+      "ja": "庄一",
+      "kana": "しょういち"
     },
     "shouko_ikeda": {
       "ja": "池田晶子",
@@ -3662,6 +4518,10 @@
       "ja": "丸山修二",
       "kana": "まるやま しゅうじ"
     },
+    "shuji_tanaka": {
+      "ja": "田中修司",
+      "kana": "たなか しゅうじ"
+    },
     "shukou_murase": {
       "ja": "村瀬修功",
       "kana": "むらせ しゅうこう"
@@ -3678,6 +4538,22 @@
       "ja": "宮川駿",
       "kana": "みやかわ しゅん"
     },
+    "shun_murata": {
+      "ja": "村田駿",
+      "kana": "むらた しゅん"
+    },
+    "shun_sawai": {
+      "ja": "澤井駿",
+      "kana": "さわい しゅん"
+    },
+    "shun_shibata": {
+      "ja": "柴田駿",
+      "kana": "しばた しゅん"
+    },
+    "shun_yamaoka": {
+      "ja": "山岡峻",
+      "kana": "やまおか しゅん"
+    },
     "shunichi_ishimoto": {
       "ja": "石本峻一",
       "kana": "いしもと しゅんいち"
@@ -3686,13 +4562,29 @@
       "ja": "谷口俊一郎",
       "kana": "たにぐち しゅんいちろう"
     },
+    "shunji_akasaka": {
+      "ja": "赤坂俊士",
+      "kana": "あかさか しゅんじ"
+    },
     "shunji_suzuki": {
       "ja": "鈴木俊二",
       "kana": "すずき しゅんじ"
     },
+    "shunpei_mochizuki": {
+      "ja": "望月俊平",
+      "kana": "もちづき しゅんぺい"
+    },
     "shunsuke_aoki": {
       "ja": "青木駿介",
       "kana": "あおき しゅんすけ"
+    },
+    "shunsuke_hirota": {
+      "ja": "廣田俊輔",
+      "kana": "ひろた しゅんすけ"
+    },
+    "shunsuke_nakashige": {
+      "ja": "中重俊祐",
+      "kana": "なかしげ しゅんすけ"
     },
     "shunsuke_okubo": {
       "ja": "大久保俊介",
@@ -3732,6 +4624,10 @@
     "souta_yamazaki": {
       "ja": "山崎爽太",
       "kana": "やまざき そうた"
+    },
+    "soutarou_shiraishi": {
+      "ja": "白石創太郎",
+      "kana": "しらいし そうたろう"
     },
     "steve_bosustow": {
       "ja": "ステファン・ボサストウ"
@@ -3781,6 +4677,10 @@
       "ja": "吉田忠勝",
       "kana": "よしだ ただかつ"
     },
+    "tadashi_abiru": {
+      "ja": "阿蒜晃士",
+      "kana": "あびる ただし"
+    },
     "tadashi_fukuda": {
       "ja": "福田忠",
       "kana": "ふくだ ただし"
@@ -3812,6 +4712,10 @@
     "taichi_ishidate": {
       "ja": "石立太一"
     },
+    "taichi_ogawa": {
+      "ja": "小川太一",
+      "kana": "おがわ たいち"
+    },
     "taiki_imamura": {
       "ja": "今村大樹",
       "kana": "いまむら たいき"
@@ -3827,6 +4731,10 @@
     "taisuke_iwasaki": {
       "ja": "岩崎泰介"
     },
+    "takaaki_chiba": {
+      "ja": "千葉崇明",
+      "kana": "ちば たかあき"
+    },
     "takaaki_sekizaki": {
       "ja": "関崎高明",
       "kana": "せきざき たかあき"
@@ -3839,6 +4747,10 @@
       "ja": "山下高明",
       "kana": "やました たかあき"
     },
+    "takafumi_hori": {
+      "ja": "堀剛史",
+      "kana": "ほり たかふみ"
+    },
     "takafumi_torii": {
       "ja": "鳥居貴史",
       "kana": "とりい たかふみ"
@@ -3850,6 +4762,10 @@
     "takahiro_chiba": {
       "ja": "千葉崇洋",
       "kana": "ちば たかひろ"
+    },
+    "takahiro_hosoki": {
+      "ja": "細木隆浩",
+      "kana": "ほそき たかひろ"
     },
     "takahiro_kagami": {
       "ja": "加々美高浩",
@@ -3891,6 +4807,14 @@
       "ja": "片桐貴悠",
       "kana": "かたぎり たかひさ"
     },
+    "takahito_katayama": {
+      "ja": "片山貴仁",
+      "kana": "かたやま たかひと"
+    },
+    "takahito_nakazawa": {
+      "ja": "仲澤崇仁",
+      "kana": "なかざわ たかひと"
+    },
     "takahito_sakazume": {
       "ja": "坂詰嵩仁",
       "kana": "さかづめ たかひと"
@@ -3927,6 +4851,10 @@
       "ja": "豆塚隆",
       "kana": "まめづか たかし"
     },
+    "takashi_miyauchi": {
+      "ja": "宮内崇",
+      "kana": "みやうち たかし"
+    },
     "takashi_mukouda": {
       "ja": "向田隆",
       "kana": "むこうだ たかし"
@@ -3934,6 +4862,10 @@
     "takashi_nakamura": {
       "ja": "なかむらたかし",
       "kana": "なかむら たかし"
+    },
+    "takashi_ogawa": {
+      "ja": "小川貴司",
+      "kana": "おがわ たかし"
     },
     "takashi_sogabe": {
       "ja": "曽我部孝",
@@ -3958,13 +4890,25 @@
     "takashi_yamamoto": {
       "ja": "山本天志"
     },
+    "takatoshi_honda": {
+      "ja": "本多孝敏",
+      "kana": "ほんだ たかとし"
+    },
     "takatsuna_senba": {
       "ja": "仙波隆綱",
       "kana": "せんば たかつな"
     },
+    "takaya_sunagawa": {
+      "ja": "砂川貴哉",
+      "kana": "すながわ たかや"
+    },
     "takayo_nishimura": {
       "ja": "西村貴世",
       "kana": "にしむら たかよ"
+    },
+    "takayoshi_watanabe": {
+      "ja": "渡部貴喜",
+      "kana": "わたなべ たかよし"
     },
     "takayuki_hamada": {
       "ja": "濱田高行",
@@ -3973,6 +4917,14 @@
     "takayuki_kitagawa": {
       "ja": "北川隆之",
       "kana": "きたがわ たかゆき"
+    },
+    "takayuki_motegi": {
+      "ja": "茂木貴之",
+      "kana": "もてぎ たかゆき"
+    },
+    "takayuki_sano": {
+      "ja": "佐野誉幸",
+      "kana": "さの たかゆき"
     },
     "takayuki_uchida": {
       "ja": "内田孝行",
@@ -3996,6 +4948,10 @@
     },
     "takeo_ide": {
       "ja": "井手武生"
+    },
+    "takeru_nakashima": {
+      "ja": "中島竹流",
+      "kana": "なかしま たける"
     },
     "takeru_noda": {
       "ja": "野田猛",
@@ -4035,6 +4991,10 @@
       "ja": "白土武",
       "kana": "しらと たけし"
     },
+    "takeyoshi_omagari": {
+      "ja": "大曲建克",
+      "kana": "おおまがり たけよし"
+    },
     "taku_furukawa": {
       "ja": "古川タク",
       "kana": "ふるかわ たく"
@@ -4054,9 +5014,29 @@
       "ja": "野田卓雄",
       "kana": "のだ たくお"
     },
+    "takuo_tominaga": {
+      "ja": "冨永拓生",
+      "kana": "とみなが たくお"
+    },
+    "takuro_naka": {
+      "ja": "中拓郎",
+      "kana": "なか たくろう"
+    },
     "takushi_koide": {
       "ja": "小出卓史",
       "kana": "こいで たくし"
+    },
+    "takuya_matsumura": {
+      "ja": "松村拓哉",
+      "kana": "まつむら たくや"
+    },
+    "takuya_miyahara": {
+      "ja": "宮原拓也",
+      "kana": "みやはら たくや"
+    },
+    "takuya_niinuma": {
+      "ja": "新沼拓也",
+      "kana": "にいぬま たくや"
     },
     "takuya_saito_(ajia_do)": {
       "ja": "斎藤卓也"
@@ -4081,6 +5061,10 @@
     },
     "takuya_yamamura": {
       "ja": "山村卓也"
+    },
+    "tamako_horiuchi": {
+      "ja": "堀内球子",
+      "kana": "ほりうち たまこ"
     },
     "tamotsu_ogawa": {
       "ja": "小川完",
@@ -4112,6 +5096,10 @@
       "ja": "川野達朗",
       "kana": "かわの たつろう"
     },
+    "tatsuya_akitsu": {
+      "ja": "秋津達哉",
+      "kana": "あきつ たつや"
+    },
     "tatsuya_ishihara": {
       "ja": "石原立也",
       "kana": "いしはら たつや"
@@ -4123,6 +5111,10 @@
     "tatsuya_miki": {
       "ja": "三木達也",
       "kana": "みき たつや"
+    },
+    "tatsuya_murakami": {
+      "ja": "村上達也",
+      "kana": "むらかみ たつや"
     },
     "tatsuya_oishi": {
       "ja": "尾石達也",
@@ -4163,9 +5155,17 @@
     "ted_sears": {
       "ja": "テッド・シアーズ"
     },
+    "teiichi_kato": {
+      "ja": "加藤禎一",
+      "kana": "かとう ていいち"
+    },
     "teiichi_takiguchi": {
       "ja": "滝口禎一",
       "kana": "たきぐち ていいち"
+    },
+    "tenohira": {
+      "ja": "てのひら",
+      "kana": "てのひら"
     },
     "tensai_okamura": {
       "ja": "岡村天斎",
@@ -4181,6 +5181,10 @@
     "terumi_nishii": {
       "ja": "西位輝実",
       "kana": "にしい てるみ"
+    },
+    "tetsuhiro_wakabayashi": {
+      "ja": "若林哲弘",
+      "kana": "わかばやし てつひろ"
     },
     "tetsuo_yajima": {
       "ja": "矢嶋哲生",
@@ -4198,6 +5202,14 @@
       "ja": "諸貫哲朗",
       "kana": "もろぬき てつろう"
     },
+    "tetsuro_niregi": {
+      "ja": "楡木哲郎",
+      "kana": "にれぎ てつろう"
+    },
+    "tetsuta_sannomiya": {
+      "ja": "三宮哲太",
+      "kana": "さんのみや てつた"
+    },
     "tetsuya_ishikawa": {
       "ja": "石川哲也",
       "kana": "いしかわ てつや"
@@ -4208,6 +5220,10 @@
     },
     "tetsuya_kumagai": {
       "ja": "熊谷哲矢"
+    },
+    "tetsuya_masuda": {
+      "ja": "増田哲弥",
+      "kana": "ますだ てつや"
     },
     "tetsuya_matsukawa": {
       "ja": "松川哲也",
@@ -4251,6 +5267,10 @@
     "tomato": {
       "ja": "TOMATO"
     },
+    "tomitaka_yokokawa": {
+      "ja": "横川臣孝",
+      "kana": "よこかわ とみたか"
+    },
     "tomoaki_takase": {
       "ja": "高瀬智章",
       "kana": "たかせ ともあき"
@@ -4259,12 +5279,20 @@
       "ja": "荒谷朋恵",
       "kana": "あらたに ともえ"
     },
+    "tomohide_kikunaga": {
+      "ja": "菊永智英",
+      "kana": "きくなが ともひで"
+    },
     "tomohiro_furukawa": {
       "ja": "古川知宏"
     },
     "tomohiro_hirata": {
       "ja": "平田智浩",
       "kana": "ひらた ともひろ"
+    },
+    "tomohiro_kamitani": {
+      "ja": "神谷智大",
+      "kana": "かみたに ともひろ"
     },
     "tomohiro_kawahara": {
       "ja": "川原智弘"
@@ -4289,6 +5317,14 @@
       "ja": "永作友克",
       "kana": "ながさく ともかつ"
     },
+    "tomoki_yoshikawa": {
+      "ja": "吉川知希",
+      "kana": "よしかわ ともき"
+    },
+    "tomomi_kamiya": {
+      "ja": "神谷友美",
+      "kana": "かみや ともみ"
+    },
     "tomomi_kawatsuma": {
       "ja": "川妻智美",
       "kana": "かわつま ともみ"
@@ -4300,6 +5336,10 @@
     "tomonori_sudo": {
       "ja": "須藤友徳",
       "kana": "すどう とものり"
+    },
+    "tomonori_tsuchiya": {
+      "ja": "土屋智義",
+      "kana": "つちや とものり"
     },
     "tomosato_hosokawa": {
       "ja": "細川智悟",
@@ -4327,6 +5367,10 @@
     "tomoyuki_shitaya": {
       "ja": "下谷智之"
     },
+    "tooru_takano": {
+      "ja": "髙野徹",
+      "kana": "たかの とおる"
+    },
     "toru_imanishi": {
       "ja": "今西亨"
     },
@@ -4349,6 +5393,10 @@
     "toshiaki_hontani": {
       "ja": "本谷利明",
       "kana": "ほんたに としあき"
+    },
+    "toshiaki_miki": {
+      "ja": "三木俊明",
+      "kana": "みき としあき"
     },
     "toshiaki_tetsura": {
       "ja": "鉄羅紀明",
@@ -4417,12 +5465,20 @@
       "ja": "小林冬至生",
       "kana": "こばやし としお"
     },
+    "toshio_mori": {
+      "ja": "森利夫",
+      "kana": "もり としお"
+    },
     "toshitsugu_saida": {
       "ja": "才田俊次"
     },
     "toshiya_kouno": {
       "ja": "河野敏弥",
       "kana": "こうの としや"
+    },
+    "toshiyasu_okada": {
+      "ja": "岡田敏靖",
+      "kana": "おかだ としやす"
     },
     "toshiyuki_honda": {
       "ja": "本多敏行",
@@ -4451,6 +5507,10 @@
       "ja": "都留稔幸",
       "kana": "つる としゆき"
     },
+    "toshiyuki_yahagi": {
+      "ja": "矢萩利幸",
+      "kana": "やはぎ としゆき"
+    },
     "touko_yatabe": {
       "ja": "谷田部透湖",
       "kana": "やたべ とうこ"
@@ -4467,6 +5527,10 @@
       "ja": "芦田豊雄",
       "kana": "あしだ とよお"
     },
+    "tsuguyuki_kubo": {
+      "ja": "窪詔之",
+      "kana": "くぼ つぐゆき"
+    },
     "tsukasa_dokite": {
       "ja": "土器手司",
       "kana": "どきて つかさ"
@@ -4474,6 +5538,10 @@
     "tsukasa_tannai": {
       "ja": "丹内司",
       "kana": "たんない つかさ"
+    },
+    "tsumokki": {
+      "ja": "つもっき",
+      "kana": "つもっき"
     },
     "tsunenori_saito": {
       "ja": "斎藤恒徳"
@@ -4493,6 +5561,10 @@
       "ja": "粟田務",
       "kana": "あわだ つとむ"
     },
+    "tsutomu_kikuchi": {
+      "ja": "菊池勉",
+      "kana": "きくち つとむ"
+    },
     "tsutomu_miyazawa": {
       "ja": "宮澤努",
       "kana": "みやざわ つとむ"
@@ -4508,6 +5580,10 @@
     "tsutomu_suzuki": {
       "ja": "鈴木勤",
       "kana": "すずき つとむ"
+    },
+    "tsuyoshi_iida": {
+      "ja": "飯田剛士",
+      "kana": "いいだ つよし"
     },
     "ub_iwerks": {
       "ja": "アブ・アイワークス"
@@ -4530,6 +5606,10 @@
     },
     "ward_kimball": {
       "ja": "ウォード・キンボール"
+    },
+    "washio": {
+      "ja": "わしお",
+      "kana": "わしお"
     },
     "weilin_zhang": {
       "ja": "張魏林"
@@ -4562,6 +5642,10 @@
       "ja": "入江泰浩",
       "kana": "いりえ やすひろ"
     },
+    "yasuhiro_kajino": {
+      "ja": "梶野靖弘",
+      "kana": "かじの やすひろ"
+    },
     "yasuhiro_kimura": {
       "ja": "木村泰大",
       "kana": "きむら やすひろ"
@@ -4573,6 +5657,10 @@
     "yasuhiro_okuda": {
       "ja": "奥田泰弘",
       "kana": "おくだ やすひろ"
+    },
+    "yasuhiro_saiki": {
+      "ja": "才木康寛",
+      "kana": "さいき やすひろ"
     },
     "yasuhiro_takemoto": {
       "ja": "武本康弘",
@@ -4617,6 +5705,10 @@
     "yasushi_muraki": {
       "ja": "村木靖",
       "kana": "むらき やすし"
+    },
+    "yasushi_nishiya": {
+      "ja": "西谷泰史",
+      "kana": "にしや やすし"
     },
     "yasutoshi_iwasaki": {
       "ja": "岩崎安利",
@@ -4749,6 +5841,10 @@
       "ja": "木上益治",
       "kana": "さとうとしお"
     },
+    "yoshikazu_fujiwara": {
+      "ja": "藤原巧和",
+      "kana": "ふじわら よしかず"
+    },
     "yoshikazu_tomita": {
       "ja": "冨田与四一",
       "kana": "とみた よしかず"
@@ -4804,6 +5900,10 @@
       "ja": "兼森義則",
       "kana": "かねもり よしのり"
     },
+    "yoshinori_urata": {
+      "ja": "浦田芳憲",
+      "kana": "うらた よしのり"
+    },
     "yoshio_chatani": {
       "ja": "茶谷与志雄",
       "kana": "ちゃたに よしお"
@@ -4832,9 +5932,17 @@
       "ja": "岸義之",
       "kana": "きし よしゆき"
     },
+    "yoshiyuki_kodaira": {
+      "ja": "小平佳幸",
+      "kana": "こだいら よしゆき"
+    },
     "yoshiyuki_momose": {
       "ja": "百瀬義行",
       "kana": "ももせ よしゆき"
+    },
+    "yoshiyuki_okubo": {
+      "ja": "大久保義之",
+      "kana": "おおくぼ よしゆき"
     },
     "yoshiyuki_sadamoto": {
       "ja": "貞本義行",
@@ -4851,6 +5959,10 @@
     "yosuke_anai": {
       "ja": "穴井洋輔"
     },
+    "yosuke_fukumoto": {
+      "ja": "福元陽介",
+      "kana": "ふくもと ようすけ"
+    },
     "youhei_sasaki": {
       "ja": "佐々木洋平",
       "kana": "ささき ようへい"
@@ -4866,6 +5978,10 @@
     "yousuke_kabashima": {
       "ja": "椛島洋介"
     },
+    "yousuke_murata": {
+      "ja": "村田陽祐",
+      "kana": "むらた ようすけ"
+    },
     "yousuke_yabumoto": {
       "ja": "薮本陽輔",
       "kana": "やぶもと ようすけ"
@@ -4877,6 +5993,10 @@
     "yuga_toyama": {
       "ja": "遠山友賀",
       "kana": "とおやま ゆうが"
+    },
+    "yuichi_fujimaki": {
+      "ja": "藤巻裕一",
+      "kana": "ふじまき ゆういち"
     },
     "yuichi_itou": {
       "ja": "伊東優一",
@@ -4905,9 +6025,25 @@
       "ja": "末吉裕一郎",
       "kana": "すえよし ゆういちろう"
     },
+    "yuitsu_kusakabe": {
+      "ja": "日下部唯津",
+      "kana": "くさかべ ゆいつ"
+    },
     "yuji_moriyama": {
       "ja": "森山雄治",
       "kana": "もりやま ゆうじ"
+    },
+    "yuji_takagi": {
+      "ja": "高木有詩",
+      "kana": "たかぎ ゆうじ"
+    },
+    "yuka_hirata": {
+      "ja": "平田有加",
+      "kana": "ひらた ゆか"
+    },
+    "yuka_inada": {
+      "ja": "稲田有華",
+      "kana": "いなだ ゆか"
     },
     "yuka_kuroda": {
       "ja": "黒田結花"
@@ -4927,6 +6063,10 @@
       "ja": "林祐己",
       "kana": "はやし ゆうき"
     },
+    "yuki_ito": {
+      "ja": "伊藤優希",
+      "kana": "いとう ゆき"
+    },
     "yuki_iwai": {
       "ja": "岩井優器",
       "kana": "いわい ゆき"
@@ -4943,8 +6083,20 @@
       "ja": "松隈勇樹",
       "kana": "まつぐま ゆうき"
     },
+    "yuki_matsuo": {
+      "ja": "松尾優希",
+      "kana": "まつお ゆうき"
+    },
+    "yuki_miyamoto": {
+      "ja": "宮本雄岐",
+      "kana": "みやもと ゆき"
+    },
     "yuki_sato": {
       "ja": "佐藤由紀",
+      "kana": "さとう ゆき"
+    },
+    "yuki_satou": {
+      "ja": "佐藤由貴",
       "kana": "さとう ゆき"
     },
     "yuki_suzuki": {
@@ -4966,6 +6118,10 @@
     "yukihiro_kitano": {
       "ja": "北野幸広"
     },
+    "yukihiro_urata": {
+      "ja": "浦田幸博",
+      "kana": "うらた ゆきひろ"
+    },
     "yukiko_horiguchi": {
       "ja": "堀口悠紀子",
       "kana": "ほりぐち ゆきこ"
@@ -4981,6 +6137,10 @@
     "yukio_ebisawa": {
       "ja": "海老沢幸男",
       "kana": "えびさわ ゆきお"
+    },
+    "yukio_hasegawa": {
+      "ja": "長谷川亨雄",
+      "kana": "はせがわ ゆきお"
     },
     "yukio_takatsu": {
       "ja": "高津幸央",
@@ -5004,6 +6164,10 @@
     "yumi_ikeda": {
       "ja": "池田由美"
     },
+    "yumiko_yamamoto": {
+      "ja": "山本由美子",
+      "kana": "やまもと ゆみこ"
+    },
     "yurie_kuniyuki": {
       "ja": "國行由里江"
     },
@@ -5013,6 +6177,22 @@
     },
     "yuriko_ishii": {
       "ja": "石井百合子"
+    },
+    "yusei_koumoto": {
+      "ja": "河本有聖",
+      "kana": "こうもと ゆうせい"
+    },
+    "yushi_hori": {
+      "ja": "堀裕津",
+      "kana": "ほり ゆうし"
+    },
+    "yushi_tanaka": {
+      "ja": "田中優士",
+      "kana": "たなか ゆうし"
+    },
+    "yusuke_adachi": {
+      "ja": "安達祐輔",
+      "kana": "あだち ゆうすけ"
     },
     "yusuke_kawakami": {
       "ja": "川上雄介",
@@ -5034,6 +6214,10 @@
       "ja": "荒木裕",
       "kana": "あらき ゆたか"
     },
+    "yutaka_kamogawa": {
+      "ja": "鴨川浩",
+      "kana": "かもがわ ゆたか"
+    },
     "yutaka_minowa": {
       "ja": "箕輪豊",
       "kana": "みのわ ゆたか"
@@ -5047,6 +6231,10 @@
     },
     "yuu_yamashita": {
       "ja": "山下祐"
+    },
+    "yuu_yoshiyama": {
+      "ja": "芳山優",
+      "kana": "よしやま ゆう"
     },
     "yuuga_tokuno": {
       "ja": "徳野悠我",
@@ -5071,6 +6259,10 @@
       "ja": "重国勇二",
       "kana": "しげくに ゆうじ"
     },
+    "yuuka_fujiwara": {
+      "ja": "藤原優花",
+      "kana": "ふじわら ゆうか"
+    },
     "yuukei_yamada": {
       "ja": "山田有慶",
       "kana": "やまだ ゆうけい"
@@ -5081,6 +6273,14 @@
     "yuuki_itou": {
       "ja": "伊藤祐毅",
       "kana": "いとう ゆうき"
+    },
+    "yuuki_kitajima": {
+      "ja": "北島勇樹",
+      "kana": "きたじま ゆうき"
+    },
+    "yuuki_miyagi": {
+      "ja": "宮城有輝",
+      "kana": "みやぎ ゆうき"
     },
     "yuuki_morishita": {
       "ja": "森下勇輝",
@@ -5114,6 +6314,10 @@
       "ja": "木曽勇太",
       "kana": "きそ ゆうた"
     },
+    "yuuta_shinohara": {
+      "ja": "篠原佑太",
+      "kana": "しのはら ゆうた"
+    },
     "yuuta_tsuchiya": {
       "ja": "土屋祐太",
       "kana": "つちや ゆうた"
@@ -5121,6 +6325,14 @@
     "yuuto_kaneko": {
       "ja": "金子雄人",
       "kana": "かねこ ゆうと"
+    },
+    "yuya_geshi": {
+      "ja": "下司祐也",
+      "kana": "げし ゆうや"
+    },
+    "yuya_kumagai": {
+      "ja": "熊谷勇也",
+      "kana": "くまがい ゆうや"
     },
     "yuya_takahashi": {
       "ja": "高橋優也"
@@ -16393,6 +17605,7 @@
     "ai_city": 10,
     "ai_kikuchi": 11,
     "ai_mai_mi": 10,
+    "ai_takashi": 47,
     "aikatsu!": 73,
     "aikatsu!_series": 218,
     "aikatsu!_the_movie": 8,
@@ -16412,6 +17625,8 @@
     "akame_ga_kill!": 136,
     "akane-banashi": 76,
     "akane_iro_ni_somaru_saka": 19,
+    "akane_takeda": 12,
+    "akari_ranzaki": 21,
     "akatsuki_no_yona": 19,
     "akazukin_chacha": 116,
     "akazukin_chacha_ova": 11,
@@ -16423,6 +17638,7 @@
     "akiba_maid_sensou": 20,
     "akihabara_dennou-gumi": 22,
     "akiharu_ishii": 14,
+    "akihiko_uda": 20,
     "akihiko_yamashita": 144,
     "akihiro_kanayama": 24,
     "akihiro_okuzawa": 30,
@@ -16432,6 +17648,7 @@
     "akiiro_renka": 8,
     "akikan": 10,
     "akiko_asaki": 10,
+    "akiko_itagaki": 14,
     "akiko_kudo": 35,
     "akiko_takase": 21,
     "akiko_toyoda": 34,
@@ -16453,7 +17670,10 @@
     "akira_oguro": 9,
     "akira_sato": 9,
     "akira_takata": 14,
+    "akira_teramoto": 18,
+    "akito_takahashi": 50,
     "akitoshi_yokoyama": 38,
+    "akiyo_okuda": 15,
     "akiyuki_shinbo": 103,
     "aku_no_hana": 18,
     "akudama_drive": 63,
@@ -16546,6 +17766,7 @@
     "araburu_kisetsu_no_otome-domo_yo": 9,
     "araiguma_rascal": 41,
     "arakawa_under_the_bridge": 40,
+    "arata_oogushi": 10,
     "arcade_gamer_fubuki": 42,
     "arcadia_of_my_youth": 40,
     "arcane": 44,
@@ -16582,7 +17803,9 @@
     "aru_majo_ga_shinu_made": 14,
     "asagao_to_kase-san": 9,
     "asagao_to_kase-san_ova": 7,
+    "asaka_yokoyama": 10,
     "asako_nishida": 83,
+    "asami_hayakawa": 11,
     "asao_takahashi": 7,
     "asatte_no_houkou": 10,
     "ashita_no_joe": 130,
@@ -16599,6 +17822,7 @@
     "astro_fighter_sunred": 13,
     "astro_note": 13,
     "asu_no_yoichi!": 16,
+    "asuka_suzuki": 20,
     "asura_cryin'": 183,
     "atashin'chi": 13,
     "atashin'chi_the_movie": 11,
@@ -16629,15 +17853,20 @@
     "atsushi_wakabayashi": 128,
     "atsushi_yamagata": 10,
     "atsushi_yano": 25,
+    "atsushi_yonezawa": 15,
     "atsuya_uki": 57,
     "avatar:_the_last_airbender": 315,
     "avatar_aang:_the_last_airbender": 217,
     "avatar_series": 932,
     "awajima_hyakkei": 46,
     "awake_(mv)": 10,
+    "awoi_otani": 28,
     "aya_suzuki": 42,
     "aya_takano": 8,
+    "ayaka_hozumi": 21,
     "ayaka_minoshima": 60,
+    "ayaka_ofusa": 17,
+    "ayaka_tsuji": 72,
     "ayakashi": 14,
     "ayako_hata": 77,
     "ayataka_tanemura": 18,
@@ -17110,14 +18339,20 @@
     "d4_princess": 12,
     "dagashi_kashi": 7,
     "dai_guard": 14,
+    "daichi_nakashima": 12,
     "daiki_harashina": 84,
+    "daiki_kato": 21,
+    "daiki_tanaka": 12,
     "daikichirou_kusube": 30,
     "daikuu_maryuu_gaiking": 58,
     "daisuke_hatsumi": 16,
     "daisuke_mataga": 93,
     "daisuke_sakou": 67,
+    "daisuke_shibukawa": 59,
+    "daisuke_tokudo": 10,
     "daisuke_tsumagari": 43,
     "daitoshokan_no_hitsujikai": 14,
+    "daizo_takeuchi": 59,
     "dale_baer": 56,
     "dallos": 27,
     "dan_macmanus": 72,
@@ -17320,6 +18555,7 @@
     "edens_zero": 53,
     "edens_zero_season_2": 38,
     "edens_zero_series": 91,
+    "edo_haruma": 19,
     "ef:_a_tale_of_melodies": 11,
     "ef:_a_tale_of_memories": 22,
     "effects": 129742,
@@ -17328,7 +18564,9 @@
     "ei_inoue": 52,
     "eiga_daisuki_pompo_san": 107,
     "eiga_nintama_rantaro": 10,
+    "eiichi_tominaga": 11,
     "eiji_abiko": 12,
+    "eiji_ishimoto": 18,
     "eiji_komatsu": 323,
     "eiji_nakada": 118,
     "eiji_suganuma": 72,
@@ -17336,6 +18574,8 @@
     "eiken": 6,
     "eiko_saito": 9,
     "eisaku_kawanami": 14,
+    "eisuke_shirai": 11,
+    "eita_toyoshima": 37,
     "eiyuu_kyoushitsu": 17,
     "eizouken_ni_wa_te_wo_dasu_na!": 292,
     "el_hazard": 97,
@@ -17348,6 +18588,9 @@
     "elfen_lied": 20,
     "elsword": 7,
     "emery_hawkins": 126,
+    "emi_hiraoka": 17,
+    "emi_ota": 17,
+    "emiko_shimura": 14,
     "emiya-san_chi_no_kyou_no_gohan": 83,
     "emma:_a_victorian_romance": 8,
     "emma:_a_victorian_romance_series": 20,
@@ -17486,7 +18729,9 @@
     "fullmetal_alchemist_2:_curse_of_the_crimson_elixir_(video_game)": 7,
     "fullmetal_alchemist_and_the_broken_angel": 8,
     "fullmetal_alchemist_brotherhood": 355,
+    "fumiaki_kouta": 188,
     "fuminori_kizaki": 33,
+    "fuminori_tsukita": 19,
     "fumio_iida": 15,
     "fumiyuki_uehara": 20,
     "fun_&_fancy_free": 28,
@@ -17503,6 +18748,7 @@
     "futoshi_fujikawa": 5,
     "futoshi_higashide": 86,
     "futoshi_nishiya": 26,
+    "futoshi_oonami": 80,
     "futoshi_suzuki": 108,
     "futsal_boys!!!!!": 19,
     "future_card_buddyfight": 22,
@@ -17568,6 +18814,7 @@
     "gekokujo_kyuji": 7,
     "gen'ei_o_kakeru_taiyo": 45,
     "gen'ichirou_abe": 244,
+    "gen_asano": 45,
     "gen_satou": 20,
     "generator_gawl": 54,
     "generator_rex": 6,
@@ -17758,6 +19005,8 @@
     "hair": 24540,
     "haitai_nanafa": 5,
     "hajime_kamegaki": 35,
+    "hajime_mitsuda": 28,
+    "hajime_nakagawa": 54,
     "hajime_nihira": 42,
     "hajime_no_ippo": 213,
     "hakaba_kitaro": 7,
@@ -17770,7 +19019,9 @@
     "ham_luske": 99,
     "hamefura_series": 6,
     "hammerhead": 10,
+    "hana_okutani": 22,
     "hana_yori_dango": 11,
+    "hanako_ueda": 96,
     "hanamaru_kindergarten": 40,
     "hanaori-san_wa_tensei_shite_mo_kenka_ga_shitai": 18,
     "hanasaku_iroha": 38,
@@ -17784,6 +19035,7 @@
     "hanebad!": 127,
     "hantsu_x_trash": 9,
     "hanyou_no_yashahime": 50,
+    "hanyu": 52,
     "happinesscharge_precure!": 116,
     "happy_halloween": 12,
     "happy_lucky_bikkuriman": 39,
@@ -17814,6 +19066,8 @@
     "hayate_nakamura": 122,
     "hayate_no_gotoku!": 73,
     "hayate_no_gotoku!_2": 6,
+    "hayate_sato": 30,
+    "hayato_kakita": 10,
     "hayato_kurosaki": 256,
     "hayato_nishimaki": 26,
     "hazbin_hotel": 85,
@@ -17863,6 +19117,7 @@
     "hidan_no_aria": 36,
     "hidan_no_aria_aa": 13,
     "hidarikiki_no_eren": 9,
+    "hideaki_abe": 20,
     "hideaki_anno": 162,
     "hideaki_maniwa": 43,
     "hideaki_yoshio": 42,
@@ -17871,6 +19126,7 @@
     "hidekazu_ebina": 113,
     "hidekazu_ohara": 46,
     "hideki_hamasu": 166,
+    "hideki_hamazaki": 97,
     "hideki_inoue": 7,
     "hideki_kakita": 321,
     "hideki_nagamachi": 25,
@@ -17879,6 +19135,7 @@
     "hideki_takahashi": 147,
     "hideki_tamura": 111,
     "hidenori_fukuoka": 111,
+    "hidenori_makino": 25,
     "hidenori_matsubara": 40,
     "hideo_furusawa": 19,
     "hideo_kawachi": 75,
@@ -17902,6 +19159,7 @@
     "hiiro_no_kakera": 18,
     "hikari_no_ou": 41,
     "hikaru_ga_shinda_natsu": 46,
+    "hikaru_miyazaki": 37,
     "hikikomari_kyuuketsuki_no_monmon": 76,
     "himegoto": 5,
     "himitsu_no_akko-chan_series": 10,
@@ -17912,10 +19170,15 @@
     "hiroaki_arai": 63,
     "hiroaki_gouda": 74,
     "hiroaki_karasu": 55,
+    "hiroaki_nakamichi": 52,
+    "hiroaki_otsuji": 44,
     "hiroaki_satou": 18,
+    "hiroaki_takagi": 182,
+    "hirofumi_masuda": 384,
     "hirofumi_okita": 121,
     "hirofumi_suzuki": 107,
     "hirogaru_sky!_precure": 143,
+    "hirohiko_sukegawa": 18,
     "hirokazu_hisayuki": 22,
     "hiroki_harada": 76,
     "hiroki_kanno": 16,
@@ -17943,6 +19206,7 @@
     "hiroshi_hamasaki": 27,
     "hiroshi_harada": 25,
     "hiroshi_ishiyama": 26,
+    "hiroshi_karata": 21,
     "hiroshi_kawaguchi": 20,
     "hiroshi_kojina": 6,
     "hiroshi_matsuda": 34,
@@ -17952,12 +19216,16 @@
     "hiroshi_saito": 40,
     "hiroshi_shimizu": 73,
     "hiroshi_takeuchi": 8,
+    "hiroshi_tanabe": 25,
     "hiroshi_tatezaki": 90,
     "hiroshi_tomioka": 257,
     "hiroshi_watanabe": 74,
     "hiroshi_yako": 11,
+    "hiroshi_yoneda": 116,
     "hirotaka_kato": 75,
     "hirotaka_marufuji": 6,
+    "hirotaka_tokuda": 92,
+    "hiroto_kato": 102,
     "hiroto_nagata": 71,
     "hiroto_tanaka": 15,
     "hirotoshi_sano": 118,
@@ -17969,21 +19237,26 @@
     "hiroyuki_horiuchi": 129,
     "hiroyuki_imaishi": 397,
     "hiroyuki_kasugai": 5,
+    "hiroyuki_kawano": 29,
     "hiroyuki_kitakubo": 40,
     "hiroyuki_kitazume": 24,
+    "hiroyuki_kobashi": 26,
     "hiroyuki_morita": 37,
     "hiroyuki_nishimura": 51,
     "hiroyuki_ochi": 13,
     "hiroyuki_okiura": 255,
     "hiroyuki_okuno": 25,
     "hiroyuki_ookaji": 115,
+    "hiroyuki_saita": 16,
     "hiroyuki_sasaki": 18,
+    "hiroyuki_sugawara": 15,
     "hiroyuki_taiga": 6,
     "hiroyuki_takahashi": 27,
     "hiroyuki_takashima": 153,
     "hiroyuki_terao": 38,
     "hiroyuki_yamashita": 255,
     "his_and_her_circumstances": 55,
+    "hisao_dendo": 36,
     "hisao_yokobori": 78,
     "hisashi_abe": 7,
     "hisashi_eguchi": 92,
@@ -17993,6 +19266,7 @@
     "hisashi_mori": 310,
     "hisashi_saito": 98,
     "hisashi_sakaguchi": 5,
+    "hisaya_kuwabara": 20,
     "hisayuki_tabata": 24,
     "hitohira": 10,
     "hitomi_hasegawa": 10,
@@ -18001,6 +19275,8 @@
     "hitomi_tsuruta": 32,
     "hitori_no_shita_the_outcast_series": 93,
     "hitoribocchi_no_marumaru_seikatsu": 17,
+    "hitoshi_haga": 10,
+    "hitoshi_inaba": 43,
     "hitoshi_ueda": 25,
     "hitsugi_no_chaika": 38,
     "hitsugi_no_chaika_series": 66,
@@ -18015,6 +19291,7 @@
     "honey_lemon_soda": 13,
     "honkai:_star_rail": 145,
     "honkai_impact_3rd": 49,
+    "honoka_yokoyama": 18,
     "honzuki_no_gekokujou": 66,
     "honzuki_no_gekokujou_season_4": 26,
     "hoozuki_no_reitetsu": 22,
@@ -18088,6 +19365,7 @@
     "ikoku_meiro_no_croisee": 37,
     "ikoku_nikki": 34,
     "ikuko_itoh": 88,
+    "ikuo_fudanoki": 28,
     "ikuo_geso": 116,
     "ikuo_kuwana": 54,
     "ikuo_yamakado": 28,
@@ -18152,6 +19430,7 @@
     "itsuka_tenma_no_kuro_usagi": 13,
     "itsuki_imazaki": 149,
     "itsuki_tsuchigami": 145,
+    "ittaku_koushou": 29,
     "iwa_kakeru!_sport_climbing_girls": 5,
     "iwao_teraoka": 42,
     "ixion_saga_dt": 48,
@@ -18182,6 +19461,7 @@
     "jigoku_shoujo_series": 9,
     "jigokuraku": 201,
     "jijou_wo_shiranai_tenkousei_ga_guigui_kuru": 7,
+    "jikou_abe": 10,
     "jikuu_tenshou_nazca": 18,
     "jim_algar": 35,
     "jin_kim": 17,
@@ -18207,6 +19487,7 @@
     "josh_meador": 110,
     "joshiraku": 25,
     "joukamachi_no_dandelion": 6,
+    "joutarou_naitou": 22,
     "jujutsu_kaisen": 280,
     "jujutsu_kaisen_0": 65,
     "jujutsu_kaisen_modulo": 14,
@@ -18233,9 +19514,11 @@
     "junkers_come_here": 52,
     "junkers_come_here_(pilot_film)": 16,
     "junketsu_no_maria": 76,
+    "junpei_fukuchi": 19,
     "junpei_mikuriya": 21,
     "junpei_ogawa": 223,
     "junpei_tatenaka": 40,
+    "jura": 45,
     "just_because!": 25,
     "justeen": 13,
     "justice_league_unlimited": 33,
@@ -18276,6 +19559,7 @@
     "kaiketsu_zorro": 27,
     "kairi_unabara": 6,
     "kaito_moki": 13,
+    "kaito_senkoji": 20,
     "kaito_tomioka": 169,
     "kaitou_joker": 9,
     "kaitou_saint_tail": 22,
@@ -18301,7 +19585,9 @@
     "kana_miyai": 7,
     "kanada_dragon": 221,
     "kanada_light_flare": 1320,
+    "kanako_higashi": 23,
     "kanako_maru": 54,
+    "kanako_yoshida": 80,
     "kanamemo": 6,
     "kanami_sekiguchi": 10,
     "kanan-sama_wa_akumade_choroi": 7,
@@ -18318,6 +19604,7 @@
     "kantai_collection": 145,
     "kaori_inoue": 14,
     "kaoru_hana_wa_rin_to_saku": 70,
+    "kaoru_tanimoto": 15,
     "karakuri_circus": 37,
     "karakuri_kengou_den_musashi_lord": 11,
     "karakuri_no_kimi": 26,
@@ -18347,12 +19634,14 @@
     "katsunori_shibata": 65,
     "katsute_kami_datta_kemono-tachi_e": 14,
     "katsute_mahou_shoujo_to_aku_wa_tekitai_shiteita": 43,
+    "katsutoshi_nakamura": 16,
     "katsutoshi_tsunoda": 7,
     "katsuya_kikuchi": 15,
     "katsuya_kondo": 93,
     "katsuya_shigehara": 5,
     "katsuya_terada": 6,
     "katsuya_yamada": 103,
+    "katsuya_yoshii": 17,
     "katsuyoshi_nakatsuru": 78,
     "katsuzo_hirata": 8,
     "katteni_kaizo": 34,
@@ -18374,21 +19663,28 @@
     "kazuhiro_ono": 23,
     "kazuhiro_ota": 161,
     "kazuhisa_nakamura": 14,
+    "kazuki_ito": 16,
+    "kazuki_kuramoto": 28,
     "kazuko_nakamura": 14,
     "kazuko_tadano": 8,
+    "kazuma_nakao": 11,
     "kazumi_ikeda": 8,
     "kazumi_inadome": 11,
     "kazumi_satou": 6,
+    "kazunori_akiyama": 53,
     "kazunori_iwakura": 89,
     "kazunori_ozawa": 561,
     "kazunori_takahashi": 41,
     "kazuo_komatsubara": 86,
+    "kazuo_nakamura": 36,
     "kazuo_yamazaki": 8,
     "kazushige_yusa": 7,
     "kazutaka_ozaki": 57,
     "kazutaka_sugiyama": 58,
     "kazuto_arai": 184,
     "kazuto_nakazawa": 212,
+    "kazutoshi_inoue": 25,
+    "kazutoshi_makino": 17,
     "kazuya_kuroda": 5,
     "kazuya_miura": 8,
     "kazuya_murata": 7,
@@ -18396,6 +19692,7 @@
     "kazuya_sakamoto": 15,
     "kazuya_shiotsuki": 6,
     "kazuya_tsurumaki": 37,
+    "kazuyoshi_onoda": 20,
     "kazuyoshi_yaginuma": 55,
     "kazuyuki_asaga": 53,
     "kei_suezawa": 36,
@@ -18407,7 +19704,10 @@
     "keiichiro_watanabe": 100,
     "keiji_gotoh": 39,
     "keijo!!!!!!!!": 18,
+    "keika_ushimaru": 10,
+    "keiko_iwata": 17,
     "keiko_kurosawa": 6,
+    "keiko_shimizu": 10,
     "keio_flying_squadron": 16,
     "keio_flying_squadron_2": 13,
     "keisuke_hiroe": 48,
@@ -18415,10 +19715,13 @@
     "keisuke_kojima": 105,
     "keisuke_masunaga": 40,
     "keisuke_morishita": 7,
+    "keisuke_okura": 58,
+    "keisuke_toyoda": 33,
     "keisuke_watabe": 303,
     "keisuke_watanabe": 22,
     "keita_nagahara": 60,
     "keita_nagasaka": 6,
+    "keita_shimizu": 22,
     "keito_oda": 31,
     "kekkai_sensen": 127,
     "kekkai_sensen_series": 219,
@@ -18429,6 +19732,7 @@
     "kemonozume": 66,
     "ken'ichi_hara": 26,
     "ken_harris": 88,
+    "ken_imaizumi": 52,
     "ken_o'brien": 13,
     "ken_otsuka": 299,
     "ken_peterson": 10,
@@ -18441,10 +19745,12 @@
     "kengo_saito": 72,
     "kenichi_chikanaga": 5,
     "kenichi_fujisawa": 140,
+    "kenichi_kangawa": 61,
     "kenichi_konishi": 70,
     "kenichi_kutsuna": 130,
     "kenichi_ohki": 125,
     "kenichi_ohnuki": 10,
+    "kenichi_shimizu": 34,
     "kenichi_takase": 360,
     "kenichi_tsuchiya": 60,
     "kenichi_yamada": 30,
@@ -18455,15 +19761,21 @@
     "kenja_no_mago": 20,
     "kenji_hachizaki": 16,
     "kenji_hattori": 8,
+    "kenji_hayama": 19,
+    "kenji_irie": 49,
     "kenji_kuroyanagi": 167,
+    "kenji_mima": 78,
     "kenji_mizuhata": 35,
     "kenji_sawada": 125,
     "kenji_yokoyama": 34,
     "kenji_zenba": 15,
+    "kenro_tokuda": 18,
+    "kenta_mimuro": 42,
     "kenta_yokoya": 146,
     "kento_toya": 7,
     "kenzen_robo_daimidaler": 61,
     "kero_kero_chime": 13,
+    "kerorira": 181,
     "keroro_gunsou": 104,
     "keroro_gunsou_series": 246,
     "keroro_gunsou☆": 6,
@@ -18479,6 +19791,7 @@
     "kidou_senshi_gundam_gquuuuuux": 121,
     "kiitarou_shounen_no_youkai_enikki": 10,
     "kiki's_delivery_service": 132,
+    "kikuchi_jouji": 14,
     "kikuko_sadakata": 32,
     "kill_ao": 25,
     "kill_la_kill": 252,
@@ -18520,6 +19833,7 @@
     "kipo_and_the_age_of_wonderbeasts_season_1": 13,
     "kirakira_precure_a_la_mode": 179,
     "kirara": 17,
+    "kirara_aya": 17,
     "kiratto_pri☆chan": 13,
     "kirby_series": 39,
     "kirio_fanclub": 13,
@@ -18534,6 +19848,7 @@
     "kite_liberator": 54,
     "kite_series": 65,
     "kiyotaka_oshiyama": 245,
+    "kiyotaka_takezawa": 51,
     "kiznaiver": 99,
     "kizumonogatari_part_1:_tekketsu": 68,
     "kizumonogatari_part_3:_reiketsu": 61,
@@ -18550,6 +19865,7 @@
     "koe_no_katachi": 77,
     "kohei_ashiya": 8,
     "kohei_hirota": 79,
+    "kohei_kobayashi": 75,
     "koi_kaze": 10,
     "koi_wa_ameagari_no_you_ni": 14,
     "koi_wa_sekai_seifuku_no_ato_de": 23,
@@ -18564,6 +19880,7 @@
     "koisuru_one_piece": 5,
     "koji_ito": 423,
     "koji_iwaki": 11,
+    "koji_kurahashi": 22,
     "koji_morimoto": 127,
     "koji_nanke": 105,
     "koji_yabuno": 152,
@@ -18583,7 +19900,9 @@
     "koori_no_jouheki": 14,
     "kore_kaite_shine": 6,
     "kore_wa_zombie_desu_ka": 26,
+    "kosuke_kato": 104,
     "kosuke_murayama": 5,
+    "kota_sera": 19,
     "kotetsu_no_daibouken": 16,
     "kotoura_san": 14,
     "kou_yoshinari": 348,
@@ -18596,6 +19915,7 @@
     "kouichi_sugitani": 10,
     "kouichi_taguchi": 8,
     "kouichi_tsunoda": 9,
+    "kouji_hisaki": 12,
     "kouji_koizumi": 33,
     "kouji_sugiura": 176,
     "kouki_fujimoto": 245,
@@ -18648,6 +19968,7 @@
     "kusuriya_no_hitorigoto": 146,
     "kuusen_madoushi_kouhosei_no_kyoukan": 32,
     "kwang_il_han": 15,
+    "kyohei_tezuka": 26,
     "kyoji_asano": 15,
     "kyojin_no_hoshi": 81,
     "kyoko_ito": 5,
@@ -18659,6 +19980,7 @@
     "kyota_washikita": 22,
     "kyou_kara_ore_wa": 24,
     "kyou_no_5_no_2_(tv)": 41,
+    "kyouhei_hanagata": 12,
     "kyoukai_no_kanata": 294,
     "kyoukai_no_rinne": 48,
     "kyoukai_senki": 54,
@@ -18670,6 +19992,7 @@
     "kyousougiga": 209,
     "kyousougiga_(ona)": 93,
     "kyousougiga_(tv)": 85,
+    "kyousuke_maeda": 88,
     "kyuuketsuki_sugu_shinu_series": 17,
     "kyuuta_sakai": 11,
     "la_blue_girl": 26,
@@ -18839,6 +20162,7 @@
     "mai_mai_shinko_to_sennen_no_maho": 34,
     "mai_otome": 136,
     "mai_toda": 119,
+    "mai_watanabe": 10,
     "mai_yoneyama": 65,
     "maiko_kobayashi": 29,
     "mairimashita!_iruma-kun": 63,
@@ -18863,22 +20187,30 @@
     "maken_ki!_series": 68,
     "maki_kawake": 32,
     "makiko_futaki": 108,
+    "makiko_suzuki": 15,
+    "makoto_ando": 31,
     "makoto_iino": 8,
     "makoto_nagasawa": 7,
+    "makoto_nakamura": 61,
     "makoto_takahoko": 6,
     "makoto_yamada": 13,
     "makyou_densetsu_acrobunch": 53,
     "makyou_gaiden_le_deus": 17,
     "mama_wa_shougaku_4_nensei": 7,
     "mamono_hunter_yohko": 29,
+    "mamoru_hoshino": 26,
     "mamoru_hosoda": 47,
     "mamoru_kurosawa": 60,
     "mamoru_sasaki": 29,
     "mamoru_yokota": 6,
     "mamotte_shugogetten!": 8,
+    "mana_uetake": 27,
+    "manabu_akita": 19,
     "manabu_nakatake": 6,
     "manabu_ono": 6,
     "manabu_oohashi": 136,
+    "manabu_tanzawa": 28,
+    "manami_honda": 15,
     "manaria_friends": 5,
     "manga_de_wakaru!_fate/grand_order": 10,
     "mankatsu": 66,
@@ -18903,6 +20235,7 @@
     "mariko_ishikawa": 45,
     "mariko_itou": 5,
     "mariko_kawamoto": 6,
+    "mariko_matsuo": 36,
     "mariko_oka": 16,
     "maris_the_choujo": 24,
     "mark_henn": 51,
@@ -18925,7 +20258,10 @@
     "masaaki_endo": 284,
     "masaaki_iwane": 1750,
     "masaaki_takiyama": 76,
+    "masaaki_tanaka": 36,
+    "masaaki_yamano": 29,
     "masaaki_yuasa": 131,
+    "masaharu_koyama": 33,
     "masaharu_tada": 69,
     "masahide_yanagisawa": 39,
     "masahiko_itojima": 13,
@@ -18943,8 +20279,12 @@
     "masahiro_neriki": 5,
     "masahiro_sato": 239,
     "masahiro_shimanuki": 107,
+    "masahiro_tokumaru": 71,
+    "masahiro_tomaru": 17,
+    "masahito_kunimatsu": 27,
     "masahito_sawada": 162,
     "masahito_yamashita": 349,
+    "masaho_hori": 50,
     "masakatsu_sasaki": 156,
     "masakazu_kawazoe": 7,
     "masakazu_sunagawa": 73,
@@ -18959,22 +20299,34 @@
     "masami_otsuka": 131,
     "masami_ozone": 17,
     "masami_suda": 79,
+    "masamichi_ishiyama": 30,
+    "masanobu_hiraoka": 96,
     "masanori_nishii": 91,
+    "masanori_osawa": 16,
     "masanori_shino": 20,
     "masao_okubo": 637,
     "masaru_hyodo": 6,
     "masaru_kimura": 157,
+    "masaru_matsuse": 14,
+    "masaru_obata": 28,
     "masaru_oshiro": 23,
     "masaru_sakamoto": 38,
     "masaru_yonezawa": 49,
     "masashi_ando": 85,
     "masashi_ishihama": 155,
+    "masashi_kano": 26,
     "masashi_kudo": 45,
     "masashi_okumura": 27,
+    "masataka_akai": 13,
     "masataka_hisata": 13,
     "masato_anno": 35,
+    "masato_hagiwara": 15,
+    "masato_kudo": 29,
+    "masato_nagamori": 31,
+    "masatoshi_tsuji": 15,
     "masatsugu_arakawa": 15,
     "masaya_fujimori": 64,
+    "masaya_sekizaki": 28,
     "masayoshi_nishida": 25,
     "masayoshi_tanaka": 103,
     "masayoshi_tano": 85,
@@ -18982,6 +20334,7 @@
     "masayuki_kobayashi": 24,
     "masayuki_kouda": 56,
     "masayuki_kunihiro": 239,
+    "masayuki_mizutani": 27,
     "masayuki_nonaka": 358,
     "masayuki_sato": 39,
     "masayuki_yoshihara": 82,
@@ -18995,6 +20348,7 @@
     "master_keaton_ova": 56,
     "master_of_mosquiton": 26,
     "masters_of_the_universe_series": 65,
+    "masumi_yoshida": 41,
     "matantei_loki_ragnarok": 8,
     "mato_seihei_no_slave": 27,
     "mawaru_penguindrum": 142,
@@ -19003,6 +20357,7 @@
     "mayoi_neko_overrun": 14,
     "mayoiga": 9,
     "mayonaka_punch": 6,
+    "mayumi_nakamura": 13,
     "maze_series": 42,
     "mazinger_series": 338,
     "mazinger_z": 58,
@@ -19049,11 +20404,13 @@
     "michael_sporn": 7,
     "michel_sugimoto": 37,
     "michi_himeno": 30,
+    "michiaki_sugimoto": 63,
     "michiko_to_hatchin": 84,
     "michinori_chiba": 51,
     "michio_fukuda": 18,
     "michio_mihara": 142,
     "michitaka_kikuchi": 54,
+    "michiyo_sakurai": 11,
     "michiyo_suzuki": 44,
     "mickey's_circus": 39,
     "mickey's_elephant": 20,
@@ -19069,20 +20426,27 @@
     "mieko_hosoi": 52,
     "mieruko_chan": 11,
     "mighty_orbots": 63,
+    "miho_kato": 16,
     "miho_shimogasa": 12,
     "miira_no_kaikata": 11,
     "mikagura_gakuen_kumikyoku": 25,
     "mikakunin_de_shinkoukei": 72,
+    "miki_komuro": 38,
+    "mikio_fujihara": 81,
     "millennium_actress": 67,
     "million_arthur": 12,
     "milt_kahl": 439,
     "minami-ke": 44,
     "minami_konagai": 7,
+    "minami_seki": 23,
     "mind_game": 83,
     "minimum_nanonic": 8,
     "minna_no_uta": 38,
+    "minori_homura": 15,
     "minori_scramble": 32,
     "minoru_maeda": 33,
+    "minoru_ohashi": 22,
+    "minoru_ota": 13,
     "miracle": 5,
     "miracle_girls": 10,
     "miraculous_ladybug": 16,
@@ -19096,6 +20460,7 @@
     "miss_hokusai": 59,
     "missiles": 2978,
     "mister_ajikko": 43,
+    "mitsuaki_takabe": 24,
     "mitsuami_no_kamisama": 7,
     "mitsuboshi_colors": 16,
     "mitsudomoe": 8,
@@ -19104,12 +20469,14 @@
     "mitsuko_baba": 24,
     "mitsuo_iso": 272,
     "mitsuru_aoyama": 21,
+    "mitsuru_chiba": 12,
     "mitsuru_ishihara": 97,
     "mitsuru_obunai": 222,
     "mitsuteru_kubo": 16,
     "miwa_sasaki": 18,
     "mix:_meisei_story_series": 39,
     "miyako_yatsu": 14,
+    "miyaso": 34,
     "mizuki_takahashi": 43,
     "mlb_tokyo_series": 11,
     "mm!": 6,
@@ -19186,6 +20553,7 @@
     "moriyasu_taniguchi": 24,
     "morphing": 4623,
     "motoki_tanaka": 38,
+    "motoko_shikama": 23,
     "motonobu_hori": 13,
     "motorcity": 102,
     "motosuke_takahashi": 120,
@@ -19247,15 +20615,21 @@
     "nanbaka": 87,
     "nandaka_velonica": 15,
     "nao_naitou": 39,
+    "naofumi_hashimoto": 10,
     "naohiro_osugi": 20,
     "naohiro_shintani": 121,
     "naohito_takahashi": 8,
+    "naoki_arakawa": 68,
+    "naoki_chigira": 21,
     "naoki_kobayashi": 138,
     "naoki_miyahara": 26,
     "naoki_miyajima": 60,
+    "naoki_okada": 34,
     "naoki_takeda": 22,
     "naoki_tate": 318,
     "naoki_yoshibe": 116,
+    "naoko_kawahara": 14,
+    "naoko_kouda": 24,
     "naoko_yamada": 36,
     "naomi_kaneda": 10,
     "naoto_hosoda": 142,
@@ -19263,6 +20637,8 @@
     "naoto_uchida": 42,
     "naotoshi_shida": 640,
     "naoya_morotomi": 50,
+    "naoya_nakayama": 80,
+    "naoya_takahashi": 37,
     "naoya_wada": 45,
     "naoyoshi_shiotani": 7,
     "naoyuki_asano": 39,
@@ -19271,6 +20647,8 @@
     "naoyuki_onda": 25,
     "naoyuki_tatsuwa": 12,
     "naraka_bladepoint": 8,
+    "narihito_sekikawa": 66,
+    "naru_hosoma": 24,
     "narumi_kakinouchi": 5,
     "naruto": 2833,
     "naruto_(2002)": 484,
@@ -19280,7 +20658,9 @@
     "nasu:_suitcase_no_wataridori": 18,
     "natsu_no_arashi!": 9,
     "natsu_no_niwa": 5,
+    "natsuho_iwaida": 39,
     "natsuki_crisis": 17,
+    "natsuki_yamada": 37,
     "natsume_yuujinchou": 39,
     "natsume_yuujinchou_series": 93,
     "natsuyuki_rendezvous": 6,
@@ -19346,20 +20726,26 @@
     "noblesse_series": 43,
     "noboru_koizumi": 157,
     "noboru_takano": 12,
+    "nobuaki_maruki": 10,
     "nobuaki_nagano": 116,
+    "nobuhide_kariya": 38,
     "nobuhiko_genma": 51,
+    "nobuhiko_kawakami": 13,
     "nobuhiro_arai": 9,
     "nobumasa_shinkawa": 23,
     "nobunaga_no_shinobi": 5,
     "nobunaga_the_fool": 19,
     "nobunagun": 14,
+    "nobunori_niwa": 55,
     "nobuo_tomizawa": 66,
+    "nobutaka_masuda": 109,
     "nobutake_ito": 75,
     "nobuteru_yuki": 31,
     "nobutoshi_ogura": 74,
     "nobuyoshi_habara": 55,
     "nobuyoshi_nishimura": 40,
     "nobuyoshi_sasakado": 55,
+    "nobuyuki_matsuo": 41,
     "nobuyuki_mitani": 62,
     "nobuyuki_takeuchi": 59,
     "nodame_cantabile": 7,
@@ -19374,6 +20760,7 @@
     "norifumi_kugai": 140,
     "norikatsu_nakano": 60,
     "noriko_morishima": 25,
+    "noriko_moritomo": 31,
     "noriko_onishi": 10,
     "noriko_takao": 12,
     "norimitsu_suzuki": 285,
@@ -19383,9 +20770,11 @@
     "norio_shioyama": 53,
     "noriyasu_yamauchi": 24,
     "noriyuki_imaoka": 66,
+    "noriyuki_kitanohara": 47,
     "norm_ferguson": 136,
     "norm_mccabe": 23,
     "northwest_hounded_police": 5,
+    "nozomi_beniya": 15,
     "nozomi_fujii": 12,
     "nozomu_abe": 615,
     "nozomu_shishido": 12,
@@ -19397,6 +20786,7 @@
     "occultic;nine": 190,
     "ochikobore_fruit_tart": 12,
     "oda_nobuna_no_yabou": 28,
+    "odashi": 155,
     "off_the_air": 14,
     "officer_duck": 12,
     "oh!_edo_rocket": 21,
@@ -19465,8 +20855,10 @@
     "osamu_kobayashi_(ajia_dou)": 25,
     "osamu_nabeshima": 117,
     "osamu_sakata": 41,
+    "osamu_sato": 25,
     "osamu_tanabe": 72,
     "osamu_tezuka": 8,
+    "osamu_yamane": 265,
     "osananajimi_ga_zettai_ni_makenai_love_comedy": 10,
     "oshi_ga_budoukan_ittekuretara_shinu": 7,
     "oshi_no_ko": 246,
@@ -19676,6 +21068,7 @@
     "rakudai_majo:_fuuka_to_yami_no_majo": 16,
     "ralph_bakshi": 5,
     "rampo": 6,
+    "ran_kamezawa": 58,
     "randy_cartwright": 19,
     "ranma_1/2": 731,
     "ranma_1/2_(1989)": 93,
@@ -19708,6 +21101,7 @@
     "relic_armor_legaciam": 7,
     "ren_and_stimpy_adult_party_cartoon": 12,
     "ren_onodera": 50,
+    "rena_igawa": 26,
     "rental_magica": 13,
     "resonance_solstice_(game)": 14,
     "return_to_never_land": 32,
@@ -19722,17 +21116,21 @@
     "rick_and_morty": 27,
     "ride_your_wave": 71,
     "riding_bean": 13,
+    "rie_ishige": 14,
     "rie_matsumoto": 41,
     "rie_nishino": 7,
     "rie_sezaki": 14,
     "rifle_is_beautiful": 10,
     "rihiro_yamane": 111,
+    "rika_ota": 10,
     "riki_matsuura": 147,
     "rilu_rilu_fairilu": 5,
+    "rin_ogawa": 31,
     "ring_ni_kakero_1": 17,
     "ring_ni_kakero_1_series": 41,
     "rinne_no_lagrange": 21,
     "rinshi!!_ekoda-chan": 7,
+    "rio": 24,
     "ripa": 40,
     "rise_of_the_teenage_mutant_ninja_turtles": 225,
     "rise_of_the_teenage_mutant_ninja_turtles_movie": 50,
@@ -19795,11 +21193,14 @@
     "ryo_araki": 244,
     "ryo_imamura": 207,
     "ryo_komori": 15,
+    "ryo_miyagi": 12,
     "ryo_onishi": 258,
     "ryo_tanaka": 637,
     "ryoji_nakamori": 68,
+    "ryonosuke_kuroki": 39,
     "ryosuke_nakamura": 8,
     "ryosuke_nishii": 145,
+    "ryosuke_tsuchiya": 17,
     "ryota_aikei": 11,
     "ryota_furukawa": 54,
     "ryota_hayazu": 9,
@@ -19824,11 +21225,13 @@
     "saber_marionette_series": 149,
     "sabikui_bisco": 77,
     "sabu_to_ichi_torimono_hikae": 6,
+    "sachiko_fukuda": 70,
     "sachiko_kamimura": 18,
     "sachiko_sugino": 27,
     "sacred_seven": 80,
     "sadahiko_sakamaki": 6,
     "sadao_tsukioka": 58,
+    "sadatoshi_matsuzaka": 10,
     "saenai_heroine_no_sodatekata": 36,
     "saenai_heroine_no_sodatekata_series": 89,
     "saihate_no_paladin": 23,
@@ -19849,6 +21252,7 @@
     "sakamoto_days": 89,
     "sakasama_no_patema": 9,
     "saki": 81,
+    "saki_hasegawa": 22,
     "saki_series": 103,
     "saki_takahashi": 17,
     "sakiko_uda": 165,
@@ -19857,6 +21261,7 @@
     "sakura_taisen_monogatari:_mysterious_paris": 13,
     "sakura_taisen_series": 192,
     "sakura_trick": 17,
+    "sakura_watabe": 31,
     "sakurako-san_no_ashimoto_ni_wa_shitai_ga_umatteiru": 5,
     "sakurasou_no_pet_na_kanojo": 16,
     "salamander": 19,
@@ -19886,17 +21291,22 @@
     "satomi_higuchi": 5,
     "satomi_maiya": 11,
     "satomi_watanabe": 23,
+    "satoru_iida": 117,
     "satoru_iriyoshi": 16,
     "satoru_nakamura": 6,
     "satoru_nakaya": 20,
     "satoru_utsunomiya": 166,
+    "satoshi_furuhashi": 54,
+    "satoshi_harayama": 43,
     "satoshi_hattori": 11,
     "satoshi_hirayama": 16,
+    "satoshi_horisawa": 95,
     "satoshi_ishino": 44,
     "satoshi_iwataki": 51,
     "satoshi_kadowaki": 19,
     "satoshi_kimura": 31,
     "satoshi_kon": 45,
+    "satoshi_mori": 77,
     "satoshi_nagura": 13,
     "satoshi_sakai": 452,
     "satoshi_shigeta": 171,
@@ -19906,6 +21316,7 @@
     "satoshi_yamaguchi": 67,
     "satsuriku_no_tenshi": 10,
     "saucelot": 29,
+    "sawako_miyamoto": 20,
     "sawako_yamamoto": 27,
     "sayaka_koiso": 31,
     "sayo_yamamoto": 11,
@@ -19957,6 +21368,7 @@
     "seis_manos": 43,
     "seisen_cerberus": 6,
     "seisenshi_dunbine": 107,
+    "seishiro_nagaya": 16,
     "seishun_buta_yarou_wa_bunny_girl_senpai_no_yume_wo_minai_series": 132,
     "seishun_buta_yarou_wa_odekake_sister_no_yume_wo_minai": 6,
     "seitokai_ni_mo_ana_wa_aru!": 67,
@@ -20033,6 +21445,7 @@
     "shigeki_sunada": 32,
     "shigenobu_nagasaki": 32,
     "shigeo_akahori": 12,
+    "shigeo_matoba": 28,
     "shigeru_fujita": 44,
     "shigeru_kimishima": 8,
     "shigetaka_kiyoyama": 5,
@@ -20057,6 +21470,7 @@
     "shin_wakabayashi": 33,
     "shina_dark": 6,
     "shine_post": 49,
+    "shinga_nakamura": 40,
     "shingeki!_kyojin_chuugakkou": 33,
     "shingeki_no_bahamut:_genesis": 71,
     "shingeki_no_bahamut:_virgin_soul": 92,
@@ -20078,6 +21492,7 @@
     "shingo_yamashita": 186,
     "shinichi_kurita": 129,
     "shinichi_yokota": 11,
+    "shinichiro_yamada": 10,
     "shining_hearts:_shiawase_no_pan": 10,
     "shinji_hashimoto": 206,
     "shinji_higuchi": 5,
@@ -20092,10 +21507,13 @@
     "shinkon_gattai_godannar": 147,
     "shinmai_maou_no_testament": 27,
     "shinmai_renkinjutsushi_no_tenpo_keiei": 19,
+    "shinnosuke_ota": 47,
     "shinnosuke_tanaka": 36,
     "shinobi_no_ittoki": 8,
+    "shinobu_nishioka": 99,
     "shinobu_yoshioka": 6,
     "shinpei_aoki": 6,
+    "shinpei_kamata": 18,
     "shinpei_kobayashi": 16,
     "shinpei_sawa": 74,
     "shinpei_tomooka": 263,
@@ -20109,11 +21527,16 @@
     "shinsuke_yasuda": 5,
     "shintarou_douge": 41,
     "shinya_hasegawa": 99,
+    "shinya_ito": 12,
+    "shinya_kaneko": 24,
+    "shinya_kusumegi": 70,
     "shinya_ohira": 436,
     "shinya_segawa": 29,
     "shinya_takahashi": 275,
     "shinya_takahashi_(1943)": 5,
+    "shinya_yamamoto": 68,
     "shion_no_ou": 12,
+    "shiori_tani": 18,
     "shiranpuri": 7,
     "shiro_seijo_to_kuro_bokushi": 12,
     "shirobako": 69,
@@ -20124,6 +21547,8 @@
     "shishi_yamazaki": 9,
     "shizue_kaneko": 6,
     "shizuka_hayashi": 89,
+    "sho_oi": 39,
+    "sho_yamamoto": 28,
     "shogo_matsumoto": 47,
     "shohei_nishijima": 120,
     "shoichi_masuo": 188,
@@ -20139,6 +21564,7 @@
     "shosuke_ishibashi": 31,
     "shota_goshozono": 72,
     "shougo_furuya": 29,
+    "shouichi": 72,
     "shoujo_kageki_revue_starlight": 82,
     "shoujo_kageki_revue_starlight_movie": 40,
     "shoujo_kageki_revue_starlight_series": 139,
@@ -20171,16 +21597,25 @@
     "shuichi_iseki": 34,
     "shuichi_kaneko": 121,
     "shuji_maruyama": 20,
+    "shuji_tanaka": 77,
     "shukou_murase": 118,
     "shukufuku_no_campanella": 10,
     "shun": 35,
     "shun_enokido": 211,
     "shun_miyakawa": 90,
+    "shun_murata": 24,
+    "shun_sawai": 18,
+    "shun_shibata": 61,
+    "shun_yamaoka": 30,
     "shunichi_ishimoto": 55,
     "shunichiro_taniguchi": 35,
+    "shunji_akasaka": 30,
     "shunji_suzuki": 39,
     "shunkashuutou_daikousha:_haru_no_mai": 121,
+    "shunpei_mochizuki": 123,
     "shunsuke_aoki": 80,
+    "shunsuke_hirota": 27,
+    "shunsuke_nakashige": 24,
     "shunsuke_okubo": 80,
     "shunsuke_takarai": 60,
     "shuu_sugita": 295,
@@ -20276,6 +21711,7 @@
     "sousou_no_frieren_season_2": 145,
     "sousou_no_frieren_series": 641,
     "souta_yamazaki": 169,
+    "soutarou_shiraishi": 43,
     "space_adventure_cobra": 118,
     "space_adventure_cobra:_the_movie": 12,
     "space_brothers": 44,
@@ -20406,6 +21842,7 @@
     "tadaaki_miyata": 95,
     "tadahiko_horiguchi": 8,
     "tadakatsu_yoshida": 75,
+    "tadashi_abiru": 99,
     "tadashi_fukuda": 22,
     "tadashi_hiramatsu": 267,
     "tadashi_matsuzaki": 24,
@@ -20415,6 +21852,7 @@
     "tadayoshi_yamamuro": 116,
     "tagme": 140,
     "taichi_ishidate": 213,
+    "taichi_ogawa": 11,
     "taifuu_no_noruda": 20,
     "taiki_imamura": 29,
     "taiki_konno": 43,
@@ -20422,12 +21860,15 @@
     "taishi_kawakami": 22,
     "taisho_baseball_girls": 5,
     "taisuke_iwasaki": 7,
+    "takaaki_chiba": 52,
     "takaaki_sekizaki": 66,
     "takaaki_wada": 232,
     "takaaki_yamashita": 165,
+    "takafumi_hori": 227,
     "takafumi_torii": 284,
     "takahiko_abiru": 8,
     "takahiro_chiba": 178,
+    "takahiro_hosoki": 178,
     "takahiro_kagami": 129,
     "takahiro_kimura": 48,
     "takahiro_kishida": 327,
@@ -20438,6 +21879,8 @@
     "takahiro_tanaka": 21,
     "takahiro_yoshimatsu": 14,
     "takahisa_katagiri": 10,
+    "takahito_katayama": 83,
+    "takahito_nakazawa": 61,
     "takahito_sakazume": 269,
     "takami_akai": 11,
     "takamitsu_kondo": 98,
@@ -20448,24 +21891,32 @@
     "takashi_kawaguchi": 99,
     "takashi_kojima": 390,
     "takashi_mamezuka": 5,
+    "takashi_miyauchi": 20,
     "takashi_mukouda": 193,
     "takashi_nakamura": 168,
+    "takashi_ogawa": 36,
     "takashi_sogabe": 20,
     "takashi_tomioka": 218,
     "takashi_umeda": 56,
     "takashi_watabe": 5,
     "takashi_watanabe": 7,
     "takashi_yamamoto": 5,
+    "takatoshi_honda": 16,
     "takatsuna_senba": 7,
+    "takaya_sunagawa": 63,
     "takayo_nishimura": 27,
+    "takayoshi_watanabe": 13,
     "takayuki_hamada": 98,
     "takayuki_kitagawa": 78,
+    "takayuki_motegi": 52,
+    "takayuki_sano": 39,
     "takayuki_uchida": 39,
     "takayuki_uragami": 12,
     "takehiko_matsumoto": 19,
     "takehiro_nakayama": 11,
     "takenori_tsukuma": 8,
     "takeo_ide": 38,
+    "takeru_nakashima": 17,
     "takeru_noda": 7,
     "takeshi_honda": 396,
     "takeshi_inamura": 62,
@@ -20476,6 +21927,7 @@
     "takeshi_oda": 18,
     "takeshi_otani": 31,
     "takeshi_shirato": 8,
+    "takeyoshi_omagari": 72,
     "takopii_no_genzai": 261,
     "takt_op._destiny": 111,
     "taku_furukawa": 8,
@@ -20483,7 +21935,12 @@
     "takumi_sunakohara": 57,
     "takumi_yokota": 9,
     "takuo_noda": 33,
+    "takuo_tominaga": 18,
+    "takuro_naka": 12,
     "takushi_koide": 62,
+    "takuya_matsumura": 42,
+    "takuya_miyahara": 46,
+    "takuya_niinuma": 99,
     "takuya_saito_(ajia_do)": 45,
     "takuya_saito_(production_i.g.)": 16,
     "takuya_saito_(trigger)": 11,
@@ -20518,6 +21975,7 @@
     "tales_of_zestiria_the_x": 108,
     "talesweaver": 7,
     "tamagotchi!": 5,
+    "tamako_horiuchi": 34,
     "tamako_love_story": 40,
     "tamako_market": 82,
     "tamako_series": 122,
@@ -20548,9 +22006,11 @@
     "tatsuo_satou": 5,
     "tatsuo_yamada": 199,
     "tatsurou_kawano": 85,
+    "tatsuya_akitsu": 14,
     "tatsuya_ishihara": 17,
     "tatsuya_koyanagi": 97,
     "tatsuya_miki": 195,
+    "tatsuya_murakami": 36,
     "tatsuya_oishi": 122,
     "tatsuya_satou": 237,
     "tatsuya_suzuki": 41,
@@ -20573,6 +22033,7 @@
     "teenage_mutant_ninja_turtles_(2003)": 13,
     "tegami_bachi": 25,
     "tegami_bachi_series": 47,
+    "teiichi_kato": 10,
     "teiichi_takiguchi": 32,
     "tekkaman_blade": 35,
     "tekkaman_blade_ii": 9,
@@ -20590,6 +22051,7 @@
     "tenjho_tenge": 21,
     "tenkai_knights": 15,
     "tenmaku_no_jaadugar": 114,
+    "tenohira": 15,
     "tensai_bakabon": 14,
     "tensai_bakabon_series": 53,
     "tensai_okamura": 23,
@@ -20609,6 +22071,7 @@
     "teruaki_tokumaru": 161,
     "terumi_nishii": 26,
     "test": 22,
+    "tetsuhiro_wakabayashi": 14,
     "tetsujin_28-go_(1980)": 58,
     "tetsujin_28-go_(2004)": 44,
     "tetsujin_28-go_series": 107,
@@ -20617,6 +22080,8 @@
     "tetsuro_araki": 5,
     "tetsuro_kaku": 12,
     "tetsuro_moronuki": 32,
+    "tetsuro_niregi": 102,
+    "tetsuta_sannomiya": 64,
     "tetsuwan_atom": 192,
     "tetsuwan_atom_(1963)": 12,
     "tetsuwan_atom_(2003)": 182,
@@ -20625,6 +22090,7 @@
     "tetsuya_ishikawa": 361,
     "tetsuya_kawakami": 12,
     "tetsuya_kumagai": 12,
+    "tetsuya_masuda": 36,
     "tetsuya_matsukawa": 9,
     "tetsuya_nishio": 369,
     "tetsuya_takeuchi": 595,
@@ -20885,20 +22351,26 @@
     "tomb_raider:_the_legend_of_lara_croft": 52,
     "tomb_raider:_the_legend_of_lara_croft_season_2": 21,
     "tomb_raider_series": 55,
+    "tomitaka_yokokawa": 11,
     "tomo-chan_wa_onnanoko!": 14,
     "tomoaki_takase": 66,
     "tomoe_aratani": 13,
+    "tomohide_kikunaga": 52,
     "tomohiro_furukawa": 12,
     "tomohiro_hirata": 9,
+    "tomohiro_kamitani": 11,
     "tomohiro_kawahara": 12,
     "tomohiro_kishi": 27,
     "tomohiro_shinoda": 97,
     "tomohiro_takayama": 15,
     "tomohisa_shimoyama": 25,
     "tomokatsu_nagasaku": 114,
+    "tomoki_yoshikawa": 86,
+    "tomomi_kamiya": 10,
     "tomomi_kawatsuma": 8,
     "tomonori_kogawa": 54,
     "tomonori_sudo": 33,
+    "tomonori_tsuchiya": 15,
     "tomorrow's_leaves": 12,
     "tomosato_hosokawa": 28,
     "tomoyasu_kudo": 27,
@@ -20913,6 +22385,7 @@
     "tongari_boushi_no_atelier": 271,
     "tonikaku_kawaii_series": 8,
     "tooi-san_wa_seishun_shitai!_\"baka_to_smapho_to_romance_to\"": 10,
+    "tooru_takano": 92,
     "toradora": 205,
     "toriko": 145,
     "toriko_3d:_kaimaku_gourmet_adventure!!": 5,
@@ -20925,6 +22398,7 @@
     "toshi_gordian": 6,
     "toshi_sada": 10,
     "toshiaki_hontani": 49,
+    "toshiaki_miki": 13,
     "toshiaki_tetsura": 52,
     "toshie_kawamura": 9,
     "toshifumi_akai": 34,
@@ -20942,8 +22416,10 @@
     "toshio_hirata": 9,
     "toshio_kawaguchi": 100,
     "toshio_kobayashi_(snipes)": 48,
+    "toshio_mori": 17,
     "toshitsugu_saida": 131,
     "toshiya_kouno": 52,
+    "toshiyasu_okada": 130,
     "toshiyuki_honda": 9,
     "toshiyuki_inoue": 620,
     "toshiyuki_kanno": 20,
@@ -20951,6 +22427,7 @@
     "toshiyuki_sato": 761,
     "toshiyuki_shirai": 19,
     "toshiyuki_tsuru": 88,
+    "toshiyuki_yahagi": 59,
     "totsukuni_no_shoujo": 26,
     "touch": 12,
     "tougen_anki": 51,
@@ -20998,6 +22475,7 @@
     "tsue_to_tsurugi_no_wistoria_season_2": 67,
     "tsue_to_tsurugi_no_wistoria_series": 161,
     "tsugumomo": 17,
+    "tsuguyuki_kubo": 34,
     "tsuide_ni_tonchinkan": 11,
     "tsuihou_sareta_tensei_juu_kishi_wa_game_chishiki_de_musou_suru": 59,
     "tsukasa_dokite": 27,
@@ -21009,6 +22487,7 @@
     "tsuki_to_laika_to_nosferatu": 5,
     "tsukihime": 20,
     "tsukuyomi_moon_phase": 47,
+    "tsumokki": 30,
     "tsunenori_saito": 112,
     "tsuneo_maeda": 14,
     "tsuneo_ninomiya": 23,
@@ -21017,10 +22496,12 @@
     "tsurune": 78,
     "tsurune_series": 201,
     "tsutomu_awada": 44,
+    "tsutomu_kikuchi": 123,
     "tsutomu_miyazawa": 28,
     "tsutomu_oshiro": 409,
     "tsutomu_shibayama": 38,
     "tsutomu_suzuki": 7,
+    "tsuyoshi_iida": 19,
     "turn_a_gundam": 240,
     "twilight_(mv)": 7,
     "twilight_q": 9,
@@ -21136,6 +22617,7 @@
     "warau_arsnotoria_sun!": 14,
     "ward_kimball": 191,
     "warframe": 13,
+    "washio": 106,
     "watashi_ga_motenai_no_wa_dou_kangaetemo_omaera_ga_warui": 16,
     "watashi_ni_tenshi_ga_maiorita!": 75,
     "watashi_no_ashinaga_ojisan": 6,
@@ -21250,9 +22732,11 @@
     "yasuhiko_akiyama": 82,
     "yasuhiro_aoki": 107,
     "yasuhiro_irie": 80,
+    "yasuhiro_kajino": 43,
     "yasuhiro_kimura": 8,
     "yasuhiro_nakura": 47,
     "yasuhiro_okuda": 5,
+    "yasuhiro_saiki": 13,
     "yasuhiro_takemoto": 17,
     "yasuhiro_yamaguchi": 14,
     "yasuhisa_kato": 49,
@@ -21264,6 +22748,7 @@
     "yasuo_otsuka": 158,
     "yasuomi_umetsu": 229,
     "yasushi_muraki": 291,
+    "yasushi_nishiya": 68,
     "yasutoshi_iwasaki": 109,
     "yasuyuki_ebara": 100,
     "yasuyuki_kai": 117,
@@ -21313,6 +22798,7 @@
     "yoshihiro_watanabe": 6,
     "yoshihito_hishinuma": 20,
     "yoshiji_kigami": 273,
+    "yoshikazu_fujiwara": 14,
     "yoshikazu_tomita": 363,
     "yoshikazu_yasuhiko": 336,
     "yoshiki_nakakoji": 114,
@@ -21327,6 +22813,7 @@
     "yoshinobu_michihata": 8,
     "yoshinori_kanada": 926,
     "yoshinori_kanemori": 11,
+    "yoshinori_urata": 24,
     "yoshio_chatani": 10,
     "yoshio_mizumura": 10,
     "yoshitaka_yashima": 14,
@@ -21334,11 +22821,14 @@
     "yoshiyuki_fujiwara": 5,
     "yoshiyuki_ito": 160,
     "yoshiyuki_kishi": 15,
+    "yoshiyuki_kodaira": 11,
     "yoshiyuki_momose": 127,
+    "yoshiyuki_okubo": 39,
     "yoshiyuki_sadamoto": 42,
     "yoshiyuki_tokinaga": 13,
     "yoshiyuki_tomino": 20,
     "yosuke_anai": 15,
+    "yosuke_fukumoto": 23,
     "yotoden": 43,
     "yotsunoha": 6,
     "you're_under_arrest": 236,
@@ -21360,6 +22850,7 @@
     "young_justice": 22,
     "youseiki_suikoden": 13,
     "yousuke_kabashima": 85,
+    "yousuke_murata": 28,
     "yousuke_yabumoto": 5,
     "yowamushi_pedal": 11,
     "yowamushi_pedal_series": 14,
@@ -21384,6 +22875,7 @@
     "yubisaki_to_renren": 83,
     "yudai_iino": 16,
     "yuga_toyama": 32,
+    "yuichi_fujimaki": 16,
     "yuichi_itou": 16,
     "yuichi_nakazawa": 56,
     "yuichi_oka": 63,
@@ -21391,26 +22883,36 @@
     "yuichiro_hayashi": 31,
     "yuichiro_iida": 59,
     "yuichiro_sueyoshi": 101,
+    "yuitsu_kusakabe": 24,
     "yuji_moriyama": 72,
+    "yuji_takagi": 149,
+    "yuka_hirata": 21,
+    "yuka_inada": 14,
     "yuka_kuroda": 95,
     "yuka_shibata": 14,
     "yuka_shibata_(2)": 6,
     "yuki_akiyama": 5,
     "yuki_hayashi": 404,
+    "yuki_ito": 36,
     "yuki_iwai": 13,
     "yuki_kawashima": 18,
     "yuki_komatsu": 93,
     "yuki_matsuguma": 49,
+    "yuki_matsuo": 25,
+    "yuki_miyamoto": 44,
     "yuki_sato": 163,
+    "yuki_satou": 33,
     "yuki_suzuki": 61,
     "yuki_yonemori": 40,
     "yukie_hiyamizu": 17,
     "yukie_sako": 5,
     "yukihiro_kitano": 22,
+    "yukihiro_urata": 86,
     "yukiko_horiguchi": 51,
     "yukiko_nakatani": 22,
     "yukina_kosaka": 75,
     "yukio_ebisawa": 11,
+    "yukio_hasegawa": 32,
     "yukio_takatsu": 26,
     "yukitoshi_houtani": 12,
     "yukiyoshi_hane": 48,
@@ -21419,6 +22921,7 @@
     "yume_de_aetara": 6,
     "yumekui_merry": 56,
     "yumi_ikeda": 12,
+    "yumiko_yamamoto": 28,
     "yurei_deco": 19,
     "yuri!!!_on_ice": 34,
     "yuri_kuma_arashi": 33,
@@ -21431,26 +22934,35 @@
     "yuru_camp": 25,
     "yuru_camp_season_3": 10,
     "yuruyuri": 127,
+    "yusei_koumoto": 38,
+    "yushi_hori": 10,
+    "yushi_tanaka": 19,
+    "yusuke_adachi": 18,
     "yusuke_kawakami": 87,
     "yusuke_murata": 10,
     "yusuke_yoshigaki": 76,
     "yuta_murano": 20,
     "yutaka_araki": 83,
+    "yutaka_kamogawa": 124,
     "yutaka_minowa": 22,
     "yutaka_nakamura": 486,
     "yutaro_kubo": 45,
     "yutori-chan": 5,
     "yuu_yamashita": 43,
+    "yuu_yoshiyama": 416,
     "yuuga_tokuno": 18,
     "yuugo_ohashi": 11,
     "yuuhei_murota": 13,
     "yuuichi_hamano": 102,
     "yuuichi_takahashi": 99,
     "yuuji_shigekuni": 8,
+    "yuuka_fujiwara": 14,
     "yuukei_yamada": 74,
     "yuuki_bakuhatsu_bang_bravern": 83,
     "yuuki_igarashi": 85,
     "yuuki_itou": 5,
+    "yuuki_kitajima": 10,
+    "yuuki_miyagi": 14,
     "yuuki_morishita": 6,
     "yuuki_watanabe": 103,
     "yuuki_yase": 12,
@@ -21464,8 +22976,11 @@
     "yuusuke_tanaka": 28,
     "yuusuke_yamamoto_(nara)": 35,
     "yuuta_kiso": 230,
+    "yuuta_shinohara": 39,
     "yuuta_tsuchiya": 12,
     "yuuto_kaneko": 119,
+    "yuya_geshi": 54,
+    "yuya_kumagai": 36,
     "yuya_takahashi": 168,
     "yuyushiki": 89,
     "yuyushiki_ova": 7,
