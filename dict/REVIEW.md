@@ -24,7 +24,6 @@ needs_review entries (excluded from dist). Fix via data/overrides.json.
 | bruce_w._smith | ブルース・W・スミス | wikidata:Q2926483 | 21 |
 | what_a | ベーブ、ヒー・コールズ・ミー | wikidata:Q406641 | 18 |
 | julien_chheng | ジュリアン・チェン | wikidata:Q72805932 | 15 |
-| singles | シングルス | wikidata:Q282041 | 15 |
 | last_shot_(mv) | ラスト・ショット | wikidata:Q1435036 | 14 |
 | monster_(mv) | MONSTER | wikidata:Q100944081 | 14 |
 | chen_lu | ジャッキー・チェン | wikidata:Q36970 | 13 |
@@ -48,7 +47,6 @@ needs_review entries (excluded from dist). Fix via data/overrides.json.
 | endless_(vtuber_project) | アルカディア | wikidata:Q39073297 | 7 |
 | scavengers | スカベンジャーズ | wikidata:Q7430645 | 7 |
 | ryota_takahashi | 知多良 | wikidata:Q11671575 | 6 |
-| dragon_slayer_(mv) | ドラゴンスレイヤー | wikidata:Q5305280 | 6 |
 | hero_(mv) | HERO | wikidata:Q260379 | 6 |
 | legion | レギオン | wikidata:Q24279305 | 6 |
 | mayhem | Z Inc. ゼット・インク | wikidata:Q30609024 | 6 |
