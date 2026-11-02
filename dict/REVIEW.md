@@ -23,7 +23,6 @@ needs_review entries (excluded from dist). Fix via data/overrides.json.
 | yuji_suzuki | ガッツ石松 | wikidata:Q745408 | 24 |
 | bruce_w._smith | ブルース・W・スミス | wikidata:Q2926483 | 21 |
 | what_a | ベーブ、ヒー・コールズ・ミー | wikidata:Q406641 | 18 |
-| coonskin | ストリートファイト | wikidata:Q254671 | 16 |
 | julien_chheng | ジュリアン・チェン | wikidata:Q72805932 | 15 |
 | singles | シングルス | wikidata:Q282041 | 15 |
 | last_shot_(mv) | ラスト・ショット | wikidata:Q1435036 | 14 |
