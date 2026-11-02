@@ -38,7 +38,6 @@ needs_review entries (excluded from dist). Fix via data/overrides.json.
 | harold_walker | ハル・ウォーカー | wikidata:Q1570158 | 10 |
 | borge_ring | ボルゲ・リング | wikidata:Q12304852 | 9 |
 | hiromi_suzuki | 鈴木博美 | wikidata:Q5770546 | 9 |
-| tatsuya_mori | 森達也 | wikidata:Q4302696 | 9 |
 | a_better_tomorrow | 男たちの挽歌 | wikidata:Q641346 | 9 |
 | masashi_kishimoto | 岸本斉史 | wikidata:Q1993 | 8 |
 | blossom | ブロッサム | wikidata:Q885450 | 8 |
