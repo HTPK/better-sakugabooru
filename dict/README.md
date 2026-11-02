@@ -20,7 +20,7 @@ Japanese names for Sakugabooru tags (artists, works, general terms), used by the
 }
 ```
 
-`kana` is optional. `src` is `wikidata:Q...`, `manual`, or `manual:<url>`. In `overrides.json` you may add `"type": "artists" | "copyrights" | "general"` for tags not yet in a data file (default `general`).
+`kana` is optional. `src` is `wikidata:Q...`, `ann:<id>` (title from the [Anime News Network Encyclopedia](https://www.animenewsnetwork.com/encyclopedia/), used as a source of official Japanese titles), `staffdb:<works>` (artist names confirmed against per-episode staff credits), `manual`, or `manual:<url>`. In `overrides.json` you may add `"type": "artists" | "copyrights" | "general"` for tags not yet in a data file (default `general`).
 
 ## Fixing a name (GitHub web editor)
 
@@ -41,4 +41,4 @@ py -3 -m pytest -q
 
 ## License
 
-MIT (see the repository root). Generated data comes from Wikidata (CC0) only. Do not add data copied from services whose terms forbid bulk collection or redistribution.
+MIT (see the repository root). Generated data comes from Wikidata (CC0); some work titles were looked up in the Anime News Network Encyclopedia (credited per entry via `src`) and some artist names were confirmed against public staff-credit wikis. Do not add data copied from services whose terms forbid bulk collection or redistribution.

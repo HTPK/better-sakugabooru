@@ -18,10 +18,45 @@
     "src": "wikidata:Q165512",
     "type": "copyright"
   },
+  "2x2=shinobuden": {
+    "count": 70,
+    "ja": "ニニンがシノブ伝",
+    "needs_review": false,
+    "src": "wikidata:Q1314481",
+    "type": "copyright"
+  },
+  "a.i.c.o._incarnation": {
+    "count": 61,
+    "ja": "A.I.C.O. Incarnation",
+    "needs_review": false,
+    "src": "wikidata:Q47537472",
+    "type": "copyright"
+  },
   "aa!_megami-sama!_series": {
     "ja": "ああっ女神さまっ",
     "needs_review": false,
     "src": "manual",
+    "type": "copyright"
+  },
+  "aachi_and_ssipak": {
+    "count": 39,
+    "ja": "アーチ&シパック -世界ウンコ大戦争-",
+    "needs_review": false,
+    "src": "wikidata:Q484783",
+    "type": "copyright"
+  },
+  "acca:_13_ku_kansatsu_ka_regards": {
+    "count": 31,
+    "ja": "ACCA13区監察課 Regards",
+    "needs_review": false,
+    "src": "ann:23517",
+    "type": "copyright"
+  },
+  "accel_world_infinite_burst": {
+    "count": 33,
+    "ja": "アクセル・ワールド INFINITE∞BURST",
+    "needs_review": false,
+    "src": "ann:18063",
     "type": "copyright"
   },
   "ace_attorney_(series)": {
@@ -30,10 +65,38 @@
     "src": "manual",
     "type": "copyright"
   },
+  "ace_wo_nerae!_2": {
+    "count": 101,
+    "ja": "エースをねらえ！2",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
   "ace_wo_nerae!_series": {
     "ja": "エースをねらえ!",
     "needs_review": false,
     "src": "wikidata:Q135215781",
+    "type": "copyright"
+  },
+  "aeon_flux": {
+    "count": 57,
+    "ja": "イーオン・フラックス",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
+  "agent_aika_(ova)": {
+    "count": 35,
+    "ja": "アイカ",
+    "needs_review": false,
+    "src": "ann:102",
+    "type": "copyright"
+  },
+  "ahiru_no_quack": {
+    "count": 42,
+    "ja": "小さなアヒルの大きな愛の物語 あひるのクワック",
+    "needs_review": false,
+    "src": "wikidata:Q818733",
     "type": "copyright"
   },
   "ai_mai_mi": {
@@ -380,10 +443,24 @@
     "src": "wikidata:Q3616717",
     "type": "copyright"
   },
+  "angel_cop": {
+    "count": 76,
+    "ja": "エンゼル コップ",
+    "needs_review": false,
+    "src": "ann:511",
+    "type": "copyright"
+  },
   "angelic_layer": {
     "ja": "機動天使エンジェリックレイヤー",
     "needs_review": false,
     "src": "wikidata:Q107095871",
+    "type": "copyright"
+  },
+  "animal_treasure_island": {
+    "count": 40,
+    "ja": "どうぶつ宝島",
+    "needs_review": false,
+    "src": "ann:1466",
     "type": "copyright"
   },
   "animaniacs": {
@@ -410,6 +487,13 @@
     "src": "wikidata:Q68947207",
     "type": "copyright"
   },
+  "anime_mirai": {
+    "count": 157,
+    "ja": "アニメミライ",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
   "anne_of_green_gables": {
     "ja": "赤毛のアン",
     "needs_review": false,
@@ -428,6 +512,13 @@
     "src": "wikidata:Q131749035",
     "type": "copyright"
   },
+  "ao_no_exorcist:_kyoto_fujouou-hen": {
+    "count": 30,
+    "ja": "青の祓魔師 京都不浄王篇",
+    "needs_review": false,
+    "src": "ann:18528",
+    "type": "copyright"
+  },
   "ao_no_exorcist_series": {
     "ja": "青の祓魔師 シリーズ",
     "needs_review": false,
@@ -444,6 +535,13 @@
     "ja": "蒼き流星SPTレイズナー (TV)",
     "needs_review": false,
     "src": "wikidata:Q2453763",
+    "type": "copyright"
+  },
+  "arad:_gyakuten_no_wa": {
+    "count": 32,
+    "ja": "アラド：逆転の輪",
+    "needs_review": false,
+    "src": "ann:23477",
     "type": "copyright"
   },
   "arata_oogushi": {
@@ -478,6 +576,13 @@
     "src": "wikidata:Q112624440",
     "type": "copyright"
   },
+  "aria_the_ova_arietta": {
+    "count": 92,
+    "ja": "ARIA The OVA 〜ARIETTA〜",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
   "ariel": {
     "ja": "ARIEL",
     "needs_review": false,
@@ -491,6 +596,34 @@
     "needs_review": false,
     "src": "atwiki:1669",
     "type": "artist"
+  },
+  "arknights:_enshin_shomei": {
+    "count": 62,
+    "ja": "アークナイツ【焔燼曙明/RISE FROM EMBER】",
+    "needs_review": false,
+    "src": "ann:32697",
+    "type": "copyright"
+  },
+  "arknights_cm": {
+    "count": 82,
+    "ja": "アークナイツ CM",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
+  "arknights_fuyukomori_kaerimichi": {
+    "count": 81,
+    "ja": "アークナイツ 冬隠帰路",
+    "needs_review": false,
+    "src": "ann:26740",
+    "type": "copyright"
+  },
+  "arknights_prelude_to_dawn": {
+    "count": 34,
+    "ja": "アークナイツ 黎明前奏",
+    "needs_review": false,
+    "src": "ann:24899",
+    "type": "copyright"
   },
   "arknights_tv_series": {
     "ja": "アークナイツ シリーズ",
@@ -577,10 +710,24 @@
     "src": "staffdb:NOBLESSE -ノブレス-|天国大魔境|夜のクラゲは泳げない",
     "type": "artist"
   },
+  "asura_wrath_(video_game)": {
+    "count": 146,
+    "ja": "アスラズ ラース",
+    "needs_review": false,
+    "src": "wikidata:Q2532697",
+    "type": "copyright"
+  },
   "atelier_series": {
     "ja": "アトリエシリーズ",
     "needs_review": false,
     "src": "manual",
+    "type": "copyright"
+  },
+  "atri_my_dear_moments": {
+    "count": 31,
+    "ja": "ATRI -My Dear Moments-",
+    "needs_review": false,
+    "src": "wikidata:Q97275837",
     "type": "copyright"
   },
   "atsuki_shimizu": {
@@ -689,6 +836,13 @@
     "ja": "アバター 伝説の少年アン",
     "needs_review": false,
     "src": "wikidata:Q11572",
+    "type": "copyright"
+  },
+  "avatar:_the_last_airbender_book_one": {
+    "count": 92,
+    "ja": "アバター 伝説の少年アン 第1期",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
     "type": "copyright"
   },
   "avatar_series": {
@@ -809,6 +963,13 @@
     "src": "wikidata:Q795055",
     "type": "copyright"
   },
+  "b:_the_beginning": {
+    "count": 71,
+    "ja": "B：The Beginning",
+    "needs_review": false,
+    "src": "wikidata:Q47492053",
+    "type": "copyright"
+  },
   "b:_the_beginning_series": {
     "ja": "B: The Beginning シリーズ",
     "needs_review": false,
@@ -846,6 +1007,13 @@
     "src": "wikidata:Q140167204",
     "type": "copyright"
   },
+  "bakuen_campus_guardress": {
+    "count": 73,
+    "ja": "爆炎CAMPUSガ－ドレス",
+    "needs_review": false,
+    "src": "ann:926",
+    "type": "copyright"
+  },
   "bakugan_series": {
     "ja": "爆丸 シリーズ",
     "needs_review": false,
@@ -862,6 +1030,13 @@
     "ja": "爆転シュート ベイブレード2002",
     "needs_review": false,
     "src": "manual",
+    "type": "copyright"
+  },
+  "bakuten_shoot_beyblade_g_revolution": {
+    "count": 40,
+    "ja": "爆転シュート ベイブレード Gレボリューション",
+    "needs_review": false,
+    "src": "ann:2085",
     "type": "copyright"
   },
   "bambi": {
@@ -918,6 +1093,13 @@
     "src": "wikidata:Q20189954",
     "type": "copyright"
   },
+  "bayonetta_bloody_fate": {
+    "count": 44,
+    "ja": "ベヨネッタ ブラッディフェイト",
+    "needs_review": false,
+    "src": "ann:15609",
+    "type": "copyright"
+  },
   "be-bop_highschool": {
     "ja": "ビー・バップ・ハイスクール",
     "needs_review": false,
@@ -936,10 +1118,31 @@
     "src": "wikidata:Q179673",
     "type": "copyright"
   },
+  "beck_mongolian_chop_squad": {
+    "count": 102,
+    "ja": "ベック",
+    "needs_review": false,
+    "src": "ann:4404",
+    "type": "copyright"
+  },
   "beetlejuice:_the_animated_series": {
     "ja": "ビートルジュース シリーズ",
     "needs_review": false,
     "src": "wikidata:Q782351",
+    "type": "copyright"
+  },
+  "belle": {
+    "count": 49,
+    "ja": "竜とそばかすの姫",
+    "needs_review": false,
+    "src": "ann:24058",
+    "type": "copyright"
+  },
+  "bem": {
+    "count": 58,
+    "ja": "BEM",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
     "type": "copyright"
   },
   "ben_10": {
@@ -954,6 +1157,48 @@
     "src": "wikidata:Q162234",
     "type": "copyright"
   },
+  "berserk:_the_golden_age_arc": {
+    "count": 59,
+    "ja": "ベルセルク 黄金時代篇",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
+  "betty_boop": {
+    "count": 58,
+    "ja": "ベティ・ブープ",
+    "needs_review": false,
+    "src": "wikidata:Q137166743",
+    "type": "copyright"
+  },
+  "beyblade_burst_chouzetsu": {
+    "count": 52,
+    "ja": "ベイブレードバースト 超ゼツ",
+    "needs_review": false,
+    "src": "ann:20757",
+    "type": "copyright"
+  },
+  "beyblade_burst_gachi": {
+    "count": 66,
+    "ja": "ベイブレードバースト ガチ",
+    "needs_review": false,
+    "src": "ann:21818",
+    "type": "copyright"
+  },
+  "beyblade_burst_god": {
+    "count": 34,
+    "ja": "ベイブレードバースト神",
+    "needs_review": false,
+    "src": "ann:19030",
+    "type": "copyright"
+  },
+  "beyblade_burst_super_king": {
+    "count": 56,
+    "ja": "ベイブレードバースト スパーキング",
+    "needs_review": false,
+    "src": "ann:23168",
+    "type": "copyright"
+  },
   "beyond": {
     "ja": "ビヨンド",
     "needs_review": false,
@@ -964,6 +1209,13 @@
     "ja": "ドナルドとヤギ",
     "needs_review": false,
     "src": "wikidata:Q2983024",
+    "type": "copyright"
+  },
+  "binan_koukou_chikyuu_bouei_bu_love!_love!": {
+    "count": 42,
+    "ja": "美男高校地球防衛部LOVE！LOVE！",
+    "needs_review": false,
+    "src": "ann:18235",
     "type": "copyright"
   },
   "binan_koukou_chikyuu_bouei_bu_series": {
@@ -978,6 +1230,69 @@
     "src": "wikidata:Q4916994",
     "type": "copyright"
   },
+  "bishoujo_senshi_sailor_moon_cosmos": {
+    "count": 59,
+    "ja": "劇場版 美少女戦士セーラームーンCosmos",
+    "needs_review": false,
+    "src": "ann:25629",
+    "type": "copyright"
+  },
+  "bishoujo_senshi_sailor_moon_crystal": {
+    "count": 191,
+    "ja": "美少女戦士セーラームーンCrystal",
+    "needs_review": false,
+    "src": "ann:15693",
+    "type": "copyright"
+  },
+  "bishoujo_senshi_sailor_moon_crystal_season_iii": {
+    "count": 68,
+    "ja": "美少女戦士セーラームーンCrystal 第3期",
+    "needs_review": false,
+    "src": "ann:17987",
+    "type": "copyright"
+  },
+  "bishoujo_senshi_sailor_moon_r": {
+    "count": 99,
+    "ja": "美少女戦士セーラームーン R",
+    "needs_review": false,
+    "src": "ann:213",
+    "type": "copyright"
+  },
+  "bishoujo_senshi_sailor_moon_r_the_movie": {
+    "count": 33,
+    "ja": "劇場版 美少女戦士セーラームーンR",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
+  "bishoujo_senshi_sailor_moon_s": {
+    "count": 174,
+    "ja": "美少女戦士セーラームーン S",
+    "needs_review": false,
+    "src": "ann:80",
+    "type": "copyright"
+  },
+  "bishoujo_senshi_sailor_moon_sailor_stars": {
+    "count": 79,
+    "ja": "美少女戦士セーラームーン セーラースターズ",
+    "needs_review": false,
+    "src": "ann:795",
+    "type": "copyright"
+  },
+  "bishoujo_senshi_sailor_moon_super_s": {
+    "count": 120,
+    "ja": "美少女戦士セーラームーンSS",
+    "needs_review": false,
+    "src": "ann:280",
+    "type": "copyright"
+  },
+  "bishoujo_senshi_sailor_moon_super_s_the_movie": {
+    "count": 33,
+    "ja": "美少女戦士 セーラームーン SuperS セーラー9戦士集結！ ブラック・ドリーム・ホールの奇跡",
+    "needs_review": false,
+    "src": "ann:813",
+    "type": "copyright"
+  },
   "black_bullet": {
     "ja": "ブラック・ブレット",
     "needs_review": false,
@@ -988,6 +1303,13 @@
     "ja": "BLACK CAT",
     "needs_review": false,
     "src": "wikidata:Q120357178",
+    "type": "copyright"
+  },
+  "black_clover:_mahou_tei_no_ken": {
+    "count": 127,
+    "ja": "ブラッククローバー 魔法帝の剣",
+    "needs_review": false,
+    "src": "ann:25071",
     "type": "copyright"
   },
   "black_dynamite": {
@@ -1020,6 +1342,76 @@
     "src": "wikidata:Q85747664",
     "type": "copyright"
   },
+  "bleach:_thousand_year_blood_war_arc": {
+    "count": 367,
+    "ja": "BLEACH 千年血戦篇",
+    "needs_review": false,
+    "src": "ann:25066",
+    "type": "copyright"
+  },
+  "bleach:_thousand_year_blood_war_arc_season_1": {
+    "count": 54,
+    "ja": "BLEACH 千年血戦篇 第1期",
+    "needs_review": false,
+    "src": "ann:25066",
+    "type": "copyright"
+  },
+  "bleach:_thousand_year_blood_war_arc_season_2": {
+    "count": 61,
+    "ja": "BLEACH 千年血戦篇-訣別譚-",
+    "needs_review": false,
+    "src": "ann:26771",
+    "type": "copyright"
+  },
+  "bleach:_thousand_year_blood_war_arc_season_3": {
+    "count": 107,
+    "ja": "BLEACH千年血戦篇-相剋譚-",
+    "needs_review": false,
+    "src": "ann:30131",
+    "type": "copyright"
+  },
+  "bleach:_thousand_year_blood_war_arc_the_final_season": {
+    "count": 114,
+    "ja": "BLEACH 千年血戦篇-禍進譚-",
+    "needs_review": false,
+    "src": "ann:34242",
+    "type": "copyright"
+  },
+  "bleach_movie_1:_memories_of_nobody": {
+    "count": 30,
+    "ja": "劇場版BLEACH [ブリーチ] MEMORIES OF NOBODY",
+    "needs_review": false,
+    "src": "ann:6600",
+    "type": "copyright"
+  },
+  "bleach_movie_2:_the_diamond_dust_rebellion": {
+    "count": 31,
+    "ja": "BLEACH The DiamondDust Rebellion もう一つの氷輪丸",
+    "needs_review": false,
+    "src": "ann:8369",
+    "type": "copyright"
+  },
+  "bleach_movie_3:_fade_to_black": {
+    "count": 46,
+    "ja": "BLEACH Fade to Black 君の名を呼ぶ",
+    "needs_review": false,
+    "src": "ann:10055",
+    "type": "copyright"
+  },
+  "bleach_movie_4:_hell_verse": {
+    "count": 48,
+    "ja": "BLEACH 地獄篇",
+    "needs_review": false,
+    "src": "ann:11723",
+    "type": "copyright"
+  },
+  "blood-c_the_last_dark": {
+    "count": 71,
+    "ja": "劇場版 BLOOD-C The Last Dark",
+    "needs_review": false,
+    "src": "wikidata:Q28793868",
+    "type": "copyright"
+  },
   "blood:_the_last_vampire": {
     "ja": "BLOOD THE LAST VAMPIRE",
     "needs_review": false,
@@ -1036,6 +1428,13 @@
     "ja": "ブルーアーカイブ",
     "needs_review": false,
     "src": "manual",
+    "type": "copyright"
+  },
+  "blue_archive_cm": {
+    "count": 78,
+    "ja": "ブルーアーカイブ CM",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
     "type": "copyright"
   },
   "blue_dragon": {
@@ -1074,6 +1473,13 @@
     "src": "manual",
     "type": "copyright"
   },
+  "bokusatsu_tenshi_dokuro-chan": {
+    "count": 41,
+    "ja": "撲殺天使ドクロちゃん",
+    "needs_review": false,
+    "src": "ann:5094",
+    "type": "copyright"
+  },
   "bomberman": {
     "ja": "ボンバーマン",
     "needs_review": false,
@@ -1096,6 +1502,13 @@
     "ja": "冒険王ビィト (PV)",
     "needs_review": false,
     "src": "manual",
+    "type": "copyright"
+  },
+  "brand_new_animal": {
+    "count": 129,
+    "ja": "ビー・エヌ・エー",
+    "needs_review": false,
+    "src": "ann:22924",
     "type": "copyright"
   },
   "brave_series": {
@@ -1140,10 +1553,73 @@
     "src": "wikidata:Q109965531",
     "type": "copyright"
   },
+  "bucchigire!": {
+    "count": 31,
+    "ja": "ぶっちぎり?!",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
+  "bullet/bullet": {
+    "count": 52,
+    "ja": "バレット/バレット",
+    "needs_review": false,
+    "src": "ann:34070",
+    "type": "copyright"
+  },
+  "bungou_stray_dogs_dead_apple": {
+    "count": 44,
+    "ja": "文豪ストレイドッグス DEAD APPLE",
+    "needs_review": false,
+    "src": "ann:19773",
+    "type": "copyright"
+  },
+  "burn_the_witch_0.8": {
+    "count": 33,
+    "ja": "BURN THE WITCH ＃0.8",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
+  "c3_cube_x_cursed_x_curious": {
+    "count": 61,
+    "ja": "C3 -シーキューブ-",
+    "needs_review": false,
+    "src": "ann:12992",
+    "type": "copyright"
+  },
   "caligula": {
     "ja": "Caligula -カリギュラ-",
     "needs_review": false,
     "src": "wikidata:Q48964751",
+    "type": "copyright"
+  },
+  "cannon_busters": {
+    "count": 54,
+    "ja": "キャノン・バスターズ",
+    "needs_review": false,
+    "src": "ann:22448",
+    "type": "copyright"
+  },
+  "card_captor_sakura:_clear_card": {
+    "count": 41,
+    "ja": "カードキャプターさくら クリアカード編",
+    "needs_review": false,
+    "src": "ann:19487",
+    "type": "copyright"
+  },
+  "cardfight!!_vanguard_divinez_deluxe_kesshou-hen": {
+    "count": 39,
+    "ja": "カードファイト!! ヴァンガード Divinez デラックス決勝編",
+    "needs_review": false,
+    "src": "ann:36281",
+    "type": "copyright"
+  },
+  "cardfight!!_vanguard_divinez_genma_seisen-hen": {
+    "count": 30,
+    "ja": "カードファイト!! ヴァンガード Divinez 幻真星戦編",
+    "needs_review": false,
+    "src": "ann:37897",
     "type": "copyright"
   },
   "carnage": {
@@ -1178,6 +1654,20 @@
     "src": "atwiki:1939",
     "type": "artist"
   },
+  "chainsaw_man_reze-hen": {
+    "count": 214,
+    "ja": "劇場版チェンソーマン レゼ篇",
+    "needs_review": false,
+    "src": "ann:31068",
+    "type": "copyright"
+  },
+  "charlotte": {
+    "count": 33,
+    "ja": "シャーロット",
+    "needs_review": false,
+    "src": "ann:16649",
+    "type": "copyright"
+  },
   "chiaki_nakajima": {
     "count": 9,
     "ja": "中島千明",
@@ -1190,6 +1680,13 @@
     "ja": "ちびまる子ちゃん",
     "needs_review": false,
     "src": "wikidata:Q106561023",
+    "type": "copyright"
+  },
+  "chibineko_tom_no_daibouken": {
+    "count": 41,
+    "ja": "ちびねこトムの大冒険 地球を救え！なかまたち",
+    "needs_review": false,
+    "src": "ann:21882",
     "type": "copyright"
   },
   "chicken_little": {
@@ -1228,10 +1725,31 @@
     "src": "atwiki:659",
     "type": "artist"
   },
+  "choju_kishin_dancougar": {
+    "count": 66,
+    "ja": "超獣機神ダンクーガ",
+    "needs_review": false,
+    "src": "ann:570",
+    "type": "copyright"
+  },
+  "choujuushin_gravion_zwei": {
+    "count": 90,
+    "ja": "超重神グラヴィオンツヴァイ",
+    "needs_review": false,
+    "src": "ann:2853",
+    "type": "copyright"
+  },
   "chronicle": {
     "ja": "CHRONICLE",
     "needs_review": false,
     "src": "manual:research-2026-10-30",
+    "type": "copyright"
+  },
+  "chuunibyou_demo_koi_ga_shitai!_ren": {
+    "count": 36,
+    "ja": "中二病でも恋がしたい 戀",
+    "needs_review": false,
+    "src": "ann:15622",
     "type": "copyright"
   },
   "cinderella": {
@@ -1258,6 +1776,13 @@
     "src": "wikidata:Q123046301",
     "type": "copyright"
   },
+  "clannad_after_story": {
+    "count": 127,
+    "ja": "クラナド アフターストーリー",
+    "needs_review": false,
+    "src": "ann:9701",
+    "type": "copyright"
+  },
   "clannad_series": {
     "ja": "CLANNAD シリーズ",
     "needs_review": false,
@@ -1276,10 +1801,24 @@
     "src": "wikidata:Q3200538",
     "type": "copyright"
   },
+  "clevatess_ii:_majuu_no_ou_to_itsuwari_no_yuusha_denshou": {
+    "count": 70,
+    "ja": "クレバテスⅡ-魔獣の王と偽りの勇者伝承-",
+    "needs_review": false,
+    "src": "ann:37848",
+    "type": "copyright"
+  },
   "clevatess_series": {
     "ja": "クレバテス-魔獣の王と赤子と屍の勇者-",
     "needs_review": false,
     "src": "wikidata:Q126959847",
+    "type": "copyright"
+  },
+  "clockwork_fighters_hiwou's_war": {
+    "count": 46,
+    "ja": "機巧奇傳 ヒヲウ戦記",
+    "needs_review": false,
+    "src": "ann:183",
     "type": "copyright"
   },
   "clone": {
@@ -1300,6 +1839,41 @@
     "src": "wikidata:Q2981167",
     "type": "copyright"
   },
+  "code_geass_boukoku_no_akito": {
+    "count": 34,
+    "ja": "コードギアス 亡国のアキト",
+    "needs_review": false,
+    "src": "ann:13450",
+    "type": "copyright"
+  },
+  "code_geass_dakkan_no_rozé": {
+    "count": 57,
+    "ja": "コードギアス 奪還のロゼ",
+    "needs_review": false,
+    "src": "ann:32766",
+    "type": "copyright"
+  },
+  "code_geass_fukkatsu_no_lelouch": {
+    "count": 70,
+    "ja": "コードギアス復活のルルーシュ",
+    "needs_review": false,
+    "src": "ann:21251",
+    "type": "copyright"
+  },
+  "code_geass_hangyaku_no_lelouch": {
+    "count": 129,
+    "ja": "コードギアス 反逆のルルーシュ",
+    "needs_review": false,
+    "src": "ann:6704",
+    "type": "copyright"
+  },
+  "code_geass_hangyaku_no_lelouch_r2": {
+    "count": 139,
+    "ja": "コードギアス 反逆のルルーシュ R2",
+    "needs_review": false,
+    "src": "ann:9173",
+    "type": "copyright"
+  },
   "code_of_joker_(video_game)": {
     "ja": "CODE OF JOKER",
     "needs_review": false,
@@ -1318,16 +1892,86 @@
     "src": "manual",
     "type": "copyright"
   },
+  "combattler_v": {
+    "count": 65,
+    "ja": "超電磁ロボ コン・バトラーV",
+    "needs_review": false,
+    "src": "wikidata:Q2603402",
+    "type": "copyright"
+  },
   "conception": {
     "ja": "CONCEPTION",
     "needs_review": false,
     "src": "wikidata:Q66480979",
     "type": "copyright"
   },
+  "concrete_revolutio_choujin_gensou": {
+    "count": 150,
+    "ja": "コンクリート・レボルティオ～超人幻想～",
+    "needs_review": false,
+    "src": "ann:17260",
+    "type": "copyright"
+  },
   "connected": {
     "ja": "ミッチェル家とマシンの反乱",
     "needs_review": false,
     "src": "wikidata:Q54021143",
+    "type": "copyright"
+  },
+  "crayon_shin-chan_shrouded_in_mystery!_the_flowers_of_tenkazu_academy": {
+    "count": 30,
+    "ja": "映画クレヨンしんちゃん 謎メキ！花の天カス学園",
+    "needs_review": false,
+    "src": "ann:23845",
+    "type": "copyright"
+  },
+  "crayon_shinchan:_action_kamen_vs_leotard_devil": {
+    "count": 30,
+    "ja": "クレヨンしんちゃん アクション仮面VSハイグレ魔王",
+    "needs_review": false,
+    "src": "ann:6739",
+    "type": "copyright"
+  },
+  "crayon_shinchan:_adventure_in_henderland": {
+    "count": 32,
+    "ja": "クレヨンしんちゃん ヘンダーランドの大冒険",
+    "needs_review": false,
+    "src": "ann:6744",
+    "type": "copyright"
+  },
+  "crayon_shinchan:_the_secret_treasure_of_buri_buri_kingdom": {
+    "count": 32,
+    "ja": "クレヨンしんちゃん ブリブリ王国の秘宝",
+    "needs_review": false,
+    "src": "ann:6740",
+    "type": "copyright"
+  },
+  "crayon_shinchan:_unkokusai's_ambition": {
+    "count": 35,
+    "ja": "クレヨンしんちゃん 雲黒斎の野望",
+    "needs_review": false,
+    "src": "ann:6743",
+    "type": "copyright"
+  },
+  "crayon_shinchan_mononoke_ninja_chinpūden": {
+    "count": 55,
+    "ja": "映画クレヨンしんちゃん もののけニンジャ珍風伝",
+    "needs_review": false,
+    "src": "ann:25042",
+    "type": "copyright"
+  },
+  "crayon_shinchan_our_dinosaur_diary": {
+    "count": 65,
+    "ja": "映画クレヨンしんちゃん オラたちの恐竜日記",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
+  "crayon_shinchan_super_hot!_the_spicy_kasukabe_dancers": {
+    "count": 52,
+    "ja": "映画クレヨンしんちゃん 超華麗！灼熱のカスカベダンサーズ",
+    "needs_review": false,
+    "src": "ann:34171",
     "type": "copyright"
   },
   "crossroad": {
@@ -1361,16 +2005,51 @@
     "src": "atwiki:2229",
     "type": "artist"
   },
+  "cutey_honey": {
+    "count": 33,
+    "ja": "キューティーハニー",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
+  "cutey_honey_flash": {
+    "count": 64,
+    "ja": "キューティーハニーF（ﾌﾗｯｼｭ）",
+    "needs_review": false,
+    "src": "ann:565",
+    "type": "copyright"
+  },
   "cutey_honey_series": {
     "ja": "キューティーハニー シリーズ",
     "needs_review": false,
     "src": "wikidata:Q1077402",
     "type": "copyright"
   },
+  "cutey_honey_universe": {
+    "count": 35,
+    "ja": "Cutie Honey Universe",
+    "needs_review": false,
+    "src": "wikidata:Q48862544",
+    "type": "copyright"
+  },
+  "cyberpunk:_edgerunners": {
+    "count": 132,
+    "ja": "サイバーパンク エッジランナーズ",
+    "needs_review": false,
+    "src": "ann:25775",
+    "type": "copyright"
+  },
   "cyborg_009_(2001)": {
     "ja": "サイボーグ009 THE CYBORG SOLDIER",
     "needs_review": false,
     "src": "wikidata:Q107102611",
+    "type": "copyright"
+  },
+  "cyborg_009_vs_devilman": {
+    "count": 69,
+    "ja": "サイボーグ009VSデビルマン",
+    "needs_review": false,
+    "src": "ann:17324",
     "type": "copyright"
   },
   "daichi_nakashima": {
@@ -1461,6 +2140,13 @@
     "src": "staffdb:ファイトだ!!ピュー太",
     "type": "artist"
   },
+  "dakara_boku_wa_h_ga_dekinai": {
+    "count": 32,
+    "ja": "だから僕は、Hができない。",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
   "dancougar_series": {
     "ja": "ダンクーガ シリーズ",
     "needs_review": false,
@@ -1473,10 +2159,24 @@
     "src": "wikidata:Q138498505",
     "type": "copyright"
   },
+  "danmachi_gaiden:_sword_oratoria": {
+    "count": 47,
+    "ja": "ソード・オラトリアダンジョンに出会いを求めるのは間違っているだろうか外伝",
+    "needs_review": false,
+    "src": "ann:18922",
+    "type": "copyright"
+  },
   "darker_than_black": {
     "ja": "DARKER THAN BLACK",
     "needs_review": false,
     "src": "wikidata:Q16140382",
+    "type": "copyright"
+  },
+  "dead_dead_demons_dededede_destruction": {
+    "count": 31,
+    "ja": "デッドデッドデーモンズデデデデデストラクション",
+    "needs_review": false,
+    "src": "wikidata:Q22126280",
     "type": "copyright"
   },
   "dead_heat": {
@@ -1485,16 +2185,58 @@
     "src": "wikidata:Q11320637",
     "type": "copyright"
   },
+  "dead_ma'am's_chest": {
+    "count": 32,
+    "ja": "幽霊船戦",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
   "death_note": {
     "ja": "DEATH NOTE",
     "needs_review": false,
     "src": "wikidata:Q718624",
     "type": "copyright"
   },
+  "demashita!_powerpuff_girl_z": {
+    "count": 34,
+    "ja": "出ましたっ！パワパフガールズZ",
+    "needs_review": false,
+    "src": "ann:5371",
+    "type": "copyright"
+  },
+  "densetsu_kyojin_ideon:_hatsudou_hen": {
+    "count": 35,
+    "ja": "伝説巨神イデオン 発動篇",
+    "needs_review": false,
+    "src": "ann:2726",
+    "type": "copyright"
+  },
   "desire": {
     "ja": "DESIRE",
     "needs_review": false,
     "src": "wikidata:Q11195760",
+    "type": "copyright"
+  },
+  "detective_conan_movie_20:_the_darkest_nightmare": {
+    "count": 41,
+    "ja": "名探偵コナン 純黒の悪夢（ナイトメア）",
+    "needs_review": false,
+    "src": "ann:17873",
+    "type": "copyright"
+  },
+  "detective_conan_movie_27:_the_million-dollar_pentagram": {
+    "count": 35,
+    "ja": "名探偵コナン 100万ドルの五稜星（みちしるべ）",
+    "needs_review": false,
+    "src": "ann:30898",
+    "type": "copyright"
+  },
+  "detonator_orgun": {
+    "count": 82,
+    "ja": "Detonator オーガン",
+    "needs_review": false,
+    "src": "ann:15",
     "type": "copyright"
   },
   "devil_may_cry": {
@@ -1515,6 +2257,13 @@
     "src": "manual",
     "type": "copyright"
   },
+  "devilman_crybaby": {
+    "count": 87,
+    "ja": "DEVILMAN crybaby",
+    "needs_review": false,
+    "src": "wikidata:Q47087518",
+    "type": "copyright"
+  },
   "digimon": {
     "ja": "デジモン",
     "needs_review": false,
@@ -1525,6 +2274,34 @@
     "ja": "デジモンアドベンチャー",
     "needs_review": false,
     "src": "wikidata:Q689114",
+    "type": "copyright"
+  },
+  "digimon_adventure_02:_digimon_hurricane_touchdown/transcendent_evolution_the_golden_digimentals": {
+    "count": 36,
+    "ja": "デジモンアドベンチャー / デジモンハリケーン上陸・超絶進化！！ 黄金のデジメンタル",
+    "needs_review": false,
+    "src": "ann:2525",
+    "type": "copyright"
+  },
+  "digimon_adventure_born_of_koromon": {
+    "count": 39,
+    "ja": "デジモンアドベンチャー (映画)",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
+  "digimon_adventure_last_evolution_kizuna": {
+    "count": 31,
+    "ja": "デジモンアドベンチャー LAST EVOLUTION 絆",
+    "needs_review": false,
+    "src": "ann:22613",
+    "type": "copyright"
+  },
+  "digimon_adventure_tri.": {
+    "count": 45,
+    "ja": "デジモンアドベンチャー tri.",
+    "needs_review": false,
+    "src": "ann:16310",
     "type": "copyright"
   },
   "dinosaur_king": {
@@ -1551,6 +2328,13 @@
     "src": "wikidata:Q5102631",
     "type": "copyright"
   },
+  "disk_wars_avengers": {
+    "count": 45,
+    "ja": "ディスク・ウォーズ：アベンジャーズ",
+    "needs_review": false,
+    "src": "ann:15811",
+    "type": "copyright"
+  },
   "do_it_yourself": {
     "ja": "Do It Yourself!! -どぅー・いっと・ゆあせるふ-",
     "needs_review": false,
@@ -1567,6 +2351,13 @@
     "ja": "DOG DAYS",
     "needs_review": false,
     "src": "wikidata:Q482865",
+    "type": "copyright"
+  },
+  "dog_days''": {
+    "count": 65,
+    "ja": "ドッグデイズ''",
+    "needs_review": false,
+    "src": "ann:16193",
     "type": "copyright"
   },
   "dogs": {
@@ -1587,10 +2378,66 @@
     "src": "wikidata:Q134464071",
     "type": "copyright"
   },
+  "dokonjyo_gaeru": {
+    "count": 211,
+    "ja": "ど根性ガエル",
+    "needs_review": false,
+    "src": "ann:1311",
+    "type": "copyright"
+  },
   "dokyuusei_series": {
     "ja": "同級生 シリーズ",
     "needs_review": false,
     "src": "wikidata:Q1059405",
+    "type": "copyright"
+  },
+  "donald_duck": {
+    "count": 145,
+    "ja": "ドナルドダック",
+    "needs_review": false,
+    "src": "wikidata:Q6550",
+    "type": "copyright"
+  },
+  "doraemon:_nobita's_new_great_adventure_into_the_underworld": {
+    "count": 83,
+    "ja": "映画ドラえもん のび太の新魔界大冒険～7人の魔法使い～",
+    "needs_review": false,
+    "src": "ann:7483",
+    "type": "copyright"
+  },
+  "doraemon:_nobitas_dinosaur_(2006)": {
+    "count": 181,
+    "ja": "映画ドラえもん のび太の恐竜2006",
+    "needs_review": false,
+    "src": "wikidata:Q749313",
+    "type": "copyright"
+  },
+  "doraemon_new_nobita_and_the_castle_of_the_undersea_devil": {
+    "count": 46,
+    "ja": "映画ドラえもん 新・のび太の海底鬼岩城",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
+  "doraemon_nobita's_art_world_tales": {
+    "count": 69,
+    "ja": "映画ドラえもん のび太の絵世界物語",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
+  "doraemon_nobita's_chronicle_of_the_moon_exploration": {
+    "count": 60,
+    "ja": "映画ドラえもん のび太の月面探査記",
+    "needs_review": false,
+    "src": "ann:22155",
+    "type": "copyright"
+  },
+  "doraemon_the_new_record_of_nobita_spaceblazer": {
+    "count": 46,
+    "ja": "映画ドラえもん 新・のび太の宇宙開拓史",
+    "needs_review": false,
+    "src": "ann:10173",
     "type": "copyright"
   },
   "dorian_coulon": {
@@ -1606,10 +2453,31 @@
     "src": "wikidata:Q250526",
     "type": "copyright"
   },
+  "download_namiamidabutsu_wa_ai_no_uta": {
+    "count": 64,
+    "ja": "ダウンロード 南無阿弥陀仏は愛の詩",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
+  "dr._stone:_science_future": {
+    "count": 49,
+    "ja": "Dr.STONE SCIENCE FUTURE",
+    "needs_review": false,
+    "src": "wikidata:Q131304519",
+    "type": "copyright"
+  },
   "dr_slump": {
     "ja": "Dr.スランプ",
     "needs_review": false,
     "src": "wikidata:Q18008936",
+    "type": "copyright"
+  },
+  "dragon_age:_absolution": {
+    "count": 45,
+    "ja": "ドラゴンエイジ: 罪のあがない",
+    "needs_review": false,
+    "src": "wikidata:Q115257888",
     "type": "copyright"
   },
   "dragon_ball": {
@@ -1634,6 +2502,48 @@
     "src": "wikidata:Q477916",
     "type": "copyright"
   },
+  "dragon_quest:dai_no_daibouken": {
+    "count": 327,
+    "ja": "ドラゴンクエスト ダイの大冒険",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
+  "dragon_quest:dai_no_daibouken_(1991)": {
+    "count": 61,
+    "ja": "ドラゴンクエスト ダイの大冒険 (1991)",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
+  "dragon_quest:dai_no_daibouken_(2020)": {
+    "count": 266,
+    "ja": "ドラゴンクエスト ダイの大冒険 (2020)",
+    "needs_review": false,
+    "src": "ann:23361",
+    "type": "copyright"
+  },
+  "dream_hunter_rem": {
+    "count": 32,
+    "ja": "ドリームハンター麗夢",
+    "needs_review": false,
+    "src": "ann:2119",
+    "type": "copyright"
+  },
+  "druaga_no_tou": {
+    "count": 56,
+    "ja": "ドルアーガの塔",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
+  "druaga_no_tou_the_aegis_of_uruk": {
+    "count": 40,
+    "ja": "ドルアーガの塔 〜the Aegis of URUK〜",
+    "needs_review": false,
+    "src": "ann:8746",
+    "type": "copyright"
+  },
   "ducktales": {
     "ja": "わんぱくダック夢冒険",
     "needs_review": false,
@@ -1644,6 +2554,13 @@
     "ja": "わんぱくダック夢冒険 (1987)",
     "needs_review": false,
     "src": "wikidata:Q214107",
+    "type": "copyright"
+  },
+  "duel_masters!!": {
+    "count": 41,
+    "ja": "デュエル・マスターズ！！",
+    "needs_review": false,
+    "src": "ann:22321",
     "type": "copyright"
   },
   "duel_masters_(2017)": {
@@ -1670,6 +2587,13 @@
     "src": "wikidata:Q137322938",
     "type": "copyright"
   },
+  "duel_masters_vsr": {
+    "count": 32,
+    "ja": "デュエル・マスターズVSR",
+    "needs_review": false,
+    "src": "ann:16732",
+    "type": "copyright"
+  },
   "duel_masters_win_series": {
     "ja": "デュエル・マスターズWIN シリーズ",
     "needs_review": false,
@@ -1682,10 +2606,52 @@
     "src": "wikidata:Q40895",
     "type": "copyright"
   },
+  "dungeon_ni_deai_o_motomeru_no_wa_machigatte_iru_darouka": {
+    "count": 48,
+    "ja": "ダンジョンに出会いを求めるのは間違っているだろうか",
+    "needs_review": false,
+    "src": "ann:16443",
+    "type": "copyright"
+  },
+  "dungeon_ni_deai_o_motomeru_no_wa_machigatte_iru_darouka_ii": {
+    "count": 30,
+    "ja": "ダンジョンに出会いを求めるのは間違っているだろうか II",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
+  "dungeon_ni_deai_o_motomeru_no_wa_machigatte_iru_darouka_iii": {
+    "count": 59,
+    "ja": "ダンジョンに出会いを求めるのは間違っているだろうか III",
+    "needs_review": false,
+    "src": "ann:22545",
+    "type": "copyright"
+  },
+  "dungeon_ni_deai_o_motomeru_no_wa_machigatte_iru_darouka_iv": {
+    "count": 118,
+    "ja": "ダンジョンに出会いを求めるのは間違っているだろうか IV 新章 迷宮篇",
+    "needs_review": false,
+    "src": "ann:24004",
+    "type": "copyright"
+  },
   "dungeon_ni_deai_o_motomeru_no_wa_machigatte_iru_darouka_series": {
     "ja": "ダンジョンに出会いを求めるのは間違っているだろうか シリーズ",
     "needs_review": false,
     "src": "manual",
+    "type": "copyright"
+  },
+  "dungeon_ni_deai_o_motomeru_no_wa_machigatte_iru_darouka_v": {
+    "count": 79,
+    "ja": "ダンジョンに出会いを求めるのは間違っているだろうか V 豊穣の女神篇",
+    "needs_review": false,
+    "src": "ann:30574",
+    "type": "copyright"
+  },
+  "durarara!!x2_shou": {
+    "count": 31,
+    "ja": "デュラララ!!×2 承",
+    "needs_review": false,
+    "src": "ann:16183",
     "type": "copyright"
   },
   "edo_haruma": {
@@ -1695,6 +2661,13 @@
     "needs_review": false,
     "src": "staffdb:バディ・コンプレックス|DOG DAYS|DOG DAYS",
     "type": "artist"
+  },
+  "ef:_a_tale": {
+    "count": 36,
+    "ja": "ef シリーズ",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
   },
   "ehrgeiz": {
     "ja": "ネクスト戦記EHRGEIZ",
@@ -1772,6 +2745,13 @@
     "needs_review": false,
     "src": "staffdb:2.43 清陰高校男子バレー部|アンデッドアンラック",
     "type": "artist"
+  },
+  "eiyuu_densetsu_sora_no_kiseki_the_animation": {
+    "count": 43,
+    "ja": "英雄伝説 空の軌跡 THE ANIMATION",
+    "needs_review": false,
+    "src": "ann:12990",
+    "type": "copyright"
   },
   "eldoran_series": {
     "ja": "エルドランシリーズ",
@@ -1885,6 +2865,13 @@
     "src": "atwiki:583",
     "type": "artist"
   },
+  "eromanga_sensei:_ova": {
+    "count": 32,
+    "ja": "エロマンガ先生 (OVA)",
+    "needs_review": false,
+    "src": "ann:23239",
+    "type": "copyright"
+  },
   "escaflowne_(movie)": {
     "ja": "エスカフローネ",
     "needs_review": false,
@@ -1907,10 +2894,66 @@
     "src": "atwiki:733",
     "type": "artist"
   },
+  "eureka_seven:_pocket_ga_niji_de_ippai": {
+    "count": 31,
+    "ja": "交響詩篇エウレカセブン ポケットが虹でいっぱい",
+    "needs_review": false,
+    "src": "ann:9750",
+    "type": "copyright"
+  },
+  "eureka_seven_-_hi-evolution": {
+    "count": 115,
+    "ja": "交響詩篇エウレカセブン ハイエボリューション",
+    "needs_review": false,
+    "src": "ann:19907",
+    "type": "copyright"
+  },
+  "eureka_seven_-_hi-evolution_3": {
+    "count": 64,
+    "ja": "EUREKA/交響詩篇エウレカセブン ハイエボリューション",
+    "needs_review": false,
+    "src": "wikidata:Q135013057",
+    "type": "copyright"
+  },
   "eureka_seven_series": {
     "ja": "エウレカセブン シリーズ",
     "needs_review": false,
     "src": "wikidata:Q11289673",
+    "type": "copyright"
+  },
+  "evangelion_1.0:_you_are_(not)_alone": {
+    "count": 90,
+    "ja": "ヱヴァンゲリヲン新劇場版：序",
+    "needs_review": false,
+    "src": "ann:8420",
+    "type": "copyright"
+  },
+  "evangelion_2.0:_you_can_(not)_advance": {
+    "count": 123,
+    "ja": "ヱヴァンゲリヲン新劇場版：破",
+    "needs_review": false,
+    "src": "ann:8421",
+    "type": "copyright"
+  },
+  "evangelion_3.0+1.01:_thrice_upon_a_time": {
+    "count": 145,
+    "ja": "シン・エヴァンゲリオン劇場版:||",
+    "needs_review": false,
+    "src": "ann:8423",
+    "type": "copyright"
+  },
+  "evangelion_3.0:_you_can_(not)_redo": {
+    "count": 116,
+    "ja": "ヱヴァンゲリヲン新劇場版:Q Quickening",
+    "needs_review": false,
+    "src": "ann:8422",
+    "type": "copyright"
+  },
+  "eve_music_videos": {
+    "count": 414,
+    "ja": "Eve MV",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
     "type": "copyright"
   },
   "excel_saga": {
@@ -1937,6 +2980,13 @@
     "src": "wikidata:Q124817637",
     "type": "copyright"
   },
+  "fairy_tail_the_movie_houou_no_miko": {
+    "count": 66,
+    "ja": "FAIRY TAIL 鳳凰の巫女",
+    "needs_review": false,
+    "src": "ann:13785",
+    "type": "copyright"
+  },
   "fantasia": {
     "ja": "ファンタジア",
     "needs_review": false,
@@ -1955,16 +3005,86 @@
     "src": "wikidata:Q126743833",
     "type": "copyright"
   },
+  "fastening_days": {
+    "count": 56,
+    "ja": "FASTENING DAYS",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
+  "fate/grand_order:_shuukyoku_tokuiten_kani_jikan_shinden_solomon": {
+    "count": 34,
+    "ja": "Fate/Grand Order -終局特異点 冠位時間神殿ソロモン-",
+    "needs_review": false,
+    "src": "ann:24375",
+    "type": "copyright"
+  },
   "fate/grand_order_(game)": {
     "ja": "Fate/Grand Order (ゲーム)",
     "needs_review": false,
     "src": "wikidata:Q18339082",
     "type": "copyright"
   },
+  "fate/grand_order_camelot_paladin_agateram": {
+    "count": 63,
+    "ja": "劇場版 Fate/Grand Order -神聖円卓領域キャメロット- 後編 Paladin; Agateram",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
+  "fate/grand_order_cm": {
+    "count": 282,
+    "ja": "Fate/Grand Order CM",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
+  "fate/kaleid_liner_prisma☆illya_2wei": {
+    "count": 78,
+    "ja": "Fate/kaleid liner プリズマ☆イリヤ 2wei!",
+    "needs_review": false,
+    "src": "ann:15630",
+    "type": "copyright"
+  },
+  "fate/kaleid_liner_prisma☆illya_2wei_herz": {
+    "count": 31,
+    "ja": "Fate/kaleid liner プリズマ☆イリヤ 2wei Herz!",
+    "needs_review": false,
+    "src": "ann:16275",
+    "type": "copyright"
+  },
+  "fate/kaleid_liner_prisma☆illya_movie:_sekka_no_chikai": {
+    "count": 33,
+    "ja": "劇場版 Fate/kaleid liner プリズマ☆イリヤ 雪下の誓い",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
+  "fate/stay_night:_heaven's_feel": {
+    "count": 171,
+    "ja": "Fate/stay night: Heaven's Feel",
+    "needs_review": false,
+    "src": "wikidata:Q56323409",
+    "type": "copyright"
+  },
   "fate/stay_night_unlimited_blade_works_(2014)": {
     "ja": "Fate/stay night [Unlimited Blade Works]",
     "needs_review": false,
     "src": "manual",
+    "type": "copyright"
+  },
+  "fate/strange_fake:_whispers_of_dawn": {
+    "count": 51,
+    "ja": "Fate/strange Fake -Whispers of Dawn-",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
+  "fight!!_iczer_1": {
+    "count": 33,
+    "ja": "戦え!!イクサー1",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
     "type": "copyright"
   },
   "final_fantasy": {
@@ -1985,10 +3105,31 @@
     "src": "wikidata:Q1768977",
     "type": "copyright"
   },
+  "fireworks_should_we_see_it_from_the_side_or_the_bottom?": {
+    "count": 47,
+    "ja": "打ち上げ花火、下から見るか？横から見るか？",
+    "needs_review": false,
+    "src": "ann:19481",
+    "type": "copyright"
+  },
   "flee": {
     "ja": "FLEE フリー",
     "needs_review": false,
     "src": "wikidata:Q76450209",
+    "type": "copyright"
+  },
+  "free!_dive_to_the_future": {
+    "count": 73,
+    "ja": "Free!-Dive to the Future-",
+    "needs_review": false,
+    "src": "wikidata:Q124636673",
+    "type": "copyright"
+  },
+  "free!_the_final_stroke_part_2": {
+    "count": 34,
+    "ja": "劇場版 Free!-the Final Stroke- 後編",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
     "type": "copyright"
   },
   "fujio_suzuki": {
@@ -1999,10 +3140,38 @@
     "src": "atwiki:571",
     "type": "artist"
   },
+  "full_metal_panic_invisible_victory": {
+    "count": 37,
+    "ja": "フルメタル・パニック！Invisible Victory",
+    "needs_review": false,
+    "src": "ann:18796",
+    "type": "copyright"
+  },
+  "full_metal_panic_the_second_raid": {
+    "count": 87,
+    "ja": "フルメタル パニック！The Second Raid",
+    "needs_review": false,
+    "src": "ann:4449",
+    "type": "copyright"
+  },
   "fullmetal_alchemist_2:_curse_of_the_crimson_elixir_(video_game)": {
     "ja": "鋼の錬金術師2 赤きエリクシルの悪魔",
     "needs_review": false,
     "src": "wikidata:Q2633480",
+    "type": "copyright"
+  },
+  "fullmetal_alchemist_conqueror_of_shamballa": {
+    "count": 131,
+    "ja": "劇場版 鋼の錬金術師 シャンバラを征く者",
+    "needs_review": false,
+    "src": "ann:4176",
+    "type": "copyright"
+  },
+  "fullmetal_alchemist_the_sacred_star_of_milos": {
+    "count": 104,
+    "ja": "鋼の錬金術師 嘆きの丘（ミロス）の聖なる星",
+    "needs_review": false,
+    "src": "ann:12180",
     "type": "copyright"
   },
   "fumiaki_kouta": {
@@ -2052,6 +3221,20 @@
     "src": "atwiki:1829",
     "type": "artist"
   },
+  "fuse_memoirs_of_a_huntress": {
+    "count": 42,
+    "ja": "伏 鉄砲娘の捕物帳",
+    "needs_review": false,
+    "src": "ann:14165",
+    "type": "copyright"
+  },
+  "futari_wa_precure_splash_star": {
+    "count": 99,
+    "ja": "ふたりはプリキュア Splash☆Star （スプラッシュスター）",
+    "needs_review": false,
+    "src": "ann:6221",
+    "type": "copyright"
+  },
   "futoshi_higashide": {
     "ja": "東出太",
     "kana": "ひがしで ふとし",
@@ -2075,6 +3258,55 @@
     "src": "atwiki:1508",
     "type": "artist"
   },
+  "futsutsuka_na_akujo_dewa_gozaimasu_ga_suuguu_chouso_torikae_den": {
+    "count": 32,
+    "ja": "ふつつかな悪女ではございますが ～雛宮蝶鼠とりかえ伝～",
+    "needs_review": false,
+    "src": "wikidata:Q133300331",
+    "type": "copyright"
+  },
+  "future_gpx_cyber_formula_double_one": {
+    "count": 45,
+    "ja": "新世紀GPXサイバーフォーミュラ11",
+    "needs_review": false,
+    "src": "ann:4229",
+    "type": "copyright"
+  },
+  "future_gpx_cyber_formula_saga": {
+    "count": 39,
+    "ja": "新世紀GPXサイバーフォーミュラ2 [第3章]",
+    "needs_review": false,
+    "src": "ann:4231",
+    "type": "copyright"
+  },
+  "future_gpx_cyber_formula_sin": {
+    "count": 36,
+    "ja": "新世紀GPXサイバーフォーミュラ2 [第4章]",
+    "needs_review": false,
+    "src": "ann:4232",
+    "type": "copyright"
+  },
+  "future_gpx_cyber_formula_zero": {
+    "count": 41,
+    "ja": "新世紀GPXサイバーフォーミュラZERO",
+    "needs_review": false,
+    "src": "ann:4230",
+    "type": "copyright"
+  },
+  "fuuto_pi:_kamen_rider_skull_no_shouzou": {
+    "count": 45,
+    "ja": "風都探偵 仮面ライダースカルの肖像",
+    "needs_review": false,
+    "src": "ann:32855",
+    "type": "copyright"
+  },
+  "g_dangaioh": {
+    "count": 47,
+    "ja": "破邪巨星Gダンガイオー",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
   "gagame": {
     "count": 8,
     "ja": "ががめ",
@@ -2095,16 +3327,44 @@
     "src": "manual",
     "type": "copyright"
   },
+  "ganso_bakuretsu_hunter": {
+    "count": 47,
+    "ja": "元祖 爆れつハンター",
+    "needs_review": false,
+    "src": "wikidata:Q123039356",
+    "type": "copyright"
+  },
   "gargoyles": {
     "ja": "ガーゴイルズ",
     "needs_review": false,
     "src": "wikidata:Q937172",
     "type": "copyright"
   },
+  "garo_-_vanishing_line": {
+    "count": 106,
+    "ja": "牙狼〈GARO〉-VANISHING LINE-",
+    "needs_review": false,
+    "src": "ann:20043",
+    "type": "copyright"
+  },
+  "garo_hono_no_kokuin": {
+    "count": 54,
+    "ja": "牙狼〈GARO〉-炎の刻印-",
+    "needs_review": false,
+    "src": "ann:16129",
+    "type": "copyright"
+  },
   "garo_series": {
     "ja": "牙狼〈GARO〉シリーズ",
     "needs_review": false,
     "src": "manual",
+    "type": "copyright"
+  },
+  "garouden_the_way_of_the_lone_wolf": {
+    "count": 81,
+    "ja": "餓狼伝: The Way of the Lone Wolf",
+    "needs_review": false,
+    "src": "ann:32688",
     "type": "copyright"
   },
   "gary_goldman": {
@@ -2125,6 +3385,20 @@
     "src": "wikidata:Q125699331",
     "type": "copyright"
   },
+  "gauche:_the_cellist": {
+    "count": 30,
+    "ja": "セロ弾きのゴーシュ",
+    "needs_review": false,
+    "src": "ann:898",
+    "type": "copyright"
+  },
+  "gekifu_bakegyamon_ayakashi": {
+    "count": 41,
+    "ja": "妖逆門",
+    "needs_review": false,
+    "src": "ann:6665",
+    "type": "copyright"
+  },
   "gen_asano": {
     "count": 45,
     "ja": "浅野元",
@@ -2141,10 +3415,52 @@
     "src": "atwiki:1419",
     "type": "artist"
   },
+  "genmu_senki_leda": {
+    "count": 41,
+    "ja": "幻夢戦記レダ",
+    "needs_review": false,
+    "src": "ann:2133",
+    "type": "copyright"
+  },
+  "gensou_mangekyou_~the_memories_of_phantasm~": {
+    "count": 69,
+    "ja": "幻想万華鏡",
+    "needs_review": false,
+    "src": "wikidata:Q11061582",
+    "type": "copyright"
+  },
+  "getter_robo_armageddon": {
+    "count": 89,
+    "ja": "真ゲッターロボ「世界最後の日」",
+    "needs_review": false,
+    "src": "ann:20",
+    "type": "copyright"
+  },
   "ghost_in_the_shell": {
     "ja": "GHOST IN THE SHELL / 攻殻機動隊",
     "needs_review": false,
     "src": "wikidata:Q1066948",
+    "type": "copyright"
+  },
+  "ghost_in_the_shell_arise": {
+    "count": 86,
+    "ja": "攻殻機動隊ARISE",
+    "needs_review": false,
+    "src": "ann:15096",
+    "type": "copyright"
+  },
+  "ghost_in_the_shell_innocence": {
+    "count": 69,
+    "ja": "イノセンス",
+    "needs_review": false,
+    "src": "ann:2081",
+    "type": "copyright"
+  },
+  "ghost_in_the_shell_stand_alone_complex_2nd_gig": {
+    "count": 133,
+    "ja": "攻殻機動隊 S.A.C. 2nd GIG",
+    "needs_review": false,
+    "src": "ann:8495",
     "type": "copyright"
   },
   "ghost_slayers_ayashi_(ova)": {
@@ -2177,10 +3493,80 @@
     "src": "wikidata:Q1073326",
     "type": "copyright"
   },
+  "giniro_no_kami_no_agito": {
+    "count": 34,
+    "ja": "銀色の髪のアギト",
+    "needs_review": false,
+    "src": "wikidata:Q1303713",
+    "type": "copyright"
+  },
+  "gintama.": {
+    "count": 37,
+    "ja": "銀魂.",
+    "needs_review": false,
+    "src": "ann:18901",
+    "type": "copyright"
+  },
+  "gintama.:_shirogane_no_tamashii-hen": {
+    "count": 66,
+    "ja": "銀魂.銀ノ魂篇",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
+  "gintama_kanketsu_hen:_yorozuya_yo_eien_nare": {
+    "count": 38,
+    "ja": "劇場版 銀魂 完結篇 万事屋よ永遠なれ",
+    "needs_review": false,
+    "src": "ann:14996",
+    "type": "copyright"
+  },
+  "gintama_movie:_yoshiwara_in_flames": {
+    "count": 53,
+    "ja": "新劇場版 銀魂 -吉原大炎上-",
+    "needs_review": false,
+    "src": "ann:37501",
+    "type": "copyright"
+  },
+  "gintama_movie_1:_shinyaku_benizakura-hen": {
+    "count": 31,
+    "ja": "劇場版 銀魂 新訳紅桜篇",
+    "needs_review": false,
+    "src": "ann:11152",
+    "type": "copyright"
+  },
+  "gintama°": {
+    "count": 124,
+    "ja": "銀魂°",
+    "needs_review": false,
+    "src": "ann:16644",
+    "type": "copyright"
+  },
   "girl": {
     "ja": "GIRL",
     "needs_review": false,
     "src": "manual:research-2026-10-30",
+    "type": "copyright"
+  },
+  "girl's_frontline": {
+    "count": 58,
+    "ja": "ドールズフロントライン",
+    "needs_review": false,
+    "src": "ann:23960",
+    "type": "copyright"
+  },
+  "girl's_frontline_project_neural_cloud": {
+    "count": 32,
+    "ja": "ドールズフロントライン：ニューラルクラウド",
+    "needs_review": false,
+    "src": "wikidata:Q108822738",
+    "type": "copyright"
+  },
+  "girls_und_panzer_das_finale": {
+    "count": 91,
+    "ja": "ガールズ＆パンツァー 最終章",
+    "needs_review": false,
+    "src": "ann:24670",
     "type": "copyright"
   },
   "gnosia": {
@@ -2221,6 +3607,20 @@
     "src": "wikidata:Q135684110",
     "type": "copyright"
   },
+  "golgo_13_the_professional": {
+    "count": 53,
+    "ja": "ゴルゴ13",
+    "needs_review": false,
+    "src": "ann:640",
+    "type": "copyright"
+  },
+  "goofy": {
+    "count": 149,
+    "ja": "グーフィー",
+    "needs_review": false,
+    "src": "wikidata:Q111135",
+    "type": "copyright"
+  },
   "goro_umeshiba": {
     "count": 7,
     "ja": "梅芝五郎",
@@ -2236,6 +3636,13 @@
     "needs_review": false,
     "src": "atwiki:1178",
     "type": "artist"
+  },
+  "gosenzosama_banbanzai": {
+    "count": 80,
+    "ja": "御先祖様万々歳！",
+    "needs_review": false,
+    "src": "ann:5344",
+    "type": "copyright"
   },
   "gotcha!": {
     "ja": "GOTCHA!",
@@ -2261,6 +3668,13 @@
     "ja": "GREED",
     "needs_review": false,
     "src": "wikidata:Q11201860",
+    "type": "copyright"
+  },
+  "green_legend_ran": {
+    "count": 36,
+    "ja": "グリーンレジェンド乱",
+    "needs_review": false,
+    "src": "ann:672",
     "type": "copyright"
   },
   "grisaia_series": {
@@ -2293,12 +3707,40 @@
     "src": "wikidata:Q906186",
     "type": "copyright"
   },
+  "gun_x_sword": {
+    "count": 69,
+    "ja": "ガン×ソード",
+    "needs_review": false,
+    "src": "wikidata:Q2290791",
+    "type": "copyright"
+  },
   "gundam": {
     "count": 0,
     "ja": "ガンダム",
     "kana": "がんだむ",
     "needs_review": false,
     "src": "manual",
+    "type": "copyright"
+  },
+  "gundam_breaker_battlogue": {
+    "count": 35,
+    "ja": "ガンダムブレイカー バトローグ",
+    "needs_review": false,
+    "src": "ann:24456",
+    "type": "copyright"
+  },
+  "gundam_build_fighters_battlogue": {
+    "count": 54,
+    "ja": "ガンダムビルドファイターズ バトローグ",
+    "needs_review": false,
+    "src": "ann:19916",
+    "type": "copyright"
+  },
+  "gundam_build_metaverse": {
+    "count": 41,
+    "ja": "ガンダムビルドメタバース",
+    "needs_review": false,
+    "src": "ann:27687",
     "type": "copyright"
   },
   "gundam_build_series": {
@@ -2315,6 +3757,20 @@
     "src": "atwiki:1758",
     "type": "artist"
   },
+  "gurren_lagann_parallel_works": {
+    "count": 60,
+    "ja": "グレンラガン パラレルワークス",
+    "needs_review": false,
+    "src": "ann:15323",
+    "type": "copyright"
+  },
+  "gurren_lagann_parallel_works_2": {
+    "count": 38,
+    "ja": "グレンラガン パラレルワークス2",
+    "needs_review": false,
+    "src": "ann:15324",
+    "type": "copyright"
+  },
   "guskou_budori_no_denki_(1994)": {
     "ja": "グスコーブドリの伝記",
     "needs_review": false,
@@ -2327,16 +3783,44 @@
     "src": "wikidata:Q2632121",
     "type": "copyright"
   },
+  "gyokou_no_nikuko-chan": {
+    "count": 61,
+    "ja": "漁港の肉子ちゃん",
+    "needs_review": false,
+    "src": "ann:23992",
+    "type": "copyright"
+  },
   "hades_(video_game)_series": {
     "ja": "HADES シリーズ",
     "needs_review": false,
     "src": "wikidata:Q123017175",
     "type": "copyright"
   },
+  "haha_wo_tazunete_sanzenri": {
+    "count": 149,
+    "ja": "母をたずねて三千里",
+    "needs_review": false,
+    "src": "wikidata:Q700044",
+    "type": "copyright"
+  },
   "haifuri": {
     "ja": "ハイスクール・フリート",
     "needs_review": false,
     "src": "wikidata:Q21682689",
+    "type": "copyright"
+  },
+  "haikyuu!!:_gomi_suteba_no_kessen": {
+    "count": 60,
+    "ja": "劇場版ハイキュー!! ゴミ捨て場の決戦",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
+  "haiyore_nyaruko-san": {
+    "count": 43,
+    "ja": "這いよれ！ニャル子さん",
+    "needs_review": false,
+    "src": "ann:13719",
     "type": "copyright"
   },
   "hajime_mitsuda": {
@@ -2363,6 +3847,27 @@
     "src": "atwiki:2247",
     "type": "artist"
   },
+  "hajime_ningen_gyatorz": {
+    "count": 72,
+    "ja": "はじめ人間 ギャートルズ",
+    "needs_review": false,
+    "src": "ann:1861",
+    "type": "copyright"
+  },
+  "hajime_no_ippo:_the_fighting!": {
+    "count": 139,
+    "ja": "はじめの一歩 THE FIGHTING!",
+    "needs_review": false,
+    "src": "ann:1139",
+    "type": "copyright"
+  },
+  "hakugei_the_legend_of_moby_dick": {
+    "count": 38,
+    "ja": "白鯨伝説",
+    "needs_review": false,
+    "src": "ann:1655",
+    "type": "copyright"
+  },
   "hakuoki": {
     "ja": "薄桜鬼",
     "needs_review": false,
@@ -2376,6 +3881,13 @@
     "needs_review": false,
     "src": "atwiki:1878",
     "type": "artist"
+  },
+  "hal": {
+    "count": 33,
+    "ja": "ハル",
+    "needs_review": false,
+    "src": "ann:14970",
+    "type": "copyright"
   },
   "hal_ambro": {
     "ja": "ハル・アンブロ",
@@ -2524,10 +4036,31 @@
     "src": "atwiki:2064",
     "type": "artist"
   },
+  "heartcatch_precure!_hana_no_to_de_fashion_show...desu_ka!?": {
+    "count": 48,
+    "ja": "ハートキャッチプリキュア！花の都でファッションショー・・・ですか！？",
+    "needs_review": false,
+    "src": "ann:11363",
+    "type": "copyright"
+  },
   "heavy_metal_l-gaim_(tv)": {
     "ja": "重戦機エルガイム (TV)",
     "needs_review": false,
     "src": "wikidata:Q945754",
+    "type": "copyright"
+  },
+  "heike_monogatari": {
+    "count": 83,
+    "ja": "平家物語",
+    "needs_review": false,
+    "src": "ann:24700",
+    "type": "copyright"
+  },
+  "helluva_boss": {
+    "count": 80,
+    "ja": "ヘルヴァ・ボス",
+    "needs_review": false,
+    "src": "wikidata:Q76759345",
     "type": "copyright"
   },
   "hen_semi_(ova)": {
@@ -2548,10 +4081,24 @@
     "src": "wikidata:Q116439515",
     "type": "copyright"
   },
+  "hi_no_tori:_eden_no_sora": {
+    "count": 60,
+    "ja": "火の鳥 エデンの宙",
+    "needs_review": false,
+    "src": "ann:26668",
+    "type": "copyright"
+  },
   "hi_no_tori_series": {
     "ja": "火の鳥",
     "needs_review": false,
     "src": "wikidata:Q1321785",
+    "type": "copyright"
+  },
+  "hidamari_sketch_x365": {
+    "count": 61,
+    "ja": "ひだまりスケッチ×365",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
     "type": "copyright"
   },
   "hideaki_abe": {
@@ -2666,6 +4213,27 @@
     "src": "staffdb:薄暮|キルラキル",
     "type": "artist"
   },
+  "high_speed!": {
+    "count": 118,
+    "ja": "ハイ☆スピード！-Free! Starting Days-",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
+  "highschool_dxd": {
+    "count": 35,
+    "ja": "ハイスクールD×D",
+    "needs_review": false,
+    "src": "wikidata:Q1617849",
+    "type": "copyright"
+  },
+  "highschool_dxd_new": {
+    "count": 59,
+    "ja": "ハイスクールD×D NEW",
+    "needs_review": false,
+    "src": "ann:15204",
+    "type": "copyright"
+  },
   "highschool_dxd_series": {
     "ja": "ハイスクールD×D シリーズ",
     "needs_review": false,
@@ -2678,6 +4246,13 @@
     "src": "wikidata:Q98795185",
     "type": "copyright"
   },
+  "higurashi_no_naku_koro_ni_kira": {
+    "count": 41,
+    "ja": "ひぐらしのなく頃に煌",
+    "needs_review": false,
+    "src": "ann:12825",
+    "type": "copyright"
+  },
   "hikaru_miyazaki": {
     "count": 37,
     "ja": "宮崎輝",
@@ -2686,10 +4261,31 @@
     "src": "staffdb:ブレンド・S|アオのハコ|キラッとプリ☆チャン",
     "type": "artist"
   },
+  "hikyou_tanken_fam_&_ihrlie": {
+    "count": 60,
+    "ja": "秘境探検ファム&イーリー",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
+  "hime-sama_goumon_no_jikan_desu": {
+    "count": 138,
+    "ja": "姫様“拷問”の時間です",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
   "himitsu_no_akko-chan_series": {
     "ja": "ひみつのアッコちゃん",
     "needs_review": false,
     "src": "wikidata:Q123334196",
+    "type": "copyright"
+  },
+  "himouto_umaruchan": {
+    "count": 33,
+    "ja": "干物妹！うまるちゃん",
+    "needs_review": false,
+    "src": "ann:16845",
     "type": "copyright"
   },
   "hiroaki_arai": {
@@ -3080,6 +4676,13 @@
     "src": "atwiki:1015",
     "type": "artist"
   },
+  "hirune_hime": {
+    "count": 113,
+    "ja": "ひるね姫 〜知らないワタシの物語〜",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
   "his_and_her_circumstances": {
     "ja": "彼氏彼女の事情",
     "needs_review": false,
@@ -3116,6 +4719,13 @@
     "needs_review": false,
     "src": "staffdb:アルドノア・ゼロ|フリップフラッパーズ|それが声優!",
     "type": "artist"
+  },
+  "hisone_to_masotan": {
+    "count": 86,
+    "ja": "ひそねとまそたん",
+    "needs_review": false,
+    "src": "ann:20625",
+    "type": "copyright"
   },
   "hitomi_kariya": {
     "count": 51,
@@ -3171,6 +4781,13 @@
     "src": "atwiki:323",
     "type": "artist"
   },
+  "hololive": {
+    "count": 640,
+    "ja": "ホロライブプロダクション",
+    "needs_review": false,
+    "src": "wikidata:Q69583635",
+    "type": "copyright"
+  },
   "honoka_yokoyama": {
     "count": 18,
     "ja": "横山穂乃花",
@@ -3178,6 +4795,13 @@
     "needs_review": false,
     "src": "staffdb:彼女、お借りします|【推しの子】|ヴィジュアルプリズン",
     "type": "artist"
+  },
+  "honoo_no_labyrinth": {
+    "count": 32,
+    "ja": "炎のらびりんす",
+    "needs_review": false,
+    "src": "ann:379",
+    "type": "copyright"
   },
   "horimiya": {
     "ja": "ホリミヤ",
@@ -3195,6 +4819,13 @@
     "ja": "ホリミヤ シリーズ",
     "needs_review": false,
     "src": "manual",
+    "type": "copyright"
+  },
+  "horus_prince_of_the_sun": {
+    "count": 101,
+    "ja": "太陽の王子 ホルスの大冒険",
+    "needs_review": false,
+    "src": "ann:894",
     "type": "copyright"
   },
   "howl_(mv)": {
@@ -3215,6 +4846,13 @@
     "src": "wikidata:Q108086016",
     "type": "copyright"
   },
+  "ichiban_ushiro_no_daimao": {
+    "count": 76,
+    "ja": "いちばんうしろの大魔王",
+    "needs_review": false,
+    "src": "ann:11179",
+    "type": "copyright"
+  },
   "ichiro_uno": {
     "count": 34,
     "ja": "夘野一郎",
@@ -3223,16 +4861,37 @@
     "src": "atwiki:1958",
     "type": "artist"
   },
+  "iczer_reborn": {
+    "count": 54,
+    "ja": "冒険！イクサー3",
+    "needs_review": false,
+    "src": "ann:682",
+    "type": "copyright"
+  },
   "iczer_series": {
     "ja": "イクサーシリーズ",
     "needs_review": false,
     "src": "manual",
     "type": "copyright"
   },
+  "id_invaded": {
+    "count": 51,
+    "ja": "イド：インヴェイデッド",
+    "needs_review": false,
+    "src": "ann:22509",
+    "type": "copyright"
+  },
   "idol_(mv)": {
     "ja": "アイドル",
     "needs_review": false,
     "src": "wikidata:Q117462019",
+    "type": "copyright"
+  },
+  "idol_bouei-tai_hummingbird": {
+    "count": 32,
+    "ja": "アイドル防衛隊ハミングバード",
+    "needs_review": false,
+    "src": "ann:2042",
     "type": "copyright"
   },
   "idoly_pride": {
@@ -3245,6 +4904,20 @@
     "ja": "侵略!イカ娘 シリーズ",
     "needs_review": false,
     "src": "manual",
+    "type": "copyright"
+  },
+  "ikki_tousen:_dragon_destiny": {
+    "count": 55,
+    "ja": "一騎当千 Dragon Destiny",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
+  "ikki_tousen_great_guardians": {
+    "count": 34,
+    "ja": "一騎当千 Great Guardians",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
     "type": "copyright"
   },
   "ikkyu-san": {
@@ -3295,6 +4968,13 @@
     "src": "wikidata:Q1059633",
     "type": "copyright"
   },
+  "inazuma_eleven_go_chrono_stone": {
+    "count": 66,
+    "ja": "イナズマイレブンGO 2 クロノ・ストーン",
+    "needs_review": false,
+    "src": "ann:14151",
+    "type": "copyright"
+  },
   "indivisible": {
     "ja": "インディヴィジブル 闇を祓う魂たち",
     "needs_review": false,
@@ -3337,6 +5017,20 @@
     "src": "wikidata:Q21587460",
     "type": "copyright"
   },
+  "inuyasha_fire_on_the_mystic_island": {
+    "count": 36,
+    "ja": "犬夜叉 紅蓮の蓬莱島",
+    "needs_review": false,
+    "src": "ann:4228",
+    "type": "copyright"
+  },
+  "inuyasha_swords_of_an_honorable_ruler": {
+    "count": 30,
+    "ja": "犬夜叉 天下覇道の剣",
+    "needs_review": false,
+    "src": "ann:2981",
+    "type": "copyright"
+  },
   "invincible": {
     "ja": "インビンシブル ～無敵のヒーロー～",
     "needs_review": false,
@@ -3357,10 +5051,24 @@
     "src": "atwiki:2270",
     "type": "artist"
   },
+  "ippatsu_hicchuu!!_devander": {
+    "count": 30,
+    "ja": "一発必中！！ デバンダー",
+    "needs_review": false,
+    "src": "ann:14171",
+    "type": "copyright"
+  },
   "iron_man": {
     "ja": "アイアンマン",
     "needs_review": false,
     "src": "wikidata:Q3802095",
+    "type": "copyright"
+  },
+  "irresponsible_captain_tylor": {
+    "count": 56,
+    "ja": "無責任艦長タイラー",
+    "needs_review": false,
+    "src": "ann:160",
     "type": "copyright"
   },
   "isao_hayashi": {
@@ -3369,6 +5077,13 @@
     "needs_review": false,
     "src": "manual:research-2026-10-30",
     "type": "artist"
+  },
+  "isekai_no_seikishi_monogatari": {
+    "count": 59,
+    "ja": "異世界の聖機師物語",
+    "needs_review": false,
+    "src": "ann:10393",
+    "type": "copyright"
   },
   "isekai_nonbiri_nouka_series": {
     "ja": "異世界のんびり農家 シリーズ",
@@ -3454,6 +5169,20 @@
     "src": "atwiki:1636",
     "type": "artist"
   },
+  "jack_to_mame_no_ki": {
+    "count": 46,
+    "ja": "ジャックと豆の木",
+    "needs_review": false,
+    "src": "ann:23766",
+    "type": "copyright"
+  },
+  "jajauma_quartet": {
+    "count": 71,
+    "ja": "JaJa馬！カルテット",
+    "needs_review": false,
+    "src": "ann:242",
+    "type": "copyright"
+  },
   "japan_sinks_(2020)": {
     "ja": "日本沈没2020",
     "needs_review": false,
@@ -3494,6 +5223,13 @@
     "src": "atwiki:2017",
     "type": "artist"
   },
+  "jin_roh": {
+    "count": 110,
+    "ja": "人狼",
+    "needs_review": false,
+    "src": "ann:161",
+    "type": "copyright"
+  },
   "jiro_kanai": {
     "count": 102,
     "ja": "金井次郎",
@@ -3510,16 +5246,44 @@
     "src": "atwiki:1500",
     "type": "artist"
   },
+  "jojo's_bizarre_adventure:_diamond_is_unbreakable": {
+    "count": 64,
+    "ja": "ジョジョの奇妙な冒険 ダイヤモンドは砕けない",
+    "needs_review": false,
+    "src": "ann:17832",
+    "type": "copyright"
+  },
   "jojo's_bizarre_adventure:_phantom_blood": {
     "ja": "ジョジョの奇妙な冒険 ファントムブラッド",
     "needs_review": false,
     "src": "wikidata:Q17151916",
     "type": "copyright"
   },
+  "jojo's_bizarre_adventure:_stardust_crusaders": {
+    "count": 112,
+    "ja": "ジョジョの奇妙な冒険 スターダストクルセイダース",
+    "needs_review": false,
+    "src": "ann:15692",
+    "type": "copyright"
+  },
+  "jojo's_bizarre_adventure:_stone_ocean": {
+    "count": 88,
+    "ja": "ジョジョの奇妙な冒険 ストーンオーシャン",
+    "needs_review": false,
+    "src": "ann:24619",
+    "type": "copyright"
+  },
   "joker_game": {
     "ja": "ジョーカー・ゲーム",
     "needs_review": false,
     "src": "wikidata:Q66309332",
+    "type": "copyright"
+  },
+  "josee_to_tora_to_sakana-tachi": {
+    "count": 33,
+    "ja": "ジョゼと虎と魚たち",
+    "needs_review": false,
+    "src": "ann:22907",
     "type": "copyright"
   },
   "joutarou_naitou": {
@@ -3529,6 +5293,20 @@
     "needs_review": false,
     "src": "staffdb:アオのハコ|超かぐや姫!|薬屋のひとりごと",
     "type": "artist"
+  },
+  "jubei-chan": {
+    "count": 40,
+    "ja": "十兵衛ちゃん ーラブリー眼帯の秘密",
+    "needs_review": false,
+    "src": "ann:503",
+    "type": "copyright"
+  },
+  "jubei-chan_2": {
+    "count": 37,
+    "ja": "十兵衛ちゃん2 ～シベリア柳生の逆襲～",
+    "needs_review": false,
+    "src": "ann:2845",
+    "type": "copyright"
   },
   "jujutsu_kaisen_0": {
     "ja": "劇場版 呪術廻戦 0",
@@ -3573,6 +5351,13 @@
     "needs_review": false,
     "src": "atwiki:1372",
     "type": "artist"
+  },
+  "jungle_de_ikou": {
+    "count": 35,
+    "ja": "ジャングルDEいこう！",
+    "needs_review": false,
+    "src": "ann:317",
+    "type": "copyright"
   },
   "junkers_come_here_(pilot_film)": {
     "ja": "ユンカース・カム・ヒア (パイロット版)",
@@ -3626,10 +5411,24 @@
     "src": "wikidata:Q482482",
     "type": "copyright"
   },
+  "k_(2012)": {
+    "count": 45,
+    "ja": "K (2012)",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
   "k_project": {
     "ja": "K",
     "needs_review": false,
     "src": "wikidata:Q972852",
+    "type": "copyright"
+  },
+  "k_return_of_kings": {
+    "count": 45,
+    "ja": "K RETURN OF KINGS",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
     "type": "copyright"
   },
   "kage_no_jitsuryokusha_ni_naritakute!": {
@@ -3702,6 +5501,20 @@
     "src": "atwiki:2142",
     "type": "artist"
   },
+  "kakugo_no_susume": {
+    "count": 37,
+    "ja": "覚悟のススメ",
+    "needs_review": false,
+    "src": "wikidata:Q2256912",
+    "type": "copyright"
+  },
+  "kamiina_botan_yoeru_sugata_wa_yuri_no_hana": {
+    "count": 239,
+    "ja": "上伊那ぼたん、酔へる姿は百合の花",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
   "kana_ito": {
     "count": 83,
     "ja": "伊藤香奈",
@@ -3742,6 +5555,27 @@
     "src": "atwiki:1590",
     "type": "artist"
   },
+  "kannagi": {
+    "count": 113,
+    "ja": "かんなぎ",
+    "needs_review": false,
+    "src": "ann:9295",
+    "type": "copyright"
+  },
+  "kanon_2006": {
+    "count": 38,
+    "ja": "カノン",
+    "needs_review": false,
+    "src": "ann:6431",
+    "type": "copyright"
+  },
+  "kantai_collection:_the_movie": {
+    "count": 62,
+    "ja": "劇場版 艦これ",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
   "kaori_inoue": {
     "count": 14,
     "ja": "井上香織",
@@ -3758,10 +5592,24 @@
     "src": "staffdb:デリシャスパーティ♡プリキュア|地獄楽|逃げ上手の若君",
     "type": "artist"
   },
+  "kara_no_kyoukai": {
+    "count": 150,
+    "ja": "空の境界",
+    "needs_review": false,
+    "src": "ann:7472",
+    "type": "copyright"
+  },
   "karaoke_iko!": {
     "ja": "カラオケ行こ!",
     "needs_review": false,
     "src": "wikidata:Q130551723",
+    "type": "copyright"
+  },
+  "karas": {
+    "count": 49,
+    "ja": "鴉 -KARAS-",
+    "needs_review": false,
+    "src": "ann:5002",
     "type": "copyright"
   },
   "kase-san_series": {
@@ -4198,6 +6046,13 @@
     "src": "atwiki:2157",
     "type": "artist"
   },
+  "kekkai_sensen_&_beyond": {
+    "count": 92,
+    "ja": "血界戦線 & BEYOND",
+    "needs_review": false,
+    "src": "ann:18900",
+    "type": "copyright"
+  },
   "ken_imaizumi": {
     "count": 52,
     "ja": "今泉健",
@@ -4261,6 +6116,13 @@
     "needs_review": false,
     "src": "atwiki:1203",
     "type": "artist"
+  },
+  "kenichi_the_mightiest_disciple": {
+    "count": 81,
+    "ja": "史上最強の弟子ケンイチ",
+    "needs_review": false,
+    "src": "ann:6864",
+    "type": "copyright"
   },
   "kenichi_yamada": {
     "count": 30,
@@ -4420,10 +6282,38 @@
     "src": "wikidata:Q6151019",
     "type": "copyright"
   },
+  "keroro_gunsou_movie_2:_shinkai_no_princess_de_arimasu": {
+    "count": 51,
+    "ja": "超劇場版ケロロ軍曹2 深海のプリンセスであります!",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
+  "keroro_gunsou_movie_3:_tenkuu_daikessen_de_arimasu!": {
+    "count": 49,
+    "ja": "超劇場版ケロロ軍曹3 ケロロ対ケロロ天空大決戦であります!",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
+  "keroro_gunsou_movie_5:_tanjou!_kyuukyoku_keroro_kiseki_no_jikuu-jima_de_arimasu!!": {
+    "count": 61,
+    "ja": "超劇場版ケロロ軍曹 誕生!究極ケロロ 奇跡の時空島であります!!",
+    "needs_review": false,
+    "src": "ann:11209",
+    "type": "copyright"
+  },
   "keroro_gunsou_series": {
     "ja": "ケロロ軍曹 シリーズ",
     "needs_review": false,
     "src": "manual",
+    "type": "copyright"
+  },
+  "kikoushi_enma": {
+    "count": 35,
+    "ja": "鬼公子炎魔",
+    "needs_review": false,
+    "src": "wikidata:Q2616292",
     "type": "copyright"
   },
   "kikuchi_jouji": {
@@ -4433,6 +6323,41 @@
     "needs_review": false,
     "src": "staffdb:宇宙海賊キャプテンハーロック",
     "type": "artist"
+  },
+  "kimetsu_no_yaiba_hashira_geiko-hen": {
+    "count": 112,
+    "ja": "鬼滅の刃 柱稽古編",
+    "needs_review": false,
+    "src": "ann:28695",
+    "type": "copyright"
+  },
+  "kimetsu_no_yaiba_katanakaji_no_sato-hen": {
+    "count": 154,
+    "ja": "鬼滅の刃 刀鍛冶の里編",
+    "needs_review": false,
+    "src": "ann:25353",
+    "type": "copyright"
+  },
+  "kimetsu_no_yaiba_mugen_train": {
+    "count": 99,
+    "ja": "鬼滅の刃 無限列車編",
+    "needs_review": false,
+    "src": "ann:23040",
+    "type": "copyright"
+  },
+  "kimetsu_no_yaiba_mugenjou-hen_movie_1:_akaza_sairai": {
+    "count": 94,
+    "ja": "劇場版「鬼滅の刃」無限城編 第一章 猗窩座再来",
+    "needs_review": false,
+    "src": "ann:32858",
+    "type": "copyright"
+  },
+  "kimetsu_no_yaiba_yuukaku-hen": {
+    "count": 92,
+    "ja": "鬼滅の刃 遊郭編",
+    "needs_review": false,
+    "src": "ann:24043",
+    "type": "copyright"
   },
   "kimi_ga_nozomu_eien_series": {
     "ja": "君が望む永遠 シリーズ",
@@ -4444,6 +6369,13 @@
     "ja": "君の名は。",
     "needs_review": false,
     "src": "wikidata:Q21697406",
+    "type": "copyright"
+  },
+  "kimi_to_boku_no_saigo_no_senjou_aruiwa_sekai_ga_hajimaru_seisen": {
+    "count": 44,
+    "ja": "キミと僕の最後の戦場、あるいは世界が始まる聖戦",
+    "needs_review": false,
+    "src": "ann:23174",
     "type": "copyright"
   },
   "kimiaki_mizuno": {
@@ -4506,6 +6438,13 @@
     "src": "wikidata:Q61653144",
     "type": "copyright"
   },
+  "kirakira_precure_a_la_mode_movie:_paritto!_omoide_no_mille-feuille!": {
+    "count": 35,
+    "ja": "キラキラ☆プリキュアアラモード パリッと！想い出のミルフィーユ！",
+    "needs_review": false,
+    "src": "ann:19883",
+    "type": "copyright"
+  },
   "kirara_aya": {
     "count": 17,
     "ja": "綾きらら",
@@ -4518,6 +6457,13 @@
     "ja": "星のカービィシリーズ",
     "needs_review": false,
     "src": "wikidata:Q2569953",
+    "type": "copyright"
+  },
+  "kitarou_tanjou_gegege_no_nazo": {
+    "count": 37,
+    "ja": "鬼太郎誕生 ゲゲゲの謎",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
     "type": "copyright"
   },
   "kite": {
@@ -4547,10 +6493,45 @@
     "src": "staffdb:名探偵コナン|ゴブリンスレイヤー|ひきこまり吸血姫の悶々",
     "type": "artist"
   },
+  "kizumonogatari": {
+    "count": 181,
+    "ja": "傷物語",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
+  "kizumonogatari_part_2:_nekketsu": {
+    "count": 49,
+    "ja": "傷物語〈Ⅱ熱血篇〉",
+    "needs_review": false,
+    "src": "ann:17949",
+    "type": "copyright"
+  },
+  "klaus": {
+    "count": 172,
+    "ja": "クロース",
+    "needs_review": false,
+    "src": "wikidata:Q67208596",
+    "type": "copyright"
+  },
   "knight_ramune_series": {
     "ja": "騎士ラムネ&40 シリーズ",
     "needs_review": false,
     "src": "manual",
+    "type": "copyright"
+  },
+  "ko_century_beast_warriors": {
+    "count": 32,
+    "ja": "KO世紀ビースト三獣士",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
+  "kobayashi-san_chi_no_maid_dragon_s": {
+    "count": 119,
+    "ja": "小林さんちのメイドラゴンS",
+    "needs_review": false,
+    "src": "ann:23562",
     "type": "copyright"
   },
   "kodomo_no_jikan": {
@@ -4642,6 +6623,20 @@
     "needs_review": false,
     "src": "atwiki:65",
     "type": "artist"
+  },
+  "komi-san_wa_comyushou_desu": {
+    "count": 100,
+    "ja": "古見さんは、コミュ症です。",
+    "needs_review": false,
+    "src": "ann:24369",
+    "type": "copyright"
+  },
+  "konjiki_no_gash_bell:_mecha_vulcan_no_raishuu": {
+    "count": 30,
+    "ja": "劇場版 金色のガッシュベル!! メカバルカンの来襲",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
   },
   "kono_subarashii_sekai_ni_bakuen_wo!": {
     "ja": "この素晴らしい世界に爆焔を！",
@@ -4743,6 +6738,13 @@
     "src": "atwiki:1686",
     "type": "artist"
   },
+  "koukou_tekken-den_tough": {
+    "count": 43,
+    "ja": "高校鉄拳伝タフ",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
   "kouta_michishita": {
     "count": 27,
     "ja": "道下康太",
@@ -4777,6 +6779,13 @@
     "ja": "くまクマ熊ベアー シリーズ",
     "needs_review": false,
     "src": "manual",
+    "type": "copyright"
+  },
+  "kuma_no_ko_jacky": {
+    "count": 47,
+    "ja": "シートン動物記 くまの子ジャッキー",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
     "type": "copyright"
   },
   "kumiko_kawana": {
@@ -4837,12 +6846,40 @@
     "src": "manual",
     "type": "copyright"
   },
+  "kuroko_no_basket:_last_game": {
+    "count": 40,
+    "ja": "劇場版 黒子のバスケ LAST GAME",
+    "needs_review": false,
+    "src": "ann:18721",
+    "type": "copyright"
+  },
+  "kuroko_no_basket:_second_season": {
+    "count": 67,
+    "ja": "黒子のバスケ 第2期",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
+  "kuroko_no_basket:_third_season": {
+    "count": 65,
+    "ja": "黒子のバスケ 第3期",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
   "kuroneko_to_majo_no_kyoushitsu": {
     "count": 0,
     "ja": "黒猫と魔女の教室",
     "kana": "くろねことまじょのきょうしつ",
     "needs_review": false,
     "src": "manual",
+    "type": "copyright"
+  },
+  "kuroshitsuji_ii": {
+    "count": 32,
+    "ja": "黒執事Ⅱ",
+    "needs_review": false,
+    "src": "ann:11265",
     "type": "copyright"
   },
   "kurozuka": {
@@ -4902,6 +6939,13 @@
     "needs_review": false,
     "src": "staffdb:ぶっちぎり?!|地獄楽",
     "type": "artist"
+  },
+  "kyoukai_no_kanata_movie:_i'll_be_here_-_mirai-hen": {
+    "count": 72,
+    "ja": "劇場版 境界の彼方 -I'LL BE HERE- 未来篇",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
   },
   "kyoushirou_ezawa": {
     "count": 17,
@@ -4987,16 +7031,44 @@
     "src": "wikidata:Q320678",
     "type": "copyright"
   },
+  "league_of_legends": {
+    "count": 200,
+    "ja": "League of Legends",
+    "needs_review": false,
+    "src": "wikidata:Q223341",
+    "type": "copyright"
+  },
+  "legend_of_crystania:_the_motion_picture": {
+    "count": 41,
+    "ja": "はじまりの冒険者たち レジェンド・オブ・クリスタニア",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
   "legend_of_lemnear": {
     "ja": "極黒の翼バルキサス",
     "needs_review": false,
     "src": "wikidata:Q382828",
     "type": "copyright"
   },
+  "legend_of_the_crystals_final_fantasy": {
+    "count": 35,
+    "ja": "ファイナルファンタジー (OVA)",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
   "legend_of_the_galactic_heroes_(1988)": {
     "ja": "銀河英雄伝説 (1988)",
     "needs_review": false,
     "src": "wikidata:Q135295556",
+    "type": "copyright"
+  },
+  "lego_monkie_kid": {
+    "count": 156,
+    "ja": "レゴ モンキーキッド",
+    "needs_review": false,
+    "src": "wikidata:Q105038263",
     "type": "copyright"
   },
   "lilo_and_stitch": {
@@ -5017,6 +7089,20 @@
     "src": "wikidata:Q123348612",
     "type": "copyright"
   },
+  "little_witch_academia_the_enchanted_parade": {
+    "count": 81,
+    "ja": "リトルウィッチアカデミア 魔法仕掛けのパレード",
+    "needs_review": false,
+    "src": "ann:15632",
+    "type": "copyright"
+  },
+  "little_witch_academia_tv": {
+    "count": 257,
+    "ja": "リトルウィッチアカデミア (TV)",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
   "little_women": {
     "ja": "愛の若草物語",
     "needs_review": false,
@@ -5035,6 +7121,13 @@
     "src": "manual",
     "type": "copyright"
   },
+  "lord_of_lords_ryu_knight_adeu's_legend": {
+    "count": 68,
+    "ja": "覇王大系リューナイト アデュー・レジェンド",
+    "needs_review": false,
+    "src": "ann:1977",
+    "type": "copyright"
+  },
   "love_live!": {
     "ja": "ラブライブ!",
     "needs_review": false,
@@ -5047,10 +7140,31 @@
     "src": "wikidata:Q48937717",
     "type": "copyright"
   },
+  "love_live!_nijigasaki_high_school_idol_club_kanketsu-hen": {
+    "count": 73,
+    "ja": "ラブライブ！虹ヶ咲学園スクールアイドル同好会 完結編",
+    "needs_review": false,
+    "src": "ann:28763",
+    "type": "copyright"
+  },
   "love_live!_sunshine!!": {
     "ja": "ラブライブ!サンシャイン!!",
     "needs_review": false,
     "src": "wikidata:Q116769230",
+    "type": "copyright"
+  },
+  "love_live_superstars!_3rd_season": {
+    "count": 31,
+    "ja": "ラブライブ！スーパースター!!",
+    "needs_review": false,
+    "src": "ann:26429",
+    "type": "copyright"
+  },
+  "lovelab": {
+    "count": 112,
+    "ja": "恋愛ラボ",
+    "needs_review": false,
+    "src": "ann:14896",
     "type": "copyright"
   },
   "lucky_(pokemon_mv)": {
@@ -5077,10 +7191,66 @@
     "src": "wikidata:Q876182",
     "type": "copyright"
   },
+  "lupin_iii:_chikemuri_no_ishikawa_goemon": {
+    "count": 58,
+    "ja": "LUPIN THE ⅢRD 血煙の石川五ェ門",
+    "needs_review": false,
+    "src": "ann:18730",
+    "type": "copyright"
+  },
+  "lupin_iii:_sweet_lost_night": {
+    "count": 39,
+    "ja": "ルパン三世 sweet lost night～魔法のランプは悪夢の予感～",
+    "needs_review": false,
+    "src": "ann:10076",
+    "type": "copyright"
+  },
   "lupin_iii_(2015)": {
     "ja": "ルパン三世 PART4",
     "needs_review": false,
     "src": "wikidata:Q19979507",
+    "type": "copyright"
+  },
+  "lupin_iii_pilot_film": {
+    "count": 33,
+    "ja": "ルパン三世 パイロットフィルム",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
+  "lupin_iii_plot_of_the_fuma_clan": {
+    "count": 36,
+    "ja": "ルパン三世 風魔一族の陰謀",
+    "needs_review": false,
+    "src": "ann:641",
+    "type": "copyright"
+  },
+  "lupin_iii_the_woman_called_fujiko_mine": {
+    "count": 42,
+    "ja": "LUPIN the Third ～峰不二子という女～",
+    "needs_review": false,
+    "src": "ann:14135",
+    "type": "copyright"
+  },
+  "lupin_iii_walther_p-38": {
+    "count": 36,
+    "ja": "ルパン三世 ワルサーP38",
+    "needs_review": false,
+    "src": "wikidata:Q3149640",
+    "type": "copyright"
+  },
+  "lupin_the_iiird_(movie_series)": {
+    "count": 200,
+    "ja": "LUPIN THE IIIRD シリーズ",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
+  "lupin_the_third_zenigata_to_futari_no_lupin": {
+    "count": 33,
+    "ja": "LUPIN THE IIIRD 銭形と2人のルパン",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
     "type": "copyright"
   },
   "macademi_wasshoi": {
@@ -5095,10 +7265,73 @@
     "src": "wikidata:Q21120333",
     "type": "copyright"
   },
+  "macross_frontier_sayonara_no_tsubasa": {
+    "count": 35,
+    "ja": "マクロスF 恋離飛翼～サヨナラノツバサ～",
+    "needs_review": false,
+    "src": "ann:11821",
+    "type": "copyright"
+  },
+  "macross_plus": {
+    "count": 57,
+    "ja": "マクロスプラス",
+    "needs_review": false,
+    "src": "ann:501",
+    "type": "copyright"
+  },
+  "macross_zero": {
+    "count": 34,
+    "ja": "マクロスゼロ",
+    "needs_review": false,
+    "src": "ann:939",
+    "type": "copyright"
+  },
+  "made_in_abyss:_fukaki_tamashii_no_reimei": {
+    "count": 37,
+    "ja": "劇場版メイドインアビス 深き魂の黎明",
+    "needs_review": false,
+    "src": "ann:21731",
+    "type": "copyright"
+  },
+  "madogiwa_no_totto-chan": {
+    "count": 83,
+    "ja": "窓ぎわのトットちゃん",
+    "needs_review": false,
+    "src": "ann:27525",
+    "type": "copyright"
+  },
+  "magi_kingdom_of_magic": {
+    "count": 189,
+    "ja": "マギ The Kingdom of magic",
+    "needs_review": false,
+    "src": "ann:15543",
+    "type": "copyright"
+  },
   "magi_series": {
     "ja": "マギ シリーズ",
     "needs_review": false,
     "src": "manual",
+    "type": "copyright"
+  },
+  "magia_record:_mahou_shoujo_madoka_magica_gaiden": {
+    "count": 46,
+    "ja": "マギアレコード 魔法少女まどか☆マギカ外伝",
+    "needs_review": false,
+    "src": "ann:22009",
+    "type": "copyright"
+  },
+  "magia_record:_mahou_shoujo_madoka_magica_gaiden_(video_game)": {
+    "count": 81,
+    "ja": "マギアレコード 魔法少女まどか☆マギカ外伝 (ゲーム)",
+    "needs_review": false,
+    "src": "wikidata:Q30926491",
+    "type": "copyright"
+  },
+  "magia_record:_mahou_shoujo_madoka_magica_gaiden_second_season": {
+    "count": 45,
+    "ja": "マギアレコード 魔法少女まどか☆マギカ外伝 2nd SEASON -覚醒前夜-",
+    "needs_review": false,
+    "src": "ann:24441",
     "type": "copyright"
   },
   "magic_knight_rayearth": {
@@ -5113,6 +7346,118 @@
     "src": "wikidata:Q4353715",
     "type": "copyright"
   },
+  "magical_angel_creamy_mami": {
+    "count": 30,
+    "ja": "魔法の天使クリィミーマミ",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
+  "magical_emi_the_magic_star": {
+    "count": 76,
+    "ja": "魔法のスター マジカルエミ",
+    "needs_review": false,
+    "src": "ann:1690",
+    "type": "copyright"
+  },
+  "magical_suite_prism_nana": {
+    "count": 48,
+    "ja": "まじかるすいーと プリズムナナ",
+    "needs_review": false,
+    "src": "ann:14918",
+    "type": "copyright"
+  },
+  "magical★explorer": {
+    "count": 35,
+    "ja": "マジカル★エクスプローラー エロゲの友人キャラに転生したけど、ゲーム知識使って自由に生きる",
+    "needs_review": false,
+    "src": "ann:30077",
+    "type": "copyright"
+  },
+  "magnetic_rose": {
+    "count": 50,
+    "ja": "彼女の想いで",
+    "needs_review": false,
+    "src": "ann:425",
+    "type": "copyright"
+  },
+  "mahoromatic_tadaima_okaeri": {
+    "count": 31,
+    "ja": "まほろまてぃっく ただいま◇おかえり",
+    "needs_review": false,
+    "src": "ann:11036",
+    "type": "copyright"
+  },
+  "mahou_sensei_negima!_mou_hitotsu_no_sekai": {
+    "count": 41,
+    "ja": "魔法先生ネギま! 〜もうひとつの世界〜",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
+  "mahou_shoujo_lyrical_nanoha_a's": {
+    "count": 87,
+    "ja": "魔法少女リリカルなのはA’s [エース]",
+    "needs_review": false,
+    "src": "ann:5770",
+    "type": "copyright"
+  },
+  "mahou_shoujo_lyrical_nanoha_a's_the_movie_2nd": {
+    "count": 98,
+    "ja": "魔法少女リリカルなのは The MOVIE 2nd A's",
+    "needs_review": false,
+    "src": "ann:12221",
+    "type": "copyright"
+  },
+  "mahou_shoujo_lyrical_nanoha_detonation": {
+    "count": 55,
+    "ja": "魔法少女リリカルなのは Detonation",
+    "needs_review": false,
+    "src": "ann:20480",
+    "type": "copyright"
+  },
+  "mahou_shoujo_lyrical_nanoha_exceeds:_gun_blaze_vengeance": {
+    "count": 50,
+    "ja": "魔法少女リリカルなのは EXCEEDS Gun Blaze Vengeance",
+    "needs_review": false,
+    "src": "ann:34245",
+    "type": "copyright"
+  },
+  "mahou_shoujo_lyrical_nanoha_reflection": {
+    "count": 60,
+    "ja": "魔法少女リリカルなのは The MOVIE 3rd: Reflection",
+    "needs_review": false,
+    "src": "ann:15211",
+    "type": "copyright"
+  },
+  "mahou_shoujo_lyrical_nanoha_strikers": {
+    "count": 92,
+    "ja": "魔法少女リリカルなのはStrikerS（ストライカーズ）",
+    "needs_review": false,
+    "src": "ann:6828",
+    "type": "copyright"
+  },
+  "mahou_shoujo_lyrical_nanoha_vivid": {
+    "count": 78,
+    "ja": "魔法少女リリカルなのはViVid",
+    "needs_review": false,
+    "src": "ann:16298",
+    "type": "copyright"
+  },
+  "mahou_shoujo_madoka_magica_rebellion": {
+    "count": 88,
+    "ja": "劇場版 魔法少女まどか☆マギカ［新編］叛逆の物語",
+    "needs_review": false,
+    "src": "ann:14850",
+    "type": "copyright"
+  },
+  "mahou_shoujo_nante_mou_ii_desukara": {
+    "count": 52,
+    "ja": "魔法少女なんてもういいですから。",
+    "needs_review": false,
+    "src": "ann:17796",
+    "type": "copyright"
+  },
   "mahou_shoujo_pretty_sammy_(ova)": {
     "ja": "魔法少女プリティサミー (OVA)",
     "needs_review": false,
@@ -5123,6 +7468,20 @@
     "ja": "魔法少女プリティサミー (TV)",
     "needs_review": false,
     "src": "wikidata:Q6730997",
+    "type": "copyright"
+  },
+  "mahoutsukai_precure!!_mirai_days": {
+    "count": 64,
+    "ja": "魔法つかいプリキュア!!〜MIRAI DAYS〜",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
+  "mahoutsukai_precure_movie:_kiseki_no_henshin_cure_mofurun": {
+    "count": 34,
+    "ja": "映画魔法つかいプリキュア！奇跡の変身！キュアモフルン！",
+    "needs_review": false,
+    "src": "ann:18589",
     "type": "copyright"
   },
   "mai_fujiwara": {
@@ -5149,6 +7508,13 @@
     "src": "staffdb:アニマエール!|イエスタデイをうたって|夜のクラゲは泳げない",
     "type": "artist"
   },
+  "majime_ni_fumajime_kaiketsu_zorori_nazo_no_otakara_daisakusen": {
+    "count": 44,
+    "ja": "まじめにふまじめ かいけつゾロリ なぞのお宝大さくせん",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
   "majiro": {
     "count": 10,
     "ja": "まじろ",
@@ -5173,6 +7539,20 @@
     "ja": "魔術士オーフェン",
     "needs_review": false,
     "src": "wikidata:Q135855521",
+    "type": "copyright"
+  },
+  "majutsushi_orphen:_revenge": {
+    "count": 40,
+    "ja": "魔術士オーフェンRevenge",
+    "needs_review": false,
+    "src": "ann:963",
+    "type": "copyright"
+  },
+  "maken_ki!_two": {
+    "count": 50,
+    "ja": "マケン姫っ！通",
+    "needs_review": false,
+    "src": "ann:15335",
     "type": "copyright"
   },
   "makiko_suzuki": {
@@ -5318,6 +7698,20 @@
     "needs_review": false,
     "src": "staffdb:BORUTO-ボルト- -NARUTO NEXT GENERATIONS-|海獣の子供",
     "type": "artist"
+  },
+  "manie_manie:_meikyuu_monogatari": {
+    "count": 54,
+    "ja": "Manie-Manie 迷宮物語",
+    "needs_review": false,
+    "src": "ann:2044",
+    "type": "copyright"
+  },
+  "maquia_-_when_the_promised_flower_blooms": {
+    "count": 105,
+    "ja": "さよならの朝に約束の花をかざろう",
+    "needs_review": false,
+    "src": "ann:19848",
+    "type": "copyright"
   },
   "mari_tomita": {
     "count": 6,
@@ -5750,6 +8144,13 @@
     "src": "wikidata:Q17222326",
     "type": "copyright"
   },
+  "masters_of_the_universe_revelation": {
+    "count": 41,
+    "ja": "マスターズ・オブ・ユニバース: 黙示録",
+    "needs_review": false,
+    "src": "wikidata:Q66763559",
+    "type": "copyright"
+  },
   "masters_of_the_universe_series": {
     "ja": "マスターズ・オブ・ユニバース シリーズ",
     "needs_review": false,
@@ -5790,6 +8191,13 @@
     "src": "wikidata:Q1088136",
     "type": "copyright"
   },
+  "mazinkaiser_skl": {
+    "count": 58,
+    "ja": "マジンカイザーSKL",
+    "needs_review": false,
+    "src": "ann:11479",
+    "type": "copyright"
+  },
   "medarot": {
     "ja": "メダロット",
     "needs_review": false,
@@ -5806,6 +8214,27 @@
     "ja": "ロックマン USA",
     "needs_review": false,
     "src": "wikidata:Q516385",
+    "type": "copyright"
+  },
+  "megazone_23": {
+    "count": 82,
+    "ja": "メガゾーン23",
+    "needs_review": false,
+    "src": "ann:2296",
+    "type": "copyright"
+  },
+  "megazone_23_part_i": {
+    "count": 42,
+    "ja": "メガゾーン23 PART 1",
+    "needs_review": false,
+    "src": "ann:2296",
+    "type": "copyright"
+  },
+  "megazone_23_part_ii": {
+    "count": 36,
+    "ja": "メガゾーン23 PART II",
+    "needs_review": false,
+    "src": "ann:2402",
     "type": "copyright"
   },
   "megumi_tomita": {
@@ -5826,6 +8255,20 @@
     "ja": "MEMORIES",
     "needs_review": false,
     "src": "wikidata:Q564403",
+    "type": "copyright"
+  },
+  "mengqi_shishen": {
+    "count": 58,
+    "ja": "シンデレラ・シェフ ~萌妻食神~",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
+  "metal_fight_beyblade_baku": {
+    "count": 56,
+    "ja": "メタルファイト ベイブレード 爆",
+    "needs_review": false,
+    "src": "ann:12917",
     "type": "copyright"
   },
   "michel_sugimoto": {
@@ -5873,6 +8316,13 @@
     "needs_review": false,
     "src": "staffdb:ブラッククローバー",
     "type": "artist"
+  },
+  "mighty_space_miners": {
+    "count": 44,
+    "ja": "おいら宇宙の探鉱夫",
+    "needs_review": false,
+    "src": "ann:698",
+    "type": "copyright"
   },
   "miho_kato": {
     "count": 16,
@@ -5958,6 +8408,13 @@
     "src": "wikidata:Q125724813",
     "type": "copyright"
   },
+  "miru_tights": {
+    "count": 65,
+    "ja": "みるタイツ",
+    "needs_review": false,
+    "src": "ann:22030",
+    "type": "copyright"
+  },
   "misao_abe": {
     "count": 11,
     "ja": "阿部美佐緒",
@@ -6030,6 +8487,13 @@
     "src": "atwiki:271",
     "type": "artist"
   },
+  "mix:_meisei_story": {
+    "count": 37,
+    "ja": "ミックス",
+    "needs_review": false,
+    "src": "ann:21648",
+    "type": "copyright"
+  },
   "mix:_meisei_story_series": {
     "ja": "MIX MEISEI STORY シリーズ",
     "needs_review": false,
@@ -6099,6 +8563,41 @@
     "src": "wikidata:Q702520",
     "type": "copyright"
   },
+  "mobile_police_patlabor:_early_days": {
+    "count": 57,
+    "ja": "機動警察パトレイバー アーリーデイズ",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
+  "mobile_police_patlabor_2_the_movie": {
+    "count": 57,
+    "ja": "機動警察パトレイバー2 the Movie",
+    "needs_review": false,
+    "src": "ann:410",
+    "type": "copyright"
+  },
+  "mobile_police_patlabor_ezy": {
+    "count": 49,
+    "ja": "機動警察パトレイバー EZY",
+    "needs_review": false,
+    "src": "ann:33589",
+    "type": "copyright"
+  },
+  "mobile_police_patlabor_on_television": {
+    "count": 90,
+    "ja": "機動警察パトレイバー (TV)",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
+  "mobile_police_patlabor_the_new_files": {
+    "count": 40,
+    "ja": "機動警察パトレイバー（OVA第2期）",
+    "needs_review": false,
+    "src": "ann:409",
+    "type": "copyright"
+  },
   "mobile_suit_gundam": {
     "ja": "機動戦士ガンダム",
     "needs_review": false,
@@ -6111,10 +8610,45 @@
     "src": "wikidata:Q1363770",
     "type": "copyright"
   },
+  "mobile_suit_gundam:_iron-blooded_orphans_urdr_hunt": {
+    "count": 73,
+    "ja": "機動戦士ガンダム 鉄血のオルフェンズ ウルズハント -小さな挑戦者の軌跡-",
+    "needs_review": false,
+    "src": "ann:37161",
+    "type": "copyright"
+  },
+  "mobile_suit_gundam:_the_08th_ms_team": {
+    "count": 86,
+    "ja": "機動戦士ガンダム 第08MS小隊",
+    "needs_review": false,
+    "src": "ann:24",
+    "type": "copyright"
+  },
   "mobile_suit_gundam_(game)": {
     "ja": "機動戦士ガンダム (ゲーム)",
     "needs_review": false,
     "src": "manual",
+    "type": "copyright"
+  },
+  "mobile_suit_gundam_0080_war_in_the_pocket": {
+    "count": 63,
+    "ja": "機動戦士ガンダム0080 ポケットの中の戦争",
+    "needs_review": false,
+    "src": "ann:22",
+    "type": "copyright"
+  },
+  "mobile_suit_gundam_0083:_stardust_memory": {
+    "count": 123,
+    "ja": "機動戦士ガンダム0083 STARDUST MEMORY",
+    "needs_review": false,
+    "src": "ann:23",
+    "type": "copyright"
+  },
+  "mobile_suit_gundam_00_the_movie_-a_wakening_of_the_trailblazer-": {
+    "count": 115,
+    "ja": "劇場版 機動戦士ガンダム00 -A wakening of the Trailblazer-",
+    "needs_review": false,
+    "src": "ann:10744",
     "type": "copyright"
   },
   "mobile_suit_gundam_age_(game)": {
@@ -6129,16 +8663,51 @@
     "src": "wikidata:Q696206",
     "type": "copyright"
   },
+  "mobile_suit_gundam_seed_destiny_hd_remaster": {
+    "count": 38,
+    "ja": "機動戦士ガンダムSEED DESTINY HDリマスター",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
+  "mobile_suit_gundam_seed_hd_remaster": {
+    "count": 36,
+    "ja": "機動戦士ガンダムSEED HDリマスター",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
   "mobile_suit_gundam_wing_(tv)": {
     "ja": "新機動戦記ガンダムW (TV)",
     "needs_review": false,
     "src": "wikidata:Q711148",
     "type": "copyright"
   },
+  "mobile_suit_zeta_gundam:_a_new_translation": {
+    "count": 71,
+    "ja": "機動戦士Zガンダム -星を継ぐ者-",
+    "needs_review": false,
+    "src": "ann:3899",
+    "type": "copyright"
+  },
   "mobile_suit_zeta_gundam_(tv)": {
     "ja": "機動戦士Ζガンダム (TV)",
     "needs_review": false,
     "src": "wikidata:Q698745",
+    "type": "copyright"
+  },
+  "model_suit_gunpla_builders": {
+    "count": 50,
+    "ja": "模型戦士 ガンプラ ビルダーズ ビギニングG",
+    "needs_review": false,
+    "src": "ann:11732",
+    "type": "copyright"
+  },
+  "modest_heroes": {
+    "count": 56,
+    "ja": "ちいさな英雄－カニとタマゴと透明人間－",
+    "needs_review": false,
+    "src": "ann:21195",
     "type": "copyright"
   },
   "moe_usami": {
@@ -6157,6 +8726,27 @@
     "src": "atwiki:1564",
     "type": "artist"
   },
+  "mono": {
+    "count": 151,
+    "ja": "mono",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
+  "monogatari_off_&_monster_season": {
+    "count": 30,
+    "ja": "〈物語〉シリーズ オフ&モンスターシーズン",
+    "needs_review": false,
+    "src": "ann:31635",
+    "type": "copyright"
+  },
+  "monogatari_second_season": {
+    "count": 42,
+    "ja": "〈物語〉シリーズ セカンドシーズン",
+    "needs_review": false,
+    "src": "wikidata:Q13664680",
+    "type": "copyright"
+  },
   "monogatari_series": {
     "ja": "〈物語〉シリーズ",
     "needs_review": false,
@@ -6169,10 +8759,24 @@
     "src": "wikidata:Q100944081",
     "type": "copyright"
   },
+  "monster_hunter_stories_ride_on": {
+    "count": 33,
+    "ja": "モンスターハンター ストーリーズ RIDE ON",
+    "needs_review": false,
+    "src": "ann:18446",
+    "type": "copyright"
+  },
   "monster_strike_(mv)": {
     "ja": "モンスターストライク (MV)",
     "needs_review": false,
     "src": "wikidata:Q24628305",
+    "type": "copyright"
+  },
+  "monster_strike_deadverse_reloaded": {
+    "count": 55,
+    "ja": "モンスターストライク デッドバースリローデッド",
+    "needs_review": false,
+    "src": "ann:37024",
     "type": "copyright"
   },
   "moomin_series": {
@@ -6185,6 +8789,13 @@
     "ja": "MOON",
     "needs_review": false,
     "src": "manual:research-2026-10-30",
+    "type": "copyright"
+  },
+  "moonrise": {
+    "count": 162,
+    "ja": "ムーンライズ",
+    "needs_review": false,
+    "src": "ann:25778",
     "type": "copyright"
   },
   "morifumi_naka": {
@@ -6207,6 +8818,13 @@
     "ja": "モーターシティ",
     "needs_review": false,
     "src": "wikidata:Q24060",
+    "type": "copyright"
+  },
+  "motto!_ojamajo_doremi": {
+    "count": 47,
+    "ja": "も～っと！おジャ魔女どれみ",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
     "type": "copyright"
   },
   "mouryou_senki_madara": {
@@ -6235,16 +8853,51 @@
     "src": "atwiki:667",
     "type": "artist"
   },
+  "munto:_toki_no_kabe_wo_koete": {
+    "count": 44,
+    "ja": "MUNTO 時の壁をこえて",
+    "needs_review": false,
+    "src": "ann:5390",
+    "type": "copyright"
+  },
   "munto_(tv)": {
     "ja": "空を見上げる少女の瞳に映る世界",
     "needs_review": false,
     "src": "wikidata:Q116001170",
     "type": "copyright"
   },
+  "mushoku_tensei_ii:_isekai_ittara_honki_dasu": {
+    "count": 93,
+    "ja": "無職転生 II 〜異世界行ったら本気だす〜",
+    "needs_review": false,
+    "src": "ann:25412",
+    "type": "copyright"
+  },
+  "mushoku_tensei_iii:_isekai_ittara_honki_dasu": {
+    "count": 71,
+    "ja": "無職転生Ⅲ ～異世界行ったら本気だす～",
+    "needs_review": false,
+    "src": "ann:32859",
+    "type": "copyright"
+  },
   "mushoku_tensei_series": {
     "ja": "無職転生 〜異世界行ったら本気だす〜 シリーズ",
     "needs_review": false,
     "src": "wikidata:Q104246919",
+    "type": "copyright"
+  },
+  "muvluv": {
+    "count": 33,
+    "ja": "マブラヴ",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
+  "my_gift_lvl_9999_unlimited_gacha": {
+    "count": 33,
+    "ja": "信じていた仲間達にダンジョン奥地で殺されかけたがギフト『無限ガチャ』でレベル9999の仲間達を手に入れて元パーティーメンバーと世界に復讐＆『ざまぁ！』します！",
+    "needs_review": false,
+    "src": "ann:34029",
     "type": "copyright"
   },
   "my_hero_academia": {
@@ -6261,6 +8914,34 @@
     "src": "wikidata:Q131534559",
     "type": "copyright"
   },
+  "my_hero_academia_movie_1:_two_heroes": {
+    "count": 69,
+    "ja": "僕のヒーローアカデミア THE MOVIE ～2人の英雄～",
+    "needs_review": false,
+    "src": "ann:20443",
+    "type": "copyright"
+  },
+  "my_hero_academia_movie_2:_heroes_rising": {
+    "count": 81,
+    "ja": "僕のヒーローアカデミア THE MOVIE ヒーローズ：ライジング",
+    "needs_review": false,
+    "src": "ann:22537",
+    "type": "copyright"
+  },
+  "my_hero_academia_movie_3:_world_heroes_mission": {
+    "count": 88,
+    "ja": "僕のヒーローアカデミア THE MOVIE ワールド ヒーローズ ミッション",
+    "needs_review": false,
+    "src": "ann:24199",
+    "type": "copyright"
+  },
+  "my_hero_academia_movie_4:_you're_next": {
+    "count": 214,
+    "ja": "僕のヒーローアカデミア THE MOVIE ユアネクスト",
+    "needs_review": false,
+    "src": "ann:31891",
+    "type": "copyright"
+  },
   "my_neighbors_the_yamadas": {
     "ja": "ホーホケキョ となりの山田くん",
     "needs_review": false,
@@ -6274,6 +8955,13 @@
     "src": "atwiki:2050",
     "type": "artist"
   },
+  "mօb_psycho_100_iii": {
+    "count": 263,
+    "ja": "モブサイコ100 Ⅲ",
+    "needs_review": false,
+    "src": "ann:24878",
+    "type": "copyright"
+  },
   "nakaya_onsen": {
     "count": 92,
     "ja": "温泉中也",
@@ -6281,6 +8969,20 @@
     "needs_review": false,
     "src": "atwiki:1950",
     "type": "artist"
+  },
+  "nanatsu_no_taizai:_imashime_no_fukkatsu": {
+    "count": 89,
+    "ja": "七つの大罪 戒めの復活",
+    "needs_review": false,
+    "src": "ann:19885",
+    "type": "copyright"
+  },
+  "nanatsu_no_taizai_movie:_tenkuu_no_torawarebito": {
+    "count": 34,
+    "ja": "劇場版 七つの大罪 天空の囚われ人",
+    "needs_review": false,
+    "src": "ann:20834",
+    "type": "copyright"
   },
   "nao_naitou": {
     "count": 39,
@@ -6465,6 +9167,76 @@
     "src": "manual",
     "type": "copyright"
   },
+  "naruto_movie_1:_ninja_clash_in_the_land_of_snow": {
+    "count": 37,
+    "ja": "劇場版NARUTO（ナルト） 大活劇！雪姫忍法帖だってばよ!!",
+    "needs_review": false,
+    "src": "ann:3381",
+    "type": "copyright"
+  },
+  "naruto_movie_2:_legend_of_the_stone_of_gelel": {
+    "count": 34,
+    "ja": "劇場版NARUTO - 大激突！幻の地底遺跡だってばよ",
+    "needs_review": false,
+    "src": "ann:5042",
+    "type": "copyright"
+  },
+  "naruto_sd:_rock_lee_no_seishun_full-power_ninden": {
+    "count": 32,
+    "ja": "NARUTO－ナルト－ SD ロック・リーの青春フルパワー忍伝 もういっちょ",
+    "needs_review": false,
+    "src": "ann:15598",
+    "type": "copyright"
+  },
+  "naruto_shippuuden_movie_1:_the_movie": {
+    "count": 44,
+    "ja": "ナルト 疾風伝",
+    "needs_review": false,
+    "src": "ann:8017",
+    "type": "copyright"
+  },
+  "naruto_shippuuden_movie_2:_bonds": {
+    "count": 78,
+    "ja": "劇場版NARUTO-ナルト- 疾風伝 絆",
+    "needs_review": false,
+    "src": "ann:9194",
+    "type": "copyright"
+  },
+  "naruto_shippuuden_movie_3:_the_will_of_fire": {
+    "count": 93,
+    "ja": "NARUTO-ナルト-疾風伝 火の意志を継ぐ者",
+    "needs_review": false,
+    "src": "ann:10757",
+    "type": "copyright"
+  },
+  "naruto_shippuuden_movie_5:_blood_prison": {
+    "count": 63,
+    "ja": "劇場版NARUTO-ナルト- ブラッド・プリズン",
+    "needs_review": false,
+    "src": "ann:12869",
+    "type": "copyright"
+  },
+  "naruto_shippuuden_movie_6:_road_to_ninja": {
+    "count": 71,
+    "ja": "ROAD TO NINJA -NARUTO THE MOVIE-",
+    "needs_review": false,
+    "src": "wikidata:Q559071",
+    "type": "copyright"
+  },
+  "naruto_shippuuden_movie_7:_the_last": {
+    "count": 57,
+    "ja": "THE LAST -NARUTO THE MOVIE-",
+    "needs_review": false,
+    "src": "wikidata:Q6966481",
+    "type": "copyright"
+  },
+  "natsu_e_no_tunnel_sayonara_no_deguchi": {
+    "count": 34,
+    "ja": "夏へのトンネル、さよならの出口",
+    "needs_review": false,
+    "src": "ann:25056",
+    "type": "copyright"
+  },
   "natsu_no_niwa": {
     "ja": "夏の庭",
     "needs_review": false,
@@ -6509,6 +9281,13 @@
     "src": "wikidata:Q136751943",
     "type": "copyright"
   },
+  "neo_heroic_fantasia_arion": {
+    "count": 32,
+    "ja": "アリオン",
+    "needs_review": false,
+    "src": "ann:807",
+    "type": "copyright"
+  },
   "neon_genesis_evangelion": {
     "ja": "新世紀エヴァンゲリオン",
     "needs_review": false,
@@ -6521,10 +9300,73 @@
     "src": "wikidata:Q66834583",
     "type": "copyright"
   },
+  "neppu_kairiku_bushi_road": {
+    "count": 35,
+    "ja": "熱風海陸ブシロード",
+    "needs_review": false,
+    "src": "ann:15560",
+    "type": "copyright"
+  },
   "nerawareta_gakuen": {
     "ja": "ねらわれた学園",
     "needs_review": false,
     "src": "wikidata:Q17214811",
+    "type": "copyright"
+  },
+  "new_cutey_honey": {
+    "count": 84,
+    "ja": "新・キューティーハニー",
+    "needs_review": false,
+    "src": "ann:566",
+    "type": "copyright"
+  },
+  "new_dominion_tank_police": {
+    "count": 41,
+    "ja": "特捜戦車隊ドミニオン",
+    "needs_review": false,
+    "src": "ann:702",
+    "type": "copyright"
+  },
+  "new_game!!": {
+    "count": 50,
+    "ja": "NEW GAME!!",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
+  "new_getter_robo": {
+    "count": 35,
+    "ja": "新ゲッターロボ",
+    "needs_review": false,
+    "src": "ann:3868",
+    "type": "copyright"
+  },
+  "new_panty_and_stocking_with_garterbelt": {
+    "count": 174,
+    "ja": "New PANTY & STOCKING with GARTERBELT",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
+  "ng_knight_ramune_&_40": {
+    "count": 108,
+    "ja": "NG騎士[ナイト]ラムネ＆40",
+    "needs_review": false,
+    "src": "ann:2357",
+    "type": "copyright"
+  },
+  "ng_knight_ramune_&_40_dx": {
+    "count": 37,
+    "ja": "NG騎士ラムネ&40 DX ワクワク時空 炎の大捜査戦",
+    "needs_review": false,
+    "src": "ann:3166",
+    "type": "copyright"
+  },
+  "nhk_ni_youkoso!": {
+    "count": 41,
+    "ja": "NHKにようこそ！",
+    "needs_review": false,
+    "src": "ann:6357",
     "type": "copyright"
   },
   "nichika_oono": {
@@ -6535,16 +9377,58 @@
     "src": "atwiki:2066",
     "type": "artist"
   },
+  "nier_automata_ver1.1a": {
+    "count": 78,
+    "ja": "ニーア オートマタ Ver1.1a",
+    "needs_review": false,
+    "src": "ann:25372",
+    "type": "copyright"
+  },
   "nightmare": {
     "ja": "ニワトリ男と赤い首",
     "needs_review": false,
     "src": "manual",
     "type": "copyright"
   },
+  "niji-iro_hotaru": {
+    "count": 76,
+    "ja": "虹色ほたる～永遠の夏休み～",
+    "needs_review": false,
+    "src": "ann:13983",
+    "type": "copyright"
+  },
+  "nijisanji": {
+    "count": 102,
+    "ja": "にじさんじ",
+    "needs_review": false,
+    "src": "wikidata:Q56345672",
+    "type": "copyright"
+  },
+  "nikke_(game)": {
+    "count": 36,
+    "ja": "勝利の女神:NIKKE",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
   "nimona": {
     "ja": "ニモナ",
     "needs_review": false,
     "src": "wikidata:Q111165179",
+    "type": "copyright"
+  },
+  "ninja_slayer_from_animation": {
+    "count": 78,
+    "ja": "ニンジャスレイヤー フロムアニメイシヨン",
+    "needs_review": false,
+    "src": "ann:16313",
+    "type": "copyright"
+  },
+  "nisemonogatari": {
+    "count": 84,
+    "ja": "偽物語",
+    "needs_review": false,
+    "src": "ann:13556",
     "type": "copyright"
   },
   "nishiki_itaoka": {
@@ -6554,6 +9438,13 @@
     "needs_review": false,
     "src": "atwiki:1699",
     "type": "artist"
+  },
+  "niwa_ni_wa_niwa_niwatori_ga_ita": {
+    "count": 50,
+    "ja": "庭には二羽ニワトリがいた。",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
   },
   "nobuaki_maruki": {
     "count": 10,
@@ -6657,10 +9548,24 @@
     "src": "atwiki:1426",
     "type": "artist"
   },
+  "non-human_academy_(video_game)": {
+    "count": 33,
+    "ja": "非人類学園",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
   "non_non_biyori_series": {
     "ja": "のんのんびより シリーズ",
     "needs_review": false,
     "src": "manual",
+    "type": "copyright"
+  },
+  "noragami_aragoto": {
+    "count": 61,
+    "ja": "ノラガミ ARAGOTO",
+    "needs_review": false,
+    "src": "ann:16906",
     "type": "copyright"
   },
   "norifumi_kugai": {
@@ -6759,6 +9664,13 @@
     "src": "atwiki:1530",
     "type": "artist"
   },
+  "nura:_rise_of_the_yokai_clan_-_demon_capital": {
+    "count": 43,
+    "ja": "ぬらりひょんの孫 千年魔京",
+    "needs_review": false,
+    "src": "ann:12357",
+    "type": "copyright"
+  },
   "occultic;nine": {
     "ja": "Occultic;Nine -オカルティック・ナイン-",
     "needs_review": false,
@@ -6772,6 +9684,34 @@
     "needs_review": false,
     "src": "staffdb:光が死んだ夏|ワールド イズ ダンシング",
     "type": "artist"
+  },
+  "odin:_koushi_hansen_starlight": {
+    "count": 45,
+    "ja": "オーディーン 光子帆船スターライト",
+    "needs_review": false,
+    "src": "ann:704",
+    "type": "copyright"
+  },
+  "ojamajo_doremi_dokkaan!": {
+    "count": 47,
+    "ja": "おジャ魔女どれみドッカ～ン！",
+    "needs_review": false,
+    "src": "ann:1649",
+    "type": "copyright"
+  },
+  "ojamajo_doremi_naisho": {
+    "count": 39,
+    "ja": "おジャ魔女どれみ ナ・イ・ショ",
+    "needs_review": false,
+    "src": "ann:3797",
+    "type": "copyright"
+  },
+  "ojamajo_doremi_sharp": {
+    "count": 35,
+    "ja": "おジャ魔女どれみ＃",
+    "needs_review": false,
+    "src": "ann:1652",
+    "type": "copyright"
   },
   "ojarumaru_series": {
     "ja": "おじゃる丸",
@@ -6793,12 +9733,40 @@
     "src": "manual",
     "type": "copyright"
   },
+  "one_piece:_episode_of_chopper_+_fuyu_ni_saku_kiseki_no_sakura": {
+    "count": 57,
+    "ja": "ONE PIECE（ワンピース） エピソードオブチョッパー＋冬に咲く、奇跡の桜",
+    "needs_review": false,
+    "src": "ann:9047",
+    "type": "copyright"
+  },
   "one_piece:_the_giant_mechanical_soldier_of_karakuri_castle": {
     "count": 0,
     "ja": "ONE PIECE THE MOVIE カラクリ城のメカ巨兵",
     "kana": "わんぴーす からくりじょうのめかきょへい",
     "needs_review": false,
     "src": "manual",
+    "type": "copyright"
+  },
+  "one_piece_3d2y": {
+    "count": 42,
+    "ja": "ワンピース〝3D2Y〟 エースの死を越えて！ ルフィ仲間との誓い",
+    "needs_review": false,
+    "src": "ann:16232",
+    "type": "copyright"
+  },
+  "one_piece_defeat_him_the_pirate_ganzack": {
+    "count": 34,
+    "ja": "ワンピース 倒せ！海賊ギャンザック",
+    "needs_review": false,
+    "src": "ann:6358",
+    "type": "copyright"
+  },
+  "one_piece_heroines": {
+    "count": 45,
+    "ja": "ONE PIECE HEROINES",
+    "needs_review": false,
+    "src": "wikidata:Q135683950",
     "type": "copyright"
   },
   "ongaku_shoujo_(2015)": {
@@ -6811,6 +9779,27 @@
     "ja": "おもひでぽろぽろ",
     "needs_review": false,
     "src": "wikidata:Q1045889",
+    "type": "copyright"
+  },
+  "ookami-san_to_shichinin_no_nakamatachi": {
+    "count": 74,
+    "ja": "オオカミさんと七人の仲間たち",
+    "needs_review": false,
+    "src": "ann:11221",
+    "type": "copyright"
+  },
+  "ookii_1_nensei_to_chiisana_2_nensei": {
+    "count": 30,
+    "ja": "大きい一年生と小さな二年生",
+    "needs_review": false,
+    "src": "ann:15689",
+    "type": "copyright"
+  },
+  "ore_wa_subete_wo_parry_suru": {
+    "count": 38,
+    "ja": "俺は全てを【パリイ】する〜逆勘違いの世界最強は冒険者になりたい〜",
+    "needs_review": false,
+    "src": "ann:30566",
     "type": "copyright"
   },
   "oreimo_series": {
@@ -6875,6 +9864,34 @@
     "src": "manual",
     "type": "copyright"
   },
+  "osomatsu-san_s2": {
+    "count": 40,
+    "ja": "おそ松さん 第2期",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
+  "oswald_the_lucky_rabbit": {
+    "count": 137,
+    "ja": "しあわせウサギのオズワルド",
+    "needs_review": false,
+    "src": "wikidata:Q110369945",
+    "type": "copyright"
+  },
+  "ouran_highschool_host_club": {
+    "count": 57,
+    "ja": "桜蘭高校ホスト部",
+    "needs_review": false,
+    "src": "ann:6122",
+    "type": "copyright"
+  },
+  "ousama_ranking:_yuuki_no_takarabako": {
+    "count": 157,
+    "ja": "王様ランキング 勇気の宝箱",
+    "needs_review": false,
+    "src": "ann:26193",
+    "type": "copyright"
+  },
   "outbreak_company": {
     "ja": "アウトブレイク・カンパニー",
     "needs_review": false,
@@ -6915,6 +9932,27 @@
     "ja": "オーバーウォッチ",
     "needs_review": false,
     "src": "wikidata:Q99569678",
+    "type": "copyright"
+  },
+  "owari_no_seraph_nagoya_kessen-hen": {
+    "count": 64,
+    "ja": "終わりのセラフ『名古屋決戦編』",
+    "needs_review": false,
+    "src": "ann:17482",
+    "type": "copyright"
+  },
+  "owarimonogatari": {
+    "count": 50,
+    "ja": "終物語",
+    "needs_review": false,
+    "src": "ann:17645",
+    "type": "copyright"
+  },
+  "panda_kopanda": {
+    "count": 56,
+    "ja": "パンダ・コパンダ",
+    "needs_review": false,
+    "src": "ann:352",
     "type": "copyright"
   },
   "panzer_world_galient_(ova)": {
@@ -6963,6 +10001,13 @@
     "ja": "ペルソナ5 (ゲーム)",
     "needs_review": false,
     "src": "wikidata:Q15225985",
+    "type": "copyright"
+  },
+  "persona_5_the_phantom_x": {
+    "count": 39,
+    "ja": "ペルソナ5: The Phantom X",
+    "needs_review": false,
+    "src": "wikidata:Q117750097",
     "type": "copyright"
   },
   "persona_series": {
@@ -7029,6 +10074,55 @@
     "src": "manual",
     "type": "copyright"
   },
+  "pokemon:_best_wishes!": {
+    "count": 168,
+    "ja": "ポケットモンスター ベストウイッシュ",
+    "needs_review": false,
+    "src": "ann:11685",
+    "type": "copyright"
+  },
+  "pokemon:_best_wishes!_season_2": {
+    "count": 39,
+    "ja": "ポケットモンスター ベストウイッシュ シーズン2",
+    "needs_review": false,
+    "src": "ann:14333",
+    "type": "copyright"
+  },
+  "pokemon:_diamond_&_pearl": {
+    "count": 494,
+    "ja": "ポケットモンスター ダイヤモンド＆パール",
+    "needs_review": false,
+    "src": "ann:6836",
+    "type": "copyright"
+  },
+  "pokemon:_paldean_winds": {
+    "count": 46,
+    "ja": "放課後のブレス",
+    "needs_review": false,
+    "src": "ann:29339",
+    "type": "copyright"
+  },
+  "pokemon:_the_origin": {
+    "count": 37,
+    "ja": "ポケットモンスター The Origin",
+    "needs_review": false,
+    "src": "ann:15574",
+    "type": "copyright"
+  },
+  "pokemon:_the_power_of_us": {
+    "count": 80,
+    "ja": "劇場版ポケットモンスター みんなの物語",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
+  "pokemon:_twilight_wings": {
+    "count": 69,
+    "ja": "薄明の翼",
+    "needs_review": false,
+    "src": "ann:23154",
+    "type": "copyright"
+  },
   "pokemon_(2019)": {
     "ja": "ポケットモンスター (2019)",
     "needs_review": false,
@@ -7039,6 +10133,69 @@
     "ja": "ポケットモンスター (2023)",
     "needs_review": false,
     "src": "wikidata:Q115733264",
+    "type": "copyright"
+  },
+  "pokemon_advanced_generation": {
+    "count": 437,
+    "ja": "ポケットモンスター アドバンスジェネレーション",
+    "needs_review": false,
+    "src": "wikidata:Q3008253",
+    "type": "copyright"
+  },
+  "pokemon_evolutions": {
+    "count": 100,
+    "ja": "Pokémon Evolutions",
+    "needs_review": false,
+    "src": "wikidata:Q108383955",
+    "type": "copyright"
+  },
+  "pokemon_generations": {
+    "count": 56,
+    "ja": "ポケモンジェネレーションズ",
+    "needs_review": false,
+    "src": "ann:18902",
+    "type": "copyright"
+  },
+  "pokemon_movie_14:_black_&_white_victini_and_reshiram/zekrom": {
+    "count": 30,
+    "ja": "劇場版ポケットモンスター ベストウイッシュ ビクティニと白き英雄レシラム",
+    "needs_review": false,
+    "src": "ann:12525",
+    "type": "copyright"
+  },
+  "pokemon_movie_20:_i_choose_you!": {
+    "count": 41,
+    "ja": "劇場版ポケットモンスター キミにきめた!",
+    "needs_review": false,
+    "src": "ann:19350",
+    "type": "copyright"
+  },
+  "pokemon_movie_21:_the_power_of_us": {
+    "count": 40,
+    "ja": "劇場版ポケットモンスター みんなの物語",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
+  "pokemon_movie_23:_secrets_of_the_jungle": {
+    "count": 40,
+    "ja": "劇場版ポケットモンスター ココ",
+    "needs_review": false,
+    "src": "ann:23540",
+    "type": "copyright"
+  },
+  "pokemon_xy:_mega_evolution": {
+    "count": 59,
+    "ja": "ポケットモンスターXY特別編 最強メガシンカ",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
+  "pokemon_xyz": {
+    "count": 175,
+    "ja": "ポケットモンスターXY&Z",
+    "needs_review": false,
+    "src": "ann:17650",
     "type": "copyright"
   },
   "popeye_the_sailor": {
@@ -7073,16 +10230,65 @@
     "src": "wikidata:Q1196203",
     "type": "copyright"
   },
+  "precure_all_stars_dx3_mirai_ni_todoke!_sekai_o_tsunagu_niji-iro_no_hana": {
+    "count": 34,
+    "ja": "映画 プリキュアオールスターズDX3 未来にとどけ! 世界をつなぐ☆虹色の花",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
   "presence": {
     "ja": "プレゼンス",
     "needs_review": false,
     "src": "manual",
     "type": "copyright"
   },
+  "prince_of_tennis_futari_no_samurai": {
+    "count": 50,
+    "ja": "テニスの王子様 二人のサムライ The First Game",
+    "needs_review": false,
+    "src": "ann:4433",
+    "type": "copyright"
+  },
+  "princess_connect_re:dive_(game)": {
+    "count": 75,
+    "ja": "プリンセスコネクト!Re:Dive",
+    "needs_review": false,
+    "src": "wikidata:Q61740575",
+    "type": "copyright"
+  },
+  "princess_connect_re:dive_season_1": {
+    "count": 91,
+    "ja": "プリンセスコネクト！Re:Dive 第1期",
+    "needs_review": false,
+    "src": "ann:21808",
+    "type": "copyright"
+  },
+  "princess_connect_re:dive_season_2": {
+    "count": 216,
+    "ja": "プリンセスコネクト！Re:Dive 第2期",
+    "needs_review": false,
+    "src": "ann:23565",
+    "type": "copyright"
+  },
+  "princess_connect_re:dive_tv": {
+    "count": 307,
+    "ja": "プリンセスコネクト！Re:Dive (TV)",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
   "prison_school": {
     "ja": "監獄学園",
     "needs_review": false,
     "src": "wikidata:Q52095596",
+    "type": "copyright"
+  },
+  "professor_layton_vs_phoenix_wright_ace_attorney": {
+    "count": 34,
+    "ja": "レイトン教授VS逆転裁判",
+    "needs_review": false,
+    "src": "wikidata:Q957410",
     "type": "copyright"
   },
   "program": {
@@ -7095,6 +10301,13 @@
     "ja": "PROJECT A",
     "needs_review": false,
     "src": "manual",
+    "type": "copyright"
+  },
+  "project_itoh": {
+    "count": 83,
+    "ja": "Project Itoh",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
     "type": "copyright"
   },
   "promise_(mv)": {
@@ -7115,6 +10328,27 @@
     "src": "wikidata:Q18578673",
     "type": "copyright"
   },
+  "psycho_pass_sinners_of_the_system": {
+    "count": 42,
+    "ja": "PSYCHO-PASS サイコパス Sinners of the System",
+    "needs_review": false,
+    "src": "wikidata:Q60753101",
+    "type": "copyright"
+  },
+  "puraore_pride_of_orange": {
+    "count": 34,
+    "ja": "プラオレ！～PRIDE OF ORANGE～",
+    "needs_review": false,
+    "src": "ann:23837",
+    "type": "copyright"
+  },
+  "puzzle_&_dragons_cross": {
+    "count": 79,
+    "ja": "パズドラクロス",
+    "needs_review": false,
+    "src": "ann:18430",
+    "type": "copyright"
+  },
   "qualidea_code": {
     "ja": "クオリディア・コード",
     "needs_review": false,
@@ -7133,16 +10367,37 @@
     "src": "wikidata:Q61654599",
     "type": "copyright"
   },
+  "raggedy_ann_and_andy": {
+    "count": 67,
+    "ja": "アンとアンディーの大冒険",
+    "needs_review": false,
+    "src": "wikidata:Q3417482",
+    "type": "copyright"
+  },
   "ragnarok": {
     "ja": "ラグナロク",
     "needs_review": false,
     "src": "manual",
     "type": "copyright"
   },
+  "rakshasa_street_season_three": {
+    "count": 102,
+    "ja": "鎮魂街 第3期",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
   "rakshasa_street_series": {
     "ja": "鎮魂街 シリーズ",
     "needs_review": false,
     "src": "manual",
+    "type": "copyright"
+  },
+  "rakushou!_hyper_doll": {
+    "count": 31,
+    "ja": "楽勝！ハイパードール",
+    "needs_review": false,
+    "src": "ann:681",
     "type": "copyright"
   },
   "rampo": {
@@ -7165,10 +10420,52 @@
     "src": "wikidata:Q3419007",
     "type": "copyright"
   },
+  "ranma_1/2_nihao_my_concubine": {
+    "count": 59,
+    "ja": "らんま1/2 決戦桃幻郷! 花嫁を奪りもどせ!!",
+    "needs_review": false,
+    "src": "ann:1533",
+    "type": "copyright"
+  },
   "rayearth_(ova)": {
     "ja": "レイアース",
     "needs_review": false,
     "src": "wikidata:Q127717082",
+    "type": "copyright"
+  },
+  "re:_cutey_honey": {
+    "count": 106,
+    "ja": "Re:キューティーハニー",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
+  "re:_zero_kara_hajimeru_isekai_seikatsu": {
+    "count": 161,
+    "ja": "Re:ゼロから始める異世界生活",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
+  "re:_zero_kara_hajimeru_isekai_seikatsu_season_2": {
+    "count": 42,
+    "ja": "Re:ゼロから始める異世界生活 2nd season",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
+  "re:_zero_kara_hajimeru_isekai_seikatsu_season_3": {
+    "count": 144,
+    "ja": "Re:ゼロから始める異世界生活 3rd season",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
+  "re:_zero_kara_hajimeru_isekai_seikatsu_season_4": {
+    "count": 196,
+    "ja": "Re:ゼロから始める異世界生活 4th Season",
+    "needs_review": false,
+    "src": "ann:35362",
     "type": "copyright"
   },
   "re:_zero_kara_hajimeru_isekai_seikatsu_series": {
@@ -7177,10 +10474,24 @@
     "src": "wikidata:Q137395368",
     "type": "copyright"
   },
+  "read_or_die_ova": {
+    "count": 61,
+    "ja": "リード・オア・ダイ",
+    "needs_review": false,
+    "src": "ann:819",
+    "type": "copyright"
+  },
   "read_or_die_series": {
     "ja": "R.O.D シリーズ",
     "needs_review": false,
     "src": "wikidata:Q488184",
+    "type": "copyright"
+  },
+  "read_or_die_the_tv": {
+    "count": 88,
+    "ja": "アール・オー・ディー ザ・ティーヴィー",
+    "needs_review": false,
+    "src": "ann:1989",
     "type": "copyright"
   },
   "rebellion_(mv)": {
@@ -7207,6 +10518,13 @@
     "src": "wikidata:Q1207954",
     "type": "copyright"
   },
+  "regalia_the_three_sacred_stars": {
+    "count": 62,
+    "ja": "レガリア The Three Sacred Stars",
+    "needs_review": false,
+    "src": "ann:18243",
+    "type": "copyright"
+  },
   "rei_kuroe": {
     "count": 7,
     "ja": "黒絵レイ",
@@ -7222,6 +10540,13 @@
     "needs_review": false,
     "src": "staffdb:境界戦機 極鋼ノ装鬼|機動戦士ガンダム 鉄血のオルフェンズ",
     "type": "artist"
+  },
+  "ren_and_stimpy": {
+    "count": 46,
+    "ja": "レンとスティンピー",
+    "needs_review": false,
+    "src": "wikidata:Q1361124",
+    "type": "copyright"
   },
   "ren_onodera": {
     "count": 50,
@@ -7357,10 +10682,52 @@
     "src": "wikidata:Q2113943",
     "type": "copyright"
   },
+  "road_of_naruto": {
+    "count": 31,
+    "ja": "ROAD OF NARUTO",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
+  "robert_psychosis_onehundred_s1": {
+    "count": 185,
+    "ja": "モブサイコ100",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
+  "robert_psychosis_onehundred_s2": {
+    "count": 368,
+    "ja": "モブサイコ100 II",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
   "robin_hood": {
     "ja": "ロビン・フッド",
     "needs_review": false,
     "src": "wikidata:Q19090",
+    "type": "copyright"
+  },
+  "robot_on_the_road": {
+    "count": 42,
+    "ja": "旅のロボから",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
+  "rockman_exe": {
+    "count": 129,
+    "ja": "ロックマンエグゼ",
+    "needs_review": false,
+    "src": "wikidata:Q104720451",
+    "type": "copyright"
+  },
+  "rockman_hoshi_ni_negai_o": {
+    "count": 30,
+    "ja": "ロックマン 星に願いを",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
     "type": "copyright"
   },
   "rockman_x_series": {
@@ -7424,6 +10791,13 @@
     "ja": "水の精",
     "needs_review": false,
     "src": "wikidata:Q1215176",
+    "type": "copyright"
+  },
+  "rwby_hyousetsu_teikoku": {
+    "count": 66,
+    "ja": "RWBY 氷雪帝国",
+    "needs_review": false,
+    "src": "ann:25471",
     "type": "copyright"
   },
   "ryo-timo": {
@@ -7591,6 +10965,20 @@
     "src": "manual:research-2026-10-30",
     "type": "artist"
   },
+  "ryuusei_no_rockman_tribe": {
+    "count": 47,
+    "ja": "流星のロックマン トライブ",
+    "needs_review": false,
+    "src": "ann:8865",
+    "type": "copyright"
+  },
+  "ryuuseiki_gakusaver": {
+    "count": 57,
+    "ja": "流星機ガクセイバー",
+    "needs_review": false,
+    "src": "ann:3252",
+    "type": "copyright"
+  },
   "ryuuta_ura": {
     "count": 27,
     "ja": "宇良隆太",
@@ -7606,6 +10994,13 @@
     "needs_review": false,
     "src": "atwiki:1597",
     "type": "artist"
+  },
+  "saber_marionette_r": {
+    "count": 69,
+    "ja": "SMガールズ セイバーマリオネットR",
+    "needs_review": false,
+    "src": "ann:79",
+    "type": "copyright"
   },
   "sachiko_fukuda": {
     "count": 70,
@@ -7647,6 +11042,13 @@
     "src": "staffdb:ガチアクタ|The Soul Taker 〜魂狩〜",
     "type": "artist"
   },
+  "saenai_heroine_no_sodatekata_♭": {
+    "count": 46,
+    "ja": "冴えない彼女の育てかた♭",
+    "needs_review": false,
+    "src": "ann:18917",
+    "type": "copyright"
+  },
   "saiyuuki": {
     "ja": "西遊記",
     "needs_review": false,
@@ -7668,6 +11070,27 @@
     "needs_review": false,
     "src": "atwiki:1907",
     "type": "artist"
+  },
+  "sakura_taisen:_gouka_kenran": {
+    "count": 32,
+    "ja": "サクラ大戦 轟華絢爛",
+    "needs_review": false,
+    "src": "ann:1015",
+    "type": "copyright"
+  },
+  "sakura_taisen:_ouka_kenran": {
+    "count": 41,
+    "ja": "サクラ大戦 桜華絢爛",
+    "needs_review": false,
+    "src": "ann:216",
+    "type": "copyright"
+  },
+  "sakura_taisen_3": {
+    "count": 31,
+    "ja": "サクラ大戦3 ～巴里は燃えているか～",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
   },
   "sakura_taisen_series": {
     "ja": "サクラ大戦",
@@ -7711,6 +11134,13 @@
     "src": "wikidata:Q125019012",
     "type": "copyright"
   },
+  "sanda_(tv)": {
+    "count": 95,
+    "ja": "SANDA",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
   "sangokushi": {
     "ja": "三国志",
     "needs_review": false,
@@ -7730,6 +11160,13 @@
     "needs_review": false,
     "src": "atwiki:1763",
     "type": "artist"
+  },
+  "saraba_uchuu_senkan_yamato:_ai_no_senchi_tachi": {
+    "count": 46,
+    "ja": "さらば宇宙戦艦ヤマト・愛の戦士たち",
+    "needs_review": false,
+    "src": "ann:2134",
+    "type": "copyright"
   },
   "satomi_higuchi": {
     "count": 5,
@@ -7881,10 +11318,31 @@
     "src": "staffdb:3月のライオン|キャロル＆チューズデイ|ねらわれた学園",
     "type": "artist"
   },
+  "sayonara_galaxy_express_999": {
+    "count": 70,
+    "ja": "さよなら銀河鉄道999 －アンドロメダ終着駅－",
+    "needs_review": false,
+    "src": "ann:508",
+    "type": "copyright"
+  },
   "sayonara_lara_(mv)": {
     "ja": "さよならララ (MV)",
     "needs_review": false,
     "src": "manual",
+    "type": "copyright"
+  },
+  "sazan_eyes": {
+    "count": 82,
+    "ja": "サザンアイズ",
+    "needs_review": false,
+    "src": "ann:382",
+    "type": "copyright"
+  },
+  "sazan_eyes:_seima_densetsu": {
+    "count": 63,
+    "ja": "3×3EYES聖魔伝説",
+    "needs_review": false,
+    "src": "ann:792",
     "type": "copyright"
   },
   "scandal_(video_game)": {
@@ -7899,10 +11357,45 @@
     "src": "wikidata:Q11703656",
     "type": "copyright"
   },
+  "scissor_seven_s2": {
+    "count": 70,
+    "ja": "シザー・セブン 第2期",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
+  "scissor_seven_s3": {
+    "count": 44,
+    "ja": "シザー・セブン 第3期",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
+  "scissor_seven_s4": {
+    "count": 32,
+    "ja": "シザー・セブン 第4期",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
   "scooby_doo_series": {
     "ja": "スクービー・ドゥー シリーズ",
     "needs_review": false,
     "src": "wikidata:Q205683",
+    "type": "copyright"
+  },
+  "sdf_macross:_do_you_remember_love?": {
+    "count": 75,
+    "ja": "超時空要塞マクロス 愛・おぼえていますか",
+    "needs_review": false,
+    "src": "ann:366",
+    "type": "copyright"
+  },
+  "sdf_macross_ii:_lovers_again": {
+    "count": 33,
+    "ja": "超時空要塞マクロスII -LOVERS AGAIN-",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
     "type": "copyright"
   },
   "sebastien_laudenbach": {
@@ -7959,10 +11452,24 @@
     "src": "staffdb:あかね噺|映像研には手を出すな!|アウトブレイク・カンパニー",
     "type": "artist"
   },
+  "seishun_buta_yarou_wa_bunny_girl_senpai_no_yume_wo_minai": {
+    "count": 39,
+    "ja": "青春ブタ野郎はバニーガール先輩の夢を見ない",
+    "needs_review": false,
+    "src": "ann:20848",
+    "type": "copyright"
+  },
   "seishun_buta_yarou_wa_bunny_girl_senpai_no_yume_wo_minai_series": {
     "ja": "青春ブタ野郎シリーズ",
     "needs_review": false,
     "src": "wikidata:Q133251942",
+    "type": "copyright"
+  },
+  "seishun_buta_yarou_wa_santa_claus_no_yume_wo_minai": {
+    "count": 30,
+    "ja": "青春ブタ野郎はサンタクロースの夢を見ない",
+    "needs_review": false,
+    "src": "ann:33077",
     "type": "copyright"
   },
   "sejoon_kim": {
@@ -7973,10 +11480,38 @@
     "src": "atwiki:744",
     "type": "artist"
   },
+  "sekirei_pure_engagement": {
+    "count": 136,
+    "ja": "セキレイ～Pure Engagement～",
+    "needs_review": false,
+    "src": "ann:11018",
+    "type": "copyright"
+  },
+  "sengoku_basara_the_last_party": {
+    "count": 39,
+    "ja": "劇場版 戦国BASARA －The Last Party－",
+    "needs_review": false,
+    "src": "ann:12387",
+    "type": "copyright"
+  },
   "sengoku_majin_goshogun_(1982)": {
     "ja": "戦国魔神ゴーショーグン (1982)",
     "needs_review": false,
     "src": "wikidata:Q137162288",
+    "type": "copyright"
+  },
+  "senki_zesshou_symphogear_g": {
+    "count": 96,
+    "ja": "戦姫絶唱シンフォギアG",
+    "needs_review": false,
+    "src": "ann:15228",
+    "type": "copyright"
+  },
+  "senki_zesshou_symphogear_gx": {
+    "count": 160,
+    "ja": "戦姫絶唱シンフォギアGX",
+    "needs_review": false,
+    "src": "ann:16312",
     "type": "copyright"
   },
   "senran_kagura_(game)": {
@@ -8035,10 +11570,31 @@
     "src": "wikidata:Q27890279",
     "type": "copyright"
   },
+  "shakugan_no_shana_ii": {
+    "count": 38,
+    "ja": "灼眼のシャナⅡ",
+    "needs_review": false,
+    "src": "ann:7847",
+    "type": "copyright"
+  },
+  "shakugan_no_shana_iii": {
+    "count": 110,
+    "ja": "灼眼のシャナⅢ（Final）",
+    "needs_review": false,
+    "src": "ann:13003",
+    "type": "copyright"
+  },
   "shaman_king": {
     "ja": "シャーマンキング",
     "needs_review": false,
     "src": "wikidata:Q106346619",
+    "type": "copyright"
+  },
+  "shamanic_princess": {
+    "count": 36,
+    "ja": "シャーマニックプリンセス",
+    "needs_review": false,
+    "src": "ann:730",
     "type": "copyright"
   },
   "shanghaied": {
@@ -8107,6 +11663,48 @@
     "src": "atwiki:812",
     "type": "artist"
   },
+  "shijou_saikyou_no_daimaou_murabito_a_ni_tensei_suru": {
+    "count": 33,
+    "ja": "史上最強の大魔王、村人Aに転生する",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
+  "shika_no_ou": {
+    "count": 118,
+    "ja": "鹿の王 ユナと約束の旅",
+    "needs_review": false,
+    "src": "ann:22024",
+    "type": "copyright"
+  },
+  "shikabane_hime_aka": {
+    "count": 67,
+    "ja": "屍姫 赫",
+    "needs_review": false,
+    "src": "ann:10053",
+    "type": "copyright"
+  },
+  "shin_getter_robo_tai_neo_getter_robo": {
+    "count": 42,
+    "ja": "真ゲッターロボ対ネオゲッターロボ",
+    "needs_review": false,
+    "src": "ann:1095",
+    "type": "copyright"
+  },
+  "shin_hurricane_polymar": {
+    "count": 33,
+    "ja": "新・破裏拳ポリマー",
+    "needs_review": false,
+    "src": "ann:679",
+    "type": "copyright"
+  },
+  "shin_kujakuou": {
+    "count": 32,
+    "ja": "真・孔雀王",
+    "needs_review": false,
+    "src": "ann:711",
+    "type": "copyright"
+  },
   "shin_matsuo": {
     "count": 155,
     "ja": "松尾慎",
@@ -8129,6 +11727,13 @@
     "src": "atwiki:1836",
     "type": "artist"
   },
+  "shinchou_yuusha": {
+    "count": 40,
+    "ja": "慎重勇者 ～この勇者が俺TUEEEくせに慎重すぎる～",
+    "needs_review": false,
+    "src": "ann:22213",
+    "type": "copyright"
+  },
   "shinga_nakamura": {
     "count": 40,
     "ja": "中村真我",
@@ -8136,6 +11741,13 @@
     "needs_review": false,
     "src": "staffdb:名探偵コナン|異世界ワンターンキル姉さん〜姉同伴の異世界生活はじめました〜|名探偵プリキュア!",
     "type": "artist"
+  },
+  "shingeki_no_bahamut": {
+    "count": 168,
+    "ja": "神撃のバハムート",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
   },
   "shingeki_no_kyojin_(ova)": {
     "ja": "進撃の巨人 (OVA)",
@@ -8263,6 +11875,13 @@
     "src": "atwiki:276",
     "type": "artist"
   },
+  "shinmai_ossan_boukensha": {
+    "count": 44,
+    "ja": "新米オッサン冒険者、 最強パーティに死ぬほど鍛えられて無敵になる。",
+    "needs_review": false,
+    "src": "ann:27725",
+    "type": "copyright"
+  },
   "shinnosuke_ota": {
     "count": 47,
     "ja": "太田慎之介",
@@ -8318,6 +11937,13 @@
     "needs_review": false,
     "src": "atwiki:850",
     "type": "artist"
+  },
+  "shinsekai_yori": {
+    "count": 56,
+    "ja": "新世界より",
+    "needs_review": false,
+    "src": "ann:14089",
+    "type": "copyright"
   },
   "shinsuke_terasawa": {
     "ja": "寺沢伸介",
@@ -8396,6 +12022,13 @@
     "needs_review": false,
     "src": "wikidata:Q60991144",
     "type": "artist"
+  },
+  "shiunji-ke_no_kodomotachi": {
+    "count": 42,
+    "ja": "紫雲寺家の子供たち",
+    "needs_review": false,
+    "src": "ann:32099",
+    "type": "copyright"
   },
   "sho_oi": {
     "count": 39,
@@ -8702,10 +12335,38 @@
     "src": "atwiki:2103",
     "type": "artist"
   },
+  "silly_symphony": {
+    "count": 241,
+    "ja": "シリー・シンフォニー",
+    "needs_review": false,
+    "src": "wikidata:Q909166",
+    "type": "copyright"
+  },
   "sister_princess": {
     "ja": "シスター・プリンセス",
     "needs_review": false,
     "src": "wikidata:Q702922",
+    "type": "copyright"
+  },
+  "six_heart_princess": {
+    "count": 78,
+    "ja": "シックスハートプリンセス",
+    "needs_review": false,
+    "src": "ann:16749",
+    "type": "copyright"
+  },
+  "sk8": {
+    "count": 140,
+    "ja": "SK∞ エスケーエイト",
+    "needs_review": false,
+    "src": "ann:23777",
+    "type": "copyright"
+  },
+  "sk8_extra_part": {
+    "count": 34,
+    "ja": "SK∞ エスケーエイト EXTRA PART",
+    "needs_review": false,
+    "src": "ann:26224",
     "type": "copyright"
   },
   "skull_island": {
@@ -8736,6 +12397,13 @@
     "ja": "スレイヤーズぷれみあむ",
     "needs_review": false,
     "src": "wikidata:Q2293949",
+    "type": "copyright"
+  },
+  "slayers_try": {
+    "count": 42,
+    "ja": "スレイヤーズ TRY",
+    "needs_review": false,
+    "src": "ann:658",
     "type": "copyright"
   },
   "sleeping_beauty": {
@@ -8776,6 +12444,13 @@
     "src": "manual",
     "type": "copyright"
   },
+  "sora_wo_kakeru_shoujo": {
+    "count": 52,
+    "ja": "宇宙をかける少女",
+    "needs_review": false,
+    "src": "ann:10272",
+    "type": "copyright"
+  },
   "sorato_shimizu": {
     "count": 35,
     "ja": "清水空翔",
@@ -8799,6 +12474,13 @@
     "needs_review": false,
     "src": "atwiki:2065",
     "type": "artist"
+  },
+  "soukyuu_no_fafner_exodus": {
+    "count": 33,
+    "ja": "蒼穹のファフナー EXODUS",
+    "needs_review": false,
+    "src": "ann:15051",
+    "type": "copyright"
   },
   "souta_yamazaki": {
     "count": 169,
@@ -8840,6 +12522,13 @@
     "src": "wikidata:Q569934",
     "type": "copyright"
   },
+  "spider-verse": {
+    "count": 71,
+    "ja": "スパイダーマン:スパイダーバース",
+    "needs_review": false,
+    "src": "wikidata:Q29588607",
+    "type": "copyright"
+  },
   "spriggan_(2022)": {
     "ja": "スプリガン (2022)",
     "needs_review": false,
@@ -8850,6 +12539,20 @@
     "ja": "春の唄",
     "needs_review": false,
     "src": "wikidata:Q106399001",
+    "type": "copyright"
+  },
+  "ssss_dynazenon": {
+    "count": 101,
+    "ja": "SSSS.DYNAZENON",
+    "needs_review": false,
+    "src": "wikidata:Q100050258",
+    "type": "copyright"
+  },
+  "ssss_gridman": {
+    "count": 186,
+    "ja": "SSSS.GRIDMAN",
+    "needs_review": false,
+    "src": "wikidata:Q48844022",
     "type": "copyright"
   },
   "star_ocean_series": {
@@ -8864,6 +12567,27 @@
     "src": "wikidata:Q462",
     "type": "copyright"
   },
+  "star_wars_visions_volume_1": {
+    "count": 77,
+    "ja": "スター・ウォーズ: ビジョンズ Volume 1",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
+  "star_wars_visions_volume_2": {
+    "count": 52,
+    "ja": "スター・ウォーズ：ビジョンズ Volume 2",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
+  "star_wars_visions_volume_3": {
+    "count": 107,
+    "ja": "スター・ウォーズ：ビジョンズ Volume 3",
+    "needs_review": false,
+    "src": "ann:34067",
+    "type": "copyright"
+  },
   "steins;gate_0": {
     "ja": "シュタインズ・ゲート ゼロ",
     "needs_review": false,
@@ -8874,6 +12598,13 @@
     "ja": "ストリートファイター",
     "needs_review": false,
     "src": "wikidata:Q288035",
+    "type": "copyright"
+  },
+  "street_fighter_ii_the_motion_picture": {
+    "count": 54,
+    "ja": "ストリートファイターⅡ MOVIE",
+    "needs_review": false,
+    "src": "ann:2302",
     "type": "copyright"
   },
   "suika": {
@@ -8920,6 +12651,34 @@
     "src": "atwiki:1004",
     "type": "artist"
   },
+  "super_atragon": {
+    "count": 41,
+    "ja": "新海底軍艦",
+    "needs_review": false,
+    "src": "ann:617",
+    "type": "copyright"
+  },
+  "super_crooks": {
+    "count": 69,
+    "ja": "スーパー・クルックス",
+    "needs_review": false,
+    "src": "ann:24454",
+    "type": "copyright"
+  },
+  "super_robot_wars_og:_the_animation": {
+    "count": 47,
+    "ja": "スーパーロボット大戦Original Generation The Animation",
+    "needs_review": false,
+    "src": "ann:4431",
+    "type": "copyright"
+  },
+  "super_robot_wars_og:_the_inspector": {
+    "count": 92,
+    "ja": "スーパーロボット大戦OG ジ・インスペクター",
+    "needs_review": false,
+    "src": "ann:11760",
+    "type": "copyright"
+  },
   "supergirl_(mv)": {
     "ja": "Supergirl",
     "needs_review": false,
@@ -8942,6 +12701,13 @@
     "ja": "スーパーマン アニメ・シリーズ",
     "needs_review": false,
     "src": "wikidata:Q1277432",
+    "type": "copyright"
+  },
+  "supernatural_the_animation": {
+    "count": 33,
+    "ja": "スーパーナチュラル・ザ・アニメーション",
+    "needs_review": false,
+    "src": "ann:12032",
     "type": "copyright"
   },
   "survival_series": {
@@ -8974,10 +12740,31 @@
     "src": "atwiki:2177",
     "type": "artist"
   },
+  "sword_art_online_alicization": {
+    "count": 139,
+    "ja": "ソードアート・オンライン アリシゼーション",
+    "needs_review": false,
+    "src": "ann:20665",
+    "type": "copyright"
+  },
   "sword_art_online_alicization_series": {
     "ja": "ソードアート・オンライン アリシゼーション シリーズ",
     "needs_review": false,
     "src": "manual",
+    "type": "copyright"
+  },
+  "sword_art_online_alternative:_gun_gale_online_ii": {
+    "count": 56,
+    "ja": "ソードアート・オンライン オルタナティブ ガンゲイル・オンライン II",
+    "needs_review": false,
+    "src": "ann:29052",
+    "type": "copyright"
+  },
+  "sword_art_online_ii": {
+    "count": 98,
+    "ja": "ソードアート・オンライン II",
+    "needs_review": false,
+    "src": "ann:15804",
     "type": "copyright"
   },
   "tadaaki_miyata": {
@@ -9035,6 +12822,13 @@
     "needs_review": false,
     "src": "atwiki:335",
     "type": "artist"
+  },
+  "tai_ari_deshita_ojou_sama_wa_kakutou_game_nante_shinai": {
+    "count": 43,
+    "ja": "対ありでした。～お嬢さまは格闘ゲームなんてしない～",
+    "needs_review": false,
+    "src": "ann:34922",
+    "type": "copyright"
   },
   "taichi_ogawa": {
     "count": 11,
@@ -9534,10 +13328,31 @@
     "src": "wikidata:Q11417935",
     "type": "artist"
   },
+  "tales_of_phantasia:_the_animation": {
+    "count": 46,
+    "ja": "テイルズ・オブ・ファンタジア",
+    "needs_review": false,
+    "src": "ann:3341",
+    "type": "copyright"
+  },
+  "tales_of_vesperia_the_first_strike": {
+    "count": 89,
+    "ja": "テイルズ オブ ヴェスペリア ～The First Strike～",
+    "needs_review": false,
+    "src": "ann:10759",
+    "type": "copyright"
+  },
   "talesweaver": {
     "ja": "テイルズウィーバー",
     "needs_review": false,
     "src": "wikidata:Q484913",
+    "type": "copyright"
+  },
+  "talkartoons": {
+    "count": 57,
+    "ja": "トーカートゥーン",
+    "needs_review": false,
+    "src": "wikidata:Q3980443",
     "type": "copyright"
   },
   "tamako_horiuchi": {
@@ -9578,10 +13393,24 @@
     "src": "wikidata:Q23680095",
     "type": "copyright"
   },
+  "tanken_driland_1000_nen_no_mahō": {
+    "count": 82,
+    "ja": "探検ドリランド -1000年の真宝-",
+    "needs_review": false,
+    "src": "ann:15206",
+    "type": "copyright"
+  },
   "tantei_opera_milky_holmes": {
     "ja": "探偵オペラ ミルキィホームズ",
     "needs_review": false,
     "src": "wikidata:Q134955581",
+    "type": "copyright"
+  },
+  "tantei_opera_milky_holmes_dai_2_maku": {
+    "count": 41,
+    "ja": "探偵オペラ ミルキィホームズ 第2幕",
+    "needs_review": false,
+    "src": "ann:13314",
     "type": "copyright"
   },
   "tantei_opera_milky_holmes_series": {
@@ -9594,6 +13423,20 @@
     "ja": "ターザン",
     "needs_review": false,
     "src": "wikidata:Q208696",
+    "type": "copyright"
+  },
+  "tatami_galaxy": {
+    "count": 69,
+    "ja": "四畳半神話大系",
+    "needs_review": false,
+    "src": "ann:11200",
+    "type": "copyright"
+  },
+  "tatsuki_fujimoto:_17-26": {
+    "count": 75,
+    "ja": "藤本タツキ 17-26",
+    "needs_review": false,
+    "src": "ann:37753",
     "type": "copyright"
   },
   "tatsunori_inatsu": {
@@ -9725,10 +13568,38 @@
     "src": "atwiki:691",
     "type": "artist"
   },
+  "teito_monogatari": {
+    "count": 36,
+    "ja": "帝都物語",
+    "needs_review": false,
+    "src": "wikidata:Q2421857",
+    "type": "copyright"
+  },
   "telepathy_shoujo_ran": {
     "ja": "テレパシー少女 蘭",
     "needs_review": false,
     "src": "wikidata:Q136259350",
+    "type": "copyright"
+  },
+  "tenchi_muyo_ryo_ohki": {
+    "count": 58,
+    "ja": "天地無用！魎皇鬼",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
+  "tenchi_muyo_ryo_ohki_dai_1-ki": {
+    "count": 30,
+    "ja": "天地無用! 魎皇鬼",
+    "needs_review": false,
+    "src": "ann:919",
+    "type": "copyright"
+  },
+  "tengen_toppa_gurren_lagann:_lagann-hen": {
+    "count": 57,
+    "ja": "天元突破グレンラガン 螺巌篇",
+    "needs_review": false,
+    "src": "ann:10576",
     "type": "copyright"
   },
   "tenohira": {
@@ -9749,6 +13620,34 @@
     "ja": "天才バカボン シリーズ",
     "needs_review": false,
     "src": "manual",
+    "type": "copyright"
+  },
+  "tensei_kenja_no_isekai_life": {
+    "count": 54,
+    "ja": "転生賢者の異世界ライフ 〜第二の職業を得て、世界最強になりました〜",
+    "needs_review": false,
+    "src": "ann:24003",
+    "type": "copyright"
+  },
+  "tensei_kizoku_kantei_skill_de_nariagaru": {
+    "count": 40,
+    "ja": "転生貴族、鑑定スキルで成り上がる",
+    "needs_review": false,
+    "src": "ann:28178",
+    "type": "copyright"
+  },
+  "tensei_shitara_slime_datta_ken:_guren_no_kizuna-hen": {
+    "count": 68,
+    "ja": "転生したらスライムだった件 紅蓮の絆編",
+    "needs_review": false,
+    "src": "ann:24754",
+    "type": "copyright"
+  },
+  "terraformars_revenge": {
+    "count": 50,
+    "ja": "テラフォーマーズ リベンジ",
+    "needs_review": false,
+    "src": "ann:17793",
     "type": "copyright"
   },
   "teruaki_tokumaru": {
@@ -9818,6 +13717,20 @@
     "src": "wikidata:Q3391330",
     "type": "copyright"
   },
+  "tetsuwan_birdy_decode": {
+    "count": 76,
+    "ja": "鉄腕バーディーDECODE",
+    "needs_review": false,
+    "src": "ann:9287",
+    "type": "copyright"
+  },
+  "tetsuwan_birdy_decode_2": {
+    "count": 119,
+    "ja": "鉄腕バーディー DECODE:02",
+    "needs_review": false,
+    "src": "ann:10207",
+    "type": "copyright"
+  },
   "tetsuya_ishikawa": {
     "count": 361,
     "ja": "石川哲也",
@@ -9846,6 +13759,20 @@
     "ja": "ザ・ボクサー",
     "needs_review": false,
     "src": "wikidata:Q141678355",
+    "type": "copyright"
+  },
+  "the_concierge": {
+    "count": 48,
+    "ja": "北極百貨店のコンシェルジュさん",
+    "needs_review": false,
+    "src": "ann:28019",
+    "type": "copyright"
+  },
+  "the_daichis_earth_defence_family": {
+    "count": 108,
+    "ja": "地球防衛家族",
+    "needs_review": false,
+    "src": "ann:1257",
     "type": "copyright"
   },
   "the_great_passage": {
@@ -9878,6 +13805,20 @@
     "src": "wikidata:Q2480998",
     "type": "copyright"
   },
+  "the_idolmaster_gakuen_music_videos": {
+    "count": 58,
+    "ja": "学園アイドルマスター MV",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
+  "the_idolmaster_kagayaki_no_mukougawa_e!": {
+    "count": 101,
+    "ja": "THE IDOLM@STER MOVIE 輝きの向こう側へ!",
+    "needs_review": false,
+    "src": "ann:15129",
+    "type": "copyright"
+  },
   "the_illusionist": {
     "ja": "イリュージョニスト",
     "needs_review": false,
@@ -9896,6 +13837,41 @@
     "src": "wikidata:Q110946281",
     "type": "copyright"
   },
+  "the_legend_of_hei_movie_2": {
+    "count": 144,
+    "ja": "羅小黒戦記2 ぼくらが望む未来",
+    "needs_review": false,
+    "src": "wikidata:Q135420006",
+    "type": "copyright"
+  },
+  "the_legend_of_korra_book_four": {
+    "count": 61,
+    "ja": "レジェンド・オブ・コーラ 第4期",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
+  "the_legend_of_korra_book_one": {
+    "count": 104,
+    "ja": "レジェンド・オブ・コーラ 第1期",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
+  "the_legend_of_korra_book_three": {
+    "count": 71,
+    "ja": "レジェンド・オブ・コーラ 第3期",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
+  "the_legend_of_korra_book_two": {
+    "count": 75,
+    "ja": "レジェンド・オブ・コーラ 第2期",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
   "the_little_mermaid": {
     "ja": "リトル・マーメイド",
     "needs_review": false,
@@ -9906,6 +13882,13 @@
     "ja": "モンキー・キング",
     "needs_review": false,
     "src": "wikidata:Q118869690",
+    "type": "copyright"
+  },
+  "the_ninth_jedi_(2026)": {
+    "count": 105,
+    "ja": "スター・ウォーズ:ビジョンズ/九人目のジェダイ",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
     "type": "copyright"
   },
   "the_ninth_jedi_series": {
@@ -9938,10 +13921,52 @@
     "src": "wikidata:Q11306543",
     "type": "copyright"
   },
+  "the_super_dimension_century_orguss": {
+    "count": 32,
+    "ja": "超時空世紀オーガス",
+    "needs_review": false,
+    "src": "ann:708",
+    "type": "copyright"
+  },
   "the_thief_and_the_cobbler": {
     "ja": "泥棒と靴屋",
     "needs_review": false,
     "src": "wikidata:Q2657071",
+    "type": "copyright"
+  },
+  "the_third_the_girl_with_the_blue_eye": {
+    "count": 52,
+    "ja": "ザ・サード ～蒼い瞳の少女～",
+    "needs_review": false,
+    "src": "ann:6466",
+    "type": "copyright"
+  },
+  "the_unlimited_-_hyoubu_kyousuke": {
+    "count": 63,
+    "ja": "THE UNLIMITED 兵部京介",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
+  "the_wings_of_honneamise": {
+    "count": 75,
+    "ja": "王立宇宙軍 オネアミスの翼",
+    "needs_review": false,
+    "src": "ann:495",
+    "type": "copyright"
+  },
+  "the_wings_of_rean": {
+    "count": 60,
+    "ja": "リーンの翼",
+    "needs_review": false,
+    "src": "ann:5950",
+    "type": "copyright"
+  },
+  "the_witcher:_nightmare_of_the_wolf": {
+    "count": 35,
+    "ja": "ウィッチャー 狼の悪夢",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
     "type": "copyright"
   },
   "the_witcher_series": {
@@ -9972,6 +13997,34 @@
     "ja": "タイムギャル",
     "needs_review": false,
     "src": "wikidata:Q1983270",
+    "type": "copyright"
+  },
+  "to_aru_kagaku_no_railgun_s": {
+    "count": 152,
+    "ja": "とある科学の超電磁砲S",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
+  "to_aru_kagaku_no_railgun_t": {
+    "count": 92,
+    "ja": "とある科学の超電磁砲T",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
+  "to_aru_majutsu_no_index_endymion_no_kiseki": {
+    "count": 37,
+    "ja": "とある魔術の禁書目録（インデックス） エンデュミオンの奇蹟",
+    "needs_review": false,
+    "src": "ann:13635",
+    "type": "copyright"
+  },
+  "to_aru_majutsu_no_index_ii": {
+    "count": 112,
+    "ja": "とある魔術の禁書目録（インデックス）Ⅱ",
+    "needs_review": false,
+    "src": "ann:11602",
     "type": "copyright"
   },
   "to_aru_series": {
@@ -10010,6 +14063,20 @@
     "src": "wikidata:Q61976583",
     "type": "copyright"
   },
+  "to_your_eternity_s3": {
+    "count": 30,
+    "ja": "不滅のあなたへ 第3期",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
+  "toi_umi_kara_kita_coo": {
+    "count": 37,
+    "ja": "COO: 遠い海から来たCOO",
+    "needs_review": false,
+    "src": "ann:1943",
+    "type": "copyright"
+  },
   "tokiemon_futsuzawa": {
     "count": 8,
     "ja": "普津澤時ヱ門",
@@ -10024,6 +14091,13 @@
     "src": "wikidata:Q7470389",
     "type": "copyright"
   },
+  "tokyo_clone_(mv)": {
+    "count": 34,
+    "ja": "東京クローン",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
   "tokyo_ghoul": {
     "ja": "東京喰種トーキョーグール",
     "needs_review": false,
@@ -10034,6 +14108,13 @@
     "ja": "東京喰種トーキョーグール：re",
     "needs_review": false,
     "src": "wikidata:Q107429584",
+    "type": "copyright"
+  },
+  "tokyo_ghoul_√a": {
+    "count": 82,
+    "ja": "東京喰種√A",
+    "needs_review": false,
+    "src": "ann:16318",
     "type": "copyright"
   },
   "tokyo_revengers": {
@@ -10227,6 +14308,20 @@
     "src": "staffdb:ぶっちぎり?!|地獄楽|名探偵プリキュア!",
     "type": "artist"
   },
+  "top_wo_nerae!_gunbuster": {
+    "count": 73,
+    "ja": "トップをねらえ！",
+    "needs_review": false,
+    "src": "ann:466",
+    "type": "copyright"
+  },
+  "top_wo_nerae_2!_diebuster": {
+    "count": 185,
+    "ja": "トップをねらえ2！",
+    "needs_review": false,
+    "src": "ann:3920",
+    "type": "copyright"
+  },
   "toru_iwazawa": {
     "count": 208,
     "ja": "岩澤亨",
@@ -10376,6 +14471,20 @@
     "src": "wikidata:Q619500",
     "type": "copyright"
   },
+  "touhou_project": {
+    "count": 127,
+    "ja": "東方Project",
+    "needs_review": false,
+    "src": "wikidata:Q907907",
+    "type": "copyright"
+  },
+  "towa_no_quon": {
+    "count": 60,
+    "ja": "トワノクオン",
+    "needs_review": false,
+    "src": "ann:12428",
+    "type": "copyright"
+  },
   "toward_the_terra_(tv)": {
     "ja": "地球へ… (TV)",
     "needs_review": false,
@@ -10404,6 +14513,13 @@
     "src": "wikidata:Q1323565",
     "type": "copyright"
   },
+  "trava": {
+    "count": 61,
+    "ja": "TRAVA FIST PLANET",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
   "tribe_nine": {
     "ja": "TRIBE NINE",
     "needs_review": false,
@@ -10420,6 +14536,13 @@
     "ja": "トリニティセブン",
     "needs_review": false,
     "src": "wikidata:Q65040519",
+    "type": "copyright"
+  },
+  "tropical_rouge_precure": {
+    "count": 90,
+    "ja": "トロピカル～ジュ！プリキュア",
+    "needs_review": false,
+    "src": "ann:23900",
     "type": "copyright"
   },
   "tsubasa_hatashima": {
@@ -10459,6 +14582,13 @@
     "needs_review": false,
     "src": "atwiki:221",
     "type": "artist"
+  },
+  "tsurune:_tsunagari_no_issha": {
+    "count": 114,
+    "ja": "ツルネ －つながりの一射－",
+    "needs_review": false,
+    "src": "ann:26233",
+    "type": "copyright"
   },
   "tsutomu_awada": {
     "count": 44,
@@ -10506,6 +14636,20 @@
     "src": "manual:research-2026-10-30",
     "type": "copyright"
   },
+  "uchuu_kaizoku_mito_no_daibouken:_futari_no_jou_sama": {
+    "count": 30,
+    "ja": "宇宙海賊ミトの大冒険 2人の女王様",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
+  "uchuu_senkan_yamato_2202": {
+    "count": 30,
+    "ja": "宇宙戦艦ヤマト2202 愛の戦士たち",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
   "uchuu_senshi_baldios_(movie)": {
     "ja": "宇宙戦士バルディオス (映画)",
     "needs_review": false,
@@ -10522,6 +14666,20 @@
     "ja": "ウルトラシリーズ",
     "needs_review": false,
     "src": "wikidata:Q1340870",
+    "type": "copyright"
+  },
+  "uma_musume_pretty_derby_beginning_of_a_new_era": {
+    "count": 144,
+    "ja": "ウマ娘 プリティーダービー 新時代の扉",
+    "needs_review": false,
+    "src": "ann:31171",
+    "type": "copyright"
+  },
+  "uma_musume_pretty_derby_road_to_the_top": {
+    "count": 178,
+    "ja": "ウマ娘 プリティーダービー ROAD TO THE TOP",
+    "needs_review": false,
+    "src": "ann:32558",
     "type": "copyright"
   },
   "uma_musume_series": {
@@ -10548,6 +14706,13 @@
     "src": "wikidata:Q3216881",
     "type": "copyright"
   },
+  "urusei_yatsura_2022": {
+    "count": 118,
+    "ja": "うる星やつら (2022)",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
   "urusei_yatsura_series": {
     "ja": "うる星やつら",
     "needs_review": false,
@@ -10568,6 +14733,20 @@
     "src": "wikidata:Q66366745",
     "type": "copyright"
   },
+  "utawarerumono:_futari_no_hakuoro": {
+    "count": 60,
+    "ja": "うたわれるもの 二人の白皇",
+    "needs_review": false,
+    "src": "ann:24991",
+    "type": "copyright"
+  },
+  "utawarerumono_itsuwari_no_kamen": {
+    "count": 73,
+    "ja": "うたわれるもの 偽りの仮面",
+    "needs_review": false,
+    "src": "ann:17186",
+    "type": "copyright"
+  },
   "valkyria_chronicles_series": {
     "ja": "戦場のヴァルキュリアシリーズ",
     "needs_review": false,
@@ -10584,6 +14763,20 @@
     "ja": "ヴァンパイアハンター THE ANIMATED SERIES シリーズ",
     "needs_review": false,
     "src": "wikidata:Q891681",
+    "type": "copyright"
+  },
+  "vampire_hunter_d_bloodlust": {
+    "count": 80,
+    "ja": "バンパイアハンターD",
+    "needs_review": false,
+    "src": "ann:238",
+    "type": "copyright"
+  },
+  "vampire_in_the_garden": {
+    "count": 104,
+    "ja": "ヴァンパイア・イン・ザ・ガーデン",
+    "needs_review": false,
+    "src": "ann:24961",
     "type": "copyright"
   },
   "vampire_princess_miyu_(tv)": {
@@ -10636,10 +14829,73 @@
     "src": "wikidata:Q124290761",
     "type": "copyright"
   },
+  "violet_evergarden_gaiden:_eternity_and_the_auto_memory_doll": {
+    "count": 32,
+    "ja": "ヴァイオレット・エヴァーガーデン 外伝 - 永遠と自動手記人形 -",
+    "needs_review": false,
+    "src": "ann:22377",
+    "type": "copyright"
+  },
+  "virgin_punk": {
+    "count": 48,
+    "ja": "ヴァージン・パンク",
+    "needs_review": false,
+    "src": "ann:33553",
+    "type": "copyright"
+  },
+  "vlad_love": {
+    "count": 32,
+    "ja": "ぶらどらぶ",
+    "needs_review": false,
+    "src": "wikidata:Q79397488",
+    "type": "copyright"
+  },
+  "voltron_legendary_defender": {
+    "count": 43,
+    "ja": "ヴォルトロン",
+    "needs_review": false,
+    "src": "wikidata:Q24034511",
+    "type": "copyright"
+  },
+  "vs_knight_ramune_&_40_fire": {
+    "count": 61,
+    "ja": "VS騎士ラムネ&40炎",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
+  "vs_knight_ramune_&_40_fresh": {
+    "count": 31,
+    "ja": "VS騎士ラムネ&40FRESH",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
+  "vspo!": {
+    "count": 40,
+    "ja": "ぶいすぽっ！",
+    "needs_review": false,
+    "src": "wikidata:Q107862049",
+    "type": "copyright"
+  },
   "wagamama☆fairy_mirumo_de_pon!_series": {
     "ja": "わがまま☆フェアリー ミルモでポン! シリーズ",
     "needs_review": false,
     "src": "manual",
+    "type": "copyright"
+  },
+  "wakaokami_wa_shougakusei!": {
+    "count": 81,
+    "ja": "若おかみは小学生！",
+    "needs_review": false,
+    "src": "ann:20733",
+    "type": "copyright"
+  },
+  "wakaokami_wa_shougakusei!_(movie)": {
+    "count": 74,
+    "ja": "若おかみは小学生！ (映画)",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
     "type": "copyright"
   },
   "wake_up_girls!_series": {
@@ -10652,6 +14908,20 @@
     "ja": "ワクフ",
     "needs_review": false,
     "src": "wikidata:Q2760256",
+    "type": "copyright"
+  },
+  "wakusei_robo_danguard_a": {
+    "count": 41,
+    "ja": "惑星ロボ ダンガードA",
+    "needs_review": false,
+    "src": "wikidata:Q701768",
+    "type": "copyright"
+  },
+  "wan_wan_chushingura": {
+    "count": 48,
+    "ja": "ワンワン忠心蔵",
+    "needs_review": false,
+    "src": "ann:1464",
     "type": "copyright"
   },
   "warframe": {
@@ -10714,6 +14984,20 @@
     "src": "wikidata:Q17984894",
     "type": "copyright"
   },
+  "wixoss": {
+    "count": 126,
+    "ja": "WIXOSS",
+    "needs_review": false,
+    "src": "wikidata:Q17128296",
+    "type": "copyright"
+  },
+  "wolf_children": {
+    "count": 148,
+    "ja": "おおかみこどもの雨と雪",
+    "needs_review": false,
+    "src": "ann:13862",
+    "type": "copyright"
+  },
   "wolf_guy": {
     "ja": "ウルフガイ",
     "needs_review": false,
@@ -10738,6 +15022,13 @@
     "src": "wikidata:Q488937",
     "type": "copyright"
   },
+  "wonderhatch:_soratobu_ryu_no_shima": {
+    "count": 32,
+    "ja": "ワンダーハッチ -空飛ぶ竜の島-",
+    "needs_review": false,
+    "src": "ann:26667",
+    "type": "copyright"
+  },
   "woody_woodpecker": {
     "ja": "ウッディー・ウッドペッカー",
     "needs_review": false,
@@ -10760,6 +15051,20 @@
     "ja": "ワールド オブ ファイナルファンタジー",
     "needs_review": false,
     "src": "wikidata:Q20189428",
+    "type": "copyright"
+  },
+  "world_trigger_second_season": {
+    "count": 65,
+    "ja": "ワールドトリガー 2ndシーズン",
+    "needs_review": false,
+    "src": "ann:23782",
+    "type": "copyright"
+  },
+  "world_trigger_third_season": {
+    "count": 56,
+    "ja": "ワールドトリガー 3rdシーズン",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
     "type": "copyright"
   },
   "world_witches_series": {
@@ -10792,16 +15097,65 @@
     "src": "manual",
     "type": "copyright"
   },
+  "x_the_movie": {
+    "count": 55,
+    "ja": "X (劇場版)",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
+  "xam'd_lost_memories": {
+    "count": 247,
+    "ja": "亡念のザムド",
+    "needs_review": false,
+    "src": "ann:9747",
+    "type": "copyright"
+  },
+  "xian_wang_de_ri_chang_sheng_huo_season_2": {
+    "count": 49,
+    "ja": "不死身な僕の日常 シーズン2",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
   "xxxholic": {
     "ja": "xxxHOLiC",
     "needs_review": false,
     "src": "wikidata:Q116695507",
     "type": "copyright"
   },
+  "yahari_ore_no_seishun_love_comedy_wa_machigatteiru_zoku": {
+    "count": 41,
+    "ja": "やはり俺の青春ラブコメはまちがっている。続",
+    "needs_review": false,
+    "src": "ann:16329",
+    "type": "copyright"
+  },
   "yaiba_series": {
     "ja": "YAIBA シリーズ",
     "needs_review": false,
     "src": "wikidata:Q626947",
+    "type": "copyright"
+  },
+  "yama_no_susume:_next_summit": {
+    "count": 325,
+    "ja": "ヤマノススメ Next Summit",
+    "needs_review": false,
+    "src": "ann:24161",
+    "type": "copyright"
+  },
+  "yama_no_susume:_second_season": {
+    "count": 113,
+    "ja": "ヤマノススメ セカンドシーズン",
+    "needs_review": false,
+    "src": "ann:15813",
+    "type": "copyright"
+  },
+  "yama_no_susume:_third_season": {
+    "count": 102,
+    "ja": "ヤマノススメ サードシーズン",
+    "needs_review": false,
+    "src": "ann:20513",
     "type": "copyright"
   },
   "yamato_series": {
@@ -10848,6 +15202,13 @@
     "needs_review": false,
     "src": "staffdb:青春×機関銃|爆転シュート ベイブレード|爆転シュート ベイブレード",
     "type": "artist"
+  },
+  "yasuke": {
+    "count": 43,
+    "ja": "Yasuke -ヤスケ-",
+    "needs_review": false,
+    "src": "ann:24121",
+    "type": "copyright"
   },
   "yasunori_miyazawa": {
     "count": 358,
@@ -10903,6 +15264,13 @@
     "src": "manual",
     "type": "copyright"
   },
+  "yoasobi_music_videos": {
+    "count": 66,
+    "ja": "YOASOBI MV",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
   "yohei_yaegashi": {
     "count": 28,
     "ja": "八重樫洋平",
@@ -10927,6 +15295,13 @@
     "src": "atwiki:175",
     "type": "artist"
   },
+  "yondemasu_yo_azazel-san": {
+    "count": 56,
+    "ja": "よんでますよ、アザゼルさん。",
+    "needs_review": false,
+    "src": "ann:12345",
+    "type": "copyright"
+  },
   "yong-ce_tu": {
     "count": 268,
     "ja": "涂泳策",
@@ -10942,6 +15317,13 @@
     "needs_review": false,
     "src": "atwiki:2180",
     "type": "artist"
+  },
+  "yoroi_shin_den_samurai_troopers": {
+    "count": 45,
+    "ja": "鎧真伝サムライトルーパー",
+    "needs_review": false,
+    "src": "ann:36518",
+    "type": "copyright"
   },
   "yoshiharu_shimizu": {
     "count": 15,
@@ -11155,6 +15537,13 @@
     "src": "wikidata:Q137109062",
     "type": "copyright"
   },
+  "young_animator_training_project": {
+    "count": 230,
+    "ja": "アニメーション人材育成調査研究事業",
+    "needs_review": false,
+    "src": "wikidata:Q11616328",
+    "type": "copyright"
+  },
   "yousuke_murata": {
     "count": 28,
     "ja": "村田陽祐",
@@ -11179,10 +15568,31 @@
     "src": "staffdb:ブレンド・S|スロウスタート|SPY×FAMILY",
     "type": "artist"
   },
+  "yozakura_quartet_hana_no_uta": {
+    "count": 160,
+    "ja": "夜桜四重奏 ～ハナノウタ～",
+    "needs_review": false,
+    "src": "ann:15287",
+    "type": "copyright"
+  },
+  "yozakura_quartet_hoshi_no_umi": {
+    "count": 91,
+    "ja": "夜桜四重奏 ～ホシノウミ～",
+    "needs_review": false,
+    "src": "ann:11398",
+    "type": "copyright"
+  },
   "yu-gi-oh!_gx": {
     "ja": "遊☆戯☆王デュエルモンスターズGX",
     "needs_review": false,
     "src": "wikidata:Q527316",
+    "type": "copyright"
+  },
+  "yu-gi-oh!_zexal_ii": {
+    "count": 49,
+    "ja": "遊☆戯☆王 ZEXAL II",
+    "needs_review": false,
+    "src": "ann:14736",
     "type": "copyright"
   },
   "yu_yu_hakusho": {
@@ -11195,6 +15605,13 @@
     "ja": "幽☆遊☆白書 シリーズ",
     "needs_review": false,
     "src": "manual",
+    "type": "copyright"
+  },
+  "yu_yu_hakusho_the_movie_poltergeist_report": {
+    "count": 66,
+    "ja": "幽遊白書 『冥界死闘篇・炎の絆』",
+    "needs_review": false,
+    "src": "ann:713",
     "type": "copyright"
   },
   "yudai_iino": {
@@ -11452,6 +15869,13 @@
     "src": "atwiki:635",
     "type": "artist"
   },
+  "yumemakura_baku_twilight_gekijou": {
+    "count": 32,
+    "ja": "夢枕獏 とわいらいと劇場",
+    "needs_review": false,
+    "src": "ann:7175",
+    "type": "copyright"
+  },
   "yumiko_yamamoto": {
     "count": 28,
     "ja": "山本由美子",
@@ -11470,6 +15894,13 @@
     "ja": "百合星人ナオコサン (2012)",
     "needs_review": false,
     "src": "wikidata:Q8061598",
+    "type": "copyright"
+  },
+  "yuruyuri♪♪": {
+    "count": 77,
+    "ja": "ゆるゆり♪♪",
+    "needs_review": false,
+    "src": "ann:14317",
     "type": "copyright"
   },
   "yusei_koumoto": {
@@ -11694,6 +16125,13 @@
     "src": "atwiki:1701",
     "type": "artist"
   },
+  "yuusha_ni_narenakatta_ore_wa_shibushibu_shuushoku_wo_ketsui_shimashita.": {
+    "count": 83,
+    "ja": "勇者になれなかった俺はしぶしぶ就職を決意しました。",
+    "needs_review": false,
+    "src": "ann:15565",
+    "type": "copyright"
+  },
   "yuusuke_tanaka": {
     "count": 28,
     "ja": "田中裕介",
@@ -11761,6 +16199,48 @@
     "ja": "戯言シリーズ",
     "needs_review": false,
     "src": "wikidata:Q8066727",
+    "type": "copyright"
+  },
+  "zero_no_tsukaima_:_futatsuki_no_kishi": {
+    "count": 33,
+    "ja": "ゼロの使い魔 ～双月の騎士～",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
+    "type": "copyright"
+  },
+  "zoku_sayonara_zetsubou_sensei": {
+    "count": 53,
+    "ja": "俗・さよなら絶望先生",
+    "needs_review": false,
+    "src": "ann:8803",
+    "type": "copyright"
+  },
+  "zom_100:_zombie_ni_naru_made_ni_shitai_100_no_koto": {
+    "count": 120,
+    "ja": "ゾン100～ゾンビになるまでにしたい100のこと～",
+    "needs_review": false,
+    "src": "ann:26825",
+    "type": "copyright"
+  },
+  "zombie_land_saga_yumeginga_paradise": {
+    "count": 43,
+    "ja": "ゾンビランドサガ ゆめぎんがパラダイス",
+    "needs_review": false,
+    "src": "ann:34508",
+    "type": "copyright"
+  },
+  "zuoshou_shanglan": {
+    "count": 85,
+    "ja": "レフト・ハンド・レイアップ！",
+    "needs_review": false,
+    "src": "wikidata:Q135408255",
+    "type": "copyright"
+  },
+  "zutomayo_music_videos": {
+    "count": 139,
+    "ja": "ずっと真夜中でいいのに。 MV",
+    "needs_review": false,
+    "src": "manual:research-2026-11-03",
     "type": "copyright"
   }
 }
