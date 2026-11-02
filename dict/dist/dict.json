@@ -193,6 +193,10 @@
       "ja": "寺本彰",
       "kana": "てらもと あきら"
     },
+    "akira_yamashita": {
+      "ja": "山下晃",
+      "kana": "やました あきら"
+    },
     "akito_takahashi": {
       "ja": "髙橋陽斗",
       "kana": "たかはし あきと"
@@ -1818,6 +1822,10 @@
     "jun_nakai": {
       "ja": "中井準"
     },
+    "jun_nakajima": {
+      "ja": "中島順",
+      "kana": "なかじま じゅん"
+    },
     "jun_okuda": {
       "ja": "奥田淳",
       "kana": "おくだ じゅん"
@@ -2250,6 +2258,10 @@
     "keigo_sasaki": {
       "ja": "佐々木啓悟",
       "kana": "ささき けいご"
+    },
+    "keiichi_honda": {
+      "ja": "本田敬一",
+      "kana": "ほんだ けいいち"
     },
     "keiichi_ishida": {
       "ja": "石田慶一",
@@ -2921,6 +2933,10 @@
       "ja": "井村学",
       "kana": "いむら まなぶ"
     },
+    "manabu_katayama": {
+      "ja": "片山学",
+      "kana": "かたやま まなぶ"
+    },
     "manabu_nakatake": {
       "ja": "中武学",
       "kana": "なかたけ まなぶ"
@@ -3129,6 +3145,10 @@
     "masakazu_sunagawa": {
       "ja": "砂川正和",
       "kana": "すながわ まさかず"
+    },
+    "masakazu_yoshimoto": {
+      "ja": "吉本雅一",
+      "kana": "よしもと まさかず"
     },
     "masaki_kajishima": {
       "ja": "梶島正樹",
@@ -4203,6 +4223,10 @@
       "ja": "西井涼輔",
       "kana": "にしい りょうすけ"
     },
+    "ryosuke_shinkai": {
+      "ja": "新海良佑",
+      "kana": "しんかい りょうすけ"
+    },
     "ryosuke_tsuchiya": {
       "ja": "土屋亮介",
       "kana": "つちや りょうすけ"
@@ -4296,6 +4320,10 @@
     "sadaki_oshima": {
       "ja": "大島貞生",
       "kana": "おおしま さだき"
+    },
+    "sadamasa_shiika": {
+      "ja": "椎香貞正",
+      "kana": "しいか さだまさ"
     },
     "sadami_morikawa": {
       "ja": "森川定美",
@@ -4918,6 +4946,10 @@
       "ja": "為水翔太郎",
       "kana": "ためみず しょうたろう"
     },
+    "shouya_sakaguchi": {
+      "ja": "坂口翔哉",
+      "kana": "さかぐち しょうや"
+    },
     "shuhei_arita": {
       "ja": "有田周平",
       "kana": "ありた しゅうへい"
@@ -5279,6 +5311,10 @@
       "ja": "近藤高光",
       "kana": "こんどう たかみつ"
     },
+    "takanori_yamamoto": {
+      "ja": "山本貴則",
+      "kana": "やまもと たかのり"
+    },
     "takao_hashina": {
       "ja": "端名貴勇",
       "kana": "はしな たかお"
@@ -5481,6 +5517,10 @@
     },
     "takumi_yokota": {
       "ja": "横田拓己"
+    },
+    "takumitsu_miura": {
+      "ja": "三浦琢光",
+      "kana": "みうら たくみつ"
     },
     "takuo_noda": {
       "ja": "野田卓雄",
@@ -5797,6 +5837,10 @@
     "tomohiro_kamitani": {
       "ja": "神谷智大",
       "kana": "かみたに ともひろ"
+    },
+    "tomohiro_kasai": {
+      "ja": "河西委宏",
+      "kana": "かさい ともひろ"
     },
     "tomohiro_kawahara": {
       "ja": "川原智弘"
@@ -6186,6 +6230,10 @@
     "woolie_reitherman": {
       "ja": "ウォルフガング・ライザーマン",
       "kana": "うるふがんぐ・らいざーまん"
+    },
+    "yama_tsukushi": {
+      "ja": "土筆山",
+      "kana": "つくし やま"
     },
     "yasuhiko_akiyama": {
       "ja": "秋山泰彦",
@@ -23251,6 +23299,7 @@
     "akira_sato": 9,
     "akira_takata": 14,
     "akira_teramoto": 18,
+    "akira_yamashita": 6,
     "akito_takahashi": 50,
     "akitoshi_yokoyama": 38,
     "akiyo_okuda": 15,
@@ -25726,6 +25775,7 @@
     "jumping": 5,
     "jun_arai": 169,
     "jun_nakai": 33,
+    "jun_nakajima": 8,
     "jun_okuda": 11,
     "jun_shishido": 5,
     "jun_takagi": 7,
@@ -25963,6 +26013,7 @@
     "kei_suezawa": 36,
     "keigo_arihara": 19,
     "keigo_sasaki": 5,
+    "keiichi_honda": 13,
     "keiichi_ishida": 167,
     "keiichiro_honjo": 90,
     "keiichiro_kimura": 105,
@@ -26663,6 +26714,7 @@
     "mana_uetake": 27,
     "manabu_akita": 19,
     "manabu_imura": 7,
+    "manabu_katayama": 16,
     "manabu_nakatake": 6,
     "manabu_ono": 6,
     "manabu_oohashi": 136,
@@ -26757,6 +26809,7 @@
     "masakatsu_sasaki": 156,
     "masakazu_kawazoe": 7,
     "masakazu_sunagawa": 73,
+    "masakazu_yoshimoto": 40,
     "masaki_kajishima": 12,
     "masaki_sato": 21,
     "masako_matsumoto": 50,
@@ -28030,6 +28083,7 @@
     "ryonosuke_kuroki": 39,
     "ryosuke_nakamura": 8,
     "ryosuke_nishii": 145,
+    "ryosuke_shinkai": 28,
     "ryosuke_tsuchiya": 17,
     "ryota_aikei": 11,
     "ryota_furukawa": 54,
@@ -28069,6 +28123,7 @@
     "sacred_seven": 80,
     "sadahiko_sakamaki": 6,
     "sadaki_oshima": 5,
+    "sadamasa_shiika": 8,
     "sadami_morikawa": 8,
     "sadao_kikuchi": 9,
     "sadao_tsukioka": 58,
@@ -28529,6 +28584,7 @@
     "shoutarou_ban": 71,
     "shoutarou_tamemizu": 60,
     "shouwa_genroku_rakugo_shinjuu": 5,
+    "shouya_sakaguchi": 20,
     "show_by_rock!!": 39,
     "show_by_rock!!_mashumairesh!!": 14,
     "show_by_rock!!_season_2": 41,
@@ -28928,6 +28984,7 @@
     "takahito_sakazume": 269,
     "takami_akai": 11,
     "takamitsu_kondo": 98,
+    "takanori_yamamoto": 6,
     "takao_hashina": 7,
     "takao_kozai": 7,
     "takao_maki": 6,
@@ -28984,6 +29041,7 @@
     "takumi_sunakohara": 57,
     "takumi_yamamoto": 102,
     "takumi_yokota": 9,
+    "takumitsu_miura": 6,
     "takuo_noda": 33,
     "takuo_tominaga": 18,
     "takuro_naka": 12,
@@ -29512,6 +29570,7 @@
     "tomohiro_furukawa": 12,
     "tomohiro_hirata": 9,
     "tomohiro_kamitani": 11,
+    "tomohiro_kasai": 26,
     "tomohiro_kawahara": 12,
     "tomohiro_kishi": 27,
     "tomohiro_shinoda": 97,
@@ -29978,6 +30037,7 @@
     "yama_no_susume:_second_season": 113,
     "yama_no_susume:_third_season": 102,
     "yama_no_susume_series": 587,
+    "yama_tsukushi": 19,
     "yamada-kun_to_lv999_no_koi_wo_suru": 35,
     "yamato_2520": 7,
     "yamato_series": 404,

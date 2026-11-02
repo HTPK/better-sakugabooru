@@ -517,6 +517,14 @@
     "src": "staffdb:アルネの事件簿|ド級編隊エグゼロス|ひきこまり吸血姫の悶々",
     "type": "artist"
   },
+  "akira_yamashita": {
+    "count": 6,
+    "ja": "山下晃",
+    "kana": "やました あきら",
+    "needs_review": false,
+    "src": "staffdb:日本アニメ（ーター）見本市|めだかボックス",
+    "type": "artist"
+  },
   "akito_takahashi": {
     "count": 50,
     "ja": "髙橋陽斗",
@@ -8190,6 +8198,14 @@
     "src": "atwiki:140",
     "type": "artist"
   },
+  "jun_nakajima": {
+    "count": 8,
+    "ja": "中島順",
+    "kana": "なかじま じゅん",
+    "needs_review": false,
+    "src": "staffdb:風都探偵|戦姫絶唱シンフォギアAXZ|戦姫絶唱シンフォギアXV",
+    "type": "artist"
+  },
   "jun_okuda": {
     "count": 11,
     "ja": "奥田淳",
@@ -8949,6 +8965,14 @@
     "kana": "ありはら けいご",
     "needs_review": false,
     "src": "staffdb:ひそねとまそたん|かぐや様は告らせたい〜天才たちの恋愛頭脳戦〜",
+    "type": "artist"
+  },
+  "keiichi_honda": {
+    "count": 13,
+    "ja": "本田敬一",
+    "kana": "ほんだ けいいち",
+    "needs_review": false,
+    "src": "staffdb:まったく最近の探偵ときたら|宇宙パトロールルル子",
     "type": "artist"
   },
   "keiichiro_honjo": {
@@ -11427,6 +11451,14 @@
     "src": "staffdb:クオリディア・コード|SHIROBAKO",
     "type": "artist"
   },
+  "manabu_katayama": {
+    "count": 16,
+    "ja": "片山学",
+    "kana": "かたやま まなぶ",
+    "needs_review": false,
+    "src": "staffdb:ガンダム Gのレコンギスタ|機動戦士ガンダム 閃光のハサウェイ",
+    "type": "artist"
+  },
   "manabu_nakatake": {
     "count": 6,
     "ja": "中武学",
@@ -11732,6 +11764,14 @@
     "kana": "すながわ まさかず",
     "needs_review": false,
     "src": "atwiki:334",
+    "type": "artist"
+  },
+  "masakazu_yoshimoto": {
+    "count": 40,
+    "ja": "吉本雅一",
+    "kana": "よしもと まさかず",
+    "needs_review": false,
+    "src": "staffdb:アンゴルモア元寇合戦記|サイボーグ009VSデビルマン|ガールズ&パンツァー",
     "type": "artist"
   },
   "masako_tashiro": {
@@ -16092,6 +16132,14 @@
     "src": "atwiki:1620",
     "type": "artist"
   },
+  "ryosuke_shinkai": {
+    "count": 28,
+    "ja": "新海良佑",
+    "kana": "しんかい りょうすけ",
+    "needs_review": false,
+    "src": "staffdb:約束の七夜祭り|ヤマノススメ サードシーズン",
+    "type": "artist"
+  },
   "ryosuke_tsuchiya": {
     "count": 17,
     "ja": "土屋亮介",
@@ -16266,6 +16314,14 @@
     "kana": "おおしま さだき",
     "needs_review": false,
     "src": "staffdb:映像研には手を出すな!|ボールルームへようこそ",
+    "type": "artist"
+  },
+  "sadamasa_shiika": {
+    "count": 8,
+    "ja": "椎香貞正",
+    "kana": "しいか さだまさ",
+    "needs_review": false,
+    "src": "staffdb:地獄楽|わたしが恋人になれるわけないじゃん、ムリムリ!(※ムリじゃなかった!?)",
     "type": "artist"
   },
   "sadami_morikawa": {
@@ -17839,6 +17895,14 @@
     "src": "atwiki:2272",
     "type": "artist"
   },
+  "shouya_sakaguchi": {
+    "count": 20,
+    "ja": "坂口翔哉",
+    "kana": "さかぐち しょうや",
+    "needs_review": false,
+    "src": "staffdb:戦姫絶唱シンフォギアXV|タコピーの原罪",
+    "type": "artist"
+  },
   "show_by_rock!!_mashumairesh!!": {
     "count": 14,
     "ja": "SHOW BY ROCK!! ましゅまいれっしゅ!!",
@@ -19203,6 +19267,14 @@
     "src": "atwiki:1684",
     "type": "artist"
   },
+  "takanori_yamamoto": {
+    "count": 6,
+    "ja": "山本貴則",
+    "kana": "やまもと たかのり",
+    "needs_review": false,
+    "src": "staffdb:炎炎ノ消防隊|SHOW BY ROCK!! ましゅまいれっしゅ!!",
+    "type": "artist"
+  },
   "takao_hashina": {
     "count": 7,
     "ja": "端名貴勇",
@@ -19479,6 +19551,14 @@
     "kana": "やまもと たくみ",
     "needs_review": false,
     "src": "staffdb:タイガーマスクW|ワールドトリガー 3rdシーズン",
+    "type": "artist"
+  },
+  "takumitsu_miura": {
+    "count": 6,
+    "ja": "三浦琢光",
+    "kana": "みうら たくみつ",
+    "needs_review": false,
+    "src": "staffdb:かぐや様は告らせたい 大人への階段|負けヒロインが多すぎる！",
     "type": "artist"
   },
   "takuo_noda": {
@@ -20822,6 +20902,14 @@
     "kana": "かみたに ともひろ",
     "needs_review": false,
     "src": "staffdb:無限の住人-IMMORTAL-|キラキラ☆プリキュアアラモード|魔法少女まどか☆マギカ",
+    "type": "artist"
+  },
+  "tomohiro_kasai": {
+    "count": 26,
+    "ja": "河西委宏",
+    "kana": "かさい ともひろ",
+    "needs_review": false,
+    "src": "staffdb:ぼっち・ざ・ろっく！|ギルドの受付嬢ですが、残業は嫌なのでボスをソロ討伐しようと思います",
     "type": "artist"
   },
   "tomohiro_kishi": {
@@ -22238,6 +22326,14 @@
     "needs_review": false,
     "src": "ann:20513",
     "type": "copyright"
+  },
+  "yama_tsukushi": {
+    "count": 19,
+    "ja": "土筆山",
+    "kana": "つくし やま",
+    "needs_review": false,
+    "src": "staffdb:約束のネバーランド|約束の七夜祭り",
+    "type": "artist"
   },
   "yamato_series": {
     "ja": "宇宙戦艦ヤマト",
