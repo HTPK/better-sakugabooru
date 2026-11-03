@@ -6,7 +6,6 @@ needs_review entries (excluded from dist). Fix via data/overrides.json.
 |---|---|---|---|
 | primal | プライマル | wikidata:Q70106936 | 178 |
 | jem | ジェム | wikidata:Q2468339 | 113 |
-| yuki_kikuchi | きくちゆうき | wikidata:Q89449258 | 79 |
 | wataru_uekusa | 植草航 | wikidata:Q21699139 | 76 |
 | ryan_white | ライアン・ホワイト | wikidata:Q30122901 | 37 |
 | the_lovers | タイム・ラヴァーズ　時空を繋ぐ指輪の物語 | wikidata:Q172260 | 37 |
@@ -15,7 +14,6 @@ needs_review entries (excluded from dist). Fix via data/overrides.json.
 | atsushi_mori | 森敦司 | wikidata:Q11539720 | 32 |
 | john_mcdermott | ジョン・マクダーモット | wikidata:Q60675849 | 31 |
 | judge_whitaker | ジャッジ・ウィッテカー | wikidata:Q3187955 | 31 |
-| tomomi_sato | 佐藤智美 | wikidata:Q11384119 | 30 |
 | kyung_mi_lee | イ・ギョンミ | wikidata:Q18815676 | 29 |
 | yang_xiao | 肖央 | wikidata:Q97352332 | 28 |
 | joe_johnston | ジョー・ジョンストン | wikidata:Q352948 | 26 |
@@ -35,14 +33,11 @@ needs_review entries (excluded from dist). Fix via data/overrides.json.
 | ben_thomas | トーマス・ベントレー | wikidata:Q7787584 | 10 |
 | harold_walker | ハル・ウォーカー | wikidata:Q1570158 | 10 |
 | borge_ring | ボルゲ・リング | wikidata:Q12304852 | 9 |
-| hiromi_suzuki | 鈴木博美 | wikidata:Q5770546 | 9 |
 | a_better_tomorrow | 男たちの挽歌 | wikidata:Q641346 | 9 |
-| masashi_kishimoto | 岸本斉史 | wikidata:Q1993 | 8 |
 | blossom | ブロッサム | wikidata:Q885450 | 8 |
 | piece_(mv) | Piece | wikidata:Q626358 | 8 |
 | the_future_(mv) | ザ・フューチャー | wikidata:Q442353 | 8 |
 | kaori_imai | 今泉かおり | wikidata:Q126005322 | 7 |
-| mitsutoshi_kubo | 久保田光俊 | wikidata:Q30158265 | 7 |
 | colours | カラーズ 天使の消えた街 | wikidata:Q1111758 | 7 |
 | endless_(vtuber_project) | アルカディア | wikidata:Q39073297 | 7 |
 | scavengers | スカベンジャーズ | wikidata:Q7430645 | 7 |
@@ -60,7 +55,6 @@ needs_review entries (excluded from dist). Fix via data/overrides.json.
 | daisuke_ito | 伊藤大輔 | wikidata:Q171601 | 5 |
 | elinor_blake | エイプリル・マーチ | wikidata:Q2468088 | 5 |
 | junha_kim | キム・ジュンハン | wikidata:Q47600523 | 5 |
-| kentaro_miura | 三浦建太郎 | wikidata:Q715725 | 5 |
 | dreamland | クライシス | wikidata:Q65119650 | 5 |
 | instinct | インスティンクト -異常犯罪捜査- | wikidata:Q30607999 | 5 |
 | musician_(mv) | 音楽家 | wikidata:Q6942591 | 5 |
