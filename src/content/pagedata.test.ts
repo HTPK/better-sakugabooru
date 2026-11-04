@@ -144,3 +144,14 @@ describe('parsePosts', () => {
     expect(r.tagTypes).toEqual({ a: 'general', b: 'artist' })
   })
 })
+
+describe('parsePosts on a pool page (Post.register_resp)', () => {
+  it('reads the posts array and the tag type map, skipping duplicates and bad rows', () => {
+    const html = `<script>Post.register_resp({"posts":[{"id":5,"tags":"a_b show","score":3,"file_url":"https://x/5.mp4","preview_url":"https://x/5.jpg","width":640,"height":480,"rating":"s"},{"id":5},{"nope":1},"str"],"tags":{"a_b":"artist","show":"copyright","odd":"weird"}})</script>`
+    const doc = new JSDOM(html).window.document
+    const { posts, tagTypes } = parsePosts(doc)
+    expect(posts).toHaveLength(1)
+    expect(posts[0]).toMatchObject({ id: 5, tags: ['a_b', 'show'], fileUrl: 'https://x/5.mp4', width: 640 })
+    expect(tagTypes).toEqual({ a_b: 'artist', show: 'copyright', odd: 'general' })
+  })
+})

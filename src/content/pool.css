@@ -1,0 +1,115 @@
+/* SakuView: pool pages (/pool, /pool/show/N). Colors come only from tokens.css.
+ * The band reuses listband.css (.bsb-listband / .bsb-poolband); cards and the sidebar reuse list.css.
+ */
+html.bsb-pool[data-bsb-theme] body {
+  padding: 0;
+}
+
+/* ---- /pool/show/N: aside | cards, like #post-list on /post ---- */
+html[data-bsb-theme] .bsb-pool-body {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 28px;
+  padding: 24px 48px 40px;
+}
+html[data-bsb-theme] .bsb-pool-content {
+  flex: 1 1 800px;
+  min-width: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* ---- /pool: the site's search form inside the band, its table in our colours ---- */
+html[data-bsb-theme] .bsb-poolsearch input.bsb-qinput {
+  width: 420px;
+  max-width: 100%;
+  height: 44px;
+  margin: 0;
+  padding: 0 12px;
+  box-sizing: border-box;
+  border: 1px solid var(--bsb-border);
+  border-radius: 0;
+  background: var(--bsb-input);
+  color: var(--bsb-text);
+  font: inherit;
+  font-size: 15px;
+  box-shadow: none;
+}
+html[data-bsb-theme] .bsb-poolsearch input.bsb-qinput::placeholder {
+  color: var(--bsb-faint);
+}
+html[data-bsb-theme] .bsb-poolsearch input.bsb-qsubmit {
+  flex: 0 0 auto;
+  height: 44px;
+  margin: 0;
+  padding: 0 28px;
+  border: 0;
+  border-radius: 50px;
+  background: var(--bsb-red);
+  color: var(--bsb-on-red);
+  font: inherit;
+  font-size: 15px;
+  cursor: pointer;
+}
+html[data-bsb-theme] #pool-index {
+  padding: 8px 48px 24px;
+}
+html[data-bsb-theme] table.bsb-pool-table {
+  width: 100%;
+  margin: 0 0 24px;
+  border-collapse: collapse;
+  font-size: 14px;
+  color: var(--bsb-text);
+}
+html[data-bsb-theme] table.bsb-pool-table th {
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--bsb-border);
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--bsb-sub);
+  text-align: left;
+  white-space: nowrap;
+}
+html[data-bsb-theme] table.bsb-pool-table td {
+  padding: 9px 12px;
+  border-bottom: 1px solid var(--bsb-border);
+  vertical-align: middle;
+}
+html[data-bsb-theme] table.bsb-pool-table > tbody > tr,
+html[data-bsb-theme] table.bsb-pool-table > tbody > tr.even,
+html[data-bsb-theme] table.bsb-pool-table > tbody > tr.odd {
+  color: var(--bsb-text);
+  background: transparent;
+}
+html[data-bsb-theme] table.bsb-pool-table > tbody > tr:hover {
+  background: var(--bsb-subtle);
+}
+html[data-bsb-theme] table.bsb-pool-table td a[href] {
+  color: var(--bsb-text);
+  font-weight: 700;
+  text-decoration: none;
+}
+html[data-bsb-theme] table.bsb-pool-table td a[href]:hover {
+  color: var(--bsb-red-text);
+}
+html[data-bsb-theme] table.bsb-pool-table td:nth-child(n + 2) {
+  color: var(--bsb-sub);
+  white-space: nowrap;
+}
+html[data-bsb-theme] #pool-index #hover-thumb {
+  border-color: var(--bsb-border);
+}
+
+@media (max-width: 900px) {
+  html[data-bsb-theme] .bsb-pool-body,
+  html[data-bsb-theme] #pool-index {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  html[data-bsb-theme] .bsb-poolsearch input.bsb-qinput {
+    width: 100%;
+  }
+}

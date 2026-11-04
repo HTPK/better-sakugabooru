@@ -1,6 +1,6 @@
 # Coverage
 
-Updated 2026-11-03 (tags with count >= 5)
+Updated 2026-11-04 (tags with count >= 5)
 
 | type | translated / total | post-weighted |
 |---|---|---|

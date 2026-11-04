@@ -436,7 +436,7 @@ function buildSide(ctx: Ctx, posts: Post[]): HTMLElement {
  * Hides the site's sidebar (search box, Hidden Posts, tag list: kept in the DOM for site scripts)
  * and puts our panels in its place, left of the grid.
  */
-function renderSide(ctx: Ctx, posts: Post[], list: Element): void {
+function renderSide(ctx: Ctx, posts: Post[], list: Element, before?: Element): void {
   const { doc } = ctx
   if (doc.querySelector('aside.bsb-side')) return
   const tagList = doc.getElementById('tag-sidebar')
@@ -444,7 +444,7 @@ function renderSide(ctx: Ctx, posts: Post[], list: Element): void {
   doc.getElementById('blacklisted-sidebar')?.classList.add('bsb-hide')
   const siteSide = (tagList ?? list).closest('#post-list')?.querySelector(':scope > .sidebar')
   siteSide?.classList.add('bsb-hide')
-  const content = list.closest('.content') ?? list
+  const content = before ?? list.closest('.content') ?? list
   content.parentElement?.insertBefore(buildSide(ctx, posts), content)
 }
 
@@ -454,7 +454,7 @@ const PAGER_LABELS: ReadonlyArray<[string, RegExp, 'prev' | 'next']> = [
 ]
 
 /** "← Previous" / "← 前へ" → 前へ, "Next →" / "次へ →" → 次へ (text nodes only; links keep their hrefs). */
-function translatePaginator(doc: Document, lang: Lang): void {
+export function translatePaginator(doc: Document, lang: Lang): void {
   if (lang === 'en') return
   for (const [sel, re, key] of PAGER_LABELS) {
     const label = STRINGS[lang][key]
@@ -471,27 +471,35 @@ function translatePaginator(doc: Document, lang: Lang): void {
   }
 }
 
-export function renderList(
+export interface GridOptions {
+  /** Our sidebar is inserted before this element (default: the list's `.content` wrapper, else the list). */
+  sideBefore?: Element
+}
+
+/**
+ * Cards and our sidebar for `posts`, replacing (hiding) the site's `list` (#post-list-posts).
+ * Shared by the post index and pool pages, which differ only in where the posts come from.
+ */
+export function renderPostGrid(
   doc: Document,
   dict: Dict,
   settings: Settings,
-  actions: BandActions = {},
-  lang: Lang = 'ja',
+  lang: Lang,
+  posts: Post[],
+  types: Record<string, TagType>,
+  list: HTMLElement,
+  opts: GridOptions = {},
 ): { cards: number } {
-  const list = doc.getElementById('post-list-posts')
-  if (!list || list.hasAttribute('data-bsb-done')) return { cards: 0 }
-  const { posts, tagTypes } = parsePosts(doc)
-
   doc.documentElement.classList.add('bsb-list')
   injectListStyle(doc)
-  const ctx: Ctx = { doc, dict, settings, types: tagTypes, lang }
-  renderListBand(doc, dict, settings, actions, tagTypes, lang)
+  const ctx: Ctx = { doc, dict, settings, types, lang }
   translatePaginator(doc, lang)
   const blacklist = readBlacklist(doc)
   const visible = posts.filter(
     (p) => !isBlacklisted(p, blacklist) && !doc.getElementById(`p${p.id}`)?.classList.contains('blacklisted'),
   )
-  renderSide(ctx, visible, list)
+  renderSide(ctx, visible, list, opts.sideBefore)
+  list.setAttribute('data-bsb-done', '')
   if (!posts.length) return { cards: 0 }
 
   const grid = h(doc, 'ul', { class: 'bsb-grid', 'data-cols': COLS[settings.thumbSize] })
@@ -499,7 +507,6 @@ export function renderList(
   grid.addEventListener('click', (e) => forwardThumbClick(doc, e))
 
   list.classList.add('bsb-hide')
-  list.setAttribute('data-bsb-done', '')
   list.after(grid)
 
   // Keep the hidden original sane if the site reveals it.
@@ -512,8 +519,22 @@ export function renderList(
     img.title = text
     img.alt = text
   }
+  return { cards: visible.length }
+}
 
+export function renderList(
+  doc: Document,
+  dict: Dict,
+  settings: Settings,
+  actions: BandActions = {},
+  lang: Lang = 'ja',
+): { cards: number } {
+  const list = doc.getElementById('post-list-posts')
+  if (!list || list.hasAttribute('data-bsb-done')) return { cards: 0 }
+  const { posts, tagTypes } = parsePosts(doc)
+  renderListBand(doc, dict, settings, actions, tagTypes, lang)
+  const out = renderPostGrid(doc, dict, settings, lang, posts, tagTypes, list)
   translateSidebar(doc, dict, settings, lang)
   rewritePaginator(doc, settings.perPage)
-  return { cards: visible.length }
+  return out
 }

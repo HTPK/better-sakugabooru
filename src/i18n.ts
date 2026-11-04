@@ -70,7 +70,20 @@ export interface Strings {
   /** Separator between short facts (full-width space in ja). */
   wideSep: string
   bandSummary: (names: string, orderLead: string, perPage: number) => string
+  /** Label of a `pool:N` search token. */
+  poolRef: (id: string) => string
+  /** Label of a `pool:name` search token (substring search by pool name). */
+  poolNamed: (name: string) => string
   sideLabel: string
+
+  // pool pages
+  poolDeco: string
+  pools: string
+  poolsDeco: string
+  poolCount: (n: number) => string
+  poolIndexView: string
+  poolAll: string
+  poolSearchPlaceholder: string
   panelArtists: string
   panelWorks: string
   panelTech: string
@@ -218,7 +231,17 @@ const ja: Strings = {
   nameSep: '・',
   wideSep: '　',
   bandSummary: (names, orderLead, perPage) => `${names ? `${names}の` : ''}${orderLead}を 1 ページに ${perPage} 件`,
+  poolRef: (id) => `プール #${id}`,
+  poolNamed: (name) => `プール「${name}」`,
   sideLabel: 'タグ',
+
+  poolDeco: 'POOL',
+  pools: 'プール一覧',
+  poolsDeco: 'POOLS',
+  poolCount: (n) => `${n} 件`,
+  poolIndexView: '投稿一覧で開く (並び替え・絞り込み)',
+  poolAll: 'プール一覧へ',
+  poolSearchPlaceholder: 'プール名で検索',
   panelArtists: '作画者',
   panelWorks: '作品',
   panelTech: '技法',
@@ -363,7 +386,17 @@ const en: Strings = {
   nameSep: ', ',
   wideSep: ' ',
   bandSummary: (names, orderLead, perPage) => `${names ? `${names}: ` : ''}${orderLead}, ${perPage} per page`,
+  poolRef: (id) => `Pool #${id}`,
+  poolNamed: (name) => `Pool “${name}”`,
   sideLabel: 'Tags',
+
+  poolDeco: '',
+  pools: 'Pools',
+  poolsDeco: '',
+  poolCount: (n) => (n === 1 ? '1 post' : `${n} posts`),
+  poolIndexView: 'Open as post list (sort, filter)',
+  poolAll: 'All pools',
+  poolSearchPlaceholder: 'Search pools by name',
   panelArtists: 'Artists',
   panelWorks: 'Works',
   panelTech: 'Techniques',

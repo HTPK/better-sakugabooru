@@ -11,6 +11,8 @@ const LIST = fixture('post-list-2026-10-12.html')
 const SHOW = fixture('post-show-318817-2026-10-12.html')
 const LIST_JA = fixture('post-list-ja-2026-10-12.html')
 const SHOW_JA = fixture('post-show-318817-ja-2026-10-12.html')
+const POOL = fixture('pool-show-133-2026-11-04.html')
+const POOL_INDEX = fixture('pool-list-2026-11-04.html')
 const DICT: Dict = { v: 1, updated: 'test', artists: {}, copyrights: {}, general: {} }
 
 function load(html: string, url = 'https://www.sakugabooru.com/post') {
@@ -108,6 +110,33 @@ describe('boot', () => {
     expect(d.attachHoverPlay).not.toHaveBeenCalled()
     expect(d.renderHeader).toHaveBeenCalled()
     expect(d.attachSearch).toHaveBeenCalled()
+  })
+
+  it('renders pool pages through renderPool, never the post list (they carry #post-list-posts too)', async () => {
+    for (const [html, url] of [
+      [POOL, 'https://www.sakugabooru.com/pool/show/133'],
+      [POOL_INDEX, 'https://www.sakugabooru.com/pool'],
+    ] as const) {
+      const { doc, win } = load(html, url)
+      const renderPool = vi.fn(() => true)
+      const { d } = deps(doc, win, { renderPool })
+      await boot(d)
+      expect(renderPool).toHaveBeenCalledWith(doc, DICT, DEFAULTS, 'en')
+      expect(d.renderList).not.toHaveBeenCalled()
+      // Hover play only where posts are listed (/pool/show has #post-list-posts, /pool does not).
+      expect(d.attachHoverPlay).toHaveBeenCalledTimes(html === POOL ? 1 : 0)
+      expect(d.renderShow).not.toHaveBeenCalled()
+      expect(d.attachSearch).toHaveBeenCalled()
+      expect(doc.documentElement.classList.contains('bsb-ready')).toBe(true)
+    }
+  })
+
+  it('without renderPool a pool page gets neither list nor pool rendering', async () => {
+    const { doc, win } = load(POOL, 'https://www.sakugabooru.com/pool/show/133')
+    const { d } = deps(doc, win)
+    await boot(d)
+    expect(d.renderList).not.toHaveBeenCalled()
+    expect(doc.documentElement.classList.contains('bsb-ready')).toBe(true)
   })
 
   it("passes 'en' to every renderer when the site is served in English", async () => {

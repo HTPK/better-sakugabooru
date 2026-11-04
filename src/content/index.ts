@@ -8,6 +8,7 @@ import { renderHeader } from './header'
 import { renderList } from './list'
 import { attachHoverPlay } from './hover'
 import { renderShow } from './show'
+import { renderPool } from './pool'
 import { attachSearch } from './search'
 
 void boot({
@@ -24,5 +25,6 @@ void boot({
   renderList,
   attachHoverPlay,
   renderShow,
+  renderPool,
   attachSearch,
 })

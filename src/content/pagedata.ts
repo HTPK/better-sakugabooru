@@ -128,25 +128,37 @@ export function isBlacklisted(post: Post, entries: string[][]): boolean {
   })
 }
 
+/**
+ * Posts and tag types from the page's inline JSON: `Post.register({post})` + `Post.register_tags({tag: type})`
+ * on the post index, or `Post.register_resp({posts: [...], tags: {...}})` on pool pages.
+ */
 export function parsePosts(doc: Document): { posts: Post[]; tagTypes: Record<string, TagType> } {
   const posts: Post[] = []
   const seen = new Set<number>()
   const tagTypes: Record<string, TagType> = Object.create(null)
+  const addPost = (r: unknown) => {
+    if (!r || typeof r !== 'object') return
+    const o = r as Record<string, unknown>
+    if (typeof o.id !== 'number' || seen.has(o.id)) return
+    seen.add(o.id)
+    posts.push(toPost(o))
+  }
+  const addTypes = (r: unknown) => {
+    if (!r || typeof r !== 'object' || Array.isArray(r)) return
+    for (const [tag, type] of Object.entries(r as Record<string, unknown>)) {
+      tagTypes[tag] = TAG_TYPES.includes(type as TagType) ? (type as TagType) : 'general'
+    }
+  }
   for (const script of Array.from(doc.scripts)) {
     const text = script.textContent ?? ''
     if (!text.includes('Post.register')) continue
-    for (const s of extractJsonObjects(text, 'Post.register')) {
-      const r = tryParse(s)
-      if (!r || typeof r.id !== 'number' || seen.has(r.id)) continue
-      seen.add(r.id)
-      posts.push(toPost(r))
-    }
-    for (const s of extractJsonObjects(text, 'Post.register_tags')) {
+    for (const s of extractJsonObjects(text, 'Post.register')) addPost(tryParse(s))
+    for (const s of extractJsonObjects(text, 'Post.register_tags')) addTypes(tryParse(s))
+    for (const s of extractJsonObjects(text, 'Post.register_resp')) {
       const r = tryParse(s)
       if (!r) continue
-      for (const [tag, type] of Object.entries(r)) {
-        tagTypes[tag] = TAG_TYPES.includes(type as TagType) ? (type as TagType) : 'general'
-      }
+      if (Array.isArray(r.posts)) for (const p of r.posts) addPost(p)
+      addTypes(r.tags)
     }
   }
   return { posts, tagTypes }

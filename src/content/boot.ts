@@ -24,6 +24,8 @@ export interface BootDeps {
   renderList: (doc: Document, dict: Dict, settings: Settings, actions: ListActions, lang: Lang) => unknown
   attachHoverPlay: (root: ParentNode, settings: Settings, win: Window) => unknown
   renderShow: (doc: Document, dict: Dict, settings: Settings, lang: Lang) => boolean
+  /** Pool pages (`/pool`, `/pool/show/N`); they carry #post-list-posts too, so this runs instead of renderList. */
+  renderPool?: (doc: Document, dict: Dict, settings: Settings, lang: Lang) => boolean
   attachSearch: (doc: Document, dict: Dict, settings: Settings, lang: Lang) => unknown
   warn?: (...args: unknown[]) => void
   /** Defaults to `win.location.assign`; injectable because jsdom cannot navigate. */
@@ -117,7 +119,14 @@ export async function boot(d: BootDeps): Promise<void> {
     const lang = detectLang(doc)
     step('renderHeader', () => d.renderHeader(doc, settings, lang))
     step('attachProposeClick', () => attachProposeClick(doc, (url) => win.open(url, '_blank', 'noopener')))
-    if (doc.getElementById('post-list-posts')) {
+    const pool = !!(doc.getElementById('pool-show') ?? doc.getElementById('pool-index'))
+    if (pool) {
+      if (d.renderPool) {
+        step('renderPool', () => d.renderPool!(doc, dict, settings, lang))
+        // A pool page lists posts like the index (with file urls), so thumbs get hover play too.
+        if (doc.getElementById('post-list-posts')) step('attachHoverPlay', () => d.attachHoverPlay(doc, settings, win))
+      }
+    } else if (doc.getElementById('post-list-posts')) {
       const navigate = d.navigate ?? ((url: string) => win.location.assign(url))
       // Band and search box exist before attachSearch below, so its input gets the autocomplete.
       step('renderList', () => d.renderList(doc, dict, settings, { saveSettings: d.saveSettings, navigate }, lang))

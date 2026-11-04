@@ -3,6 +3,7 @@ import type { Settings } from '../settings'
 import { STRINGS, type Lang } from '../i18n'
 import { jaFor, spaced } from './list'
 import { h } from './render'
+import { wikiUrl } from './wiki'
 import bandCss from './listband.css?inline'
 
 const STYLE_ID = 'bsb-listband'
@@ -21,7 +22,8 @@ export interface BandActions {
   navigate?: (url: string) => void
 }
 
-function injectStyle(doc: Document): void {
+/** Band styles (listband.css); pool pages share them. */
+export function injectBandStyle(doc: Document): void {
   if (doc.getElementById(STYLE_ID)) return
   const el = doc.createElement('style')
   el.id = STYLE_ID
@@ -75,24 +77,52 @@ function servedPerPage(u: URL): number {
   return Number.isInteger(n) && n > 0 ? n : SITE_DEFAULT_PER_PAGE
 }
 
-function jaAny(dict: Dict, tag: string, types: Record<string, TagType>, translate: boolean): string | null {
-  const known = Object.hasOwn(types, tag) ? types[tag] : null
-  for (const type of known ? [known] : LOOKUP_ORDER) {
-    const ja = jaFor(dict, tag, type, translate)
-    if (ja) return ja
-  }
-  return null
+const POOL_TOKEN = /^pool:(.+)$/i
+
+/** A query token as the band shows it: the label, the dictionary name behind it (if any) and its type. */
+export interface QueryName {
+  tag: string
+  label: string
+  ja: string | null
+  type: TagType | null
 }
 
-function chip(doc: Document, tag: string, ja: string | null, romaji: boolean, lang: Lang): HTMLElement {
-  const label = ja ?? spaced(tag)
-  const x = h(doc, 'button', { type: 'button', class: 'bsb-qchip-x', 'aria-label': STRINGS[lang].removeChip(label) }, '×')
+export function queryName(dict: Dict, tag: string, types: Record<string, TagType>, translate: boolean, lang: Lang): QueryName {
+  const pool = POOL_TOKEN.exec(tag)
+  if (pool) {
+    const v = pool[1]
+    return { tag, label: /^\d+$/.test(v) ? STRINGS[lang].poolRef(v) : STRINGS[lang].poolNamed(spaced(v)), ja: null, type: null }
+  }
+  const known = Object.hasOwn(types, tag) ? types[tag] : null
+  if (lang !== 'en') {
+    for (const type of known ? [known] : LOOKUP_ORDER) {
+      const ja = jaFor(dict, tag, type, translate)
+      if (ja) return { tag, label: ja, ja, type }
+    }
+  }
+  return { tag, label: spaced(tag), ja: null, type: known }
+}
+
+function chip(doc: Document, name: QueryName, romaji: boolean, lang: Lang): HTMLElement {
+  const s = STRINGS[lang]
+  const x = h(doc, 'button', { type: 'button', class: 'bsb-qchip-x', 'aria-label': s.removeChip(name.label) }, '×')
+  // Filtering by an animator: a direct door to their 作画@wiki page, as on the post page's tag panel.
+  const wiki =
+    name.type === 'artist' && name.ja
+      ? h(
+          doc,
+          'a',
+          { class: 'bsb-wiki bsb-qchip-wiki', href: wikiUrl(name.ja), target: '_blank', rel: 'noopener noreferrer', title: s.wikiTitle(name.ja) },
+          s.wiki,
+        )
+      : null
   return h(
     doc,
     'span',
-    { class: 'bsb-qchip', 'data-tag': tag },
-    h(doc, 'span', { class: 'bsb-qchip-ja' }, label),
-    ja && romaji ? h(doc, 'span', { class: 'bsb-qchip-en', lang: 'en' }, tag) : null,
+    { class: 'bsb-qchip', 'data-tag': name.tag },
+    h(doc, 'span', { class: 'bsb-qchip-ja' }, name.label),
+    name.ja && romaji ? h(doc, 'span', { class: 'bsb-qchip-en', lang: 'en' }, name.tag) : null,
+    wiki,
     x,
   )
 }
@@ -165,17 +195,17 @@ export function renderListBand(
   const list = doc.getElementById('post-list-posts')
   const host = doc.getElementById('content') ?? list?.parentElement
   if (!host) return null
-  injectStyle(doc)
+  injectBandStyle(doc)
 
   const url = pageUrl(doc)
   const tokens = queryTokens(url)
   const order = currentOrder(tokens)
   const tags = tokens.filter((t) => !isOrder(t))
   const keep = tokens.filter(isOrder)
-  const names = tags.map((t) => ({ tag: t, ja: lang === 'en' ? null : jaAny(dict, t, types, settings.translateTags) }))
+  const names = tags.map((t) => queryName(dict, t, types, settings.translateTags, lang))
   const perPage = servedPerPage(url)
   const orderLead = s[ORDERS.find((o) => o.order === order)?.lead ?? 'sortLeadNew']
-  const lead = s.bandSummary(names.map((n) => n.ja ?? spaced(n.tag)).join(s.nameSep), orderLead, perPage)
+  const lead = s.bandSummary(names.map((n) => n.label).join(s.nameSep), orderLead, perPage)
 
   const sortLinks = ORDERS.map((o) =>
     h(
@@ -218,7 +248,7 @@ export function renderListBand(
       // Search sits at the right end of the title row, close to the header nav and the cursor's usual path.
       searchForm(
         doc,
-        names.map((n) => chip(doc, n.tag, n.ja, settings.showRomaji, lang)),
+        names.map((n) => chip(doc, n, settings.showRomaji, lang)),
         keep,
         lang,
       ),

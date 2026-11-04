@@ -9,8 +9,8 @@ import { buildPlayer, formatBytes, formatFps, readSetup } from './player'
 import showCss from './show.css?inline'
 import playerCss from './player.css?inline'
 import { proposeUrl, untranslatedMark } from './propose'
+import { wikiUrl } from './wiki'
 
-const WIKI_BASE = 'https://w.atwiki.jp/sakuga/?page='
 const PROPOSE_MAX_TAGS = 20
 const LEAD_LIMIT = 3
 /** Present on nearly every post; never worth a lead slot or a translation request. */
@@ -474,9 +474,7 @@ function tagEntry(doc: Document, dict: Dict, s: Settings, t: Tag, chip: boolean,
   return h(doc, 'div', { class: 'bsb-tag-row' }, row, wiki)
 }
 
-export function wikiUrl(name: string): string {
-  return `${WIKI_BASE}${encodeURIComponent(name)}`
-}
+export { wikiUrl }
 
 function tagPanel(doc: Document, dict: Dict, s: Settings, tags: Tag[], lang: Lang): HTMLElement | null {
   const groups: HTMLElement[] = []

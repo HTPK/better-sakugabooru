@@ -13,7 +13,7 @@ const FIXTURES = ['post-list-2026-10-12.html', 'post-list-ja-2026-10-12.html']
 const dict: Dict = {
   v: 1,
   updated: 'test',
-  artists: {},
+  artists: { stub_person: { ja: 'スタブ作画者' } },
   copyrights: { my_hero_academia: { ja: 'スタブ作品' } },
   general: { effects: { ja: 'スタブ効果' } },
 }
@@ -109,6 +109,32 @@ for (const file of FIXTURES) {
       ])
     })
 
+    it('an artist chip carries a 作画wiki link (new tab) to the page titled by the Japanese name', () => {
+      const doc = run('https://www.sakugabooru.com/post?tags=stub_person+effects')
+      const chips = Array.from(doc.querySelectorAll<HTMLElement>('.bsb-listband .bsb-qchip'))
+      const wiki = chips[0].querySelector<HTMLAnchorElement>('a.bsb-qchip-wiki')!
+      expect(wiki.getAttribute('href')).toBe('https://w.atwiki.jp/sakuga/?page=%E3%82%B9%E3%82%BF%E3%83%96%E4%BD%9C%E7%94%BB%E8%80%85')
+      expect(wiki.getAttribute('target')).toBe('_blank')
+      expect(wiki.getAttribute('rel')).toContain('noopener')
+      expect(wiki.textContent).toBe('作画wiki')
+      expect(wiki.getAttribute('title')).toBe('作画@wiki で「スタブ作画者」を開く')
+      // Works and techniques have no wiki page by name; untranslated artists have no page title to use.
+      expect(chips[1].querySelector('a.bsb-qchip-wiki')).toBeNull()
+      expect(band(run('https://www.sakugabooru.com/post?tags=kabukyuu')).querySelector('a.bsb-qchip-wiki')).toBeNull()
+      expect(band(run('https://www.sakugabooru.com/post?tags=stub_person', { translateTags: false })).querySelector('a.bsb-qchip-wiki')).toBeNull()
+    })
+
+    it('a pool:N token reads プール #N in the chip and the lead, with no romaji line', () => {
+      const doc = run('https://www.sakugabooru.com/post?tags=pool%3A133+order%3Ascore')
+      const chip = doc.querySelector<HTMLElement>('.bsb-listband .bsb-qchip')!
+      expect(chip.dataset.tag).toBe('pool:133')
+      expect(chip.querySelector('.bsb-qchip-ja')!.textContent).toBe('プール #133')
+      expect(chip.querySelector('.bsb-qchip-en')).toBeNull()
+      expect(band(doc).querySelector('.bsb-lead')!.textContent).toBe('プール #133のスコア順を 1 ページに 40 件')
+      const named = run('https://www.sakugabooru.com/post?tags=pool%3Aboo_arc')
+      expect(named.querySelector('.bsb-qchip-ja')!.textContent).toBe('プール「boo arc」')
+    })
+
     it('sort links rewrite order: in tags and mark the active one', () => {
       const doc = run(TAGGED + ' order:score&page=3')
       const links = Array.from(doc.querySelectorAll<HTMLAnchorElement>('.bsb-sort a'))
@@ -194,6 +220,14 @@ describe('renderListBand in English mode', () => {
     expect(chip.querySelector('.bsb-qchip-en')).toBeNull()
     expect(chip.querySelector('.bsb-qchip-x')!.getAttribute('aria-label')).toBe('Remove my hero academia')
     expect(b.querySelector('.bsb-lead')!.textContent).toContain('my hero academia')
+    expect(b.textContent).not.toMatch(JP)
+  })
+
+  it('no wiki link on artist chips (no Japanese name to open), pool token reads Pool #N', () => {
+    const b = band(en('https://www.sakugabooru.com/post?tags=stub_person+pool%3A7'))
+    expect(b.querySelector('a.bsb-qchip-wiki')).toBeNull()
+    expect(b.querySelectorAll('.bsb-qchip')[1].querySelector('.bsb-qchip-ja')!.textContent).toBe('Pool #7')
+    expect(b.querySelector('.bsb-lead')!.textContent).toBe('stub person, Pool #7: Newest, 40 per page')
     expect(b.textContent).not.toMatch(JP)
   })
 })
