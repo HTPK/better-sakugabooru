@@ -47,20 +47,17 @@ for (const file of FIXTURES) {
       expect(b.querySelector('.bsb-listband-tools .bsb-listopts')).not.toBeNull()
     })
 
-    it('lead without tags uses the served page size (URL limit, else the site default 40)', () => {
-      expect(band(run('https://www.sakugabooru.com/post')).querySelector('.bsb-lead')!.textContent).toBe(
-        '新着を 1 ページに 40 件',
-      )
-      expect(band(run('https://www.sakugabooru.com/post?limit=24')).querySelector('.bsb-lead')!.textContent).toBe(
-        '新着を 1 ページに 24 件',
-      )
+    it('no lead without tags (sort and page size are visible on the switches)', () => {
+      expect(band(run('https://www.sakugabooru.com/post')).querySelector('.bsb-lead')).toBeNull()
+      expect(band(run('https://www.sakugabooru.com/post?limit=24')).querySelector('.bsb-lead')).toBeNull()
     })
 
-    it('lead with tags joins the translated names with ・', () => {
-      const lead = band(run(TAGGED + '&limit=60')).querySelector('.bsb-lead')!.textContent
-      expect(lead).toBe('スタブ作品・スタブ効果の新着を 1 ページに 60 件')
+    it('lead with tags is the translated names joined with ・, nothing else', () => {
+      const lead = band(run('https://www.sakugabooru.com/post?tags=my_hero_academia+effects+order%3Ascore&limit=60')).querySelector('.bsb-lead')!
+      expect(lead.textContent).toBe('スタブ作品・スタブ効果')
+      expect(Array.from(lead.querySelectorAll('.bsb-lead-name')).map((n) => n.getAttribute('data-type'))).toEqual(['copyright', 'general'])
       const raw = band(run('https://www.sakugabooru.com/post?tags=kabukyuu')).querySelector('.bsb-lead')!.textContent
-      expect(raw).toBe('kabukyuuの新着を 1 ページに 40 件')
+      expect(raw).toBe('kabukyuu')
     })
 
     it('shows query tags as chips (ja + romaji) and keeps the text input empty', () => {
@@ -109,19 +106,21 @@ for (const file of FIXTURES) {
       ])
     })
 
-    it('an artist chip carries a 作画wiki link (new tab) to the page titled by the Japanese name', () => {
+    it('an artist name in the lead carries a 作画wiki link (new tab) to the page titled by the Japanese name', () => {
       const doc = run('https://www.sakugabooru.com/post?tags=stub_person+effects')
-      const chips = Array.from(doc.querySelectorAll<HTMLElement>('.bsb-listband .bsb-qchip'))
-      const wiki = chips[0].querySelector<HTMLAnchorElement>('a.bsb-qchip-wiki')!
+      const lead = doc.querySelector<HTMLElement>('.bsb-listband .bsb-lead')!
+      const wiki = lead.querySelector<HTMLAnchorElement>('a.bsb-lead-wiki')!
+      expect(wiki.previousElementSibling!.textContent).toBe('スタブ作画者')
       expect(wiki.getAttribute('href')).toBe('https://w.atwiki.jp/sakuga/?page=%E3%82%B9%E3%82%BF%E3%83%96%E4%BD%9C%E7%94%BB%E8%80%85')
       expect(wiki.getAttribute('target')).toBe('_blank')
       expect(wiki.getAttribute('rel')).toContain('noopener')
       expect(wiki.textContent).toBe('作画wiki')
       expect(wiki.getAttribute('title')).toBe('作画@wiki で「スタブ作画者」を開く')
-      // Works and techniques have no wiki page by name; untranslated artists have no page title to use.
-      expect(chips[1].querySelector('a.bsb-qchip-wiki')).toBeNull()
-      expect(band(run('https://www.sakugabooru.com/post?tags=kabukyuu')).querySelector('a.bsb-qchip-wiki')).toBeNull()
-      expect(band(run('https://www.sakugabooru.com/post?tags=stub_person', { translateTags: false })).querySelector('a.bsb-qchip-wiki')).toBeNull()
+      expect(lead.querySelectorAll('a.bsb-lead-wiki')).toHaveLength(1)
+      // Never in the search chips; works and techniques have no wiki page by name; untranslated artists have no page title to use.
+      expect(doc.querySelector('.bsb-qchip a')).toBeNull()
+      expect(band(run('https://www.sakugabooru.com/post?tags=kabukyuu')).querySelector('a.bsb-lead-wiki')).toBeNull()
+      expect(band(run('https://www.sakugabooru.com/post?tags=stub_person', { translateTags: false })).querySelector('a.bsb-lead-wiki')).toBeNull()
     })
 
     it('a pool:N token reads プール #N in the chip and the lead, with no romaji line', () => {
@@ -130,7 +129,7 @@ for (const file of FIXTURES) {
       expect(chip.dataset.tag).toBe('pool:133')
       expect(chip.querySelector('.bsb-qchip-ja')!.textContent).toBe('プール #133')
       expect(chip.querySelector('.bsb-qchip-en')).toBeNull()
-      expect(band(doc).querySelector('.bsb-lead')!.textContent).toBe('プール #133のスコア順を 1 ページに 40 件')
+      expect(band(doc).querySelector('.bsb-lead')!.textContent).toBe('プール #133')
       const named = run('https://www.sakugabooru.com/post?tags=pool%3Aboo_arc')
       expect(named.querySelector('.bsb-qchip-ja')!.textContent).toBe('プール「boo arc」')
     })
@@ -223,11 +222,11 @@ describe('renderListBand in English mode', () => {
     expect(b.textContent).not.toMatch(JP)
   })
 
-  it('no wiki link on artist chips (no Japanese name to open), pool token reads Pool #N', () => {
+  it('no wiki link beside artist names (no Japanese name to open), pool token reads Pool #N', () => {
     const b = band(en('https://www.sakugabooru.com/post?tags=stub_person+pool%3A7'))
-    expect(b.querySelector('a.bsb-qchip-wiki')).toBeNull()
+    expect(b.querySelector('a.bsb-lead-wiki')).toBeNull()
     expect(b.querySelectorAll('.bsb-qchip')[1].querySelector('.bsb-qchip-ja')!.textContent).toBe('Pool #7')
-    expect(b.querySelector('.bsb-lead')!.textContent).toBe('stub person, Pool #7: Newest, 40 per page')
+    expect(b.querySelector('.bsb-lead')!.textContent).toBe('stub person, Pool #7')
     expect(b.textContent).not.toMatch(JP)
   })
 })

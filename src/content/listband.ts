@@ -10,10 +10,10 @@ const STYLE_ID = 'bsb-listband'
 const SITE_DEFAULT_PER_PAGE = 40
 const PER_PAGE: readonly Settings['perPage'][] = [24, 40, 60, 100]
 type Order = 'new' | 'score' | 'random'
-const ORDERS: ReadonlyArray<{ order: Order; label: 'sortNew' | 'sortScore' | 'sortRandom'; lead: 'sortLeadNew' | 'sortLeadScore' | 'sortLeadRandom' }> = [
-  { order: 'new', label: 'sortNew', lead: 'sortLeadNew' },
-  { order: 'score', label: 'sortScore', lead: 'sortLeadScore' },
-  { order: 'random', label: 'sortRandom', lead: 'sortLeadRandom' },
+const ORDERS: ReadonlyArray<{ order: Order; label: 'sortNew' | 'sortScore' | 'sortRandom' }> = [
+  { order: 'new', label: 'sortNew' },
+  { order: 'score', label: 'sortScore' },
+  { order: 'random', label: 'sortRandom' },
 ]
 const LOOKUP_ORDER: readonly TagType[] = ['copyright', 'artist', 'general']
 
@@ -106,25 +106,39 @@ export function queryName(dict: Dict, tag: string, types: Record<string, TagType
 function chip(doc: Document, name: QueryName, romaji: boolean, lang: Lang): HTMLElement {
   const s = STRINGS[lang]
   const x = h(doc, 'button', { type: 'button', class: 'bsb-qchip-x', 'aria-label': s.removeChip(name.label) }, '×')
-  // Filtering by an animator: a direct door to their 作画@wiki page, as on the post page's tag panel.
-  const wiki =
-    name.type === 'artist' && name.ja
-      ? h(
-          doc,
-          'a',
-          { class: 'bsb-wiki bsb-qchip-wiki', href: wikiUrl(name.ja), target: '_blank', rel: 'noopener noreferrer', title: s.wikiTitle(name.ja) },
-          s.wiki,
-        )
-      : null
   return h(
     doc,
     'span',
     { class: 'bsb-qchip', 'data-tag': name.tag },
     h(doc, 'span', { class: 'bsb-qchip-ja' }, name.label),
     name.ja && romaji ? h(doc, 'span', { class: 'bsb-qchip-en', lang: 'en' }, name.tag) : null,
-    wiki,
     x,
   )
+}
+
+/**
+ * The lead names the current filter (names only; sort and page size are visible on the switches).
+ * An animator's name gets a 作画@wiki link beside it, as on the post page's tag panel.
+ */
+function lead(doc: Document, names: QueryName[], lang: Lang): HTMLElement | null {
+  if (!names.length) return null
+  const s = STRINGS[lang]
+  const out = h(doc, 'span', { class: 'bsb-lead' })
+  names.forEach((n, i) => {
+    if (i > 0) out.append(h(doc, 'span', { class: 'bsb-lead-sep' }, s.nameSep))
+    out.append(h(doc, 'span', { class: 'bsb-lead-name', 'data-tag': n.tag, 'data-type': n.type ?? undefined }, n.label))
+    if (n.type === 'artist' && n.ja) {
+      out.append(
+        h(
+          doc,
+          'a',
+          { class: 'bsb-wiki bsb-lead-wiki', href: wikiUrl(n.ja), target: '_blank', rel: 'noopener noreferrer', title: s.wikiTitle(n.ja) },
+          s.wiki,
+        ),
+      )
+    }
+  })
+  return out
 }
 
 function searchForm(doc: Document, chips: HTMLElement[], keep: string[], lang: Lang): HTMLFormElement {
@@ -204,8 +218,6 @@ export function renderListBand(
   const keep = tokens.filter(isOrder)
   const names = tags.map((t) => queryName(dict, t, types, settings.translateTags, lang))
   const perPage = servedPerPage(url)
-  const orderLead = s[ORDERS.find((o) => o.order === order)?.lead ?? 'sortLeadNew']
-  const lead = s.bandSummary(names.map((n) => n.label).join(s.nameSep), orderLead, perPage)
 
   const sortLinks = ORDERS.map((o) =>
     h(
@@ -244,7 +256,7 @@ export function renderListBand(
       { class: 'bsb-listband-title' },
       s.postsDeco ? h(doc, 'span', { class: 'bsb-en-title', lang: 'en' }, s.postsDeco) : null,
       h(doc, 'h1', null, s.posts),
-      h(doc, 'span', { class: 'bsb-lead' }, lead),
+      lead(doc, names, lang),
       // Search sits at the right end of the title row, close to the header nav and the cursor's usual path.
       searchForm(
         doc,

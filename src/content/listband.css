@@ -38,6 +38,26 @@ html[data-bsb-theme] .bsb-listband .bsb-lead {
   line-height: 1.4;
   color: var(--bsb-sub);
 }
+.bsb-lead-sep {
+  margin: 0 2px;
+}
+html[data-bsb-theme] .bsb-lead a.bsb-lead-wiki {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 4px 0 8px;
+  padding: 0 7px;
+  border: 1px solid var(--bsb-border);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--bsb-sub);
+  text-decoration: none;
+}
+html[data-bsb-theme] .bsb-lead a.bsb-lead-wiki:hover,
+html[data-bsb-theme] .bsb-lead a.bsb-lead-wiki:focus-visible {
+  border-color: var(--bsb-red);
+  color: var(--bsb-red-text);
+}
 /* Pool pages: the pool name is the title. */
 html[data-bsb-theme] .bsb-poolband h1 {
   font-size: 22px;
@@ -124,20 +144,6 @@ html[data-bsb-theme] .bsb-qbox {
   font-family: var(--bsb-font-en);
   font-size: 13px;
   color: var(--bsb-muted);
-}
-html[data-bsb-theme] .bsb-qchip a.bsb-qchip-wiki {
-  align-self: center;
-  padding: 0 6px;
-  border: 1px solid var(--bsb-border);
-  font-size: 12px;
-  line-height: 1.5;
-  color: var(--bsb-sub);
-  text-decoration: none;
-}
-html[data-bsb-theme] .bsb-qchip a.bsb-qchip-wiki:hover,
-html[data-bsb-theme] .bsb-qchip a.bsb-qchip-wiki:focus-visible {
-  border-color: var(--bsb-red);
-  color: var(--bsb-red-text);
 }
 html[data-bsb-theme] .bsb-qchip-x {
   height: auto;

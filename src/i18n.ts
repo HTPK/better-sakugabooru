@@ -60,16 +60,12 @@ export interface Strings {
   sortNew: string
   sortScore: string
   sortRandom: string
-  sortLeadNew: string
-  sortLeadScore: string
-  sortLeadRandom: string
   perPage: string
   searchPlaceholder: string
   removeChip: (label: string) => string
   nameSep: string
   /** Separator between short facts (full-width space in ja). */
   wideSep: string
-  bandSummary: (names: string, orderLead: string, perPage: number) => string
   /** Label of a `pool:N` search token. */
   poolRef: (id: string) => string
   /** Label of a `pool:name` search token (substring search by pool name). */
@@ -222,15 +218,11 @@ const ja: Strings = {
   sortNew: '新着',
   sortScore: 'スコア',
   sortRandom: 'ランダム',
-  sortLeadNew: '新着',
-  sortLeadScore: 'スコア順',
-  sortLeadRandom: 'ランダム',
   perPage: '表示件数',
   searchPlaceholder: '作画者・作品・技法を日本語で',
   removeChip: (label) => `${label} を外す`,
   nameSep: '・',
   wideSep: '　',
-  bandSummary: (names, orderLead, perPage) => `${names ? `${names}の` : ''}${orderLead}を 1 ページに ${perPage} 件`,
   poolRef: (id) => `プール #${id}`,
   poolNamed: (name) => `プール「${name}」`,
   sideLabel: 'タグ',
@@ -377,15 +369,11 @@ const en: Strings = {
   sortNew: 'Newest',
   sortScore: 'Score',
   sortRandom: 'Random',
-  sortLeadNew: 'Newest',
-  sortLeadScore: 'By score',
-  sortLeadRandom: 'Random',
   perPage: 'Per page',
   searchPlaceholder: 'Search artists, works, techniques',
   removeChip: (label) => `Remove ${label}`,
   nameSep: ', ',
   wideSep: ' ',
-  bandSummary: (names, orderLead, perPage) => `${names ? `${names}: ` : ''}${orderLead}, ${perPage} per page`,
   poolRef: (id) => `Pool #${id}`,
   poolNamed: (name) => `Pool “${name}”`,
   sideLabel: 'Tags',
