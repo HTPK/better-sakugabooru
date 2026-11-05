@@ -1,8 +1,9 @@
-import type { Dict, TagType } from '../dict'
+import { poolName, type Dict, type TagType } from '../dict'
 import type { Settings } from '../settings'
 import { STRINGS, type Lang } from '../i18n'
 import { parsePosts, type Post } from './pagedata'
 import { h } from './render'
+import { untranslatedMark } from './propose'
 import { renderPostGrid, translatePaginator } from './list'
 import { injectBandStyle } from './listband'
 import poolCss from './pool.css?inline'
@@ -131,6 +132,44 @@ function host(doc: Document, root: HTMLElement): HTMLElement {
   return doc.getElementById('content') ?? root.parentElement ?? root
 }
 
+/** Japanese name of a pool as shown on this page: only in Japanese mode with translation on. */
+function poolJa(dict: Dict, settings: Settings, lang: Lang, id: string | null, en: string): string | null {
+  if (lang === 'en' || !settings.translateTags || !id || !en) return null
+  return poolName(dict, id, en)
+}
+
+/** The red 未訳 mark for a pool (its proposal carries `pool:<id>`); never in English mode. */
+function poolMark(doc: Document, lang: Lang, settings: Settings, id: string | null): HTMLElement | null {
+  if (lang === 'en' || !settings.translateTags || !id) return null
+  return untranslatedMark(doc, `pool:${id}`)
+}
+
+/** The site's English name under or beside the Japanese one. */
+function enName(doc: Document, en: string): HTMLElement {
+  return h(doc, 'span', { class: 'bsb-pool-en', lang: 'en' }, en)
+}
+
+/**
+ * Pool names in the index table: the dictionary's Japanese with the site's name beneath,
+ * a 未訳 mark where there is none (or the pool was renamed since).
+ */
+function translatePoolRows(doc: Document, table: Element, dict: Dict, settings: Settings, lang: Lang): void {
+  if (lang === 'en' || !settings.translateTags) return
+  for (const tr of Array.from(table.querySelectorAll<HTMLElement>('tbody tr[id^="p"]'))) {
+    const id = tr.id.slice(1)
+    const a = tr.querySelector<HTMLAnchorElement>('td a[href^="/pool/show/"]')
+    if (!/^\d+$/.test(id) || !a) continue
+    const en = (a.textContent ?? '').trim()
+    const ja = poolJa(dict, settings, lang, id, en)
+    if (ja) {
+      a.textContent = ja
+      a.after(enName(doc, en))
+    } else {
+      a.after(poolMark(doc, lang, settings, id)!)
+    }
+  }
+}
+
 /** /pool/show/N: pool name and description as the title band, then the same cards and sidebar as /post. */
 export function renderPoolShow(doc: Document, dict: Dict, settings: Settings, lang: Lang = 'ja'): boolean {
   const root = doc.getElementById('pool-show')
@@ -155,6 +194,7 @@ export function renderPoolShow(doc: Document, dict: Dict, settings: Settings, la
     tagTypes = dictTagTypes(dict, posts)
   }
   const id = poolIdOf(doc)
+  const ja = poolJa(dict, settings, lang, id, name)
   // With a pager the page holds only part of the pool, so no total is claimed.
   const paged = !!doc.querySelector('#paginator a[href]')
 
@@ -167,7 +207,8 @@ export function renderPoolShow(doc: Document, dict: Dict, settings: Settings, la
       'div',
       { class: 'bsb-listband-title' },
       s.poolDeco ? h(doc, 'span', { class: 'bsb-en-title', lang: 'en' }, s.poolDeco) : null,
-      h(doc, 'h1', null, name || s.pool),
+      h(doc, 'h1', null, ja ?? (name || s.pool), !ja && name ? poolMark(doc, lang, settings, id) : null),
+      ja ? enName(doc, name) : null,
       h(
         doc,
         'span',
@@ -194,7 +235,7 @@ export function renderPoolShow(doc: Document, dict: Dict, settings: Settings, la
 }
 
 /** /pool: title band with the site's own search form moved into it; the table keeps the site's markup. */
-export function renderPoolIndex(doc: Document, lang: Lang = 'ja'): boolean {
+export function renderPoolIndex(doc: Document, dict: Dict, settings: Settings, lang: Lang = 'ja'): boolean {
   const root = doc.getElementById('pool-index')
   if (!root || root.hasAttribute('data-bsb-done')) return false
   root.setAttribute('data-bsb-done', '')
@@ -236,7 +277,11 @@ export function renderPoolIndex(doc: Document, lang: Lang = 'ja'): boolean {
   host(doc, root).prepend(band)
   // The form's old wrapper is an empty spacer now.
   if (formHome && formHome !== root && formHome.childElementCount === 0) formHome.classList.add('bsb-hide')
-  root.querySelector('table')?.classList.add('bsb-pool-table')
+  const table = root.querySelector('table')
+  if (table) {
+    table.classList.add('bsb-pool-table')
+    translatePoolRows(doc, table, dict, settings, lang)
+  }
   translatePaginator(doc, lang)
   return true
 }
@@ -244,6 +289,6 @@ export function renderPoolIndex(doc: Document, lang: Lang = 'ja'): boolean {
 /** Pool pages (`/pool`, `/pool/show/N`). True when the page was one and got rendered. */
 export function renderPool(doc: Document, dict: Dict, settings: Settings, lang: Lang = 'ja'): boolean {
   if (doc.getElementById('pool-show')) return renderPoolShow(doc, dict, settings, lang)
-  if (doc.getElementById('pool-index')) return renderPoolIndex(doc, lang)
+  if (doc.getElementById('pool-index')) return renderPoolIndex(doc, dict, settings, lang)
   return false
 }

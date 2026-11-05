@@ -35,6 +35,14 @@ for (const m of MAPS) {
     if (!optStr(e.kana) || !optStr(e.src)) fail(`${m}.${tag}: "kana"/"src" must be strings when present`)
   }
 }
+if (dict.pools !== undefined) {
+  if (!isObj(dict.pools)) fail('"pools" is not an object')
+  for (const [id, e] of Object.entries(dict.pools)) {
+    if (!/^\d+$/.test(id)) fail(`pools.${id}: key must be a pool id`)
+    if (!isObj(e) || typeof e.ja !== 'string' || !e.ja) fail(`pools.${id}: entry needs a non-empty string "ja"`)
+    if (!optStr(e.en) || !optStr(e.src)) fail(`pools.${id}: "en"/"src" must be strings when present`)
+  }
+}
 if (dict.counts !== undefined) {
   if (!isObj(dict.counts) || !Object.values(dict.counts).every((n) => typeof n === 'number' && Number.isFinite(n))) {
     fail('"counts" must map tags to finite numbers')
@@ -42,5 +50,5 @@ if (dict.counts !== undefined) {
 }
 
 copyFileSync(src, dest)
-const counts = MAPS.map((m) => `${m}=${Object.keys(dict[m]).length}`).join(' ')
+const counts = [...MAPS.map((m) => `${m}=${Object.keys(dict[m]).length}`), `pools=${Object.keys(dict.pools ?? {}).length}`].join(' ')
 console.log(`sync-snapshot: ${dict.updated} ${counts} -> ${dest}`)

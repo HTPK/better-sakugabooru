@@ -22,6 +22,20 @@ def _public(entry):
     return out
 
 
+def _pools(data):
+    """Pool names keyed by pool id (data/pools.json). `en` is kept so the extension can
+    tell when a pool was renamed since the translation was written."""
+    out = {}
+    for pid, e in data.items():
+        if not str(pid).isdigit() or not e.get("ja"):
+            continue
+        entry = {"ja": e["ja"]}
+        if e.get("en"):
+            entry["en"] = e["en"]
+        out[str(pid)] = entry
+    return out
+
+
 _YEAR = r"(?:19|20)\d\d"
 # (regex with named group "base", formatter). First match wins.
 _VARIANT_RULES = [
@@ -180,6 +194,9 @@ def build(root=ROOT, today=None):
         **{t: dict(sorted(result[t].items())) for t in TYPES},
         "counts": dict(sorted(counts.items())),
     }
+    pools = _pools(load_json(root / "data" / "pools.json"))
+    if pools:
+        dist["pools"] = pools
     save_json(root / "dist" / "dict.json", dist)
     if source == "cache/tags.json":
         _export_counts(root, tags_cache, result, overrides)

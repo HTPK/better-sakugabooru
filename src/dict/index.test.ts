@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest'
 import snapshot from './snapshot.json'
-import { lookup, displayName, buildReverseIndex, suggest, getDict, validateDict, sanitizeDict, type Dict } from './index'
+import { lookup, displayName, buildReverseIndex, suggest, getDict, validateDict, sanitizeDict, poolName, type Dict } from './index'
 import { normalizeJa } from './kana'
 
 const dict = snapshot as Dict
@@ -112,6 +112,33 @@ describe('getDict / validateDict', () => {
     expect(validateDict({ ...base, counts: [] })).toBe(false)
     expect(validateDict({ ...base, artists: { a: { ja: 'あ', kana: 'あ', src: 'wiki' } }, counts: { a: 3 } })).toBe(true)
   })
+  it('validates and sanitizes the optional pools map', () => {
+    const base = { v: 1, updated: 'x', artists: {}, copyrights: {}, general: {} }
+    expect(validateDict({ ...base, pools: {} })).toBe(true)
+    expect(validateDict({ ...base, pools: { '1': { ja: 'あ', en: 'a', src: 'manual' } } })).toBe(true)
+    expect(validateDict({ ...base, pools: [] })).toBe(false)
+    expect(validateDict({ ...base, pools: { '1': { ja: '' } } })).toBe(false)
+    expect(validateDict({ ...base, pools: { '1': { ja: 'あ', en: 3 } } })).toBe(false)
+    const out = sanitizeDict({
+      ...base,
+      pools: { ok: { ja: 'あ', en: 'a' }, bare: { ja: 'い' }, longen: { ja: 'あ', en: 'x'.repeat(201) }, bidi: { ja: 'a‮b' }, bad: 'x' },
+    })!
+    expect(out.pools).toEqual({ ok: { ja: 'あ', en: 'a' }, bare: { ja: 'い' } })
+    expect(sanitizeDict({ ...base, pools: [] })).toBeNull()
+    expect(sanitizeDict(base)!.pools).toBeUndefined()
+  })
+
+  it('poolName returns the Japanese name unless the recorded English name no longer matches the page', () => {
+    const d: Dict = { v: 1, updated: 'x', artists: {}, copyrights: {}, general: {}, pools: { '7': { ja: 'なな', en: 'Seven  Swords.' }, '8': { ja: 'はち' } } }
+    expect(poolName(d, '7')).toBe('なな')
+    expect(poolName(d, '7', 'seven swords.')).toBe('なな')
+    expect(poolName(d, '7', 'Seven Swords. (renamed)')).toBeNull()
+    expect(poolName(d, '8', 'anything')).toBe('はち')
+    expect(poolName(d, '9')).toBeNull()
+    expect(poolName(d, 'toString')).toBeNull()
+    expect(poolName({ ...d, pools: undefined }, '7')).toBeNull()
+  })
+
   it('sanitizeDict drops bad entries and keeps the rest', () => {
     const base = { v: 1, updated: 'x', artists: {}, copyrights: {}, general: {} }
     const out = sanitizeDict({

@@ -22,6 +22,34 @@ html[data-bsb-theme] .bsb-pool-content {
   gap: 24px;
 }
 
+/* ---- pool names: Japanese from the dictionary, the site's English beside or beneath it ---- */
+html[data-bsb-theme] .bsb-pool-en {
+  color: var(--bsb-sub);
+  font-family: var(--bsb-font-en);
+  font-size: 13px;
+  font-weight: 400;
+}
+html[data-bsb-theme] .bsb-poolband .bsb-pool-en {
+  align-self: center;
+  margin-left: -4px;
+}
+html[data-bsb-theme] table.bsb-pool-table .bsb-pool-en {
+  display: block;
+  margin-top: 2px;
+  font-size: 12px;
+}
+/* The 未訳 mark (list.css is not loaded on /pool); clicking opens the proposal form (propose.ts). */
+html[data-bsb-theme].bsb-pool .bsb-untranslated {
+  color: var(--bsb-red-text);
+  font-size: 12px;
+  font-weight: 400;
+  margin-left: 6px;
+  cursor: pointer;
+}
+html[data-bsb-theme].bsb-pool .bsb-untranslated:hover {
+  text-decoration: underline;
+}
+
 /* ---- /pool: the site's search form inside the band, its table in our colours ---- */
 html[data-bsb-theme] .bsb-poolsearch input.bsb-qinput {
   width: 420px;

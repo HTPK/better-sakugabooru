@@ -18,7 +18,13 @@ const dict: Dict = {
   artists: { tadayoshi_yamamuro: { ja: 'スタブ山室' } },
   copyrights: { dragon_ball_z: { ja: 'スタブ作品' } },
   general: { effects: { ja: 'スタブ効果' } },
+  pools: {
+    '133': { ja: 'スタブプール', en: 'Dragon ball Z: Boo Arc Sakuga' },
+    '292': { ja: 'スタブ水' },
+    '293': { ja: 'スタブ歩き', en: 'the name this pool had before it was renamed' },
+  },
 }
+const noPools: Dict = { ...dict, pools: undefined }
 
 const load = (file: string, url: string) => new JSDOM(fixture(file), { url, virtualConsole: new VirtualConsole() }).window.document
 const settings = (patch: Partial<Settings> = {}): Settings => ({ ...DEFAULTS, ...patch })
@@ -75,7 +81,14 @@ for (const lang of ['en', 'ja'] as const) {
       const doc = run()
       const band = doc.querySelector<HTMLElement>('.bsb-poolband')!
       expect(doc.getElementById('content')!.firstElementChild).toBe(band)
-      expect(band.querySelector('h1')!.textContent).toBe('Dragon ball Z: Boo Arc Sakuga')
+      if (lang === 'ja') {
+        expect(band.querySelector('h1')!.textContent).toBe('スタブプール')
+        expect(band.querySelector('.bsb-pool-en')!.textContent).toBe('Dragon ball Z: Boo Arc Sakuga')
+      } else {
+        expect(band.querySelector('h1')!.textContent).toBe('Dragon ball Z: Boo Arc Sakuga')
+        expect(band.querySelector('.bsb-pool-en')).toBeNull()
+      }
+      expect(band.querySelector('.bsb-untranslated')).toBeNull()
       expect(band.querySelector('.bsb-lead')!.textContent).toMatch(/^-Any sakuga from this era/)
       expect(band.querySelector('.bsb-pool-count')!.textContent).toBe(lang === 'ja' ? `${liCount} 件` : `${liCount} posts`)
       expect(band.querySelector('a.bsb-pool-index')!.getAttribute('href')).toBe('/post?tags=pool%3A133')
@@ -87,6 +100,27 @@ for (const lang of ['en', 'ja'] as const) {
         expect(band.querySelector('.bsb-en-title')).toBeNull()
         expect(band.textContent).not.toMatch(JP)
       }
+    })
+
+    it('keeps the site name when translation is off, when the dictionary has no entry (未訳 mark, ja only) or the pool was renamed', () => {
+      const off = run({ translateTags: false })
+      expect(off.querySelector('.bsb-poolband h1')!.textContent).toBe('Dragon ball Z: Boo Arc Sakuga')
+      expect(off.querySelector('.bsb-pool-en')).toBeNull()
+      expect(off.querySelector('.bsb-untranslated')).toBeNull()
+
+      const doc = load(SHOW[lang], url)
+      expect(renderPoolShow(doc, noPools, settings(), lang)).toBe(true)
+      const h1 = doc.querySelector('.bsb-poolband h1')!
+      expect(h1.firstChild!.textContent).toBe('Dragon ball Z: Boo Arc Sakuga')
+      const mark = h1.querySelector<HTMLElement>('.bsb-untranslated')
+      if (lang === 'ja') expect(mark!.dataset.tag).toBe('pool:133')
+      else expect(mark).toBeNull()
+
+      const renamed = load(SHOW[lang], url)
+      renamed.querySelector('#pool-show > h4')!.textContent = 'Pool: Dragon ball Z: Boo Arc Sakuga (2)'
+      renderPoolShow(renamed, dict, settings(), lang)
+      expect(renamed.querySelector('.bsb-poolband h1')!.firstChild!.textContent).toBe('Dragon ball Z: Boo Arc Sakuga (2)')
+      expect(renamed.querySelector('.bsb-pool-en')).toBeNull()
     })
 
     it('hides (keeps) the site heading and description, renders cards and our sidebar beside them', () => {
@@ -148,11 +182,12 @@ for (const lang of ['en', 'ja'] as const) {
 
   describe(`pool index page (${INDEX[lang]})`, () => {
     const url = 'https://www.sakugabooru.com/pool'
-    const run = () => {
+    const run = (patch: Partial<Settings> = {}, d: Dict = dict) => {
       const doc = load(INDEX[lang], url)
-      expect(renderPoolIndex(doc, lang)).toBe(true)
+      expect(renderPoolIndex(doc, d, settings(patch), lang)).toBe(true)
       return doc
     }
+    const nameCell = (doc: Document, id: number) => doc.querySelector<HTMLElement>(`#pool-index tbody tr#p${id} td`)!
 
     it('adds the title band with the site search form moved into it (same form, #query kept)', () => {
       const doc = run()
@@ -182,9 +217,34 @@ for (const lang of ['en', 'ja'] as const) {
       expect([prev, next]).toEqual(lang === 'ja' ? ['前へ', '次へ'] : ['← Previous', 'Next →'])
     })
 
+    it('translates pool names from the dictionary (English kept beneath), marks the rest 未訳, Japanese mode only', () => {
+      const doc = run()
+      const water = nameCell(doc, 292)
+      const renamed = nameCell(doc, 293)
+      const absent = nameCell(doc, 281)
+      expect(water.querySelector('a')!.getAttribute('href')).toBe('/pool/show/292')
+      if (lang === 'ja') {
+        expect(water.querySelector('a')!.textContent).toBe('スタブ水')
+        expect(water.querySelector('.bsb-pool-en')!.textContent).toBe('water')
+        // The recorded English name no longer matches: no translation, a mark instead.
+        expect(renamed.querySelector('a')!.textContent).toBe('side walkcycle')
+        expect(renamed.querySelector('.bsb-pool-en')).toBeNull()
+        expect(renamed.querySelector<HTMLElement>('.bsb-untranslated')!.dataset.tag).toBe('pool:293')
+        expect(absent.querySelector('a')!.textContent).toBe('One Piece: Elbaph Sakuga')
+        expect(absent.querySelector<HTMLElement>('.bsb-untranslated')!.dataset.tag).toBe('pool:281')
+      } else {
+        expect(water.querySelector('a')!.textContent).toBe('water')
+        expect(doc.querySelectorAll('.bsb-pool-en, .bsb-untranslated')).toHaveLength(0)
+        expect(doc.getElementById('pool-index')!.textContent).not.toMatch(JP)
+      }
+      const off = run({ translateTags: false })
+      expect(nameCell(off, 292).querySelector('a')!.textContent).toBe('water')
+      expect(off.querySelectorAll('.bsb-pool-en, .bsb-untranslated')).toHaveLength(0)
+    })
+
     it('is idempotent', () => {
       const doc = run()
-      expect(renderPoolIndex(doc, lang)).toBe(false)
+      expect(renderPoolIndex(doc, dict, settings(), lang)).toBe(false)
       expect(doc.querySelectorAll('.bsb-poolindex')).toHaveLength(1)
     })
   })

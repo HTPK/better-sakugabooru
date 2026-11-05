@@ -7,6 +7,12 @@ export interface Entry {
   kana?: string
   src?: string
 }
+/** A pool's Japanese name. `en` is the site's name when the translation was written (see poolName). */
+export interface PoolEntry {
+  ja: string
+  en?: string
+  src?: string
+}
 export interface Dict {
   v: 1
   updated: string
@@ -14,6 +20,8 @@ export interface Dict {
   copyrights: Record<string, Entry>
   general: Record<string, Entry>
   counts?: Record<string, number>
+  /** Keyed by pool id (`/pool/show/<id>`). */
+  pools?: Record<string, PoolEntry>
 }
 export interface Lookup {
   tag: string
@@ -48,6 +56,20 @@ export function lookup(dict: Dict, tag: string, type: TagType): Lookup {
 
 export function displayName(l: Lookup): string {
   return l.ja ?? l.tag
+}
+
+const normName = (s: string) => s.normalize('NFKC').toLowerCase().replace(/\s+/g, ' ').trim()
+
+/**
+ * Japanese name of pool `id`. Pools get renamed now and then, so when the entry records the
+ * English name it was written for and the page (`en`) shows another, the translation is withheld.
+ */
+export function poolName(dict: Dict, id: string, en?: string): string | null {
+  const pools = dict.pools
+  if (!pools || !Object.prototype.hasOwnProperty.call(pools, id)) return null
+  const e = pools[id]
+  if (en !== undefined && e.en !== undefined && normName(e.en) !== normName(en)) return null
+  return e.ja
 }
 
 function countOf(dict: Dict, tag: string): number {
@@ -110,6 +132,9 @@ export function validateDict(x: unknown): x is Dict {
   const isEntry = (e: unknown) =>
     isObj(e) && typeof e.ja === 'string' && e.ja.length > 0 && optStr(e.kana) && optStr(e.src)
   const isMap = (m: unknown) => isObj(m) && Object.values(m).every(isEntry)
+  const isPoolEntry = (e: unknown) =>
+    isObj(e) && typeof e.ja === 'string' && e.ja.length > 0 && optStr(e.en) && optStr(e.src)
+  const poolsOk = d.pools === undefined || (isObj(d.pools) && Object.values(d.pools).every(isPoolEntry))
   const countsOk =
     d.counts === undefined ||
     (isObj(d.counts) && Object.values(d.counts).every((n) => typeof n === 'number' && Number.isFinite(n)))
@@ -119,13 +144,15 @@ export function validateDict(x: unknown): x is Dict {
     isMap(d.artists) &&
     isMap(d.copyrights) &&
     isMap(d.general) &&
-    countsOk
+    countsOk &&
+    poolsOk
   )
 }
 
 const JA_MAX = 80
 const KANA_MAX = 160
 const SRC_MAX = 300
+const EN_MAX = 200
 /** C0 controls, DEL, LRM/RLM, bidi embeddings/overrides and isolates: they could reorder or hide page text. */
 // eslint-disable-next-line no-control-regex
 const UNSAFE_CHARS = /[\u0000-\u001f\u007f‎‏‪-‮⁦-⁩]/
@@ -140,6 +167,18 @@ function cleanEntry(e: unknown): Entry | null {
   if (src !== undefined && (typeof src !== 'string' || src.length > SRC_MAX)) return null
   const out: Entry = { ja }
   if (kana !== undefined) out.kana = kana
+  if (src !== undefined) out.src = src
+  return out
+}
+
+function cleanPoolEntry(e: unknown): PoolEntry | null {
+  if (!isPlainObj(e)) return null
+  const { ja, en, src } = e
+  if (typeof ja !== 'string' || !ja || ja.length > JA_MAX || UNSAFE_CHARS.test(ja)) return null
+  if (en !== undefined && (typeof en !== 'string' || en.length > EN_MAX || UNSAFE_CHARS.test(en))) return null
+  if (src !== undefined && (typeof src !== 'string' || src.length > SRC_MAX)) return null
+  const out: PoolEntry = { ja }
+  if (en !== undefined) out.en = en
   if (src !== undefined) out.src = src
   return out
 }
@@ -161,9 +200,10 @@ function cleanMap<T>(m: Record<string, unknown>, clean: (v: unknown) => T | null
  */
 export function sanitizeDict(raw: unknown): Dict | null {
   if (!isPlainObj(raw) || raw.v !== 1 || typeof raw.updated !== 'string') return null
-  const { artists, copyrights, general, counts } = raw
+  const { artists, copyrights, general, counts, pools } = raw
   if (!isPlainObj(artists) || !isPlainObj(copyrights) || !isPlainObj(general)) return null
   if (counts !== undefined && !isPlainObj(counts)) return null
+  if (pools !== undefined && !isPlainObj(pools)) return null
   const dict: Dict = {
     v: 1,
     updated: raw.updated,
@@ -174,6 +214,7 @@ export function sanitizeDict(raw: unknown): Dict | null {
   if (counts !== undefined) {
     dict.counts = cleanMap(counts, (n) => (typeof n === 'number' && Number.isFinite(n) ? n : null))
   }
+  if (pools !== undefined) dict.pools = cleanMap(pools, cleanPoolEntry)
   return dict
 }
 

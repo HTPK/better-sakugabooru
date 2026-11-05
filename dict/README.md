@@ -6,6 +6,7 @@ Japanese names for Sakugabooru tags (artists, works, general terms), used by the
 
 - `data/artists.json`: generated entries (Wikidata). `data/copyrights.json`: generated work titles (Wikidata; uncertain matches are kept with `needs_review: true` and not published). `data/general.json`: hand-written terms.
 - `data/overrides.json`: hand-maintained corrections. Always wins over generated data.
+- `data/pools.json`: Japanese names of the site's pools, keyed by pool id (`{"133": {"en": "Dragon ball Z: Boo Arc Sakuga", "ja": "...", "src": "manual"}}`). `en` is the name at the time of writing; the extension shows the translation only while the pool still has that name.
 - `dist/dict.json`: the built dictionary. `REVIEW.md` lists uncertain candidates, `COVERAGE.md` shows how much is translated.
 
 ## Entry format

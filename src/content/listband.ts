@@ -1,4 +1,4 @@
-import type { Dict, TagType } from '../dict'
+import { poolName, type Dict, type TagType } from '../dict'
 import type { Settings } from '../settings'
 import { STRINGS, type Lang } from '../i18n'
 import { jaFor, spaced } from './list'
@@ -91,7 +91,11 @@ export function queryName(dict: Dict, tag: string, types: Record<string, TagType
   const pool = POOL_TOKEN.exec(tag)
   if (pool) {
     const v = pool[1]
-    return { tag, label: /^\d+$/.test(v) ? STRINGS[lang].poolRef(v) : STRINGS[lang].poolNamed(spaced(v)), ja: null, type: null }
+    const s = STRINGS[lang]
+    if (!/^\d+$/.test(v)) return { tag, label: s.poolNamed(spaced(v)), ja: null, type: null }
+    // The dictionary's pool name when there is one (the page does not show the pool's own name here).
+    const ja = lang !== 'en' && translate ? poolName(dict, v) : null
+    return { tag, label: ja ? s.poolNamed(ja) : s.poolRef(v), ja: null, type: null }
   }
   const known = Object.hasOwn(types, tag) ? types[tag] : null
   if (lang !== 'en') {

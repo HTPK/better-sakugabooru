@@ -7,12 +7,14 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "scripts"))
 import build  # noqa: E402
 
 
-def mk(tmp_path, artists=None, copyrights=None, general=None, overrides=None, tags=None):
+def mk(tmp_path, artists=None, copyrights=None, general=None, overrides=None, tags=None, pools=None):
     d = tmp_path / "data"
     d.mkdir()
     for name, obj in [("artists", artists), ("copyrights", copyrights),
                       ("general", general), ("overrides", overrides)]:
         (d / f"{name}.json").write_text(json.dumps(obj or {}), encoding="utf-8")
+    if pools is not None:
+        (d / "pools.json").write_text(json.dumps(pools), encoding="utf-8")
     if tags is not None:
         (tmp_path / "cache").mkdir()
         (tmp_path / "cache" / "tags.json").write_text(json.dumps(tags), encoding="utf-8")
@@ -182,3 +184,20 @@ def test_counts_json_is_pruned_and_sorted(tmp_path):
     assert "tiny" not in c["artist"] and "character" not in c
     assert list(c["copyright"]) == sorted(c["copyright"])
     assert "show_series" in c["copyright"] and "other" in c["copyright"]
+
+
+def test_pools_published_by_id(tmp_path):
+    mk(tmp_path, pools={"133": {"en": "Boo Arc", "ja": "ブウ編", "src": "manual"},
+                        "9": {"ja": "九", "src": "manual"},
+                        "x": {"ja": "bad id"}, "12": {"en": "no ja"}})
+    build.build(tmp_path)
+    d = out(tmp_path)
+    assert set(d["pools"]) == {"9", "133"}
+    assert d["pools"]["133"] == {"ja": "ブウ編", "en": "Boo Arc"}
+    assert d["pools"]["9"] == {"ja": "九"}
+
+
+def test_no_pools_file_means_no_pools_key(tmp_path):
+    mk(tmp_path)
+    build.build(tmp_path)
+    assert "pools" not in out(tmp_path)

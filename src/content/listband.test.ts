@@ -16,6 +16,7 @@ const dict: Dict = {
   artists: { stub_person: { ja: 'スタブ作画者' } },
   copyrights: { my_hero_academia: { ja: 'スタブ作品' } },
   general: { effects: { ja: 'スタブ効果' } },
+  pools: { '133': { ja: 'スタブプール' } },
 }
 
 const load = (file: string, url: string) =>
@@ -123,13 +124,15 @@ for (const file of FIXTURES) {
       expect(band(run('https://www.sakugabooru.com/post?tags=stub_person', { translateTags: false })).querySelector('a.bsb-lead-wiki')).toBeNull()
     })
 
-    it('a pool:N token reads プール #N in the chip and the lead, with no romaji line', () => {
+    it('a pool:N token reads the dictionary pool name, else プール #N, in the chip and the lead, with no romaji line', () => {
       const doc = run('https://www.sakugabooru.com/post?tags=pool%3A133+order%3Ascore')
       const chip = doc.querySelector<HTMLElement>('.bsb-listband .bsb-qchip')!
       expect(chip.dataset.tag).toBe('pool:133')
-      expect(chip.querySelector('.bsb-qchip-ja')!.textContent).toBe('プール #133')
+      expect(chip.querySelector('.bsb-qchip-ja')!.textContent).toBe('プール「スタブプール」')
       expect(chip.querySelector('.bsb-qchip-en')).toBeNull()
-      expect(band(doc).querySelector('.bsb-lead')!.textContent).toBe('プール #133')
+      expect(band(doc).querySelector('.bsb-lead')!.textContent).toBe('プール「スタブプール」')
+      expect(run('https://www.sakugabooru.com/post?tags=pool%3A133', { translateTags: false }).querySelector('.bsb-qchip-ja')!.textContent).toBe('プール #133')
+      expect(run('https://www.sakugabooru.com/post?tags=pool%3A7').querySelector('.bsb-qchip-ja')!.textContent).toBe('プール #7')
       const named = run('https://www.sakugabooru.com/post?tags=pool%3Aboo_arc')
       expect(named.querySelector('.bsb-qchip-ja')!.textContent).toBe('プール「boo arc」')
     })
@@ -222,11 +225,11 @@ describe('renderListBand in English mode', () => {
     expect(b.textContent).not.toMatch(JP)
   })
 
-  it('no wiki link beside artist names (no Japanese name to open), pool token reads Pool #N', () => {
-    const b = band(en('https://www.sakugabooru.com/post?tags=stub_person+pool%3A7'))
+  it('no wiki link beside artist names (no Japanese name to open), pool token reads Pool #N even when the dictionary knows the pool', () => {
+    const b = band(en('https://www.sakugabooru.com/post?tags=stub_person+pool%3A133'))
     expect(b.querySelector('a.bsb-lead-wiki')).toBeNull()
-    expect(b.querySelectorAll('.bsb-qchip')[1].querySelector('.bsb-qchip-ja')!.textContent).toBe('Pool #7')
-    expect(b.querySelector('.bsb-lead')!.textContent).toBe('stub person, Pool #7')
+    expect(b.querySelectorAll('.bsb-qchip')[1].querySelector('.bsb-qchip-ja')!.textContent).toBe('Pool #133')
+    expect(b.querySelector('.bsb-lead')!.textContent).toBe('stub person, Pool #133')
     expect(b.textContent).not.toMatch(JP)
   })
 })
